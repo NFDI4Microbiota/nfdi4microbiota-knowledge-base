@@ -43,7 +43,30 @@ bootstrap:
 
 
 # Build settings
-remote_theme: jonaharagon/jekyll-bootstrap-theme 
+exclude:
+  - node_modules
+remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
+markdown: Kramdown
+collections:
+        news:
+          output: true
+          permalink: /:collection/:name
+        events:
+          output: true
+          permalink: /:collection/:name
+        publications:
+          output: true
+          permalink: /:collection/:name
+        docs:
+          output: true
+          permalink: /:collection/:name
+        newsletter:
+          output: true
+          permalink: /:collection/:name
+        usecases:
+          output: true
+          permalink: /:collection/:name  

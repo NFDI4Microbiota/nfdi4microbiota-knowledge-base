@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h2 class="container mt-5"> News: </h2>
+<div class="container my-4">
+
+{% assign news = site.news | sort: date | reverse %}
+{% for item in news %}
+
+<article class="card card-full hover-a py-2 my-4">
+	<div class="row">
+	
+		<div class="col">
+			<div class="card-body">
+				<h2 class="card-title news_header">
+					<a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+				</h2>
+				<div class="card-text mb-2 text-muted small">
+					<span class="me-3" style="color:#ffb12d;"> <i class="fa-solid fa-user"></i> {{ item.author }} </span>
+					<span class="me-3" style="color: {{ item.category-color }} ;"><i class="fa-solid fa-folder-open"></i> {{ item.category }}</span>
+					<hr>
+					<span class="me-3" style=";"></i> <i class="fa-solid fa-calendar"></i> {{ item.date | date: "%F " }}</span>
+
+				</div>
+				<p class="card-text">{{ item.description }}</p>
+  	<a style="align:center;" class="error_btn green" href="{{ item.url | relative_url }}">More</a>
+			</div>
+		</div>
+	</div>
+</article>
+{% endfor %}
+</div>
+
