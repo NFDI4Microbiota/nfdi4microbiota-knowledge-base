@@ -43,7 +43,7 @@ bootstrap:
 
 
 # Build settings
-theme: jekyll-bootstrap-theme
+remote_theme: jonaharagon/jekyll-bootstrap-theme 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
