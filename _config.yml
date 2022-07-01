@@ -45,7 +45,7 @@ bootstrap:
 # Build settings
 exclude:
   - node_modules
-remote_theme: jonaharagon/jekyll-bootstrap-theme
+theme: jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
