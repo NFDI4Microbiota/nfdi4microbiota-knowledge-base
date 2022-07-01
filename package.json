@@ -1,0 +1,33 @@
+{
+  "name": "jekyll-bootstrap-theme",
+  "version": "1.1.0",
+  "description": "A basic but extensible Jekyll theme based on Bootstrap 5.",
+  "main": "index.js",
+  "scripts": {
+    "assets:clean": "rm -rf assets/js && rm -rf _sass/bootstrap && rm -rf assets/css/fonts && rm -rf assets/css/bootstrap-icons.css",
+    "assets:copy:js": "mkdir -p assets/js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.* assets/js/",
+    "assets:copy:scss": "mkdir -p _sass/bootstrap && cp -a node_modules/bootstrap/scss/. _sass/bootstrap/",
+    "assets:copy:fonts": "mkdir -p assets/css/fonts && cp -a node_modules/bootstrap-icons/font/fonts/* assets/css/fonts/",
+    "assets:copy:css": "mkdir -p assets/css && cp -a node_modules/bootstrap-icons/font/bootstrap-icons.css assets/css/",
+    "assets:install": "yarn run assets:copy:js && yarn run assets:copy:scss && yarn run assets:copy:fonts && yarn run assets:copy:css",
+    "build": "yarn run assets:install && bundle exec jekyll build",
+    "serve": "yarn run assets:install && bundle exec jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonaharagon/jekyll-bootstrap-theme.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Jonah Aragon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonaharagon/jekyll-bootstrap-theme/issues"
+  },
+  "homepage": "https://github.com/jonaharagon/jekyll-bootstrap-theme#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0"
+  }
+}
