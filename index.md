@@ -1,4 +1,5 @@
 ---
-title: NFDI4Microbiota-Home
-layout: home
+title: NFDI4Microbiota-Docs
+layout: docs_home
+docs_css: markdown
 ---
