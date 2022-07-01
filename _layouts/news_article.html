@@ -1,0 +1,33 @@
+---
+custom_css: markdown
+layout: default
+---
+
+<h2 class="container mt-5"> {{ page.title }} </h2>
+<div class="container md news_item">
+<article class="">
+	<div class="row mb-4">
+	
+		<div class="col">
+			<div class="card-body">
+				<div class="card-text mb-2 text-muted small">
+					<span class="me-3" style="color:#ffb12d;"> <i class="fa-solid fa-user"></i> {{ page.author }} </span>
+					<span class="me-3" style="color: {{ page.category-color }} ;"><i class="fa-solid fa-folder-open"></i> {{ page.category }}</span>
+					<hr>
+					<span class="me-3" style=";"></i> <i class="fa-solid fa-calendar"></i> {{ page.date | date: "%F " }}</span>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-8" style="margin-bottom:8rem;">
+		{{ content }}
+	</div>
+</article>
+
+<div  style="margin-bottom:10rem;">
+	<a style="color:#ffb12d;" href= {{ '/latest/news' | relative_url }}><i class="fa-solid fa-arrow-left-long"></i> back to News page </a>
+</div>
+
+</div>
+

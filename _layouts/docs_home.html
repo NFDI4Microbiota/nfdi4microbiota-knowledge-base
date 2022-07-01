@@ -1,0 +1,101 @@
+---
+layout: default
+---
+<div class="col-auto col-md-12 col-xl-12 px-sm-12" style="background-color:#ffb529;">
+	<h1 class="py-4 text-center">The NFDI4Microbiota Handbook</h1>
+</div>
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
+		 <div class="flex-shrink-0 p-3 bg-white">
+				 <form class="d-flex">
+        <input id="search-input-docs" class="form-control me-2" type="search" placeholder="search handbook" aria-label="Search">
+      </form>
+      <div class="list-group col-sm-1 search_result-docs" id="results-container-docs" style="width:12%;"></div>
+    <ul class="list-unstyled ps-0">
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          About Us
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="/docs/mission" class="link-dark rounded">Mission</a></li>
+            <li><a href="#" class="link-dark rounded">Vision</a></li>
+            <li><a href="#" class="link-dark rounded">Values</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          Code of Conduct
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="/docs/code-of-conduct-overview" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Updates</a></li>
+            <li><a href="#" class="link-dark rounded">Reports</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          For Instructors
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Hosting a carpentry</a></li>
+            <li><a href="#" class="link-dark rounded">Registration</a></li>
+            <li><a href="#" class="link-dark rounded">Materials and schedule</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Orders
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New</a></li>
+            <li><a href="#" class="link-dark rounded">Processed</a></li>
+            <li><a href="#" class="link-dark rounded">Shipped</a></li>
+            <li><a href="#" class="link-dark rounded">Returned</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Account
+        </button>
+        <div class="collapse" id="account-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New...</a></li>
+            <li><a href="#" class="link-dark rounded">Profile</a></li>
+            <li><a href="#" class="link-dark rounded">Settings</a></li>
+            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+        </div>
+        <div class="col py-3">
+	<h2 class="my-4"> {{ page.title }} </h2>
+		{{ content }}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    window.onload = function(){
+	var search_docs =  new SimpleJekyllSearch({
+    	searchInput: document.getElementById('search-input-docs'),
+    	resultsContainer: document.getElementById('results-container-docs'),
+    	searchResultTemplate: "<a href='{url}' class='list-group-item list-group-	item-action'>{title}</a>",
+    	json: '/docs.json'
+  })
+    }
+
+</script>
