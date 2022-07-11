@@ -1,12 +1,12 @@
   
 
   $(document).ready(function(){
-	var search_pages = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: "<a href='{url}' class='list-group-item list-group-item-action'>{title}</a>",
-    json: '/search.json'
-  })
+//    var search_pages = SimpleJekyllSearch({
+//    searchInput: document.getElementById('search-input'),
+//    resultsContainer: document.getElementById('results-container'),
+//    searchResultTemplate: "<a href='{url}' class='list-group-item list-group-item-action'>{title}</a>",
+//    json: '/search.json'
+//  })
     //events registration
     $('form').delegate('.OthersTextBox', 'change', function(){ OtherSelect(this);});
     $('form').delegate('.otherTxtBox', 'focusout', function(){ ChangeSelect(this); });

@@ -9,6 +9,7 @@
   <!-- Font awesome 5 CSS only -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="icon" type="image/x-icon" href={{ '/assets/img/favicon.ico' | relative_url }}>
   <link rel="stylesheet" href={{ '/assets/css/main.css' | relative_url }}>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -25,14 +26,12 @@
   {% endif %}
 </head>
 
-<body class="d-flex flex-column min-vh-200">
+<body class="d-flex flex-column min-vh-200 mb-5">
 
   {%- include navbar.html -%}
 
 
   <div class="content main">
-    <div class="list-group col-lg-3 col-md-6 search_result" id="results-container">
-    </div>
     {{ content }}
     <div class="floatpanel">
       <a href="https://nfdi4microbiota.de/contact-form" class="float">
@@ -69,18 +68,15 @@
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-  <!--<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
-    json: '/search.json'
-  })
-</script>-->
-  <script src={{ '/assets/js/main.js' | relative_url }} type="text/javascript"></script>
   <script>
-
-  </script>
+	  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input-docs'),
+    resultsContainer: document.getElementById('results-container-docs'),
+    searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
+    json: './search.json'
+  })
+</script>
+  <script src={{ '/assets/js/main.js' | relative_url }} type="text/javascript"></script>
 
 </body>
 

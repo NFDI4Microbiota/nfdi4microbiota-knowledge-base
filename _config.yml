@@ -52,21 +52,6 @@ plugins:
   - jemoji
 markdown: Kramdown
 collections:
-        news:
-          output: true
-          permalink: /:collection/:name
-        events:
-          output: true
-          permalink: /:collection/:name
-        publications:
-          output: true
-          permalink: /:collection/:name
         docs:
           output: true
           permalink: /:collection/:name
-        newsletter:
-          output: true
-          permalink: /:collection/:name
-        usecases:
-          output: true
-          permalink: /:collection/:name  
