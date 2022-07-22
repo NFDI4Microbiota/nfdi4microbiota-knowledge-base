@@ -1,6 +1,13 @@
 # NFDI Microbiota Knowledge Base
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+## What is a Knowledge base
+
+Our knowledge base is a collection of documents and references we consider important to our consortia.
+It’s also a collection of internal and external knowledge we will like to share with the Microbiota community.
+
+## License
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
