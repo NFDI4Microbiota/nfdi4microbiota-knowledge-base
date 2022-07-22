@@ -4,20 +4,26 @@ This document includes instructions on how to contribute to the Knowledge base a
 
 The main steps a user must follow to contribute to the Knowledge Base are:
     1. Create a GitHub account
-    2. Making changes to the repository
+    2. Making changes to existing files in the repository
+    3. Creating new content
 
 ## Creating a GitHub account
 
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. To create an acocunt, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
-## Making changes to the repository
+## Making changes to existing files in the repository
 
 In order to make changes to the respository, users must edit Markdown files on the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
 After editing the file, add a commit name that includes the name of a file and the issue number (if available).
 Next, select the `Create new branch` button and then press the `Commit changes` button.
 
+## Creating new content
+
+If you want to create a page on the website that doesn't already exist, create a new issue. This can be done by going to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues) and clicking the `New Issue` button. Add the name of the suggested page for the title and add a description of what you want to include in the new page. Then click the `Submit new issue` button.
+
 # TODO: Add examples
 
 # TODO: Add Markdown style rules
 
+# TODO: Do users need to create issues?
