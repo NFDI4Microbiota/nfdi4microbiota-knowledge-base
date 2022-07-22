@@ -34,6 +34,8 @@ To edit an existing file:
 8. Press the `Create pull request` button
 9. A member of the NFDI4Microbiota team will then review and add your changes to the Knowledge Base
 
+[Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to edtiting files on GitHub if you need futher help.
+
 *Note: All files should be edited according to the [style guide](#markdown-style-guide).*
 
 ### Creating new content
@@ -49,11 +51,7 @@ To create a new issue:
 5. Click the `Submit new issue` button
 6. A member of the NFDI4Microbiota team will then review your issue and add the new page
 
-### Example: Editing existing files
-
-1. 
-
-### Example: Creating new content
+[Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
 ## Add your name to the CONTRIBUTORS file
 
@@ -61,7 +59,7 @@ We appreciate your contribution! Please add your name to the [CONTRIBUTORS.md](C
 
 ## Code of Conduct
 
-Please ensure you are following the [code of conduct](_docs/code-of-conduct-overview.md)
+Please ensure you are following the [code of conduct](_docs/code-of-conduct-overview.md).
 
 ## Markdown Style Guide
 
