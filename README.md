@@ -1,4 +1,4 @@
-# The NFDI4Microbiota Knowledge Base
+# NFDI Microbiota Knowledge Base
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
