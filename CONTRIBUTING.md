@@ -28,6 +28,8 @@ Next, select the `Create new branch` button and then press the `Commit changes` 
 
 If you want to create a page on the website that doesn't already exist, create a new issue. This can be done by going to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues) and clicking the `New Issue` button. Add the name of the suggested page for the title and add a description of what you want to include in the new page. Then click the `Submit new issue` button.
 
+*link to code of conduct*
+
 # TODO: Add examples
 
 # Markdown Style Guide
@@ -38,4 +40,3 @@ When editing files, please observe the following rules:
 2. TODO: Where to add images
 3. TODO: Where to add static files
 
-# TODO: Do users need to create issues to edit files or only to create new ones?
