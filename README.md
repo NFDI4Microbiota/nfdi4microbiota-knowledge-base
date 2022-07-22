@@ -1,11 +1,14 @@
-# NFDI Microbiota Knowledge Base
+# NFDI4Microbiota Knowledge Base
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-## What is a Knowledge base
+## What is the NFDI4Microbiota Knowledge base
 
-Our knowledge base is a collection of documents and references we consider important to our consortia.
-It’s also a collection of internal and external knowledge we will like to share with the Microbiota community.
+This knowledge base is a collection of documents and references important to the [NFDI4Microbiota](https://nfdi4microbiota.de/) consortium. It is also a collection of internal and external knowledge we wish to share with the Microbiota research community, and we welcome any contributions by them.
+
+## Contributing to the Knowledge Base
+
+If you want to contribtute to the Knowledge base, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file, and be sure to add yourself to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
 
 ## License
 
