@@ -2,7 +2,8 @@
 layout: none
 ---
 [
-  {% for post in site.docs %}
+  {% assign posts = site.RDM | concat: site.RDA %}
+  {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
