@@ -51,7 +51,11 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 markdown: Kramdown
+collections_dir: docs
 collections:
-        docs:
-          output: true
-          permalink: /:collection/:name
+  RDM:
+    output: true
+    permalink: /:collection/:name
+  RDA:
+    output: true
+    permalink: /:collection/:name
