@@ -28,49 +28,46 @@ layout: default
 
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rdm-collapse" aria-expanded="true">
-              Introduction to Research Data Management (RDM)
+              Research Data Management (RDM)
             </button>
             <div class="collapse show" id="rdm-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/docs/mission" class="link-dark rounded">Research data</a></li>
-                <li><a href="/docs/mission" class="link-dark rounded">Research data life cycle</a></li>
-                <li><a href="#" class="link-dark rounded">Big data management</a></li>
-                <li><a href="#" class="link-dark rounded">Resources and tools</a></li>
+                {% assign rdm_pages = site.RDM | sort: "page_num" %}
+                {% for page in rdm_pages %}
+                  <li><a href="{{ page.url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                {% endfor %}
               </ul>
             </div>
           </li>
 
           <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#fair-collapse" aria-expanded="true">
-              FAIR data principles
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rda-collapse" aria-expanded="true">
+              Reproducible data analysis
             </button>
-            <div class="collapse show" id="fair-collapse">
+            <div class="collapse show" id="rda-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/docs/code-of-conduct-overview" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">Resources</a></li>
+                {% assign rda_pages = site.RDA | sort: "page_num" %}
+                {% for page in rda_pages %}
+                  <li><a href="{{ page.url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                {% endfor %}
               </ul>
             </div>
           </li>
 
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#gsp-collapse" aria-expanded="false">
-              Good Scientific Practice (GSP)
+              Glossary
             </button>
             <div class="collapse" id="gsp-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">Examples of GSP</a></li>
-                <li><a href="#" class="link-dark rounded">Examples of scientific misconduct</a></li>
-                <li><a href="#" class="link-dark rounded">Reseources</a></li>
-                <li><a href="#" class="link-dark rounded">Guidelines of GSP</a></li>
-                <li><a href="#" class="link-dark rounded">Guidelines on managing research data</a></li>
               </ul>
             </div>
           </li>
 
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dmp-collapse" aria-expanded="false">
-              Data Management Plans (DMPs)
+              Examples
             </button>
             <div class="collapse" id="dmp-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -81,103 +78,6 @@ layout: default
               </ul>
             </div>
           </li>
-
-          <li class="mb-1">
-            <a href="#" class="btn btn-link align-items-center rounded collapsed" role="button">Standard Operating Procedures (SOPs)</a>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#eln-collapse" aria-expanded="false">
-              Electronic Lab Notebooks (ELNs)
-            </button>
-            <div class="collapse" id="eln-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">Selection and implementation of an ELN</a></li>
-                <li><a href="#" class="link-dark rounded">Resources</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="mb-1">
-            <a href="#" class="btn btn-link align-items-center rounded collapsed" role="button">Data quality control</a>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#do-collapse" aria-expanded="false">
-              Data organization
-            </button>
-            <div class="collapse" id="do-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">File naming conventions</a></li>
-                <li><a href="#" class="link-dark rounded">File versioning</a></li>
-                <li><a href="#" class="link-dark rounded">File formats</a></li>
-                <li><a href="#" class="link-dark rounded">Folder structure</a></li>
-                <li><a href="#" class="link-dark rounded">Big data organization</a></li>
-                <li><a href="#" class="link-dark rounded">Resources and tools</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dd-collapse" aria-expanded="false">
-              Data documentation
-            </button>
-            <div class="collapse" id="dd-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">README</a></li>
-                <li><a href="#" class="link-dark rounded">Metadata standards</a></li>
-                <li><a href="#" class="link-dark rounded">Resources</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dsp-collapse" aria-expanded="false">
-              Data sharing and publishing
-            </button>
-            <div class="collapse" id="dsp-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Sharing (raw) research data during the project phase</a></li>
-                <li><a href="#" class="link-dark rounded">Publishing research data and software</a></li>
-                <li><a href="#" class="link-dark rounded">Data preparation for publication</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="mb-1">
-            <a href="#" class="btn btn-link align-items-center rounded collapsed" role="button">Selection of a trusted repository</a>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#do-collapse" aria-expanded="false">
-              Data preservation
-            </button>
-            <div class="collapse" id="do-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">Best practices</a></li>
-                <li><a href="#" class="link-dark rounded">Selection of data to keep</a></li>
-                <li><a href="#" class="link-dark rounded">Format recommendation</a></li>
-                <li><a href="#" class="link-dark rounded">Resources</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#license-collapse" aria-expanded="false">
-              Licenses
-            </button>
-            <div class="collapse" id="license-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">Introduction</a></li>
-                <li><a href="#" class="link-dark rounded">Properties of recommended licenses</a></li>
-                <li><a href="#" class="link-dark rounded">Resources and tools</a></li>
-              </ul>
-            </div>
-          </li>
         
         </ul>
 
@@ -185,7 +85,9 @@ layout: default
     </div>
   
     <div class="col py-3">
-      <!--<h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2>-->
+      <!-- <h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2> -->
+      <h1>{{ page.title }}</h1>
+      <hr>
       {{ content }}
     </div>
 
