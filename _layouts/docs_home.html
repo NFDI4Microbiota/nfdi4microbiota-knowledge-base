@@ -1,106 +1,96 @@
 ---
 layout: default
 ---
+
+<!--Top bar-->
 <div class="col-auto col-md-12 col-xl-12 px-sm-12" style="background-color:#ffb529;">
 	<h1 class="py-4 text-center">The NFDI4Microbiota Knowledge Base</h1>
 </div>
+
+
 <div class="container-fluid mb-5">
-    <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
-		 <div class="flex-shrink-0 p-3 bg-white">
-				 <form class="d-flex">
-        <input id="search-input-docs" class="form-control me-2" type="search" placeholder="search handbook" aria-label="Search">
-      </form>
-      <div class="list-group col-sm-1 search_result-docs" id="results-container-docs" style="width:12%;"></div>
-    <ul class="list-unstyled ps-0">
-      <li class="border-top my-3"></li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#workflow-collapse" aria-expanded="true">Workflows
-        </button>
-        <div class="collapse show" id="workflow-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="/docs/mission" class="link-dark rounded">Best practices</a></li>
-            <li><a href="#" class="link-dark rounded">APIs</a></li>
-            <li><a href="#" class="link-dark rounded">Prototypes</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#fair-collapse" aria-expanded="true">
-          FAIR principles
-        </button>
-        <div class="collapse show" id="fair-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="/docs/code-of-conduct-overview" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Long Term preservation</a></li>
-            <li><a href="#" class="link-dark rounded">SOPs</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rdm-collapse" aria-expanded="false">
-          RDM and Data Management
-        </button>
-        <div class="collapse" id="rdm-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Data quality check</a></li>
-            <li><a href="#" class="link-dark rounded">Metadata standards</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#eln-collapse" aria-expanded="false">
-          ELNs
-        </button>
-        <div class="collapse" id="eln-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Resources</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#gsp-collapse" aria-expanded="false">
-          Good scientific practice
-        </button>
-        <div class="collapse" id="gsp-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Resources</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dp-collapse" aria-expanded="false">
-          Digital preservation
-        </button>
-        <div class="collapse" id="dp-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Resources</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#license-collapse" aria-expanded="false">
-          Licenses
-        </button>
-        <div class="collapse" id="license-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Introduction</a></li>
-            <li><a href="#" class="link-dark rounded">Resources</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </div>
-        </div>
-        <div class="col py-3">
-	<!--<h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2>-->
-		{{ content }}
-        </div>
+  <div class="row flex-nowrap">
+    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
+      
+      <!--Sidebar-->
+      <div class="flex-shrink-0 p-3 bg-white">
+
+        <!--Search bar-->
+        <form class="d-flex">
+          <input id="search-input-docs" class="form-control me-2" type="search" placeholder="search handbook" aria-label="Search">
+        </form>
+        <div class="list-group col-sm-1 search_result-docs" id="results-container-docs" style="width:12%;"></div>
+
+        <!--Side bar items-->
+        <ul class="list-unstyled ps-0">
+
+          <li class="border-top my-3"></li>
+
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rdm-collapse" aria-expanded="true">
+              Research Data Management (RDM)
+            </button>
+            <div class="collapse show" id="rdm-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                {% assign rdm_pages = site.RDM | sort: "page_num" %}
+                {% for page in rdm_pages %}
+                  <li><a href="{{ page.url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rda-collapse" aria-expanded="true">
+              Reproducible data analysis
+            </button>
+            <div class="collapse show" id="rda-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                {% assign rda_pages = site.RDA | sort: "page_num" %}
+                {% for page in rda_pages %}
+                  <li><a href="{{ page.url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#gsp-collapse" aria-expanded="false">
+              Glossary
+            </button>
+            <div class="collapse" id="gsp-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Introduction</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dmp-collapse" aria-expanded="false">
+              Examples
+            </button>
+            <div class="collapse" id="dmp-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Introduction</a></li>
+                <li><a href="#" class="link-dark rounded">DMP templates</a></li>
+                <li><a href="#" class="link-dark rounded">DMP tools</a></li>
+                <li><a href="#" class="link-dark rounded">Resources</a></li>
+              </ul>
+            </div>
+          </li>
+        
+        </ul>
+
+      </div>
     </div>
-</div>
+  
+    <div class="col py-3">
+      <!-- <h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2> -->
+      <h1>{{ page.title }}</h1>
+      <hr>
+      {{ content }}
+    </div>
+
+  </div>
 </div>
 
