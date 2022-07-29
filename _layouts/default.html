@@ -73,7 +73,7 @@
     searchInput: document.getElementById('search-input-docs'),
     resultsContainer: document.getElementById('results-container-docs'),
     searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
-    json: {{ '/search.json' | relative_url }} 
+    json: "{{ '/search.json' | relative_url }}" 
   })
 </script>
   <script src={{ '/assets/js/main.js' | relative_url }} type="text/javascript"></script>
