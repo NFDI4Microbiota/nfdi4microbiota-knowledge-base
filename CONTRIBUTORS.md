@@ -1,3 +1,4 @@
 # Contributors
 
-1. \<Enter your name here>
+1. Justine Vandendorpe (ZB MED)
+2. \<Enter your name here>
