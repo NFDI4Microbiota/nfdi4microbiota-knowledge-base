@@ -26,8 +26,8 @@ To edit an existing file:
 
 1. Navigate to the file on the repository and click on it
 2. Click on the pen icon on the top right to begin editing
-3. After editing the file, add a commit name that includes the name of the edited file and the issue number (if available)
-4. Select the `Create new branch` option and add a branch name which includes the name of the edited file and the issue number (if available)
+3. After editing the file, add a commit name that includes the name of the edited file and the [issue number](#github-issues) (if available) e.g. `#32 fixed typo in RDM page`
+4. Select the `Create new branch` option and add a branch name which includes the name of the edited file and the [issue number](#github-issues) (if available)
 5. Press the `Propose changes` button
 6. Write a comment briefly describing the changes you have made
 7. Press the `Create pull request` button
@@ -40,6 +40,10 @@ To edit an existing file:
 ### Create new files
 
 If you want to create a page on the website that doesn't already exist, create a new issue.
+
+#### GitHub Issues
+
+A [GitHub Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the page. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
 
 To create a new issue:
 
