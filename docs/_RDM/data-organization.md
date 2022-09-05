@@ -16,6 +16,11 @@ References:
 
 ## File formats
 
+## Date formats
+
+![ISO 8601](https://imgs.xkcd.com/comics/iso_8601_2x.png)
+(https://xkcd.com/1179/, CC-BY-NC by xkcd, Randall Munroe)
+
 ## Folder structure
 
 References:
