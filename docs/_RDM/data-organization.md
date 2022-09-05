@@ -18,6 +18,8 @@ References:
 
 ## Date formats
 
+Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing dates.
+
 ![ISO 8601](https://imgs.xkcd.com/comics/iso_8601_2x.png)
 (https://xkcd.com/1179/, CC-BY-NC by xkcd, Randall Munroe)
 
