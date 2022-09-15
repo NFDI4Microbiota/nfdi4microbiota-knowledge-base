@@ -7,9 +7,17 @@ docs_css: markdown
 ---
 ## Introduction
 
-### Examples of GSP
+### Examples of Good Scientific Practice (GSP)
 
 ### Examples of scientific misconduct
+
+#### John James Audubon (1785 - 1851) ([Wikipedia](https://en.wikipedia.org/wiki/John_James_Audubon))
+* Falsification and fabrication of scientific data (e.g. invention of new species)
+* Publication of fraudulent data and images
+* Plagiarism (e.g. failure to credit work by [Joseph Mason](https://en.wikipedia.org/wiki/Joseph_Mason_(artist)))
+* Stealing the holotype specimen of Harris’s hawk (bird of prey)
+* Supporting the supposed inferiority of black and indigenous people
+* Lying about his autobiography
 
 ## Resources
 
