@@ -30,8 +30,8 @@ To edit an existing file:
 4. Select the `Create new branch` option and add a branch name which includes the name of the edited file and the [issue number](#github-issues) (if available)
 5. Press the `Propose changes` button
 6. Write a comment briefly describing the changes you have made
-7. Press the `Create pull request` button
-8. A member of the NFDI4Microbiota team will then review and add your changes to the Knowledge Base
+7. Assign the pull request to `Mahdi Robbani`
+8. Press the `Create pull request` button
 
 [Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to editing files on GitHub if you need futher help.
 
@@ -50,8 +50,8 @@ To create a new issue:
 1. Go to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues)
 2. Click the `New issue` button
 3. Add the title (the name of the suggested page) and add a description of what you want to include in the new page
-4. Click the `Submit new issue` button
-5. A member of the NFDI4Microbiota team will then review your issue and add the new page
+4. Assign the issue to `Mahdi Robbani`
+5. Click the `Submit new issue` button
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
@@ -72,5 +72,6 @@ When editing files, please observe the following rules:
 3. Place image files in the `assets/img/` directory
 
 ## Cite sources
-1. Websites can be linked in the text (ex. [NFDI4Microbiota](https://nfdi4microbiota.de/)). 
+
+1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.
