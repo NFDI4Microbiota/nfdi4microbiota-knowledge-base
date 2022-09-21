@@ -25,6 +25,10 @@ Data types in microbiology include the following:
 * Scientific texts
 * Species interaction data (e.g. physical microbial interaction data)
 
+Databases and data repositories in microbiology can be found in the two following registries:
+* [re3data.org](https://www.re3data.org/) ([search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
+* [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
+
 ## Research data life cycle
 
 ## Big data management
