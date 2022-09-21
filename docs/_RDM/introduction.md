@@ -9,17 +9,19 @@ docs_css: markdown
 Research data is "any information collected, stored, and processed to produce and validate original research results" [DeWitt Wallace Library](https://libguides.macalester.edu/data1). There is no consensus on the definition, the definition varies depending on disciplines and research funders. 
 
 Data types in microbiology include the following:
+* High-throughput sequencing (HTS) Data also know as Next Generation Sequencing Data (NGS)
+  * Genomics (DNA-Seq) and Metagenomics data
+  * Expression data (RNA-Seq)
+  * specicif procotols like CLIP-Seq, HiC, RIP-Seq, RIL-Seq, Ribo-Seq and much more
+* Proteomics
+* Metabolomics
 * Crystallographic data
-* Gene expression data
+* Gene expression data from microarrays
 * Geographical data
 * Image data
 * Linked Open Data (LOD)
 * Macromolecular structures
-* Microbiome data (e.g. virome data)
-* Nucleotide (DNA and RNA) sequences (e.g. high-throughput sequencing data, genetic polymorphisms)
-* Omics data (e.g. genomics data, metagenomics data, functional genomics data, proteomics data, transcriptomics data)
 * Phenotypic data
-* Protein sequences
 * Quantitative microbiological data
 * Semantic data
 * Scientific texts
