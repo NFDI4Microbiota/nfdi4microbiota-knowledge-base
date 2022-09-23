@@ -31,6 +31,43 @@ Databases and data repositories in microbiology can be found in the two followin
 * [re3data.org](https://www.re3data.org/) ([search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
 * [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
 
+Common data formats for various data types are listed below (in bold are formats suitable for digital preservation) ([PUBLISSO](https://www.publisso.de/en/research-data-management/rd-archiving/)):
+* Biomaterial data
+    * **CSV (.csv)**
+    * FASTA (.fasta)
+    * FASTQ (.fq, .fastq)
+    * PDB (.pdb, .ent, .brk)
+    * **TXT (.txt)**
+    * XLS (.xls)
+    * **XML (.xml)**
+* Geospatial data
+    * ESRI Shapefiles (.shp)
+    * **GML (.gml)**
+    * KML (.kml)
+    * MapInfo (.tab)
+    * **MID (.mid)**
+    * **MIF (.mif)**
+* Image data
+    * DICOM (*.dcm)
+    * EPS (*.eps)
+    * GIF (*.gif)
+    * Illustrator (.ai)
+    * **JPEG 2000 (.jp2)**
+    * JPG (.jpg, .jpeg)
+    * PDF (.pdf)
+    * **PNG (.png)**
+    * STL (.stl)
+    * **SVG (.svg)**
+    * **TIFF (.tif, .tiff)**
+* Text files
+    * DOC (.doc, .docx)
+    * ODT (.odt)
+    * **PDF/A (.pdf)**
+    * Powerpoint (.ppt)
+    * RTF (.rtf)
+    * **TXT Unicode (.txt, .asc, .c, .h, .cpp, .m, .py etc. in ASCII format)**
+    * **XML (.xml)**
+
 ## Research data life cycle
 
 ## Big data management
