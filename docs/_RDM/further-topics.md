@@ -19,3 +19,7 @@ References:
 ## Data search and reuse
 
 ## Privacy issues
+
+## Software
+
+To include: https://www.softwareheritage.org/2020/07/09/intrinsic-vs-extrinsic-identifiers/
