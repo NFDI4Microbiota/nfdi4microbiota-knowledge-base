@@ -6,8 +6,11 @@ layout: docs_home
 docs_css: markdown
 ---
 ## Research data
+
+### Definition of research data
 Research data is "any information collected, stored, and processed to produce and validate original research results" [DeWitt Wallace Library](https://libguides.macalester.edu/data1). There is no consensus on the definition, the definition varies depending on disciplines and research funders. 
 
+### Common data types in microbiology
 Data types in microbiology include the following:
 * High-Throughput Sequencing (HTS) data also known as Next Generation Sequencing (NGS) data such as:
   * Genomics (DNA-Seq) and metagenomics data
@@ -27,10 +30,12 @@ Data types in microbiology include the following:
 * Scientific texts
 * Species interaction data (e.g. physical microbial interaction data)
 
+### Common research data registries
 Databases and data repositories in microbiology can be found in the two following registries:
 * [re3data.org](https://www.re3data.org/) ([search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
 * [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
 
+### Common data formats in microbiology
 Common data formats for various data types are listed below (in bold are formats suitable for digital preservation) ([PUBLISSO](https://www.publisso.de/en/research-data-management/rd-archiving/)):
 * Biomaterial data
     * **CSV (.csv)**
@@ -69,6 +74,14 @@ Common data formats for various data types are listed below (in bold are formats
     * **XML (.xml)**
 
 ## Research data life cycle
+
+The research data life cycle is the process that includes all methods and procedures along a research project ([PUBLISSO](https://www.publisso.de/en/research-data-management/)). The cycle usually follows these steps:
+* Planning
+* Data Collection
+* Data Processing & Analysis
+* Data Sharing & Publishing
+* Digital Preservation
+* Data Discovery & Reuse
 
 ## Big data management
 
