@@ -18,6 +18,9 @@ References:
 
 ## Data search and reuse
 
+### Resources
+* [Ten simple rules for getting and giving credit for data](https://doi.org/10.1371/journal.pcbi.1010476)
+
 ## Privacy issues
 
 ## Software
