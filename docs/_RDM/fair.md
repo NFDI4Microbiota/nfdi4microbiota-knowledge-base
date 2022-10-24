@@ -35,6 +35,7 @@ Data interoperability = ability of a dataset to work with other datasets or syst
 * (Meta)data are associated with detailed provenance
 
 ## Resources
+* [Introducing the FAIR Principles for research software](https://doi.org/10.1038/s41597-022-01710-x)
 
 ### Learning resources
 * [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
