@@ -66,11 +66,11 @@ The [same criteria as for software](#software-licenses) apply and the [Creative 
 
 There are different versions of CC that consist of the core license with further extensions to [choose from](https://creativecommons.org/choose) that can be combined to achieve the desired permissions:
 
-- **Public dedication (Zero or 0):** Allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions. Excludes the following extensions.
+- **Public dedication (Zero or 0):** Allows re-users to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions. Excludes the following extensions.
 - **Attribution (BY):** Credit must be given to the creator.
 - **Share-Alike (SA):** Adaptations must be shared under the same terms.
 - **Non-commercial (NC):** Only non-commercial uses of the work are permitted.
-- **Non-derivitive (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
+- **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
 
 
 ## Usage
