@@ -62,7 +62,7 @@ Publishing figures and articles in journals, usually requires accepting the lice
 ## Recommendations
 Because publicly funded sciences should make their data and results publicly available (often required by the employer or funder), choosing a permissive license is highly encouraged.
 
-The [same criteria as for software](Software licenses) apply and the [Creative Commons (CC)](https://creativecommons.org) licenses are most widely used as well as easily understandable.
+The [same criteria as for software](#software-licenses) apply and the [Creative Commons (CC)](https://creativecommons.org) licenses are most widely used as well as easily understandable.
 
 There are different versions of CC that consist of the core license with further extensions to [choose from](https://creativecommons.org/choose) that can be combined to achieve the desired permissions:
 
