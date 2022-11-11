@@ -12,8 +12,8 @@ docs_css: markdown
 A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific meta data schemas).
 Researchers should check whether the repository supports **open access** for non-sensitive data and provides persistent identifiers for submitted datasets.
 
-# Recommended repositories for microbiotic data
-Primary raw data from experiments involving microbiota in most cases consists of either sequence data, mass spectra or images and derived results.
+# Recommended repositories for microbiology data
+Primary raw data from experiments studying the microbiota consists in most cases of either sequence data, mass spectra or images and derived results.
 
 ## ENA and SRA for nucleotide data
 EMBL-EBI provides the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home) which hosts world-wide data from raw sequencing runs to sequence assembly information and functional annotation.
