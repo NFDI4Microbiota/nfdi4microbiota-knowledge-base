@@ -88,7 +88,21 @@ layout: default
       <!-- <h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2> -->
       <h1>{{ page.title }}</h1>
       <hr>
+      <!-- Contents of Markdown file-->
       {{ content }}
+
+      <!-- Edit button -->
+      {% if page.url != "/" %}
+        {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
+      {% else %}
+        {% assign git_url = page.url | replace_first:'/', 'index' %}
+      {% endif %}
+      <a 
+        href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
+        class="edit"
+      >
+        <i class="fa-solid fa-pen"></i> Edit this page
+      </a>
     </div>
 
   </div>
