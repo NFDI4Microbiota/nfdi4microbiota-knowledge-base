@@ -389,6 +389,11 @@ iframe.embed-responsive-item{
   color: #ffb12d;
 }
 
+/* Class for Github edit link */
+.edit:hover {
+  color: #ffb12d;
+}
+
 .news_header a {
   color: #444444 !important;
   transition: all 0.3s ease 0s;
