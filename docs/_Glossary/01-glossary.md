@@ -1,12 +1,11 @@
 ---
 title: Glossary
-page_num: 14
 category: Glossary
 layout: docs_home
 docs_css: markdown
 ---
 
-# Introdcution
+## Introduction
 
 See also https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/
 
