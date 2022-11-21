@@ -1,6 +1,5 @@
 ---
 title: FAIR data principles
-page_num: 2
 category: RDM
 layout: docs_home
 docs_css: markdown
@@ -56,3 +55,6 @@ Data interoperability = ability of a dataset to work with other datasets or syst
 ## Sources
 1. Wilkinson, M. D. *et al.* The FAIR Guiding Principles for scientific data management and stewardship. *Sci. Data* 3:160018 doi: 10.1038/sdata.2016.18 (2016).
 2. GODAN Action. (2019, December 20). GODAN Action Online Course on Open Data Management in Agriculture and Nutrition (Version v1.0). Zenodo. [http://doi.org/10.5281/zenodo.3588148](https://doi.org/10.5281/zenodo.3588148)
+
+
+{{reference}}
