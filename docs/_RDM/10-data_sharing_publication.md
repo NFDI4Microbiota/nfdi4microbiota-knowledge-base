@@ -1,6 +1,5 @@
 ---
 title: Data sharing and publishing
-page_num: 10
 category: RDM
 layout: docs_home
 docs_css: markdown

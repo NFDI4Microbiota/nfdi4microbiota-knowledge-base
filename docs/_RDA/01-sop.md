@@ -1,7 +1,6 @@
 ---
 title: Standard Operating Procedures (SOPs)
-page_num: 1
-layout: docs_home
 category: RDA
+layout: docs_home
 docs_css: markdown
 ---

@@ -1,6 +1,5 @@
 ---
 title: Digital preservation
-page_num: 12
 category: RDM
 layout: docs_home
 docs_css: markdown

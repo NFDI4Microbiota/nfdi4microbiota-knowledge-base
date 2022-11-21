@@ -60,3 +60,14 @@ collections:
   RDA:
     output: true
     permalink: /:collection/:name
+  Glossary:
+    output: true
+    permalink: /:collection/:name
+  Examples:
+    output: true
+    permalink: /:collection/:name
+
+# Plugin settings
+scholar:
+  style: ieee
+  source: ./docs/_bibliography

@@ -1,6 +1,5 @@
 ---
 title: Data organization
-page_num: 8
 category: RDM
 layout: docs_home
 docs_css: markdown

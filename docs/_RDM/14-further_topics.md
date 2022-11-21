@@ -1,6 +1,5 @@
 ---
 title: Further topics
-page_num: 14
 category: RDM
 layout: docs_home
 docs_css: markdown

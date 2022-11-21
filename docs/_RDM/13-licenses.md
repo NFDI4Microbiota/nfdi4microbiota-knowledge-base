@@ -1,6 +1,5 @@
 ---
 title: Licenses
-page_num: 13
 category: RDM
 layout: docs_home
 docs_css: markdown

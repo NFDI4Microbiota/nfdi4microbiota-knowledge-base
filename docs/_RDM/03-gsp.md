@@ -1,6 +1,5 @@
 ---
 title: Good Scientific Practice (GSP)
-page_num: 3
 category: RDM
 layout: docs_home
 docs_css: markdown

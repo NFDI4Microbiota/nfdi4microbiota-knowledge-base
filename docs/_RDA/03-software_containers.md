@@ -1,7 +1,6 @@
 ---
 title: Software containers
-page_num: 3
-layout: docs_home
 category: RDA
+layout: docs_home
 docs_css: markdown
 ---
