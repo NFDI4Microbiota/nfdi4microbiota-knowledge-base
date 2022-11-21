@@ -1,7 +1,6 @@
 ---
 title: Resources
-page_num: 4
-layout: docs_home
 category: RDA
+layout: docs_home
 docs_css: markdown
 ---
