@@ -75,3 +75,6 @@ When editing files, please observe the following rules:
 
 1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.
+3. In order to reference an article:
+   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
+   2. Cite the reference in the text using `{% cite <reference_name> %}`
