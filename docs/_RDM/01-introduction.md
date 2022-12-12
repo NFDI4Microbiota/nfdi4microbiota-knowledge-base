@@ -5,6 +5,7 @@ layout: docs_home
 docs_css: markdown
 ---
 ## Research data
+TEST
 
 ### Definition of research data
 Research data is "any information collected, stored, and processed to produce and validate original research results" [DeWitt Wallace Library](https://libguides.macalester.edu/data1). There is no consensus on the definition, the definition varies depending on disciplines and research funders. 
