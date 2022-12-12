@@ -30,6 +30,8 @@ To edit an existing file:
 4. Select the `Create new branch` option and add a branch name which includes the name of the edited file and the [issue number](#github-issues) (if available)
 5. Press the `Propose changes` button
 6. Write a comment briefly describing the changes you have made
+   1. If you are working on a page related to Research Data Management (RDM), assign @jvddorpe (Justine Vandendorpe) as a reviewer
+   2. If you are working on a page related to Workflows, assign @KK-NFDI (Kassian Kobert) as a reviewer.
 7. Assign the pull request to `Mahdi Robbani`
 8. Press the `Create pull request` button
 
