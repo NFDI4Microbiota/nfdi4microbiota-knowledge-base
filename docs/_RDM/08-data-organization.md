@@ -1,21 +1,21 @@
 ---
-title: Data organization
+title: Data Organization
 category: RDM
 layout: docs_home
 docs_css: markdown
 ---
-## Introduction
+# Introduction
 
-## File naming conventions
+# File naming conventions
 
 References:
 - https://rdm.elixir-belgium.org/file_naming
 
-## File versioning
+# File versioning
 
-## File formats
+# File formats
 
-## Date formats
+# Date formats
 
 Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing dates.
 
@@ -23,7 +23,7 @@ Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing da
 
 (https://xkcd.com/1179/, CC-BY-NC by xkcd, Randall Munroe)
 
-## Folder structure
+# Folder structure
 
 References:
 - Noble WS. A quick guide to organizing computational biology
@@ -31,7 +31,7 @@ References:
   https://doi.org/10.1371/journal.pcbi.1000424
 - https://rdm.elixir-belgium.org/folder_structure
 
-## Organizing data in spreadsheets
+# Organizing data in spreadsheets
 
 References
 - Karl W. Broman & Kara H. Woo (2018) Data Organization in
@@ -41,6 +41,6 @@ References
   Aug;608(7921):229-230. https://doi.org/10.1038/d41586-022-02076-1
 - https://librarycarpentry.org/lc-spreadsheets/
 
-## Big data organisation
+# Big data organisation
 
-## Resources and tools
+# Further resources
