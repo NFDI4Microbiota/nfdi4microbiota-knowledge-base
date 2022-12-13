@@ -1,5 +1,5 @@
 ---
-title: Digital Storage, Archiving & Preservation
+title: Digital Preservation
 category: RDM
 layout: docs_home
 docs_css: markdown
