@@ -1,5 +1,5 @@
 ---
-title: FAIR data principles
+title: FAIR Data Principles
 category: RDM
 layout: docs_home
 docs_css: markdown
@@ -40,7 +40,7 @@ Data interoperability = ability of a dataset to work with other datasets or syst
 * (Meta)data are released with a clear and accessible data usage license
 * (Meta)data are associated with detailed provenance
 
-## Resources
+## Further resources
 
 * [Introducing the FAIR Principles for research software](https://doi.org/10.1038/s41597-022-01710-x)
 
