@@ -13,6 +13,33 @@ Defining or using a suitable license for published content usually has the benef
 
 In sciences, two categories of licenses can applied to either software or data and results that explicitly describe whether and how others can use it.
 
+# Properties of recommendable licenses
+
+# Licenses for data and other creative works
+Also scientific data and output are subject to copyright if their generation requires a sufficient amount of creativity (this might be contested in some contexts).
+However, since scientists conduct experiments mostly within their employment of their funding institution, the copyright lies with both and should ideally be discussed with the employer (the universities legal department) in high profile cases.
+
+Similar to the publication of source code, a license communicates who can use the data or results for what and should be distributed with the publication in repositories or databases.
+
+Publishing figures and articles in journals, usually requires accepting the license agreement of the publisher and involves either a complete transfer of rights on your own work or picking an open access journal with acceptable permissive licenses.
+
+
+## Recommendations
+Because publicly funded sciences should make their data and results publicly available (often required by the employer or funder), choosing a permissive license is highly encouraged.
+
+The [same criteria as for software](#software-licenses) apply and the [Creative Commons (CC)](https://creativecommons.org) licenses are most widely used as well as easily understandable.
+
+There are different versions of CC that consist of the core license with further extensions to [choose from](https://creativecommons.org/choose) that can be combined to achieve the desired permissions:
+
+- **Public dedication (Zero or 0):** Allows re-users to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions. Excludes the following extensions.
+- **Attribution (BY):** Credit must be given to the creator.
+- **Share-Alike (SA):** Adaptations must be shared under the same terms.
+- **Non-commercial (NC):** Only non-commercial uses of the work are permitted.
+- **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
+
+
+## Usage
+Creators can declare a works license by selecting it during upload to a website/database/repository or attaching a line stating the title, author and license to the published work.
 
 # Software licenses
 When software sources are distributed, it is considered good practice to specify an already established license under which it can be used.
@@ -48,37 +75,11 @@ Typically, developers or distributors add a plain-text file called `LICENSE` to 
 Especially source repositories like github or gitlab will allow you to choose a license per project and automatically adding such a `LICENSE` file to the source code.
 The benefit of selecting a license on the code hosting platform is the machine readable interpretation of your permissions which can potentially increase visibility in search results across the platform.
 
-
-# Licenses for data and other creative works
-Also scientific data and output are subject to copyright if their generation requires a sufficient amount of creativity (this might be contested in some contexts).
-However, since scientists conduct experiments mostly within their employment of their funding institution, the copyright lies with both and should ideally be discussed with the employer (the universities legal department) in high profile cases.
-
-Similar to the publication of source code, a license communicates who can use the data or results for what and should be distributed with the publication in repositories or databases.
-
-Publishing figures and articles in journals, usually requires accepting the license agreement of the publisher and involves either a complete transfer of rights on your own work or picking an open access journal with acceptable permissive licenses.
-
-
-## Recommendations
-Because publicly funded sciences should make their data and results publicly available (often required by the employer or funder), choosing a permissive license is highly encouraged.
-
-The [same criteria as for software](#software-licenses) apply and the [Creative Commons (CC)](https://creativecommons.org) licenses are most widely used as well as easily understandable.
-
-There are different versions of CC that consist of the core license with further extensions to [choose from](https://creativecommons.org/choose) that can be combined to achieve the desired permissions:
-
-- **Public dedication (Zero or 0):** Allows re-users to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions. Excludes the following extensions.
-- **Attribution (BY):** Credit must be given to the creator.
-- **Share-Alike (SA):** Adaptations must be shared under the same terms.
-- **Non-commercial (NC):** Only non-commercial uses of the work are permitted.
-- **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
-
-
-## Usage
-Creators can declare a works license by selecting it during upload to a website/database/repository or attaching a line stating the title, author and license to the published work.
-
-
 # Further resources
 
 - [Creative Commons license chooser](https://creativecommons.org/choose): Explanations and guide to choosing CC licenses for your work.
 - [tl;drLegal](https://tldrlegal.com/): Software licenses in plain English with a short feature list.
 - [ChooseALicense](https://choosealicense.com/licenses/): Simple but incomplete recommendation for software licenses with short feature lists.
+
+# References
 
