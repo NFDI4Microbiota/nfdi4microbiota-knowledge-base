@@ -1,15 +1,19 @@
 ---
-title: Digital preservation
+title: Digital Storage, Archiving & Preservation
 category: RDM
 layout: docs_home
 docs_css: markdown
 ---
-## Introduction
+# Introduction
 
-## Best practices
+## How and where to store data collected?
 
-## Selection of data to keep
+# Best practices
 
-## Format recommendation
+# Selection of data to keep
 
-## Resources
+# Recommended preservation formats for research data
+
+# Further resources
+
+# References
