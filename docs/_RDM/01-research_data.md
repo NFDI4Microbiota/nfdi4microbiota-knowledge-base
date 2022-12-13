@@ -1,5 +1,5 @@
 ---
-title: Introduction to Research Data Management (RDM)
+title: Research data
 category: RDM
 layout: docs_home
 docs_css: markdown
@@ -89,3 +89,5 @@ Below is a representation of this cycle:
 ## Big data management
 
 ## Resources and tools
+
+{:toc}

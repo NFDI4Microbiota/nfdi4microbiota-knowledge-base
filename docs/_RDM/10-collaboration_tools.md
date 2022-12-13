@@ -1,5 +1,5 @@
 ---
-title: Data sharing and publishing
+title: Collaboration tools
 category: RDM
 layout: docs_home
 docs_css: markdown
