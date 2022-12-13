@@ -1,11 +1,18 @@
 ---
-title: Data repositories
+title: Data Repositories
 category: RDM
 layout: docs_home
 docs_css: markdown
 ---
+# Selection and preparation of data to be published
 
-# General overview of available repositories
+# Selection of a trusted repository
+
+## Criteria
+
+## In order of preference
+
+## Well-established repositories in microbiology
 [re3data](https://www.re3data.org/) offers a registry of research data repositories with a keyword search and overview of all subjects and disciplines.
 
 A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific meta data schemas).
@@ -26,3 +33,11 @@ EMBL-EBI provides the [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive)
 
 ## EMPIAR for electron microscopy data
 EMBL-EBI provides the [Electron Microscopy Public Image Archive (EMPIAR)](https://www.ebi.ac.uk/empiar) for most electron microscopy (EM) derived data.
+
+# Preprint servers
+
+# Benefits of publishing your research data
+
+# Further resources
+
+# References
