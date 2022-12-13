@@ -21,4 +21,4 @@ Below is a representation of this cycle:
 
 # Further resources
 
-# References
+# References 
