@@ -1,5 +1,5 @@
 ---
-title: Selection of a trusted repository
+title: Data repositories
 category: RDM
 layout: docs_home
 docs_css: markdown
