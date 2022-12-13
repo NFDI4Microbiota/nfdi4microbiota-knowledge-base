@@ -1,14 +1,16 @@
 ---
-title: Data documentation
+title: Data Documentation
 category: RDM
 layout: docs_home
 docs_css: markdown
 ---
 
-## Introduction
+# Introduction
 
-## README
+# README
 
-## Metadata standards
+# Metadata standards
 
-## Resources
+# Further resources
+
+# References
