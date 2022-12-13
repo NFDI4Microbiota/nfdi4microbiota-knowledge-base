@@ -1,177 +1,34 @@
-<nav class="navbar navbar-expand-lg navbar-light  bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
   <div class="container-fluid">
     <!-- Logo -->
     <a class="navbar-brand ms-2" href='https://nfdi4microbiota.de/'>
       <img src={{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }} alt="" width="400" height="80"
         class="img-fluid" style="max-height: 85px; max-width:150px;">
     </a>
-    <!-- <a class="navbar-brand ms-2" href="https://www.dfg.de/">
-      <img src={{ '/assets/img/dfg_logo_schriftzug_blau_foerderung_en__1200x376.png' | relative_url }} alt="" width="400"
-        height="100" class="img-fluid" style="max-height: 100px; max-width:250px;">
-    </a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+
+
+    <!-- Div needed for collapsible button-->
     <div class="collapse navbar-collapse align-self-sm-end" id="navbarSupportedContent">
-      <!-- Navigation items start -->
-      <ul class="nav navbar-nav ms-auto">
 
-        <!-- About Us-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            About Us
-          </a>
-          <ul class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <li class="dropdown-submenu">
-              <a href="#" data-bs-toggle="dropdown" class="dropdown-item">Work Program</a>
-              <ul class="dropdown-menu custom-dropdown submenu-ul">
-                <li>
-                  <a class="dropdown-item" href='https://nfdi4microbiota.de/work-programme/ta1-community-network-training'>TA
-                    1 – Community, Networking & Training </a>
-                  <hr class="dropdown-divider">
-                </li>
-                <li>
-                  <a class="dropdown-item" href='https://nfdi4microbiota.de/work-programme/ta2-standard-policies'>TA 2 –
-                    Standards & Policies</a>
-                  <hr class="dropdown-divider">
-                </li>
-                <li>
-                  <a class="dropdown-item" href='https://nfdi4microbiota.de/work-programme/ta3-services'>TA 3 – Services </a>
-                  <hr class="dropdown-divider">
-                </li>
-                <li>
-                  <a class="dropdown-item" href='https://nfdi4microbiota.de/work-programme/ta4-technical-infrastructure'>TA 4
-                    – Technical Infrastructure </a>
-                  <hr class="dropdown-divider">
-                </li>
-                <li>
-                  <a class="dropdown-item" href='https://nfdi4microbiota.de/work-programme/ta5-coordination-communication'>TA
-                    5 – Coordination & Communication </a>
-                </li>
-              </ul>
-            </li>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/consortium/partners'>Partners</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/consortium/participants'>Participants</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/consortium/supporting-societies'>Professional
-              Societies</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/consortium/international-partners'>International
-              Networks</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/consortium/interactions'>Interactions with other
-              NFDI Consortia</a>
+      <!--Move to the end of the navbar-->
+      <div class="ms-auto">
+        <!--Search bar-->
+        <form class="d-flex">
+          <input id="search-input-docs" class="form-control me-2" type="search" placeholder="Search Handbook" aria-label="Search">
+        </form>
+        <!--Search bar results-->
+        <div class="list-group search_result-docs" id="results-container-docs"></div>
 
-            <!-- submenu-->
-
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Community
-          </a>
-          <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/participate'>Roles of Participants</a>
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/ambassador'>Ambassador Program</a>
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/usecase'>Use Cases</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <!-- 
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Content Hub
-          </a>
-          <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href={{ '/consortium/partners' | relative_url }}>Partners</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/consortium/participants' | relative_url }}>Participants</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/consortium/supporting-societies' | relative_url }}>Professional
-              societies</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/consortium/international-partners' | relative_url }}>International
-              networks</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/consortium/interactions' | relative_url }}>Interactions with other
-              NFDI</a>
-  -->
-
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Content Hub
-          </a>
-          <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href={{ '/' | relative_url }}>Knowledge Base</a>
-            <!-- <hr class="dropdown-divider"> -->
-            <!-- <a class="dropdown-item" href={{ '/docs' | relative_url }}>Handbook</a>
-            <hr class="dropdown-divider"> -->
-            <!-- <a class="dropdown-item" href='https://nfdi4microbiota.de/content-hub/glossary'>Glossary</a> -->
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href='https://nfdi4microbiota.de/training/training'>
-            Training
-          </a>
-          <!-- <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/trainings/open-trainings">Open <span style="margin-left:15px;"><i class="fa-solid fa-lock-open"></i></span></a><hr class="dropdown-divider">
-            <a class="dropdown-item" href="/trainings/closed-trainings">Closed <span style="margin-left:15px;color:#ffb22d"><i class="fa-solid fa-lock"></i></span></a>
-          </div>-->
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Newsroom
-          </a>
-          <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/news'>Latest News</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/events'>Events</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/newsletter'>Newsletters</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/publications'>Publications</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item" href='https://nfdi4microbiota.de/latest/jobs'>Jobs</a>
-          </div>
-        </li>
-
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Downloads
-          </a>
-          <div class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href={{ '/downloads/community-workshops' | relative_url }}>Workshops</a><hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/downloads/nfdi-conferences' | relative_url }}>NFDI conferences</a><hr class="dropdown-divider">
-            <a class="dropdown-item" href={{ '/downloads/zenodo-communities' | relative_url }}>Zenodo communities</a>
-          </div>
-        </li> -->
-
-        <li class="nav-item">
-          <a class="nav-link" href='https://nfdi4microbiota.de/contact-form'>Contact & FAQ</a>
-        </li>
-
-        <!-- <li class="nav-item">
-          <a class="nav-link" href={{ '/contact-form' | relative_url }}>FAQs</a>
-        </li> -->
-
-      </ul>
-
-      <!-- Search bar -->
-      <!-- <form class="d-flex">
-        <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-warning" type="submit">Search</button>
-      </form> -->
-
+      </div>
+    
     </div>
+
   </div>
+
 </nav>
