@@ -1,77 +1,76 @@
-<div class="row flex-nowrap">
-    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
-      
-      <!--Sidebar-->
-      <div class="flex-shrink-0 p-3 bg-white">
+<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
+    
+    <div class="flex-shrink-0 p-3 bg-white">
 
         <!--Search bar-->
         <form class="d-flex">
-          <input id="search-input-docs" class="form-control me-2" type="search" placeholder="search handbook" aria-label="Search">
+            <input id="search-input-docs" class="form-control me-2" type="search" placeholder="search handbook" aria-label="Search">
         </form>
         <div class="list-group col-sm-1 search_result-docs" id="results-container-docs" style="width:12%;"></div>
 
         <!--Side bar items-->
         <ul class="list-unstyled ps-0">
 
-          <li class="border-top my-3"></li>
+            <li class="border-top my-3"></li>
 
-          <li class="mb-1">
+            <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rdm-collapse" aria-expanded="true">
-              Research Data Management (RDM)
+                Research Data Management (RDM)
             </button>
             <div class="collapse show" id="rdm-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 {% assign rdm_pages = site.RDM %}
                 {% for page in rdm_pages %}
-                  <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
-              </ul>
+                </ul>
             </div>
-          </li>
+            </li>
 
-          <li class="mb-1">
+            <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rda-collapse" aria-expanded="true">
-              Reproducible data analysis
+                Reproducible data analysis
             </button>
             <div class="collapse show" id="rda-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 {% assign rda_pages = site.RDA %}
                 {% for page in rda_pages %}
-                  <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
-              </ul>
+                </ul>
             </div>
-          </li>
+            </li>
 
-          <li class="mb-1">
+            <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#glossary-collapse" aria-expanded="true">
-              Glossary
+                Glossary
             </button>
             <div class="collapse show" id="glossary-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 {% assign glossary_pages = site.Glossary %}
                 {% for page in glossary_pages %}
-                  <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
-              </ul>
+                </ul>
             </div>
-          </li>
+            </li>
 
-          <li class="mb-1">
+            <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#examples-collapse" aria-expanded="true">
-              Examples
+                Examples
             </button>
             <div class="collapse show" id="examples-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 {% assign example_pages = site.Examples %}
                 {% for page in example_pages %}
-                  <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
-              </ul>
+                </ul>
             </div>
-          </li>
+            </li>
         
         </ul>
 
-      </div>
     </div>
+
+</div>
