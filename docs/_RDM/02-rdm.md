@@ -4,8 +4,9 @@ category: RDM
 layout: docs_home
 docs_css: markdown
 ---
+# Introduction
 
-## Research data life cycle
+# Research data life cycle
 The research data life cycle is the process that includes all methods and procedures along a research project [[PUBLISSO](https://www.publisso.de/en/research-data-management/)]. The cycle usually follows these steps:
 * Planning
 * Data Collection
@@ -18,6 +19,6 @@ Below is a representation of this cycle:
 
 ![Research data life cycle](/nfdi4microbiota-knowledge-base/assets/img/research_data_life_cycle.png)
 
-## Further resources
+# Further resources
 
-## References
+# References
