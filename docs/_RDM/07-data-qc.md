@@ -1,5 +1,5 @@
 ---
-title: Data quality control
+title: Data Quality Control
 category: RDM
 layout: docs_home
 docs_css: markdown
@@ -8,8 +8,8 @@ docs_css: markdown
 Qualtiy Control Expert Q&A
 
 Legend:
-FP = false positive result
-END = no solution, this problem is unsolvable
+* FP = false positive result
+* END = no solution, this problem is unsolvable
 
 
 # RNA-seq
@@ -149,9 +149,9 @@ END = no solution, this problem is unsolvable
 - **possible reason(s)**: humans are bad with ratios (0.01 = almost 0 and 100 is just large but not the largest bar ever)
 - **solution/measure**: use any log transformation (e.g. log10: 0.01 => -2, 100 => +2)
 
-# single cell
+# Single cell
 
-### quality check
+### Quality check
 1. peak at left/right side in gene or reads per cell histogram or log10-cummulative-number of reads per cell id
 - **source**: BD rhapsody pipeline, negative control study
 - **possible reason(s)**: left=cell fragments, right=multiplets present
@@ -161,7 +161,7 @@ END = no solution, this problem is unsolvable
 - **possible reason(s)**: using raw UMI counts
 - **solution/measure**: use DBEC/RSEC UMI counts
 
-### dim. reduction
+### Dim. reduction
 1. poor PCA/UMAP/tSNE embedding
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: using e.g. only one assay of count data for embedding
@@ -175,7 +175,7 @@ END = no solution, this problem is unsolvable
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
 
-### find subpopulations
+### Find subpopulations
 1. cluster form based for a specific batch index
 - **source**: Dim. reduction embedding + clustering, negative control study
 - **possible reason(s)**: batch effect
@@ -190,3 +190,7 @@ END = no solution, this problem is unsolvable
 - **source**: seurat/deseq, negative control study
 - **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling (https://www.science.org/doi/10.1126/science.aah4573)
 - **solution/measure**: never ever use excel or at least make sure that cell type is not "AUTO"
+
+# Further resources
+
+# References
