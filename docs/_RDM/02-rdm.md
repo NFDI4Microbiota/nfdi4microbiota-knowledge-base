@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 ## Research data life cycle
-The research data life cycle is the process that includes all methods and procedures along a research project ([PUBLISSO](https://www.publisso.de/en/research-data-management/)). The cycle usually follows these steps:
+The research data life cycle is the process that includes all methods and procedures along a research project [[PUBLISSO](https://www.publisso.de/en/research-data-management/)]. The cycle usually follows these steps:
 * Planning
 * Data Collection
 * Data Processing & Analysis
