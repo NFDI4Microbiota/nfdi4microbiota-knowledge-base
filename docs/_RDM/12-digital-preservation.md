@@ -5,16 +5,16 @@ layout: docs_home
 docs_css: markdown
 empty: true
 ---
-# Introduction
+## Introduction
 
 ## How and where to store data collected?
 
-# Best practices
+## Best practices
 
-# Selection of data to keep
+## Selection of data to keep
 
-# Recommended preservation formats for research data
+## Recommended preservation formats for research data
 
-# Further resources
+## Further resources
 
-# References
+## References
