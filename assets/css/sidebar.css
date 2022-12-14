@@ -76,9 +76,10 @@ main {
   margin-left: 1.25rem;
   text-decoration: none;
 }
+/* !important needed to overwrite gray highlight */ 
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: #f9c31b;
+  background-color: #f9c31b !important;
 }
 
 .scrollarea {

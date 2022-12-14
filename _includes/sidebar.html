@@ -20,8 +20,10 @@
                     <div class="collapse show" id="{{ collection.label }}-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <!-- Docs = document object with font matter info -->
-                        {% for page in collection.docs %}
-                            <li><a href="{{ page.url | relative_url }}" class="link-dark rounded {% if page.empty %} text-muted {% endif %}">{{ page.title }}</a></li>
+                        {% for doc in collection.docs %}
+                            <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
+                            <!-- list-group-item-secondary needed for gray highlight -->
+                            <li><a href="{{ doc.url | relative_url }}" class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{ doc.title }}</a></li>
                         {% endfor %}
                         </ul>
                     </div>
