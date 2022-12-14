@@ -13,7 +13,7 @@
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 {% assign rdm_pages = site.RDM %}
                 {% for page in rdm_pages %}
-                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded {% if page.empty %} text-muted {% endif %}">{{ page.title }}</a></li>
                 {% endfor %}
                 </ul>
             </div>

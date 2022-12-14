@@ -23,6 +23,11 @@ layout: default
       <!-- Contents of Markdown file-->
       {{ content }}
 
+      <!-- Check if page is under construction -->
+      {% if page.empty %}
+        <p>This page is currently empty. Please consider contributing! </p>
+      {% endif %}
+
       <!-- Edit button -->
       {% if page.url != "/" %}
         {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
