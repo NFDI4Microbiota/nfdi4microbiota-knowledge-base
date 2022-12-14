@@ -17,7 +17,7 @@ Data types in microbiology include the following:
 * Linked Open Data (LOD)
 * Macromolecular structures (e.g. electron microscopy data)
 * Microbiome data (e.g. physical microbiome interactions)
-* Nucleic acid sequences (raw seqeuncing data (reads or traces), genome assemblies, annotated sequences, sample metadata) such as:
+* Nucleic acid sequences (raw sequencing data (reads or traces), genome assemblies, annotated sequences, sample metadata) such as:
   * DNA sequences
     * (Meta)genomes
     * Genetic polymorphism
