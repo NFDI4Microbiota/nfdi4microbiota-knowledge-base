@@ -1,7 +1,9 @@
 ---
-title: 
+title: The NFDI4Microbiota Knowledge Base
+category: Getting-Started
 layout: docs_home
 docs_css: markdown
+permalink: /
 ---
 
 ## What is this Knowledge Base about?
