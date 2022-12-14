@@ -44,7 +44,7 @@ Primary raw data from experiments studying the microbiota consists in most cases
   * Genome Sequence Archive ([GSA](https://ngdc.cncb.ac.cn/gsa/))
   * **Metagenomes**: [MG-RAST](https://www.mg-rast.org/)
   * **Genetic polymorphism**: European Variation Archive ([EVA](https://www.ebi.ac.uk/eva/))
-  * Functional genomics** / **gene expression data**:
+  * **Functional genomics** / **gene expression data**:
     * Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/))
     * [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
     * [GenomeRNAi](http://www.genomernai.org/)
