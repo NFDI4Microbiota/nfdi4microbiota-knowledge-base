@@ -2,7 +2,7 @@
 layout: none
 ---
 [
-  {% assign posts = site.RDM | concat: site.RDA %}
+  {% assign posts = site.Getting-Started | concat: site.Research-Data-Management | concat: site.Research-Data-Analysis | concat: site.Standard-Operating-Procedures | concat: site.Resources | concat: site.How-We-Operate %}
   {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",

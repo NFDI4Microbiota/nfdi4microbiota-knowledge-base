@@ -1,6 +1,7 @@
 ---
 title: some title
-category: SOPs
+category: Standard-Operating-Procedures
 layout: docs_home
 docs_css: markdown
+empty: true
 ---

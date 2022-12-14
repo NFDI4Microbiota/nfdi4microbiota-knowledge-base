@@ -1,6 +1,7 @@
 ---
 title: Software containers
-category: RDA
+category: Research-Data-Analysis
 layout: docs_home
 docs_css: markdown
+empty: true
 ---

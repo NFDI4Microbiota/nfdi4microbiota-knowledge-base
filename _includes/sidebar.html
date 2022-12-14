@@ -1,0 +1,36 @@
+<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-3 rounded-start border-secondary">
+    
+    <div class="flex-shrink-0 p-3 bg-white">
+
+        <!--Side bar items-->
+        <ul class="list-unstyled ps-0">
+
+            {% assign collections = site.collections | sort: "order" %}
+            {% for collection in collections %}
+            <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
+            {% unless collection.label == "posts" %}
+
+            {% assign topic_name = collection.label | replace: "-", " " %}
+
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
+                        <!-- Label = name of collection -->
+                        {{ topic_name}}
+                    </button>
+                    <div class="collapse show" id="{{ collection.label }}-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <!-- Docs = document object with font matter info -->
+                        {% for page in collection.docs %}
+                            <li><a href="{{ page.url | relative_url }}" class="link-dark rounded {% if page.empty %} text-muted {% endif %}">{{ page.title }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+            {% endunless %}
+            {% endfor %}
+        
+        </ul>
+
+    </div>
+
+</div>
