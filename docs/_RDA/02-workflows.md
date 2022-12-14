@@ -21,8 +21,9 @@ Also consider uploading/providing intermediate results, if the pre-processing do
 
 ## Accessibility of the Workflow
 Similar to data, the workflow itself should be accessible and (re-)usable by a broad user-base.
-In particular, this means the workflow should:
-- Make use of an established, well documented, workflow-engine such as nextflow (https://www.nextflow.io/ ) or snakemake.
+In particular, this means the workflow should:  
+
+- Make use of an established, well documented, workflow-engine such as nextflow (https://www.nextflow.io/ ) or snakemake.
 - Be licensed under a permissive license.
 - Not make use of proprietary software in the pipeline (or work without it).
 - Be made available for download (e.g. on GitHub https://github.com/ ) and/or execution.
