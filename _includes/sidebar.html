@@ -5,20 +5,18 @@
         <!--Side bar items-->
         <ul class="list-unstyled ps-0">
 
-            {% for folder_name in site.data.navigation.folders %}
-            {% assign c = site.collections | where: "label" , folder_name %}
-            {{ c }}
-            {{ c.label }}
-            {% endfor %}
-
             {% for collection in site.collections %}
             <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
             {% unless collection.label == "posts" %}
 
+            {% assign topic_name = collection.label | split: "_" %}
+            {% assign topic_name = topic_name[1] %}
+            {% assign topic_name = topic_name | replace: "-", " " %}
+
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
                         <!-- Label = name of collection -->
-                        {{ collection.label }}
+                        {{ topic_name }}
                     </button>
                     <div class="collapse show" id="{{ collection.label }}-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -31,63 +29,6 @@
                 </li>
             {% endunless %}
             {% endfor %}
-
-
-            <!-- <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rdm-collapse" aria-expanded="true">
-                Research Data Management (RDM)
-            </button>
-            <div class="collapse show" id="rdm-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign rdm_pages = site.RDM %}
-                {% for page in rdm_pages %}
-                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded {% if page.empty %} text-muted {% endif %}">{{ page.title }}</a></li>
-                {% endfor %}
-                </ul>
-            </div>
-            </li>
-
-            <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rda-collapse" aria-expanded="true">
-                Reproducible data analysis
-            </button>
-            <div class="collapse show" id="rda-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign rda_pages = site.RDA %}
-                {% for page in rda_pages %}
-                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
-                {% endfor %}
-                </ul>
-            </div>
-            </li>
-
-            <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#glossary-collapse" aria-expanded="true">
-                Glossary
-            </button>
-            <div class="collapse show" id="glossary-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign glossary_pages = site.Glossary %}
-                {% for page in glossary_pages %}
-                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
-                {% endfor %}
-                </ul>
-            </div>
-            </li>
-
-            <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#examples-collapse" aria-expanded="true">
-                Examples
-            </button>
-            <div class="collapse show" id="examples-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign example_pages = site.Examples %}
-                {% for page in example_pages %}
-                    <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
-                {% endfor %}
-                </ul>
-            </div>
-            </li> -->
         
         </ul>
 
