@@ -10,23 +10,34 @@ Research data is "any information collected, stored, and processed to produce an
 
 # Common data types in microbiology
 Data types in microbiology include the following:
-* High-Throughput Sequencing (HTS) data also known as Next Generation Sequencing (NGS) data such as:
-  * Genomics (DNA-Seq) and metagenomics data
-  * Expression data (RNA-Seq)
-  * Specific procotols such as CLIP-Seq, HiC, RIP-Seq, RIL-Seq, Ribo-Seq
-* Proteomics
-* Metabolomics
 * Crystallographic data
-* Gene expression data from microarrays
 * Geospatial data
 * Image data
+* Linked genotype and phenotype data
 * Linked Open Data (LOD)
-* Macromolecular structures
-* Phenotypic data
-* Quantitative microbiological data
-* Semantic data
+* Macromolecular structures (e.g. electron microscopy data)
+* Microbiome data (e.g. physical microbiome interactions)
+* Nucleic acid sequences (raw seqeuncing data (reads or traces), genome assemblies, annotated sequences, sample metadata) such as:
+  * DNA sequences
+    * (Meta)genomes
+    * Genetic polymorphism
+    * Genomic features
+    * Genomic organization
+  * RNA sequences
+    * 16S ribosomal RNA sequences
+    * Functional genomics / gene expression data (e.g. ribosome profiling)
+    * RNA-protein interactions
+    * Small RNA (sRNA)
+    * Transcriptomics
+* Protein sequences
+  * Protein-protein interactions
+  * Proteomes
+* Quantitative and predictive food microbiology
 * Scientific texts
+* Semantic data
 * Species interaction data (e.g. physical microbial interaction data)
+* Standardized bacterial information
+* Vertebrate-virus network
 
 # Further resources
 
