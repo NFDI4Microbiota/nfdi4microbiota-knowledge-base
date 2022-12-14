@@ -63,7 +63,7 @@ collections:
   SOPs:
     output: true
     permalink: /:collection/:name
-  Glossary:
+  Resources:
     output: true
     permalink: /:collection/:name
   How-We-Operate:

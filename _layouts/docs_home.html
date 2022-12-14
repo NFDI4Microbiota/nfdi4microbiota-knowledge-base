@@ -56,11 +56,11 @@ layout: default
 
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#glossary-collapse" aria-expanded="true">
-              Glossary
+              Resources
             </button>
             <div class="collapse show" id="glossary-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign glossary_pages = site.Glossary %}
+                {% assign glossary_pages = site.Resources %}
                 {% for page in glossary_pages %}
                   <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
@@ -70,11 +70,11 @@ layout: default
 
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#examples-collapse" aria-expanded="true">
-              Examples
+              SOPs
             </button>
             <div class="collapse show" id="examples-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                {% assign example_pages = site.Examples %}
+                {% assign example_pages = site.SOPs %}
                 {% for page in example_pages %}
                   <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
                 {% endfor %}
