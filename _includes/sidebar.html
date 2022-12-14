@@ -5,18 +5,17 @@
         <!--Side bar items-->
         <ul class="list-unstyled ps-0">
 
-            {% for collection in site.collections %}
+            {% assign collections = site.collections | sort: "order" %}
+            {% for collection in collections %}
             <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
             {% unless collection.label == "posts" %}
 
-            {% assign topic_name = collection.label | split: "_" %}
-            {% assign topic_name = topic_name[1] %}
-            {% assign topic_name = topic_name | replace: "-", " " %}
+            {% assign topic_name = collection.label | replace: "-", " " %}
 
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
                         <!-- Label = name of collection -->
-                        {{ topic_name }}
+                        {{ topic_name}}
                     </button>
                     <div class="collapse show" id="{{ collection.label }}-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
