@@ -1,6 +1,6 @@
 ---
 title: Electronic Lab Notebooks (ELNs)
-category: RDM
+category: Research-Data-Management
 layout: docs_home
 docs_css: markdown
 ---

@@ -1,6 +1,6 @@
 ---
 title: Workflow Guidelines
-category: RDA
+category: Research-Data-Analysis
 layout: docs_home
 docs_css: markdown
 ---

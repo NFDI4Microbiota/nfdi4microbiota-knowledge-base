@@ -54,24 +54,30 @@ plugins:
 markdown: Kramdown
 collections_dir: docs
 collections:
-  01_Getting-Started:
+  Getting-Started:
     output: true
     permalink: /:collection/:name
-  RDM:
+    order: 1
+  Research-Data-Management:
     output: true
     permalink: /:collection/:name
-  RDA:
+    order: 2
+  Research-Data-Analysis:
     output: true
     permalink: /:collection/:name
+    order: 3
   SOPs:
     output: true
     permalink: /:collection/:name
+    order: 4
   Resources:
     output: true
     permalink: /:collection/:name
+    order: 5
   How-We-Operate:
     output: true
     permalink: /:collection/:name
+    order: 6
 
 # Plugin settings
 scholar:
