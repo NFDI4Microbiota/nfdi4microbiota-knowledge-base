@@ -32,8 +32,8 @@ before, during, and the training.
 for any training event. Here we list some points that should not be
 overlooked when preparing to provide a well-received training event.
 
-**Choose the right format and the right tools** Starting from your
-training goal, you need to decide what format will best help learners to
+### Choose the right format and the right tools
+Starting from your training goal, you need to decide what format will best help learners to
 attain the expertise you want to impart them with. How much **time** do
 you need to adequately teach the topics you intend to? For this question
 keep in mind that the learners will not be as quick to grasp the
@@ -74,7 +74,8 @@ data should be easily and downloadable in a reasonable amount of time.
 Create some form of documentation that the participants can follow
 during and after the course for reference.
 
-**Event Promotion** In order for people to want to join your training
+### Event Promotion
+In order for people to want to join your training
 event, they will need to know about your training event. Use what
 communication channels you have at your disposal to advertise the
 existence of your training opportunity. Make sure to **advertise early**
@@ -97,7 +98,8 @@ but participants will need to know where the course is held, **online**
 or at which **on-site** location, and what **times/dates** the training
 will take place.
 
-**Get help(ers)** Most training formats work better when not being
+### Get help(ers)
+Most training formats work better when not being
 carried out by a single person. For example, one person may present the
 content while another helps struggling trainees with installing
 software. Or in an online setting, one person may talk and present,
@@ -111,8 +113,9 @@ In preparation for the training event, all trainers/helpers should meet
 and **discuss what each person’s role is** (in preparing the event and
 in carrying out the event).
 
-**Contact the Participants** About a week before (depending on your
-format also earlier) the training event starts you might want to contact
+### Contact the Participants
+About a week before the training event starts (depending on your
+format possibly earlier), you might want to contact
 the people that registered to remind them of your training event and
 provide additional detail/info. When communicating with a larger group
 of people, possibly from different institutions, via email, do not put
@@ -151,7 +154,8 @@ through a web browser. Ideally you would also give the participants a
 contact person who is able and willing to assist with software issues in
 preparation for the event.
 
-**Plan the content/structure** When preparing the content/structure of
+### Plan the content/structure
+When preparing the content/structure of
 the training course/event, there are a few points you may want to
 consider. To not overwhelm the trainees, split the training into
 **multiple shorter intervals/sessions**. Each session should be limited
@@ -190,14 +194,16 @@ FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100
 
 ## During the Training
 
-**Arrival** Before the first session of your training event you should
+### Arrival
+Before the first session of your training event you should
 aim to **be 10-15 min early** at the facilities (on-site) or online.
 This will give you time to finish your setup (e.g. connecting to the
 beamer on-site) or to recognize, and hopefully fix, technical issues
 (e.g. a missing link for an online meeting), as well as greet the
 attendees.
 
-**Introduction** Before you begin presenting the actual content you mean
+### Introduction
+Before you begin presenting the actual content you mean
 to impart on your trainees, **introduce the training team** (i.e.
 yourself but also any helpers) involved in the meeting. This will allow
 the attendees to recognize contact persons for questions that might
@@ -240,7 +246,8 @@ and publishing them, e.g., on social media, or for requiring
 participants to write down their names/email addresses or similar in
 shared documents.
 
-**Presentations** The presentations should be kept **relevant to the
+### Presentations
+The presentations should be kept **relevant to the
 topic** and further the understanding of the learning goals. They should
 enable the listeners to work on any following hands-on exercises
 independently. It is a good idea for each session to **start with an
@@ -272,7 +279,8 @@ for a live demonstration of a command line tool, explain why you set the
 options/flags you did, and wait a second before pressing enter once the
 command is fully typed.
 
-**Breaks** Allow for frequent breaks. New information can quickly
+### Breaks
+Allow for frequent breaks. New information can quickly
 overwhelm learners and breaks help to alleviate this. Further, breaks
 offer a good transition point from one topic to another, or one activity
 to another (e.g. switching between teaching and hands-on exercises).
@@ -287,7 +295,8 @@ afterwards. When the time for a scheduled break comes, make sure that
 you **do not go over time**. Participants, especially online, may have
 made plans around that schedule.
 
-**Hands-On Exercises** Depending on the format and topic of the training
+### Hands-On Exercises
+Depending on the format and topic of the training
 event, hands-on exercises are great for engaging the trainees and
 reinforcing their understanding of the material. You should aim to
 **find a good balance** between teaching presentations and hands-on
@@ -301,7 +310,8 @@ make it clear to the participants **how to ask for support**. You may
 also proactively ask the teams/individuals how they are doing and
 whether assistance is needed.
 
-**Closure** At the end of your training event, you should **give an
+### Closure
+At the end of your training event, you should **give an
 overview/summary** of the achieved learning goals from the introduction.
 
 You should make sure that you **do not go over time**. The trainees have
@@ -337,4 +347,4 @@ learned/been exposed to during the event. You are also encouraged to
 **share the teaching materials with other trainers** such that they can
 benefit from the work you already provided. If you do so, make sure to
 state under what license you provide your work. We suggest a permissive
-license such as „CC BY“, or „CC 0“.
+license such as [CC BY](https://creativecommons.org/licenses/by/4.0/), or „CC 0“.
