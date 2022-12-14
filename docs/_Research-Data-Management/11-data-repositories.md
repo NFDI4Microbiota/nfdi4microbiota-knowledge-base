@@ -36,7 +36,7 @@ Primary raw data from experiments studying the microbiota consists in most cases
   * Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/))
   * Electron Microscopy Public Image Archive ([EMPIAR](https://www.ebi.ac.uk/empiar/)) for most electron microscopy (EM) derived data.
 * **Microbiome data**: [MGnify](https://www.ebi.ac.uk/metagenomics/)
-* **Nucleic acid sequences** (raw seqeuncing data (reads or traces), genome assemblies, annotated sequences, sample metadata):
+* **Nucleic acid sequences** (raw sequencing data (reads or traces), genome assemblies, annotated sequences, sample metadata):
   * [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)
   * DNA Data Bank of Japan ([DDBJ](https://www.ddbj.nig.ac.jp/index-e.html))
   * European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) which hosts world-wide data from raw sequencing runs to sequence assembly information and functional annotation.
