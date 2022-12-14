@@ -81,6 +81,20 @@ layout: default
               </ul>
             </div>
           </li>
+
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#operations-collapse" aria-expanded="true">
+              How We Operate
+            </button>
+            <div class="collapse show" id="operations-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                {% assign example_pages = site.How-We-Operate %}
+                {% for page in example_pages %}
+                  <li><a href="{{ page.url | relative_url }}" class="link-dark rounded">{{ page.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
         
         </ul>
 

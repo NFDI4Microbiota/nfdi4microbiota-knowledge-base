@@ -66,6 +66,9 @@ collections:
   Glossary:
     output: true
     permalink: /:collection/:name
+  How-We-Operate:
+    output: true
+    permalink: /:collection/:name
 
 # Plugin settings
 scholar:
