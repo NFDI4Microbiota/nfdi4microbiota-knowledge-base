@@ -54,7 +54,7 @@ plugins:
 markdown: Kramdown
 collections_dir: docs
 collections:
-  Getting-Started:
+  01_Getting-Started:
     output: true
     permalink: /:collection/:name
   RDM:
