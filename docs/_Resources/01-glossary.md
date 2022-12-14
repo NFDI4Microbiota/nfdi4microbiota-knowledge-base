@@ -1,6 +1,6 @@
 ---
 title: Glossary
-category: Glossary
+category: Resources
 layout: docs_home
 docs_css: markdown
 ---

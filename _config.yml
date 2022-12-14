@@ -54,16 +54,22 @@ plugins:
 markdown: Kramdown
 collections_dir: docs
 collections:
+  Getting-Started:
+    output: true
+    permalink: /:collection/:name
   RDM:
     output: true
     permalink: /:collection/:name
   RDA:
     output: true
     permalink: /:collection/:name
-  Glossary:
+  SOPs:
     output: true
     permalink: /:collection/:name
-  Examples:
+  Resources:
+    output: true
+    permalink: /:collection/:name
+  How-We-Operate:
     output: true
     permalink: /:collection/:name
 

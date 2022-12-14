@@ -1,4 +1,9 @@
-# Contributing to the NFDI4Micobiota Knowledge Base
+---
+title: Contributing to the NFDI4Micobiota Knowledge Base
+category: Getting-Started
+layout: docs_home
+docs_css: markdown
+---
 
 This document contains instructions on how to contribute to the Knowledge base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
@@ -8,7 +13,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 2. Make changes to files in the repository:
     - Edit existing files *or*
     - Create new files
-3. Add your name to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file
+3. Add your name to the [03-Contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-Contributors.md) file
 
 ## Create a GitHub account
 
@@ -20,7 +25,7 @@ Users will need a GitHub account if they wish to contribute to the Knowledge Bas
 
 In order to make changes to the respository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
-*Note: Markdown files are files which end with the `.md` suffix for example, this `CONTRIBUTING.md` file. Please do not try to edit non Markdown files.*
+*Note: Markdown files are files which end with the `.md` suffix for example, this `02-Contributing.md` file. Please do not try to edit non Markdown files.*
 
 To edit an existing file:
 
@@ -63,7 +68,7 @@ We appreciate your contribution! Please add your name to the [CONTRIBUTORS.md](C
 
 ## Code of Conduct
 
-Please make sure you follow the [code of conduct](_docs/code-of-conduct-overview.md).
+Please make sure you follow the [code of conduct](code-of-conduct-overview.md).
 
 ## Markdown Style Guide
 
