@@ -4,10 +4,8 @@ category: Research-Data-Management
 layout: docs_home
 docs_css: markdown
 ---
-# Introduction
-
-# Research data life cycle
-The research data life cycle is the process that includes all methods and procedures along a research project [[PUBLISSO](https://www.publisso.de/en/research-data-management/)]. The cycle usually follows these steps:
+# Definition of Research Data Management (RDM)
+Research Data Management (RDM) is the process that includes all methods and procedures that aim to make research data usable over the long-term. RDM usually includes the following steps:
 * Planning
 * Data Collection
 * Data Processing & Analysis
@@ -15,10 +13,28 @@ The research data life cycle is the process that includes all methods and proced
 * Digital Preservation
 * Data Discovery & Reuse
 
-Below is a representation of this cycle:
+# Research data life cycle
+The RDM steps can be represented as a cycle called the research data life cycle. 
 
+<p align="center">
 ![Research data life cycle](/nfdi4microbiota-knowledge-base/assets/img/research_data_life_cycle.png)
+</p>
+
+# Benefits of RDM
+* Researchers' own interests
+    * Good Scientific Practice (GSP)
+    * Knowledge management / transfer
+    * Preventing data loss
+    * Saving yourself time in the future 
+* External interests
+    * Research funders
+    * Publishers
+    * Researchers' own institution
+
+# Consequences of poor RDM
+Consequences of poor RDM include paper retraction (e.g. [González Amorós & de Puit](https://doi.org/10.1016/j.scijus.2015.04.005)).
 
 # Further resources
-
-# References 
+* A [Brief Guide - Research Data Management](https://doi.org/10.5281/zenodo.4000989) for busy people
+* [bio.tools](https://bio.tools/)
+* [Coscine | The research data management platform](https://coscine.de/)
