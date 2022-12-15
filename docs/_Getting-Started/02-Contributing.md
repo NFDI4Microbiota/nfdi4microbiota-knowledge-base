@@ -77,6 +77,7 @@ When editing files, please observe the following rules:
 1. Use American English
 2. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
 3. Place image files in the `assets/img/` directory
+N.B. we might edit your contribution to homogenize the writing style.
 
 ## Cite sources
 
