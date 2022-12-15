@@ -6,16 +6,11 @@ docs_css: markdown
 redirect_from: /Resources
 ---
 
-## Introduction
+* **Data Management Plan (DMP):** formal and living document to describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible.
+* **Data repository:** location where digital (and physical) objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
+* **Digital preservation:** act of ensuring continued findability and access to digital material and maintaining it independently understandable and reusable by a designated community, and with evidence supporting its authenticity, for as long as necessary.
+* **Persistent Identifier (PID):** globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
 
-See also https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/
-
-## Data Dictionary
-
-https://codata.org/rdm-terminology/data-dictionary/
-
-## EDAM - Ontology of bioscientific data analysis and data management
-
-see http://edamontology.org
-
-## RO-Crate
+## Further resources
+* [EDAM - Ontology of bioscientific data analysis and data management](http://edamontology.org/page)
+* [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)
