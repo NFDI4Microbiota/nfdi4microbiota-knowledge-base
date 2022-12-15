@@ -73,6 +73,7 @@ redirect_from: /Resources
 ## Further resources
 * [BIO514 - Systems medicine - Microbiome - Glossary](http://siobhonlegan.com/BIO514-microbiome/#glossary)
 * [Bioinformatics Glossary](https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470904640.app3)
+* Chiu, C.Y., Miller, S.A. Clinical metagenomics. Nat Rev Genet 20, 341–355 (2019). [https://doi.org/10.1038/s41576-019-0113-7](https://doi.org/10.1038/s41576-019-0113-7)
 * [EDAM - Ontology of bioscientific data analysis and data management](http://edamontology.org/page)
 * [Glossary - Data processing and visualization for metagenomics](https://carpentries-incubator.github.io/metagenomics/reference.html)
 * [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)
