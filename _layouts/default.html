@@ -38,7 +38,7 @@
         <!--Sidebar-->
         {%- include sidebar.html -%}
       
-        <div class="col-md-7 col-lg-7 col-xl-7 col-sm-12 py-3" id="main-text">
+        <div class="col-md-7 col-lg-7 col-xl-7 col-sm-12 py-3">
           {%- include breadcrumb.html -%}
           <!-- <h2 class="my-4 d-flex align-items-center justify-content-center"> {{ page.title }} </h2> -->
           <div class="m-0 p-0">
@@ -47,7 +47,10 @@
           
           <hr class="N4MColor">
           <!-- Contents of Markdown file-->
-          {{ content }}
+          <div id="markdown-content">
+            {{ content }}
+          </div>
+          
     
           <!-- Check if page is under construction -->
           {% if page.empty %}
