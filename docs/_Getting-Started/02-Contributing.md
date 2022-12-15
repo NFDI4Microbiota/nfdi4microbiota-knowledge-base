@@ -64,19 +64,20 @@ To create a new issue:
 
 ## Add your name to the CONTRIBUTORS file
 
-We appreciate your contribution! Please add your name to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
+We appreciate your contribution! Please add your name to the [Contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-Contributors.md) file.
 
-## Code of Conduct
 
-Please make sure you follow the [code of conduct](code-of-conduct-overview.md).
+## Contribution Rules
 
-## Markdown Style Guide
+When adding or editing files, please observe the following rules:
 
-When editing files, please observe the following rules:
+1. Use respectful and inclusive language
+2. Use American English
+3. Keep the content factual
+4. Reference sources appropriately (see below)
+5. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
+6. Place image files in the `assets/img/` directory
 
-1. Use American English
-2. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
-3. Place image files in the `assets/img/` directory
 
 ## Cite sources
 
