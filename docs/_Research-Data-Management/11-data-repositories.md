@@ -85,7 +85,13 @@ Primary raw data from experiments studying the microbiota consists in most cases
 * **Standardized bacterial information**: Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/))
 * **Vertebrate-virus network**: [VIRION](https://viralemergence.github.io/virion/)
 
-# Benefits of publishing your research data in a data repository
+# Benefits of publishing your research data
+* Making data available over the long-term, reusable and citable
+* Making data an independent scientific result
+* Giving the possibility for meta-analyses
+* Increasing visibility, transparency and accountability
+
+# …in a data repository
 * Back-up 
 * Increased data discoverability and accessibility, and thus potential data reuse
 * Increased visibility and citations as repositories can be harvested by search engines such as:
