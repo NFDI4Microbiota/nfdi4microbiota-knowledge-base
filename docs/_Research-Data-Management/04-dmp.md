@@ -7,9 +7,7 @@ docs_css: markdown
 
 
 # Introduction
-Data Management Plans (DMPs) are [officially required for DFG proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and by [European Horizon 2020 within the first six months of the project start](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm).
-DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes.
-For researchers and other stakeholders, DMPs are meant as a living document that accompanies a research project from proposal writing or project start to data generation, analysis, publication and archiving.
+Data Management Plans (DMPs) are required [in DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html), and are also sometimes required by researchers' own institution. DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers, DMPs are meant as a living document accompanying them from proposal writing or project start to data generation, analysis, publication and archiving.
 
 # Content of DMPs
 DMPs usually contain information that covers the whole research data life cycle, as well as general information such as:
