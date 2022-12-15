@@ -1,7 +1,7 @@
 ---
 title: Contributing to the NFDI4Micobiota Knowledge Base
 category: Getting-Started
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 
