@@ -13,4 +13,4 @@ Electronic Lab Notebooks (ELNs) are software meant to document experiments and r
 * ELN Guide - ELNs in the context of research data management and good research practice – a guide for the life sciences ([English](https://dx.doi.org/10.4126/FRL01-006425772), [German](https://dx.doi.org/10.4126/FRL01-006422868)).
 * Free consultation sessions to get advice on the selection and introduction of an ELN (<forschungsdaten@zbmed.de>).
 * [Video tutorial series](https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K) (only in German).
-* Working groups on ELNs (e.g. in [North Rhine-Westphalia](https://www.fdm.nrw/index.php/fdm-nrw/elb/), Germany).
+* Working groups on ELNs.
