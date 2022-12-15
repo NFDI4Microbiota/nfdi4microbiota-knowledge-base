@@ -43,44 +43,44 @@ A potential repository should optimally widely used (in similar publications in 
 ## Well-established repositories in microbiology
 Primary raw data from experiments studying the microbiota consists in most cases of either sequence data, mass spectra or images and derived results.
 
-| Data type     | Data repository | FAIRsharing   | re3data       |
-| ------------- | --------------- | ------------- | ------------- |
-| **Crystallographic data**  | Cambridge Structural Database ([CSD](https://www.ccdc.cam.ac.uk/solutions/csd-core/components/csd/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.vs7865)  | [re3data](https://www.re3data.org/repository/r3d100010197)  |
-| **Geospatial data**  | Malaria Atlas Project ([MAP](https://malariaatlas.org/))  | /  | [re3data](https://www.re3data.org/repository/r3d100011838)  |
-| **Image data**  | [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.x38D2k)  | [re3data](https://www.re3data.org/repository/r3d100013949)  |
-|   | [Cell Image Library](http://www.cellimagelibrary.org/home)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.8t18te)  | [re3data](https://www.re3data.org/repository/r3d100000023) |
-| **Linked genotype and phenotype data**  | European Genome-phenome Archive ([EGA](https://ega-archive.org/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff)  | [re3data](https://www.re3data.org/repository/r3d100011242)  |
-| **Linked Open Data (LOD)**  | [The Linked Open Data Cloud](https://lod-cloud.net/)  | /  | /  |
-| **Macromolecular structures**  | Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4)  | [re3data](https://www.re3data.org/repository/r3d100011104)  |
-|   | Biological Magnetic Resonance Data Bank ([BMRB](https://bmrb.io/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.p06nme)  | [re3data](https://www.re3data.org/repository/r3d100010191)  |
-| **Electron microscopy data**  | Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.651n9j)  | [re3data](https://www.re3data.org/repository/r3d100010562)  |
-|   | Electron Microscopy Public Image Archive ([EMPIAR](https://www.ebi.ac.uk/empiar/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.dff3ef)  | [re3data](https://www.re3data.org/repository/r3d100012356)  |
-| **Microbiome data**  | [MGnify](https://www.ebi.ac.uk/metagenomics/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.dxj07r)  | [re3data](https://www.re3data.org/repository/r3d100011192)  |
-| **Nucleic acid sequences**  | [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.9kahy4)  | [re3data](https://www.re3data.org/repository/r3d100010528)  |
-|   | DNA Data Bank of Japan ([DDBJ](https://www.ddbj.nig.ac.jp/index-e.html))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.a308a0)  | [re3data](https://www.re3data.org/repository/r3d100010218)  |
-|   | European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.dj8nt8)  | [re3data](https://www.re3data.org/repository/r3d100010527)  |
-|   | Sequence Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.g7t2hv)  | [re3data](https://www.re3data.org/repository/r3d100010775)  |
-|   | Genome Sequence Archive ([GSA](https://ngdc.cncb.ac.cn/gsa/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.tdhkc6)  | [re3data](https://www.re3data.org/repository/r3d100012342)  |
-| **Metagenomes**  | [MG-RAST](https://www.mg-rast.org/)  | /  | [re3data](https://www.re3data.org/repository/r3d100011031)  |
-| **Genetic polymorphism**  | European Variation Archive ([EVA](https://www.ebi.ac.uk/eva/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.6824pv)  | [re3data](https://www.re3data.org/repository/r3d100011553)  |
-| **Functional genomics**  | Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.5hc8vt)  | [re3data](https://www.re3data.org/repository/r3d100010283)  |
-|   | [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.6k0kwd)  | [re3data](https://www.re3data.org/repository/r3d100010222)  |
-|   | [GenomeRNAi](http://www.genomernai.org/)  | /  | [re3data](https://www.re3data.org/repository/r3d100011089)  |
-|   | European Genome-phenome Archive ([EGA](https://ega-archive.org/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff)  | [re3data](https://www.re3data.org/repository/r3d100011242)  |
-|   | Database of Interacting Proteins ([DIP](https://dip.doe-mbi.ucla.edu/dip/Main.cgi))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.qje0v8)  | [re3data](https://www.re3data.org/repository/r3d100010670)  |
-|   | [IntAct](https://www.ebi.ac.uk/intact/home)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.d05nwx)  | [re3data](https://www.re3data.org/repository/r3d100010671)  |
-|   | Japanese Genotype-phenotype Archive ([JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.pwgf4p)  | [re3data](https://www.re3data.org/repository/r3d100012689)  |
-|   | [PubChem](https://pubchem.ncbi.nlm.nih.gov/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.qt3w7z)  | [re3data](https://www.re3data.org/repository/r3d100010129)  |
-|   | Genomic Expression Archive ([GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.hESBcy)  | [re3data](https://www.re3data.org/repository/r3d100013187)  |
-|   | Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog  | [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx)  | /  |
-| **Protein sequences**  | [UniProt](https://www.uniprot.org/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g)  | [re3data](https://www.re3data.org/repository/r3d100010357)  |
-| **Protein-protein interactions**  | [STRING](https://string-db.org/)  | [FAIRsharing](https://fairsharing.org/FAIRsharing.9b7wvk)  | [re3data](https://www.re3data.org/repository/r3d100010604)  |
-| **Proteomes**  | PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database  | [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny)  | [re3data](https://www.re3data.org/repository/r3d100010137)  |
-| **Quantitative and predictive food microbiology**  | [ComBase](https://www.combase.cc/index.php/en/)  | /  | [re3data](https://www.re3data.org/repository/r3d100010878)  |
-| **Scientific texts**  | [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/)  | [FAIRsharing](https://fairsharing.org/4357)  | [re3data](https://www.re3data.org/repository/r3d100013523)  |
-| **Species interaction data**  | Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/))  | /  | /  |
-| **Standardized bacterial information**  | Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/))  | [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY)  | [re3data](https://www.re3data.org/repository/r3d100013060)  |
-| **Vertebrate-virus network**  | [VIRION](https://viralemergence.github.io/virion/)  | /  | /  |
+| Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
+|---	|---	|---	|---	|
+| **Crystallographic data** 	| Cambridge Structural Database ([CSD](https://www.ccdc.cam.ac.uk/solutions/csd-core/components/csd/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.vs7865) 	| [re3data](https://www.re3data.org/repository/r3d100010197) 	|
+| **Geospatial data** 	| Malaria Atlas Project ([MAP](https://malariaatlas.org/)) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100011838) 	|
+| **Image data** 	| [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.x38D2k) 	| [re3data](https://www.re3data.org/repository/r3d100013949) 	|
+|  	| [Cell Image Library](http://www.cellimagelibrary.org/home) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.8t18te) 	| [re3data](https://www.re3data.org/repository/r3d100000023) 	|
+| **Linked genotype and phenotype data** 	| European Genome-phenome Archive ([EGA](https://ega-archive.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff) 	| [re3data](https://www.re3data.org/repository/r3d100011242) 	|
+| **Linked Open Data (LOD)** 	| [The Linked Open Data Cloud](https://lod-cloud.net/) 	| / 	| / 	|
+| **Macromolecular structures** 	| Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4) 	| [re3data](https://www.re3data.org/repository/r3d100011104) 	|
+|  	| Biological Magnetic Resonance Data Bank ([BMRB](https://bmrb.io/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.p06nme) 	| [re3data](https://www.re3data.org/repository/r3d100010191) 	|
+| **Electron microscopy data** 	| Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.651n9j) 	| [re3data](https://www.re3data.org/repository/r3d100010562) 	|
+|  	| Electron Microscopy Public Image Archive ([EMPIAR](https://www.ebi.ac.uk/empiar/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dff3ef) 	| [re3data](https://www.re3data.org/repository/r3d100012356) 	|
+| **Microbiome data** 	| [MGnify](https://www.ebi.ac.uk/metagenomics/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dxj07r) 	| [re3data](https://www.re3data.org/repository/r3d100011192) 	|
+| **Nucleic acid sequences** 	| [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.9kahy4) 	| [re3data](https://www.re3data.org/repository/r3d100010528) 	|
+|  	| DNA Data Bank of Japan ([DDBJ](https://www.ddbj.nig.ac.jp/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.a308a0) 	| [re3data](https://www.re3data.org/repository/r3d100010218) 	|
+|  	| European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dj8nt8) 	| [re3data](https://www.re3data.org/repository/r3d100010527) 	|
+|  	| Sequence Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.g7t2hv) 	| [re3data](https://www.re3data.org/repository/r3d100010775) 	|
+|  	| Genome Sequence Archive ([GSA](https://ngdc.cncb.ac.cn/gsa/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.tdhkc6) 	| [re3data](https://www.re3data.org/repository/r3d100012342) 	|
+| **Metagenomes** 	| [MG-RAST](https://www.mg-rast.org/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100011031) 	|
+| **Genetic polymorphism** 	| European Variation Archive ([EVA](https://www.ebi.ac.uk/eva/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.6824pv) 	| [re3data](https://www.re3data.org/repository/r3d100011553) 	|
+| **Functional genomics** 	| Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.5hc8vt) 	| [re3data](https://www.re3data.org/repository/r3d100010283) 	|
+|  	| [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.6k0kwd) 	| [re3data](https://www.re3data.org/repository/r3d100010222) 	|
+|  	| [GenomeRNAi](http://www.genomernai.org/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100011089) 	|
+|  	| European Genome-phenome Archive ([EGA](https://ega-archive.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff) 	| [re3data](https://www.re3data.org/repository/r3d100011242) 	|
+|  	| Database of Interacting Proteins ([DIP](https://dip.doe-mbi.ucla.edu/dip/Main.cgi)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.qje0v8) 	| [re3data](https://www.re3data.org/repository/r3d100010670) 	|
+|  	| [IntAct](https://www.ebi.ac.uk/intact/home) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d05nwx) 	| [re3data](https://www.re3data.org/repository/r3d100010671) 	|
+|  	| Japanese Genotype-phenotype Archive ([JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pwgf4p) 	| [re3data](https://www.re3data.org/repository/r3d100012689) 	|
+|  	| [PubChem](https://pubchem.ncbi.nlm.nih.gov/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.qt3w7z) 	| [re3data](https://www.re3data.org/repository/r3d100010129) 	|
+|  	| Genomic Expression Archive ([GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.hESBcy) 	| [re3data](https://www.re3data.org/repository/r3d100013187) 	|
+|  	| Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) 	| / 	|
+| **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
+| **Protein-protein interactions** 	| [STRING](https://string-db.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.9b7wvk) 	| [re3data](https://www.re3data.org/repository/r3d100010604) 	|
+| **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
+| **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
+| **Scientific texts** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
+| **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
+| **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
+| **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
 
 # Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable
