@@ -23,19 +23,6 @@ In a DMP, researchers usually describe the data, their generation and processing
 * Legal aspects and anonymisation
 * Deletion
 
-# DMP templates
-
-## Health Sciences
-* University of Minnesota (incl. School of Public Health): [web page](https://www.lib.umn.edu/services/data/dmp-examples)
-* Clinical trials
-    * National Institutes of Health (NIH): [download](https://www.nidcr.nih.gov/sites/default/files/2018-03/clinical-data-management-plan-template_0.docx)
-    * PAPA-ARTiS: [download](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b6899b9b&appId=PPGMS)
-    * European Clinical Research Infrastructure Network (ECRIN): [pdf (p. 48)](https://ecrin.org/sites/default/files/Data%20centre%20certification/Standards%20v4%20201804.pdf)
-
-## Biological & Environmental Sciences
-* German Federation for Biological Data (GFBio): [web page](https://dmp.gfbio.org/)
-* DataPlant: [web page](https://nfdi4plants.de/dataplan/)
-
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
 
@@ -47,12 +34,26 @@ When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
 In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia.
 This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders.
+
+# DMP templates
 RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder.
 This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects.
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
 # Further resources
 * **Example of a good DMP**: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
+
+## DMP templates
+## Biological & Environmental Sciences
+* German Federation for Biological Data (GFBio): [web page](https://dmp.gfbio.org/)
+* DataPlant: [web page](https://nfdi4plants.de/dataplan/)
+
+## Health Sciences
+* University of Minnesota (incl. School of Public Health): [web page](https://www.lib.umn.edu/services/data/dmp-examples)
+* Clinical trials
+    * National Institutes of Health (NIH): [download](https://www.nidcr.nih.gov/sites/default/files/2018-03/clinical-data-management-plan-template_0.docx)
+    * PAPA-ARTiS: [download](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b6899b9b&appId=PPGMS)
+    * European Clinical Research Infrastructure Network (ECRIN): [pdf (p. 48)](https://ecrin.org/sites/default/files/Data%20centre%20certification/Standards%20v4%20201804.pdf)
 
 ## Machine-actionable DMPs (maDMPs)
 * Michener WK. Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol. 2015 Oct 22;11(10):e1004525. https://doi.org/10.1371/journal.pcbi.1004525
