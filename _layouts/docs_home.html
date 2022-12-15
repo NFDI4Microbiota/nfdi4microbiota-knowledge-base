@@ -30,10 +30,12 @@ layout: default
       {% endif %}
 
       <!-- Edit button -->
+      <!-- NOTE: All page names should be in lower case-->
       {% if page.url != "/" %}
         {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
       {% else %}
-        {% assign git_url = page.url | replace_first:'/', 'index' %}
+      <!-- The second argument for replace_first should be the url of the homepage-->
+        {% assign git_url = page.url | replace_first:'/', '_Getting-Started/01-introduction' %}
       {% endif %}
       <a 
         href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
