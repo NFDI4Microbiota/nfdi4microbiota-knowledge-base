@@ -7,8 +7,11 @@
 
             {% assign collections = site.collections | sort: "order" %}
             {% for collection in collections %}
+            {% assign num_hidden = collection.docs | where: "hide", true | size %}
+            {% assign collection_size = collection.docs | size %}
             <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
-            {% unless collection.label == "posts" %}
+            {% unless collection.label == "posts" or num_hidden == collection_size %}
+
 
             {% assign topic_name = collection.label | replace: "-", " " %}
 
