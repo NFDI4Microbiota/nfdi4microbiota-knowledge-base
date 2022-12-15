@@ -26,9 +26,9 @@ In a DMP, researchers usually describe the data, their generation and processing
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
 
-- **Transparency and reproducibility:** Besides serving as a reporting tool for funders and governing institutions, a DMP can be handed to new collaborators of a project to convey a short description, experimental design, methodological spectrum, proposed hypotheses and general progress of a project. This way, all stakeholders can quickly look up the state of data, find the responsible person for questions and document their own contribution.
-- **Resource management:** Including a timeline of personal and lab resource availability can enable service facilities (e.g. sequencing or IT) to more accurately schedule their resources/capacity and project costs.
-- **Standardize processes:** DMPs can easily be shared with and adapted to similar projects lead by researchers in the same field/institute to reduce the effort for new proposals and resort to fixed entities (e.g. ethical board).
+- **Transparency and reproducibility:** besides serving as a reporting tool for funders and governing institutions, a DMP can be handed to new collaborators of a project to convey a short description, experimental design, methodological spectrum, proposed hypotheses and general progress. This way, all stakeholders can quickly look up the state of data, find the responsible person for questions and document their own contribution.
+- **Resource management:** including a timeline of personal and lab resource availability can enable service facilities (e.g. sequencing or IT) to more accurately schedule their resources/capacity and project costs.
+- **Standardize processes:** DMPs can easily be adapted to similar projects by researchers in the same field/institute to reduce the effort for new proposals and resort to fixed entities (e.g. ethical board).
 
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
