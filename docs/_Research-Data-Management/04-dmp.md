@@ -53,7 +53,6 @@ These templates usually contain much more aspects that do not have to be answere
     * Clinical trials
         * National Institutes of Health (NIH): [download](https://www.nidcr.nih.gov/sites/default/files/2018-03/clinical-data-management-plan-template_0.docx)
         * PAPA-ARTiS: [download](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b6899b9b&appId=PPGMS)
-        * European Clinical Research Infrastructure Network (ECRIN): [pdf (p. 48)](https://ecrin.org/sites/default/files/Data%20centre%20certification/Standards%20v4%20201804.pdf)
 
 ### Machine-actionable DMPs (maDMPs)
 * Michener WK. Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol. 2015 Oct 22;11(10):e1004525. https://doi.org/10.1371/journal.pcbi.1004525
