@@ -52,7 +52,7 @@ This ensures machine-actionable compatibility for administrative stakeholders an
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
 # Further resources
-* Example of a good DMP: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
+* **Example of a good DMP**: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
 
 ## Machine-actionable DMPs (maDMPs)
 * Michener WK. Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol. 2015 Oct 22;11(10):e1004525. https://doi.org/10.1371/journal.pcbi.1004525
