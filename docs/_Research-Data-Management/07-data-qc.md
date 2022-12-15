@@ -12,7 +12,7 @@ Legend:
 * END = no solution, this problem is unsolvable
 
 
-# RNA-seq
+## RNA-seq
 1. high peak at low bp in the electropherogram (intensity mV per Size bp)
 - **source**: documentation (PDF)
 - **possible reason(s)**: contamination e.g. adapter dimers (adapter+adapter, no DNA)
@@ -149,7 +149,7 @@ Legend:
 - **possible reason(s)**: humans are bad with ratios (0.01 = almost 0 and 100 is just large but not the largest bar ever)
 - **solution/measure**: use any log transformation (e.g. log10: 0.01 => -2, 100 => +2)
 
-# Single cell
+## Single cell
 
 ### Quality check
 1. peak at left/right side in gene or reads per cell histogram or log10-cummulative-number of reads per cell id
@@ -190,7 +190,3 @@ Legend:
 - **source**: seurat/deseq, negative control study
 - **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling (https://www.science.org/doi/10.1126/science.aah4573)
 - **solution/measure**: never ever use excel or at least make sure that cell type is not "AUTO"
-
-# Further resources
-
-# References
