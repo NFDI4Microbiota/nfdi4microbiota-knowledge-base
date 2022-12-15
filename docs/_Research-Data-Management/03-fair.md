@@ -1,7 +1,7 @@
 ---
 title: FAIR Data Principles
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Introduction

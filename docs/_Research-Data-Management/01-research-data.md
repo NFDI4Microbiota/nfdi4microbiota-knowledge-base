@@ -1,7 +1,7 @@
 ---
 title: Research Data
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
