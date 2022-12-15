@@ -30,6 +30,7 @@ def check_urls(hrefs: List[str]):
         response = requests.get(href)
         assert response.status_code == 200, f"Got status code {response.status_code} from link: {href}"
         parsed_html = BeautifulSoup(response.text, 'html.parser')
+        parsed_html = parsed_html(id = "main-text")
         anchors = parsed_html.find_all('a')
         urls = [anchor.get("href") for anchor in anchors]
         print(urls[0])
