@@ -13,7 +13,7 @@
             {% assign topic_name = collection.label | replace: "-", " " %}
 
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
+                    <button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
                         <!-- Label = name of collection -->
                         {{ topic_name}}
                     </button>
