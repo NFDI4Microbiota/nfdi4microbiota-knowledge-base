@@ -15,9 +15,9 @@ def get_page_urls(url: str):
     hrefs = [f'{BASE_URL}{url.get("href")}' for url in page_urls]
     return hrefs
 
-def check_urls(hrefs: List[str]):
+def check_urls(page_urls: List[str]):
     page_to_broken_urls = {}
-    for href in tqdm(hrefs):
+    for href in tqdm(page_urls):
         response = requests.get(href)
         assert response.status_code == 200, f"Got status code {response.status_code} from link: {href}"
         parsed_html = BeautifulSoup(response.text, 'html.parser')
@@ -34,13 +34,16 @@ def check_urls(hrefs: List[str]):
                     print(f"Status Code: {r.status_code}")
                     broken_urls.append(url)
             except requests.exceptions.MissingSchema:
-                pass
-                # print(f"Page url: {href}")
-                # print(f"Missing Schema url: {url}")
+                # Ignore links to different sections of the same page
+                if not url.startswith("#"):
+                    print(f"Missing Schema url: {url}")
             except requests.exceptions.InvalidSchema:
-                pass
-                # print(f"Page url: {href}")
-                # print(f"Invalid schema url: {url}")
+                if not url.startswith("mailto:"):
+                    print(f"Invalid schema url: {url}")
+            except requests.exceptions.ConnectTimeout:
+                print(f"Connection timeout: {url}")
+            except requests.exceptions.SSLError:
+                print(f"SSLerror: {url}")
 
         page_to_broken_urls[href] = broken_urls
     return page_to_broken_urls
