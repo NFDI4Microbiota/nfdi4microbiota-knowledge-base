@@ -78,6 +78,7 @@ When adding or editing files, please observe the following rules:
 5. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
 6. Place image files in the `assets/img/` directory
 
+*Note: we might edit your contribution to homogenize the writing style.*
 
 ## Cite sources
 
