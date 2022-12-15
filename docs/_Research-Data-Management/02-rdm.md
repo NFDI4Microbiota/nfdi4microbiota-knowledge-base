@@ -16,9 +16,7 @@ Research Data Management (RDM) is the process that includes all methods and proc
 # Research data life cycle
 The RDM steps can be represented as a cycle called the research data life cycle. 
 
-<p align="center">
 ![Research data life cycle](/nfdi4microbiota-knowledge-base/assets/img/research_data_life_cycle.png)
-</p>
 
 # Benefits of RDM
 * Researchers' own interests
