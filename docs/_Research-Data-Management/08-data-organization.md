@@ -5,16 +5,16 @@ layout: default
 docs_css: markdown
 hide: true
 ---
-# Introduction
+## Introduction
 
-# File naming conventions
+## File naming conventions
 
 References:
 - https://rdm.elixir-belgium.org/file_naming
 
-# File versioning
+## File versioning
 
-# File formats
+## File formats
 Common data formats for various data types are listed below (in bold are formats suitable for digital preservation) ([PUBLISSO](https://www.publisso.de/en/research-data-management/rd-archiving/)):
 * Biomaterial data
     * **CSV (.csv)**
@@ -52,7 +52,7 @@ Common data formats for various data types are listed below (in bold are formats
     * **TXT Unicode (.txt, .asc, .c, .h, .cpp, .m, .py etc. in ASCII format)**
     * **XML (.xml)**
 
-# Date formats
+## Date formats
 
 Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing dates.
 
@@ -60,7 +60,7 @@ Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing da
 
 (https://xkcd.com/1179/, CC-BY-NC by xkcd, Randall Munroe)
 
-# Folder structure
+## Folder structure
 
 References:
 - Noble WS. A quick guide to organizing computational biology
@@ -68,7 +68,7 @@ References:
   https://doi.org/10.1371/journal.pcbi.1000424
 - https://rdm.elixir-belgium.org/folder_structure
 
-# Organizing data in spreadsheets
+## Organizing data in spreadsheets
 
 References
 - Karl W. Broman & Kara H. Woo (2018) Data Organization in
