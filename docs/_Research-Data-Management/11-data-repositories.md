@@ -91,7 +91,7 @@ Primary raw data from experiments studying the microbiota consists in most cases
 * Giving the possibility for meta-analyses
 * Increasing visibility, transparency and accountability
 
-# …in a data repository
+## …in a data repository
 * Back-up 
 * Increased data discoverability and accessibility, and thus potential data reuse
 * Increased visibility and citations as repositories can be harvested by search engines such as:
