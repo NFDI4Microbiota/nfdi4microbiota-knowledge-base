@@ -41,7 +41,6 @@ A potential repository should optimally widely used (in similar publications in 
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
 ## Well-established repositories in microbiology
-Primary raw data from experiments studying the microbiota consists in most cases of either sequence data, mass spectra or images and derived results.
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
 |---	|---	|---	|---	|
