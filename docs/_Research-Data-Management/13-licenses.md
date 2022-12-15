@@ -14,6 +14,11 @@ Defining or using a suitable license for published content usually has the benef
 In sciences, two categories of licenses can applied to either software or data and results that explicitly describe whether and how others can use it.
 
 # Properties of recommendable licenses
+* Standardized, i.e. machine-readable, text
+* Available in an easy-to-read version
+* No transfer of exclusive rights
+* Compatible with many jurisdictions
+* Common
 
 # Licenses for data and other creative works
 Also scientific data and output are subject to copyright if their generation requires a sufficient amount of creativity (this might be contested in some contexts).
@@ -80,6 +85,3 @@ The benefit of selecting a license on the code hosting platform is the machine r
 - [Creative Commons license chooser](https://creativecommons.org/choose): Explanations and guide to choosing CC licenses for your work.
 - [tl;drLegal](https://tldrlegal.com/): Software licenses in plain English with a short feature list.
 - [ChooseALicense](https://choosealicense.com/licenses/): Simple but incomplete recommendation for software licenses with short feature lists.
-
-# References
-

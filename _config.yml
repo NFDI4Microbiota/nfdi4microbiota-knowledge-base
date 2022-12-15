@@ -51,6 +51,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
+  - jekyll-redirect-from
 markdown: Kramdown
 collections_dir: docs
 collections:
@@ -81,5 +82,5 @@ collections:
 
 # Plugin settings
 scholar:
-  style: ieee
+  style: custom_ieee.csl
   source: ./docs/_bibliography

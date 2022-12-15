@@ -23,7 +23,7 @@
                         {% for doc in collection.docs %}
                             <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
                             <!-- list-group-item-secondary needed for gray highlight -->
-                            <li><a href="{{ doc.url | relative_url }}" class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{ doc.title }}</a></li>
+                            <li><a href="{{ doc.url | relative_url }}" id="sidebar-link" class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{ doc.title }}</a></li>
                         {% endfor %}
                         </ul>
                     </div>

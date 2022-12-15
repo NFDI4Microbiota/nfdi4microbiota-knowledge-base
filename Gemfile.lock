@@ -61,6 +61,8 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-scholar (7.1.1)
@@ -118,6 +120,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.2)
   jekyll-bootstrap-theme!
+  jekyll-redirect-from
   jekyll-scholar
   jemoji
   webrick (~> 1.7)

@@ -1,0 +1,13 @@
+{% assign url_parts = page.url | replace_first: '/', "Home/" | split: '/'%}
+
+<nav class="col-auto" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        {% assign previous_url = "" %}
+        {% for url_part in url_parts %}
+            {% assign previous_url = previous_url | append: "/" | append: url_part %}
+            {% assign previous_url = previous_url | replace: "Home/", "" %}
+            
+            <li class="breadcrumb-item"><a href="{{ previous_url | relative_url }}">{{ url_part }}</a></li>
+        {% endfor %}
+    </ol>
+</nav>
