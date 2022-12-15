@@ -5,6 +5,8 @@ layout: default
 docs_css: markdown
 redirect_from: /Resources
 ---
+*Disclaimer:* NFDI4Microbiota does not endorse or sponsor any of the resources cited below.
+
 ## Bioinformatics & Computational Biology
 * [A review of methods and databases for metagenomic classification and assembly](https://doi.org/10.1093/bib/bbx120) (Briefings in Bioinformatics)
 * [Analysing metagenomic assemblies using MGnify](https://biata-mgnify-2021.readthedocs.io/en/latest/index.html#mgnify-biata-2021) (BiATA (Bioinformatics: from Algorithms to Applications) 2021)
