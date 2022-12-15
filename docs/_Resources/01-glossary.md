@@ -3,6 +3,7 @@ title: Glossary
 category: Resources
 layout: docs_home
 docs_css: markdown
+redirect_from: /Resources
 ---
 
 ## Introduction

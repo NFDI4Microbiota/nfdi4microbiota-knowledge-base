@@ -3,6 +3,7 @@ title: Research Data
 category: Research-Data-Management
 layout: docs_home
 docs_css: markdown
+redirect_from: /Research-Data-Management
 ---
 
 # Definition of research data
