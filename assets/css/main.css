@@ -402,3 +402,50 @@ iframe.embed-responsive-item{
 .news_header a:hover {
   color: #ffb12d !important;
 }
+
+
+.PageHeadingOrange{
+  background-color: #ffb12d;
+}
+
+/* for rounded buttons */
+.float {
+  /* position:inherit; */
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  /* bottom:40px;
+	right:40px; */
+  background-color: #ffb12d;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  margin-top: 5px;
+  ;
+}
+
+.N4MColor:{
+  color:#ffb12d;
+}
+
+
+/* for Custome ScrollBar */
+.scroll {
+  overflow-y: scroll;
+  height: 120px;
+  width: 300px;
+  margin: 10px 5px; padding: 5px;
+  text-align: justify;
+}
+.scroll::-webkit-scrollbar {
+  width:5px;
+}
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius:5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius:5px;
+  -webkit-box-shadow: inset 0 0 6px #ffb12d; 
+}

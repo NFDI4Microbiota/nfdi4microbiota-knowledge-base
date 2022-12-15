@@ -1,34 +1,36 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light row shadow p-3 mb-2 bg-body rounded">
+
+
+  <div class="col-sm-2">
     <!-- Logo -->
     <a class="navbar-brand ms-2" href='https://nfdi4microbiota.de/'>
-      <img src={{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }} alt="" width="400" height="80"
-        class="img-fluid" style="max-height: 85px; max-width:150px;">
+      <img src={{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }} alt="" class="img-fluid"
+        style="max-height: 65px; max-width:100px;">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  </div>
+  <div class="col-sm-3">
 
+    <h1>Knowledge Base</h1>
 
-
-    <!-- Div needed for collapsible button-->
-    <div class="collapse navbar-collapse align-self-sm-end" id="navbarSupportedContent">
-
-      <!--Move to the end of the navbar-->
-      <div class="ms-auto">
+  </div>
+  <div class="col-sm-5">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!--Search bar-->
-        <form class="d-flex">
-          <input id="search-input-docs" class="form-control me-2" type="search" placeholder="Search Handbook" aria-label="Search">
+        <form class="w-100">
+          <input id="search-input-docs" class="form-control me-2 rounded-pill border-3 border-warning"  type="search" placeholder="Search Handbook"
+            aria-label="Search">
         </form>
         <!--Search bar results-->
         <div class="list-group search_result-docs" id="results-container-docs"></div>
 
-      </div>
-    
     </div>
-
   </div>
-
+  <div class="col-sm-2 ">
+    <a href="https://twitter.com/nfdi4microbiota?lang=en" class="float">
+      <i class="fa-brands fa-twitter my-float"></i>
+    </a>
+    <a href="https://github.com/NFDI4Microbiota" class="float">
+      <i class="fa-brands fa-github my-float"></i>
+    </a>
+  </div>
 </nav>
