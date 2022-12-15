@@ -3,6 +3,7 @@ title: Workflow Guidelines
 category: Research-Data-Analysis
 layout: docs_home
 docs_css: markdown
+redirect_from: /Research-Data-Analysis
 ---
 
 ## Introduction
