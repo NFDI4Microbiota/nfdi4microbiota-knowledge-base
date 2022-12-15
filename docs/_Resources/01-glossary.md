@@ -19,6 +19,7 @@ redirect_from: /Resources
 * **Dublin Core:** domain-agnostic, basic, widely used metadata standard.
 * **Electronic Lab Notebook (ELN):** software meant to document experiments and research data.
 * **FAIR data principles:** domain-agnostic, basic, widely used metadata standard.
+* **git-annex:** distributed file synchronization system allowing to manage large files with git, without storing the file contents in git.
 * **Good Scientific Practice (GSP):** principles, values and standards of behavior and practice that must be achieved and maintained in the delivery of work activities, the provision of care and personal conduct.
 * **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by means of a written, signed and dated informed consent form.
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
@@ -28,6 +29,7 @@ redirect_from: /Resources
 * **Open source software:** software with source code that anyone can inspect, modify, and enhance.
 * **Persistent Identifier (PID):** globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
 * **Preregistration:** practice of documenting your research plan (i.e. research question and study design) before conducting a scientific investigation, and depositing that plan in a read-only public repository.
+* **PUBLISSO – Repository Finder:** ZB MED’s curated selection of repositories from re3data.
 * **RDMO4Life:** dedicated version of RDMO for all research institutions that work in the field of life sciences. Possibility of customizing questionnaires to subject/project specific needs.
 * **Research Data Management Organiser (RDMO):** open-source web application that supports the structured and collective planning and implementation of research data management and additionally enables the textual output of a data management plan.
 * **Storage:** act of keeping your research data in a secure location that you can access readily.
