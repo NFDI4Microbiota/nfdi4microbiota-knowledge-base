@@ -1,5 +1,5 @@
 ---
-title: Online Learning
+title: External Training Resources
 category: Resources
 layout: default
 docs_css: markdown
