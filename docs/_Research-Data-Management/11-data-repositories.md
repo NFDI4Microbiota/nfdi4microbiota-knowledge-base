@@ -4,16 +4,16 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 ---
-# Selection of data to be published
+## Selection of data to be published
 To select data to be published, consider the following criteria: 
 * Funder requirements
 * Your data underly a publication
 * You think your data have a high reuse potential: quality, historical importance, uniqueness (i.e. the data contain non-repeatable observations), originality, size, scale, costs of data production or innovative nature of the research
 * Existence of functional reusability: can the data be read and reused? Are metadata available and are they sufficient to enable future users to understand your data? Are there any legal objections which prevent the data from being published?
 
-# Selection of a trusted repository
+## Selection of a trusted repository
 
-## Criteria
+### Criteria
 * Does the repository provide:
     * **Open Access** to non-sensitive data?
     * The **terms of use** and **licenses** of the data?
@@ -24,14 +24,14 @@ To select data to be published, consider the following criteria:
 
 A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific metadata schemas).
 
-## In order of preference
+### In order of preference
 1. A well-established repository in your discipline 
 2. Your institution’s repository (if available)
 3. One of the repository recommended by your funding organization
 4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/) (open source))
 5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
-## Repository finders
+### Repository finders
 * To find any repositories:
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
     * The RDA-endorsed [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
@@ -40,7 +40,7 @@ A potential repository should optimally widely used (in similar publications in 
 * To find a suitable interdisciplinary repository: [Generalist Repository Comparison Chart](https://doi.org/10.5281/zenodo.3946720)
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
-## Well-established repositories in microbiology
+### Well-established repositories in microbiology
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
 |---	|---	|---	|---	|
@@ -81,13 +81,13 @@ A potential repository should optimally widely used (in similar publications in 
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
 
-# Benefits of publishing your research data
+## Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable
 * Making data an independent scientific result
 * Giving the possibility for meta-analyses
 * Increasing visibility, transparency and accountability
 
-## …in a data repository
+### …in a data repository
 * Back-up 
 * Increased data discoverability and accessibility, and thus potential data reuse
 * Increased visibility and citations as repositories can be harvested by search engines such as:
