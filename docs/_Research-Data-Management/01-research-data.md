@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 # Definition of research data
-Research data is "any information collected, stored, and processed to produce and validate original research results" [[DeWitt Wallace Library](https://libguides.macalester.edu/data1)]. There is no consensus on the definition, the definition varies depending on disciplines and research funders. 
+Research data is "any information collected, stored, and processed to produce and validate original research results" [[DeWitt Wallace Library](https://libguides.macalester.edu/data1)]. There is no consensus on the definition, as it varies depending on disciplines and research funders. 
 
 # Common data types in microbiology
 Data types in microbiology include the following:
@@ -17,7 +17,7 @@ Data types in microbiology include the following:
 * Linked Open Data (LOD)
 * Macromolecular structures (e.g. electron microscopy data)
 * Microbiome data (e.g. physical microbiome interactions)
-* Nucleic acid sequences (raw sequencing data (reads or traces), genome assemblies, annotated sequences, sample metadata) such as:
+* Nucleic acid sequences (e.g. raw sequencing data (reads or traces), genome assemblies, annotated sequences, sample metadata) such as:
   * DNA sequences
     * (Meta)genomes
     * Genetic polymorphism
@@ -28,7 +28,7 @@ Data types in microbiology include the following:
     * Functional genomics / gene expression data (e.g. ribosome profiling)
     * RNA-protein interactions
     * Small RNA (sRNA)
-    * Transcriptomics
+    * Transcriptomes
 * Protein sequences
   * Protein-protein interactions
   * Proteomes
@@ -38,9 +38,5 @@ Data types in microbiology include the following:
 * Species interaction data (e.g. physical microbial interaction data)
 * Standardized bacterial information
 * Vertebrate-virus network
-
-# Further resources
-
-# References
 
 {:toc}
