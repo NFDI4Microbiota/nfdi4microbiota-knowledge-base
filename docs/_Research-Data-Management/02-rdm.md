@@ -35,4 +35,4 @@ Consequences of poor RDM include paper retraction (e.g. [González Amorós & de 
 # Further resources
 * A [Brief Guide - Research Data Management](https://doi.org/10.5281/zenodo.4000989) for busy people
 * [bio.tools](https://bio.tools/)
-* [Coscine | The research data management platform](https://coscine.de/)
+* [Coscine - The research data management platform](https://coscine.de/)
