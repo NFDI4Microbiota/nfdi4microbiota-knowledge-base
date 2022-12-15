@@ -7,10 +7,10 @@ docs_css: markdown
 
 
 # Introduction
-Data Management Plans (DMPs) are required [in DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html), and are also sometimes required by researchers' own institution. DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers, DMPs are meant as a living document accompanying them from proposal writing or project start to data generation, analysis, publication and archiving.
+Data Management Plans (DMPs) are required [in DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) as well as for [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers and other stakeholders, DMPs are meant as a living document that accompanies them from proposal writing or project start to the sharing of their data and findings.
 
 # Content of DMPs
-DMPs usually contain information that covers the whole research data life cycle, as well as general information such as:
+In a DMP, researchers usually describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible. DMPs usually contain the following information:
 * Responsibilities and obligations
 * Description of the research project
 * Costs and resources
@@ -23,15 +23,7 @@ DMPs usually contain information that covers the whole research data life cycle,
 * Legal aspects and anonymisation
 * Deletion
 
-# Benefits
-When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
-
-- **Transparency and reproducibility:** Besides as a reporting tool to funders and governing institutions, a DMP can be handed to new collaborators of a project to convey a short description, experimental design, methodological spectrum, proposed hypotheses and general progress.
-This way, all stakeholders can quickly look up the state of data, find the responsible person for questions and document their own contribution.
-- **Resource management:** An included timeline projects when personal and lab resources need to be available and enable service facilities (e.g. sequencing or IT) to schedule their resources/capacity and project costs more accurately.
-- **Standardize processes:** DMPs can easily be adapted to similar projects and shared for this purpose between researchers in the same field/institute to reduce the effort for new proposals and resort to fixed entities (e.g. ethical board).
-
-# Discipline-specific DMP templates
+# DMP templates
 ## Health Sciences
 * University of Minnesota (incl. School of Public Health): [web page](https://www.lib.umn.edu/services/data/dmp-examples)
 * Clinical trials
@@ -42,6 +34,12 @@ This way, all stakeholders can quickly look up the state of data, find the respo
 * German Federation for Biological Data (GFBio): [web page](https://dmp.gfbio.org/)
 * DataPlant: [web page](https://nfdi4plants.de/dataplan/)
 
+# Benefits
+When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
+
+- **Transparency and reproducibility:** Besides serving as a reporting tool for funders and governing institutions, a DMP can be handed to new collaborators of a project to convey a short description, experimental design, methodological spectrum, proposed hypotheses and general progress of a project. This way, all stakeholders can quickly look up the state of data, find the responsible person for questions and document their own contribution.
+- **Resource management:** Including a timeline of personal and lab resource availability can enable service facilities (e.g. sequencing or IT) to more accurately schedule their resources/capacity and project costs.
+- **Standardize processes:** DMPs can easily be shared with and adapted to similar projects lead by researchers in the same field/institute to reduce the effort for new proposals and resort to fixed entities (e.g. ethical board).
 
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
@@ -52,7 +50,7 @@ This ensures machine-actionable compatibility for administrative stakeholders an
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
 # Further resources
-* Example of good DMP: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
+* Example of a good DMP: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
 
 ## Machine-actionable DMPs (maDMPs)
 * Michener WK. Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol. 2015 Oct 22;11(10):e1004525. https://doi.org/10.1371/journal.pcbi.1004525
