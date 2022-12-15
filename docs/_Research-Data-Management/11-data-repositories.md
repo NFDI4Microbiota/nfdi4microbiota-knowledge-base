@@ -4,20 +4,41 @@ category: Research-Data-Management
 layout: docs_home
 docs_css: markdown
 ---
-# Selection and preparation of data to be published
+# Selection of data to be published
+To select data to be published, consider the following criteria: 
+* Funder requirements
+* Your data underly a publication
+* You think your data have a high reuse potential: quality, historical importance, uniqueness (i.e. the data contain non-repeatable observations), originality, size, scale, costs of data production or innovative nature of the research
+* Existence of functional reusability: can the data be read and reused? Are metadata available and are they sufficient to enable future users to understand your data? Are there any legal objections which prevent the data from being published?
 
 # Selection of a trusted repository
 
 ## Criteria
+* Does the repository provide:
+    * **Open Access** to non-sensitive data?
+    * The **terms of use** and **licenses** of the data?
+    * A **policy** to help researchers determine whether their data needs will be met?
+* Does the repository use a persistent identifier system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
+* Is the repository **certified** or support a repository **standard**?
+* Further criteria: costs, metadata to be provided, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability
+
 A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific metadata schemas).
-Researchers should check whether the repository supports **open access** for non-sensitive data and provides persistent identifiers for submitted datasets.
 
 ## In order of preference
+1. A well-established repository in your discipline 
+2. Your institution’s repository (if available)
+3. One of the repository recommended by your funding organization
+4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/) (open source))
+5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
 ## Repository finders
-Databases and data repositories in microbiology can be found in the two following registries:
-* [re3data.org](https://www.re3data.org/) ([search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
-* [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
+* To find any repositories:
+    * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
+    * The RDA-endorsed [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
+* To find Open Access repositories in the life sciences: [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
+* To find a suitable repository in the life sciences: [PUBLISSO – Repository Finder](https://www.publisso.de/en/research-data-management/publishing/publisso-repository-finder/)
+* To find a suitable interdisciplinary repository: [Generalist Repository Comparison Chart](https://doi.org/10.5281/zenodo.3946720)
+* To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
 ## Well-established repositories in microbiology
 Primary raw data from experiments studying the microbiota consists in most cases of either sequence data, mass spectra or images and derived results.
@@ -63,8 +84,6 @@ Primary raw data from experiments studying the microbiota consists in most cases
 * **Species interaction data**: Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/))
 * **Standardized bacterial information**: Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/))
 * **Vertebrate-virus network**: [VIRION](https://viralemergence.github.io/virion/)
-
-# Preprint servers
 
 # Benefits of publishing your research data
 
