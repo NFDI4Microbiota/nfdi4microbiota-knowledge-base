@@ -1,7 +1,7 @@
 ---
 title: Research Data Management (RDM)
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Definition of Research Data Management (RDM)

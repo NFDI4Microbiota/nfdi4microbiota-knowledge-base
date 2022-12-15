@@ -1,7 +1,7 @@
 ---
 title: Data Repositories
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Selection of data to be published

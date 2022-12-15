@@ -1,7 +1,7 @@
 ---
 title: Data Quality Control
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 
