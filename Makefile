@@ -3,3 +3,6 @@ serve:
 
 build:
 	bundle install
+
+check_links:
+	python utils/check_links.py
