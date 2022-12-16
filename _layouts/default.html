@@ -70,46 +70,17 @@
             <i class="fa-solid fa-pen"></i> Edit this page
           </a>
         </div>
-
-        <hr class="N4MColor">
-        <!-- Contents of Markdown file-->
-        {{ content }}
-
-        <!-- Check if page is under construction -->
-        {% if page.empty %}
-        <p>This page is currently empty. Please consider contributing! </p>
-        {% endif %}
-
-        <!-- Edit button -->
-        {% if page.url != "/" %}
-        {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
-        {% else %}
-        {% assign git_url = page.url | replace_first:'/', 'index' %}
-        {% endif %}
-        <a href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
-          class="edit">
-          <i class="fa-solid fa-pen"></i> Edit this page
-        </a>
-        </hr>
-        {%- include footer.html -%}
-
-      </div>
-      <div class="col-md-2 col-lg-2 col-xl-2 col-sm-2 position-fixed end-0" style="top:14%;">
-        <h5>On this Page</h5>
-        <hr>
-        <div class="scrollspy">
-
+        <div class="col-md-2 col-lg-2 col-xl-2 col-sm-2">
+          <h4>On this Page</h4>
         </div>
+    
       </div>
-
+    
     </div>
-
-
-
+    
   </div>
 
-
-
+   {%- include footer.html -%}
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -127,21 +98,14 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input-docs'),
-      resultsContainer: document.getElementById('results-container-docs'),
-      searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
-      json: "{{ '/search.json' | relative_url }}"
-    })
-  </script>
+	  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input-docs'),
+    resultsContainer: document.getElementById('results-container-docs'),
+    searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
+    json: "{{ '/search.json' | relative_url }}" 
+  })
+</script>
   <script src={{ '/assets/js/main.js' | relative_url }} type="text/javascript"></script>
-  <script>
-    $('h1, h2').each(function (index, element) {
-      if (index > 1) {
-        $('.scrollspy').append('<a href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></br>');
-      }
-    });
-  </script>
 
 </body>
 
