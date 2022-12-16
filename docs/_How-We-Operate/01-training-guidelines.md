@@ -1,7 +1,7 @@
 ---
 title: Training Guidelines
 category: How-We-Operate
-layout: docs_home
+layout: default
 docs_css: markdown
 redirect_from: /How-We-Operate
 ---

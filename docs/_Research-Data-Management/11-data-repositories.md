@@ -1,7 +1,7 @@
 ---
 title: Data Repositories
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Selection of data to be published
@@ -41,7 +41,6 @@ A potential repository should optimally widely used (in similar publications in 
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
 ## Well-established repositories in microbiology
-Primary raw data from experiments studying the microbiota consists in most cases of either sequence data, mass spectra or images and derived results.
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
 |---	|---	|---	|---	|
@@ -81,6 +80,7 @@ Primary raw data from experiments studying the microbiota consists in most cases
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
+{: .table .table-hover}
 
 # Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable

@@ -1,7 +1,7 @@
 ---
 title: Collaboration Tools
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Types of data that can be shared
