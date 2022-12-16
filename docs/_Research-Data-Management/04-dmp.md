@@ -1,7 +1,7 @@
 ---
 title: Data Management Plans (DMPs)
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 

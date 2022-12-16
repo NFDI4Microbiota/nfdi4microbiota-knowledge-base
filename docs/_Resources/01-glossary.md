@@ -1,7 +1,7 @@
 ---
 title: Glossary
 category: Resources
-layout: docs_home
+layout: default
 docs_css: markdown
 redirect_from: /Resources
 ---

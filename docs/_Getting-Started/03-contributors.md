@@ -1,7 +1,7 @@
 ---
 title: List of Contributors
 category: Getting-Started
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Digital Preservation
 category: Research-Data-Management
-layout: docs_home
+layout: default
 docs_css: markdown
 ---
 # Definition of digital preservation
