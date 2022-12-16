@@ -1,7 +1,7 @@
 ---
 title: Software containers
 category: Research-Data-Analysis
-layout: default
+layout: docs_home
 docs_css: markdown
 empty: true
 ---

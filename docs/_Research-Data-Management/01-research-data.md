@@ -1,16 +1,16 @@
 ---
 title: Research Data
 category: Research-Data-Management
-layout: default
+layout: docs_home
 docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-## Definition of research data
+# Definition of research data
 Research data is "any information collected, stored, and processed to produce and validate original research results" [[DeWitt Wallace Library](https://libguides.macalester.edu/data1)]. There is no consensus on the definition, as it varies depending on disciplines and research funders. 
 
-## Common data types in microbiology
-Primary raw data from experiments studying microorganisms consist in most cases of sequencing data (reads or traces), mass spectra or images and derived results. Data types in microbiology include the following:
+# Common data types in microbiology
+Data types in microbiology include the following:
 * Crystallographic data
 * Geospatial data
 * Image data
