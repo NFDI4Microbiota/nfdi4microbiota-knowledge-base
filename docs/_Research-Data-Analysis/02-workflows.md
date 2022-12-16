@@ -1,7 +1,7 @@
 ---
 title: Workflow Guidelines
 category: Research-Data-Analysis
-layout: default
+layout: docs_home
 docs_css: markdown
 redirect_from: /Research-Data-Analysis
 ---
@@ -12,7 +12,7 @@ This page should give an overview of suggested standards for workflows. Not all 
 
 ## FAIR Principles for Data management
 
-In NFDI4Microbiota, we aim to follow the FAIR principles for data management (see [here](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM/03-fair.md) for more details).
+In NFDI4Microbiota, we aim to follow the FAIR principles for data management (see [here](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM/03-fair) for more details).
 In essence, data should be Findable, Accessible, Interoperable, and Reusable.
 For workflows this means, data and/or results in the form of processed data should (if possible):
 

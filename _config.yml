@@ -82,5 +82,5 @@ collections:
 
 # Plugin settings
 scholar:
-  style: american-medical-association
+  style: custom_ieee.csl
   source: ./docs/_bibliography

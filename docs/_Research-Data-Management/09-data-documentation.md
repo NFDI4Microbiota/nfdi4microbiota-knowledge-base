@@ -1,17 +1,17 @@
 ---
 title: Data Documentation
 category: Research-Data-Management
-layout: default
+layout: docs_home
 docs_css: markdown
 empty: true
 ---
 
-## Introduction
+# Introduction
 
-## README
+# README
 
-## Metadata standards
+# Metadata standards
 
-## Further resources
+# Further resources
 
-## References
+# References

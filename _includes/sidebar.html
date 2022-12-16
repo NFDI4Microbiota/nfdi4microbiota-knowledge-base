@@ -7,11 +7,8 @@
 
             {% assign collections = site.collections | sort: "order" %}
             {% for collection in collections %}
-            {% assign num_hidden = collection.docs | where: "hide", true | size %}
-            {% assign collection_size = collection.docs | size %}
             <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
-            {% unless collection.label == "posts" or num_hidden == collection_size %}
-
+            {% unless collection.label == "posts" %}
 
             {% assign topic_name = collection.label | replace: "-", " " %}
 
@@ -24,11 +21,9 @@
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <!-- Docs = document object with font matter info -->
                         {% for doc in collection.docs %}
-                            {% unless doc.hide == true %}
                             <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
                             <!-- list-group-item-secondary needed for gray highlight -->
                             <li><a href="{{ doc.url | relative_url }}" id="sidebar-link" class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{ doc.title }}</a></li>
-                            {% endunless %}
                         {% endfor %}
                         </ul>
                     </div>
