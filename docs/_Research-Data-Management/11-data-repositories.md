@@ -80,6 +80,7 @@ A potential repository should optimally widely used (in similar publications in 
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
+{: .table .table-hover}
 
 ## Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable

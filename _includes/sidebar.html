@@ -1,5 +1,6 @@
-<div class="col-auto col-md-3 col-lg-3 col-xl-3 px-sm-2 px-0 border-end rounded-start border-secondary scroll" style="height: 100vh;">
-    
+<div class="col-auto col-md-3 col-lg-3 col-xl-3 px-sm-2 px-0 rounded-start border-secondary position-fixed scroll"
+    style="height: 90vh; top:11%;">
+
     <div class="flex-shrink-0 p-3 bg-white">
 
         <!--Side bar items-->
@@ -15,13 +16,14 @@
 
             {% assign topic_name = collection.label | replace: "-", " " %}
 
-                <li class="mb-1">
-                    <button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse" data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
-                        <!-- Label = name of collection -->
-                        {{ topic_name}}
-                    </button>
-                    <div class="collapse show" id="{{ collection.label }}-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li class="mb-1">
+                <button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse"
+                    data-bs-target="#{{ collection.label }}-collapse" aria-expanded="true">
+                    <!-- Label = name of collection -->
+                    {{ topic_name}}
+                </button>
+                <div class="collapse show" id="{{ collection.label }}-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <!-- Docs = document object with font matter info -->
                         {% for doc in collection.docs %}
                             {% unless doc.hide == true %}
@@ -29,15 +31,23 @@
                             <!-- list-group-item-secondary needed for gray highlight -->
                             <li><a href="{{ doc.url | relative_url }}" id="sidebar-link" class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{ doc.title }}</a></li>
                             {% endunless %}
+                        <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
+                        <!-- list-group-item-secondary needed for gray highlight -->
+                        <li><a href="{{ doc.url | relative_url }}" id="sidebar-link"
+                                class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{
+                                doc.title }}</a></li>
                         {% endfor %}
-                        </ul>
-                    </div>
-                </li>
+                    </ul>
+                </div>
+            </li>
             {% endunless %}
             {% endfor %}
-        
-        </ul>
 
+        </ul>
+        <a target="_blank" href="https://www.dfg.de/">
+            <img src={{ '/assets/img/dfg_logo_schriftzug_blau_foerderung_en__1200x376.png' | relative_url }}
+                class="img-fluid" alt="dfg_logo">
+        </a>
     </div>
 
 </div>
