@@ -63,7 +63,7 @@ collections:
     output: true
     permalink: /:collection/:name
     order: 2
-  Research-Data-Analysis:
+  Reproducible-Data-Analysis:
     output: true
     permalink: /:collection/:name
     order: 3

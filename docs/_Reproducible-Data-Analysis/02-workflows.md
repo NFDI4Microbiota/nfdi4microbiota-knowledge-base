@@ -1,9 +1,9 @@
 ---
 title: Workflow Guidelines
-category: Research-Data-Analysis
+category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
-redirect_from: /Research-Data-Analysis
+redirect_from: /Reproducible-Data-Analysis
 ---
 
 ## Introduction
