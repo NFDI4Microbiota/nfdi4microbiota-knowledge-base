@@ -120,7 +120,6 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
     * Embargo of up to 24 months for specific cases
     * Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
     * Possibility of publishing big datasets
-    
 * **Drawbacks**
     * Not suitable for sensitive data
     * Can only be browsed in German
@@ -128,27 +127,35 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 ### Depositing data in Zenodo
 
 #### Repository details
-* **Data type**:
-* **Open Access**:
-* **Terms of use & License**:
-* **Persistent Identifier (PID) system**:
-* **Certification or repository standard**:
-* **Policy**:
-* **Archiving**:
-* **Costs**:
-* **Data curation & quality control**:
-* **Data guarantee**:
-* **Recommended publication formats for research data**:
+* **Data type**: all research outputs, positive and negative results
+* **Open Access**: yes
+* **Terms of use & License**: yes
+* **Persistent Identifier (PID) system**: yes (DOI)
+* **Certification or repository standard**: no
+* **Policy**: yes (see [here](https://about.zenodo.org/policies/))
+* **Archiving**: yes
+* **Costs**: free of charge
+* **Data curation & quality control**: by the repository itself or by communities
+* **Data guarantee**: availability for the lifetime of the repository
+* **Recommended publication formats for research data**: any file format
 
-#### Steps to deposit data in Zenodo
+#### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
+1.	Upload
+2.	Describe
+3.	Publish
 
 #### Benefits and drawbacks
 * **Benefits**
-    * 1
-    * 2
+  * Open Access
+  * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
+  * Indexed in [re3data](https://www.re3data.org/)
+  * No charges to publish, archive or use the scientific texts and research data
+  * Permanent accessibility online
+  * Files may be deposited under closed, open, or embargoed access
+  * Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/)
+  * Size limit of 50 GB per record. For bigger size, a request has to be made.
 * **Drawbacks**
-    * 1
-    * 2
+    * Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
 
 ## Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable
