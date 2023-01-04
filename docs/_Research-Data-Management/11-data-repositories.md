@@ -75,7 +75,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
 {: .table .table-hover}
 
-## Depositing data in the PUBLISSO – Repository for Life Sciences (FRL)
+## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
 
 #### Repository details
 * **Data type**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
@@ -87,8 +87,8 @@ Below are liste well-established repositories in microbiology. For each reposito
 * **Archiving**: yes
 * **Costs**: free of charge
 * **Data curation & quality control**: no
-* **Data guarantee**: availability for at least 10 years and transfer to ZB MED long-term archive
-* **Recommended publication formats for research data**: on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
+* **Data guarantee**: availability for at least 10 years and transfer to a long-term archive
+* **Recommended publication formats for research data**: see on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
 #### Steps to deposit data in the FRL
 1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
@@ -115,7 +115,7 @@ Below are liste well-established repositories in microbiology. For each reposito
     * Not suitable for sensitive data
     * Can only be browsed in German
 
-## Depositing data in Zenodo
+## Data publishing in Zenodo
 
 #### Repository details
 * **Data type**: all research outputs, positive and negative results
@@ -130,10 +130,11 @@ Below are liste well-established repositories in microbiology. For each reposito
 * **Data guarantee**: availability for the lifetime of the repository
 * **Recommended publication formats for research data**: any file format
 
-#### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
+#### Steps to deposit data in Zenodo 
 1.	Upload
 2.	Describe
 3.	Publish
+For more details, see this [guide](https://www.openaire.eu/zenodo-guide)).
 
 #### Benefits and drawbacks
 * **Benefits**
