@@ -135,7 +135,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 2.	Describe
 3.	Publish
 
-For more details, see this [guide](https://www.openaire.eu/zenodo-guide)).
+For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 
 #### Benefits and drawbacks
 * **Benefits**
