@@ -16,18 +16,17 @@ A **data repository** is a location where digital objects are stored and documen
     * [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
 
 ## Criteria to select a trusted repository
+Below are listed criteria you might want to consider when selecting a repository where to publish your data:
 * Does the repository provide:
     * **Open Access** to non-sensitive data?
     * The **terms of use** and **licenses** of the data?
     * A **policy** to help researchers determine whether their data needs will be met?
-* Does the repository use a persistent identifier system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
+* Does the repository use a Persistent Identifier (PID) system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
 * Is the repository **certified** (e.g. by [CoreTrustSeal](https://www.coretrustseal.org/) or [nestor](https://www.langzeitarchivierung.de/Webs/nestor/EN/Home/home_node.html)) or does it support a repository **standard**?
 * Further criteria: costs, metadata to be provided, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
 
-A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific metadata schemas).
-
 ## Recommended order of preference for choosing a repository
-1. A well-established repository in your discipline (see below for well-established repositories in microbiology). Below is explained how to deposit data in the PUBLISSO - Repository for Life Sciences.
+1. A well-established repository in your discipline (see below for well-established repositories in microbiology). A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific metadata schemas). Below is explained how to deposit data in the PUBLISSO - Repository for Life Sciences.
 2. Your institution’s repository (if available).
 3. One of the repositories recommended by your funding organization.
 4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/) (see below to learn more about data deposition in Zenodo)).
