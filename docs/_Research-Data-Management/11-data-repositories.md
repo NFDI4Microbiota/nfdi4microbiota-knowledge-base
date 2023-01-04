@@ -100,20 +100,20 @@ Below are liste well-established repositories in microbiology. For each reposito
 5.	Your data will be added to the metadata record already created in the FRL
 6.	You will receive a publication notice with the DOI 
 
-#### Benefits and drawbacks
-* **Benefits**
-    * Open Access
-    * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
-    * Indexed in [re3data](https://www.re3data.org/)
-    * No charges to publish, archive or use the scientific texts and research data
-    * Permanent accessibility online
-    * You can publish your metadata and receive a DOI in advance of publishing your data
-    * Embargo of up to 24 months for specific cases
-    * Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
-    * Possibility of publishing big datasets
-* **Drawbacks**
-    * Not suitable for sensitive data
-    * Can only be browsed in German
+#### Benefits
+* Open Access
+* Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
+* Indexed in [re3data](https://www.re3data.org/)
+* No charges to publish, archive or use the scientific texts and research data
+* Permanent accessibility online
+* You can publish your metadata and receive a DOI in advance of publishing your data
+* Embargo of up to 24 months for specific cases
+* Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
+* Possibility of publishing big datasets
+
+#### Drawbacks
+* Not suitable for sensitive data
+* Can only be browsed in German
 
 ## Data publishing in Zenodo
 
@@ -137,18 +137,18 @@ Below are liste well-established repositories in microbiology. For each reposito
 
 For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 
-#### Benefits and drawbacks
-* **Benefits**
-  * Open Access
-  * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
-  * Indexed in [re3data](https://www.re3data.org/)
-  * No charges to publish, archive or use the scientific texts and research data
-  * Permanent accessibility online
-  * Files may be deposited under closed, open, or embargoed access
-  * Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/)
-  * Size limit of 50 GB per record. For bigger size, a request has to be made.
-* **Drawbacks**
-    * Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
+#### Benefits
+* Open Access
+* Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
+* Indexed in [re3data](https://www.re3data.org/)
+* No charges to publish, archive or use the scientific texts and research data
+* Permanent accessibility online
+* Files may be deposited under closed, open, or embargoed access
+* Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/)
+* Size limit of 50 GB per record. For bigger size, a request has to be made.
+
+#### Drawbacks
+* Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
 
 ## Repository finders
 * To find any repositories:
