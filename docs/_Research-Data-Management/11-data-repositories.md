@@ -25,11 +25,11 @@ Below are listed criteria you might want to consider when selecting a repository
 * Is the repository **certified** (e.g. by [CoreTrustSeal](https://www.coretrustseal.org/) or [nestor](https://www.langzeitarchivierung.de/Webs/nestor/EN/Home/home_node.html)) or does it support a repository **standard**?
 * Further criteria: costs, metadata to be provided, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
 
-## Recommended order of preference for choosing a repository
-1. A well-established repository in your discipline (see below for well-established repositories in microbiology). A potential repository should optimally widely used (in similar publications in the field) while offering a scope that is as specific as possible (supporting most specific metadata schemas). Below is explained how to deposit data in the PUBLISSO - Repository for Life Sciences.
+## Order of preference for selecting a repository
+1. A well-established repository in your discipline that offers a specific scope (i.e. supporting a specific metadata schema).
 2. Your institution’s repository (if available).
 3. One of the repositories recommended by your funding organization.
-4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/) (see below to learn more about data deposition in Zenodo)).
+4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
 5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
 ## Well-established repositories in microbiology
@@ -78,7 +78,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 
 ## Depositing data in the PUBLISSO – Repository for Life Sciences (FRL)
 
-### Repository details
+#### Repository details
 * **Data type**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -91,7 +91,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 * **Data guarantee**: availability for at least 10 years and transfer to ZB MED long-term archive
 * **Recommended publication formats for research data**: on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
-### Steps to deposit data in the FRL
+#### Steps to deposit data in the FRL
 1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
 2.	You will receive:
     * The Terms of use that you need to sign and send back
@@ -101,7 +101,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 5.	Your data will be added to the metadata record already created in the FRL
 6.	You will receive a publication notice with the DOI 
 
-### Benefits and drawbacks
+#### Benefits and drawbacks
 * **Benefits**
     * Open Access
     * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
@@ -118,7 +118,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 
 ## Depositing data in Zenodo
 
-### Repository details
+#### Repository details
 * **Data type**: all research outputs, positive and negative results
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -131,12 +131,12 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 * **Data guarantee**: availability for the lifetime of the repository
 * **Recommended publication formats for research data**: any file format
 
-### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
+#### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
 1.	Upload
 2.	Describe
 3.	Publish
 
-### Benefits and drawbacks
+#### Benefits and drawbacks
 * **Benefits**
   * Open Access
   * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
