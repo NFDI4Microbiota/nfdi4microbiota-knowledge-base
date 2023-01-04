@@ -33,8 +33,7 @@ Below are listed criteria you might want to consider when selecting a repository
 5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
 ## Well-established repositories in microbiology
-
-For each repository, we link the FAIRsharing and re3data pages. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
+Below are liste well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
 |---	|---	|---	|---	|
