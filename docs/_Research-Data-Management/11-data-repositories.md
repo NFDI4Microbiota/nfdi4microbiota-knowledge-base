@@ -86,7 +86,69 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 
 ### Depositing data in the PUBLISSO – Repository for Life Sciences (FRL)
 
+#### Repository details
+* **Data type**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
+* **Open Access**: yes
+* **Terms of use & License**: yes
+* **Persistent Identifier (PID) system**: yes (DOI)
+* **Certification or repository standard**: no
+* **Policy**: yes ("[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", German only)
+* **Archiving**: yes
+* **Costs**: free of charge
+* **Data curation & quality control**: no
+* **Data guarantee**: availability for at least 10 years and transfer to ZB MED long-term archive
+* **Recommended publication formats for research data**: on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
+
+#### Steps to deposit data in the FRL
+1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
+2.	You will receive:
+    * The Terms of use that you need to sign and send back
+    * A record sheet that you need to fill in with your metadata and send back
+3.	Your metadata will be checked, entered into the FRL and assigned a DOI
+4.	Send your data and supplementary materials to the FRL team 
+5.	Your data will be added to the metadata record already created in the FRL
+6.	You will receive a publication notice with the DOI 
+
+#### Benefits and drawbacks
+* **Benefits**
+    * Open Access
+    * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
+    * Indexed in [re3data](https://www.re3data.org/)
+    * No charges to publish, archive or use the scientific texts and research data
+    * Permanent accessibility online
+    * You can publish your metadata and receive a DOI in advance of publishing your data
+    * Embargo of up to 24 months for specific cases
+    * Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
+    * Possibility of publishing big datasets
+    
+* **Drawbacks**
+    * Not suitable for sensitive data
+    * Can only be browsed in German
+
 ### Depositing data in Zenodo
+
+#### Repository details
+* **Data type**:
+* **Open Access**:
+* **Terms of use & License**:
+* **Persistent Identifier (PID) system**:
+* **Certification or repository standard**:
+* **Policy**:
+* **Archiving**:
+* **Costs**:
+* **Data curation & quality control**:
+* **Data guarantee**:
+* **Recommended publication formats for research data**:
+
+#### Steps to deposit data in Zenodo
+
+#### Benefits and drawbacks
+* **Benefits**
+    * 1
+    * 2
+* **Drawbacks**
+    * 1
+    * 2
 
 ## Benefits of publishing your research data
 * Making data available over the long-term, reusable and citable
