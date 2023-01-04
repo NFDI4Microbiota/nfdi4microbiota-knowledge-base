@@ -6,10 +6,10 @@ docs_css: markdown
 ---
 A **data repository** is a location where digital objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
 
-## Benefits of publishing your research data in a data repository
-* Back-up 
-* Increased data discoverability and accessibility, and thus potential data reuse
-* Increased visibility and citations as repositories can be harvested by search engines such as:
+## Benefits of publishing data in a repository
+* **Back-up** (i.e. the practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage).
+* Increased **data discoverability** and **accessibility**, and thus potential **data reuse**.
+* Increased **visibility** and **citations** as repositories can be harvested by **search engines** such as:
     * [BASE](https://www.base-search.net/about/en/index.php)
     * [DataCite Search](https://search.datacite.org/)
     * [Google Dataset Search](https://datasetsearch.research.google.com/)
@@ -33,7 +33,7 @@ A potential repository should optimally widely used (in similar publications in 
 4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/) (see below to learn more about data deposition in Zenodo)).
 5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
-### Well-established repositories in microbiology
+## Well-established repositories in microbiology
 
 For each repository, we link the FAIRsharing and re3data pages. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
@@ -77,9 +77,9 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
 {: .table .table-hover}
 
-### Depositing data in the PUBLISSO – Repository for Life Sciences (FRL)
+## Depositing data in the PUBLISSO – Repository for Life Sciences (FRL)
 
-#### Repository details
+### Repository details
 * **Data type**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -92,7 +92,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 * **Data guarantee**: availability for at least 10 years and transfer to ZB MED long-term archive
 * **Recommended publication formats for research data**: on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
-#### Steps to deposit data in the FRL
+### Steps to deposit data in the FRL
 1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
 2.	You will receive:
     * The Terms of use that you need to sign and send back
@@ -102,7 +102,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 5.	Your data will be added to the metadata record already created in the FRL
 6.	You will receive a publication notice with the DOI 
 
-#### Benefits and drawbacks
+### Benefits and drawbacks
 * **Benefits**
     * Open Access
     * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
@@ -117,9 +117,9 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
     * Not suitable for sensitive data
     * Can only be browsed in German
 
-### Depositing data in Zenodo
+## Depositing data in Zenodo
 
-#### Repository details
+### Repository details
 * **Data type**: all research outputs, positive and negative results
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -132,12 +132,12 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 * **Data guarantee**: availability for the lifetime of the repository
 * **Recommended publication formats for research data**: any file format
 
-#### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
+### Steps to deposit data in Zenodo (see [here](https://www.openaire.eu/zenodo-guide))
 1.	Upload
 2.	Describe
 3.	Publish
 
-#### Benefits and drawbacks
+### Benefits and drawbacks
 * **Benefits**
   * Open Access
   * Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
@@ -150,7 +150,7 @@ For each repository, we link the FAIRsharing and re3data pages. On the FAIRshari
 * **Drawbacks**
     * Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
 
-### Repository finders
+## Repository finders
 * To find any repositories:
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
     * The RDA-endorsed [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
