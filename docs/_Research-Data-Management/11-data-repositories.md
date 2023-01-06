@@ -111,8 +111,8 @@ Below are liste well-established repositories in microbiology. For each reposito
 * The FRL is **findable** via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/).
 
 #### Drawbacks
-* Not suitable for sensitive data
-* Can only be browsed in German
+* The FRL is not suitable for sensitive data.
+* The FRL can be browsed only in German.
 
 ## Data publishing in Zenodo
 
