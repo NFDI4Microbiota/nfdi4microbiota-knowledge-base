@@ -78,17 +78,17 @@ Below are liste well-established repositories in microbiology. For each reposito
 ## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
 
 #### Repository details
-* **Data type**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
+* **Data types**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
 * **Open Access**: yes
 * **Terms of use & License**: yes
-* **Persistent Identifier (PID) system**: yes (DOI)
+* **PID system**: yes (DOI)
 * **Certification or repository standard**: no
-* **Policy**: yes ("[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", German only)
+* **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
 * **Archiving**: yes
 * **Costs**: free of charge
 * **Data curation & quality control**: no
 * **Data guarantee**: availability for at least 10 years and transfer to a long-term archive
-* **Recommended publication formats for research data**: see on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
+* **Recommended publication formats for research data**: see "Recommended preservation formats for research data" on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
 #### Steps to deposit data in the FRL
 1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
@@ -118,10 +118,10 @@ Below are liste well-established repositories in microbiology. For each reposito
 ## Data publishing in Zenodo
 
 #### Repository details
-* **Data type**: all research outputs, positive and negative results
+* **Data types**: all research outputs, positive and negative results
 * **Open Access**: yes
 * **Terms of use & License**: yes
-* **Persistent Identifier (PID) system**: yes (DOI)
+* **PID system**: yes (DOI)
 * **Certification or repository standard**: no
 * **Policy**: yes (see [here](https://about.zenodo.org/policies/))
 * **Archiving**: yes
