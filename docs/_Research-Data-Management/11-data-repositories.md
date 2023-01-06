@@ -101,15 +101,14 @@ Below are liste well-established repositories in microbiology. For each reposito
 6.	You will receive a publication notice with the DOI.
 
 #### Benefits
-* Open Access
-* Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment, life science specific metadata)
-* Indexed in [re3data](https://www.re3data.org/)
-* No charges to publish, archive or use the scientific texts and research data
-* Permanent accessibility online
-* You can publish your metadata and receive a DOI in advance of publishing your data
-* Embargo of up to 24 months for specific cases
-* Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
-* Possibility of publishing big datasets
+* The FRL provides **Open Access** to its data (in specific cases, you can set an **embargo** period of up to 24 months).
+* There are **no charges** to publish, archive or use scientific texts and research data from the FRL.
+* The FRL supports the [**FAIR data principles**](https://www.go-fair.org/fair-principles/) (e.g. by assigning DOI, by offering life science-specific metadata).
+* You can publish your **metadata** in the FRL and receive a **DOI** in advance of publishing your data.
+* You can publish **large datasets** in the FRL.
+* The FRL is **permanently accessible** online.
+* The FRL is indexed in [**re3data**](https://www.re3data.org/repository/r3d100013523).
+* The FRL is **findable** via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php), [DataCite Search](https://search.datacite.org/) and  [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/).
 
 #### Drawbacks
 * Not suitable for sensitive data
