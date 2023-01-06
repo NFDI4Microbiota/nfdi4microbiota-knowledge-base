@@ -91,14 +91,14 @@ Below are liste well-established repositories in microbiology. For each reposito
 * **Recommended publication formats for research data**: see "Recommended preservation formats for research data" on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
 #### Steps to deposit data in the FRL
-1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de)
+1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de).
 2.	You will receive:
-    * The Terms of use that you need to sign and send back
-    * A record sheet that you need to fill in with your metadata and send back
-3.	Your metadata will be checked, entered into the FRL and assigned a DOI
-4.	Send your data and supplementary materials to the FRL team 
-5.	Your data will be added to the metadata record already created in the FRL
-6.	You will receive a publication notice with the DOI 
+    * The terms of use that you need to sign and send back.
+    * A record sheet that you need to fill in with your metadata and send back.
+3.	Your metadata will be checked, entered into the FRL and assigned a DOI.
+4.	Send your data and supplementary materials to the FRL team.
+5.	Your data will be added to the metadata record already created in the FRL.
+6.	You will receive a publication notice with the DOI.
 
 #### Benefits
 * Open Access
