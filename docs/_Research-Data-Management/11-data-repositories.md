@@ -103,7 +103,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 #### Benefits
 * The FRL provides **Open Access** to its data (in specific cases, you can set an **embargo** period of up to 24 months).
 * There are **no charges** to publish, archive or use scientific texts and research data from the FRL.
-* The FRL supports the [**FAIR data principles**](https://www.go-fair.org/fair-principles/) (e.g. by assigning DOI, by offering life science-specific metadata).
+* The FRL supports the [**FAIR data principles**](https://www.go-fair.org/fair-principles/) (e.g. by assigning DOIs, by offering life science-specific metadata).
 * You can publish your **metadata** in the FRL and receive a **DOI** in advance of publishing your data.
 * You can publish **large datasets** in the FRL.
 * The FRL is **permanently accessible** online.
@@ -137,17 +137,16 @@ Below are liste well-established repositories in microbiology. For each reposito
 For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 
 #### Benefits
-* Open Access
-* Support of the [FAIR data principles](https://www.go-fair.org/fair-principles/) (e.g. DOI assignment)
-* Indexed in [re3data](https://www.re3data.org/)
-* No charges to publish, archive or use the scientific texts and research data
-* Permanent accessibility online
-* Files may be deposited under closed, open, or embargoed access
-* Findable via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/)
-* Size limit of 50 GB per record. For bigger size, a request has to be made.
+* Zenodo provides **Open Access** to its data (files may be deposited under closed, open or embargoed access).
+* There are **no charges** to publish, archive or use content.
+* Zenodo supports the [**FAIR data principles**](https://www.go-fair.org/fair-principles/) (e.g. by assigning DOIs).
+* Zenodo is **permanently accessible** online.
+* Zenodo is indexed in [**re3data**](https://www.re3data.org/repository/r3d100013523).
+* Zenodo is **findable** via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/).
 
 #### Drawbacks
 * Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
+* Size limit of 50 GB per record. For bigger size, a request has to be made.
 
 ## Repository finders
 * To find any repositories:
