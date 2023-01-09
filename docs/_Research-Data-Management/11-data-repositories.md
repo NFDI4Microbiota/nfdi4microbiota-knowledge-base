@@ -130,9 +130,9 @@ Below are liste well-established repositories in microbiology. For each reposito
 * **Recommended publication formats for research data**: any file format
 
 #### Steps to deposit data in Zenodo 
-1.	Upload
-2.	Describe
-3.	Publish
+1.	Upload files.
+2.	Describe your content so others can find it.
+3.	Publish your content.
 
 For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 
