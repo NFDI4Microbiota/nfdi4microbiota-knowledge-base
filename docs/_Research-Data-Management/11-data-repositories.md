@@ -145,8 +145,8 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * Zenodo is **findable** via Google search and indexed in [BASE](https://www.base-search.net/about/en/index.php) and [DataCite Search](https://search.datacite.org/).
 
 #### Drawbacks
-* Not suitable for personal-related / sensitive data that might have to stay in their country of origin.
-* Size limit of 50 GB per record. For bigger size, a request has to be made.
+* Zenodo might not be suitable for sensitive data that might have to stay in their country of origin.
+* Zenodo has a size limit of 50 GB per record. For bigger size, a request has to be made.
 
 ## Repository finders
 * To find any repositories:
