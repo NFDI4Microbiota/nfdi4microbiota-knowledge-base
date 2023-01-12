@@ -13,7 +13,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 2. Make changes to files in the repository:
     - Edit existing files *or*
     - Create new files
-3. Add your name to the [03-Contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-Contributors.md) file
+3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file
 
 ## Create a GitHub account
 
@@ -64,7 +64,7 @@ To create a new issue:
 
 ## Add your name to the CONTRIBUTORS file
 
-We appreciate your contribution! Please add your name to the [Contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-Contributors.md) file.
+We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file.
 
 
 ## Contribution Rules
