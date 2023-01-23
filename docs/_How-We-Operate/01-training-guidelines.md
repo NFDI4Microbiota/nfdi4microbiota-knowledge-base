@@ -69,7 +69,7 @@ you plan to use additional software (such as bioinformatic tools) during
 the course, make sure that they can be used by all participants. For
 example, you could give detailed installation instructions before the
 course, or provide some form of virtual environment (i. e. cloud). You could also
-prepare, at least some, loan laptops for an onsite training.. Test
+prepare, at least some, loan laptops for an onsite training. Test
 data should be easily downloadable in a reasonable amount of time.
 Create some form of documentation that the participants can follow
 during and after the course for reference.
