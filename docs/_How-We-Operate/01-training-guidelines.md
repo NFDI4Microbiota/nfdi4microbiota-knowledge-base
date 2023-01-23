@@ -195,7 +195,7 @@ FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100
 ## During the Training
 
 ### Arrival
-Before the first session of your training event you should
+Before the first session of your training event, you should
 aim to **be 10-15 min early** at the facilities (on-site) or online.
 This will give you time to finish your setup (e.g. connecting to the
 beamer on-site) or to recognize, and hopefully fix, technical issues
@@ -208,14 +208,13 @@ to impart on your trainees, **introduce the training team** (i.e.
 yourself but also any helpers) involved in the meeting. This will allow
 the attendees to recognize contact persons for questions that might
 arise. You could also start with a short introduction round where every
-participant and teacher explains his background and previous knowledge
+participant and teacher explains their background and previous knowledge
 on the course topic. This might also give you an idea on what points of
 the program you should focus on and who might need more assistance.
 
 Along with any other information that you deem useful, **introduce the
-planned program** to the attendees and on when the next break is
-scheduled. You should also already **give an overview of the learning
-goals**, such that participants know what to expect.
+planned program** to the attendees and say when the next break is
+scheduled. You should also already **give an overview of the intended learning outcomes**, such that participants know what to expect.
 
 In general, be mindful of your language. E.g. **be respectful and
 inclusive** when addressing the participants, helpers, and other
@@ -227,13 +226,13 @@ if not required for the participants.
 Use the introduction to **establish how to ask questions** and make
 comments. E.g. Should participants ask immediately, or wait for the end
 of a topic/session? Online, should they raise their hand or ask
-questions in chat such that other people, e.g. helpers, can answer or
+questions in the chat such that other people, e.g. helpers, can answer or
 bring the question to the forefront? When answering questions, it is a
 good idea to **repeat the question** you are responding to, so everybody
 is on the same page with regards to what is actually answered and how
 you understood the question. Also, there are undoubtably stupid
 questions. However, keep the point from above in mind and be mindful of
-your language. Thus, when it comes to your training event participants,
+your language. Thus, when it comes to participants,
 there are no stupid questions. Some questions that are not of broad
 interest to most participants can be deferred to a more appropriate
 time, such as a chat during the next scheduled break.
@@ -242,13 +241,13 @@ Also **be mindful of privacy issues** and the related legal questions
 during your training event. Legal advice is beyond the scope of this
 resource, but do consider what rules/laws apply to your jurisdiction
 e.g. regarding taking (online) recordings of the event, taking pictures
-and publishing them, e.g., on social media, or for requiring
+and publishing them, e.g. on social media, or for requiring
 participants to write down their names/email addresses or similar in
 shared documents.
 
 ### Presentations
 The presentations should be kept **relevant to the
-topic** and further the understanding of the learning goals. They should
+topic** and further the understanding of the intended learning outcomes. They should
 enable the listeners to work on any following hands-on exercises
 independently. It is a good idea for each session to **start with an
 overview** of what topic you are going to cover.
@@ -257,19 +256,19 @@ When presenting content with slides, make sure to **keep the content
 simple** and easy to grasp. That is, avoid long walls of text or
 complicated formulas. **Attribute figures and references** you include
 in your teaching materials correctly. Important information that
-participants need to retain, such as your contact details/email/number,
+participants need to retain, such as your contact details,
 and/or links to installation guides for the hands-on exercises, should
 not only be available/visible for a short duration during a slide show.
 **Make important information accessible to the trainees** at all times.
-E.g. by uploading the slides, or just the relevant information to
+E.g. by uploading the slides to
 repositories accessible to the trainees, or handing out printed teaching
-materials.
+materials. You could also share the relevant information in a shared pad.
 
 **Limit the passive (screen-)time** trainees are exposed to. In addition
 to planning hands-on exercises, your online teaching segments may be
 enriched by occasionally asking for audience participation (e.g. via
 (anonymous) polls, quizzes, shows of hands, etc.) that can also help you
-to gauge how well your learning goals were achieved, and/or live
+to gauge how well your intended learning outcomes were reached, and/or live
 examples (e.g. live-coding, or tool demonstrations). When doing a live
 demonstration, be sure to **explain clearly what you are going to do
 beforehand**, and again **in more detail during** your demonstration.
@@ -278,6 +277,21 @@ in your workflow** for the listener to digest what you are doing. E.g.
 for a live demonstration of a command line tool, explain why you set the
 options/flags you did, and wait a second before pressing enter once the
 command is fully typed.
+
+### Hands-On Exercises
+Depending on the format and topic of the training
+event, hands-on exercises are great for engaging the trainees and
+reinforcing their understanding of the material. You should aim to
+**find a good balance** between teaching presentations and hands-on
+exercises. The instructions in preparation for the hands-on sections
+should be simple and easy to understand such that the trainees can work
+on the problems independently, or in groups. Nonetheless, the training
+team should be prepared to **support struggling participants** during
+the hands-on segments by answering questions, giving technical support,
+or feedback. As during the presentation part of the training, you should
+make it clear to the participants **how to ask for support**. You may
+also proactively ask the teams/individuals how they are doing and
+whether assistance is needed.
 
 ### Breaks
 Allow for frequent breaks. New information can quickly
@@ -295,36 +309,21 @@ afterwards. When the time for a scheduled break comes, make sure that
 you **do not go over time**. Participants, especially online, may have
 made plans around that schedule.
 
-### Hands-On Exercises
-Depending on the format and topic of the training
-event, hands-on exercises are great for engaging the trainees and
-reinforcing their understanding of the material. You should aim to
-**find a good balance** between teaching presentations and hands-on
-exercises. The instructions in preparation for the hands-on sections
-should be simple and easy to understand such that the trainees can work
-on the problems independently, or in groups. Nonetheless, the training
-team should be prepared to **support struggling participants** during
-the hands-on segments by answering questions, giving technical support,
-or feedback. As during the presentation part of the training, you should
-make it clear to the participants **how to ask for support**. You may
-also proactively ask the teams/individuals how they are doing and
-whether assistance is needed.
-
 ### Closure
 At the end of your training event, you should **give an
-overview/summary** of the achieved learning goals from the introduction.
+overview/summary** of the achieved intended learning outcomes from the introduction.
 
 You should make sure that you **do not go over time**. The trainees have
 likely received a lot of input during the training event, which can be
 mentally taxing. They may also have made plans or travel arrangements
 for after the event. You should already have planned what content to
 drop without losing too much value beforehand, such that the schedule
-can be realized.
+can be respected.
 
 Do **run a feedback survey** to evaluate whether the participants
 enjoyed and valued the course and/or what can be done to improve the
 training in the future. Do try to ensure that the feedback can be
-anonymous and that the question can highlight points of improvement to
+anonymous and that the questions highlight points of improvement to
 enable you/the team to provide an even better experience the next time.
 
 
@@ -333,7 +332,7 @@ enable you/the team to provide an even better experience the next time.
 Shortly after the event, you should  **meet with all trainers** involved
 and **gather their feedback**. Collect points that should be improved
 for the next course of this kind and document them in an appropriate
-way, so that you find them quickly for the next time. Also evaluate
+way, so that you find them quickly for the next time. Also, evaluate
 important points from the feedback survey once you have the results.
 
 Finally, you should consider to **share any teaching materials**
