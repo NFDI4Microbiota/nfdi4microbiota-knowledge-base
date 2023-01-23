@@ -102,12 +102,11 @@ will take place.
 Most training formats work better when not being
 carried out by a single person. For example, one person may present the
 content while another helps struggling trainees with installing
-software. Or in an online setting, one person may talk and present,
+software. Or, in an online setting, one person may talk and present,
 while another monitors and responds/reacts to chat.
 
-For hands-on sessions it is also advisable to have more than one person
-offering assistance, such that not one group or person can capitalize on
-the trainer’s time.
+For hands-on sessions, it is also advisable to have more than one person
+offering assistance, so that there is no single group or person that monopolizes the trainer.
 
 In preparation for the training event, all trainers/helpers should meet
 and **discuss what each person’s role is** (in preparing the event and
@@ -115,11 +114,11 @@ in carrying out the event).
 
 ### Contact the participants
 About a week before the training event starts (depending on your
-format possibly earlier), you might want to contact
-the people that registered to remind them of your training event and
-provide additional detail/info. When communicating with a larger group
-of people, possibly from different institutions, via email, do not put
-the full list of your participants email addresses in the visible *to*
+format, possibly earlier), you might want to contact
+the registrants to remind them of your training event and
+provide additional details/info. When communicating via email with a larger group
+of people, possibly from different institutions, do not put
+the full list of your participants' email addresses in the visible *to*
 or *cc* fields. Instead, set up a **mailing list**, or set the email
 addresses on ***bcc***. Do **provide your preferred contact details**,
 such as email address, and that of your helpers to the participants too.
@@ -127,19 +126,19 @@ They might need a way to communicate with you and your helpers in
 preparation for the training.
 
 Depending on the event format, especially for on-site events, it might
-be necessary to educate the participants with regards to the logistics
+be necessary to inform the participants with regards to the logistics
 of the training event. **Where** do they need to go? For out of city
 participants, **how to best get there**? You might hang up flyers in the
-building to guid the participants to the training room. What is the
+building to guide the participants to the training room. What is the
 program/**timeline** for the training event? If there are
-**accessibility issues**, mentioning them now gives people the chance to
+**accessibility issues**, mentioning them beforehand gives people the chance to
 respond and enquire about solutions.
 
-At this point you should also explain to the future participants, what
-tools will be used during the training course and critically, **what tools need to already be installed**, ready to go, for the training to
-start on day one without delay. This again includes installing
+At this point, you should also explain what
+tools will be used during the training course and, most importantly, **what tools need to already be installed**, ready to go, for the training to
+start on day one without delay. This, again, includes installing
 communication tools (if needed), or needing to be registered to
-platforms such as GitHub. This can also include more specific tools such
+platforms such as GitHub or GitLab. This can also include more specific tools such
 as having the latest version of Python or some bioinformatics software
 installed. Do not forget that this kind of information also needs to be
 passed on to last minute registrations that may occur after you sent out
@@ -162,17 +161,16 @@ consider. To not overwhelm the trainees, split the training into
 to no more than 90 minutes. There should be a good **balance between teaching presentations and hands-on exercises**. Even during the
 teaching sessions, especially online, you may plan to **encourage
 audience participation** by periodically involving the trainees in short
-(anonymous) surveys or quizzes, show of hands, or similar. This can not
-only lead to a better engagement with the listeners, but also allows you
+(anonymous) surveys or quizzes, show of hands, or similar. This will not
+only lead to a better engagement with the audience, but also allow you
 the opportunity to evaluate whether the content you mean to teach is
-understood and/or your pacing is correct.
+understood and/or your pacing is appropriate.
 
 When planning the time-slots, you need to realize that trainees will
 need more time to work on hands-on exercises than you yourself would.
 Similarly, do not underestimate the time it takes to teach new content
 during teaching sessions. Generally, when it comes to teaching content,
-**value is more important than volume**. That is, it is often not a good
-idea to try to cover too much new content, but better to be clear and
+**value is more important than volume**. That is, rather than trying to cover a lot of new content, it is better to be clear and
 repeat key points to cement the understanding of the learners. Your
 teaching content should improve the understanding of the relevant topics
 and enable the trainees to independently solve the hands-on exercises.
@@ -184,7 +182,7 @@ time for all your content and have only crucial information left to
 teach. So, know beforehand what content to skip.
 
 When preparing **training materials**, you should consider to **follow the FAIR principles**, i.e. make your material easily accessible for
-other researchers. For example, you could use github for a documentation
+other researchers. For example, you could use GitHub for a documentation
 on your hands-on session, that can be read, reused and extended by
 everyone. A good introduction is given in “[Ten simple rules for making
 training materials
