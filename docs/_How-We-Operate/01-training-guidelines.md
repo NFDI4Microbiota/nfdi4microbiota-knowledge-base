@@ -13,7 +13,7 @@ courses. We focus on training events targeted at professionals from the
 microbiology field. The points in this guide are partially based on
 [Recommendations for Teaching Carpentries Workshops
 Online](https://carpentries.org/files/pdf/online-workshop-recommendations.pdf)
-by The Carpentries [CC BY](https://creativecommons.org/licenses/by/4.0/) 2020.
+by The Carpentries ([CC BY](https://creativecommons.org/licenses/by/4.0/) 2020).
 
 There are many different formats for training events, ranging from short
 lectures to week-long summer schools. Thus, these general guidelines
@@ -25,18 +25,17 @@ In general, we give tips and reminders regarding preparation,
 communication, and the like. We do not suggest/recommend specific
 software or tools. We only mention certain software products to
 illustrate our points. We separate the guidelines along the timeline of
-before, during, and the training.
+before, during, and after the training.
 
 ## Before the Training
 
  A large part of the trainer’s work will already be done in preparation
-for any training event. Here we list some points that should not be
-overlooked when preparing to provide a well-received training event.
+for any training event. Here, we list some points that should be considered when preparing to provide a well-received training event.
 
 ### Choose the right format and the right tools
 Starting from your training goal, you need to decide what format will best help learners to
 attain the expertise you want to impart them with. How much **time** do
-you need to adequately teach the topics you intend to? For this question
+you need to adequately teach the topics you intend to? For this question,
 keep in mind that the learners will not be as quick to grasp the
 knowledge you mean to transfer, and not be as fast working on hands-on
 exercises, as yourself. Does it make sense to offer this training
@@ -47,12 +46,12 @@ Especially online, but also for certain training courses, you will need
 to decide on which tools to use, e.g. for communication/presentation
 purposes. Generally, you should **use tools you are already familiar
 with**. That is, if your institution already uses Zoom or MS Teams to
-communicate, Consider using this for online training courses as well.
+communicate, consider using this for online training courses as well.
 This will help you and your helpers to be more comfortable with the
 technology. Consider what other software/tools you will need to prepare,
 or execute, for the training event. You might want to have participants
-collaborate in live shared text environments such as Google Docs or
-Etherpad, or collaborate on code through GitHub. If you plan to use such
+collaborate in real-time collaborative environments such as Google Docs or
+Etherpad, or collaborate on code through GitHub or GitLab. If you plan to use such
 tools but have no prior experience with them, make sure to **familiarize
 yourself with the tools** you intend to use.
 
@@ -60,33 +59,33 @@ In addition to being familiar with the software tools, you should also
 be familiar with the **“infrastructure” setup**. For example, for an
 on-site event, you may want to check that the planned rooms offer
 sufficient capacity for the planned number of participants, have no
-accessibility concerns, and the beamer works as expected. Make sure,
+accessibility concerns, and the beamer works as expected. Make sure
 coffee, drinks, and snacks are organized for breaks and reserve a table
-in a restaurant for a “workshop dinner”, if appropriate. Online you
+in a restaurant for a “workshop dinner”, if appropriate. Online, you
 might need to test whether your setup is sufficient. That is, does your
 microphone produce a good sound quality and does your setup allow for
-what you have planned (E.g. maybe you need an additional monitor). If
-you plan to use additional software (like bioinformatic tools) during
-the course make sure that they can be used by all participants. For
-example you could give detailed installation instructions before the
-course, or provide some form of virtual environment (i. e. cloud) or
-prepare, at least some, loaner laptops for an onsite training.. Test
-data should be easily and downloadable in a reasonable amount of time.
+what you have planned (e.g. maybe you need an additional monitor). If
+you plan to use additional software (such as bioinformatic tools) during
+the course, make sure that they can be used by all participants. For
+example, you could give detailed installation instructions before the
+course, or provide some form of virtual environment (i. e. cloud). You could also
+prepare, at least some, loan laptops for an onsite training. Test
+data should be easily downloadable in a reasonable amount of time.
 Create some form of documentation that the participants can follow
 during and after the course for reference.
 
-### Event Promotion
+### Event promotion
 In order for people to want to join your training
-event, they will need to know about your training event. Use what
+event, they will need to know about it. Use what
 communication channels you have at your disposal to advertise the
-existence of your training opportunity. Make sure to **advertise early**
-to give participants time to plan and for word-of-mouth to spread.
+existence of your training opportunity. Make sure to **advertise early** (i.e. 45 to 90 days before the event)
+to give participants time to plan and for word-of-mouth to spread. Also consider sending and tweeting reminders.
 
 You should give prospective training participants a concrete
 understanding of what they can expect of your training event. Your event
-description should **clearly list the learning goals**, so that
+description should **clearly list the intended learning outcomes**, so that
 potential trainees know what benefit the course will bring to them. You
-should **list the requirements** **for the target audience** for your
+should also **list the requirements** **for the target audience** for your
 training event. That is, is this open to everybody, only open to
 students and/or staff of a particular institution, or something else?
 You should detail any prerequisites, such as particular skill levels in
@@ -114,7 +113,7 @@ In preparation for the training event, all trainers/helpers should meet
 and **discuss what each person’s role is** (in preparing the event and
 in carrying out the event).
 
-### Contact the Participants
+### Contact the participants
 About a week before the training event starts (depending on your
 format possibly earlier), you might want to contact
 the people that registered to remind them of your training event and
@@ -330,7 +329,7 @@ enable you/the team to provide an even better experience the next time.
 
 
 
-## After the event
+## After the Training
 Shortly after the event, you should  **meet with all trainers** involved
 and **gather their feedback**. Collect points that should be improved
 for the next course of this kind and document them in an appropriate
