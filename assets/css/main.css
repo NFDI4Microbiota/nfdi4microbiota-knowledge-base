@@ -436,7 +436,7 @@ iframe.embed-responsive-item{
   height: 120px;
   width: 300px;
   margin: 10px 5px; padding: 5px;
-  text-align: justify;
+  text-align: left;
 }
 .scroll::-webkit-scrollbar {
   width:8px;
@@ -456,5 +456,5 @@ iframe.embed-responsive-item{
   height: 120px;
   /* width: 300px; */
   margin: 10px 5px; padding: 5px;
-  text-align: justify;
+  text-align: left;
 }
