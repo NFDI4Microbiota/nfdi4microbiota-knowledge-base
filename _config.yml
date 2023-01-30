@@ -70,7 +70,7 @@ collections:
   Software_Development:
     output: true
     permalink: /:collection/:name
-    order: 4    
+    order: 4
   Standard-Operating-Procedures:
     output: true
     permalink: /:collection/:name
