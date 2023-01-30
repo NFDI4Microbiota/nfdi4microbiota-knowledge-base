@@ -67,7 +67,7 @@ collections:
     output: true
     permalink: /:collection/:name
     order: 3
-  Software_Development:
+  Software-Development:
     output: true
     permalink: /:collection/:name
     order: 4
