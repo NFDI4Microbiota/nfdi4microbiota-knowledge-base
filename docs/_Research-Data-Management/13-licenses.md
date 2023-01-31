@@ -43,6 +43,10 @@ There are different versions of CC that consist of the core license with further
 - **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
 
 
+![ISO 8601](Creative_commons_license_spectrum.svg)
+([Source](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg), CC-BY Shaddim; original CC license symbols by Creative Commons)
+
+
 ## Usage
 Creators can declare a works license by selecting it during upload to a website/database/repository or attaching a line stating the title, author and license to the published work.
 
