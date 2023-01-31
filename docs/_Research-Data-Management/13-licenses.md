@@ -44,6 +44,7 @@ There are different versions of CC that consist of the core license with further
 
 
 ![ccsprectrum](/nfdi4microbiota-knowledge-base/assets/img/Creative_commons_license_spectrum.svg)
+
 ([Source](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg), CC-BY Shaddim; original CC license symbols by Creative Commons)
 
 
