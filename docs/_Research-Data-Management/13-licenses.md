@@ -43,7 +43,7 @@ There are different versions of CC that consist of the core license with further
 - **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
 
 
-![ISO 8601](Creative_commons_license_spectrum.svg)
+![ccsprectrum](/nfdi4microbiota-knowledge-base/assets/img/Creative_commons_license_spectrum.svg)
 ([Source](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg), CC-BY Shaddim; original CC license symbols by Creative Commons)
 
 
