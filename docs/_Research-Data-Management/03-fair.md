@@ -55,6 +55,7 @@ Data interoperability = ability of a dataset to work with other datasets or syst
 
 * [PARTHENOS Guidelines to FAIRify data management and make data reusable](https://doi.org/10.5281/zenodo.2668479)
 * [Preparing data for sharing: The FAIR Principles](https://www.slideshare.net/lshtm/preparing-data-for-sharing-the-fair-principles)
+* [Research Data Management toolkit for Microbial Biotechnology](https://rdmkit.elixir-europe.org/microbial_biotechnology)
 * [Top 10 FAIR Data & Software Things](https://doi.org/10.5281/zenodo.3409968)
 
 ## How to assess the FAIRness of your dataset(s)?
