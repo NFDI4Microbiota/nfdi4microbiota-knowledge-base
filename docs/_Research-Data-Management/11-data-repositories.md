@@ -22,8 +22,9 @@ Below are listed criteria you might want to consider when selecting a repository
     * The **terms of use** and **licenses** of the data?
     * A **policy** to help researchers determine whether their data needs will be met?
 * Does the repository use a Persistent Identifier (PID) system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
+* Does the repository offer the possibility to integrate all metadata relevant for finding and specifying your publication? 
 * Is the repository **certified** (e.g. by [CoreTrustSeal](https://www.coretrustseal.org/) or [nestor](https://www.langzeitarchivierung.de/Webs/nestor/EN/Home/home_node.html)) or does it support a repository **standard**?
-* Further criteria: costs, metadata to be provided, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
+* Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
 
 ## Order of preference for selecting a repository
 1. A well-established repository in your discipline that offers a specific scope (i.e. supporting a specific metadata schema).
