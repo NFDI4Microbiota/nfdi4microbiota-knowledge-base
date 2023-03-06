@@ -4,15 +4,15 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 ---
-# Types of data that can be shared
+## Types of data that can be shared
 * Primary / raw data
 * Microdata
 * Aggregate data
 * Metadata (e.g. semantic metadata, metadata about collections)
 
-# Collaboration tools and software
+## Collaboration tools and software
 
-## General-purpose collaboration tools
+### General-purpose collaboration tools
 * [B2DROP](https://eudat.eu/services/userdoc/b2drop)
 * Open Science Framework ([OSF](https://osf.io/dashboard))
 * [SciFlow](https://www.sciflow.net/en/)
@@ -23,24 +23,18 @@ docs_css: markdown
 * [git-annex](https://git-annex.branchable.com/)
 * [DataLad](https://www.datalad.org/#what-is-datalad)
 
-## Discipline-specific collaboration tools
+### Discipline-specific collaboration tools
 * [FAIRDOM-SEEK](https://seek4science.org/)
 
-# Benefits of sharing your research data (1)
+## Benefits of sharing your research data (1)
 * Make your research transparent and thus increase trust in science.
 * Be the first of claiming an idea, providing data to support it and get feedback.
 * Increase the speed of discovery and the knowledge creation process.
 * Internationalize your research and be inclusive.
 
-# Further resources
+## Further resources
+* Sielemann, K., Hafner, A., & Pucker, B. (2020). The reuse of public datasets in the life sciences: potential risks and rewards. In PeerJ (Vol. 8, p. e9954). PeerJ. [https://doi.org/10.7717/peerj.9954](https://doi.org/10.7717/peerj.9954)
+* Soiland-Reyes, S., Sefton, P., Crosas, M., Castro, L. J., Coppens, F., Fernández, J. M., Garijo, D., Grüning, B., La Rosa, M., Leo, S., Ó Carragáin, E., Portier, M., Trisovic, A., RO-Crate Community, Groth, P., & Goble, C. (2022). Packaging research artefacts with RO-Crate. In S. Peroni (Ed.), Data Science (Vol. 5, Issue 2, pp. 97–138). IOS Press. [https://doi.org/10.3233/ds-210053](https://doi.org/10.3233/ds-210053)
 
-- Sielemann K, Hafner A, Pucker B. The reuse of public datasets in the
-  life sciences: potential risks and rewards. PeerJ. 2020 Sep
-  22;8:e9954. https://doi.org/10.7717/peerj.9954
-  
-- Soiland-Reyes, Stian, et al. "Packaging research artefacts with
-  RO-Crate." Data Science Preprint (2021):
-  1-42. https://doi.org/10.3233/DS-210053
-
-# References
+## References
 1. Cozatl R. *et al.* 2021-11. *Workshop on Research Data Management*. Martin Luther University of Halle-Wittenberg and ZB MED - Information Centre for Life Sciences. Google Slides.
