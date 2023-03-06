@@ -92,3 +92,6 @@ References
 # Big data organisation
 
 # Further resources
+
+# References
+{% bibliography --cited_in_order %}
