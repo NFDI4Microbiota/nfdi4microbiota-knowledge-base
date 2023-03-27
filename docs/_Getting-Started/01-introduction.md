@@ -20,9 +20,9 @@ are collected.
 ## How to use this resource
 
 The available resources are shown in the left navigation. Clicking on
-the link will toggle the visibility of sub-content. The resources are
-subject to ISC License unless otherwise stated and therefore have
-unlimited reusability without any warranty.
+the link will toggle the visibility of sub-content. This resources is
+puslished under the Creative Commons Attribution
+([CC-BY](https://creativecommons.org/licenses/by/4.0/)).
 
 ## How to find a resource
 

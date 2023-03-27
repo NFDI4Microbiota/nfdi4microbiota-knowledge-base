@@ -4,79 +4,44 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 ---
-# Introduction
+## Introduction
+For data organization, we suggest to use the 5S methodology that uses a list of five words {% cite assmann_2022 %}:
+1. **Sort**: delete unnecessary files.
+2. **Set in order**: develop and document naming conventions and folder structures.
+3. **Shine**:
+    * Comply with conventions.
+    * Develop routines.
+4. **Standardize**:
+    * Document rules and responsibilities.
+    * Develop best practices and Standard Operating Procedures (SOPs).
+5. **Sustain**:
+    * Regularly check whether rules are followed.
+    * Implement improvements if necessary.
 
-# File naming conventions
+## File naming conventions
 
-References:
-- https://rdm.elixir-belgium.org/file_naming
+## File versioning
 
-# File versioning
+## Version control
 
-# File formats
-Common data formats for various data types are listed below (in bold are formats suitable for digital preservation) ([PUBLISSO](https://www.publisso.de/en/research-data-management/rd-archiving/)):
-* Biomaterial data
-    * **CSV (.csv)**
-    * FASTA (.fasta)
-    * FASTQ (.fq, .fastq)
-    * PDB (.pdb, .ent, .brk)
-    * **TXT (.txt)**
-    * XLS (.xls)
-    * **XML (.xml)**
-* Geospatial data
-    * ESRI Shapefiles (.shp)
-    * **GML (.gml)**
-    * KML (.kml)
-    * MapInfo (.tab)
-    * **MID (.mid)**
-    * **MIF (.mif)**
-* Image data
-    * DICOM (*.dcm)
-    * EPS (*.eps)
-    * GIF (*.gif)
-    * Illustrator (.ai)
-    * **JPEG 2000 (.jp2)**
-    * JPG (.jpg, .jpeg)
-    * PDF (.pdf)
-    * **PNG (.png)**
-    * STL (.stl)
-    * **SVG (.svg)**
-    * **TIFF (.tif, .tiff)**
-* Text files
-    * DOC (.doc, .docx)
-    * ODT (.odt)
-    * **PDF/A (.pdf)**
-    * Powerpoint (.ppt)
-    * RTF (.rtf)
-    * **TXT Unicode (.txt, .asc, .c, .h, .cpp, .m, .py etc. in ASCII format)**
-    * **XML (.xml)**
+## Folder structure
 
-# Date formats
+## Big data organization
 
-Please follow [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) when writing dates.
+## Further resources
 
-![ISO 8601](https://imgs.xkcd.com/comics/iso_8601_2x.png)
+### 5S methodology
+* Lang, K., Roman, G., Jessica, R., Annett, S., Nadine, N., & Lehmann, A. (2021). The 5S Methodology in Research Data Management. Zenodo. [https://doi.org/10.5281/ZENODO.4494258](https://doi.org/10.5281/ZENODO.4494258)
+* ["*5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture)*"](https://youtu.be/73XzLsLrwMk) (in German only)
 
-(https://xkcd.com/1179/, CC-BY-NC by xkcd, Randall Munroe)
+### Organizing data in spreadsheets
+* Broman, K. W., & Woo, K. H. (2018). Data Organization in Spreadsheets. In The American Statistician (Vol. 72, Issue 1, pp. 2–10). Informa UK Limited. [https://doi.org/10.1080/00031305.2017.1375989](https://doi.org/10.1080/00031305.2017.1375989)
+* Perkel, J. M. (2022). Six tips for better spreadsheets. In Nature (Vol. 608, Issue 7921, pp. 229–230). Springer Science and Business Media LLC. [https://doi.org/10.1038/d41586-022-02076-1](https://doi.org/10.1038/d41586-022-02076-1)
+* [Tidy data for librarians](https://librarycarpentry.org/lc-spreadsheets/)
 
-# Folder structure
+### Tools
+* [FAIR4Health Data Curation Tool](https://github.com/fair4health/data-curation-tool)
+* G-Node Infrastructure ([GIN](https://gin.g-node.org/)) = Modern Research Data Management for Neuroscience
 
-References:
-- Noble WS. A quick guide to organizing computational biology
-  projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. 
-  https://doi.org/10.1371/journal.pcbi.1000424
-- https://rdm.elixir-belgium.org/folder_structure
-
-# Organizing data in spreadsheets
-
-References
-- Karl W. Broman & Kara H. Woo (2018) Data Organization in
-  Spreadsheets, The American Statistician, 72:1, 2-10,
-  https://doi.org/10.1080/00031305.2017.1375989
-- Perkel JM. Six tips for better spreadsheets. Nature. 2022
-  Aug;608(7921):229-230. https://doi.org/10.1038/d41586-022-02076-1
-- https://librarycarpentry.org/lc-spreadsheets/
-
-# Big data organisation
-
-# Further resources
+## References
+{% bibliography --cited_in_order %}

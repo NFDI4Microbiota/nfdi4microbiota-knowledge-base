@@ -67,18 +67,22 @@ collections:
     output: true
     permalink: /:collection/:name
     order: 3
-  Standard-Operating-Procedures:
+  Software-Development:
     output: true
     permalink: /:collection/:name
     order: 4
-  Resources:
+  Standard-Operating-Procedures:
     output: true
     permalink: /:collection/:name
     order: 5
-  How-We-Operate:
+  Resources:
     output: true
     permalink: /:collection/:name
     order: 6
+  How-We-Operate:
+    output: true
+    permalink: /:collection/:name
+    order: 7
 
 # Plugin settings
 scholar:

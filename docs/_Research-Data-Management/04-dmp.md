@@ -41,7 +41,8 @@ This ensures machine-actionable compatibility for administrative stakeholders an
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
 # Further resources
-* **Example of a good DMP**: Molin, Eric. (2018). BEHAVE Working Data-Management-Plan (Version 1). Zenodo. [https://doi.org/10.5281/zenodo.1243717](https://doi.org/10.5281/zenodo.1243717)
+* **Example of a good DMP**: Molin, E. (2018). Behave Working Data-Management-Plan. Zenodo. [https://doi.org/10.5281/ZENODO.1243717](https://doi.org/10.5281/ZENODO.1243717)
+
 
 ## DMP templates
 * **Biological & Environmental Sciences**
@@ -56,5 +57,5 @@ These templates usually contain much more aspects that do not have to be answere
         * European Clinical Research Infrastructure Network (ECRIN): [pdf (p. 48)](https://ecrin.org/sites/default/files/Data%20centre%20certification/Standards%20v4%20201804.pdf)
 
 ## Machine-actionable DMPs (maDMPs)
-* Michener WK. Ten Simple Rules for Creating a Good Data Management Plan. PLoS Comput Biol. 2015 Oct 22;11(10):e1004525. https://doi.org/10.1371/journal.pcbi.1004525
-* Miksa T, Simms S, Mietchen D, Jones S. Ten principles for machine-actionable data management plans. PLoS Comput Biol. 2019 Mar 28;15(3):e1006750. https://doi.org/10.1371/journal.pcbi.1006750
+* Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
+* Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)

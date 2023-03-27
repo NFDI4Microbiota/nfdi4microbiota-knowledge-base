@@ -22,8 +22,9 @@ Below are listed criteria you might want to consider when selecting a repository
     * The **terms of use** and **licenses** of the data?
     * A **policy** to help researchers determine whether their data needs will be met?
 * Does the repository use a Persistent Identifier (PID) system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
+* Does the repository offer the possibility to integrate all metadata relevant for finding and specifying your publication? 
 * Is the repository **certified** (e.g. by [CoreTrustSeal](https://www.coretrustseal.org/) or [nestor](https://www.langzeitarchivierung.de/Webs/nestor/EN/Home/home_node.html)) or does it support a repository **standard**?
-* Further criteria: costs, metadata to be provided, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
+* Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
 
 ## Order of preference for selecting a repository
 1. A well-established repository in your discipline that offers a specific scope (i.e. supporting a specific metadata schema).
@@ -35,14 +36,14 @@ Below are listed criteria you might want to consider when selecting a repository
 ## Well-established repositories in microbiology
 Below are liste well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
-| Data type 	| Data repository 	| FAIRsharing 	| re3data 	|
+| Data type 	| Data repository 	| FAIRsharing 	| re3data 	| 
 |---	|---	|---	|---	|
+| **All research output** 	| [Zenodo](https://zenodo.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.wy4egf) 	| [re3data](https://www.re3data.org/repository/r3d100010468) 	|
 | **Crystallographic data** 	| Cambridge Structural Database ([CSD](https://www.ccdc.cam.ac.uk/solutions/csd-core/components/csd/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.vs7865) 	| [re3data](https://www.re3data.org/repository/r3d100010197) 	|
 | **Geospatial data** 	| Malaria Atlas Project ([MAP](https://malariaatlas.org/)) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100011838) 	|
 | **Image data** 	| [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.x38D2k) 	| [re3data](https://www.re3data.org/repository/r3d100013949) 	|
 |  	| [Cell Image Library](http://www.cellimagelibrary.org/home) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.8t18te) 	| [re3data](https://www.re3data.org/repository/r3d100000023) 	|
 | **Linked genotype and phenotype data** 	| European Genome-phenome Archive ([EGA](https://ega-archive.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff) 	| [re3data](https://www.re3data.org/repository/r3d100011242) 	|
-| **Linked Open Data (LOD)** 	| [The Linked Open Data Cloud](https://lod-cloud.net/) 	| / 	| / 	|
 | **Macromolecular structures** 	| Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4) 	| [re3data](https://www.re3data.org/repository/r3d100011104) 	|
 |  	| Biological Magnetic Resonance Data Bank ([BMRB](https://bmrb.io/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.p06nme) 	| [re3data](https://www.re3data.org/repository/r3d100010191) 	|
 | **Electron microscopy data** 	| Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.651n9j) 	| [re3data](https://www.re3data.org/repository/r3d100010562) 	|
@@ -53,7 +54,6 @@ Below are liste well-established repositories in microbiology. For each reposito
 |  	| European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/browser/home)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dj8nt8) 	| [re3data](https://www.re3data.org/repository/r3d100010527) 	|
 |  	| Sequence Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.g7t2hv) 	| [re3data](https://www.re3data.org/repository/r3d100010775) 	|
 |  	| Genome Sequence Archive ([GSA](https://ngdc.cncb.ac.cn/gsa/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.tdhkc6) 	| [re3data](https://www.re3data.org/repository/r3d100012342) 	|
-| **Metagenomes** 	| [MG-RAST](https://www.mg-rast.org/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100011031) 	|
 | **Genetic polymorphism** 	| European Variation Archive ([EVA](https://www.ebi.ac.uk/eva/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.6824pv) 	| [re3data](https://www.re3data.org/repository/r3d100011553) 	|
 | **Functional genomics** 	| Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.5hc8vt) 	| [re3data](https://www.re3data.org/repository/r3d100010283) 	|
 |  	| [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.6k0kwd) 	| [re3data](https://www.re3data.org/repository/r3d100010222) 	|
@@ -66,7 +66,6 @@ Below are liste well-established repositories in microbiology. For each reposito
 |  	| Genomic Expression Archive ([GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.hESBcy) 	| [re3data](https://www.re3data.org/repository/r3d100013187) 	|
 |  	| Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) 	| / 	|
 | **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
-| **Protein-protein interactions** 	| [STRING](https://string-db.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.9b7wvk) 	| [re3data](https://www.re3data.org/repository/r3d100010604) 	|
 | **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
 | **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
 | **Scientific texts** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
@@ -158,6 +157,6 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
 ## References
-* Engelhardt, Claudia, Biernacka, Katarzyna, Coffey, Aoife, Cornet, Ronald, Danciu, Alina, Demchenko, Yuri, Downes, Stephen, Erdmann, Christopher, Garbuglia, Federica, Germer, Kerstin, Helbig, Kerstin, Hellström, Margareta, Hettne, Kristina, Hibbert, Dawn, Jetten, Mijke, Karimova, Yulia, Kryger Hansen, Karsten, Kuusniemi, Mari Elisa, Letizia, Viviana, … Zhou, Biru. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
-* Lindlar, Michelle, Rudnik, Pia, Horton, Laurence, & Jones, Sarah. (2020). "You say potato, I say potato" - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. International Digital Curation Conference (IDCC), Dublin. [https://doi.org/10.5281/zenodo.3672773](https://doi.org/10.5281/zenodo.3672773)
+* Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)
+* Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). “You say potato, I say potato” - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. [https://doi.org/10.5281/ZENODO.3672773](https://doi.org/10.5281/ZENODO.3672773)
 * Rathmann T. et al. 2021-10. Workshop on Research Data Management. FoDaKo and ZB MED - Information Centre for Life Sciences. Google Slides.
