@@ -1,9 +1,13 @@
 ---
-title: Available Tools
+title: Available Tools of NFDI4Microbiota members
 category: Software Development
 layout: default
 docs_css: markdown
 ---
+
+The following data is compiled from a questionnaire of Q4 2022 and is targeted at groups funded under NFDI4Microbiota, that have a particular application/pipeline/database (henceforth referred to just as "tool") already implemented or in inception that should be integrated and endorsed by the NFDI4Microbiota umbrella.
+
+The goal is to gather this information centrally in NFDI4Microbiota to assess the span of tools and derive consortium-wide guidelines for the tightest integration possible.
 
 # Applications
 ### checkM2 (EMBL) 
