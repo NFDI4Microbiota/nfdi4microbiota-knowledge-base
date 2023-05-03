@@ -71,7 +71,7 @@ collections:
     output: true
     permalink: /:collection/:name
     order: 4
-  Standard-Operating-Procedures:
+  Experimental-Procedure-Standards-SOPs:
     output: true
     permalink: /:collection/:name
     order: 5
