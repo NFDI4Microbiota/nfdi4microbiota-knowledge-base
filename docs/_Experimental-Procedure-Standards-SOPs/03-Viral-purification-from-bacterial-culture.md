@@ -3,8 +3,8 @@ title: Viral purification from bacterial culture
 category: Experimental-Procedure-Standards-SOPs
 layout: default
 docs_css: markdown
-empty: true
 ---
+
 # Protocol
 1.	Centrifuge 40 ml of bacterial culture infected with phage at 6000 g for 30 min, remove the supernatant and filter it through a 0.45 μm syringe filter
 2.	Centrifuge the filtrate at 35 000 g for 4 h, remove the supernatant and re-suspend the pellet in 600 μl SM buffer
