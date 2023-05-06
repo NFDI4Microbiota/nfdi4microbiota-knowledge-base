@@ -16,8 +16,6 @@ Assessing the quality of metagenome-derived genome bins using machine learning
 
 operating system: Linux
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: GNU 
 
 link: [https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM2)
@@ -27,8 +25,6 @@ link: [https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM
 Fast genome-wide functional annotation through orthology assignment
 
 operating system: Linux, MacOS, Windows
-
-support/contact: shahriyar.robbani(at)embl.de
 
 license: GNU 
 
@@ -40,8 +36,6 @@ Python package for detection of chimerism and contamination in prokaryotic genom
 
 operating system: Linux, MacOS, Windows
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: GNU 
 
 link: [https://github.com/grp-bork/gunc](https://github.com/grp-bork/gunc)
@@ -52,8 +46,6 @@ A computational tool that estimates relative taxonomic abundance of known and cu
 
 operating system: Linux
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: GNU 
 
 link: [https://github.com/motu-tool/mOTUs](https://github.com/motu-tool/mOTUs)
@@ -63,8 +55,6 @@ link: [https://github.com/motu-tool/mOTUs](https://github.com/motu-tool/mOTUs)
 Proteinortho is a tool to detect orthologous genes within different species.
 
 operating system: Linux, MacOS
-
-support/contact: klemmp(at)staff.uni-marburg.de
 
 license: GNU 
 
@@ -77,8 +67,6 @@ Assessment of Metagenome BinnERs
 
 operating system: Linux
 
-support/contact: adrian.fritz(at)helmholtz-hzi.de
-
 license: GPL 
 
 link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
@@ -90,8 +78,6 @@ link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challeng
 
 operating system: Linux
 
-support/contact: lorenz.reimer(at)dsmz.de
-
 license: GNU 
 
 link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
@@ -102,8 +88,6 @@ link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
 
 operating system: Linux
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: unknown 
 
 link: [http://eggnog5.embl.de://eggnog5.embl.dend](and)
@@ -113,8 +97,6 @@ link: [http://eggnog5.embl.de://eggnog5.embl.dend](and)
 Standardized cultivation media database
 
 operating system: Linux, MacOS, Windows
-
-support/contact: julia.koblitz(at)dsmz.de
 
 license: CC4 
 
@@ -127,8 +109,6 @@ BioAutoML: Automated Feature Engineering and Metalearning for Classification of 
 
 operating system: Linux, MacOS
 
-support/contact: ulisses.rocha(at)ufz.de
-
 license: NA 
 
 link: [https://github.com/Bonidia/BioAutoML](https://github.com/Bonidia/BioAutoML)
@@ -139,8 +119,6 @@ Model abundance distributions of microbial communities and simulate metagenome d
 
 operating system: Linux
 
-support/contact: adrian.fritz(at)helmholtz-hzi.de
-
 license: Apache 
 
 link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challenge/CAMISIM)
@@ -150,8 +128,6 @@ link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challe
 Workflow for metaproteomics anaylysis of microbiomes
 
 operating system: Linux, Windows
-
-support/contact: Leibniz-Institut für Analytische Wissenschaften – ISAS – e.V., Bunsen-Kirchhoff-Straße 11, 44139 Dortmund"
 
 license: Apache 
 
@@ -167,8 +143,6 @@ It was designed to be an easy-to-use tool that outputs ready-to-use comprehensiv
 
 operating system: Linux
 
-support/contact: jonas.kasmanas(at)ufz.de
-
 license: GNU 
 
 link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
@@ -178,8 +152,6 @@ link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
 Recover eukaryotic, prokaryotic, and viral metagenome-assembled genomes from a single metagenomic sample
 
 operating system: Linux
-
-support/contact: stefania.magnusdottir(at)ufz.de
 
 license: GNU 
 
@@ -191,8 +163,6 @@ Flexible pipeline for annotation of ecosystem processes and prediction of putati
 
 operating system: Linux
 
-support/contact: joao.saraiva(at)ufz.de
-
 license: CC4 
 
 link: [https://github.com/mdsufz/OrtSuite,](https://github.com/mdsufz/OrtSuite,)
@@ -202,8 +172,6 @@ link: [https://github.com/mdsufz/OrtSuite,](https://github.com/mdsufz/OrtSuite,)
 Tool to predict bacterial transcription factors in complex microbial communities
 
 operating system: Linux
-
-support/contact: joao.saraiva(at)ufz.de
 
 license: CC4 
 
@@ -217,8 +185,6 @@ By producing multiple taxonomic outputs, functional features and ecological anal
 
 operating system: Linux
 
-support/contact: thitch(at)ukaachen.de
-
 license: unsure 
 
 link: [http://protologger.de/](http://protologger.de/)
@@ -228,8 +194,6 @@ link: [http://protologger.de/](http://protologger.de/)
 Best practice microbiome analysis suite
 
 operating system: Linux
-
-support/contact: anna.rehm(at)computational.bio.uni-giessen.de
 
 license: BSD3 
 
@@ -242,8 +206,6 @@ Interactive Pathways Explorer (iPath) is a web-based tool for the visualization,
 
 operating system: Linux
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: GPL 
 
 link: [https://pathways.embl.de/](https://pathways.embl.de/)
@@ -254,8 +216,6 @@ Interactive Tree Of Life is an online tool for the display, annotation and manag
 
 operating system: Linux
 
-support/contact: shahriyar.robbani(at)embl.de
-
 license: paid 
 
 link: [https://itol.embl.de/](https://itol.embl.de/)
@@ -265,8 +225,6 @@ link: [https://itol.embl.de/](https://itol.embl.de/)
 Utility flask app for contact notification on the NFDI4Microbiota homepage
 
 operating system: Linux
-
-support/contact: fasemore(at)zbmed.de
 
 license: NA 
 
