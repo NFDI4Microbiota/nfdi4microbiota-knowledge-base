@@ -12,6 +12,8 @@ The FAIR data principles are a concise and measurable set of principles that may
 * Enhancing the ability of machines to automatically find and use data.
 * Supporting the reuse of data by individuals, which “is essential to the advancement of research and clinical practice”.
 
+![FAIR Data Principles](/nfdi4microbiota-knowledge-base/assets/img/fair_principles.png)
+
 The principles {% cite wilkinson_2016 go_fair_2022 %} are reproduced below:
 
 # To be Findable
