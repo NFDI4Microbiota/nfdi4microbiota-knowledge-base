@@ -43,7 +43,6 @@ These templates usually contain much more aspects that do not have to be answere
 # Further resources
 * **Example of a good DMP**: Molin, E. (2018). Behave Working Data-Management-Plan. Zenodo. [https://doi.org/10.5281/ZENODO.1243717](https://doi.org/10.5281/ZENODO.1243717)
 
-
 ## DMP templates
 * **Biological & Environmental Sciences**
     * German Federation for Biological Data (GFBio): [web page](https://dmp.gfbio.org/)
@@ -59,3 +58,6 @@ These templates usually contain much more aspects that do not have to be answere
 ## Machine-actionable DMPs (maDMPs)
 * Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
 * Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)
+
+## Software Management (SM) Plans
+* [SM Wizard](https://smw.ds-wizard.org/)
