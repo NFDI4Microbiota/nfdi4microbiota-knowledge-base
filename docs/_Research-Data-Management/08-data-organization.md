@@ -36,13 +36,21 @@ If you need to choose a file and folder naming convention, it is recommended {% 
     * For a sequence of 1-10: 01-10
     * For a sequence of 1-100: 001-010-100
 
+### Examples of file names
+* **Good structure**: YYYY-MM-DD_JV_ProjectID_ExperimentID with IDs being linked to a table with data documentation such as metadata {% cite bobrov_2021 %}.
+* **Good names** {% cite bres_2022 %}:
+    * 2016-01-04_ProjectA_Ex1Test1_SmithE_v1.0.xlsx
+    * 2000_USNM_379221_01_tiff
+    * USNM_379221_01.tiff
+* **Bad names** {% cite bres_2022 %}:
+    * Test data 2016.xlsx
+    * Meeting notes Jan 17
+    * Notes Eric.txt
+    * Final FINAL last version.docx
+
 ## File versioning
 
-## Version control
-
 ## Folder structure
-
-## Big data organization
 
 ## Further resources
 
