@@ -25,6 +25,17 @@ File names should ideally allow to establish a connection to a certain experimen
 3. Make the documentation **available** to all research group members.
 4. Stay **consistent**.
 
+### Recommendations for naming conventions
+If you need to choose a file and folder naming convention, it is recommended {% cite assmann_2022 bobrov_2021 bres_2022 %} to include the following:
+* Favor **alphabetically sortable** names (e.g. starting with the date: YYYY-MM-DD).
+* Limit file names to **maximum 32 characters** (32CharactersLooksExactlyLikeThis.txt). Short names are easier to find and they need a shorter path, whereas long names can cause technical problems. Thus, select a name that is as short as possible and as long as necessary.
+* Favor names that **reflect** and are **unique** to the **content** (i.e. person, project ID/part, sample ID, experiment ID, status, data, version number and/or software name).
+* Use **periods** only before file extensions.
+* Do not use **special characters** or **whitespaces** which can be confusing to both machines and humans.
+* Use **leading zeros** when using sequential numbering:
+    * For a sequence of 1-10: 01-10
+    * For a sequence of 1-100: 001-010-100
+
 ## File versioning
 
 ## Version control
