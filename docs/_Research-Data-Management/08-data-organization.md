@@ -19,7 +19,7 @@ For data organization, we suggest to use the 5S methodology that uses a list of 
     * Implement improvements if necessary.
 
 ## File naming
-File names should ideally allow to establish a connection to a certain experiment or data collection {% cite bobrov_2021 %}. Within your research group, it is recommended {% cite bobrov_2021 %} to:
+File names should ideally allow to establish a connection to a certain experiment or data collection {% cite bobrov_2021 %}. Within your research group, it is recommended {% cite bobrov_2021 bres_2022 %} to:
 1. **Choose** a file and folder naming convention.
 2. **Document** your convention, for instance in Standard Operating Procedures (SOPs).
 3. Make the documentation **available** to all research group members.
