@@ -84,7 +84,7 @@ If you need to choose a file and folder naming convention, it is recommended {% 
 
 ### 5S methodology
 * Lang, K., Roman, G., Jessica, R., Annett, S., Nadine, N., & Lehmann, A. (2021). The 5S Methodology in Research Data Management. Zenodo. [https://doi.org/10.5281/ZENODO.4494258](https://doi.org/10.5281/ZENODO.4494258)
-* ["*5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture)*"](https://youtu.be/73XzLsLrwMk) (in German only)
+* Research Data Management Thuringia (TKFDM) (2021, February 4). 5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture) [Video]. YouTube. URL [https://youtu.be/73XzLsLrwMk](https://youtu.be/73XzLsLrwMk)
 
 ### Organizing data in spreadsheets
 * Broman, K. W., & Woo, K. H. (2018). Data Organization in Spreadsheets. In The American Statistician (Vol. 72, Issue 1, pp. 2–10). Informa UK Limited. [https://doi.org/10.1080/00031305.2017.1375989](https://doi.org/10.1080/00031305.2017.1375989)
