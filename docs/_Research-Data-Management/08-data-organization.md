@@ -48,6 +48,34 @@ If you need to choose a file and folder naming convention, it is recommended {% 
     * Notes Eric.txt
     * Final FINAL last version.docx
 
+### Tools for simultaneous renaming of files
+
+#### Multiple OS
+* [Adobe Bridge](https://www.adobe.com/products/bridge.html)
+* [jExifToolGUI](https://github.com/hvdwolf/jExifToolGUI/blob/master/README.md)
+
+#### Linux
+* [Gnome Commander](https://gcmd.github.io/)
+* [GPRename](https://gprename.sourceforge.net/)
+
+#### Mac
+* [ExifRenamer](https://www.qdev.de/?location=mac/exifrenamer)
+* [NameChanger](https://mrrsoftware.com/namechanger/)
+* [Renamer 6](https://renamer.com/)
+
+#### Unix
+* mv command
+
+#### Windows
+* [Advanced Renamer](https://www.advancedrenamer.com/)
+* [Altap Salamander](https://www.altap.cz/)
+* [Ant Renamer](http://www.antp.be/software/renamer)
+* [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/)
+* [ExifToolGUI](https://exiftoolgui.informer.com/)
+* [Rename-It!](https://sourceforge.net/projects/renameit/)
+* [Total Commander](https://www.ghisler.com/deutsch.htm)
+* [WildRename](https://www.cylog.org/utilities/wildrename.jsp)
+
 ## File versioning
 
 ## Folder structure
