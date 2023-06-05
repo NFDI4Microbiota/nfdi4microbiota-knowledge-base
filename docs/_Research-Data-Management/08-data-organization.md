@@ -117,6 +117,20 @@ For a good folder structure, it is recommended to:
     * **10 elements** per folder
 
 ### Example of folder structure
+* Project
+    * Data
+        * Raw_data
+        * Processed_data
+        * Documentation
+    * Code
+        * Src
+        * Output
+            * Plots
+        * Documentation
+    * Protocols
+* Manuscripts
+* Conference_reports
+* Administrative_information
 
 ## Further resources
 
