@@ -78,6 +78,19 @@ If you need to choose a file and folder naming convention, it is recommended {% 
 
 ## File versioning
 
+If you decide to version your files, keep the following in mind {% cite bres_2022 %}:
+* **Decide** how to version files with project partners.
+* **Write down** how a version change is to be defined.
+* **Document** version changes.
+
+Options for file versioning include {% cite bres_2022 %}:
+* In **file names**
+* Within **data** (e.g. header, comment field)
+* In **text files** (e.g. README file)
+* Within a **Version Control System** (VCS) (e.g. git, Apache Subversion)
+
+### Manual file versioning
+
 ## Folder structure
 
 ## Further resources
