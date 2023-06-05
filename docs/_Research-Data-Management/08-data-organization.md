@@ -133,15 +133,29 @@ For a good folder structure, it is recommended to:
 * Administrative_information
 
 ## Further resources
+* File naming and folder hierarchy: [MIT Libraries](https://libraries.mit.edu/data-management/store/organize/)
+* Naming and organizing your files and folder: [MIT Libraries Data Management Services 2020](https://www.dropbox.com/s/xx26a1onsu1qdpc/Worksheet_fileOrg.docx?dl=0)
+* README: File & Folder Schema: [MIT Libraries Data Management Services 2018](https://www.dropbox.com/s/ritd1mwzyaz2dh6/Sample_README_fileOrg.docx?dl=0)
 
 ### 5S methodology
-* Lang, K., Roman, G., Jessica, R., Annett, S., Nadine, N., & Lehmann, A. (2021). The 5S Methodology in Research Data Management. Zenodo. [https://doi.org/10.5281/ZENODO.4494258](https://doi.org/10.5281/ZENODO.4494258)
-* Research Data Management Thuringia (TKFDM) (2021, February 4). 5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture) [Video]. YouTube. URL [https://youtu.be/73XzLsLrwMk](https://youtu.be/73XzLsLrwMk)
+* The 5S Methodology in Research Data Management: [Lang *et al.* 2021](https://doi.org/10.5281/zenodo.4494258)
+* 5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture): [Research Data Management Thuringia (TKFDM)](https://youtu.be/73XzLsLrwMk)
 
-### Organizing data in spreadsheets
-* Broman, K. W., & Woo, K. H. (2018). Data Organization in Spreadsheets. In The American Statistician (Vol. 72, Issue 1, pp. 2–10). Informa UK Limited. [https://doi.org/10.1080/00031305.2017.1375989](https://doi.org/10.1080/00031305.2017.1375989)
-* Perkel, J. M. (2022). Six tips for better spreadsheets. In Nature (Vol. 608, Issue 7921, pp. 229–230). Springer Science and Business Media LLC. [https://doi.org/10.1038/d41586-022-02076-1](https://doi.org/10.1038/d41586-022-02076-1)
-* [Tidy data for librarians](https://librarycarpentry.org/lc-spreadsheets/)
+### File naming
+* Batch file renaming tools: [Malinowski 2020](https://www.dropbox.com/s/rropbx4ewxlli09/Handout_BatchRenaming.pdf?dl=0)
+* Best practices: [Malinowski 2020](https://www.dropbox.com/s/ttv3boomxlfgiz5/Handout_fileNaming.pdf?dl=0)
+* Convetion worksheet: [Briney 2020](https://resolver.caltech.edu/CaltechAUTHORS:20200601-161923247)
+* File naming: [ELIXIR Belgium](https://rdm.elixir-belgium.org/file_naming)
+* File naming examples: [Briney *et al.* 2020](https://doi.org/10.3897/rio.6.e56508), Table 1.
+
+### Folder structure
+* Simple Open Data template: [de Plaa 2021](https://doi.org/10.5281/zenodo.4899847) 
+* Template for research repositories: [Colomb *et al.* 2020](https://doi.org/10.5281/zenodo.4410128)
+
+### Data organization in spreadsheets
+* Data Organization in Spreadsheets: [Broman & Woo 2017](https://doi.org/10.1080/00031305.2017.1375989)
+* Six tips for better spreadsheets: [Perkel 2022](https://doi.org/10.1038/d41586-022-02076-1)
+* Tidy data for librarians: [Library Carpentry](https://librarycarpentry.org/lc-spreadsheets/)
 
 ### Tools
 * [FAIR4Health Data Curation Tool](https://github.com/fair4health/data-curation-tool)
