@@ -103,6 +103,21 @@ If you decide to version your files manually, it is recommended to:
 
 ## Folder structure
 
+### Recommendations for folder structure
+
+For a good folder structure, it is recommended to:
+* Invest **time** planning out folder structure.
+* Choose a folder structure that is {% cite bobrov_2021 bres_2022 %}:
+    * **Clear** (i.e. self-exaplanatory, with an intuitive navigation, also for other team members)
+    * **Comprehensive**
+    * **Efficient**
+    * **Hierarchical**, increasing findability
+* Have maximum {% cite bres_2022 %}:
+    * **4 levels**
+    * **10 elements** per folder
+
+### Example of folder structure
+
 ## Further resources
 
 ### 5S methodology
