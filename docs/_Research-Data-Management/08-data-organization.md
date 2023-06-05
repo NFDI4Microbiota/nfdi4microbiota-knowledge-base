@@ -91,6 +91,16 @@ Options for file versioning include {% cite bres_2022 %}:
 
 ### Manual file versioning
 
+If you decide to version your files manually, it is recommended to:
+* Use a version control **table**.
+* Define **responsibilities** for completion of files.
+* Use [semantic versioning](https://semver.org/): **MAJOR.MINOR.PATCH** {% cite bobrov_2021 bres_2022 %}. E.g.:
+    * Ex1Test1_SmithE_v1.0.0.xlsx
+    * Ex1Test1_SmithE_v1.2.5.xlsx
+    * Ex1Test1_SmithE_v2.1.1.xlsx
+* Save **milestone versions**.
+* Store **obsolete versions** separately after backup.
+
 ## Folder structure
 
 ## Further resources
