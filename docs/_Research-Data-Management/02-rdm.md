@@ -13,15 +13,22 @@ The research data life cycle is a model that illustrates the steps of RDM and de
 ![Research data life cycle](/nfdi4microbiota-knowledge-base/assets/img/research_data_life_cycle.png)
 
 ## Benefits of RDM
-* **Researchers' own interests**
-    * Good Scientific Practice (GSP)
-    * Knowledge management / transfer
+
+Benefits of RDM are numerous, some of them are liste below {% cite assmann_2022 bobrov_2021 bres_2022 voigt_2022 %}:
+
+* **For researchers**
+    * Visibility
+    * Reputation (ensures research quality)
+    * Data ownership
+    * Eligibility for funding
+    * Saves time, money and resources
     * Preventing data loss
-    * Saving yourself time in the future 
-* **External interests**
-    * Research funders
-    * Publishers
-    * Researchers' own institution
+
+* **Additional benefits**
+    * Helps keep track of the project
+    * Helps meet formal and legal requirements
+    * Enhances teamwork and collaborations
+    * Guaranteeing transparency, verifiability and reproducibility
 
 ## Consequences of poor RDM
 Consequences of poor RDM include paper retraction (e.g. [González Amorós & de Puit](https://doi.org/10.1016/j.scijus.2015.04.005)).
