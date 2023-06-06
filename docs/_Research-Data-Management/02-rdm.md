@@ -14,7 +14,7 @@ The research data life cycle is a model that illustrates the steps of RDM and de
 
 ## Benefits of RDM
 
-Benefits of RDM are numerous, some of them are liste below {% cite assmann_2022 bobrov_2021 bres_2022 voigt_2022 %}:
+Benefits of RDM are numerous, some of them are liste below {% cite assmann_2022 bobrov_2021 bres_2022 engelhardt_2022 jacob_2022 lindstädt_2019 voigt_2022 %}:
 
 * **For researchers**
     * Visibility
