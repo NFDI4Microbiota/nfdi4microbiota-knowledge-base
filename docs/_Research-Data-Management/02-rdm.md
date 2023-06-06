@@ -5,13 +5,10 @@ layout: default
 docs_css: markdown
 ---
 # Definition of Research Data Management (RDM)
-Research Data Management (RDM) is the process that includes all methods and procedures that aim to make research data usable over the long-term. RDM usually includes the following steps:
-* Planning
-* Data Collection
-* Data Processing & Analysis
-* Data Sharing & Publishing
-* Digital Preservation
-* Data Discovery & Reuse
+Research Data Management (RDM) is a series of measures that need to be taken during a research project in order to:
+1. Obtain high-quality data (whether produced or reused)
+2. Make data avaialbe and usable over the long-term
+3. Make research findings reproducible beyond the research project
 
 # Research data life cycle
 The RDM steps can be represented as a cycle called the research data life cycle: 
