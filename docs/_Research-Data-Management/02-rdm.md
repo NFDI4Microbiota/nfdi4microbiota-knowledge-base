@@ -34,9 +34,9 @@ Benefits of RDM are numerous, some of them are listed below {% cite assmann_2022
 Consequences of poor RDM include paper retraction (e.g. [González Amorós & de Puit](https://doi.org/10.1016/j.scijus.2015.04.005)).
 
 ## Further resources
-* A [Brief Guide - Research Data Management](https://doi.org/10.5281/zenodo.4000989) for busy people
-* [bio.tools](https://bio.tools/)
-* [Coscine - The research data management platform](https://coscine.de/)
+* Brief Guide - Research Data Management: [Training Expert Group 2020](https://doi.org/10.5281/zenodo.4000989)
+* Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences: [bio.tools](https://bio.tools/)
+* Research data management platform: [Coscine](https://coscine.de/)
 
 ## References
 {% bibliography --cited_in_order %}
