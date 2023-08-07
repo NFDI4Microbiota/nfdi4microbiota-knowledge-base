@@ -10,8 +10,6 @@ empty: true
 
 # README
 
-# Metadata standards
-
 # Further resources
 
 # References
