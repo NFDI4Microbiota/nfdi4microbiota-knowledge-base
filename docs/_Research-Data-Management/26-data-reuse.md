@@ -35,7 +35,7 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 ## Common standards for data citation
 
 ## Code citation
-Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation:  GitHub, GitLab, JabRef, Zenodo and Zotero {% cite escience_center_2021 %}.
+Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo and Zotero {% cite escience_center_2021 %}.
 
 # How-tos
 
