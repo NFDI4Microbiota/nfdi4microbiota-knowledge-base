@@ -58,7 +58,7 @@ See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/
 ### Data catalogues
 
 ### Services where data can be published
-* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories
+* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
