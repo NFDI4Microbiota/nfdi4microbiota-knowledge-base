@@ -27,6 +27,41 @@ See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/
 
 ## Services to search for data
 
+### Registries of data repositories
+* Registry of Research Data Repositories ([re3data.org](https://www.re3data.org/))
+* [OpenAIRE Explore](https://explore.openaire.eu/)
+* [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/)
+* [FAIRsharing.org](https://fairsharing.org/)
+* [Master Data Repository List](https://clarivate.com/webofsciencegroup/master-data-repository-list/)
+
+### Search engines
+* [Mendeley Data](https://data.mendeley.com/)
+* **Google**
+    * Keywork + "dataset"
+    * [Dataset Search](https://datasetsearch.research.google.com/)
+* **Library search engines**
+    * Bielefeld Academic Search Engine ([BASE](https://www.base-search.net/))
+    * [LIVIVO – The Search Portal for Life Sciences](https://www.livivo.de/app)
+* **Discipline-specific search engines**
+    * Bacterial and Viral Bioinformatics Resource Center ([BV-BRC](https://www.bv-brc.org/))
+    * [NFDI4Chem Search](https://search.nfdi4chem.de/)
+    * [Study Hub NFDI4Health COVID-19](https://csh.nfdi4health.de/)
+    * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
+
+
+### (Meta)data aggregators
+* [B2FIND](https://b2find.eudat.eu/)
+* [data.europa.eu](https://data.europa.eu/en)
+* [DataCite Commons](https://commons.datacite.org/)
+* [gesisDataSearch](https://datasearch.gesis.org/start)
+
+### Data catalogues
+
+### Services where data can be published
+* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories
+* **Data reports**
+* **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
+
 ## Strategies to search for data
 
 # Data citation
