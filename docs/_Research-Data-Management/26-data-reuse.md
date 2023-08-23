@@ -33,6 +33,9 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 ## Importance of data citation
 
 ## Common standards for data citation
+* **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as link)
+* **DataCite 2019**: Creator (PublicationYear): Title. Version. Publisher. (resourceTypeGeneral). Identifier
+* **[DOI Citation Formatter](https://citation.crosscite.org/)**
 
 ## Code citation
 Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo and Zotero {% cite escience_center_2021 %}.
