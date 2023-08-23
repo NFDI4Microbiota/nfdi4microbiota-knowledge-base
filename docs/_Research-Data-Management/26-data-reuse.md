@@ -47,7 +47,5 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 ## How to maximise already existing data?
 See Wood-Charlson *et al.* 2022 {% cite wood-charlson_2022 %}.
 
-# Further resources
-
 # References
 {% bibliography --cited_in_order %}
