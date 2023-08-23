@@ -5,7 +5,6 @@ layout: default
 docs_css: markdown
 redirect_from: /Research-Data-Management
 empty: true
-hide: true
 ---
 
 # Benefits
@@ -37,4 +36,18 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 
 ## Code citation
 
+# How-tos
+
+## How to make your data reusable?
+* Properly document your data with metadata {% cite pavone_2020 %}.
+* Use common metadata standards and terminologies {% cite pavone_2020 %}.
+* Standardise your data.
+* Share your raw data with an open licence.
+
+## How to maximise already existing data?
+See {% cite wood-charlson_2022 %}.
+
 # Further resources
+
+# References
+{% bibliography --cited_in_order %}
