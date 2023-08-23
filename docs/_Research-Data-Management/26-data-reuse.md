@@ -16,8 +16,6 @@ Researchers can recycle unique data by performing secondary analyses to answer n
 
 Making data reusable can also benefit society. It reduces unnecessary experimentation {% cite rehwald_2022 %}, avoids duplication of data collection and minimises collection from hard-to-reach, vulnerable or over-researched populations {% cite FSD rehwald_2022 %}. It also enables replication and thus promotes reproducibility. Finally, it benefits teaching and improves the link between academia and industry {% cite rehwald_2022 %}.
 
-# Primary *vs.* secondary data
-
 # Relevant licenses and terms of use
 
 # Criteria that "trustworthy" data should meet
