@@ -33,9 +33,19 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 ## Importance of data citation
 
 ## Common standards for data citation
-* **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as link)
+
+### Interdisciplinary
 * **DataCite 2019**: Creator (PublicationYear): Title. Version. Publisher. (resourceTypeGeneral). Identifier
+* **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as link)
+* **[BibGuru](https://app.bibguru.com/p/3420f069-22ea-42f6-ba23-4bc6b8ae37e4)**
 * **[DOI Citation Formatter](https://citation.crosscite.org/)**
+* **How to Cite Datasets and Link to Publications** {% cite ball_2015 %}
+
+### For nucleic acid sequences and functional genomics
+* [How do I cite my ArrayExpress data sets in my publication?](https://www.ebi.ac.uk/biostudies/arrayexpress/help#cite)
+* [How to Cite Data in ENA](https://www.ebi.ac.uk/ena/browser/about/citing-ena)
+* [Citing and linking to the GEO database](https://www.ncbi.nlm.nih.gov/geo/info/linking.html)
+* [How do I cite NCBI services and databases?](https://support.nlm.nih.gov/knowledgebase/article/KA-03391/en-us)
 
 ## Code citation
 Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo and Zotero {% cite escience_center_2021 %}.
