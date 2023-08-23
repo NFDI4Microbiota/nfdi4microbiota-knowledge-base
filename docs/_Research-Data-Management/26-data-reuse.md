@@ -17,6 +17,7 @@ Researchers can recycle unique data by performing secondary analyses to answer n
 Making data reusable can also benefit society. It reduces unnecessary experimentation {% cite rehwald_2022 %}, avoids duplication of data collection and minimises collection from hard-to-reach, vulnerable or over-researched populations {% cite FSD rehwald_2022 %}. It also enables replication and thus promotes reproducibility. Finally, it benefits teaching and improves the link between academia and industry {% cite rehwald_2022 %}.
 
 # Relevant licenses and terms of use
+See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
 
 # Criteria that "trustworthy" data should meet
 
@@ -37,9 +38,9 @@ Making data reusable can also benefit society. It reduces unnecessary experiment
 ### Interdisciplinary
 * **DataCite 2019**: Creator (PublicationYear): Title. Version. Publisher. (resourceTypeGeneral). Identifier
 * **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as link)
-* **[BibGuru](https://app.bibguru.com/p/3420f069-22ea-42f6-ba23-4bc6b8ae37e4)**
-* **[DOI Citation Formatter](https://citation.crosscite.org/)**
-* **How to Cite Datasets and Link to Publications** {% cite ball_2015 %}
+* [BibGuru](https://app.bibguru.com/p/3420f069-22ea-42f6-ba23-4bc6b8ae37e4)
+* [DOI Citation Formatter](https://citation.crosscite.org/)
+* How to Cite Datasets and Link to Publications {% cite ball_2015 %}
 
 ### For nucleic acid sequences and functional genomics
 * [How do I cite my ArrayExpress data sets in my publication?](https://www.ebi.ac.uk/biostudies/arrayexpress/help#cite)
