@@ -109,8 +109,6 @@ CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2
 
 # Data citation
 
-## Importance of data citation
-
 ## Common standards for data citation
 
 ### Interdisciplinary
