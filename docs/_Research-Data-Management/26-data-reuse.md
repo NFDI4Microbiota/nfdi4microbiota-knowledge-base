@@ -99,6 +99,18 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 
 ## Strategies to search for data
 
+The Consortium of European Social Science Data Archives (CESSDA) {% cite cessda_2017 %} has produced a list of steps in data discovery. The main ones are outlined below, and you can look at their [website](https://dmeg.cessda.eu/) for the sub-steps.
+1. Develop a clear picture of the research data you need
+2. Locate appropriate data resources
+3. Set up a search query and search the data resource
+4. Select data candidates
+5. Evaluate data quality
+
+CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2017 %}:
+Use appropriate words in appropriate fields
+Broaden your scope
+Narrow your scope
+
 # Data citation
 
 ## Importance of data citation
