@@ -107,9 +107,9 @@ The Consortium of European Social Science Data Archives (CESSDA) {% cite cessda_
 5. Evaluate data quality
 
 CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2017 %}:
-Use appropriate words in appropriate fields
-Broaden your scope
-Narrow your scope
+1. Use appropriate words in appropriate fields
+2. Broaden your scope
+3. Narrow your scope
 
 # Data citation
 
