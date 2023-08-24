@@ -88,8 +88,6 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 * [DataCite Commons](https://commons.datacite.org/)
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
-### Data catalogues
-
 ### Services where data can be published
 * **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories**
 * **Data reports**
