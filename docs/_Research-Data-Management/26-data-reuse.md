@@ -6,7 +6,7 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-# Benefits
+# Benefits & Drawbacks
 
 Making data reusable benefits researchers who publish their data, researchers who reuse data, and society. 
 
@@ -15,6 +15,12 @@ Researchers who publish their data see an increase in their scientific reputatio
 Researchers can recycle unique data by performing secondary analyses to answer new research questions and/or with new methods {% cite rehwald_2022 pauls_2023 %}. Reusing data in this way saves resources such as time, energy and money {% cite engelhardt_2022 FSD rehwald_2022 pauls_2023 %}. Data reuse also increases collaboration and, over time, enables the comparison of different samples {% cite rehwald_2022 pauls_2023 %}. Indeed, data reuse is essential for interdisciplinary experiments and cross-cutting research approaches {% cite pavone_2020 %}.
 
 Making data reusable can also benefit society. It reduces unnecessary experimentation {% cite rehwald_2022 %}, avoids duplication of data collection and minimises collection from hard-to-reach, vulnerable or over-researched populations {% cite FSD rehwald_2022 %}. It also enables replication and thus promotes reproducibility. Finally, it benefits teaching and improves the link between academia and industry {% cite rehwald_2022 %}.
+
+As suggested by Sielemann *et al.* 2020 {% cite sielemann_2020 %}, there are also challenges, limitations and risks associated with data reuse.
+
+For researchers who publish their data, preparing datasets for reuse is time-consuming. 
+
+For researchers reusing data, there are risks such as unknown quality and denormalisation (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating datasets from different sources {% cite sielemann_2020 %}.
 
 # Relevant licenses and terms of use
 See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
