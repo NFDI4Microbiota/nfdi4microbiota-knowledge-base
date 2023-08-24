@@ -6,7 +6,7 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-# Benefits & Drawbacks
+# Benefits and drawbacks
 
 Making data reusable benefits researchers who publish their data, researchers who reuse data, and society. 
 
