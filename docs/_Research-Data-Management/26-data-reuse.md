@@ -56,8 +56,6 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
 
-# Data provenance
-
 # Data discovery
 
 ## Services to search for data
