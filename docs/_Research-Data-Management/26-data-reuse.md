@@ -1,5 +1,5 @@
 ---
-title: Data Discovery and Reuse
+title: Data Reuse
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -25,7 +25,36 @@ For researchers reusing data, there are risks such as unknown quality and denorm
 # Relevant licenses and terms of use
 See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
 
-# Criteria that "trustworthy" data should meet
+# Criteria for selection trustworthy datasets
+
+Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022 sielemann_2020 %}. As in Sielemann *et al.* 2020 {% cite sielemann_2020 %}, for each possible criterion, several questions to consider are listed.
+
+* **Integrity of the source**
+    * Is the source/submitter associated with data fabrication/plagiarism?
+    * Is the way missing values handled documented?
+ 
+* **Biases**
+    * How was the data generated?
+    * Is the data generation clearly and precisely documented?
+  
+* **Missing metainformation (sparsity)**
+    * Do you have all relevant information?
+    * Is the information understandable and consistent?
+    
+* **Integration of datasets from different sources**
+    * Is the data comparable?
+    * Are the methods used for data generation and analysis well documented and comparable?
+    
+* **Quality issues**
+    * Is the quality high enough to reach your goals?
+    * Are there any scores/hints available to check the quality of the dataset?
+    
+* **Copyright/Legal issues**
+    * Are there any restrictions for reuse and publication of the data, especially due to the [Nagoya protocol](https://www.cbd.int/abs/)?
+   
+* **Further documentation**
+    * Is the research purpose/(hypo-)thesis well documented?
+    * Is it documented whether the data are raw or processed? 
 
 # Data provenance
 
@@ -81,7 +110,7 @@ See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/
 * **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as link)
 * [BibGuru](https://app.bibguru.com/p/3420f069-22ea-42f6-ba23-4bc6b8ae37e4)
 * [DOI Citation Formatter](https://citation.crosscite.org/)
-* How to Cite Datasets and Link to Publications {% cite ball_2015 %}
+* [How to Cite Datasets and Link to Publications](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
 
 ### For nucleic acid sequences and functional genomics
 * [How do I cite my ArrayExpress data sets in my publication?](https://www.ebi.ac.uk/biostudies/arrayexpress/help#cite)
