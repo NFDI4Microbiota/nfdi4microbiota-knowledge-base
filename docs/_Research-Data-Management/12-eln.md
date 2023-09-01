@@ -4,8 +4,15 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 ---
-# Definition
+# Definition of Electronic Lab Notebooks (ELNs)
 An Electronic Lab Notebook (ELN) is a software meant for documenting experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures and the ability to manage the lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation {% cite kwok_2018 lindstädt_2019 lma_rdmwg vandendorpe_nd vieten_2023 %}.
+
+# Uses of lab notebooks
+
+## Physical lab notebooks
+As well as documenting your experiments, resulting research data and processes, a physical lab notebook is also intended to communicate your work (e.g. why experiments were initiated?). It also serves as a legal document to prove patents and defend your data against accusations of misconduct. Finally, it is your scientific legacy in the laboratory {% n4m_wc_elns_2023 %}.
+
+## Additional uses of ELNs
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) -  Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
