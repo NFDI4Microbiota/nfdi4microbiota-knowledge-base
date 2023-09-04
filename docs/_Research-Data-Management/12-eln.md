@@ -10,7 +10,7 @@ An Electronic Lab Notebook (ELN) is a software meant for documenting experiments
 # Uses of lab notebooks
 
 ## Physical lab notebooks
-As well as documenting your experiments, resulting research data and processes, a physical lab notebook is also intended to communicate your work (e.g. why experiments were initiated?). It also serves as a legal document to prove patents and defend your data against accusations of misconduct. Finally, it is your scientific legacy in the laboratory {% n4m_wc_elns_2023 %}.
+As well as documenting your experiments, resulting research data and processes, a physical lab notebook is also intended to communicate your work (e.g. why experiments were initiated?). It also serves as a legal document to prove patents and defend your data against accusations of misconduct. Finally, it is your scientific legacy in the laboratory {% cite n4m_wc_elns_2023 %}.
 
 ## Additional uses of ELNs
 
