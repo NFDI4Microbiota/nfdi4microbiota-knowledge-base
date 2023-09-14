@@ -5,6 +5,8 @@ layout: default
 docs_css: markdown
 ---
 
+
+
 This document contains instructions on how to contribute to the Knowledge base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
 The main steps a user must follow to contribute to the Knowledge Base are:

@@ -35,6 +35,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-unknown)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -94,6 +95,10 @@ GEM
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.14.2-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.14.2-x86_64-linux)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -114,6 +119,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-unknown
   x86_64-linux
 

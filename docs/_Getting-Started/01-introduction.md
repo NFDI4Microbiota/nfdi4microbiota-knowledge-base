@@ -9,6 +9,20 @@ redirect_from:
 permalink: /
 ---
 
+<!-- <div class="bd-intro pt-2 ps-lg-2">
+                <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+                    <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
+                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base"
+                            title="View and edit this file on GitHub" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                    </div>
+                    <h1 class="bd-title mb-0" id="content">Introduction</h1>
+                </div>
+                
+
+</div> -->
+
 ## What is this Knowledge Base about?
 
 This knowledge base is a collection of information and references with
