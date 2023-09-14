@@ -34,8 +34,8 @@ are collected.
 ## How to use this resource
 
 The available resources are shown in the left navigation. Clicking on
-the link will toggle the visibility of sub-content. This resources is
-puslished under the Creative Commons Attribution
+the link will toggle the visibility of sub-content. This resource is
+published under the Creative Commons Attribution
 ([CC-BY](https://creativecommons.org/licenses/by/4.0/)).
 
 ## How to find a resource

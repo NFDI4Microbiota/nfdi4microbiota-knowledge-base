@@ -152,7 +152,6 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
     * The RDA-endorsed [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
 * To find Open Access repositories in the life sciences: [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
-* To find a suitable repository in the life sciences: [PUBLISSO – Repository Finder](https://www.publisso.de/en/research-data-management/publishing/publisso-repository-finder/)
 * To find a suitable interdisciplinary repository: [Generalist Repository Comparison Chart](https://doi.org/10.5281/zenodo.3946720)
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 

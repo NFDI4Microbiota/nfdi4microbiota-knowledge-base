@@ -45,27 +45,24 @@ Data interoperability is the ability of a dataset to work with other datasets or
 * (Meta)data are associated with detailed provenance.
 
 # Further resources
-
-* [Introducing the FAIR Principles for research software](https://doi.org/10.1038/s41597-022-01710-x)
+* Introducing the FAIR Principles for research software: [Barker *et al.* 2022](https://doi.org/10.1038/s41597-022-01710-x)
 
 ## Learning resources
-
-* [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
-* [FAIR in (biological) practice](https://carpentries-incubator.github.io/fair-bio-practice/index.html)
-* [FAIR sharing and access](https://mantra.ed.ac.uk/fairsharingandaccess/)
-* [D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions](https://doi.org/10.5281/zenodo.6425568)
+* Course on FAIR in (biological) practice: [The Carpentries Incubator](https://carpentries-incubator.github.io/fair-bio-practice/)
+* How to be FAIR with your data. A teaching and training handbook for higher education institutions: [Engelhardt *et al.* 2022](https://doi.org/10.5281/zenodo.6674301)
+* Unit on the benefits and challenges associated with sharing research data openly: [The University of Edinburgh](https://mantra.ed.ac.uk/fairsharingandaccess/)
 
 ## How to make data FAIR?
+* Guidelines to FAIRify data management and make data reusable: [PARTHENOS](https://doi.org/10.5281/zenodo.2668479)
+* Preparing data for sharing: [Knight 2015](https://www.slideshare.net/lshtm/preparing-data-for-sharing-the-fair-principles)
+* Recipes that help you to make and keep data FAIR: [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
+* Top 10 FAIR Data & Software Things: [Martinez *et al.* 2019](https://doi.org/10.5281/zenodo.3409968)
 
-* [PARTHENOS Guidelines to FAIRify data management and make data reusable](https://doi.org/10.5281/zenodo.2668479)
-* [Preparing data for sharing: The FAIR Principles](https://www.slideshare.net/lshtm/preparing-data-for-sharing-the-fair-principles)
-* [Top 10 FAIR Data & Software Things](https://doi.org/10.5281/zenodo.3409968)
-
-## How to assess the FAIRness of your dataset(s)?
-
-* [How FAIR are your data?](https://doi.org/10.5281/zenodo.1065991)
-* Self-Assessment Tool to Improve the FAIRness of Your Dataset ([SATIFYD](https://satifyd.dans.knaw.nl/))
-* [The FAIR Data Maturity Model: An Approach to Harmonise FAIR Assessments](http://doi.org/10.5334/dsj-2020-041)
+## How to assess the FAIRness of your datasets?
+* FAIR data maturity model indicators: [Bahim *et al.* 2020](https://doi.org/10.5334/dsj-2020-041), Table 1
+* FAIR evaluator service: [Fraunhofer FIT](https://gitlab.fit.fraunhofer.de/abu.ibne.bayazid/fairevaluator)
+* How FAIR are your data? [Jones and Grootveld 2017](https://doi.org/10.5281/zenodo.5111307)
+* Self-Assessment Tool to Improve the FAIRness of Your Dataset ([SATIFYD](https://satifyd.dans.knaw.nl/)) 
 
 # References
 
