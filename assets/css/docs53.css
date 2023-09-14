@@ -1322,7 +1322,7 @@ details[open]>.bd-summary-link {
 
 .bd-links-link:focus,
 .bd-links-link.active {
-    color: var(--bs-emphasis-color);
+    color:  #ffb12d; /* var(--bs-emphasis-color); */
     background-color: var(--bd-grey)
 }
 
@@ -1927,7 +1927,7 @@ details[open]>.bd-summary-link {
 }
 
 .btn-bd-light {
-    --btn-custom-color: #9461fb;
+    --btn-custom-color: #ffb12d;
     --bs-btn-color: var(--bs-gray-600);
     --bs-btn-border-color: var(--bs-border-color);
     --bs-btn-hover-color: var(--btn-custom-color);

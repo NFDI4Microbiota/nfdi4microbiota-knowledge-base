@@ -1,8 +1,16 @@
 $(document).ready(function () {
 
-  AutoActivateFirstChildTab();
+  //AutoActivateFirstChildTab();
   GenerateScrollSpy();
+  ChangeMenuTablets();
 });
+
+
+function ChangeMenuTablets(){
+  var headingtext = $('#content').text()
+  $('.active').removeClass('active');
+  $('.bd-links-link:contains("'+ headingtext +'")').addClass('active');
+}
 
 // tab UI first child auto active
 
