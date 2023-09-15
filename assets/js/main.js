@@ -9,7 +9,9 @@ $(document).ready(function () {
 function ChangeMenuTablets(){
   var headingtext = $('#content').text()
   $('.active').removeClass('active');
-  $('.bd-links-link:contains("'+ headingtext +'")').addClass('active');
+  var selectedelement = $('.bd-links-link').filter(function(){  return $(this).text() === headingtext; });
+  $(selectedelement).addClass('active');
+  // $('.bd-links-link:contains("'+ headingtext +'")').addClass('active');
 }
 
 // tab UI first child auto active
