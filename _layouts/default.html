@@ -157,10 +157,19 @@
         {% include aside.html %}
 
         <main class="bd-main order-1">
+
+            <!-- Edit button -->
+        {% if page.url != "/" %}
+        <!-- NOTE: All page names should be in lower case-->
+        {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
+        {% else %}
+        <!-- The second argument for replace_first should be the url of the homepage-->
+        {% assign git_url = page.url | replace_first:'/', 'docs/_Getting-Started/01-introduction' %}
+        {% endif %}        
             <div class="bd-intro pt-2 ps-lg-2">
                 <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
                     <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
-                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base"
+                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
                             title="View and edit this file on GitHub" target="_blank" rel="noopener">
                             View on GitHub
                         </a>
@@ -209,6 +218,12 @@
                     {{content}}
 
 
+                    <!-- Check if page is under construction -->
+        {% if page.empty %}
+        <p>This page is currently empty. Please consider contributing! </p>
+        {% endif %}
+
+        
             </div>
         </main>
     </div>
