@@ -18,6 +18,11 @@ ELNs offer features and functions that can pave the way for significant time sav
 ## What ELNs should not be used for
 ELNs are not data publishing platforms and are not suitable for storing large files. Large files require special technology for secure storage (e.g. Object Store, Nextcloud), but can still be linked in the ELN {% cite rehwald_2022 %}.
 
+# Benefits and drawbacks
+
+## Boosting efficiency of everyday tasks
+ELNs increase the efficiency of everyday tasks by providing time-saving features and functions such as search and filtering {% cite vandendorpe_nd %}. ELNs also take advantage of standardisation {% cite rathmann_2021 %}: they have the ability to create templates such as protocols, Standard Operating Procedures (SOPs) and workflows. This facilitates data documentation with metadata {% cite vandendorpe_nd %} and supports clarity and organisation of data and protocols {% cite n4m_wc_elns_2023 %}. ELNs also provide ubiquitous access {% cite vandendorpe_nd %}: protocols, observations, notes and other data can be entered using a computer or mobile device {% cite lma_rdmwg %}.
+
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) -  Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
 * ELN Filter - Selection of ELNs that are suitable for the life sciences and that can be filtered out according to criteria ([English](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2021-06_english.xlsx), [German](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2020-12-01.xlsx)).
