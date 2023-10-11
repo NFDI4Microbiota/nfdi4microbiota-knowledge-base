@@ -24,23 +24,18 @@ ELNs are not data publishing platforms and are not suitable for storing large fi
 ELNs increase the efficiency of everyday tasks by providing time-saving features and functions such as search and filtering {% cite vandendorpe_nd %}. ELNs also take advantage of standardisation {% cite rathmann_2021 %}: they have the ability to create templates such as protocols, Standard Operating Procedures (SOPs) and workflows. This facilitates data documentation with metadata {% cite vandendorpe_nd %} and supports clarity and organisation of data and protocols {% cite n4m_wc_elns_2023 %}. ELNs also provide ubiquitous access {% cite vandendorpe_nd %}: protocols, observations, notes and other data can be entered using a computer or mobile device {% cite lma_rdmwg %}.
 
 ## Connection to a digital research environment
-ELNs are linked to a digital research environment {% cite vandendorpe_nd %}, for example through their import and export capabilities {%  cite bobrov_2021 %}. ELNs can also provide seamless interfaces to other programmes, such as Application Programming Interfaces (APIs) {%  cite bobrov_2021 %}. This networked aspect of ELNs enables them to play a central role in an institution's [Research Data Management](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/02-rdm) (RDM) strategy. Indeed, ELNs can be linked and contribute to almost each step of the research data lifecycle.
+ELNs are linked to a digital research environment {% cite vandendorpe_nd %}, for example through their import and export capabilities {%  cite bobrov_2021 %}. ELNs can also provide seamless interfaces to other programmes, such as Application Programming Interfaces (APIs) {%  cite bobrov_2021 %}. This networked aspect of ELNs enables them to play a central role in an institution's [Research Data Management](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/02-rdm) (RDM) strategy. Indeed, ELNs can be linked and contribute to almost each step of the research data lifecycle:
 
-### Data collection
-ELNs can automatically record results from measuring instruments {% cite vandendorpe_2020 rathmann_2021 %} and retrieve data from databases for actively used data {% cite assmann_2022 Krause_2016 %}.
+* **Data collection:** ELNs can automatically record results from measuring instruments {% cite vandendorpe_2020 rathmann_2021 %} and retrieve data from databases for actively used data {% cite assmann_2022 Krause_2016 %}.
 
-### Data processing
-As we have seen, ELNs facilitate the documentation of data with metadata. They also allow data to be captured as early as possible and fed directly into an analysis pipeline {% cite vandendorpe_nd %}.
+* **Data processing:** As we have seen, ELNs facilitate the documentation of data with metadata. They also allow data to be captured as early as possible and fed directly into an analysis pipeline {% cite vandendorpe_nd %}.
 
-### Data sharing and publishing
-ELNs facilitate collaboration by allowing data already in digital form to be used directly in the ELN {% cite vandendorpe_nd %}. ELNs also make it easy to share information about the project, data and documentation with collaborators {% cite lma_rdmwg %}, for example via the cloud {% cite n4m_wc_elns_2023 %}. All this also facilitates collaboration with the institutional library, research data centre and IT centre {% cite vandendorpe_nd %}.
+* **Data sharing and publishing:** ELNs facilitate collaboration by allowing data already in digital form to be used directly in the ELN {% cite vandendorpe_nd %}. ELNs also make it easy to share information about the project, data and documentation with collaborators {% cite lma_rdmwg %}, for example via the cloud {% cite n4m_wc_elns_2023 %}. All this also facilitates collaboration with the institutional library, research data centre and IT centre {% cite vandendorpe_nd %}.
 ELNs also facilitate publishing by providing a means to prepare research data for publication {% cite vandendorpe_2020 %} and by integrating with other applications such as Mendeley, Dataverse and PubMed {% cite lma_rdmwg n4m_wc_elns_2023 %}.
 
-### Digital preservation
-ELNs facilitate the creation of backups {% cite rathmann_2021 %} and can include links to the location of large amounts of data {%  cite bobrov_2021 %}. They also facilitate the archiving of data and its documentation {% cite vandendorpe_nd n4m_wc_elns_2023 %} by providing a means to prepare research data for digital preservation {% cite vandendorpe_2020 %} and by being linked to digital preservation systems.
+* **Digital preservation:** ELNs facilitate the creation of backups {% cite rathmann_2021 %} and can include links to the location of large amounts of data {%  cite bobrov_2021 %}. They also facilitate the archiving of data and its documentation {% cite vandendorpe_nd n4m_wc_elns_2023 %} by providing a means to prepare research data for digital preservation {% cite vandendorpe_2020 %} and by being linked to digital preservation systems.
 
-### Data discovery and reuse
-ELNs can prove provenance {% cite lma_rdmwg %}.
+* **Data discovery and reuse:** ELNs can prove provenance {% cite lma_rdmwg %}.
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) -  Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
