@@ -37,6 +37,17 @@ ELNs also facilitate publishing by providing a means to prepare research data fo
 
 * **Data discovery and reuse:** ELNs can prove provenance {% cite lma_rdmwg %}.
 
+## Complying to the FAIR Data Principles
+ELNs support the FAIR Data Principles {% cite lma_rdmwg %}:
+
+* **Findability:** ELNs support findability by providing comprehensive search capabilities (e.g. database search, full-text search, conditional search), by supporting the assignment of metadata and tags (e.g. through extraction from documents), by assigning persistent identifiers such as the Digital Object Identifier (DOI) and by linking to data repositories and digital preservation systems {%  cite bobrov_2021 %}.
+
+* **Accessibility:** ELNs support accessibility by storing data in a fixed and accessible location, rather than on the researcher's USB stick or portable hard drive {%  cite bobrov_2021 %}.
+
+* **Interoperability:** ELNs support interoperability by supporting the use of controlled vocabularies in metadata and allowing export to standard formats {%  cite bobrov_2021 %}.
+
+* **Reusability:** ELNs support reusability by providing detailed provenance information through audit trails and documentation of both data generation (e.g. method logs) and equipment used {%  cite bobrov_2021 %}.
+
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) -  Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
 * ELN Filter - Selection of ELNs that are suitable for the life sciences and that can be filtered out according to criteria ([English](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2021-06_english.xlsx), [German](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2020-12-01.xlsx)).
