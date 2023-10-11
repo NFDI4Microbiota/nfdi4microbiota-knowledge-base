@@ -53,7 +53,7 @@ ELNs make an important contribution to Good Scientific Practice (GSP) by facilit
 
 ELNs also prevent data loss by eliminating problems with data deletion {% cite bobrov_2021 %}, illegible handwriting, media discontinuities between handwritten and digital entries {% cite vandendorpe_nd %}, damaged paper notebooks, and researchers moving on {% cite lma_rdmwg %}.
 
-Finally, ELNs contribute to GSP by providing for data security and collaboration (see Data sharing & publishing) {% cite lma_rdmwg %}.
+Finally, ELNs contribute to GSP by providing for data security and collaboration (see Data sharing and publishing) {% cite lma_rdmwg %}.
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) - Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
