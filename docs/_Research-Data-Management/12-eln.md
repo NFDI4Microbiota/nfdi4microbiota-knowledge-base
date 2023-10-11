@@ -38,7 +38,7 @@ ELNs also facilitate publishing by providing a means to prepare research data fo
 * **Data discovery and reuse:** ELNs can prove provenance {% cite lma_rdmwg %}.
 
 ## Complying to the FAIR Data Principles
-ELNs support the FAIR Data Principles {% cite lma_rdmwg %}:
+ELNs support the [FAIR Data Principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair) {% cite lma_rdmwg %}:
 
 * **Findability:** ELNs support findability by providing comprehensive search capabilities (e.g. database search, full-text search, conditional search), by supporting the assignment of metadata and tags (e.g. through extraction from documents), by assigning persistent identifiers such as the Digital Object Identifier (DOI) and by linking to data repositories and digital preservation systems {% cite bobrov_2021 %}.
 
