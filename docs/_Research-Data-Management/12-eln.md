@@ -48,12 +48,17 @@ ELNs support the [FAIR Data Principles](https://nfdi4microbiota.github.io/nfdi4m
 
 * **Reusability:** ELNs support reusability by providing detailed provenance information through audit trails and documentation of both data generation (e.g. method logs) and equipment used {% cite bobrov_2021 %}.
 
-# Contributing to Good Scientific Practice (GSP)
+## Contributing to Good Scientific Practice (GSP)
 ELNs make an important contribution to Good Scientific Practice (GSP) by facilitating the tracking, tracing and documentation of research processes and results over time {% cite vandendorpe_nd %}. They enable this by providing functions and features such as electronic signatures, version control {% cite vandendorpe_2020 %}, authentication, 'freezing' of work status, searchability and tagging of entries, and audit trail {% cite bobrov_2021 %}.
 
 ELNs also prevent data loss by eliminating problems with data deletion {% cite bobrov_2021 %}, illegible handwriting, media discontinuities between handwritten and digital entries {% cite vandendorpe_nd %}, damaged paper notebooks, and researchers moving on {% cite lma_rdmwg %}.
 
 Finally, ELNs contribute to GSP by providing for data security and collaboration (see Data sharing and publishing) {% cite lma_rdmwg %}.
+
+# Criteria to select an ELN
+
+## Basic systems
+Basic systems allow for traditional text entry, which can be searched and made available on multiple devices via the cloud. They also allow files (e.g. images, spreadsheets) to be attached to text and the attachments to be viewed, annotated and searched. Such systems include Word, Evernote and Dropbox. Basic systems have the advantage of being inexpensive, easily accessible and already familiar to many researchers. However, considerable effort is required to achieve the functionality of a traditional ELN with such a system {% cite vandendorpe_2020 bobrov_2021 %}.
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) - Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
