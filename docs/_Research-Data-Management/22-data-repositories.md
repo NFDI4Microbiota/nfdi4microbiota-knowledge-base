@@ -68,7 +68,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 | **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
 | **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
 | **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
-| **Scientific texts** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
+| **Scientific texts and data** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
