@@ -15,11 +15,11 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 2. Make changes to files in the repository:
     - Edit existing files *or*
     - Create new files
-3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file
+3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/blob/main/docs/_Getting-Started/03-contributors.md) file
 
 ## Create a GitHub account
 
-Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
+Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota.github.io)
 
 ## Make changes to the repository
 
@@ -56,7 +56,7 @@ A [GitHub Issue](https://docs.github.com/en/issues/tracking-your-work-with-issue
 
 To create a new issue:
 
-1. Go to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues)
+1. Go to the [issues page](https://github.com/NFDI4Microbiota.github.io/issues)
 2. Click the `New issue` button
 3. Add the title (the name of the suggested page) and add a description of what you want to include in the new page
 4. Assign the issue to `Mahdi Robbani`
@@ -66,7 +66,7 @@ To create a new issue:
 
 ## Add your name to the CONTRIBUTORS file
 
-We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file.
+We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/blob/main/docs/_Getting-Started/03-contributors.md) file.
 
 
 ## Contribution Rules

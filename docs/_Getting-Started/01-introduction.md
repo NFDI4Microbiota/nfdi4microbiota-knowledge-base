@@ -12,7 +12,7 @@ permalink: /
 <!-- <div class="bd-intro pt-2 ps-lg-2">
                 <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
                     <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
-                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base"
+                            href="https://github.com/NFDI4Microbiota"
                             title="View and edit this file on GitHub" target="_blank" rel="noopener">
                             View on GitHub
                         </a>
@@ -47,8 +47,8 @@ achieving the look-up for the desired document.
 ## How to contribute to this resource
 
 The files are hosted at a [repo on
-GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You
+GitHub](https://github.com/NFDI4Microbiota). You
 can contribute by suggesting new content in [an
-issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
+issue](https://github.com/NFDI4Microbiota/issues)
 or directly proposed changes using a [pull
-request](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/pulls).
+request](https://github.com/NFDI4Microbiota/pulls).

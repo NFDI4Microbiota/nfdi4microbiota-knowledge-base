@@ -5,7 +5,7 @@ from sys import exit
 from typing import List
 
 BASE_URL = "https://nfdi4microbiota.github.io"
-HOME_URL = f"{BASE_URL}/nfdi4microbiota-knowledge-base/"
+HOME_URL = f"{BASE_URL}/"
 
 def get_page_urls(url: str):
     response = requests.get(url)
