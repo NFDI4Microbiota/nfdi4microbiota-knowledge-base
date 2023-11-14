@@ -10,7 +10,7 @@ redirect_from: /Research-Data-Management
 
 Making data reusable benefits researchers who publish their data, researchers who reuse data, and society. 
 
-Researchers who publish their data see an increase in their scientific reputation, citations and collaborations {% cite rehwald_2022 pauls_2023 %}. In addition, researchers who publish their data not only comply with the [FAIR Data Principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair), but also avoid bias in the body of evidence {% cite IOM_2015 %}, increase transparency and thus trust in research {% cite engelhardt_2022 rehwald_2022 pauls_2023 %}. Finally, by sharing their resources and perspectives, researchers who publish their data enable other researchers to build on their work, accelerating scientific discovery {% cite engelhardt_2022 IOM_2015 rehwald_2022 %}.
+Researchers who publish their data see an increase in their scientific reputation, citations and collaborations {% cite rehwald_2022 pauls_2023 %}. In addition, researchers who publish their data not only comply with the [FAIR Data Principles](https://nfdi4microbiota.github.io/Research-Data-Management/04-fair), but also avoid bias in the body of evidence {% cite IOM_2015 %}, increase transparency and thus trust in research {% cite engelhardt_2022 rehwald_2022 pauls_2023 %}. Finally, by sharing their resources and perspectives, researchers who publish their data enable other researchers to build on their work, accelerating scientific discovery {% cite engelhardt_2022 IOM_2015 rehwald_2022 %}.
 
 Researchers can recycle unique data by performing secondary analyses to answer new research questions and/or with new methods {% cite rehwald_2022 pauls_2023 %}. Reusing data in this way saves resources such as time, energy and money {% cite engelhardt_2022 FSD rehwald_2022 pauls_2023 %}. Data reuse also increases collaboration and, over time, enables the comparison of different samples {% cite rehwald_2022 pauls_2023 %}. Indeed, data reuse is essential for interdisciplinary experiments and cross-cutting research approaches {% cite pavone_2020 %}.
 
@@ -23,7 +23,7 @@ For researchers who publish their data, preparing datasets for reuse is time-con
 For researchers reusing data, there are risks such as unknown quality and denormalisation (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating datasets from different sources {% cite sielemann_2020 %}.
 
 # Relevant licenses and terms of use
-See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
+See [Licenses](https://nfdi4microbiota.github.io/Research-Data-Management/25-licenses).
 
 # Criteria for selection trustworthy datasets
 
@@ -89,7 +89,7 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
 ### Services where data can be published
-* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories**
+* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/Research-Data-Management/22-data-repositories) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
