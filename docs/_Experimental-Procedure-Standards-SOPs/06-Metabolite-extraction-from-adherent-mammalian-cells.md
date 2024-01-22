@@ -1,4 +1,11 @@
- Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells 
+---
+title: Metabolite extraction from adherent mammalian cells
+category: Experimental-Procedure-Standards-SOPs
+layout: default
+docs_css: markdown
+---
+
+Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells 
 
 Aim: Aqueous metabolite extraction from mammalian cells or microbial samples for LC-MS analysis 
 

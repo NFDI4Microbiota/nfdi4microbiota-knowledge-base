@@ -1,3 +1,11 @@
+---
+title: Metabolite extraction from plant tissue
+category: Experimental-Procedure-Standards-SOPs
+layout: default
+docs_css: markdown
+---
+
+
 Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues  
 
 Sample required:Plant material required: 20-50 mg finely homogenized tissue 

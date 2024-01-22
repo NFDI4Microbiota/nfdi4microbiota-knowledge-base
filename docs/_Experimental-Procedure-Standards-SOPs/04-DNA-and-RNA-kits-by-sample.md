@@ -1,62 +1,71 @@
-Nucleic Acid extraction kits
-
-DNA extraction
-Sponges - QIAamp® DNA Micro kit (QIAGEN)1
-Sponges –DNeasy® PowerSoil® Pro Kit (QIAGEN)1
-Human blood viruses - QIAAMP Ultra Sens Virus Kit (Qiagen)2
-Water samples - PowerSoil® DNA Isolation Kit (MoBio)3
-Saliva - QIAamp® DNA Mini kit (Qiagen)4
-Crushed fruit fly larvae - DNeasy PowerLyzer PowerSoil Kit-100 (Qiagen)5
-Frog skin swab – Prepman Ultra (ThermoFisher)6
-Skin swabs - PureLink® Genomic DNA Mini Kit (Life Technologies)7
-Skin swaps - Kaneka Easy DNA Extraction Kit version 2 (Kaneka Corp)8
-Oral swaps - QIAamp DNA mini kit (Qiagen)9
-Skin swaps - QIAamp blood and tissue DNA extraction kit (Qiagen)9
-Oyster haemolymph - Qiagen DNeasy Blood and Tissue Kit (Qiagen)10
-Molluscs - E.Z.N.A. Mollusc DNA (Omega Biotek)11
-Melted ice cave water - MoBio PowerWater DNA Isolation kit (MoBio)12
-BAL, oral rinse, tongue scraping, bronchoscope flush - DNeasy Blood and Tissue kit (Qiagen)13
-Lake sediment - PrestoTM Soil DNA Extraction Kit14
-Oral Swabs - Maxwell RSC PureFood Pathogen Kit (Promega)15
-Plant DNA - Mo Bio PowerSoil kit (Qiagen)16
-Gastric juice - DNeasy® PowerSoil Pro kit (Qiagen)17
-Saliva - DNeasy® PowerSoil Pro kit (Qiagen)18
-Bacterial DNA - DNeasy PowerSoil Kit (QIAGEN)19
-Soil - PowerSoil DNA Isolation Kit (Qiagen)20
-Soil - FastDNA Spin kit for soil (MP Bio)21
-Wastewater samples - Nucleo spin soil DNA kit (Macherey Nagel)22
-Saliva - OMNIgene ORAL OM-501 (Genotek)23
-Viral DNA - QIAGEN DNeasy Blood and Tissue Kit (Qiagen)24
-Viral DNA & RNA - AllPrep DNA/RNA Mini kit (Qiagen)25
-Microbial DNA - Mo Bio PowerSoil kit (Qiagen)25
-Phage DNA - QIAamp - DNA stool kit (Qiagen)26
-Bacterial & Viral DNA - Isolate II Genomic DNA Kit (Bioline)13
-Fungal DNA - Maxwell® RSC PureFood GMO and Authentication Kit (Promega)27
-Leaves - PureLink Genomic DNA (ThermoFisher)28
-Food – Power Food kit (Qiagen)33
-Mollusc tissues - Qiagen DNeasy Blood and Tissue Kit (Qiagen)34 JV
-Yogurt - PowerSoil DNA Isolation Kit (MoBio)35 Pamela
-Saliva - PowerSoil DNA Isolation Kit (MoBio)36, Pamela
-Plasmid preparations: NucleoSpin Plasmid kit (Macherey-Nagel, Düren, DE)37 Maja
-Bile samples - ZymoBIOMICS DNA/RNA Miniprep Kit38 NT
-mouse small intestine content - ZymoBIOMICS DNA/RNA Miniprep Kit39 NT
-Bacterial DNA from cultures (automated) - GenFind v3 Kit (Beckman Coulter)40 NT
-Bacterial DNA from low biomass (eg. FACS sorted) samlpes – mericon DNA Bacteria Kit (Qiagen)41 NT
-
-RNA extraction
-Mosquitos - TRIzol LS (Invitrogen) – purified with RNeasy MinElute Cleanup Kit (Qiagen)29
-Sea Water - RNeasy mini kit (Qiagen)3
-Antarctic ticks - MagMax mirVana™ Total RNA isolation Kit (ThermoFisher Scientific)30
-Soil - PowerMax soil DNA isolation kit (Mo Bio)31
-Cervical samples - Smarter stranded total RNA-seq kit v2—pico input mammalian (Takara Bio)32
-Viral DNA & RNA - AllPrep DNA/RNA Mini kit (Qiagen)25
-Viral RNA - QIAmp Viral RNA kit (Qiagen)13
-Cerebellum, hippocampus and visual cortex - Uneasy Plus Universal Mini Kit (Qiagen)42 JV
-Bile samples - ZymoBIOMICS DNA/RNA Miniprep Kit43 NT
-mouse small intestine content - ZymoBIOMICS DNA/RNA Miniprep Kit44 NT
+---
+title: DNA and RNA kits by sample
+category: Experimental-Procedure-Standards-SOPs
+layout: default
+docs_css: markdown
+---
 
 
-References
+# Nucleic Acid extraction kits
+
+## DNA extraction
+
+- Sponges - QIAamp® DNA Micro kit (QIAGEN)1
+- Sponges –DNeasy® PowerSoil® Pro Kit (QIAGEN)1
+- Human blood viruses - QIAAMP Ultra Sens Virus Kit (Qiagen)2
+- Water samples - PowerSoil® DNA Isolation Kit (MoBio)3
+- Saliva - QIAamp® DNA Mini kit (Qiagen)4
+- Crushed fruit fly larvae - DNeasy PowerLyzer PowerSoil Kit-100 (Qiagen)5
+- Frog skin swab – Prepman Ultra (ThermoFisher)6
+- Skin swabs - PureLink® Genomic DNA Mini Kit (Life Technologies)7
+- Skin swaps - Kaneka Easy DNA Extraction Kit version 2 (Kaneka Corp)8
+- Oral swaps - QIAamp DNA mini kit (Qiagen)9
+- Skin swaps - QIAamp blood and tissue DNA extraction kit (Qiagen)9
+- Oyster haemolymph - Qiagen DNeasy Blood and Tissue Kit (Qiagen)10
+- Molluscs - E.Z.N.A. Mollusc DNA (Omega Biotek)11
+- Melted ice cave water - MoBio PowerWater DNA Isolation kit (MoBio)12
+- BAL, oral rinse, tongue scraping, bronchoscope flush - DNeasy Blood and Tissue kit (Qiagen)13
+- Lake sediment - PrestoTM Soil DNA Extraction Kit14
+- Oral Swabs - Maxwell RSC PureFood Pathogen Kit (Promega)15
+- Plant DNA - Mo Bio PowerSoil kit (Qiagen)16
+- Gastric juice - DNeasy® PowerSoil Pro kit (Qiagen)17
+- Saliva - DNeasy® PowerSoil Pro kit (Qiagen)18
+- Bacterial DNA - DNeasy PowerSoil Kit (QIAGEN)19
+- Soil - PowerSoil DNA Isolation Kit (Qiagen)20
+- Soil - FastDNA Spin kit for soil (MP Bio)21
+- Wastewater samples - Nucleo spin soil DNA kit (Macherey Nagel)22
+- Saliva - OMNIgene ORAL OM-501 (Genotek)23
+- Viral DNA - QIAGEN DNeasy Blood and Tissue Kit (Qiagen)24
+- Viral DNA & RNA - AllPrep DNA/RNA Mini kit (Qiagen)25
+- Microbial DNA - Mo Bio PowerSoil kit (Qiagen)25
+- Phage DNA - QIAamp - DNA stool kit (Qiagen)26
+- Bacterial & Viral DNA - Isolate II Genomic DNA Kit (Bioline)13
+- Fungal DNA - Maxwell® RSC PureFood GMO and Authentication Kit (Promega)27
+- Leaves - PureLink Genomic DNA (ThermoFisher)28
+- Food – Power Food kit (Qiagen)33
+- Mollusc tissues - Qiagen DNeasy Blood and Tissue Kit (Qiagen)34 JV
+- Yogurt - PowerSoil DNA Isolation Kit (MoBio)35 Pamela
+- Saliva - PowerSoil DNA Isolation Kit (MoBio)36, Pamela
+- Plasmid preparations: NucleoSpin Plasmid kit (Macherey-Nagel, Düren, DE)37 Maja
+- Bile samples - ZymoBIOMICS DNA/RNA Miniprep Kit38 NT
+- mouse small intestine content - ZymoBIOMICS DNA/RNA Miniprep Kit39 NT
+- Bacterial DNA from cultures (automated) - GenFind v3 Kit (Beckman Coulter)40 NT
+- Bacterial DNA from low biomass (eg. FACS sorted) samlpes – mericon DNA Bacteria Kit (Qiagen)41 NT
+
+## RNA extraction
+- Mosquitos - TRIzol LS (Invitrogen) – purified with RNeasy MinElute Cleanup Kit (Qiagen)29
+- Sea Water - RNeasy mini kit (Qiagen)3
+- Antarctic ticks - MagMax mirVana™ Total RNA isolation Kit (ThermoFisher Scientific)30
+- Soil - PowerMax soil DNA isolation kit (Mo Bio)31
+- Cervical samples - Smarter stranded total RNA-seq kit v2—pico input mammalian (Takara Bio)32
+- Viral DNA & RNA - AllPrep DNA/RNA Mini kit (Qiagen)25
+- Viral RNA - QIAmp Viral RNA kit (Qiagen)13
+- Cerebellum, hippocampus and visual cortex - Uneasy Plus Universal Mini Kit (Qiagen)42 JV
+- Bile samples - ZymoBIOMICS DNA/RNA Miniprep Kit43 NT
+- mouse small intestine content - ZymoBIOMICS DNA/RNA Miniprep Kit44 NT
+
+
+##References
 1. Ruocco, N. et al. Microbial diversity in Mediterranean sponges as revealed by metataxonomic analysis. Scientific Reports 2021 11:1 11, 1–12 (2021).
 2. Cebriá-Mendoza, M. et al. Deep viral blood metagenomics reveals extensive anellovirus diversity in healthy humans. Scientific Reports 2021 11:1 11, 1–11 (2021).
 3. Martínez-Pérez, C. et al. Phylogenetically and functionally diverse microorganisms reside under the Ross Ice Shelf. Nature Communications 2022 13:1 13, 1–15 (2022).

@@ -1,3 +1,10 @@
+---
+title: Lipid and fatty acid extraction protocol from biological samples
+category: Experimental-Procedure-Standards-SOPs
+layout: default
+docs_css: markdown
+---
+
 Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples
 
 Aim: Lipid extraction from mammalian cells or microbial samples for LC-MS analysis 
