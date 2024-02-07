@@ -1,5 +1,11 @@
 name: Spellcheck Action
-on: push
+
+on:
+  # Runs on pushes
+  push:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -10,12 +16,3 @@ jobs:
     - uses: actions/checkout@v3
     - uses: rojopolis/spellcheck-github-actions@0.36.0
       name: Spellcheck
-      with:
-        source_files: '**/*.md'
-        task_name: Markdown
-        output_file: spellcheck-output.txt
-    - uses: actions/upload-artifact@v3
-      if: '!cancelled()' # Do not upload artifact if job was cancelled
-      with:
-        name: Spellcheck Output
-        path: spellcheck-output.txt
