@@ -1,0 +1,16 @@
+# Lint all markdown files
+
+on: [push, pull_request]
+
+jobs:
+  # Lint Markdown file job
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DavidAnson/markdownlint-cli2-action@v15
+      with:
+      # Lint all markdown files in the repo
+        globs: '**/*.md'
+        # Automatically fix supported issues
+        fix: true
