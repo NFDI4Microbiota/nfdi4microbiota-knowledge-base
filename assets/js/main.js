@@ -61,7 +61,7 @@ function ChangeSelect(TxtBox) {
 }
 function GenerateScrollSpy() {
   $('h1, h2').each(function (index, element) {
-    if (index > 1) {
+    if (index > 0) {
       $('#TableOfContents').children().eq(0).append('<li><a href="#'+ $(element).attr('id') +'">' + $(element).text() + '</a></li>');
     }
   });
