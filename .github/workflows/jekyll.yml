@@ -33,7 +33,10 @@ jobs:
     - uses: actions/checkout@v4
     - uses: DavidAnson/markdownlint-cli2-action@v15
       with:
+      # Lint all markdown files in the repo
         globs: '**/*.md'
+        # Automatically fix supported issues
+        fix: true
   # Build job
   build:
     runs-on: ubuntu-latest
