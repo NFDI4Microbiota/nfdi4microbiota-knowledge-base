@@ -165,7 +165,7 @@ operating system: Linux
 
 license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
-link: [https://github.com/mdsufz/OrtSuite,](https://github.com/mdsufz/OrtSuite,)
+link: [https://github.com/mdsufz/OrtSuite](https://github.com/mdsufz/OrtSuite)
 
 ### PredicTF (UFZ) 
 
