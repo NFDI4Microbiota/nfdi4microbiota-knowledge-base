@@ -106,7 +106,7 @@ Calculation
 txt (distance matrix)
 ### Credits, support
  - github: @haubold
- - doi: [https://doi.org/10.1099/mgen.0.00068510.1093/bioinformatics/btu815
+ - doi: <https://doi.org/10.1093/bioinformatics/btu815>
 
 
 ---
@@ -138,7 +138,7 @@ fasta, tsv
 
 ## syntenet
 ### Homepage
-https://bioconductor.org/packages/release/bioc/html/syntenet.htm
+<https://doi.org/doi:10.18129/B9.bioc.syntenet>
 ### maturity
 Mature
 ### topic
