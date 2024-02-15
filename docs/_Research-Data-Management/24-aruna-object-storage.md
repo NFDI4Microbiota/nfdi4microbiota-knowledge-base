@@ -16,6 +16,8 @@ Aruna Object Storage (AOS) is a modern distributed storage platform designed to 
 * Keywords:  data management, storage, FAIR, multi-cloud, cloud-native, data mesh
 * RDC Integration: integrated or connected
 
+![AOS inside RDC](/nfdi4microbiota-knowledge-base/assets/img/rdc_aruna.png "AOS inside RDC")
+
 # Overview
 AOS is a fast, secure and geo-redundant data storage. It offers a sophisticated metadata management according to the FAIR principles. It builds the foundation for RDCs mediation and semantic layer and and handles all stored data objects secure, and data-agnostically.
 
