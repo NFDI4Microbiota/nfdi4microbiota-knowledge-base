@@ -3,7 +3,6 @@ title: Resources
 category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
-empty: true
 ---
 
 
@@ -13,7 +12,6 @@ empty: true
 | Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
 |---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
 | Homepage                        |                                                                                                  |                                   |
-|
 | Developmental stage of the tool | maturity                                                                                         | (Emerging, Mature , Legacy)       |
 | Topic                           | (could be ELIXIR Community)                                                                      |                                   |
 | Software or data license        | license                                                                                          | string                            |
@@ -41,7 +39,7 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 ### Output data
 ### Credits, support
   - code: github/gitlab/sourceforge link
-  - doi: [10.XXXX/YYYYYY][https://doi.org/10.xxxx/YYYYYYYY]
+  - doi: [10.XXXX/YYYYYY](doi.org/10.xxxx/YYYYYYYY)
 
 
 # Bioinformatic tools
@@ -106,7 +104,7 @@ Calculation
 txt (distance matrix)
 ### Credits, support
  - github: @haubold
- - doi: <https://doi.org/10.1093/bioinformatics/btu815>
+ - doi: [10.1093/bioinformatics/btu815](https://doi.org/10.1093/bioinformatics/btu815)
 
 
 ---
@@ -121,9 +119,7 @@ Metagenomics, horizontal gene transfer
 ### license
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
-Pipeline to automate the comparison between short-read lib
-
-ies to detect foreign ("xenotypic") sequences. 
+Pipeline to automate the comparison between short-read libraries to detect foreign ("xenotypic") sequences. 
 ### Input format
 fastq, tsv
 ### Tool operation
@@ -278,9 +274,8 @@ classification
 ### Output data 
 TSV,  network file, annotation file
 ### Credits, support
- - email: NA
- - bitbucket: https://bitbucket.org/MAVERICLab/vcontact2/src/master/
- - doi:10.1038/s41587-019-0100-8
+ - code: https://bitbucket.org/MAVERICLab/vcontact2/src/master/
+ - doi: [10.1038/s41587-019-0100-8](10.1038/s41587-019-0100-8)
  
 
 ---
@@ -291,7 +286,7 @@ https://github.com/jessieren/VirFinder
 ### maturity  
 Mature
 ### topic
-
+Prediction of viral sequences
 ### license  
 USC-RL v1.0
 ### Description
@@ -304,7 +299,7 @@ R
 ### Output data 
 TSV
 ### Credits, support
- - source: https://github.com/jessieren/VirFinder
+ - code: https://github.com/jessieren/VirFinder
  - doi:
 
 
@@ -359,7 +354,7 @@ Analysis, Data handling
 ### Output data
 SAM, Tables, visualizations
 ### Credits, support
-  - code: [https://github.com/qiita-spots/qiita](https://github.com/qiita-spots/qiita)
+  - code: [github.com/qiita-spots/qiita](https://github.com/qiita-spots/qiita)
   - doi: [10.1038/s41592-018-0141-9](https://doi.org/10.1038/s41592-018-0141-9)
  
 
