@@ -47,3 +47,7 @@ The main component of AOS is a distributed database system. It synchronizes all 
 
 ## AOS data structure
 AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and Objects, starting with version 2.x the data structure will be even more flexible and are organized into Projects, Collections, Datasets, and Objects with a more flexible relation model.
+
+![Aruna Object Storage Structure V1](/nfdi4microbiota-knowledge-base/assets/img/aruna-1-structure.png "Aruna Object Storage Structure V1")
+
+![Aruna Object Storage Structure V2](/nfdi4microbiota-knowledge-base/assets/img/aruna-2-structure.png "Aruna Object Storage Structure V2")
