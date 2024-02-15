@@ -19,7 +19,7 @@ A brief overview of the RDC architecture is outlined in the attached figure. In 
 * Management and Governance
 * External Data Interfaces
 
-![Architecture of the Research Data Commons](/nfdi4microbiota-knowledge-base/assets/img/rdc.png "Architecture of the Research Data Commons").
+![Architecture of the Research Data Commons](/nfdi4microbiota-knowledge-base/assets/img/rdc.png "Architecture of the Research Data Commons"){:width="70%"}
 
 The lower layers contain more technical functionality whereas the upper layers are primarily designed to end-users with domain knowledge. Each of the three lower layers consists of a few different technical components.
 
