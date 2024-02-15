@@ -4,7 +4,7 @@ category: Experimental-Procedure-Standards-SOPs
 layout: default
 docs_css: markdown
 redirect_from: /Experimental-Procedure-Standards-SOPs
-empty: true
+empty: false
 ---
 
 Standard Operating Procedures (SOPs) play a crucial role in ensuring consistency, reliability, and efficiency in research activities, particularly in the context of managing and analyzing complex data sets in microbiology. Here are several reasons why SOPs add value to the NFDI4Microbiota Knowledge Base:
