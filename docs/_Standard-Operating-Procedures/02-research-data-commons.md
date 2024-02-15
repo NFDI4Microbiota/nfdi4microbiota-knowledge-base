@@ -20,3 +20,7 @@ A brief overview of the RDC architecture is outlined in the attached figure. In 
 * External Data Interfaces
 
 ![Architecture of the Research Data Commons](/nfdi4microbiota-knowledge-base/assets/img/rdc.png "Architecture of the Research Data Commons").
+
+The lower layers contain more technical functionality whereas the upper layers are primarily designed to end-users with domain knowledge. Each of the three lower layers consists of a few different technical components.
+
+The **Cloud Layer** is the technical backbone based on a multi-cloud infrastructure including for example the de.NBI cloud and GDWG. These clould providers offer scalable functionality for distributed computing as well as cloud storage with near infinite resources such that users are empowered to run compute-intensive jobs or analyze very large data sets in a user-friendly way. In addition, there are cloud services like the Aruna Object Storage (AOS) for managing data in a unified model.
