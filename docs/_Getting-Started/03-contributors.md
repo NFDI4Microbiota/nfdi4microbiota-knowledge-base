@@ -11,4 +11,5 @@ docs_css: markdown
 4. Konrad U. Förstner (ORCID ID: [0000-0002-1481-2996](http://orcid.org/0000-0002-1481-2996))
 5. Paul M. J. Klemm (ORCID ID: [0000-0002-3609-5713](https://orcid.org/0000-0002-3609-5713))
 6. Uta Parmaksiz (ORCID ID: [0000-0002-0087-5056](https://orcid.org/0000-0002-0087-5056))
-7. \<Enter your name here>
+7. Frank Förster (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423))
+8. \<Enter your name here>
