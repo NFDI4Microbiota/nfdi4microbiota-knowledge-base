@@ -28,3 +28,5 @@ AOS key features are:
 * Effortless Migration - Effortless migration from other cloud storage providers such as AWS (Amazon Web Services) thanks to the S3 compatible interface.
 
 Storing data in localized, domain-specific data silos has limited use for collaboration, reuse and data analysis. AOS offers significant benefits for research data in NFDI4Biodiversity. These benefits include improved collaboration, compliance with FAIR principles, scalability, robust data security and seamless integration with existing systems and workflow tools. Ultimately, this facilitates scientific progress and enhances the quality of our research.
+
+![Aruna Object Storage Concept](/nfdi4microbiota-knowledge-base/assets/img/concept_aruna.png "Aruna Object Storage Concept")
