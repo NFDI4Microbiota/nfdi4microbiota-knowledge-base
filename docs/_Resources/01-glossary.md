@@ -14,6 +14,7 @@ redirect_from: /Resources
 
 ## C
 * **Code-based data processing & analysis:** giving instructions to a computer to convert raw data to machine-readable form and subsequently reusing them in order to discover useful information, inform conclusions and support decision-making.
+* **Controlled vocabulary:** providing a consistent way to describe data, where the terms consist of standardized and organized arrangements of words and phrases to describe domain-specific concepts. The terms are usually displayed in an alphabetical list of terms and can include subject headings, thesauri or glossaries, ontologies, and taxonomies.
 * **Custom code & scripts:** text-based commands used via a command-line interface.
 
 ## D
@@ -49,6 +50,7 @@ redirect_from: /Resources
 * **Narrative description:** detailed, written description of computational analyses.
 
 ## O
+* **Ontology:** a list of terms with curated textual definitions with persistent identifiers. The terms are arranged hierarchically from general to more specific and have defined relationships to other terms within the ontology and to external resources (e.g., synonyms, cross-references).
 * **Open Science:** make publicly funded research results (e.g. publications, research data, processes) publicly and freely accessible in digital formats under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.
 * **Open source software:** software with source code that anyone can inspect, modify, and enhance.
 
@@ -78,3 +80,5 @@ redirect_from: /Resources
 * [EDAM - Ontology of bioscientific data analysis and data management](http://edamontology.org/page)
 * [Glossary - Data processing and visualization for metagenomics](https://carpentries-lab.github.io/metagenomics-analysis/reference.html)
 * [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)
+* [GoFAIR - FAIR principles for metadata vocabulary usage](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/)
+
