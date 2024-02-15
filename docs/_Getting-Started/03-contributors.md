@@ -11,4 +11,7 @@ docs_css: markdown
 4. Konrad U. Förstner (ORCID ID: [0000-0002-1481-2996](http://orcid.org/0000-0002-1481-2996))
 5. Paul M. J. Klemm (ORCID ID: [0000-0002-3609-5713](https://orcid.org/0000-0002-3609-5713))
 6. Uta Parmaksiz (ORCID ID: [0000-0002-0087-5056](https://orcid.org/0000-0002-0087-5056))
-7. \<Enter your name here>
+7. Charlie Pauvert (ORCID ID: [0000-0001-9832-2507](https://orcid.org/0000-0001-9832-2507))
+8. Maja Magel (ORCID ID: [0009-0004-2517-0791](https://orcid.org/0009-0004-2517-0791))
+9. Martin Bole (ORCID ID: [0009-0004-9189-8852](https://orcid.org/0009-0004-9189-8852))
+10. \<Enter your name here>
