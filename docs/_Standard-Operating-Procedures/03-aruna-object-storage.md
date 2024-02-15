@@ -35,3 +35,6 @@ Storing data in localized, domain-specific data silos has limited use for collab
 AOS is located at [https://aruna-storage.org](https://aruna-storage.org). Users can log in there. Currently, the AAI of the GWDG is used for this purpose, which requires a user account at the GWDG, the DFN or at LifeScience AAI. Nevertheless, additional identity providers are possible. Thus, login via an SSO of NFDI4Biodiversity (and other NFDIs) will be supported when the service is established. After the AOS account has been activated, the user can create a project. Further users can then be activated for this project to enable data exchange and joint processing. The project can then be filled with data either via the API or via the S3 interface.
 
 ![Aruna Object Storage Start Page](/nfdi4microbiota-knowledge-base/assets/img/aruna-startpage-2023-7-28_8-24-10.png "Aruna Object Storage Start Page")
+
+# User Guide
+Basically, AOS is intended as a data backend for the RDC. For this reason, very few end users will use AOS directly. Data import, verification, transformation and processing is basically possible via the services in the mediation layer. This also ensures the consistency of the data. Users and services can be informed about changes to individual data objects or even entire projects via the AOS notification service and can thus react to these changes.
