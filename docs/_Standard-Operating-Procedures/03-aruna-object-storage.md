@@ -51,3 +51,7 @@ AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and
 ![Aruna Object Storage Structure V1](/nfdi4microbiota-knowledge-base/assets/img/aruna-1-structure.png "Aruna Object Storage Structure V1")
 
 ![Aruna Object Storage Structure V2](/nfdi4microbiota-knowledge-base/assets/img/aruna-2-structure.png "Aruna Object Storage Structure V2")
+
+# References
+* Dokumentation and Aruna start page: [https://aruna-storage.org](https://aruna-storage.org)
+* Source-Code: [https://github.com/ArunaStorage](https://github.com/ArunaStorage)
