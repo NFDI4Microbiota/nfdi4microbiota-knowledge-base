@@ -16,7 +16,7 @@ The FAIR data principles are a concise and measurable set of principles that may
 
 The principles {% cite wilkinson_2016 go_fair_2022 %} are reproduced below:
 
-# To be Findable
+## To be Findable
 
 * (Meta)data are assigned a globally unique and persistent identifier.
 * Data are described with rich metadata.
