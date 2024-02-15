@@ -30,3 +30,8 @@ AOS key features are:
 Storing data in localized, domain-specific data silos has limited use for collaboration, reuse and data analysis. AOS offers significant benefits for research data in NFDI4Biodiversity. These benefits include improved collaboration, compliance with FAIR principles, scalability, robust data security and seamless integration with existing systems and workflow tools. Ultimately, this facilitates scientific progress and enhances the quality of our research.
 
 ![Aruna Object Storage Concept](/nfdi4microbiota-knowledge-base/assets/img/concept_aruna.png "Aruna Object Storage Concept")
+
+# Getting started
+AOS is located at [https://aruna-storage.org](https://aruna-storage.org). Users can log in there. Currently, the AAI of the GWDG is used for this purpose, which requires a user account at the GWDG, the DFN or at LifeScience AAI. Nevertheless, additional identity providers are possible. Thus, login via an SSO of NFDI4Biodiversity (and other NFDIs) will be supported when the service is established. After the AOS account has been activated, the user can create a project. Further users can then be activated for this project to enable data exchange and joint processing. The project can then be filled with data either via the API or via the S3 interface.
+
+![Aruna Object Storage Start Page](/nfdi4microbiota-knowledge-base/assets/img/aruna-startpage-2023-7-28_8-24-10.png "Aruna Object Storage Start Page")
