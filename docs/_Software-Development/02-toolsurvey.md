@@ -9,7 +9,7 @@ The following data is compiled from a questionnaire of Q4 2022 and is targeted a
 
 The goal is to gather this information centrally in NFDI4Microbiota to assess the span of tools and derive consortium-wide guidelines for the tightest integration possible.
 
-# Applications
+## Applications
 ### checkM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
@@ -60,7 +60,7 @@ license: [LGPL 3.0](https://opensource.org/license/lgpl-3-0/)
 
 link: [https://gitlab.com/paulklemm_PHD/proteinortho](https://gitlab.com/paulklemm_PHD/proteinortho)
 
-# Benchmarks
+## Benchmarks
 ### AMBER (Helmholtz-HZI) 
 
 Assessment of Metagenome BinnERs
@@ -71,7 +71,7 @@ license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
 link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
 
-# Databases
+## Databases
 ### BacDive (DSMZ) 
 
 "BacDive is the worldwide largest database for standardized bacterial information.
@@ -102,7 +102,7 @@ license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
 link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
 
-# Pipelines
+## Pipelines
 ### BioAutoML (UFZ) 
 
 BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences
@@ -199,7 +199,7 @@ license: [BSD3](https://opensource.org/license/bsd-3-clause/)
 
 link: [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 
-# Webservices
+## Webservices
 ### iPath (EMBL) 
 
 Interactive Pathways Explorer (iPath) is a web-based tool for the visualization, analysis and customization of various pathway maps.
