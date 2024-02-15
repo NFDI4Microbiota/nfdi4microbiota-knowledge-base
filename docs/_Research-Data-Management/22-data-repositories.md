@@ -33,8 +33,8 @@ Below are listed criteria you might want to consider when selecting a repository
 4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
 5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
-## Well-established repositories in microbiology
-Below are liste well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
+## Well-established repositories for data deposition in microbiology
+Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	| 
 |---	|---	|---	|---	|
@@ -45,6 +45,9 @@ Below are liste well-established repositories in microbiology. For each reposito
 |  	| [Cell Image Library](http://www.cellimagelibrary.org/home) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.8t18te) 	| [re3data](https://www.re3data.org/repository/r3d100000023) 	|
 | **Linked genotype and phenotype data** 	| European Genome-phenome Archive ([EGA](https://ega-archive.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff) 	| [re3data](https://www.re3data.org/repository/r3d100011242) 	|
 | **Macromolecular structures** 	| Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4) 	| [re3data](https://www.re3data.org/repository/r3d100011104) 	|
+|     | RCSB Protein Data Bank ([RCSB PDB](https://www.rcsb.org))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.2t35ja) 	| [re3data](https://www.re3data.org/repository/r3d100010327) 	|
+|     | Protein Data Bank of Japan ([PDBj](https://pdbj.org))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.rs2815) 	| [re3data](https://www.re3data.org/repository/r3d100010910) 	|
+|     | Protein Data Bank of Europe ([PDBj](https://www.ebi.ac.uk/pdbe/))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.26ek1v) 	| [re3data](https://www.re3data.org/repository/r3d100010538) 	|
 |  	| Biological Magnetic Resonance Data Bank ([BMRB](https://bmrb.io/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.p06nme) 	| [re3data](https://www.re3data.org/repository/r3d100010191) 	|
 | **Electron microscopy data** 	| Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.651n9j) 	| [re3data](https://www.re3data.org/repository/r3d100010562) 	|
 |  	| Electron Microscopy Public Image Archive ([EMPIAR](https://www.ebi.ac.uk/empiar/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dff3ef) 	| [re3data](https://www.re3data.org/repository/r3d100012356) 	|
@@ -154,6 +157,9 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * To find Open Access repositories in the life sciences: [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 * To find a suitable interdisciplinary repository: [Generalist Repository Comparison Chart](https://doi.org/10.5281/zenodo.3946720)
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
+
+## See Also
+* [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
 
 ## References
 * Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)
