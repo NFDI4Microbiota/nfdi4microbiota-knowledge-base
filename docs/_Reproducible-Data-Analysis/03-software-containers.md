@@ -45,7 +45,7 @@ You can use the absolute path of this file to replace Virsorter2 in commands.
 Also this image has the database and dependencies included, so you can skip the download of databases and dependencies.
 
 ### Docker
-Simmilarly with Docker, the user can find an example of running BLAST [here](https://biocontainers-edu.readthedocs.io/en/latest/running_example.html)
+Similarly with Docker, the user can find an example of running BLAST [here](https://biocontainers-edu.readthedocs.io/en/latest/running_example.html)
 
 
 ## Best Practices for Container Creation {best-practices}
