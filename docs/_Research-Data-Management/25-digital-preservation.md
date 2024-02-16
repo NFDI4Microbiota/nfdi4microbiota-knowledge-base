@@ -5,12 +5,12 @@ layout: default
 docs_css: markdown
 ---
 # Definition
-Digital preservation is the act of ensuring continued findability and access to digital material and maintaining it independently understandable and reusable by a designated community, and with evidence supporting its authenticity, for as long as necessary. Preservation actions include:
-* Data cleaning
-* Data validation
-* Data documentation with descriptive metadata and preservation metadata (e.g. administrative and technical metadata)
-* Assigning representational information (e.g. original file or derivatives)
-* Ensuring acceptable data structures or file formats
+Digital preservation means taking certain measures to ensure that digital material can be found and rendered in the long term ("long-term accessibility of data"). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. 
+Measures to promote the long-term accessibility of data include:
+* Cleaning data and data structures (e.g. see also: Data Organisation)
+* Validating data (e.g. see also: Data Quality Control)
+* Documenting data (e.g. commenting, adding descriptive, administrative and technical metadata)
+* Transfering data into reusable file formats - and assigning information regarding its representation (e.g. original file or derivatives)
 
 # Selection of data to keep
 To decide what data to keep, we recommend reading this [how-to guide](https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep) by Angus Whyte. The steps they suggest to make this decision are as follow:
