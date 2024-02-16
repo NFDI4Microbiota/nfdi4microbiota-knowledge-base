@@ -20,6 +20,17 @@ ELNs offer features and functions that can pave the way for significant time sav
 ELNs are not data publishing platforms and are not suitable for storing large files. Large files require special technology for secure storage (e.g. Object Store, Nextcloud), but can still be linked in the ELN {% cite rehwald_2022 %}.
 
 # Benefits and drawbacks
+## Pros & Cons of Physical Lab Notebooks
+
+Historically, documentation of experiments have been done in a physical, paper and pen notebook. For some researchers this is still a preferred method of documentation. It’s easy and inexpensive to use as it does not require computers nor internet access. However, with the technological advancement in data collection and processing there is a greater amount of data produced than ever before and with it there is a need for data to be digitised and managed electronically. 
+
+Also with advances in communication and travel it is even easier to work collaboratively with researchers at different institutes around the world. This collaboration would be difficult or hindered if scans of physical lab notebooks would need to be shared. Of course, this also does not take into consideration the legibility of the experiment notes or the ability to make general sense of it.
+
+These drawbacks outweigh the benefits of a physical laboratory notebook. Adoption of an ELN is one of the essential steps needed in making research data FAIR. The purpose of adherence to the FAIR principles is so that the data can continue to be reused, validated, and expanded by researchers in the future. The data life cycle starts with planning and goes through the production and analysis followed by storage and access and ideally ends with data re-use. 
+
+In order for data to be re-used it needs to meet the criteria of the FAIR principles. This is where the largest drawback of physical laboratory notebooks lies. Data in a physical notebook cannot be found, accessed, or reused by other researchers. Data in an ELN can be extracted, downloaded, shared, and stored in a FAIR capacity. This data can also be described with metadata which gives more context needed to make sense of the data and ensure it can be reused.
+
+Unfortunately, the major drawback to the wide use of ELNs in all areas of research appears to be data security risks, specifically when used in medical research. There is still an ongoing discussion on how to best securely manage patient research data in an ELN. However, according to Guerrero the best solutions involve using private servers on site or private institutionally based cloud services {% cite Guerrero2016 %}.
 
 ## Boosting efficiency of everyday tasks
 ELNs increase the efficiency of everyday tasks by providing time-saving features and functions such as search and filtering {% cite vandendorpe_nd %}. ELNs also take advantage of standardisation {% cite rathmann_2021 %}: they have the ability to create templates such as protocols, Standard Operating Procedures (SOPs) and workflows. This facilitates data documentation with metadata {% cite vandendorpe_nd %} and supports clarity and organisation of data and protocols {% cite n4m_wc_elns_2023 %}. ELNs also provide ubiquitous access {% cite vandendorpe_nd %}: protocols, observations, notes and other data can be entered using a computer or mobile device {% cite lma_rdmwg %}.
