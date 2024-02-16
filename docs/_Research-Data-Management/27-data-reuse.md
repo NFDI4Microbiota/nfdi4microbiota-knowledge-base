@@ -23,7 +23,7 @@ For researchers who publish their data, preparing datasets for reuse is time-con
 For researchers reusing data, there are risks such as unknown quality and denormalisation (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating datasets from different sources {% cite sielemann_2020 %}.
 
 # Relevant licenses and terms of use
-See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
+See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/26-licenses).
 
 # Criteria for selection trustworthy datasets
 
