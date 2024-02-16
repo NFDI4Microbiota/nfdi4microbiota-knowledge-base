@@ -74,7 +74,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 |  	| Genomic Expression Archive ([GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.hESBcy) 	| [re3data](https://www.re3data.org/repository/r3d100013187) 	|
 |  	| Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) 	| / 	|
 | **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
-| **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
+| **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://www.ebi.ac.uk/pride)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
 | **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
 | **Scientific texts and data** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
@@ -90,7 +90,7 @@ Below are liste well-established repositories in microbiology. For each reposito
 * **Terms of use & License**: yes
 * **PID system**: yes (DOI)
 * **Certification or repository standard**: no
-* **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
+* **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_FD_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
 * **Archiving**: yes
 * **Costs**: free of charge
 * **Data curation & quality control**: no
