@@ -86,5 +86,5 @@ Use volumes or bind mounts for data that needs to persist beyond the life of the
 ## Resources and Further Reading
 - [Apptainer User Guide](https://apptainer.org/docs/user/latest/introduction.html): Comprehensive documentation for getting started with Apptainer.
 - [BioContainers Community](https://biocontainers.pro/): A resource for finding and sharing containerized bioinformatics tools.
-- [Docker Introduction @Carpentries](https://carpentries-incubator.github.io/docker-introduction/)
+- [Docker Introduction Lesson (Beta version)](https://carpentries-incubator.github.io/docker-introduction/)
 - [Singularity Introduction @Carpentries](https://carpentries-incubator.github.io/singularity-introduction/)
