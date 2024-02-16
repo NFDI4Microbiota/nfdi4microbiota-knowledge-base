@@ -32,11 +32,11 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 |     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) 	| - 	| - 	|
 | **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) 	| - 	| - 	|
 |     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) 	| - 	|
-| **Viruses, Sequence analysis platforms** 	| ([NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) 	| - 	|
+| **Viruses, Sequence analysis platforms** 	| [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) 	| - 	|
 |     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) 	| [re3data](https://www.re3data.org/repository/r3d100014100) 	|
-| **Viruses, Nucleic acid sequence downloads** | ([RVDB](https://rvdb.dbi.udel.edu/)) 	| - 	| - 	|
+| **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) 	| - 	| - 	|
 |     | ([inphared](https://github.com/RyanCook94/inphared)) 	| -	| - |
-| **Viruses, Macromolecular structures** 	| VIPERdb ([VIPERdb](https://viperdb.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
+| **Viruses, Macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
 | **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
 |    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
 | **Viruses, -omics datasets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
