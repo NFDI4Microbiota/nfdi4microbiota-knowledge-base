@@ -7,3 +7,5 @@ gemspec
 gem 'jemoji'
 gem 'jekyll-scholar', group: :jekyll_plugins
 gem 'jekyll-redirect-from'
+
+gem "liquid", "~> 4.0.4"

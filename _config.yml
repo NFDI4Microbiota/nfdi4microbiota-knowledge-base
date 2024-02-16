@@ -86,5 +86,5 @@ collections:
 
 # Plugin settings
 scholar:
-  style: american-medical-association
+  #style: american-medical-association # causes duplication in numbering of the references when enabled
   source: ./docs/_bibliography
