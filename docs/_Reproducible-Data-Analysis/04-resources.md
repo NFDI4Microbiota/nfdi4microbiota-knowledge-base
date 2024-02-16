@@ -9,6 +9,7 @@ docs_css: markdown
 # Metainformation Template
 
 ## CV terms
+
 | Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
 |---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
 | Homepage                        |                                                                                                  |                                   |
