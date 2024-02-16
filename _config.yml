@@ -58,7 +58,10 @@ collections:
   Getting-Started:
     output: true
     permalink: /:collection/:name
-    order: 1
+    order:
+      - introduction.md
+      - contributing.md
+      - contributors.md
   Research-Data-Management:
     output: true
     permalink: /:collection/:name
