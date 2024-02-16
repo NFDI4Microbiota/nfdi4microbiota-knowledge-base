@@ -7,7 +7,7 @@ docs_css: markdown
 # Definition
 Digital preservation means taking certain measures to ensure that digital material can be found and rendered in the long term ("long-term accessibility of data"). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. 
 
-# Digital Preservation for Researchers
+# Digital preservation for researchers
 Best practice methods:
 * **Cleaning** data / data structures - see also: Data Organisation
 * **Validating** data - see also: Data Quality Control
@@ -28,14 +28,18 @@ To decide well-founded on data selection we recommend reading the how-to guide [
 
 
 ## Recommended file formats for preservation
-It is recommended making your data available in recommended file formats additional to the original software format.
+Making your research available in recommended file formats additional to the original software format supports highly the reusability and long-term accessibility of your data.
 Attributes of those file formats are: 
 * Open rather than proprietary
-* Exportable to / unpackable into an open format (e.g. xlsx, docx, etc. can be unpacked into folders of xml files)
-* Machine-readable
 * Well-documented
 * In widespread use
 * Simple (e.g. csv rather than xlsx)
 * Text-based (i.e. any file you can open with a text editor and read) rather than binary (e.g. txt files rather than doc files)
-
+* Exportable to / unpackable into an open format (e.g. xlsx, docx, etc. can be unpacked into folders of xml files)
+* Machine-readable
+  
 For biomaterial data, recommended formats are CSV, TXT and XML.
+
+# Digital preservation for repository operators
+
+
