@@ -67,6 +67,8 @@ Specialised systems have all the features of basic systems and more. They have t
 ## High-end systems
 High-end systems have all the features of specialised systems and more. High-end ELNs integrate a Laboratory Information Management System (LIMS) (e.g. IBDS E-WORKBOOK, iLAB Laboratory Execution System) that allows complete tracking of samples and reagents through all experiments. They are also directly linked to laboratory equipment such as microscopes, spectrometers and sequencers. High-end systems provide workflows for specific samples, experiments and tasks. They can automatically deliver raw data and metadata (e.g. date of last calibration) from laboratory equipment. Finally, they allow data mining (aggregation and clustering of structured data) and analysis of raw data within the system. Such systems include Hivebench and Limsophy. High-end systems have the advantage of completeness of features and all their components fit together seamlessly, making them easy to use. However, they are often cloud-hosted solutions, which means that data control and security remain in the hands of the ELN provider {% cite bobrov_2021 vandendorpe_2020 %}, and they are more expensive {% cite higgins_2022 %}. They also use proprietary formats, which can increase the risk of vendor lock-in (i.e. making users dependent on the ELN and unable to use their data with another ELN without significant switching costs {% cite vendor_lock_in %}) {% cite bobrov_2021 vandendorpe_2020 %}.
 
+## Electronic Lab Notebooks *vs.* Laboratory Information Management System (LIMS)
+ELNs are sometimes confused with Laboratory Information Management Systems (LIMS). They both streamline laboratory workflow and data management and are complementary, but they have different functionalities and features. A LIMS is a comprehensive software for managing and tracking laboratory operations and data. A LIMS covers sample management, workflow management and automation, quality control and sample tracking throughout the laboratory. On the other hand, an ELN focuses on experimental data acquisition, experiment documentation and (real-time) collaboration {% cite eln_lims_linkedin eln_lims_sapio %}.
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) - Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
@@ -74,7 +76,7 @@ High-end systems have all the features of specialised systems and more. High-end
 * ELN Guide - ELNs in the context of research data management and good research practice – a guide for the life sciences ([English](https://dx.doi.org/10.4126/FRL01-006425772), [German](https://dx.doi.org/10.4126/FRL01-006422868)).
 * Free consultation sessions to get advice on the selection and introduction of an ELN (<forschungsdaten@zbmed.de>).
 * [Video tutorial series](https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K) (only in German).
-* Working groups on ELNs (e.g. in [North Rhine-Westphalia](https://www.fdm.nrw/index.php/fdm-nrw/elb/), Germany).
+* Working groups on ELNs (e.g. in [North Rhine-Westphalia](https://wiki.hhu.de/display/ELB/) in German).
 
 # References
 {% bibliography --cited_in_order %}

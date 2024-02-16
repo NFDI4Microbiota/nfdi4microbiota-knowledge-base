@@ -14,4 +14,5 @@ docs_css: markdown
 7. Charlie Pauvert (ORCID ID: [0000-0001-9832-2507](https://orcid.org/0000-0001-9832-2507))
 8. Maja Magel (ORCID ID: [0009-0004-2517-0791](https://orcid.org/0009-0004-2517-0791))
 9. Martin Bole (ORCID ID: [0009-0004-9189-8852](https://orcid.org/0009-0004-9189-8852))
-10. \<Enter your name here>
+10. Frank Förster (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423))
+11. \<Enter your name here>

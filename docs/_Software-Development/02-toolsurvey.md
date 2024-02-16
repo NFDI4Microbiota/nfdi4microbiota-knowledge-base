@@ -9,14 +9,14 @@ The following data is compiled from a questionnaire of Q4 2022 and is targeted a
 
 The goal is to gather this information centrally in NFDI4Microbiota to assess the span of tools and derive consortium-wide guidelines for the tightest integration possible.
 
-# Applications
+## Applications
 ### checkM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
 
 operating system: Linux
 
-license: GNU 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
 link: [https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM2)
 
@@ -26,7 +26,7 @@ Fast genome-wide functional annotation through orthology assignment
 
 operating system: Linux, MacOS, Windows
 
-license: GNU 
+license: [AGPL 3.0](https://opensource.org/license/agpl-v3/) 
 
 link: [https://github.com/eggnogdb/eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper)
 
@@ -36,7 +36,7 @@ Python package for detection of chimerism and contamination in prokaryotic genom
 
 operating system: Linux, MacOS, Windows
 
-license: GNU 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/) 
 
 link: [https://github.com/grp-bork/gunc](https://github.com/grp-bork/gunc)
 
@@ -46,7 +46,7 @@ A computational tool that estimates relative taxonomic abundance of known and cu
 
 operating system: Linux
 
-license: GNU 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)  
 
 link: [https://github.com/motu-tool/mOTUs](https://github.com/motu-tool/mOTUs)
 
@@ -56,29 +56,29 @@ Proteinortho is a tool to detect orthologous genes within different species.
 
 operating system: Linux, MacOS
 
-license: GNU 
+license: [LGPL 3.0](https://opensource.org/license/lgpl-3-0/)
 
 link: [https://gitlab.com/paulklemm_PHD/proteinortho](https://gitlab.com/paulklemm_PHD/proteinortho)
 
-# Benchmarks
+## Benchmarks
 ### AMBER (Helmholtz-HZI) 
 
 Assessment of Metagenome BinnERs
 
 operating system: Linux
 
-license: GPL 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
 link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
 
-# Databases
+## Databases
 ### BacDive (DSMZ) 
 
 "BacDive is the worldwide largest database for standardized bacterial information.
 
 operating system: Linux
 
-license: GNU 
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/)
 
 link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
 
@@ -98,18 +98,18 @@ Standardized cultivation media database
 
 operating system: Linux, MacOS, Windows
 
-license: CC4 
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
 link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
 
-# Pipelines
+## Pipelines
 ### BioAutoML (UFZ) 
 
 BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences
 
 operating system: Linux, MacOS
 
-license: NA 
+license: [BSD3](https://opensource.org/license/bsd-3-clause/)
 
 link: [https://github.com/Bonidia/BioAutoML](https://github.com/Bonidia/BioAutoML)
 
@@ -119,7 +119,7 @@ Model abundance distributions of microbial communities and simulate metagenome d
 
 operating system: Linux
 
-license: Apache 
+license: [Apache 2](https://opensource.org/license/apache-2-0/)
 
 link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challenge/CAMISIM)
 
@@ -129,7 +129,7 @@ Workflow for metaproteomics anaylysis of microbiomes
 
 operating system: Linux, Windows
 
-license: Apache 
+license: [Apache 2](https://opensource.org/license/apache-2-0/)
 
 link: [https://github.com/compomics/meta-proteome-analyzer](https://github.com/compomics/meta-proteome-analyzer)
 
@@ -143,7 +143,7 @@ It was designed to be an easy-to-use tool that outputs ready-to-use comprehensiv
 
 operating system: Linux
 
-license: GNU 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
 link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
 
@@ -153,7 +153,7 @@ Recover eukaryotic, prokaryotic, and viral metagenome-assembled genomes from a s
 
 operating system: Linux
 
-license: GNU 
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
 link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
 
@@ -163,9 +163,9 @@ Flexible pipeline for annotation of ecosystem processes and prediction of putati
 
 operating system: Linux
 
-license: CC4 
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
-link: [https://github.com/mdsufz/OrtSuite,](https://github.com/mdsufz/OrtSuite,)
+link: [https://github.com/mdsufz/OrtSuite](https://github.com/mdsufz/OrtSuite)
 
 ### PredicTF (UFZ) 
 
@@ -173,7 +173,7 @@ Tool to predict bacterial transcription factors in complex microbial communities
 
 operating system: Linux
 
-license: CC4 
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)  
 
 link: [https://github.com/mdsufz/PredicTF](https://github.com/mdsufz/PredicTF)
 
@@ -195,18 +195,18 @@ Best practice microbiome analysis suite
 
 operating system: Linux
 
-license: BSD3 
+license: [BSD3](https://opensource.org/license/bsd-3-clause/)
 
 link: [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 
-# Webservices
+## Webservices
 ### iPath (EMBL) 
 
 Interactive Pathways Explorer (iPath) is a web-based tool for the visualization, analysis and customization of various pathway maps.
 
 operating system: Linux
 
-license: GPL 
+license: [GPL](https://opensource.org/license/gpl-3-0/) 
 
 link: [https://pathways.embl.de/](https://pathways.embl.de/)
 
