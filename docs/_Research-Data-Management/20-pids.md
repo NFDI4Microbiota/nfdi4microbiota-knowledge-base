@@ -20,19 +20,19 @@ For example, Mathias Mueller is a fairly common name in Germany. However, with a
 ## DOI
 Digital Object Identifier or DOI is another form of persistent identifier. Papers, articles, and published datasets may have a DOI which links these items. This makes it easier to find these digital objects online. Even if the publisher changes the DOI of the published article, dataset, etc. will not change.
 
-
 # Benefits of assigning PIDs
 + Increase visibility
 + Connects the author with the work
 + You can use ORCID to login to other applications (ie. Coscine)
-
-# Disambiguation
-
-# Syntax
++ Machine readable
++ Adheres to FAIR principle
++ Permanent link to digital object
 
 # Use cases
+[doi: 10.1016/j.patter.2020.100180](https://doi.org/10.1016/j.patter.2020.100180)
 
 # Link to the FAIR data principles
+[doi: 10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
 # Using PIDs to access resources
 
