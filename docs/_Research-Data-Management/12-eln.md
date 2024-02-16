@@ -22,7 +22,7 @@ ELNs are not data publishing platforms and are not suitable for storing large fi
 # Benefits and drawbacks
 ## Pros & Cons of Physical Lab Notebooks
 
-Historically, documentation of experiments have been done in a physical, paper and pen notebook. For some researchers this is still a preferred method of documentation. It’s easy and inexpensive to use as it does not require computers nor internet access. However, with the technological advancement in data collection and processing there is a greater amount of data produced than ever before and with it there is a need for data to be digitised and managed electronically. 
+Historically, documentation of experiments have been done in a physical, paper and pen notebook. For some researchers this is still a preferred method of documentation. It’s easy and inexpensive to use as it does not require computers nor internet access. However, with the technological advancement in data collection and processing there is a greater amount of data produced than ever before and with it there is a need for data to be digitized and managed electronically. 
 
 Also with advances in communication and travel it is even easier to work collaboratively with researchers at different institutes around the world. This collaboration would be difficult or hindered if scans of physical lab notebooks would need to be shared. Of course, this also does not take into consideration the legibility of the experiment notes or the ability to make general sense of it.
 
@@ -82,7 +82,7 @@ ELNs are sometimes confused with Laboratory Information Management Systems (LIMS
 
 # Implementing an ELN
 ## Changing Culture
-A cultural change is needed in order to transition researchers not only to ELNs from physical notebooks but to adhere to FAIR principles thus working towards open science. According to Nosek, at the Center for Open Science there are “five levels of intervention” which starts at the bottom with infrastructure {% cite nosek_COS %}. 
+A cultural change is needed in order to transition researchers not only to ELNs from physical notebooks but to adhere to FAIR principles thus working towards open science. According to Nosek's [Strategy for Culture Change](https://www.cos.io/blog/strategy-for-culture-change), at the Center for Open Science there are “five levels of intervention” which starts at the bottom with infrastructure. 
 
 Changes to infrastructure would help ease the transition to an ELN by making such it possible to adopt. Covering costs for the use of an ELN at the institutional level, rather than leaving it up to individually funded research projects, would make it possible for groups to justify their use. The next step would be to ensure a good experience with ELNs through a user-friendly interface, training researchers how to use the ELN, and incorporating it into existing workflows.
 
