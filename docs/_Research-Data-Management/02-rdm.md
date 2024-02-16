@@ -28,7 +28,7 @@ Benefits of RDM are numerous, some of them are listed below {% cite assmann_2022
     * Helps keep track of the project
     * Helps meet formal and legal requirements
     * Enhances teamwork and collaborations
-    * Guaranteeing transparency, verifiability and reproducibility
+    * Guarantees transparency, verifiability and reproducibility
 
 ## Consequences of poor RDM
 Consequences of poor RDM include paper retraction (e.g. [González Amorós & de Puit](https://doi.org/10.1016/j.scijus.2015.04.005)).
