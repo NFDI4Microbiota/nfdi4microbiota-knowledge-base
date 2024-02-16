@@ -20,3 +20,4 @@ docs_css: markdown
 13. Michael Vockenhuber (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
 14. Noriko Cassman (ORCID ID: [0000-0003-1655-0931](https://orcid.org/0000-0003-1655-0931))
 15. Katharina Markus (ORCID ID: [0000-0002-9316-8982](https://orcid.org/0000-0002-9316-8982))
+16. Catherine Gonzalez (ORCID ID: [0000-0002-7585-9990](https://orcid.org/0000-0002-7585-9990))
