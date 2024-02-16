@@ -22,7 +22,7 @@ Apptainer is a popular choice in scientific and high-performance computing (HPC)
 It offers secure, user-friendly containerization, making it ideal for computational biology and bioinformatics.
 Based on the same technology, Docker images are compatible with Apptainer and most commands function similarly.
 
-NFDI4Microbiota recommends that researchers start out with Apptianer if you are not bound to a docker environment, because it is usually much easier and nudges you to follow the [best practices] by default.
+NFDI4Microbiota recommends that researchers start out with Apptainer if you are not bound to a docker environment, because it is usually much easier and nudges you to follow the [best practices] by default.
 
 For installation and quick start, always refer to the main documenation page from the containirazation software of choice.
 
