@@ -9,6 +9,7 @@ docs_css: markdown
 # Metainformation Template
 
 ## CV terms
+
 | Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
 |---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
 | Homepage                        |                                                                                                  |                                   |
@@ -20,7 +21,6 @@ docs_css: markdown
 | Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004) | [^1]                              |
 | Output data                     | https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en  |                    |
 | Credits and support             | entity type, entity role                                                                         |                                   |
-{: .table .table-hover}
 
 [^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
 Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
