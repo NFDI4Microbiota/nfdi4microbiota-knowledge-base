@@ -12,7 +12,7 @@ The following list contains the names of the contributors in alphabetical order.
 * Förster, Frank (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423), Wikidata: [Q42155371](https://www.wikidata.org/wiki/Q42155371))
 * Förstner, Konrad U. (ORCID ID: [0000-0002-1481-2996](http://orcid.org/0000-0002-1481-2996), Wikidata: [Q18744528](https://www.wikidata.org/wiki/Q18744528))
 * Gonzalez, Catherine (ORCID ID: [0000-0002-7585-9990](https://orcid.org/0000-0002-7585-9990))
-* Götz, Barbara (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211)
+* Götz, Barbara (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211))
 * Kasmanas, Jonas Coelho (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
 * Klemm, Paul M. J. (ORCID ID: [0000-0002-3609-5713](https://orcid.org/0000-0002-3609-5713))
 * Magel, Maja (ORCID ID: [0009-0004-2517-0791](https://orcid.org/0009-0004-2517-0791))
