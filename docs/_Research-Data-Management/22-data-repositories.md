@@ -17,21 +17,29 @@ A **data repository** is a location where digital objects are stored and documen
 
 ## Criteria to select a trusted repository
 Below are listed criteria you might want to consider when selecting a repository where to publish your data:
+* Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 oder ISO 16363? Find these repositories via re3data or the website of various certification initatives:
+    * [Find CTS-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=CoreTrustSeal)
+    * [Find nestor/DIN 31644-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=DIN%2031644)
+    * [Find ISO16363-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=ISO%2016363)
+    * [Find a CTS-certified repository on the CTS-Website](https://amt.coretrustseal.org/certificates)
+    * [Find a nestor/DIN 31644-certified repository on the nestor-Website](https://www.langzeitarchivierung.de/Webs/nestor/EN/Zertifizierung/nestor_Siegel/siegel.html)
+    * [Find an ISO16363-certified repository on the CTAB-Website](http://www.iso16363.org/iso-certification/certified-clients/)
+* Is the repository among the repositories preferred by a **funder** and/or endorsed by the **international research community**? In general, community-endorsed repositories should be well known, well-used and have a good continuity plan. If they existed for a long time and contain a lot of published data, their long-term sustainability is likely covered.
 * Does the repository provide:
     * **Open Access** to non-sensitive data?
     * The **terms of use** and **licenses** of the data?
     * A **policy** to help researchers determine whether their data needs will be met?
 * Does the repository use a Persistent Identifier (PID) system such as assigning a **Digital Object Identifier** (DOI) to submitted datasets?
 * Does the repository offer the possibility to integrate all metadata relevant for finding and specifying your publication? 
-* Is the repository **certified** (e.g. by [CoreTrustSeal](https://www.coretrustseal.org/) or [nestor](https://www.langzeitarchivierung.de/Webs/nestor/EN/Home/home_node.html)) or does it support a repository **standard**?
-* Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation, long-term sustainability.
+* Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation.
 
 ## Order of preference for selecting a repository
-1. A well-established repository in your discipline that offers a specific scope (i.e. supporting a specific metadata schema).
-2. Your institution’s repository (if available).
-3. One of the repositories recommended by your funding organization.
-4. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
-5. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
+1. A certified resposity (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
+2. A well-established repository in your discipline that offers a specific scope (e. g. supporting a specific metadata schema).
+3. One of the repositories recommended by your funding organization or the funding program.
+4. Your institution’s repository (if available).
+5. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
+6. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
 ## Well-established repositories for data deposition in microbiology
 Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
@@ -69,7 +77,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 |  	| Genomic Expression Archive ([GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.hESBcy) 	| [re3data](https://www.re3data.org/repository/r3d100013187) 	|
 |  	| Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) 	| / 	|
 | **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
-| **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://wwwdev.ebi.ac.uk/pride/)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
+| **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://www.ebi.ac.uk/pride)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
 | **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
 | **Scientific texts and data** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
@@ -85,7 +93,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 * **Terms of use & License**: yes
 * **PID system**: yes (DOI)
 * **Certification or repository standard**: no
-* **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
+* **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_FD_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
 * **Archiving**: yes
 * **Costs**: free of charge
 * **Data curation & quality control**: no
