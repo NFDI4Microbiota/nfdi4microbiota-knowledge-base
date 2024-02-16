@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-1. Barbara Götz (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211), Wikidata: [Q94745883](https://www.wikidata.org/wiki/Q94745883))
+1. Barbara Götz (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211)
 2. Ekaterina Smirnova
 3. Justine Vandendorpe (ORCID ID: [0000-0002-9421-8582](https://orcid.org/0000-0002-9421-8582), Wikidata: [Q62930742](https://www.wikidata.org/wiki/Q62930742))
 4. Konrad U. Förstner (ORCID ID: [0000-0002-1481-2996](http://orcid.org/0000-0002-1481-2996), Wikidata: [Q18744528](https://www.wikidata.org/wiki/Q18744528))
