@@ -18,3 +18,4 @@ docs_css: markdown
 11. Rabea Müller (ORCID ID: [0000-0002-3096-8237](https://orcid.org/0000-0002-3096-8237), Wikidata: [Q95461538](https://www.wikidata.org/wiki/Q95461538))
 12. Jonas Coelho Kasmanas (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
 13. Michael Vockenhuber (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
+14. Noriko Cassman (ORCID ID: [0000-0003-1655-0931](https://orcid.org/0000-0003-1655-0931))
