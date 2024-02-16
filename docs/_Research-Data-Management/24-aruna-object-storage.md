@@ -50,9 +50,13 @@ The main component of AOS is a distributed database system. It synchronizes all 
 ## AOS data structure
 AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and Objects, starting with version 2.x the data structure will be even more flexible and are organized into Projects, Collections, Datasets, and Objects with a more flexible relation model.
 
-![Aruna Object Storage Structure V1](/nfdi4microbiota-knowledge-base/assets/img/aruna-1-structure.png "Aruna Object Storage Structure V1"){:width="40%"}
+|![Aruna Object Storage Structure V1](/nfdi4microbiota-knowledge-base/assets/img/aruna-1-structure.png "Aruna Object Storage Structure V1"){:width="50%"} |
+|-|
+| UML diagram of the Aruna Object Storage data structure in Version v1.0.x |
 
-![Aruna Object Storage Structure V2](/nfdi4microbiota-knowledge-base/assets/img/aruna-2-structure.png "Aruna Object Storage Structure V2"){:width="40%"}
+ | ![Aruna Object Storage Structure V2](/nfdi4microbiota-knowledge-base/assets/img/aruna-2-structure.png "Aruna Object Storage Structure V2"){:width="50%"} |
+|-|
+| UML diagram of the Aruna Object Storage data structure starting in Version v2.0. All resources form a directed acyclic graph of belongs to relationships (blue) with Projects as roots and Objects as leaves. Resources can also describe horizontal version relationships (orange), data/metadata relationships (yellow) or even custom user-defined relationships (green). |
 
 # References
 * Dokumentation and Aruna start page: [https://aruna-storage.org](https://aruna-storage.org)
