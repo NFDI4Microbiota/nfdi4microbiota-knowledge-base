@@ -16,3 +16,4 @@ docs_css: markdown
 9. Martin Bole (ORCID ID: [0009-0004-9189-8852](https://orcid.org/0009-0004-9189-8852))
 10. Frank Förster (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423))
 11. Rabea Müller (ORCID ID: [0000-0002-3096-8237](https://orcid.org/0000-0002-3096-8237))
+12. Michael Vockenhuber (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
