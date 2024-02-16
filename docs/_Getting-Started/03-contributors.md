@@ -19,3 +19,4 @@ docs_css: markdown
 12. Jonas Coelho Kasmanas (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
 13. Michael Vockenhuber (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
 14. Noriko Cassman (ORCID ID: [0000-0003-1655-0931](https://orcid.org/0000-0003-1655-0931))
+15. Katharina Markus (ORCID ID: [0000-0002-9316-8982](https://orcid.org/0000-0002-9316-8982))
