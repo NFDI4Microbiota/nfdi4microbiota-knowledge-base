@@ -22,7 +22,6 @@ For researchers who publish their data, preparing datasets for reuse is time-con
 
 For researchers reusing data, there are risks such as unknown quality and denormalisation (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating datasets from different sources {% cite sielemann_2020 %}.
 
-
 ## Resources to facilitate data re-use in microbiology
 Below are listed widely used resources in microbiology which facilitate the re-use of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
@@ -45,7 +44,7 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 
 
 # Relevant licenses and terms of use
-See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/25-licenses).
+See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/26-licenses).
 
 # Criteria for selection trustworthy datasets
 
@@ -90,10 +89,11 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 * [Master Data Repository List](https://clarivate.com/webofsciencegroup/master-data-repository-list/)
 
 ### Search engines
-* [Mendeley Data](https://data.mendeley.com/)
+
+* [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 * **Google**
-    * Keywork + "dataset"
     * [Dataset Search](https://datasetsearch.research.google.com/)
+    * Keywork + "dataset"
 * **Library search engines**
     * Bielefeld Academic Search Engine ([BASE](https://www.base-search.net/))
     * [LIVIVO – The Search Portal for Life Sciences](https://www.livivo.de/app)
@@ -102,6 +102,7 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
     * [NFDI4Chem Search](https://search.nfdi4chem.de/)
     * [Study Hub NFDI4Health COVID-19](https://csh.nfdi4health.de/)
     * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
+* [Mendeley Data](https://data.mendeley.com/)
 
 
 ### (Meta)data aggregators
