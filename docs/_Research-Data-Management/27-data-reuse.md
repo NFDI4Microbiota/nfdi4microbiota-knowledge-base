@@ -41,7 +41,7 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 | **Viruses, -omics datasets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
 |  	| Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) 	| - | - |
 | **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
-
+{: .table .table-hover}
 
 # Relevant licenses and terms of use
 See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/26-licenses).
