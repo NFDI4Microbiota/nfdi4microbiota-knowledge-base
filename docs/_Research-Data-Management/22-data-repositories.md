@@ -47,7 +47,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 | **Macromolecular structures** 	| Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4) 	| [re3data](https://www.re3data.org/repository/r3d100011104) 	|
 |     | RCSB Protein Data Bank ([RCSB PDB](https://www.rcsb.org))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.2t35ja) 	| [re3data](https://www.re3data.org/repository/r3d100010327) 	|
 |     | Protein Data Bank of Japan ([PDBj](https://pdbj.org))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.rs2815) 	| [re3data](https://www.re3data.org/repository/r3d100010910) 	|
-|     | Protein Data Bank of Europe ([PDBj](https://www.ebi.ac.uk/pdbe/))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.26ek1v) 	| [re3data](https://www.re3data.org/repository/r3d100010538) 	|
+|     | Protein Data Bank of Europe ([PDBe](https://www.ebi.ac.uk/pdbe/))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.26ek1v) 	| [re3data](https://www.re3data.org/repository/r3d100010538) 	|
 |  	| Biological Magnetic Resonance Data Bank ([BMRB](https://bmrb.io/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.p06nme) 	| [re3data](https://www.re3data.org/repository/r3d100010191) 	|
 | **Electron microscopy data** 	| Electron Microscopy Data Bank ([EMDB](https://www.ebi.ac.uk/emdb/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.651n9j) 	| [re3data](https://www.re3data.org/repository/r3d100010562) 	|
 |  	| Electron Microscopy Public Image Archive ([EMPIAR](https://www.ebi.ac.uk/empiar/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.dff3ef) 	| [re3data](https://www.re3data.org/repository/r3d100012356) 	|
