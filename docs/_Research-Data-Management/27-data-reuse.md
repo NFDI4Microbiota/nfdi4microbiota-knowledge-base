@@ -68,10 +68,11 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 * [Master Data Repository List](https://clarivate.com/webofsciencegroup/master-data-repository-list/)
 
 ### Search engines
-* [Mendeley Data](https://data.mendeley.com/)
+
+* [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 * **Google**
-    * Keywork + "dataset"
     * [Dataset Search](https://datasetsearch.research.google.com/)
+    * Keywork + "dataset"
 * **Library search engines**
     * Bielefeld Academic Search Engine ([BASE](https://www.base-search.net/))
     * [LIVIVO – The Search Portal for Life Sciences](https://www.livivo.de/app)
@@ -80,7 +81,7 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
     * [NFDI4Chem Search](https://search.nfdi4chem.de/)
     * [Study Hub NFDI4Health COVID-19](https://csh.nfdi4health.de/)
     * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
-
+* [Mendeley Data](https://data.mendeley.com/)
 
 ### (Meta)data aggregators
 * [B2FIND](https://b2find.eudat.eu/)
