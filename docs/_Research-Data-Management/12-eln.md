@@ -57,7 +57,6 @@ ELNs also prevent data loss by eliminating problems with data deletion {% cite b
 Finally, ELNs contribute to GSP by providing for data security and collaboration (see Data sharing and publishing) {% cite lma_rdmwg %}.
 
 # Criteria to select an ELN
-
 ## Basic systems
 Basic systems allow for traditional text entry, which can be searched and made available on multiple devices via the cloud. They also allow files (e.g. images, spreadsheets) to be attached to text and the attachments to be viewed, annotated and searched. Such systems include Word, Evernote and Dropbox. Basic systems have the advantage of being inexpensive, easily accessible and already familiar to many researchers. However, considerable effort is required to achieve the functionality of a traditional ELN with such a system {% cite bobrov_2021 vandendorpe_2020 %}.
 
@@ -69,6 +68,17 @@ High-end systems have all the features of specialised systems and more. High-end
 
 ## Electronic Lab Notebooks *vs.* Laboratory Information Management System (LIMS)
 ELNs are sometimes confused with Laboratory Information Management Systems (LIMS). They both streamline laboratory workflow and data management and are complementary, but they have different functionalities and features. A LIMS is a comprehensive software for managing and tracking laboratory operations and data. A LIMS covers sample management, workflow management and automation, quality control and sample tracking throughout the laboratory. On the other hand, an ELN focuses on experimental data acquisition, experiment documentation and (real-time) collaboration {% cite eln_lims_linkedin eln_lims_sapio %}.
+
+# Implementing an ELN
+## Changing Culture
+A cultural change is needed in order to transition researchers not only to ELNs from physical notebooks but to adhere to FAIR principles thus working towards open science. According to Nosek, at the Center for Open Science there are “five levels of intervention” which starts at the bottom with infrastructure {% cite nosek_COS %}. 
+
+Changes to infrastructure would help ease the transition to an ELN by making such it possible to adopt. Covering costs for the use of an ELN at the institutional level, rather than leaving it up to individually funded research projects, would make it possible for groups to justify their use. The next step would be to ensure a good experience with ELNs through a user-friendly interface, training researchers how to use the ELN, and incorporating it into existing workflows.
+
+A community of researchers will begin to form who use ELNs as a common practice. Provide incentives to researchers in order to ensure the continued use of the ELN. According to the Center for Open Science there are over 100 journals which offer badges that indicate when there is data or materials available to the reader. These badges incentivize researchers to share data as it adds more credibility to their findings. After moving through the bottom four levels of infrastructure, experience, community, and incentives the top level policy change will be possible. At the policy level the institution can now make the transition to ELN a requirement for its affiliated researchers.
+
+While there are still researchers who may be apprehensive regarding sharing their data this will change as the culture surrounding research transitions to more transparency.
+
 
 # Further resources
 * [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) - Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
