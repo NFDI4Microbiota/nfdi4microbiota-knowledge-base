@@ -17,4 +17,4 @@ docs_css: markdown
 10. Frank Förster (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423), Wikidata: [Q42155371](https://www.wikidata.org/wiki/Q42155371))
 11. Rabea Müller (ORCID ID: [0000-0002-3096-8237](https://orcid.org/0000-0002-3096-8237), Wikidata: [Q95461538](https://www.wikidata.org/wiki/Q95461538))
 12. Jonas Coelho Kasmanas (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
-
+13. Michael Vockenhuber (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
