@@ -11,7 +11,7 @@ The goal is to gather this information centrally in NFDI4Microbiota to assess th
 
 ## Disclaimer: Changes in the tool display
 
-We recently created an [NFDI4Microbiota domain on bio.tools](https://nfdi4microbiota.bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
+We recently created a [NFDI4Microbiota domain](https://nfdi4microbiota.bio.tools) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.  
 In the meantime, browse our tools below and find more [recommendations for resources on reproducible data analysis](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Reproducible-Data-Analysis/04-resources).
