@@ -32,7 +32,7 @@
                     {% if doc.hide != true %}
                     <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
                     <!-- list-group-item-secondary needed for gray highlight -->
-                      <li><a href="{{ doc.url | relative_url }}" class="bd-links-link d-inline-block rounded"
+                      <li><a href="{{ doc.url | relative_url }}.html" class="bd-links-link d-inline-block rounded"
                           aria-current="page">{{ doc.title }}</a></li>
                     {%endif%}
                   {% endfor %}
