@@ -28,7 +28,7 @@
                                 <!-- list-group-flush list-group-item-action needed for the full size pill with no borders-->
                                 <!-- list-group-item-secondary needed for gray highlight -->
                                 {% unless doc.hide %}
-                                <li><a href="{{ doc.url | relative_url }}" id="sidebar-link"
+                                <li><a href="{{ doc.url | relative_url }}.html" id="sidebar-link"
                                         class="link-dark rounded list-group-flush list-group-item-action {% if doc.empty %} text-muted {% endif %} {% if doc.url == page.url %} list-group-item-secondary {% endif %}">{{
                                         doc.title }}</a></li>
                                 {% endunless %}

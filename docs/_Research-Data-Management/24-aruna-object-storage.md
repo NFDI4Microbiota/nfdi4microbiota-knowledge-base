@@ -9,14 +9,14 @@ docs_css: markdown
 Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the [Research Data Commons (RDC)](02-research-data-commons) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface. It allows resource organization into Objects, Datasets, Collections and Projects. Additionally, it provides an event-driven architecture which enables automation, data validation and improves accessibility and reproducibility of scientific results. AOS is open-source and available at [https://aruna-storage.org](https://aruna-storage.org).
 
 # Factsheet
-* ![Aruna Object Storage Logo](/nfdi4microbiota-knowledge-base/assets/img/aruna_dark_font.png "Aruna Object Storage Logo"){:width="20%"}
+* ![Aruna Object Storage Logo]({{ '/assets/img/aruna_dark_font.png' | relative_url }} "Aruna Object Storage Logo"){:width="20%"}
 * Status: V2.x BETA, V1.x deprecated
 * Current Version: V2.0.x beta
 * Weblink: [https://aruna-storage.org](https://aruna-storage.org)
 * Keywords:  data management, storage, FAIR, multi-cloud, cloud-native, data mesh
 * RDC Integration: integrated or connected
 
-![AOS inside RDC](/nfdi4microbiota-knowledge-base/assets/img/rdc_aruna.png "AOS inside RDC"){:width="70%"}
+![AOS inside RDC]({{ '/assets/img/rdc_aruna.png' | relative_url }} "AOS inside RDC"){:width="70%"}
 
 # Overview
 AOS is a fast, secure and geo-redundant data storage. It offers a sophisticated metadata management according to the FAIR principles. It builds the foundation for RDCs mediation and semantic layer and and handles all stored data objects secure, and data-agnostically.
@@ -31,12 +31,12 @@ AOS key features are:
 
 Storing data in localized, domain-specific data silos has limited use for collaboration, reuse and data analysis. AOS offers significant benefits for research data in NFDI4Biodiversity. These benefits include improved collaboration, compliance with FAIR principles, scalability, robust data security and seamless integration with existing systems and workflow tools. Ultimately, this facilitates scientific progress and enhances the quality of our research.
 
-![Aruna Object Storage Concept](/nfdi4microbiota-knowledge-base/assets/img/concept_aruna.png "Aruna Object Storage Concept"){:width="40%"}
+![Aruna Object Storage Concept]({{ '/assets/img/concept_aruna.png' | relative_url }} "Aruna Object Storage Concept"){:width="40%"}
 
 # Getting started
 AOS is located at [https://aruna-storage.org](https://aruna-storage.org). Users can log in there. Currently, the AAI of the GWDG is used for this purpose, which requires a user account at the GWDG, the DFN or at LifeScience AAI. Nevertheless, additional identity providers are possible. Thus, login via an SSO of NFDI4Biodiversity (and other NFDIs) will be supported when the service is established. After the AOS account has been activated, the user can create a project. Further users can then be activated for this project to enable data exchange and joint processing. The project can then be filled with data either via the API or via the S3 interface.
 
-![Aruna Object Storage Start Page](/nfdi4microbiota-knowledge-base/assets/img/aruna-startpage-2023-7-28_8-24-10.png "Aruna Object Storage Start Page"){:width="60%"}
+![Aruna Object Storage Start Page]({{ '/assets/img/aruna-startpage-2023-7-28_8-24-10.png' | relative_url }} "Aruna Object Storage Start Page"){:width="60%"}
 
 # User Guide
 Basically, AOS is intended as a data backend for the RDC. For this reason, very few end users will use AOS directly. Data import, verification, transformation and processing is basically possible via the services in the mediation layer. This also ensures the consistency of the data. Users and services can be informed about changes to individual data objects or even entire projects via the AOS notification service and can thus react to these changes.
@@ -50,11 +50,11 @@ The main component of AOS is a distributed database system. It synchronizes all 
 ## AOS data structure
 AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and Objects, starting with version 2.x the data structure will be even more flexible and are organized into Projects, Collections, Datasets, and Objects with a more flexible relation model.
 
-|![Aruna Object Storage Structure V1](/nfdi4microbiota-knowledge-base/assets/img/aruna-1-structure.png "Aruna Object Storage Structure V1"){:width="50%"} |
+|![Aruna Object Storage Structure V1]({{ '/assets/img/aruna-1-structure.png' | relative_url }} "Aruna Object Storage Structure V1"){:width="50%"} |
 |-|
 | UML diagram of the Aruna Object Storage data structure in Version v1.0.x |
 
- | ![Aruna Object Storage Structure V2](/nfdi4microbiota-knowledge-base/assets/img/aruna-2-structure.png "Aruna Object Storage Structure V2"){:width="50%"} |
+ | ![Aruna Object Storage Structure V2]({{ '/assets/img/aruna-2-structure.png' | relative_url }} "Aruna Object Storage Structure V2"){:width="50%"} |
 |-|
 | UML diagram of the Aruna Object Storage data structure starting in Version v2.0. All resources form a directed acyclic graph of belongs to relationships (blue) with Projects as roots and Objects as leaves. Resources can also describe horizontal version relationships (orange), data/metadata relationships (yellow) or even custom user-defined relationships (green). |
 

@@ -17,9 +17,9 @@ docs_css: markdown
 | Topic                           | (could be ELIXIR Community)                                                                      |                                   |
 | Software or data license        | license                                                                                          | string                            |
 | Description                     |                                                                                                  | multiline varchar (max. 50 lines) |
-| Input format                    | https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en  | [^2]               |
+| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  | [^2]               |
 | Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004) | [^1]                              |
-| Output data                     | https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en  |                    |
+| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  |                    |
 | Credits and support             | entity type, entity role                                                                         |                                   |
 
 [^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
@@ -47,6 +47,12 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 
 ---
 
+## Disclaimer: Changes in the tool display
+
+We recently created a [NFDI4Microbiota domain](https://nfdi4microbiota.bio.tools) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
+
+Thank you for your patience while we sort out editing rights and collection labels.
+Below you can browse tool recommendations from our consortium members.
 
 
 ## bakta
@@ -120,7 +126,7 @@ Metagenomics, horizontal gene transfer
 ### license
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
-Pipeline to automate the comparison between short-read libraries to detect foreign ("xenotypic") sequences. 
+Pipeline to automate the comparison between short-read libraries to detect foreign ("xenotypic") sequences.
 ### Input format
 fastq, tsv
 ### Tool operation
@@ -129,7 +135,7 @@ Sequence analysis
 fasta, tsv
 ### Credits, support
   - github: @bramvandijk88
-  
+
 
 ---
 
@@ -143,7 +149,7 @@ Inference And Analysis Of Synteny Networks
 ### license
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
-syntenet can be used to infer synteny networks from whole-genome protein sequences and analyze them. Anchor pairs are detected with the MCScanX algorithm, which was ported to this package with the Rcpp framework for R and C++ integration. Anchor pairs from synteny analyses are treated as an undirected unweighted graph (i.e., a synteny network), and users can perform: i. network clustering; ii. phylogenomic profiling (by identifying which species contain which clusters) and; iii. microsynteny-based phylogeny reconstruction with maximum likelihood. 
+syntenet can be used to infer synteny networks from whole-genome protein sequences and analyze them. Anchor pairs are detected with the MCScanX algorithm, which was ported to this package with the Rcpp framework for R and C++ integration. Anchor pairs from synteny analyses are treated as an undirected unweighted graph (i.e., a synteny network), and users can perform: i. network clustering; ii. phylogenomic profiling (by identifying which species contain which clusters) and; iii. microsynteny-based phylogeny reconstruction with maximum likelihood.
 ### Input format
 fasta, gff, gtf
 ### Tool operation
@@ -207,20 +213,20 @@ tiff, hdf5
 
 ## RAREFAN
 ### Homepage
-http://rarefan.evolbio.mpg.de                                         
-### maturity  
+http://rarefan.evolbio.mpg.de
+### maturity
 Mature
 ### topic
 Genome sequence analysis
-### license  
+### license
 [MIT](https://opensource.org/license/mit/)
 ### Description
 The RAREFAN webserver aims to identify and analyze RAYT transposases and their associated REPIN (Repetitive Extragenic PalINdromic sequences) in bacterial species. The input to the server is a selection of closely related strains (less than 5% divergence). Our service provides an analysis of REPIN population size, how it relates to REPIN replication rate and the presence and absence of RAYTs across all submitted genomes.
 ### Input
-fasta                                                                            
+fasta
 ### Tool operation
 Genome annotation
-### Output data 
+### Output data
 gff3, html, R
 ### Credits, support
   - github: @CFGrote
@@ -232,11 +238,11 @@ gff3, html, R
 ## ProteinOrtho
 ### Homepage
 https://gitlab.com/paulklemm_PHD/proteinortho
-### maturity  
+### maturity
 Mature
 ### topic
 Comparative Genomics, Orthology
-### license  
+### license
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 Proteinortho is a tool to detect orthologous genes within different species.
@@ -244,12 +250,12 @@ For doing so, it compares similarities of given gene sequences and clusters them
 Input: Multiple fasta files (orange boxes) with many proteins/genes (circles).
 Output: Groups (*.proteinortho) and pairs (*.proteinortho-graph) of orthologs proteins/genes.
 The algorithm was designed to handle large-scale data and can be applied to hundreds of species at one.
-To enhance the prediction accuracy, the relative order of genes (synteny) can be used as additional feature for the discrimination of orthologs. The corresponding extension, namely PoFF (doi:10.1371/journal.pone.0105015), is already build in Proteinortho. 
+To enhance the prediction accuracy, the relative order of genes (synteny) can be used as additional feature for the discrimination of orthologs. The corresponding extension, namely PoFF (doi:10.1371/journal.pone.0105015), is already build in Proteinortho.
 ### Input
 FASTA
 ### Tool operation
 Analysis, Clustering
-### Output data 
+### Output data
 tsv, graph, html, xml
 ### Credits, support
  - gitlab: @paulklemm_PHD
@@ -260,11 +266,11 @@ tsv, graph, html, xml
 
 ## vConTACT
 ### Homepage
- ### maturity  
+ ### maturity
 Mature
 ### topic
 Taxonomy
-### license  
+### license
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 vConTACT2 is a tool to perform guilt-by-contig-association classification of viral genomic sequence data. It's designed to cluster and provide taxonomic context of viral metagenomic sequencing data.
@@ -272,23 +278,23 @@ vConTACT2 is a tool to perform guilt-by-contig-association classification of vir
 FASTA
 ### Tool operation
 classification
-### Output data 
+### Output data
 TSV,  network file, annotation file
 ### Credits, support
  - code: https://bitbucket.org/MAVERICLab/vcontact2/src/master/
  - doi: [10.1038/s41587-019-0100-8](10.1038/s41587-019-0100-8)
- 
+
 
 ---
 
 ## VirFinder
 ### Homepage
 https://github.com/jessieren/VirFinder
-### maturity  
+### maturity
 Mature
 ### topic
 Prediction of viral sequences
-### license  
+### license
 USC-RL v1.0
 ### Description
 The package provides functions to predict viral sequences in a fasta file, such as the assembled contigs from metagenomic data. The method has good prediction accuracy for short (~1kb) and noval viral sequences.
@@ -297,7 +303,7 @@ The prediction method is based on the sequence signatures (k-tuple word frequenc
 FASTA
 ### Tool operation
 R
-### Output data 
+### Output data
 TSV
 ### Credits, support
  - code: https://github.com/jessieren/VirFinder
@@ -315,7 +321,7 @@ Mature
 Antibiotic Resistance Genes Prediction from metagenomes
 ### License
 [MIT](https://opensource.org/license/mit/)
-The databases used may have commercial restrictions 
+The databases used may have commercial restrictions
 ### Description
 The deepARG tool leverages deep learning techniques to predict antibiotic resistance genes (ARGs) from genetic sequences. It is designed to handle both DNA and protein sequences, making it versatile for various research applications. By using advanced machine learning algorithms, deepARG can accurately identify and categorize ARGs. Detailed documentation and usage instructions are provided in the GitHub repository, including how to install, run the tool, and interpret its outputs.
 ### Input
@@ -347,7 +353,7 @@ Multiomics databasing analysis
 ### Description
 Qiita (canonically pronounced cheetah) is an entirely open-source microbial study management platform. It allows users to keep track of multiple studies with multiple ‘omics data. Additionally, Qiita is capable of supporting multiple analytical pipelines through a 3rd-party plugin system, allowing the user to have a single entry point for all of their analyses.
 Qiita provides database and compute resources to the global community, alleviating the technical burdens that are typically limiting for researchers studying microbial ecology (e.g. familiarity with the command line or access to compute power).
-Qiita’s platform allows for quick reanalysis of the datasets that have been deposited using the latest analytical technologies. This means that Qiita’s internal datasets are living data that is periodically re-annotated according to current best practices. 
+Qiita’s platform allows for quick reanalysis of the datasets that have been deposited using the latest analytical technologies. This means that Qiita’s internal datasets are living data that is periodically re-annotated according to current best practices.
 ### Input format
 FASTQ, SAM
 ### Tool operation
@@ -357,7 +363,7 @@ SAM, Tables, visualizations
 ### Credits, support
   - code: [github.com/qiita-spots/qiita](https://github.com/qiita-spots/qiita)
   - doi: [10.1038/s41592-018-0141-9](https://doi.org/10.1038/s41592-018-0141-9)
- 
+
 
 ---
 
