@@ -8,22 +8,15 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build Jekyll site with Docker
-        run: docker run -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-
-      - name: Install SSH key
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.ELHOSSARY_PRIV_KEY }}  # Store your SSH private key as a secret in your repository settings
-
-      - name: Deploy using rsync with sudo
+      - name: Build and Deploy Jekyll site with Docker
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
-          ssh -o StrictHostKeyChecking=no elhossary@knowledgebase.nfdi4microbiota.de "echo $SUDO_PASS | sudo -S rsync -avz --delete ${{ github.workspace }}/_site/* /var/www/kb-nfdi4microbiota/"
+          docker run --name jekyll_N4M jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+          echo $SUDO_PASS | sudo docker cp jekyll_N4M:/srv/jekyll/_site/* /var/www/kb-nfdi4microbiota/
