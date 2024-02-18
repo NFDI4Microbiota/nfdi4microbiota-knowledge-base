@@ -20,8 +20,10 @@ jobs:
       - name: Install SSH key
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.ELHOSSARY_DEPLOY_SERVER_PRIVKEY }}  # Store your SSH private key as a secret in your repository settings
+          ssh-private-key: ${{ secrets.ELHOSSARY_PRIV_KEY }}  # Store your SSH private key as a secret in your repository settings
 
       - name: Deploy using rsync with sudo
+        env:
+          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
-          ssh -o StrictHostKeyChecking=no elhossary@knowledgebase.nfdi4microbiota.de "echo ${{ secrets.ELHOSSARY_SUDO_PASSWORD }} | sudo -S rsync -avz --delete ${{ github.workspace }}/_site/* /var/www/kb-nfdi4microbiota/"
+          ssh -o StrictHostKeyChecking=no elhossary@knowledgebase.nfdi4microbiota.de "echo $SUDO_PASS | sudo -S rsync -avz --delete ${{ github.workspace }}/_site/* /var/www/kb-nfdi4microbiota/"
