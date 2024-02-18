@@ -14,7 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build and Deploy Jekyll site with Docker
+      - name: Build Jekyll site with Docker
+        run: docker run --name kb_jekyll jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+      - name: Copy site data from Docker container
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: docker run -v /var/www/kb-nfdi4microbiota/:/srv/jekyll/_site jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: docker cp kb_jekyll:/srv/jekyll/_site/* /var/www/kb-nfdi4microbiota/
+
+      - name: Clean created image
+        run: docker remove -f kb_jekyll
