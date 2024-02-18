@@ -124,14 +124,15 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activesupport (~> 7.0, >= 7.0.4.3)
+  activesupport (>= 7.0.7.1)
   bundler (~> 2.2)
   jekyll-bootstrap-theme!
   jekyll-redirect-from
   jekyll-scholar
   jemoji
-  liquid (~> 4.0.4)
-  nokogiri (~> 1.14, >= 1.14.2)
+  liquid (>= 4.0.4)
+  mini_portile2 (>= 2.8.2)
+  nokogiri (>= 1.16.2)
   webrick (~> 1.7)
 
 BUNDLED WITH
