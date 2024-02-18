@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Jekyll site with Docker
-        run: docker run --name kb_jekyll jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: docker run -u elhossary:elhossary --name kb_jekyll1 jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
       - name: Copy site data from Docker container
         env:
@@ -23,4 +23,4 @@ jobs:
         run: docker cp kb_jekyll:/srv/jekyll/_site/* /var/www/kb-nfdi4microbiota/
 
       - name: Clean created image
-        run: docker remove -f kb_jekyll
+        run: docker remove -f kb_jekyll1
