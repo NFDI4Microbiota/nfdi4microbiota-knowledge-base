@@ -17,6 +17,4 @@ jobs:
       - name: Build and Deploy Jekyll site with Docker
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: |
-          docker run --name jekyll_N4M jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-          echo $SUDO_PASS | sudo docker cp jekyll_N4M:/srv/jekyll/_site/* /var/www/kb-nfdi4microbiota/
+        run: echo $SUDO_PASS | sudo -S docker run --name -v /var/www/kb-nfdi4microbiota/:/srv/jekyll/_site jekyll_N4M jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
