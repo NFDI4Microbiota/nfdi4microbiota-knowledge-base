@@ -11,7 +11,7 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Cleaning
+      - name: Acquire ownership permissions
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
@@ -22,7 +22,7 @@ jobs:
       - name: Build Jekyll site with Docker
         run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-      - name: Move site data to the serving directory
+      - name: Copy site data to the serving directory
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
