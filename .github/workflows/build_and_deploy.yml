@@ -15,8 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build Jekyll site with Docker
-        run: docker run --rm -v "$PWD/build_files:/srv/jekyll" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
       - name: Copy site data to the serving directory
-        run: |
-          cp -r $PWD/build_files/_site/* /var/www/kb-nfdi4microbiota/ && rm -rf $PWD/build_files/
+        run: cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/ && rm -rf $PWD/*
