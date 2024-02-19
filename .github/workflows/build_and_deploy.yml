@@ -14,13 +14,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Cleaning
+        env:
+          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
+        run: echo $SUDO_PASS | sudo -S rm -rf $PWD/*
+
       - name: Build Jekyll site with Docker
         run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-      - name: Move site data to the serving directory and clean
+      - name: Move site data to the serving directory
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
           cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
-          echo $SUDO_PASS | sudo -S chown elhossary:elhossary -R $PWD/*
-          rm -rf $PWD/*
