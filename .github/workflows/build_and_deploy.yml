@@ -22,5 +22,5 @@ jobs:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
           cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
-          echo $SUDO_PASS | sudo -S chown elhossary:elhossary -R 
+          echo $SUDO_PASS | sudo -S chown elhossary:elhossary -R $PWD/*
           rm -rf $PWD/*
