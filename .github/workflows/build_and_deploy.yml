@@ -26,4 +26,4 @@ jobs:
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
-          cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
+          rm -rf /var/www/kb-nfdi4microbiota/* && cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
