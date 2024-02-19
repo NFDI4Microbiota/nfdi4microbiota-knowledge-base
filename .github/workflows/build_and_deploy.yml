@@ -12,19 +12,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Build Jekyll site with Docker
-        run: docker run --name kb_jekyll2 jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: docker run --rm -it -v "$PWD/build_files:/srv/jekyll" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-      - name: Copy site data from Docker container
-        env:
-          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
+      - name: Copy site data to the serving directory
         run: |
-          docker cp kb_jekyll2:/srv/jekyll/_site .
-          mv _site/* /var/www/kb-nfdi4microbiota/
-          rm -rf _site
-          
-
-      - name: Clean created image
-        run: docker remove -f kb_jekyll1
+          cp -r $PWD/build_files/_site/* /var/www/kb-nfdi4microbiota/ && rm -rf $PWD/build_files/
