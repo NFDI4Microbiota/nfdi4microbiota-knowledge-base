@@ -14,7 +14,7 @@ jobs:
       - name: Cleaning
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: echo $SUDO_PASS | sudo -S rm -rf $PWD/../../*
+        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
 
       - name: Checkout repository
         uses: actions/checkout@v3
