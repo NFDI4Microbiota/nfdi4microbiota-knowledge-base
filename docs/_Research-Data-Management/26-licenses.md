@@ -65,7 +65,7 @@ We are going to be looking at two examples here:
 1. [Data from: Mining for NRPS and PKS genes revealed a high diversity in the Sphagnum bog metagenome](https://zenodo.org/records/4976456) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.hf56v.svg)](https://doi.org/10.5061/dryad.hf56v)
 2. [Data from: Generational conservation of composition and diversity of field-acquired midgut microbiota in Anopheles gambiae sensu lato during colonization in the laboratory](https://zenodo.org/records/5001400) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.98jj7gk.svg)](https://doi.org/10.5061/dryad.98jj7gk)
 
-Both datasets have been submitted to Zenodo under the CC0 license. That means that the data that has been deposited is in the public domain. That implies that the data deposited can be copied, modified, distributed, and used even for commercial purposes, and the depositor/generator of the data waives their right to the work. The reuser of data does not need to seek the permission of the data/material submitter or generator.
+Both datasets have been submitted to Zenodo under the  [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). That means that the data that has been deposited is in the public domain. That implies that the data deposited can be copied, modified, distributed, and used even for commercial purposes, and the depositor/generator of the data waives their right to the work. The user of data does not need to seek the permission of the data/material submitter or generator.
 
 # Software licenses
 When software sources are distributed, it is considered good practice to specify an already established license under which it can be used.
