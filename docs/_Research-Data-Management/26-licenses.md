@@ -60,7 +60,7 @@ We are going to be looking at two examples here:
 
 Both datasets have been submitted to Zenodo under the CC BY 4.0 license. That means that the data that has been deposited is free to share and free to redistribute (including commercially) in any format or medium. It also enables the data user to build upon or transform it for any purpose (including commercial use). However, the license requires the data user to give appropriate credit to the submitter/data generator. In addition, the reuser must also provide a link to the license and disclose any changes made when licensing their work when derived from work already under deed license.
 
-### [CC0](https://creativecommons.org/publicdomain/zero/1.0/) example usage
+### CC0 example usage
 We are going to be looking at two examples here:
 1. [Data from: Mining for NRPS and PKS genes revealed a high diversity in the Sphagnum bog metagenome](https://zenodo.org/records/4976456) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.hf56v.svg)](https://doi.org/10.5061/dryad.hf56v)
 2. [Data from: Generational conservation of composition and diversity of field-acquired midgut microbiota in Anopheles gambiae sensu lato during colonization in the laboratory](https://zenodo.org/records/5001400) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.98jj7gk.svg)](https://doi.org/10.5061/dryad.98jj7gk)
