@@ -3,11 +3,10 @@ title: External SOPs
 category: Experimental-Procedure-Standards-SOPs
 layout: default
 docs_css: markdown
-hide: true
+hide: false
 ---
-## External SOPs
 
-This page lists well-established and tested protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/#:~:text=The%20International%20Human%20Microbiome%20Standards,in%20the%20human%20microbiome%20field.&text=IHMS%20consist%20in%20differents%20work,WP1%3A%20International%20Coordination%20%26%20Project%20Management) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/) Both are collections of SOPs that are experimentally validated for their given fields, human and earth microbiome research respectively. 
+This page lists well-established and tested protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/). Both are collections of SOPs that are experimentally validated for their given fields, human and earth microbiome research respectively. 
 
 | Title |  Organisation | Category |  Link |
 | ------ | ------ | ------ | ------ |
