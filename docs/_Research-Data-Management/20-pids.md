@@ -32,7 +32,7 @@ Digital Object Identifier or DOI is another form of persistent identifier. Paper
 PIDs are seen as the first step towards making research FAIR through increasing the findability. A case study looks at the next step in this FAIRification process by linking PIDs with metadata. This will allow for linking digital resources that are assigned PIDs together. According to Cousijn, the PID Graph establishes connections between different entities within the research landscape, thereby enabling both researchers and institutions to access new information. [Cousijn2021](https://www.sciencedirect.com/science/article/pii/S2666389920302440?via%3Dihub)
 
 # Link to the FAIR data principles
-[doi: 10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+This [article](https://www.nature.com/articles/sdata201618) in Scientific data discusses the FAIR principles for research data management. It is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community. { % cite wilkinson_2016 % }
 
 {% comment %}
 # Using PIDs to access resources
