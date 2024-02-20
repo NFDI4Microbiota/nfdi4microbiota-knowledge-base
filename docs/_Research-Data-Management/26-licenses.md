@@ -53,7 +53,7 @@ Creators can declare a works license by selecting it during upload to a website/
 
 Here we look at some examples of license usage, found on [Zenodo](https://zenodo.org/).
 
-### [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) example usage
+### CC BY 4.0 example usage
 We are going to be looking at two examples here: 
 1. [Metagenome-assembled genomes (MAGs), colorectal cancer (CRC)](https://zenodo.org/records/7008911) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7008911.svg)](https://doi.org/10.5281/zenodo.7008911)
 2. [Metagenome assemblies and metagenome-assembled genomes from the Daphnia magna microbiota](https://zenodo.org/records/4435010) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4435010.svg)](https://doi.org/10.5281/zenodo.4435010)
