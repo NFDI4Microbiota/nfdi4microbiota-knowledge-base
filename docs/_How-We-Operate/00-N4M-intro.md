@@ -124,12 +124,12 @@ SAB members communicate/meet at least annually and suggest strategic planning id
 
 Members of the SAB:  
 [Markus Engstler](https://www.biozentrum.uni-wuerzburg.de/zeb/team/staff-scientists/markus-engstler/)  
-[Curtis Huttenhower](https://huttenhower.sph.harvard.edu/)  
+[Curtis Huttenhower](https://www.hsph.harvard.edu/profile/curtis-huttenhower/)  
 [Nikos Kyrpides](https://jgi.doe.gov/our-science/scientists-jgi/nikos-kyrpides/)  
 [Robert Finn](https://www.ebi.ac.uk/research-beta/finn/)  
 [Stanton L. Martin](https://www.ornl.gov/staff-profile/stanton-martin)  
 [Thomas Schulz](https://www.mhh.de/virologie)  
-[Sünje Pamp](https://orbit.dtu.dk/en/persons/s%C3%BCnje-johanna-pamp)  
+[Sünje Pamp](https://www.linkedin.com/in/sjpamp/)  
 [Claudine Médigue](https://orcid.org/0000-0002-3905-1054)  
 [Nicole Wheeler](https://www.birmingham.ac.uk/staff/profiles/microbiology-infection/wheeler-nicole.aspx)  
 [Christine Moissel-Eichinger](https://online.medunigraz.at/mug_online/visitenkarte.show_vcard?pPersonenId=45ADB74B3F22CBEE&pPersonenGruppe=3)  
@@ -198,7 +198,7 @@ Prof. Dr. Peer Bork	| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg
 Prof. Dr. Manja Marz |	[FSU Jena](https://www.uni-jena.de/en/), Jena |	TA1, 2, 3
 Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=33573), Leipzig	| TA1, 2, 3, 4
 Prof. Dr. Alice C. McHardy |	[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |	TA1, 2, 3, 4, 5
-Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/welcome), Gießen |	TA1, 2, 3, 4, 5
+Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/people/current_members/alexandergoesmann), Gießen |	TA1, 2, 3, 4, 5
 Prof. Dr. Jörg Overmann |	[DSMZ](https://www.dsmz.de/), Braunschweig	| TA1, 2, 3, 4
 Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en), Marburg |	TA1, 2, 3, 4, 5
 Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1), Aachen |	TA1, 2, 3
