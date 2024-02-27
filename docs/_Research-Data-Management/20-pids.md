@@ -47,3 +47,7 @@ Wilkinson and collaborators discuss the FAIR principles for research data manage
 
 # Further resources
 {% endcomment %}
+
+# References
+
+{% bibliography --cited_in_order %}
