@@ -51,6 +51,22 @@ There are different versions of CC that consist of the core license with further
 ## Usage
 Creators can declare a works license by selecting it during upload to a website/database/repository or attaching a line stating the title, author and license to the published work.
 
+Here we look at some examples of license usage, found on [Zenodo](https://zenodo.org/).
+
+### CC BY 4.0 example usage
+We are going to be looking at two examples here: 
+1. [Metagenome-assembled genomes (MAGs), colorectal cancer (CRC)](https://zenodo.org/records/7008911) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7008911.svg)](https://doi.org/10.5281/zenodo.7008911)
+2. [Metagenome assemblies and metagenome-assembled genomes from the Daphnia magna microbiota](https://zenodo.org/records/4435010) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4435010.svg)](https://doi.org/10.5281/zenodo.4435010)
+
+Both datasets have been submitted to Zenodo under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). That means that the data that has been deposited is free to share and free to redistribute (including commercially) in any format or medium. It also enables the data user to build upon or transform it for any purpose (including commercial use). However, the license requires the data user to give appropriate credit to the submitter/data generator. In addition, the user must also provide a link to the license and disclose any changes made when licensing their work when derived from work already under license.
+
+### CC0 example usage
+We are going to be looking at two examples here:
+1. [Data from: Mining for NRPS and PKS genes revealed a high diversity in the Sphagnum bog metagenome](https://zenodo.org/records/4976456) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.hf56v.svg)](https://doi.org/10.5061/dryad.hf56v)
+2. [Data from: Generational conservation of composition and diversity of field-acquired midgut microbiota in Anopheles gambiae sensu lato during colonization in the laboratory](https://zenodo.org/records/5001400) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.98jj7gk.svg)](https://doi.org/10.5061/dryad.98jj7gk)
+
+Both datasets have been submitted to Zenodo under the  [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). That means that the data that has been deposited is in the public domain. That implies that the data deposited can be copied, modified, distributed, and used even for commercial purposes, and the depositor/generator of the data waives their right to the work. The user of data does not need to seek the permission of the data/material submitter or generator.
+
 # Software licenses
 When software sources are distributed, it is considered good practice to specify an already established license under which it can be used.
 Software developed in the context of science and funded by public money, usually needs to be made available free of charge and in open source by requirements of the funder or the governing institution's policies.
