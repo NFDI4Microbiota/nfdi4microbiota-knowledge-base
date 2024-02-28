@@ -4,7 +4,7 @@ category: How-We-Operate
 layout: default
 docs_css: markdown
 redirect_from: /How-We-Operate
-hide: true
+hide: false
 ---
 # Introduction
 
@@ -26,7 +26,7 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - Many documents addressing the NFDI e.V. and the proposals of most consortia are published on Zenodo.
 - The NFDI e.V. has [five sections]((https://www.nfdi.de/sections/?lang=en)) addressing cross-cutting topics of all consortia.
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
-- The Deutsche Forschungsgesellschaft (DFG) funds different NFDI consortia (independently of the NFDI e.V.). Further information and introductory videos can be found on the [DFG website](https://www.dfg.de/en/research_funding/programmes/nfdi/index.html).
+- The Deutsche Forschungsgesellschaft (DFG) funds different NFDI consortia (independently of the NFDI e.V.). Further information and introductory videos can be found on the [DFG website](https://www.dfg.de/en/research-funding/funding-initiative/nfdi).
 
 ## Introduction to NFDI4Microbiota
 
@@ -36,15 +36,14 @@ Each member of the consortium can [contribute to this repository](https://knowle
 Researchers can translate data easily into a deep understanding of microbial organisms and their interactions on a molecular level.
 
 **Mission:**
-- Be the central hub in Germany for supporting the microbiology community with data access, analysis services, data/metadata standards and training.
+- Be the central hub in Germany for supporting the microbiology community with data access, analysis services, data/metadata standards, and training.
 - Democratize access to microbiota data and high-end computational analyses.
 
 ### Code of Conduct
 It applies the [code of conduct of NFDI e.V.](https://www.nfdi.de/wp-content/uploads/2023/08/NFDI-Verhaltenskodex_NFDI-code-of-conduct.pdf).
 
 ### Key Objectives
-NFDI4Microbiota aims to facilitate the digital transformation of the microbiology community in order
-to significantly accelerate the generation of new, relevant knowledge. Microbiology is intricately linked
+NFDI4Microbiota aims to facilitate the digital transformation of the microbiology community to significantly accelerate the generation of new, relevant knowledge. Microbiology is intricately linked
 to numerous other fields, including medicine, agriculture, biotechnology, and earth science, so the overall
 social impact of these improvements will be immense.
 To overcome common obstacles to handling data in the field of microbiology (State-of-the-art and needs
@@ -101,7 +100,7 @@ reporting, quality assurance, and DFG/NFDI administrative tasks. The AU will com
 The General Assembly (GA) consists of the ten partner institutions, represented by their respective co-spokespersons named in the proposal 
 (with voting rights), and of spokespersons of the participating institutions (without voting rights). It is the ultimate decision-making body of 
 the consortium in regard to content and organization. The GA will monitor progress toward meeting the requirements of the TAs and measures. 
-The GA will also ensure NFDI4Microbiota forges connections with other NFDI consortia, and will communicate with the NFDI committees and the national and international communities. 
+The GA will also ensure NFDI4Microbiota forges connections with other NFDI consortia and will communicate with the NFDI committees and the national and international communities. 
 ZB MED is responsible for all budget matters and financial decisions made by the GA and for any alterations made to the Consortium Agreement (CA) in the future. Finally, 
 the GA is in charge of accepting/rejecting new partners and project proposals by participants, and of deciding on the premature completion or termination of the project. 
 The GA members will communicate/meet at least once a year (the agenda must be made available 2 weeks beforehand) and report to the BoD on progress made within the TAs and measures they lead. 
@@ -172,31 +171,32 @@ Middle of November | Announcement | M1.3 | Training and Event announcement
 Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to applicants
 December | Meeting | TA5 | Quarterly coordination coffee
 
-Download the actual annual timeline [here](https://nextcloud.nfdi4microbiota.de/index.php/f/105621) (internal link).
+Download the actual annual timeline [here](https://nextcloud.nfdi4microbiota.de/f/105621) (internal link). 
 
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
 ### NFDI4Microbiota Community
 The NFDI4Microbiota community is defined as the group of all researchers working within or with microbiology-related projects and the respective data. 
-This community can be further divided in the following groups: consortium members, participating institutions, ambassadors, and societies. 
-For the communication different contact and mailing lists exist. An overview of all communication channels is presented at the end of this file.
+This community can be further divided into the following groups: consortium members, participating institutions, ambassadors, and societies. 
+For communication different contact and mailing lists exist. An overview of all communication channels is presented at the end of this file.
 
 ### NFDI4Microbiota Consortium Members
-A member of the NFDI4Microbiota consortium is defined as a person that works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
-Responsabilities, contacts, and involvements in the measures of NFDI4Microbiota are documented [here](https://nextcloud.nfdi4microbiota.de/index.php/f/106080) (internal link). 
+A member of the NFDI4Microbiota consortium is defined as a person who works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
+Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented [here](https://nextcloud.nfdi4microbiota.de/f/106080)
+) (internal link). 
 Each member is responsible to update its data frequently. If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
 so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud, etc (Detailed list in the Offboarding section). 
-All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview [here](https://nextcloud.nfdi4microbiota.de/index.php/f/106086) (internal link).
+All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview [here](https://nextcloud.nfdi4microbiota.de/f/106086) (internal link).
 
 ### NFDI4Microbiota Partners 
-The NFDI4Microbiota partner are the co-spokespersons of the consortium. The institution they work for are the partner institutions of NFDI4Microbiota.
+The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
 
 Partner/Co-spokespersons |	Institution, location |	Task area(s) (TA)
 ---|---|---
 Prof. Dr. Alexander Sczyrba & Prof. Dr. Jens Stoye |	[BIBI](https://www.uni-bielefeld.de/), Bielefeld |	TA1, 2, 3, 4
 Prof. Dr. Peer Bork	| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg	| TA1, 2, 3, 4
 Prof. Dr. Manja Marz |	[FSU Jena](https://www.uni-jena.de/en/), Jena |	TA1, 2, 3
-Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=33573), Leipzig	| TA1, 2, 3, 4
+Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=43142), Leipzig	| TA1, 2, 3, 4
 Prof. Dr. Alice C. McHardy |	[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |	TA1, 2, 3, 4, 5
 Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/people/current_members/alexandergoesmann), Gießen |	TA1, 2, 3, 4, 5
 Prof. Dr. Jörg Overmann |	[DSMZ](https://www.dsmz.de/), Braunschweig	| TA1, 2, 3, 4
@@ -205,15 +205,15 @@ Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx
 
 ### NFDI4Microbiota Participants and Supporting Societies
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
-found [here](https://nextcloud.nfdi4microbiota.de/index.php/f/106081) (internal link). All participants are members of the mailing list participants-at-nfdi4microbiota.de.
+found [here](https://nextcloud.nfdi4microbiota.de/f/106081) (internal link). All participants are members of the mailing list participants-at-nfdi4microbiota.de.
 
 ### Ambassadors
-Ambassadors are young researcher (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
+Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
 and are part of the mailing list ambassador-at-nfdi4microbiota.de.
 
 ## Communication
 
-Within the consortium, as well as externally, we have several communication possibilities throughout different channels:
+Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
 ### NFDI4Microbiota mailing lists
 For the communication with different groups inside and outside the consortium, the following mailing lists are available:
@@ -235,13 +235,13 @@ To have your user account created on the Rocket Chat, contact one of the Adminis
 Afterwards, you can access the rocket chat for [NFDI](https://all-chat.nfdi.de).
 
 ### NFDI e.V. mailing lists
-Via this mailing list, several general information on e.g. NFDI talks (monthly Infra and Tool Talks), coffee sessions, onboarding (quarterly), and statute introduction (semi-annually) are shared.
+Via this mailing list, general information on e.g. NFDI talks, coffee sessions, onboarding (quarterly), and statute introduction (semi-annually) are shared.
 If you are involved in further sections, task forces, or administrative groups (more information on NFDI e.V. work), it would be easiest to create an account to manage the 
 NFDI mailing lists. For some mailing lists, archives of past emails do exist and can be viewed too. Every NFDI4Microbiota member should at least register to 'nfdi-all' mailing list.
 All lists can be accessed via [this link](https://lists.nfdi.de/postorius/lists/).
 
 ## Finances
-For the consortium, the information on the annual direct costs distributions and flexible funding are of interest. 
+For the consortium, the information on the annual direct cost distributions and flexible funding are of interest. 
 In general, the [Usage Guidelines of the DFG](https://www.dfg.de/resource/blob/168728/8ee8c5e88b49e485ec3e0cb8d3fe107d/dfg-nfdi300-de-v0721-data.pdf) giving a guideline on 
 different financial topics as well, like travel costs, etc. As repetition is not intended, here only consortium-specific topics are addressed.
 
