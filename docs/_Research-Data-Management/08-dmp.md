@@ -25,9 +25,10 @@ In a DMP, researchers usually describe the data, their generation and processing
 
 ## Digital Preservation in DMPs
 Data Management Plans usually ask for “long-term archiving” or “long-term preservation” of research data, “data preservation”, “long-term data accessibility” or sometimes “data sharing”. Exact terminology varies according to the different funders and their DMP templates and research data guidelines.
-For long-term archiving, preservation and accessibility/sharing, publication of research data in a Trusted Digital Repository (TDR) / trustworthy repository is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TRD fall usually into two categories:
+For long-term archiving, preservation and accessibility/sharing, publication of research data in a Trusted Digital Repository (TDR) / trustworthy repository is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDR fall usually into two categories:
 * a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
 * a repository that is commonly used and endorsed by the international research communities
+
 For finding a TDR, check the [Data Repository page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories).
 
 # Benefits
@@ -68,3 +69,6 @@ These templates usually contain much more aspects that do not have to be answere
 
 ## Software Management (SM) Plans
 * [SM Wizard](https://smw.ds-wizard.org/)
+
+# References
+{% bibliography --cited_in_order %}
