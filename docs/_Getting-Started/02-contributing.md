@@ -1,5 +1,5 @@
 ---
-title: Contributing to the NFDI4Micobiota Knowledge Base
+title: Contributing to the NFDI4Microbiota Knowledge Base
 category: Getting-Started
 layout: default
 docs_css: markdown
