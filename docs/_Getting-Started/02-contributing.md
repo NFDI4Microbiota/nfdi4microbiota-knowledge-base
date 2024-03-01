@@ -88,4 +88,4 @@ When adding or editing files, please observe the following rules:
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.
 3. In order to reference an article:
    1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
-   2. Cite the reference in the text using `{% cite <reference_name> %}`
+   2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
