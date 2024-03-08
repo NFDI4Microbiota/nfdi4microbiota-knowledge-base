@@ -24,7 +24,7 @@ To decide well-founded on data selection we recommend reading the how-to guide [
 * **Step 2:** Identify data that **must** be kept: consider legal or policy compliance risks, as well as funder requirements. 
 * **Step 3:** Identify data that **should** be kept: as it may have long-term value. 
 * **Step 4:** Weigh up the costs and identify any need for external advice in case of shortfall in the budget. 
-* **Step 5:** Complete the data appraisal, i.e. list what data must, should or could be kept to fulfil which potential reuse purposes. Summarise any actions needed to prepare the data for deposit - or justification for not keeping it.
+* **Step 5:** Complete the data appraisal, i.e. list what data must, should or could be kept to fulfill which potential reuse purposes. Summarize any actions needed to prepare the data for deposit - or justification for not keeping it.
 
 
 ## Recommended file formats for preservation
