@@ -20,7 +20,7 @@ The sustainable handling of data by researchers naturally facilitates the long-t
 
 ## Data selection
 To decide well-founded on data selection we recommend reading the how-to guide ["Five steps to decide what data to keep"](https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep) by Angus Whyte. The suggested steps are:
-* **Step 1:** Identify purposes that the data could fulfil: consider the purpose or ‘reuse case’ of your data, including reuse outside your research group.
+* **Step 1:** Identify purposes that the data could fulfill: consider the purpose or ‘reuse case’ of your data, including reuse outside your research group.
 * **Step 2:** Identify data that **must** be kept: consider legal or policy compliance risks, as well as funder requirements. 
 * **Step 3:** Identify data that **should** be kept: as it may have long-term value. 
 * **Step 4:** Weigh up the costs and identify any need for external advice in case of shortfall in the budget. 
