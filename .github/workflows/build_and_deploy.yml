@@ -1,0 +1,29 @@
+name: Build and Deploy to Production
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Acquire ownership permissions
+        env:
+          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
+        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build Jekyll site with Docker
+        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+      - name: Copy site data to the serving directory
+        env:
+          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
+        run: |
+          rm -rf /var/www/kb-nfdi4microbiota/* && cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/

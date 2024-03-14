@@ -3,10 +3,6 @@ title: The NFDI4Microbiota Knowledge Base
 category: Getting-Started
 layout: default
 docs_css: markdown
-redirect_from: 
-    - /Getting-Started
-    - /Home
-permalink: /
 ---
 
 <!-- <div class="bd-intro pt-2 ps-lg-2">
