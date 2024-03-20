@@ -46,5 +46,5 @@ The files are hosted at a [repo on
 GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You
 can contribute by suggesting new content in [an
 issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
-or directly proposed changes using a [pull
+or directly propose changes using a [pull
 request](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/pulls).
