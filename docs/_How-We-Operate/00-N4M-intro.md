@@ -6,7 +6,6 @@ docs_css: markdown
 redirect_from: /How-We-Operate
 hide: false
 ---
-# Introduction
 
 ## Introduction to the NFDI4Microbiota How We Operate
 
@@ -30,7 +29,6 @@ Each member of the consortium can [contribute to this repository](https://knowle
 
 ## Introduction to NFDI4Microbiota
 
-### Vision, Mission, and Goals of NFDI4Microbiota
 **Vision:** 
 
 Researchers can translate data easily into a deep understanding of microbial organisms and their interactions on a molecular level.
@@ -91,7 +89,7 @@ They will also have direct contact with the NFDI Directorate.
 
 ### Administration Unit
 
-As of January 2023, the Administration Unit (AU) consists of the project managers of the BoD: Barbara Götz, and Cordula Hege. 
+As of January 2023, the Administration Unit (AU) consists of the project managers of the BoD: Barbara Götz, Mattea Müller, and Cordula Hege. 
 This unit will support the BoD with the coordination of the consortium, including internal communication, milestone and deliverable monitoring, 
 reporting, quality assurance, and DFG/NFDI administrative tasks. The AU will communicate/meet on a weekly basis and report to the BoD.
 
@@ -154,7 +152,6 @@ Middle of March | Deliverable | M3.1 | Training and event announcement to the co
 April | Meeting | M5.1 | General assembly
 End of April | Deliverable | M1.3 | Quarterly newsletter
 Middle of May | Announcement | M5.3 |  Flex Funds Call Announcement
-Beginning of June | Event | M1.3 | NFDI4Microbiota Annual Conference (starting 2024)
 Middle of June | Meeting | TA5 | Quarterly coordination coffee
 Middle of June | Announcement | M1.3 | Training and event announcement
 Middle of June | Announcement | M5.3 | Opening of Flex Funds call
@@ -169,7 +166,9 @@ Beginning of November | Resolution | M5.3 | Circulation of Flex Funds decision i
 Beginning of November | Meeting | M5.1 | General Assembly
 Middle of November | Announcement | M1.3 | Training and Event announcement
 Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to applicants
+December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
+
 
 Download the actual annual timeline [here](https://nextcloud.nfdi4microbiota.de/f/105621) (internal link). 
 
@@ -207,9 +206,9 @@ Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
 found [here](https://nextcloud.nfdi4microbiota.de/f/106081) (internal link). All participants are members of the mailing list participants-at-nfdi4microbiota.de.
 
-### Ambassadors
+### NFDI4Microbiota Ambassadors
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
-and are part of the mailing list ambassador-at-nfdi4microbiota.de.
+and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on the ambassador program can be found on the [web portal](https://nfdi4microbiota.de/community/ambassador.html).
 
 ## Communication
 
@@ -220,7 +219,7 @@ For the communication with different groups inside and outside the consortium, t
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
 
-Further internal mailing lists are filed [here](https://nextcloud.nfdi4microbiota.de/f/106084) (internal link).
+Further internally used mailing lists are filed [here](https://nextcloud.nfdi4microbiota.de/f/106084) (internal link).
 
 ### Rocket Chat
 The Rocket Chat instance of NFDI e.V. is used for low-level communication within the different consortia, the sections, the task forces, and channels created
@@ -255,7 +254,7 @@ ability to react to unforeseen technical challenges. Therefore, within the NFDI4
 research community is available for the years 2023 to 2026. To implement a dynamic system that stays on track with new trends in the field, the Flex Funds shall support small 
 projects and Use Cases from the community as they arise over time, either directly through NFDI4Microbiota activities or independently. Such a system will guarantee flexibility 
 and allow broadening the scope of activities to an even wider pool of participants, increasing the visibility and, eventually, the added value of the consortium.
-The latest call is found [here](https://nfdi4microbiota.de/newsroom/flexfunds.html)
+The latest call is found [here](https://nfdi4microbiota.de/newsroom/flexfunds.html).
 
 ### Strategy Funds
 The NFDI4Microbiota consortium aims to realize the dynamic adaptation of services and support of further data types, the development of new training programs, and the improvement of 
