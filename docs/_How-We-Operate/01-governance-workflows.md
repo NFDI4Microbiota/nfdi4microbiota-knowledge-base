@@ -135,7 +135,7 @@ The Project review board will have the following obligations:
 
 *The rough expenditure of time is 16 hours p.a and includes a minimum of one annual meeting (approx. 3 hrs). The time for the review process will be annually in the end of September.*
 
-## FlexFunds Review Workflow
+### FlexFunds Review Workflow
 The FlexFunds workflow is described in the finances workflows in detail.
 The PRB receives FlexFunds applications and the review template from the Administration Unit after the call for Flex Funds applications was closed. They will receive these latest 2 weeks after the call was closed. 
 
