@@ -101,5 +101,5 @@ Sample elution & collection:
 Dry samples in Speedvac and reconstitute peptides in 1% formic acid supplemented with 4% acetonitrile. Samples are now ready for the injection on a mass spectrometer
 
 References
-EMBL – Proteomics Core Facility
+{% cite <Protein_purification_Protein_Expression_and_Purification_Core_Facility> %}
 
