@@ -38,4 +38,4 @@ h.	Collect sample eluent and evaporate the samples to dryness in a SpeedVac conc
 
 
 Reference:
-1.	Nov´ak, O., Pˇenˇc´ık, A., Blahouˇsek, O., and Ljung, K. 2016.Quantitative auxin metabolite profiling using stable isotope dilutionUHPLC-MS/MS. Curr. Protoc. Plant Biol. 1:419-430. doi: 10.1002/cppb.20028
+{% cite <Novák_2016> %}
