@@ -40,5 +40,5 @@ Sample preparation and metabolite extraction:
 18.	Blank control: prepare processed blank sample using same procedure but without biological sample (use water or buffer instead). 
 
 Reference:
-1.	Yuan M, Breitkopf SB, Yang X, Asara JM. A positive/negative ion-switching, targeted mass spectrometry-based metabolomics platform for bodily fluids, cells, and fresh and fixed tissue. Nat Protoc. 2012 Apr 12;7(5):872-81. doi: 10.1038/nprot.2012.024.
+{% cite <Yuan_2012> %}
 
