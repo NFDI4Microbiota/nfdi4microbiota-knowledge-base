@@ -18,5 +18,5 @@ docs_css: markdown
 10.	Remove the supernatant and re-suspend the pellet in 100  μl TE buffer
 11.	Store at 4°C
 
-# Reference
+# Source
 In-house protocol provided by Sarah Schulz
