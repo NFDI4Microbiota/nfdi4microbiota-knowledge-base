@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 
-Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues  
+Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues {% cite Novák_2016 %}
 
 Sample required:Plant material required: 20-50 mg finely homogenized tissue 
  
@@ -37,5 +37,5 @@ h.	Collect sample eluent and evaporate the samples to dryness in a SpeedVac conc
 
 
 
-Reference:
-{% cite <Novák_2016> %}
+## References
+{% bibliography --cited_in_order %}
