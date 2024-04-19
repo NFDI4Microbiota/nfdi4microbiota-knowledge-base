@@ -17,3 +17,6 @@ docs_css: markdown
 9.	Incubate sample overnight at -80°C, and then centrifuge at 16 000 g for at 4°C for 1 h
 10.	Remove the supernatant and re-suspend the pellet in 100  μl TE buffer
 11.	Store at 4°C
+
+# Reference
+In-house protocol provided by Sarah Schulz
