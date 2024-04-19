@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples
+Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples {% cite Bird_2011 %}
 
 Aim: Lipid extraction from mammalian cells or microbial samples for LC-MS analysis 
 
@@ -47,9 +47,10 @@ Specific instructions for homogenization of frozen tissues (eg; liver) prior to 
 
 *It is difficult to process tissue samples at weights below 10 mg, so aim for at least 10 mg of tissue to start with 
 
+## References
+{% bibliography --cited_in_order %}
 
-Reference:
-{% cite <Bird_2011> %}
+
 
 
 
