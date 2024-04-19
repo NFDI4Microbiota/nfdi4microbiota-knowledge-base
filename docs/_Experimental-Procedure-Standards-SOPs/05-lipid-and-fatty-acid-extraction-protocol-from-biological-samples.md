@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples
+Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples {% cite Bird_2011 %}
 
 Aim: Lipid extraction from mammalian cells or microbial samples for LC-MS analysis 
 
@@ -34,13 +34,6 @@ MeOH: Chloroform extraction
 
 Note: Method of measurement of cellular/microbial mass should be established with biologist/ microbiologist depending on experimental design. The method can be biomass weight or OD measurements which can be further used for normalization of lipid levels. Similar decision should be made for quenching procedures
 
-Reference:
-Susan S. Bird, Vasant R. Marur, Matthew J. Sniatynski, Heather K. Greenberg, and Bruce S. Kristal., Serum Lipidomics Profiling using LC-MS and High Energy Collisional Dissociation Fragmentation: Focus on Triglyceride Detection and Characterization. Anal Chem. 2011 September 1; 83(17): 6648–6657. doi:10.1021/ac201195d. 
-
-
-
-
-
 Specific instructions for homogenization of frozen tissues (eg; liver) prior to lipid extraction 
 1)	Starting with frozen tissue*, grind the tissue to a powder while frozen using a hand-held ceramic mortar and pestle. The mortar and pestle (any other apparatus eg; tweezers)  should be liquid nitrogen cooled before and should be kept cold throughout the process. A CryoMill can also be used for the homogenization of the tissue. 
 
@@ -53,5 +46,14 @@ Specific instructions for homogenization of frozen tissues (eg; liver) prior to 
 5)	Dry the bottom layer under a nitrogen stream.
 
 *It is difficult to process tissue samples at weights below 10 mg, so aim for at least 10 mg of tissue to start with 
+
+## References
+{% bibliography --cited_in_order %}
+
+
+
+
+
+
 
 
