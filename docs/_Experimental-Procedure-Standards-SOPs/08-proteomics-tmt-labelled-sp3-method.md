@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 
-TMT-labelled SP3 method
+TMT-labelled SP3 method {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %}
 
 Buffers:
 NP40-Lysis buffer
@@ -100,6 +100,6 @@ Sample elution & collection:
 10.Elute with 50 µl B
 Dry samples in Speedvac and reconstitute peptides in 1% formic acid supplemented with 4% acetonitrile. Samples are now ready for the injection on a mass spectrometer
 
-References
-{% cite <Protein_purification_Protein_Expression_and_Purification_Core_Facility> %}
+## References
+{% bibliography --cited_in_order %}
 
