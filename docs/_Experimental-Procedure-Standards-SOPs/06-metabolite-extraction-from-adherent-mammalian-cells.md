@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells 
+Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells {% cite Yuan_2012 %}
 
 Aim: Aqueous metabolite extraction from mammalian cells or microbial samples for LC-MS analysis 
 
@@ -39,6 +39,5 @@ Sample preparation and metabolite extraction:
 17.	Submit dried sample in 1.5 ml eppendorf tube and can be stored at in dried ice.
 18.	Blank control: prepare processed blank sample using same procedure but without biological sample (use water or buffer instead). 
 
-Reference:
-1.	Yuan M, Breitkopf SB, Yang X, Asara JM. A positive/negative ion-switching, targeted mass spectrometry-based metabolomics platform for bodily fluids, cells, and fresh and fixed tissue. Nat Protoc. 2012 Apr 12;7(5):872-81. doi: 10.1038/nprot.2012.024.
-
+## References
+{% bibliography --cited_in_order %}
