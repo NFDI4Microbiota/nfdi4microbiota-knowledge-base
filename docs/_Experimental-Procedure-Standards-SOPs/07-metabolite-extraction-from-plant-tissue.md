@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 
-Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues  
+Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues {% cite Novák_2016 %}
 
 Sample required:Plant material required: 20-50 mg finely homogenized tissue 
  
@@ -37,5 +37,5 @@ h.	Collect sample eluent and evaporate the samples to dryness in a SpeedVac conc
 
 
 
-Reference:
-1.	Nov´ak, O., Pˇenˇc´ık, A., Blahouˇsek, O., and Ljung, K. 2016.Quantitative auxin metabolite profiling using stable isotope dilutionUHPLC-MS/MS. Curr. Protoc. Plant Biol. 1:419-430. doi: 10.1002/cppb.20028
+## References
+{% bibliography --cited_in_order %}
