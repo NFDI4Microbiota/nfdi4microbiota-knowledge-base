@@ -17,7 +17,7 @@ A **data repository** is a location where digital objects are stored and documen
 
 ## Criteria to select a trusted repository
 Below are listed criteria you might want to consider when selecting a repository where to publish your data:
-* Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 oder ISO 16363? Find these repositories via re3data or the website of various certification initatives:
+* Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 or ISO 16363? Find these repositories via re3data or the website of various certification initatives:
     * [Find CTS-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=CoreTrustSeal)
     * [Find nestor/DIN 31644-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=DIN%2031644)
     * [Find ISO16363-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=ISO%2016363)
