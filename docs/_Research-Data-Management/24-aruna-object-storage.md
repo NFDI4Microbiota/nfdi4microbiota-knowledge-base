@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 # Abstract
-Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the [Research Data Commons (RDC)](23-research-data-commons.md) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface. It allows resource organization into Objects, Datasets, Collections and Projects. Additionally, it provides an event-driven architecture which enables automation, data validation and improves accessibility and reproducibility of scientific results. AOS is open-source and available at [https://aruna-storage.org](https://aruna-storage.org).
+Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the [Research Data Commons (RDC)](23-research-data-commons.html) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface. It allows resource organization into Objects, Datasets, Collections and Projects. Additionally, it provides an event-driven architecture which enables automation, data validation and improves accessibility and reproducibility of scientific results. AOS is open-source and available at [https://aruna-storage.org](https://aruna-storage.org).
 
 # Factsheet
 * ![Aruna Object Storage Logo]({{ '/assets/img/aruna_dark_font.png' | relative_url }} "Aruna Object Storage Logo"){:width="20%"}
