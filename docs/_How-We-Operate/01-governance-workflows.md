@@ -20,8 +20,8 @@ The GA takes place twice a year, most likely in March/April and in October/Novem
 The Administration Unit and the Board of Directors have to prepare the GA. Each member of the consortium can hand in topics he/she would like to discuss during the GA (has to be of relevance to the whole consortium).  
 
 ### Timeline
-x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks| x+4 weeks |
-------------|-------------|-------------|---|----|---|
+x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks| x+4 weeks
+------------|-------------|-------------|---|----|---
 Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling  
 
 The preparation includes the following steps:
@@ -37,9 +37,9 @@ that they need to give input on their TAs. If further topics are addressed, wher
 2) Reports from the TAs  
 3) Finances  
 4) ...  
-...
-5) NFDI updates  
-6) AOB  
+5) ...
+6) NFDI updates  
+7) AOB  
 
 ### Conduction of the General Assembly
 For the conduction of the General Assembly meeting, one moderator and at least one note-taker are required. To make resolutions during the meeting, the co-applicants are entitled to vote. 
@@ -85,9 +85,9 @@ conference.
 The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD meeting.
 
 ### Timeline
-x-6 months (min) | x-5 weeks | x-2 weeks | x | x+2 weeks|
-----|----------|-----------|---|----|
-Start a poll to find a date for the meeting | Start to generate an agenda and slides for the meeting. | Sent agenda to SAB | SAB and BoD meeting | Protocol generated for SAB and BoD |
+x-6 months (min) | x-5 weeks | x-2 weeks | x | x+2 weeks
+----|----------|-----------|---|----
+Start a poll to find a date for the meeting | Start to generate an agenda and slides for the meeting. | Sent agenda to SAB | SAB and BoD meeting | Protocol generated for SAB and BoD 
 
 The preparation includes the following steps:
 - Creating an appointment in the calendar of choice (Google, Outlook, etc.) that includes the date, time, and the link or location for the meeting. This will be sent to the SAB members and the BoD.
@@ -99,6 +99,7 @@ The preparation includes the following steps:
 1) Welcome 
 2) Report on the work of the consortium and NFDI updates.
 3) ...
+4) ...
 5) AOB
 
 ### Conduction of the SAB and BoD meeting
