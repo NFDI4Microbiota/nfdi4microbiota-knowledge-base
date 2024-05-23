@@ -4,12 +4,12 @@ category: How-We-Operate
 layout: default
 docs_css: markdown
 redirect_from: /How-We-Operate
-hide: false
+hide: true
 ---
 
 ## Governance of NFDI4Microbiota
 Governance is the process of making and enforcing decisions within an organization or society. The following will introduce the governance structure, and the governance bodies are defined. 
-Details on the bodies of the NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](https://knowledgebase.nfdi4microbiota.de/How-We-Operate/00-n4m-intro.html#governance-of-nfdi4microbiota).
+Details on the bodies of the NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
 ## Workflow General Assembly
 
@@ -64,11 +64,11 @@ After the GA took place, the moderator and the note-taker will update the minute
 consortium for information and review for two weeks. Afterwards, the minutes will be forwarded to a) ZB MED controlling and b) NFDI Directorate and filed.
 
 ### Documentation of the General Assembly
-All files regarding the General Assembly are filed [in Nextcloud](https://nextcloud.nfdi4microbiota.de/f/105454)(internal link).
+All files regarding the General Assembly are filed [in Nextcloud](https://nextcloud.nfdi4microbiota.de/f/105454) (internal link).
 
 ## Workflow Scientific Advisory Board
 
-A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the (introduction to NFDI4Microbiota)[https://knowledgebase.nfdi4microbiota.de/How-We-Operate/00-n4m-intro.html#governance-of-nfdi4microbiota].
+A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
 ### Information flow to the Scientific Advisory Board
 To update the SAB regularly, they will receive the following information via their mailing list:
@@ -109,7 +109,7 @@ Afterward, the note taker will update the minutes for the SAB and BoD. The proto
 consortium.
 
 ### Documentation of the SAB and BoD meeting
-All files regarding the SAB are filed [here](https://nextcloud.nfdi4microbiota.de/f/105451)(internal link).
+All files regarding the SAB are filed [here](https://nextcloud.nfdi4microbiota.de/f/105451) (internal link).
 The members of the SAB are displayed on the web portal.
 
 ## Workflow Project Review Board
@@ -158,5 +158,5 @@ which means more then half of the cast votes.
 6) The resolution will be communicated to the GA, respective SAB, and the whole consortium and filed.  
 
 ### Documentation
-All templates are filed [here](https://nextcloud.nfdi4microbiota.de/f/102947)(internal link). All circulation procedures (Except for the documents containing results) are filed in a respective folder created. 
+All templates are filed [here](https://nextcloud.nfdi4microbiota.de/f/102947) (internal link). All circulation procedures (Except for the documents containing results) are filed in a respective folder created. 
 The resolutions are written separately and have a similar layout but contain information regarding the voting and the outcome.
