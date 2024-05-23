@@ -3,8 +3,7 @@ title: Governance workflows
 category: How-We-Operate
 layout: default
 docs_css: markdown
-redirect_from: /How-We-Operate
-hide: true
+hide: false
 ---
 
 ## Governance of NFDI4Microbiota
@@ -102,8 +101,7 @@ The preparation includes the following steps:
 1. Welcome 
 2. Report on the work of the consortium and NFDI updates.
 3. ...
-4. ...
-5. AOB
+4. AOB
 
 ### Conduction of the SAB and BoD meeting
 For the conduction of the SAB and BoD meeting, the BoD acts as moderators. At least one person from the AU is attending as a note-taker.
