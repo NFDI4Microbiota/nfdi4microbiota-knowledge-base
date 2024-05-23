@@ -20,8 +20,9 @@ The GA takes place twice a year, most likely in March/April and in October/Novem
 The Administration Unit and the Board of Directors have to prepare the GA. Each member of the consortium can hand in topics he/she would like to discuss during the GA (has to be of relevance to the whole consortium).  
 
 ### Timeline
-x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks| x+4 weeks
-------------|-------------|-------------|---|----|---
+
+x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks | x+4 weeks
+-------- | -------- | -------- | ------- | ------- | -------
 Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling  
 
 The preparation includes the following steps:
@@ -33,13 +34,13 @@ that they need to give input on their TAs. If further topics are addressed, wher
 - Preparing a presentation for the General Assembly addressing the agenda.
 
 ### Example for the agenda of the General Assembly
-1) Welcome, approval of open election, and the agenda  
-2) Reports from the TAs  
-3) Finances  
-4) ...  
-5) ...
-6) NFDI updates  
-7) AOB  
+
+1. Welcome, approval of open election, and the agenda  
+2. Reports from the TAs  
+3. Finances  
+4. ...  
+5. NFDI updates  
+6. AOB  
 
 ### Conduction of the General Assembly
 For the conduction of the General Assembly meeting, one moderator and at least one note-taker are required. To make resolutions during the meeting, the co-applicants are entitled to vote. 
@@ -85,8 +86,9 @@ conference.
 The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD meeting.
 
 ### Timeline
-x-6 months (min) | x-5 weeks | x-2 weeks | x | x+2 weeks
-----|----------|-----------|---|----
+
+x-6 months (min) | x-5 weeks  | x-2 weeks  | x | x+2 weeks 
+-------- | -------- | -------- | ------- | ------- 
 Start a poll to find a date for the meeting | Start to generate an agenda and slides for the meeting. | Sent agenda to SAB | SAB and BoD meeting | Protocol generated for SAB and BoD 
 
 The preparation includes the following steps:
@@ -96,11 +98,12 @@ The preparation includes the following steps:
 - Preparing a presentation for the meeting addressing the agenda.
 
 ### Agenda of the SAB and BoD meeting
-1) Welcome 
-2) Report on the work of the consortium and NFDI updates.
-3) ...
-4) ...
-5) AOB
+
+1. Welcome 
+2. Report on the work of the consortium and NFDI updates.
+3. ...
+4. ...
+5. AOB
 
 ### Conduction of the SAB and BoD meeting
 For the conduction of the SAB and BoD meeting, the BoD acts as moderators. At least one person from the AU is attending as a note-taker.
@@ -124,8 +127,10 @@ For this purpose, a Project Review Board (PRB) – an external body whose member
 based on the topics required for review and excluding members with potential conflicts of interest. The PRB will be responsible for selecting new projects within the scope of the flexible funding and allocation mechanism, 
 thus reacting to new and unforeseen scenarios. It will be staffed based on suggestions made by the SAB and decision-making will include a peer review process.
 The PRB will:
-1)	be convened as needed to review proposals for innovation and implementation projects, and
-2)	provide an unbiased review of innovation and implementation projects.
+
+1.	be convened as needed to review proposals for innovation and implementation projects, and
+2.	provide an unbiased review of innovation and implementation projects.
+   
 Based on these reviews, the General Assembly (GA) will select projects that best serve the overall mission of NFDI4Microbiota.
 
 ### Obligations
@@ -152,11 +157,12 @@ If resolutions have to be made between the meetings of the General Assembly or t
 which means more then half of the cast votes.
 
 **Preparation, conduction, and follow-up of the circulation procedure:**
-1) A new circulation procedure document will be filled with details regarding the specific topic.
-3) If necessary, informational files with further details will be created to be attached to the circulation procedure document.
-4) The documents will be sent to the GA or SAB with a deadline of at least two weeks.
-5) A resolution will be written from the results of the circulation with details regarding the voting and the outcome of the circulation procedure.
-6) The resolution will be communicated to the GA, respective SAB, and the whole consortium and filed.  
+
+1. A new circulation procedure document will be filled with details regarding the specific topic.
+3. If necessary, informational files with further details will be created to be attached to the circulation procedure document.
+4. The documents will be sent to the GA or SAB with a deadline of at least two weeks.
+5. A resolution will be written from the results of the circulation with details regarding the voting and the outcome of the circulation procedure.
+6. The resolution will be communicated to the GA, respective SAB, and the whole consortium and filed.  
 
 ### Documentation
 All templates are filed [here](https://nextcloud.nfdi4microbiota.de/f/102947) (internal link). All circulation procedures (Except for the documents containing results) are filed in a respective folder created. 
