@@ -1,3 +1,5 @@
+.DS*
+._*
 _site/
 .jekyll-cache/
 Gemfile.lock
