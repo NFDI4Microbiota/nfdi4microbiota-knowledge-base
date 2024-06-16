@@ -1,6 +1,6 @@
 ---
 title: Data Organization
-category: Research-Data-Management
+category: RDM-Process
 layout: default
 docs_css: markdown
 ---

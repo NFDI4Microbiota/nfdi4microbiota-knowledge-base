@@ -1,6 +1,6 @@
 ---
 title: Research Data Commons (RDC)
-category: Standard-Operating-Procedures
+category: RDM-Reuse
 layout: default
 docs_css: markdown
 ---

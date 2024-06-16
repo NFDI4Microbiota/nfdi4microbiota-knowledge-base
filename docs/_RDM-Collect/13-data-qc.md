@@ -1,6 +1,6 @@
 ---
 title: Data Quality Control
-category: Research-Data-Management
+category: RDM-Collect
 layout: default
 docs_css: markdown
 ---

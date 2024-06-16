@@ -1,6 +1,6 @@
 ---
 title: Digital Preservation
-category: Research-Data-Management
+category: RDM-Preserve
 layout: default
 docs_css: markdown
 ---

@@ -1,6 +1,6 @@
 ---
 title: Data Repositories
-category: Research-Data-Management
+category: RDM-Share
 layout: default
 docs_css: markdown
 ---

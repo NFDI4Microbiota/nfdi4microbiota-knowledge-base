@@ -1,9 +1,9 @@
 ---
 title: File Formats
-category: Research-Data-Management
+category: RDM-Process
 layout: default
 docs_css: markdown
-redirect_from: /Research-Data-Management
+redirect_from: /RDM-Process
 empty: true
 hide: true
 ---

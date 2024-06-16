@@ -1,6 +1,6 @@
 ---
 title: Aruna Object Storage (AOS)
-category: Standard-Operating-Procedures
+category: RDM-Preserve
 layout: default
 docs_css: markdown
 ---
