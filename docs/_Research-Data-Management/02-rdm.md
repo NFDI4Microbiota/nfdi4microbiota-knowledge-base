@@ -47,12 +47,12 @@ Consequences of poor RDM include paper retraction (e.g. [González Amorós & de 
 * Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences: [bio.tools](https://bio.tools/)
   
 * Research data management platforms:
-- [Coscine](https://coscine.de/) by [RWTH Aachen](https://www.rwth-aachen.de)
-- [BEXIS2](https://demo.bexis2.uni-jena.de) by [NFDI4Biodiversity](https://www.nfdi4biodiversity.org/en/) at [FSU Jena](https://www.uni-jena.de)
-- [GfBio](https://www.gfbio.org) consortium services
+    * [Coscine](https://coscine.de/) by [RWTH Aachen](https://www.rwth-aachen.de)
+    * [BEXIS2](https://demo.bexis2.uni-jena.de) by [NFDI4Biodiversity](https://www.nfdi4biodiversity.org/en/) at [FSU Jena](https://www.uni-jena.de)
+    * [GfBio](https://www.gfbio.org) consortium services
   
 * General reources:
-- The Research Data Management toolkit for Life Sciences [RDMkit](https://rdmkit.elixir-europe.org) by [ELIXIR](https://elixir-europe.org)
+    * The Research Data Management toolkit for Life Sciences [RDMkit](https://rdmkit.elixir-europe.org) by [ELIXIR](https://elixir-europe.org)
 
 ## References
 {% bibliography --cited_in_order %}
