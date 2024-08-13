@@ -17,26 +17,13 @@ With the growing application of machine learning in microbiology, such as predic
 
 ## Relevance of RDM
 
+Research data are valuable {% cite pauls_2023 %} and therefore need to be managed systematically and responsibly {% cite biernacka:202 0%}. Incorporating robust RDM practices from the outset of a research project helps make research data accessible, reusable and verifiable throughout the research process and in the long term, regardless of the data producer {% cite pauls_2023 %}. Such practices also ensure integrity and help maximise the impact, reproducibility, transparency and rigour of researchers' analyses and findings. Finally, robust RDM practices enhance collaboration and knowledge sharing and help preserve the scientific record and advance scientific knowledge.
+
 ## Advantages and drawbacks of RDM
 
-Benefits of RDM are numerous, some of them are listed below {% cite assmann_2022 bobrov_2021 bres_2022 engelhardt_2022 jacob_2022 lindstädt_2019 voigt_2022 %}:
+As noted above, there are many benefits to incorporating robust RDM practices from the outset of a research project. For researchers, good RDM enhances visibility, reputation (by ensuring the quality of research), data ownership (i.e. "the possession of and responsibility for information" [NCATS Toolkit](https://toolkit.ncats.nih.gov/)) {% cite bres_2022 jacob_2022 %} and helps them to meet formal requirements from third parties (e.g. research funders, institutions and publishers). For the project, good RDM brings clarity and findability, supports coordination, data security and good storage practices, helps to keep track of the project and deal with legal aspects, and increases eligibility for funding {% cite assmann_2022 bres_2022 bres_2023 %}. For the research group, good RDM enables knowledge management, transfer and preservation, while improving teamwork and saving time, money and resources {% cite assmann_2022 bobrov_2021 bres_2022 %}. For third parties, good RDM practices increase transparency, make data FAIR (i.e. findable, accessible, interoperable and reusable (no need for unnecessary duplication)) and increase collaboration {% cite assmann_2022 bobrov_2021 bres_2022 jacob_2022 voigt_2022 %}. Last but not least, good RDM practices help to address societal challenges by ensuring reproducibility, availability and verifiability, preventing data loss and preserving the scientific record, ensuring good research practice (GRP) and supporting open science (i.e. open transfer of research knowledge, open access to research data) {% cite assmann_2022 bobrov_2021 engelhardt_2022 jacob_2022 lindstädt_2019 voigt_2022 bres_2023 %}.
 
-* **For researchers**
-    * Visibility
-    * Reputation (ensures research quality)
-    * Data ownership
-    * Eligibility for funding
-    * Saves time, money and resources
-    * Preventing data loss
-
-* **Additional benefits**
-    * Helps keep track of the project
-    * Helps meet formal and legal requirements
-    * Enhances teamwork and collaborations
-    * Guarantees transparency, verifiability and reproducibility
-
-## Consequences of poor RDM
-Consequences of poor RDM include paper retraction (e.g. [González Amorós & de Puit](https://doi.org/10.1016/j.scijus.2015.04.005)).
+There are also consequences of poor RDM practices, such as retraction of papers. For example, Amorós and Puit 2015 had their paper retracted due to inconsistent and non-reproducible values and loss of raw data.
 
 ## Research data life cycle
 The research data life cycle is a model that illustrates the steps of RDM and describes how data should ideally flow through a research project to ensure successful data curation and preservation {% cite NTU_LibGuides_RD_life_cycle bobrov_2021 %}. The research data life cycle can be illustrated as follow: 
