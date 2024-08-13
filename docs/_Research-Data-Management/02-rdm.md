@@ -26,7 +26,7 @@ As noted above, there are many benefits to incorporating robust RDM practices fr
 There are also consequences of poor RDM practices, such as retraction of papers. For example, Amorós and Puit 2015 had their paper retracted due to inconsistent and non-reproducible values and loss of raw data.
 
 ## Research data life cycle
-The research data life cycle is a model that illustrates the steps of RDM and describes how data should ideally flow through a research project to ensure successful data curation and preservation {% cite NTU_LibGuides_RD_life_cycle bobrov_2021 %}. The research data life cycle can be illustrated as follow: 
+The research data life cycle is a model that illustrates the steps of RDM and describes how data should ideally flow through a research project to ensure successful data curation and preservation {% cite NTU_LibGuides_RD_life_cycle princeton:2024 %} [NTU Library, Princeton Research Data Service]. The research data life cycle can be illustrated as follow: 
 
 ![Research data life cycle]({{ '/assets/img/research_data_life_cycle.png' | relative_url }})
 
