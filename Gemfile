@@ -9,3 +9,6 @@ gemspec
 gem 'jemoji'
 gem 'jekyll-scholar', group: :jekyll_plugins
 gem 'jekyll-redirect-from'
+group :jekyll_plugins do
+    gem "jekyll-last-modified-at"
+  end

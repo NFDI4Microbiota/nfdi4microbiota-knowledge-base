@@ -52,6 +52,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 markdown: Kramdown
 collections_dir: docs
 collections:

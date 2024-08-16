@@ -296,8 +296,10 @@
             <!-- Check if page is under construction -->
             {% if page.empty %}
             <p>This page is currently empty. Please consider contributing! </p>
+            {% else %}
+            <h2>Citation</h2>
+            <p>National Research Data Infrastructure for Microbiota Research (NFDI4Microbiota). ({{ page.last_modified_at | date: '%Y, %B %d'}}). {{ page.title }}. NFDI4Microbiota Knowledge Base. </p>
             {% endif %}
-
 
         </div>
     </main>
