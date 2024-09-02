@@ -15,6 +15,7 @@ The following list contains the names of the contributors in alphabetical order.
 * Götz, Barbara (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211))
 * Kasmanas, Jonas Coelho (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
 * Klemm, Paul M. J. (ORCID ID: [0000-0002-3609-5713](https://orcid.org/0000-0002-3609-5713))
+* Kurtys, Natalie O. (ORCID ID: [0009-0001-7836-1274](https://orcid.org/0009-0001-7836-1274))
 * Magel, Maja (ORCID ID: [0009-0004-2517-0791](https://orcid.org/0009-0004-2517-0791))
 * Markus, Katharina (ORCID ID: [0000-0002-9316-8982](https://orcid.org/0000-0002-9316-8982))
 * Müller, Rabea (ORCID ID: [0000-0002-3096-8237](https://orcid.org/0000-0002-3096-8237), Wikidata: [Q95461538](https://www.wikidata.org/wiki/Q95461538))
