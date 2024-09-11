@@ -21,6 +21,7 @@ jobs:
     - uses: DavidAnson/markdownlint-cli2-action@v17
       with:
       # Lint all markdown files in the repo
+        config: 'utils/.markdownlint.yaml'
         globs: '**/*.md'
         # Automatically fix supported issues
         fix: true
