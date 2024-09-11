@@ -42,7 +42,9 @@ redirect_from: /Resources
 ## I
 * **Identifiable natural person:**  person who can be directly or indirectly identified using an (online) identifier.
 * **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial after being informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by a written, signed and dated informed consent form.
+  
 ## L
+* **Licence:** official permission to use something, i.e. "promise not to sue" based on existing rights.
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
 
 ## M
