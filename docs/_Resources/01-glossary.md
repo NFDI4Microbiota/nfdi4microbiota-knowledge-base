@@ -40,9 +40,8 @@ redirect_from: /Resources
 * **git-annex:** distributed file synchronisation system that allows large files to be managed using git without storing the file contents in git.
 
 ## I
-* **Identifiable natural person:**  person who can directly or indirectly be identified with the help of an (online) identifier.
-* **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by means of a written, signed and dated informed consent form.
-
+* **Identifiable natural person:**  person who can be directly or indirectly identified using an (online) identifier.
+* **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial after being informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by a written, signed and dated informed consent form.
 ## L
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
 
