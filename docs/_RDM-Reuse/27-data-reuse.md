@@ -46,6 +46,10 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 # Relevant licenses and terms of use
 See @@@ changed URL [Licenses]({{ site.baseurl }}{% link _RDM-Share/26-licenses.md %}).
 
+{{ site.baseurl }}
+
+{% link _RDM-Share/26-licenses.md %}
+
 # Criteria for selection trustworthy datasets
 
 Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022 sielemann_2020 %}. As in Sielemann *et al.* 2020 {% cite sielemann_2020 %}, for each possible criterion, several questions to consider are listed.
