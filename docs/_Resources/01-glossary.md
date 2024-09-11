@@ -7,7 +7,8 @@ redirect_from: /Resources
 ---
 
 ## A
-* **Archive:** organization, place or collection that stores information for long-tern preservation such that it can be accessed and reused by a designated community.
+* **Archive:** an organisation, place or collection that stores information for long-term preservation so that it can be accessed and reused by a designated community.
+* **Audit trail:** all previous versions of a note are saved and changes are logged.
 
 ## B
 * **Backup:** practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage.
