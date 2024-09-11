@@ -30,7 +30,7 @@ DMPs usually ask for “long-term archiving” or “long-term preservation”, 
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories).
 
-# Templates and examples
+# DMP templates and examples
 * Templates
     * [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
     * Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
