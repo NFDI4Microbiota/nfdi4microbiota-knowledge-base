@@ -11,7 +11,7 @@ redirect_from: /Resources
 * **Audit trail:** all previous versions of a note are saved and changes are logged.
 
 ## B
-* **Backup:** practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage.
+* **Backup:** practice of keeping extra copies of your research data in a separate physical or cloud location from your storage files.
 
 ## C
 * **Code-based data processing & analysis:** giving instructions to a computer to convert raw data to machine-readable form and subsequently reusing them in order to discover useful information, inform conclusions and support decision-making.
