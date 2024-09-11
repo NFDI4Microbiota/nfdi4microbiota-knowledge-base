@@ -11,19 +11,17 @@ A Data Management Plan (DMP) is a formal and living document that defines respon
 DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and in [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). For funders, DMPs serve as a reporting tool to hold grantees accountable for conducting good and open science, with regular updates or in case of changes. For researchers and other stakeholders, DMPs are meant to be a living document that accompanies them from proposal writing or project start to the sharing of their data and results.
 
 # Content of DMPs
-DMPs usually contain the following information:
+DMPs typically include the following information:
 * Administrative project-specific information (including a description of the research project)
 * Roles, responsibilities and obligations
 * Budget, costs and resources
-* Description of the data to be collected and shared (including types, organisation, quality and usage)
+* Description of the data to be collected and shared (including types, organisation, quality and use)
 * Data documentation and standards
-* Data access and publishing (including referenceability and data citation)
-* Data security
-* Data storage during and after the project
-* Data backup and digital preservation
+* Data access and publishing (including referencing and data citation)
+* Data security, storage (during and after the project), backup and digital preservation
 * Further points: ethical and legal aspects (e.g. anonymisation), data deletion
 
-**Digital Preservation in DMPs:** DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
+**Digital preservation in DMPs:** DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into one of two categories:
 1. a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
 2. a repository that is widely used and supported by the international research community
 
@@ -74,7 +72,7 @@ Even though, it is generally possible to formulate a DMP in an office document, 
 * [Data Management Plan — the Turing Way - Data Management Plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
 * [DMP course for librarians]([https://librarycarpentry.org/lc-dmp101/dmp.html))
 * OpenAIRE - [How to create a Data Management Plan](https://www.openaire.eu/how-to-create-a-data-management-plan)
-* Research data management and Data Management Plans](https://doi.org/10.5281/zenodo.4587426)
+* [Research data management and Data Management Plans](https://doi.org/10.5281/zenodo.4587426)
 * [Research Data Management Workflows and maDMPs (Version 1.0.0)](https://doi.org/10.5281/zenodo.3944468)
 * Research Data Netherlands - [The what, why and how of data management planning](https://www.youtube.com/watch?v=gYDb-GP1CA4)
 * RDMkit - [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan)
