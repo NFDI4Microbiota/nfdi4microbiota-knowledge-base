@@ -19,17 +19,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Get list of changed files
-        id: changed_files
-        run: |
-          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
-            # First commit or commit from a different branch, check the latest commit only
-            git diff --name-only HEAD > changed_files.txt
-          else
-            # Normal case, check differences between commits
-            git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
-          fi
-
       - name: Check for uppercase filenames
         run: |
           error=0
@@ -39,7 +28,7 @@ jobs:
               echo "Error: The file '$basename' contains uppercase letters (this results in crashes with 'View on Github' button)."
               error=1
             fi
-          done < changed_files.txt
+          done < <(find . -type f)
           if [ "$error" -eq 1 ]; then
             exit 1
           else
