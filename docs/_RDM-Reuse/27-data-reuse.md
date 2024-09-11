@@ -44,7 +44,7 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 {: .table .table-hover}
 
 # Relevant licenses and terms of use
-See [Licenses]({{ site.baseurl }}{% link 26-licenses.md %})(.
+See @@@ changed URL [Licenses]({{ site.baseurl }}{% link 26-licenses.md %}).
 
 # Criteria for selection trustworthy datasets
 
