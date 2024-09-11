@@ -44,7 +44,7 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 {: .table .table-hover}
 
 # Relevant licenses and terms of use
-See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/26-licenses).
+See [Licenses](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Share/26-licenses).
 
 # Criteria for selection trustworthy datasets
 
@@ -112,7 +112,7 @@ Below is a list of criteria for selecting trustworthy datasets {% cite bres_2022
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
 ### Services where data can be published
-* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories) repositories**
+* **Interdisciplinary and [discipline-specific](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Share/22-data-repositories#well-established-repositories-for-data-deposition-in-microbiology) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
