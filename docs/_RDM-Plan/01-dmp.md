@@ -60,12 +60,12 @@ DMPs offer **other benefits**, such as enabling verification and control: resear
 # DMP tools
 Although it is generally possible to formulate a DMP in a text document, the use of more dynamic and machine-readable formats finally unlocks its full potential.
 
-* **[Research Data Management Organiser](https://rdmorganiser.github.io/) (RDMO)** is an open-source web application that has been widely adopted by institutes and consortia in Germany. RDMO supports the structured and collaborative planning and implementation of RDM and also enables the textual output of a DMP. 
+* **[Research Data Management Organizer](https://rdmorganiser.github.io/) (RDMO)** is an open-source web application that has been widely adopted by institutes and consortia in Germany. RDMO supports the structured and collaborative planning and implementation of RDM and also enables the textual output of a DMP. 
 RDMO organizes individual DMPs around predefined templates that reflect the requirements of the respective institution, discipline, or funder. This ensures machine-actionable compatibility for administrative stakeholders and reusability for researchers in subsequent projects.
 
 * **[RDMO4Life](https://rdmo.publisso.de/)**  is the dedicated version of RDMO for all research organizations working in the life sciences. It provides the ability to customize questionnaires to meet subject/project-specific needs. If you would like advice on how to access/use RDMO4Life, please contact <forschungsdaten@zbmed.de>.
 
-* **[Data Stewardship Wizard](https://ds-wizard.org/) (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source dynamic web form system. It has been designed as an expert system and is intended for data stewards to assist researchers in creating machine-actionable DMPs. It offers user-friendly questionnaires and many different templates (it is also possible to create your own template). Training on DSW is organised by different ELIXIR nodes.
+* **[Data Stewardship Wizard](https://ds-wizard.org/) (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source dynamic web form system. It has been designed as an expert system and is intended for data stewards to assist researchers in creating machine-actionable DMPs. It offers user-friendly questionnaires and many different templates (it is also possible to create your own template). Training on DSW is organized by different ELIXIR nodes.
 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Centre](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
 
@@ -77,7 +77,7 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 * OpenAIRE - [How to create a Data Management Plan](https://www.openaire.eu/how-to-create-a-data-management-plan)
 * [Research data management and Data Management Plans](https://doi.org/10.5281/zenodo.4587426)
 * [Research Data Management Workflows and maDMPs (Version 1.0.0)](https://doi.org/10.5281/zenodo.3944468)
-* Research Data Netherlands - [The what, why and how of data management planning](https://www.youtube.com/watch?v=gYDb-GP1CA4)
+* Research Data Netherlands - [The what, why, and how of data management planning](https://www.youtube.com/watch?v=gYDb-GP1CA4)
 * RDMkit - [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan)
 * [Ten Simple Rules for Creating a Good Data Management Plan](https://doi.org/10.1371/journal.pcbi.1004525)
 * [What will it cost to manage and share my data?](https://doi.org/10.5281/zenodo.4548344)
