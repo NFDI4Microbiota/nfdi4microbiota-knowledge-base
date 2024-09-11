@@ -42,14 +42,11 @@ To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nf
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself.
 
-**Saving time and nerves**
-A DMP can save time and nerves for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
+**Saving time and nerves:** a DMP can save time and nerves for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
 
-**Harmonise the shared use of data**
-A DMP can also facilitate and harmonise the coordination and shared use of data by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss (some data, such as excavation data and textual annotations, are not reproducible) due to technical or human error. Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
+**Harmonise the shared use of data:**: a DMP can also facilitate and harmonise the coordination and shared use of data by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss (some data, such as excavation data and textual annotations, are not reproducible) due to technical or human error. Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
 
-**Further benefits**
-DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
+**Further benefits:** DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
 # Writing a DMP
 
@@ -78,12 +75,12 @@ Even though, it is generally possible to formulate a DMP in an office document, 
 
 # Further resources
 
-## Machine-actionable DMPs (maDMPs)
+**Machine-actionable DMPs (maDMPs)**
 * Data Stewardship Wizard (DSW) - [Machine-Actionability](https://ds-wizard.org/machine-actionability)
 * Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
 * Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)
 
-## Software Management (SM) Plans
+**Software Management (SM) Plans**
 * [SM Wizard](https://smw.ds-wizard.org/)
 * [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
 
