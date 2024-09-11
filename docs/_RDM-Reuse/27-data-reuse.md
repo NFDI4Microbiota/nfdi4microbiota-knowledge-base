@@ -44,7 +44,7 @@ Below are listed widely used resources in microbiology which facilitate the re-u
 {: .table .table-hover}
 
 # Relevant licenses and terms of use
-See @@@ changed URL [Licenses]({{ site.baseurl }}{% link _RDM-Share/26-licenses.md %}).
+See @@@ changed URL [Licenses]({% link _RDM-Share/26-licenses.md %}).
 
 {{ site.baseurl }}
 
