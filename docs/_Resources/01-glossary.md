@@ -14,8 +14,7 @@ redirect_from: /Resources
 * **Backup:** practice of keeping extra copies of your research data in a separate physical or cloud location from your storage files.
 
 ## C
-* **Code-based data processing & analysis:** giving instructions to a computer to convert raw data to machine-readable form and subsequently reusing them in order to discover useful information, inform conclusions and support decision-making.
-* **Controlled vocabulary:** providing a consistent way to describe data, where the terms consist of standardized and organized arrangements of words and phrases to describe domain-specific concepts. The terms are usually displayed in an alphabetical list of terms and can include subject headings, thesauri or glossaries, ontologies, and taxonomies.
+* **Controlled vocabulary:** a standardised and organised arrangement of words and phrases used to index and/or retrieve content through browsing and searching. A controlled vocabulary contains predefined, preferred and variant terms and is therefore used to describe a particular domain of knowledge (i.e. it has a defined scope). The use of a controlled vocabulary during the creation of data or metadata supports consistency and accuracy. The terms are usually presented in an alphabetical list of terms and include authority files, taxonomies, term lists and thesauri.
 * **Custom code & scripts:** text-based commands used via a command-line interface.
 
 ## D
