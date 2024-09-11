@@ -169,7 +169,6 @@ Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to app
 December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
 
-
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
 ### NFDI4Microbiota Community
@@ -184,6 +183,7 @@ Each member is responsible to update its data frequently. If a member leaves the
 so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud, etc (Detailed list in the Offboarding section). 
 All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview.
 
+
 ### NFDI4Microbiota Partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
 
@@ -194,10 +194,10 @@ Prof. Dr. Peer Bork	| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg
 Prof. Dr. Manja Marz |	[FSU Jena](https://www.uni-jena.de/en/), Jena |	TA1, 2, 3
 Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=43142), Leipzig	| TA1, 2, 3, 4
 Prof. Dr. Alice C. McHardy |	[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |	TA1, 2, 3, 4, 5
-Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/people/current_members/alexandergoesmann), Gießen |	TA1, 2, 3, 4, 5
+Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/), Gießen |	TA1, 2, 3, 4, 5
 Prof. Dr. Jörg Overmann |	[DSMZ](https://www.dsmz.de/), Braunschweig	| TA1, 2, 3, 4
-Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en), Marburg |	TA1, 2, 3, 4, 5
-Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1), Aachen |	TA1, 2, 3
+Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |	TA1, 2, 3, 4, 5
+Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |	TA1, 2, 3
 
 ### NFDI4Microbiota Participants and Supporting Societies
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
@@ -212,11 +212,9 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
 ### NFDI4Microbiota mailing lists
-For the communication with different groups inside and outside the consortium, the following mailing lists are available:
+For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
-
-Further internally used mailing lists are filed.
 
 ### Rocket Chat
 The Rocket Chat instance of NFDI e.V. is used for low-level communication within the different consortia, the sections, the task forces, and channels created
