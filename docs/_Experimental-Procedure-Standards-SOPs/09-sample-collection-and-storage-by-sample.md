@@ -70,5 +70,8 @@ Stool samples(in-house protocol provided by Pamela Ferretti) – samples were se
 
 Faeces/gut content (in-house protocol provided by Johannes Masson) – flash freeze in liquid nitrogen and store at -80°C (dissolve in Stool DNA Stabilizer (INVITEK Molecular) while thawing; or if you have more time dissolve in Stool DNA Stabilizer right after collection and normally freeze and store at -80°C) 
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
 ## References
 {% bibliography --cited_in_order %}
