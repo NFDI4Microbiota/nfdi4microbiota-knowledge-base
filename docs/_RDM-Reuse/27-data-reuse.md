@@ -38,7 +38,7 @@ Below are listed widely used resources in microbiology that facilitate the re-us
 | **Viruses, macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
 | **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
 |    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
-| **Viruses, -omics datasets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
+| **Viruses, -omics data sets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
 |  	| Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) 	| - | - |
 | **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
 {: .table .table-hover}
@@ -68,7 +68,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     
 * **Quality issues**
     * Is the quality high enough to reach your goals?
-    * Are there any scores/hints available to check the quality of the dataset?
+    * Are there any scores/hints available to check the quality of the data set?
     
 * **Copyright/Legal issues**
     * Are there any restrictions for the reuse and publication of the data, especially due to the [Nagoya protocol](https://www.cbd.int/abs/)?
@@ -90,10 +90,10 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
 
 ### Search engines
 
-* [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
+* [NCBI Data sets](https://www.ncbi.nlm.nih.gov/datasets/)
 * **Google**
-    * [Dataset Search](https://datasetsearch.research.google.com/)
-    * Keyword + "dataset"
+    * [Data set Search](https://datasetsearch.research.google.com/)
+    * Keyword + "data set"
 * **Library search engines**
     * Bielefeld Academic Search Engine ([BASE](https://www.base-search.net/))
     * [LIVIVO – The Search Portal for Life Sciences](https://www.livivo.de/app)
