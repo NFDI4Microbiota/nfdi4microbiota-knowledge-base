@@ -21,7 +21,7 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - The National Research Data Infrastructure (NFDI) aims to systematically index, edit, interconnect, and make available the valuable stock of data from science and research.
   Digital data storage is an indispensable prerequisite for treating new research issues, generating findings, and making innovations. Therefore, the NFDI association was founded in 2020.
   Further information can be found on their [website](https://www.nfdi.de/?lang=en).
-- NFDI provides a [starter guide (German)](https://nextcloud.nfdi4microbiota.de/f/103172) (internal link), where you can find information on all committees, etc.
+- NFDI provides a starter guide, where you can find information on all committees, etc. It is document is available for new members upon request.
 - Many documents addressing the NFDI e.V. and the proposals of most consortia are published on Zenodo.
 - The NFDI e.V. has [five sections]((https://www.nfdi.de/sections/?lang=en)) addressing cross-cutting topics of all consortia.
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
@@ -169,9 +169,6 @@ Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to app
 December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
 
-
-Download the actual annual timeline [here](https://nextcloud.nfdi4microbiota.de/f/105621) (internal link). 
-
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
 ### NFDI4Microbiota Community
@@ -181,11 +178,10 @@ For communication different contact and mailing lists exist. An overview of all 
 
 ### NFDI4Microbiota Consortium Members
 A member of the NFDI4Microbiota consortium is defined as a person who works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
-Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented [here](https://nextcloud.nfdi4microbiota.de/f/106080)
-) (internal link). 
-Each member is responsible to update its data frequently. If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
-so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud, etc (Detailed list in the Offboarding section). 
-All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview [here](https://nextcloud.nfdi4microbiota.de/f/106086) (internal link).
+The member partner institutions are documented on the [website](https://nfdi4microbiota.de/aboutus/partners.html). 
+If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
+so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud and so on.
+All are members of the mailing list members@nfdi4microbiota.de.
 
 ### NFDI4Microbiota Partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
@@ -197,14 +193,14 @@ Prof. Dr. Peer Bork	| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg
 Prof. Dr. Manja Marz |	[FSU Jena](https://www.uni-jena.de/en/), Jena |	TA1, 2, 3
 Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=43142), Leipzig	| TA1, 2, 3, 4
 Prof. Dr. Alice C. McHardy |	[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |	TA1, 2, 3, 4, 5
-Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/people/current_members/alexandergoesmann), Gießen |	TA1, 2, 3, 4, 5
+Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/), Gießen |	TA1, 2, 3, 4, 5
 Prof. Dr. Jörg Overmann |	[DSMZ](https://www.dsmz.de/), Braunschweig	| TA1, 2, 3, 4
-Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en), Marburg |	TA1, 2, 3, 4, 5
-Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1), Aachen |	TA1, 2, 3
+Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |	TA1, 2, 3, 4, 5
+Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |	TA1, 2, 3
 
 ### NFDI4Microbiota Participants and Supporting Societies
-Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
-found [here](https://nextcloud.nfdi4microbiota.de/f/106081) (internal link). All participants are members of the mailing list participants-at-nfdi4microbiota.de.
+Participants are participating institutions with contact person(s) for each institution. The list of all participants can be found on our [website](https://nfdi4microbiota.de/aboutus/participants.html). Supporting societies and their contact details are 
+found [there](https://nfdi4microbiota.de/aboutus/supporting-societies.html) as well. All participants are members of the mailing list participants@nfdi4microbiota.de.
 
 ### NFDI4Microbiota Ambassadors
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
@@ -215,11 +211,9 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
 ### NFDI4Microbiota mailing lists
-For the communication with different groups inside and outside the consortium, the following mailing lists are available:
+For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
-
-Further internally used mailing lists are filed [here](https://nextcloud.nfdi4microbiota.de/f/106084) (internal link).
 
 ### Rocket Chat
 The Rocket Chat instance of NFDI e.V. is used for low-level communication within the different consortia, the sections, the task forces, and channels created
