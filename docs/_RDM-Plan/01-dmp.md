@@ -21,7 +21,7 @@ DMPs usually contain the following information:
 * Data security
 * Data storage during and after the project
 * Data backup and digital preservation
-* Further points: ethical and legal aspects (e.g. anonymisation, data deletion)
+* Further points: ethical and legal aspects (e.g. anonymisation), data deletion
 
 ## Digital Preservation in DMPs
 DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
