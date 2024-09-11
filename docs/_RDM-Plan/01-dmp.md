@@ -40,11 +40,16 @@ To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nf
     * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
 
 # Benefits
-When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
+When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself.
 
-- **Transparency and reproducibility:** besides serving as a reporting tool for funders and governing institutions, a DMP can be handed to new collaborators of a project to convey a short description, experimental design, methodological spectrum, proposed hypotheses and general progress. This way, all stakeholders can quickly look up the state of data, find the responsible person for questions and document their own contribution.
-- **Resource management:** including a timeline of personal and lab resource availability can enable service facilities (e.g. sequencing or IT) to more accurately schedule their resources/capacity and project costs.
-- **Standardize processes:** DMPs can easily be adapted to similar projects by researchers in the same field/institute to reduce the effort for new proposals and resort to fixed entities (e.g. ethical board).
+## Saving time and nerves
+A DMP can save time and nerves for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
+
+## Harmonise the shared use of data
+A DMP can also facilitate and harmonise the coordination and shared use of data by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss (some data, such as excavation data and textual annotations, are not reproducible) due to technical or human error. Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
+
+## Further benefits
+DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for RDM activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
