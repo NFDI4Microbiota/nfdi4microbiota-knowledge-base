@@ -67,7 +67,7 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 
 * **[Data Stewardship Wizard](https://ds-wizard.org/) (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source dynamic web form system. It has been designed as an expert system and is intended for data stewards to assist researchers in creating machine-actionable DMPs. It offers user-friendly questionnaires and many different templates (it is also possible to create your own template). Training on DSW is organized by different ELIXIR nodes.
 
-* **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Centre](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
+* **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Center](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
 
 # Further resources
 * Cessda - [Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
