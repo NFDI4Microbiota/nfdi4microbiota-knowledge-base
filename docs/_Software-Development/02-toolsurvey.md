@@ -97,7 +97,7 @@ operating system: Linux
 
 license: unknown 
 
-link: [http://eggnog5.embl.de://eggnog5.embl.dend](and)
+link: [http://eggnog5.embl.de/#/app/home](http://eggnog5.embl.de/#/app/home)
 
 ### MediaDive (DSMZ) 
 
@@ -108,6 +108,46 @@ operating system: Linux, MacOS, Windows
 license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
 link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
+
+### HumanMetagenomeDB (UFZ)
+
+"Explore and download curated human metagenome metadata. HumanMetagenomeDB (version 1.0) contains metadata of 69,822 metagenome samples.
+
+operating system: Platform independent
+
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+
+link: [https://web.app.ufz.de/hmgdb/](https://web.app.ufz.de/hmgdb/)
+
+### MarineMetagenomeDB (UFZ)
+
+"Explore and download curated marine metagenome metadata. MarineMetagenomeDB (Release 1.0) contains standardized metadata of 11,449 marine metagenome samples.
+
+operating system: Platform independent
+
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+
+link: [https://web.app.ufz.de/marmdb/](https://web.app.ufz.de/marmdb/)
+
+### AnimalAssociatedMetagenomeDB (UFZ)
+
+"Explore and download curated animal-associated metagnome metadata. The AnimalAssociatedMetagenomeDB (version 1.0) contains 10,885 metagenome samples.
+
+operating system: Platform independent
+
+license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+
+link: [https://webapp.ufz.de/aamdb/](https://webapp.ufz.de/aamdb/)
+
+### TerrestrialMetagenomeDB (UFZ)
+
+"Explore and download curated terrestrial metagenome metadata. TerrestrialMetagenomeDB (release 1.0) includes 15,022 terrestrial metagenome samples.
+
+operating system: Platform independent
+
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+
+link: [https://webapp.ufz.de/tmdb](https://webapp.ufz.de/tmdb)
 
 ## Pipelines
 ### BioAutoML (UFZ) 
@@ -140,23 +180,13 @@ license: [Apache 2](https://opensource.org/license/apache-2-0/)
 
 link: [https://github.com/compomics/meta-proteome-analyzer](https://github.com/compomics/meta-proteome-analyzer)
 
-### MuDoGeR (UFZ) 
+### Multi-Domain Genome Recovery (MuDoGeR) (UFZ)
 
-The Multi-Domain Genome Recovery v1.0 (MuDoGeR v1.0) framework is a tool developed to help recover Metagenome-Assembled Genomes (MAGs) - from prokaryotes and eukaryotes - and Uncultivated Viral Genomes (UViGs) from whole-genome sequence (WGS) samples simultaneously.
+The Multi-Domain Genome Recovery v1.0.1 (MuDoGeR v1.0.1) framework is a tool developed to help recover Metagenome-Assembled Genomes (MAGs) - from prokaryotes and eukaryotes - and Uncultivated Viral Genomes (UViGs) from whole-genome sequence (WGS) samples simultaneously.
 
-The MuDoGeR v1.0 framework act as a wrapper of several tools.
+The MuDoGeR v1.0.1 framework act as a wrapper of several tools. Available as a singularity container of via conda installation.
 
 It was designed to be an easy-to-use tool that outputs ready-to-use comprehensive files.
-
-operating system: Linux
-
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
-
-link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
-
-### Multi-Domain Genome Recovery (MuDoGeR) (UFZ) 
-
-Recover eukaryotic, prokaryotic, and viral metagenome-assembled genomes from a single metagenomic sample
 
 operating system: Linux
 
@@ -192,7 +222,7 @@ By producing multiple taxonomic outputs, functional features and ecological anal
 
 operating system: Linux
 
-license: unsure 
+license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
 link: [http://protologger.de/](http://protologger.de/)
 
@@ -227,7 +257,7 @@ license: paid
 
 link: [https://itol.embl.de/](https://itol.embl.de/)
 
-### None (ZBMED) 
+### Help Desk (ZBMED) 
 
 Utility flask app for contact notification on the NFDI4Microbiota homepage
 
