@@ -28,13 +28,15 @@ DMPs typically include the following information:
 To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Share/22-data-repositories.html).
 
 # DMP templates and examples
-* Templates
-    * [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
-    * Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
-    * Portage Network's template for [molecular interactions](https://doi.org/10.5281/zenodo.4683647)
-* Omics-specific examples
-    * [DD-DeCaF Bioinformatics Services for Data-Driven Designof Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
-    * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
+
+**Templates**
+* [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
+* Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
+* Portage Network's template for [molecular interactions](https://doi.org/10.5281/zenodo.4683647)
+
+**Omics-specific examples**
+* [DD-DeCaF Bioinformatics Services for Data-Driven Designof Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
+* [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
 
 # Benefits of a DMP
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself.
