@@ -59,23 +59,26 @@ redirect_from: /Resources
 * **Open source:** software source code that is made publicly and freely available and can be redistributed and modified. 
 
 ## P
-* **Persistent Identifier (PID):** globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
-* **Personal data:** any information associated with an identified or identifiable natural person (i.e. ‘data subject’).
-* **Preregistration:** practice of documenting your research plan (i.e. research question and study design) before conducting a scientific investigation, and depositing that plan in a read-only public repository.
-* **PUBLISSO – Repository Finder:** ZB MED’s curated selection of repositories from re3data.
+* **Persistent Identifier (PID):** globally unique, actionable and machine-resolvable strings of (alpha)numeric characters that (1) act as a long-lasting reference to a digital object (e.g. a dataset) itself, (2) resolve to a central landing page, and (3) are maintained by trusted organisations.
+* **Personal data:** any information relating to an identified or identifiable natural person (i.e. 'data subject').
+* **Preregistration:** the practice of documenting your research plan (i.e. research question and study design) before conducting a scientific investigation, and depositing that plan in a read-only public repository.
+
+## Q
+* **Quality Control (QC):** the process of controlling the use of data for an application or a process.
 
 ## R
-* **RDMO4Life:** dedicated version of RDMO for all research institutions that work in the field of life sciences. Possibility of customizing questionnaires to subject/project specific needs.
-* **Research Data Management Organiser (RDMO):** open-source web application that supports the structured and collective planning and implementation of research data management and additionally enables the textual output of a data management plan.
+* **Research data:** the collection of digital and non-digital objects (excluding scientific publications) that are generated (e.g. through measurements, surveys, source work), studied and stored during or as a result of scientific research activities. These objects are commonly accepted in the scientific community as necessary for the production, validation and documentation of original research results. In the context of Research Data Management, research data also includes non-data objects such as software and simulations.
+* **Research data life cycle:** a model that illustrates the steps in research data management and describes how data should ideally flow through a research project to ensure successful data curation and preservation.
+* **Research Data Management (RDM):** the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term, and (3) make research results reproducible beyond the research project. It complements the research from planning to data reuse and deletion. 
 
 ## S
-* **Storage:** act of keeping your research data in a secure location that you can access readily.
+* **Storage:** the act of keeping your research data in a secure location that you can easily access.
 
 ## V
-* **Version Control Systems (VCSs):** software tools that help teams manage changes to file(s) over time. 
+* **Version Control Systems (VCSs):** software tools that help teams manage changes to files over time. 
 
 ## W
-* **Workflow management system (WMS):** software tool designed to help streamline routine processes for optimal efficiency.
+* **Workflow management system (WMS):** a software tool designed to help streamline routine processes for optimum efficiency. The aim of a WMS is to document processing steps.
 
 ## Further resources
 * [BIO514 - Systems medicine - Microbiome - Glossary](http://siobhonlegan.com/BIO514-microbiome/#glossary)

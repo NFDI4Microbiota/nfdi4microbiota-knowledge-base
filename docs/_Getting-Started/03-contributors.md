@@ -24,3 +24,4 @@ The following list contains the names of the contributors in alphabetical order.
 * Smirnova, Ekaterina
 * Vandendorpe, Justine (ORCID ID: [0000-0002-9421-8582](https://orcid.org/0000-0002-9421-8582), Wikidata: [Q62930742](https://www.wikidata.org/wiki/Q62930742))
 * Vockenhuber, Michael (ORCID ID: [0009-0006-8111-1723](https://orcid.org/0009-0006-8111-1723))
+* Lechner, Marcus (ORCID ID: [0000-0001-9098-4960](https://orcid.org/0000-0001-9098-4960)
