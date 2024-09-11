@@ -7,7 +7,10 @@ docs_css: markdown
 
 
 # Introduction
-Data Management Plans (DMPs) are required [in DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) as well as for [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers and other stakeholders, DMPs are meant as a living document that accompanies them from proposal writing or project start to the sharing of their data and findings.
+Data Management Plans (DMPs) are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) as well as for [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). DMPs act as a reporting tool for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers and other stakeholders, DMPs are meant as a living document that accompanies them from proposal writing or project start to the sharing of their data and findings.
+
+# Introduction
+A Data Management Plan (DMP) is a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable and understandable after the project has ended {% cite lindstädt_2019 vandendorpe_2020 cozatl_2021 assmann_2022-03 %}.
 
 # Content of DMPs
 In a DMP, researchers usually describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible. DMPs usually contain the following information:
