@@ -6,7 +6,9 @@ docs_css: markdown
 ---
 
 # Introduction
-A Data Management Plan (DMP) is a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable and understandable after the project has ended {% cite lindstädt_2019 vandendorpe_2020 cozatl_2021 assmann_2022-03 %}. DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) as well as for [EU Funding Programme 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). DMPs act as a reporting tools for funders to hold grant recipients accountable to conduct good and open science with periodic updates or upon changes. For researchers and other stakeholders, DMPs are meant as a living document that accompanies them from proposal writing or project start to the sahring of their data and findings.
+A Data Management Plan (DMP) is a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable and understandable after the project has ended {% cite lindstädt_2019 vandendorpe_2020 cozatl_2021 assmann_2022-03 %}. 
+
+DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and in [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). For funders, DMPs serve as a reporting tool to hold grantees accountable for conducting good and open science, with regular updates or in case of changes. For researchers and other stakeholders, DMPs are meant to be a living document that accompanies them from proposal writing or project start to the sharing of their data and results.
 
 # Content of DMPs
 DMPs usually contain the following information:
@@ -22,12 +24,11 @@ DMPs usually contain the following information:
 * Further points: ethical and legal aspects (e.g. anonymisation, data deletion)
 
 ## Digital Preservation in DMPs
-Data Management Plans usually ask for “long-term archiving” or “long-term preservation” of research data, “data preservation”, “long-term data accessibility” or sometimes “data sharing”. Exact terminology varies according to the different funders and their DMP templates and research data guidelines.
-For long-term archiving, preservation and accessibility/sharing, publication of research data in a Trusted Digital Repository (TDR) / trustworthy repository is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDR fall usually into two categories:
-* a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
-* a repository that is commonly used and endorsed by the international research communities
+DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
+1. a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
+2. a repository that is widely used and supported by the international research community
 
-For finding a TDR, check the [Data Repository page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories).
+To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories).
 
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
