@@ -36,7 +36,7 @@ Unfortunately, the major drawback to the wide use of ELNs in all areas of resear
 ELNs increase the efficiency of everyday tasks by providing time-saving features and functions such as search and filtering {% cite vandendorpe_nd %}. ELNs also take advantage of standardisation {% cite rathmann_2021 %}: they have the ability to create templates such as protocols, Standard Operating Procedures (SOPs) and workflows. This facilitates data documentation with metadata {% cite vandendorpe_nd %} and supports clarity and organisation of data and protocols {% cite n4m_wc_elns_2023 %}. ELNs also provide ubiquitous access {% cite vandendorpe_nd %}: protocols, observations, notes and other data can be entered using a computer or mobile device {% cite lma_rdmwg %}.
 
 ## Connection to a digital research environment
-ELNs are linked to a digital research environment {% cite vandendorpe_nd %}, for example through their import and export capabilities {% cite bobrov_2021 %}. ELNs can also provide seamless interfaces to other programmes, such as Application Programming Interfaces (APIs) {% cite bobrov_2021 %}. This networked aspect of ELNs enables them to play a central role in an institution's [Research Data Management](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/02-rdm) (RDM) strategy. Indeed, ELNs can be linked and contribute to almost each step of the research data lifecycle:
+ELNs are linked to a digital research environment {% cite vandendorpe_nd %}, for example through their import and export capabilities {% cite bobrov_2021 %}. ELNs can also provide seamless interfaces to other programmes, such as Application Programming Interfaces (APIs) {% cite bobrov_2021 %}. This networked aspect of ELNs enables them to play a central role in an institution's [Research Data Management (RDM)]({% link _Research-Data-Management/02-rdm.md %}) strategy. Indeed, ELNs can be linked and contribute to almost each step of the research data lifecycle:
 
 * **Data collection:** ELNs can automatically record results from measuring instruments {% cite rathmann_2021 vandendorpe_2020 %} and retrieve data from databases for actively used data {% cite assmann_2022 Krause_2016 %}.
 
@@ -50,7 +50,7 @@ ELNs also facilitate publishing by providing a means to prepare research data fo
 * **Data discovery and reuse:** ELNs can prove provenance {% cite lma_rdmwg %}.
 
 ## Complying to the FAIR Data Principles
-ELNs support the [FAIR Data Principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair) {% cite lma_rdmwg %}:
+ELNs support the [FAIR Data Principles]({% link _Research-Data-Management/04-fair.md %}) {% cite lma_rdmwg %}:
 
 * **Findability:** ELNs support findability by providing comprehensive search capabilities (e.g. database search, full-text search, conditional search), by supporting the assignment of metadata and tags (e.g. through extraction from documents), by assigning persistent identifiers such as the Digital Object Identifier (DOI) and by linking to data repositories and digital preservation systems {% cite bobrov_2021 %}.
 
