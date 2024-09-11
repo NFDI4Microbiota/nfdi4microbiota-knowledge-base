@@ -11,41 +11,41 @@ A Data Management Plan (DMP) is a formal and living document that defines respon
 DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and in [EU Funding Programmes 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). For funders, DMPs serve as a reporting tool to hold grantees accountable for conducting good and open science, with regular updates or in case of changes. For researchers and other stakeholders, DMPs are meant to be a living document that accompanies them from proposal writing or project start to the sharing of their data and results.
 
 # Content of DMPs
-DMPs usually contain the following information:
+DMPs typically include the following information:
 * Administrative project-specific information (including a description of the research project)
 * Roles, responsibilities and obligations
 * Budget, costs and resources
-* Description of the data to be collected and shared (including types, organisation, quality and usage)
+* Description of the data to be collected and shared (including types, organisation, quality and use)
 * Data documentation and standards
-* Data access and publishing (including referenceability and data citation)
-* Data security
-* Data storage during and after the project
-* Data backup and digital preservation
+* Data access and publishing (including referencing and data citation)
+* Data security, storage (during and after the project), backup and digital preservation
 * Further points: ethical and legal aspects (e.g. anonymisation), data deletion
 
-**Digital Preservation in DMPs:** DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
+**Digital preservation in DMPs:** DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into one of two categories:
 1. a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
 2. a repository that is widely used and supported by the international research community
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Share/22-data-repositories.html).
 
 # DMP templates and examples
-* Templates
-    * [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
-    * Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
-    * Portage Network's template for [molecular interactions](https://doi.org/10.5281/zenodo.4683647)
-* Omics-specific examples
-    * [DD-DeCaF Bioinformatics Services for Data-Driven Designof Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
-    * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
+
+**Templates**
+* [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
+* Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
+* Portage Network's template for [molecular interactions](https://doi.org/10.5281/zenodo.4683647)
+
+**Omics-specific examples**
+* [DD-DeCaF Bioinformatics Services for Data-Driven Designof Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
+* [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
 
 # Benefits of a DMP
-When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself.
+If implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) in a research project, despite the initial cost of creating the DMP itself.
 
-**Saving time and nerves:** a DMP can save time and nerves for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
+A DMP can **save time and nerves** for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
 
-**Harmonise the shared use of data:**: a DMP can also facilitate and harmonise the coordination and shared use of data by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss (some data, such as excavation data and textual annotations, are not reproducible) due to technical or human error. Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
+A DMP can also facilitate and **harmonise the coordination and shared use of data** by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss due to technical or human error (some data, such as excavation data and textual annotations, are not reproducible). Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
 
-**Further benefits:** DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
+DMPs offer **other benefits**, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
 # Writing a DMP
 
@@ -69,11 +69,21 @@ Even though, it is generally possible to formulate a DMP in an office document, 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Centre](https://www.dcc.ac.uk/) (DCC) for the UK funding context, but also in use elsewhere. It is an open-source web-based tool meant for researchers. It allows the creation, reviewing and sharing of DMPs that meet institutional and funder requirements.
 
 # Further resources
+* Cessda - [Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
+* [Content of a Data Management Plan](https://doi.org/10.18154/RWTH-2019-10064)
+* [Data Management Plan — the Turing Way - Data Management Plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
+* [DMP course for librarians]([https://librarycarpentry.org/lc-dmp101/dmp.html))
+* OpenAIRE - [How to create a Data Management Plan](https://www.openaire.eu/how-to-create-a-data-management-plan)
+* [Research data management and Data Management Plans](https://doi.org/10.5281/zenodo.4587426)
+* [Research Data Management Workflows and maDMPs (Version 1.0.0)](https://doi.org/10.5281/zenodo.3944468)
+* Research Data Netherlands - [The what, why and how of data management planning](https://www.youtube.com/watch?v=gYDb-GP1CA4)
+* RDMkit - [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan)
+* [Ten Simple Rules for Creating a Good Data Management Plan](https://doi.org/10.1371/journal.pcbi.1004525)
+* [What will it cost to manage and share my data?](https://doi.org/10.5281/zenodo.4548344)
 
 **Machine-actionable DMPs (maDMPs)**
 * Data Stewardship Wizard (DSW) - [Machine-Actionability](https://ds-wizard.org/machine-actionability)
-* Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
-* Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)
+* [Ten principles for machine-actionable data management plans](https://doi.org/10.1371/journal.pcbi.1006750)
 
 **Software Management (SM) Plans**
 * [SM Wizard](https://smw.ds-wizard.org/)

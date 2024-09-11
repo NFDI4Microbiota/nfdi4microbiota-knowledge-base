@@ -14,34 +14,37 @@ redirect_from: /Resources
 * **Backup:** practice of keeping extra copies of your research data in a separate physical or cloud location from your storage files.
 
 ## C
-* **Code-based data processing & analysis:** giving instructions to a computer to convert raw data to machine-readable form and subsequently reusing them in order to discover useful information, inform conclusions and support decision-making.
-* **Controlled vocabulary:** providing a consistent way to describe data, where the terms consist of standardized and organized arrangements of words and phrases to describe domain-specific concepts. The terms are usually displayed in an alphabetical list of terms and can include subject headings, thesauri or glossaries, ontologies, and taxonomies.
+* **Controlled vocabulary:** a standardised and organised arrangement of words and phrases used to index and/or retrieve content through browsing and searching. A controlled vocabulary contains predefined, preferred and variant terms and is therefore used to describe a particular domain of knowledge (i.e. it has a defined scope). The use of a controlled vocabulary during the creation of data or metadata supports consistency and accuracy. The terms are usually presented in an alphabetical list of terms and include authority files, taxonomies, term lists and thesauri.
 * **Custom code & scripts:** text-based commands used via a command-line interface.
 
 ## D
-* **Data anonymization:** processing of personal data where direct and indirect personal identifiers are completely and irreversibly removed. 
+* **Data anonymization:** processing of personal data in which direct and indirect personal identifiers are completely and irreversibly removed. 
 * **Data interoperability:** ability of a dataset to work with other datasets or systems without special effort on the part of the user.
-* **Data Management Plan (DMP):** formal and living document to describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible.
-* **Data pseudonymization:** processing of personal data where the majority of identifying fields are replaced by pseudonyms (i.e. artificial identifiers). 
-* **Data repository:** location where digital (and physical) objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
-* **Digital preservation:** act of ensuring continued findability and access to digital material and maintaining it independently understandable and reusable by a designated community, and with evidence supporting its authenticity, for as long as necessary.
+* **Data Management Plan (DMP):** a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable and understandable after the project has ended.
+* **Data Protection Officer:** person who oversees the application of and compliance with regulations designed to protect important information from corruption, compromise or loss within an organisation
+* **Data pseudonymization:** processing of personal data where the majority of identifying fields are replaced by pseudonyms (i.e. artificial identifiers).
+* **Data repository:** a place where digital objects are stored and documented, and where these objects can be separately published and archived. Access to the data can be either open or restricted to a group of users.
+* **Data Steward:** an expert in the preparation and management of data, including data selection, storage, preservation, annotation, provenance and other metadata maintenance, and dissemination.
+* **Digital preservation:** the act of ensuring the continued findability and accessibility of digital material and keeping it independently understandable and reusable by a designated community, with evidence of its authenticity, for as long as necessary.
+* **Documentation:** one or more documents that accompany your data/code and describe the details of the data/code and how/why it was generated.
 * **Dublin Core:** domain-agnostic, basic, widely used metadata standard.
 
 ## E
-* **Electronic Lab Notebook (ELN):** software meant to document experiments and research data.
+* **Electronic Lab Notebook (ELN):** a software designed to document experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook, allowing input from a computer or mobile device. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures, and the ability to manage lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation, as it makes sense to document and manage digital data with a digital tool.
 
 ## F
-* **FAIR data principles:** domain-agnostic, basic, widely used metadata standard.
+* **FAIR data principles:** FAIR (Findable, Accessible, Interoperable, Reusable) is a term coined by the FORCE11 community in 2016 for sustainable research data management (RDM). The FAIR Data Principles are a concise and measurable set of principles that can be used as a guide for those wishing to improve the reusability of their data assets. The FAIR data principles promote professional management of research data and have been adopted by the European Commission and integrated into the Horizon Europe funding guidelines.
 
 ## G
-* **git-annex:** distributed file synchronization system allowing to manage large files with git, without storing the file contents in git.
-* **Good Scientific Practice (GSP):** principles, values and standards of behavior and practice that must be achieved and maintained in the delivery of work activities, the provision of care and personal conduct.
+* **General Data Protection Regulation (GDPR):** regulation “on the protection of natural persons with regard to the processing of personal data and on the free movement of such data”.
+* **git-annex:** distributed file synchronisation system that allows large files to be managed using git without storing the file contents in git.
 
 ## I
-* **Identifiable natural person:**  person who can directly or indirectly be identified with the help of an (online) identifier.
-* **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by means of a written, signed and dated informed consent form.
-
+* **Identifiable natural person:**  person who can be directly or indirectly identified using an (online) identifier.
+* **Informed consent:** process by which a subject voluntarily confirms their willingness to participate in a particular trial after being informed of all aspects of the trial that are relevant to the subject's decision to participate. Informed consent is documented by a written, signed and dated informed consent form.
+  
 ## L
+* **Licence:** official permission to use something, i.e. "promise not to sue" based on existing rights.
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
 
 ## M
