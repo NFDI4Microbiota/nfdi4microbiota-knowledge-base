@@ -69,22 +69,21 @@ Even though, it is generally possible to formulate a DMP in an office document, 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Centre](https://www.dcc.ac.uk/) (DCC) for the UK funding context, but also in use elsewhere. It is an open-source web-based tool meant for researchers. It allows the creation, reviewing and sharing of DMPs that meet institutional and funder requirements.
 
 # Further resources
-* Cessda. (n.d.). Data Management Expert Guide. [https://dmeg.cessda.eu/Data-Management-Expert-Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
-* Data Management Plan — the Turing Way. (n.d.). [https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
-* Di Donato, F. (2021, March 6). Research data management and Data Management Plans. Zenodo. [https://doi.org/10.5281/zenodo.4587426](https://doi.org/10.5281/zenodo.4587426)
-* DMP course for librarians: Data Management Plan (DMP) overview. (2024, April 1). [https://librarycarpentry.org/lc-dmp101/dmp.html](https://librarycarpentry.org/lc-dmp101/dmp.html)
-* Hausen, D. A., Schmitz, D., & Trautwein-Bruns, U. (2020). Content of a Data Management Plan. In Aachen (2020). RWTH Aachen University. [https://doi.org/10.18154/RWTH-2019-10064](https://doi.org/10.18154/RWTH-2019-10064)
-* Karimova, Y., Lopes, M., Soraia Ramos, Rb-Silva, R., Barbosa, S., Lomba, Â., & Potterbusch, M. (2020). Research Data Management Workflows and maDMPs (Version 1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.3944468](https://doi.org/10.5281/zenodo.3944468)
-* Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
-* O'Connor, R., Delipalta, A., & Jones, S. (2020). What will it cost to manage and share my data?. Zenodo. [https://doi.org/10.5281/zenodo.4548344](https://doi.org/10.5281/zenodo.4548344)
-* OpenAIRE. (2023, July 6). How to create a Data Management Plan. OpenAIRE. [https://www.openaire.eu/how-to-create-a-data-management-plan](https://www.openaire.eu/how-to-create-a-data-management-plan)
-* RDMKit. (n.d.). RDMkit. [https://rdmkit.elixir-europe.org/data_management_plan](https://rdmkit.elixir-europe.org/data_management_plan)
-* Research Data Netherlands. (2014, April 1). The what, why and how of data management planning [Video]. YouTube. [https://www.youtube.com/watch?v=gYDb-GP1CA4](https://www.youtube.com/watch?v=gYDb-GP1CA4)
-
+* Cessda - [Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
+* [Content of a Data Management Plan](https://doi.org/10.18154/RWTH-2019-10064)
+* [Data Management Plan — the Turing Way - Data Management Plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
+* [DMP course for librarians]([https://librarycarpentry.org/lc-dmp101/dmp.html))
+* OpenAIRE - [How to create a Data Management Plan](https://www.openaire.eu/how-to-create-a-data-management-plan)
+* Research data management and Data Management Plans](https://doi.org/10.5281/zenodo.4587426)
+* [Research Data Management Workflows and maDMPs (Version 1.0.0)](https://doi.org/10.5281/zenodo.3944468)
+* Research Data Netherlands - [The what, why and how of data management planning](https://www.youtube.com/watch?v=gYDb-GP1CA4)
+* RDMkit - [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan)
+* [Ten Simple Rules for Creating a Good Data Management Plan](https://doi.org/10.1371/journal.pcbi.1004525)
+* [What will it cost to manage and share my data?](https://doi.org/10.5281/zenodo.4548344)
 
 **Machine-actionable DMPs (maDMPs)**
 * Data Stewardship Wizard (DSW) - [Machine-Actionability](https://ds-wizard.org/machine-actionability)
-* Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)
+* [Ten principles for machine-actionable data management plans](https://doi.org/10.1371/journal.pcbi.1006750)
 
 **Software Management (SM) Plans**
 * [SM Wizard](https://smw.ds-wizard.org/)
