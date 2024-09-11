@@ -30,7 +30,7 @@ redirect_from: /Resources
 * **Dublin Core:** domain-agnostic, basic, widely used metadata standard.
 
 ## E
-* **Electronic Lab Notebook (ELN):** software meant to document experiments and research data.
+* **Electronic Lab Notebook (ELN):** a software designed to document experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook, allowing input from a computer or mobile device. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures, and the ability to manage lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation, as it makes sense to document and manage digital data with a digital tool.
 
 ## F
 * **FAIR data principles:** domain-agnostic, basic, widely used metadata standard.
