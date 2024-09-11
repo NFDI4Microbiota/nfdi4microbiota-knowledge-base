@@ -18,12 +18,15 @@ redirect_from: /Resources
 * **Custom code & scripts:** text-based commands used via a command-line interface.
 
 ## D
-* **Data anonymization:** processing of personal data where direct and indirect personal identifiers are completely and irreversibly removed. 
+* **Data anonymization:** processing of personal data in which direct and indirect personal identifiers are completely and irreversibly removed. 
 * **Data interoperability:** ability of a dataset to work with other datasets or systems without special effort on the part of the user.
-* **Data Management Plan (DMP):** formal and living document to describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible.
-* **Data pseudonymization:** processing of personal data where the majority of identifying fields are replaced by pseudonyms (i.e. artificial identifiers). 
-* **Data repository:** location where digital (and physical) objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
-* **Digital preservation:** act of ensuring continued findability and access to digital material and maintaining it independently understandable and reusable by a designated community, and with evidence supporting its authenticity, for as long as necessary.
+* **Data Management Plan (DMP):** a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable and understandable after the project has ended.
+* **Data Protection Officer:** person who oversees the application of and compliance with regulations designed to protect important information from corruption, compromise or loss within an organisation
+* **Data pseudonymization:** processing of personal data where the majority of identifying fields are replaced by pseudonyms (i.e. artificial identifiers).
+* **Data repository:** a place where digital objects are stored and documented, and where these objects can be separately published and archived. Access to the data can be either open or restricted to a group of users.
+* **Data Steward:** an expert in the preparation and management of data, including data selection, storage, preservation, annotation, provenance and other metadata maintenance, and dissemination.
+* **Digital preservation:** the act of ensuring the continued findability and accessibility of digital material and keeping it independently understandable and reusable by a designated community, with evidence of its authenticity, for as long as necessary.
+* **Documentation:** one or more documents that accompany your data/code and describe the details of the data/code and how/why it was generated.
 * **Dublin Core:** domain-agnostic, basic, widely used metadata standard.
 
 ## E
