@@ -36,8 +36,8 @@ redirect_from: /Resources
 * **FAIR data principles:** FAIR (Findable, Accessible, Interoperable, Reusable) is a term coined by the FORCE11 community in 2016 for sustainable research data management (RDM). The FAIR Data Principles are a concise and measurable set of principles that can be used as a guide for those wishing to improve the reusability of their data assets. The FAIR data principles promote professional management of research data and have been adopted by the European Commission and integrated into the Horizon Europe funding guidelines.
 
 ## G
-* **git-annex:** distributed file synchronization system allowing to manage large files with git, without storing the file contents in git.
-* **Good Scientific Practice (GSP):** principles, values and standards of behavior and practice that must be achieved and maintained in the delivery of work activities, the provision of care and personal conduct.
+* **General Data Protection Regulation (GDPR):** regulation “on the protection of natural persons with regard to the processing of personal data and on the free movement of such data”.
+* **git-annex:** distributed file synchronisation system that allows large files to be managed using git without storing the file contents in git.
 
 ## I
 * **Identifiable natural person:**  person who can directly or indirectly be identified with the help of an (online) identifier.
