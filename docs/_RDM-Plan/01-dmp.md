@@ -51,6 +51,20 @@ A DMP can also facilitate and harmonise the coordination and shared use of data 
 ## Further benefits
 DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for RDM activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
+# Writing a DMP
+
+## Who is involved in the creation of the DMP?
+Entities involved in the creation of a DMP are researchers, RDM staff (check your institution's [research data policy](https://www.forschungsdaten.org/index.php/Forschungsdaten-Policies) and ask for [local support](https://www.forschungsdaten.org/index.php/FDM-Kontakte)) and central infrastructure (e.g. computer centre, library).
+
+## When to set up a DMP?
+A DMP can be set up before the project starts or at the beginning of the project. Ensure that there are no inconsistencies with time and cost schedules.
+
+## Length & level of details
+The length of a DMP can vary from a few paragraphs to several pages (about 2 to 15 pages). It is better to be realistic; be as informative as possible and as detailed as necessary. At the beginning of the research project (e.g. when you have to submit your DMP together with the proposal), the DMP is quite short and provides basic information. As the project progresses, the DMP contains more and more information, the answers become more detailed and the functions of the DMP increase until it becomes a project management tool.
+
+## DMP quality check
+A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
+
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
 In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia.
@@ -62,26 +76,15 @@ This ensures machine-actionable compatibility for administrative stakeholders an
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
 # Further resources
-* **Example of a good DMP**: Molin, E. (2018). Behave Working Data-Management-Plan. Zenodo. [https://doi.org/10.5281/ZENODO.1243717](https://doi.org/10.5281/ZENODO.1243717)
-
-## DMP templates
-* **Biological & Environmental Sciences**
-    * German Federation for Biological Data (GFBio): [web page](https://dmp.gfbio.org/)
-    * DataPlant: [web page](https://nfdi4plants.de/dataplan/)
-
-* **Health Sciences**
-    * University of Minnesota (incl. School of Public Health): [web page](https://www.lib.umn.edu/services/data/dmp-examples)
-    * Clinical trials
-        * National Institutes of Health (NIH): [download](https://www.nidcr.nih.gov/sites/default/files/2018-03/clinical-data-management-plan-template_0.docx)
-        * PAPA-ARTiS: [download](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b6899b9b&appId=PPGMS)
-        * European Clinical Research Infrastructure Network (ECRIN): [pdf (p. 48)](https://ecrin.org/sites/default/files/Data%20centre%20certification/Standards%20v4%20201804.pdf)
 
 ## Machine-actionable DMPs (maDMPs)
+* Data Stewardship Wizard (DSW) - [Machine-Actionability](https://ds-wizard.org/machine-actionability)
 * Michener, W. K. (2015). Ten Simple Rules for Creating a Good Data Management Plan. In P. E. Bourne (Ed.), PLOS Computational Biology (Vol. 11, Issue 10, p. e1004525). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1004525](https://doi.org/10.1371/journal.pcbi.1004525)
 * Miksa, T., Simms, S., Mietchen, D., & Jones, S. (2019). Ten principles for machine-actionable data management plans. In F. Ouellette (Ed.), PLOS Computational Biology (Vol. 15, Issue 3, p. e1006750). Public Library of Science (PLoS). [https://doi.org/10.1371/journal.pcbi.1006750](https://doi.org/10.1371/journal.pcbi.1006750)
 
 ## Software Management (SM) Plans
 * [SM Wizard](https://smw.ds-wizard.org/)
+* [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
 
 # References
 {% bibliography --cited_in_order %}
