@@ -23,8 +23,7 @@ DMPs usually contain the following information:
 * Data backup and digital preservation
 * Further points: ethical and legal aspects (e.g. anonymisation), data deletion
 
-## Digital Preservation in DMPs
-DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
+**Digital Preservation in DMPs:** DMPs usually ask for “long-term archiving” or “long-term preservation”, “data preservation”, “long-term data accessibility” or sometimes “data sharing”  of research data. The exact terminology varies according to different funders and their DMP templates and research data policies. For long-term archiving, preservation and accessibility/sharing, the publication of research data in a Trusted Digital Repository (TDR) is recommended {% cite OpenAIRE_2024 england_2023_10125224 %}. TDRs typically fall into two categories:
 1. a repository that has a CoreTrustSeal, nestor seal (DIN 31644) or ISO 16363 certification
 2. a repository that is widely used and supported by the international research community
 
@@ -50,28 +49,24 @@ When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org
 
 # Writing a DMP
 
-**Who is involved in the creation of the DMP?**
-Entities involved in the creation of a DMP are researchers, RDM staff (check your institution's [research data policy](https://www.forschungsdaten.org/index.php/Forschungsdaten-Policies) and ask for [local support](https://www.forschungsdaten.org/index.php/FDM-Kontakte)) and central infrastructure (e.g. computer centre, library).
+**Who is involved in the creation of the DMP?** Entities involved in the creation of a DMP are researchers, RDM staff (check your institution's [research data policy](https://www.forschungsdaten.org/index.php/Forschungsdaten-Policies) and ask for [local support](https://www.forschungsdaten.org/index.php/FDM-Kontakte)) and central infrastructure (e.g. computer centre, library).
 
-**When to set up a DMP?**
-A DMP can be set up before the project starts or at the beginning of the project.
+**When to set up a DMP?** A DMP can be set up before the project starts or at the beginning of the project.
 
-**Length & level of details**
-The length of a DMP can vary from a few paragraphs to several pages (about 2 to 15 pages). It is better to be realistic; be as informative as possible and as detailed as necessary. At the beginning of the research project (e.g. when you have to submit your DMP together with the proposal), the DMP is quite short and provides basic information. As the project progresses, the DMP contains more and more information, the answers become more detailed and the functions of the DMP increase.
+**Length & level of details:** the length of a DMP can vary from a few paragraphs to several pages (about 2 to 15 pages). It is better to be realistic; be as informative as possible and as detailed as necessary. At the beginning of the research project (e.g. when you have to submit your DMP together with the proposal), the DMP is quite short and provides basic information. As the project progresses, the DMP contains more and more information, the answers become more detailed and the functions of the DMP increase.
 
-**DMP quality check**
-A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
+**DMP quality check:** a good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
 
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
 
-* **Research Data Management Organiser (RDMO):** In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia. This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders. RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder. This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects. These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
+* **Research Data Management Organiser (RDMO):** in Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia. This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders. RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder. This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects. These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
 
-* **RDMO4Life:** RDMO4Life is the dedicated version of RDMO for all research institutions that work in the field of life sciences. It offers the possibility of customizing questionnaires to subject/project specific needs. If you would like to get advice on accessing/using RDMO4Life, contact forschungsdaten@zbmed.de.
+* **RDMO4Life** is the dedicated version of RDMO for all research institutions that work in the field of life sciences. It offers the possibility of customizing questionnaires to subject/project specific needs. If you would like to get advice on accessing/using RDMO4Life, contact forschungsdaten@zbmed.de.
 
-* **Data Stewardship Wizard (DSW):** DSW was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source, dynamic web form system. It was designed as an expert system and is meant for data stewards who support scientists in the creation of machine-acitonable DMP. It offers user-friendly questionnaires and many different templates (the development of your own template is also possible). Training with DSW are organised by various ELIXIR nodes. 
+* **Data Stewardship Wizard (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source, dynamic web form system. It was designed as an expert system and is meant for data stewards who support scientists in the creation of machine-acitonable DMP. It offers user-friendly questionnaires and many different templates (the development of your own template is also possible). Training with DSW are organised by various ELIXIR nodes. 
 
-* **DMPonline:** DMPonline was developed by the Digital Curation Centre (DCC) for the UK funding context, but also in use elsewhere. It is an open-source web-based tool meant for researchers. It allows the creation, reviewing and sharing of DMPs that meet institutional and funder requirements.
+* **DMPonline** was developed by the Digital Curation Centre (DCC) for the UK funding context, but also in use elsewhere. It is an open-source web-based tool meant for researchers. It allows the creation, reviewing and sharing of DMPs that meet institutional and funder requirements.
 
 # Further resources
 
