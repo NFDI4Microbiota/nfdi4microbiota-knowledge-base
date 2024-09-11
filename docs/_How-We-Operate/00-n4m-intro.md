@@ -21,7 +21,7 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - The National Research Data Infrastructure (NFDI) aims to systematically index, edit, interconnect, and make available the valuable stock of data from science and research.
   Digital data storage is an indispensable prerequisite for treating new research issues, generating findings, and making innovations. Therefore, the NFDI association was founded in 2020.
   Further information can be found on their [website](https://www.nfdi.de/?lang=en).
-- NFDI provides a starter guide, where you can find information on all committees, etc. It is document is available for new members upon request.
+- NFDI provides a, where you can find information on all committees, etc.
 - Many documents addressing the NFDI e.V. and the proposals of most consortia are published on Zenodo.
 - The NFDI e.V. has [five sections]((https://www.nfdi.de/sections/?lang=en)) addressing cross-cutting topics of all consortia.
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
@@ -178,10 +178,11 @@ For communication different contact and mailing lists exist. An overview of all 
 
 ### NFDI4Microbiota Consortium Members
 A member of the NFDI4Microbiota consortium is defined as a person who works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
-The member partner institutions are documented on the [website](https://nfdi4microbiota.de/aboutus/partners.html). 
-If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
-so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud and so on.
-All are members of the mailing list members@nfdi4microbiota.de.
+Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented. 
+Each member is responsible to update its data frequently. If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
+so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud, etc (Detailed list in the Offboarding section). 
+All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview.
+
 
 ### NFDI4Microbiota Partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
@@ -199,8 +200,8 @@ Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |
 Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |	TA1, 2, 3
 
 ### NFDI4Microbiota Participants and Supporting Societies
-Participants are participating institutions with contact person(s) for each institution. The list of all participants can be found on our [website](https://nfdi4microbiota.de/aboutus/participants.html). Supporting societies and their contact details are 
-found [there](https://nfdi4microbiota.de/aboutus/supporting-societies.html) as well. All participants are members of the mailing list participants@nfdi4microbiota.de.
+Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
+found. All participants are members of the mailing list participants-at-nfdi4microbiota.de.
 
 ### NFDI4Microbiota Ambassadors
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
