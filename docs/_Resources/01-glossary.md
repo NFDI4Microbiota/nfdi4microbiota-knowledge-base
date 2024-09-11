@@ -48,15 +48,15 @@ redirect_from: /Resources
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
 
 ## M
-* **Metadata:** data about data.
+* **Metadata:** data about data. It is a standardised description of the data in a formal, human- and machine-readable structure. Metadata is considered a subset of documentation as it describes, explains, locates, or otherwise facilitates the retrieval, use, or management of a resource such as a dataset.
 
 ## N
 * **Narrative description:** detailed, written description of computational analyses.
 
 ## O
 * **Ontology:** a list of terms with curated textual definitions with persistent identifiers. The terms are arranged hierarchically from general to more specific and have defined relationships to other terms within the ontology and to external resources (e.g., synonyms, cross-references).
-* **Open Science:** make publicly funded research results (e.g. publications, research data, processes) publicly and freely accessible in digital formats under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.
-* **Open source software:** software with source code that anyone can inspect, modify, and enhance.
+* **Open Science:** make the results of publicly funded research (e.g. publications, research data, processes) publicly and freely available in digital formats under conditions that allow reuse, redistribution and reproduction of the research and its underlying data and methods.
+* **Open source:** software source code that is made publicly and freely available and can be redistributed and modified. 
 
 ## P
 * **Persistent Identifier (PID):** globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
