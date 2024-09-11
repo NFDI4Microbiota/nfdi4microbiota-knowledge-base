@@ -33,7 +33,7 @@ redirect_from: /Resources
 * **Electronic Lab Notebook (ELN):** a software designed to document experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook, allowing input from a computer or mobile device. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures, and the ability to manage lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation, as it makes sense to document and manage digital data with a digital tool.
 
 ## F
-* **FAIR data principles:** domain-agnostic, basic, widely used metadata standard.
+* **FAIR data principles:** FAIR (Findable, Accessible, Interoperable, Reusable) is a term coined by the FORCE11 community in 2016 for sustainable research data management (RDM). The FAIR Data Principles are a concise and measurable set of principles that can be used as a guide for those wishing to improve the reusability of their data assets. The FAIR data principles promote professional management of research data and have been adopted by the European Commission and integrated into the Horizon Europe funding guidelines.
 
 ## G
 * **git-annex:** distributed file synchronization system allowing to manage large files with git, without storing the file contents in git.
