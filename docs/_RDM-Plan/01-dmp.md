@@ -14,17 +14,16 @@ A Data Management Plan (DMP) is a formal and living document that defines respon
 
 # Content of DMPs
 In a DMP, researchers usually describe the data, their generation and processing during the project, as well as how the data and research results will be archived afterwards to remain available, usable and comprehensible. DMPs usually contain the following information:
-* Responsibilities and obligations
-* Description of the research project
-* Costs and resources
-* Description of the research data: type, quality, organization and usage
-* Metadata and referenceability
-* Publication (access and reuse)
-* Data citation
-* Storage and security
-* Digital preservation
-* Legal aspects and anonymisation
-* Deletion
+* Administrative project-specific information (including a description of the research project)
+* Roles, responsibilities and obligations
+* Budget, costs and resources
+* Description of the data to be collected and shared (including types, organisation, quality and usage)
+* Data documentation and standards
+* Data access and publishing (including referenceability and data citation)
+* Data security
+* Data storage during and after the project
+* Data backup and digital preservation
+* Further points: ethical and legal aspects (e.g. anonymisation, data deletion)
 
 ## Digital Preservation in DMPs
 Data Management Plans usually ask for “long-term archiving” or “long-term preservation” of research data, “data preservation”, “long-term data accessibility” or sometimes “data sharing”. Exact terminology varies according to the different funders and their DMP templates and research data guidelines.
