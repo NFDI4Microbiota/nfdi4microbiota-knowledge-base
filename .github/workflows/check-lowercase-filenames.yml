@@ -1,0 +1,36 @@
+name: Check Lowercase Filenames
+# see issue #82
+# "So I changed all the filenames containing capital letters to lower case.
+# However, since the initial opening of this ticket, more files with upper case letter had been added. I renamed them too.
+# But this shows that we need a systematic solution to this, otherwise we will run into this problem again and again.
+# Could a check like this be done with GitHub Actions?"
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - main
+
+jobs:
+  check_lowercase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check for uppercase filenames
+        run: |
+          error=0
+          while IFS= read -r file; do
+            basename=$(basename "$file")
+            if [[ "$basename" =~ [A-Z] ]]; then
+              echo "Error: The file '$file' contains uppercase letters (this results in crashes with 'View on Github' button)."
+              error=1
+            fi
+          done < <(find . -type f -iname '*.md' | grep -E '^./docs/')
+          if [ "$error" -eq 1 ]; then
+            exit 1
+          else
+            echo "All basenames are lowercase."
+          fi
