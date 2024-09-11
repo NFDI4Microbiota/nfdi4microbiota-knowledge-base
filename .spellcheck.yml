@@ -4,6 +4,8 @@ matrix:
     lang: en
     d: en_US
   dictionary:
+    wordlists:
+    - .github/workflows/spellcheck.whitelist
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
