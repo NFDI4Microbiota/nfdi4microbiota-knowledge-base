@@ -169,6 +169,9 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 ## See Also
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
 ## References
 * Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)
 * Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). “You say potato, I say potato” - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. [https://doi.org/10.5281/ZENODO.3672773](https://doi.org/10.5281/ZENODO.3672773)
