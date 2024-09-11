@@ -6,6 +6,7 @@ matrix:
   dictionary:
     wordlists:
     - .github/workflows/spellcheck.whitelist
+    - .github/workflows/spellcheck.acronyms.whitelist
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
