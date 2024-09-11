@@ -18,9 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: DavidAnson/markdownlint-cli2-action@v15
+    - uses: DavidAnson/markdownlint-cli2-action@v17
       with:
       # Lint all markdown files in the repo
         globs: '**/*.md'
         # Automatically fix supported issues
         fix: true
+        rules: '~MD013'
