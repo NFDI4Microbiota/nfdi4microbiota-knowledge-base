@@ -28,7 +28,7 @@ jobs:
               echo "Error: The file '$file' contains uppercase letters (this results in crashes with 'View on Github' button)."
               error=1
             fi
-          done < <(find . -type f -iname '*.md' | grep -E '^docs/')
+          done < <(find . -type f -iname '*.md' | grep -E '^./docs/')
           if [ "$error" -eq 1 ]; then
             exit 1
           else
