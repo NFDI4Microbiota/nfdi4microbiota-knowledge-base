@@ -42,38 +42,39 @@ To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nf
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself.
 
-## Saving time and nerves
+**Saving time and nerves**
 A DMP can save time and nerves for yourself and others by planning ahead. DMPs define roles, responsibilities and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
 
-## Harmonise the shared use of data
+**Harmonise the shared use of data**
 A DMP can also facilitate and harmonise the coordination and shared use of data by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimisation and facilitating organisation and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss (some data, such as excavation data and textual annotations, are not reproducible) due to technical or human error. Finally, writing a DMP gives you a clear organisation of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
 
-## Further benefits
+**Further benefits**
 DMPs offer other benefits, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimise - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalise this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
 # Writing a DMP
 
-## Who is involved in the creation of the DMP?
+**Who is involved in the creation of the DMP?**
 Entities involved in the creation of a DMP are researchers, RDM staff (check your institution's [research data policy](https://www.forschungsdaten.org/index.php/Forschungsdaten-Policies) and ask for [local support](https://www.forschungsdaten.org/index.php/FDM-Kontakte)) and central infrastructure (e.g. computer centre, library).
 
-## When to set up a DMP?
+**When to set up a DMP?**
 A DMP can be set up before the project starts or at the beginning of the project.
 
-## Length & level of details
+**Length & level of details**
 The length of a DMP can vary from a few paragraphs to several pages (about 2 to 15 pages). It is better to be realistic; be as informative as possible and as detailed as necessary. At the beginning of the research project (e.g. when you have to submit your DMP together with the proposal), the DMP is quite short and provides basic information. As the project progresses, the DMP contains more and more information, the answers become more detailed and the functions of the DMP increase.
 
-## DMP quality check
+**DMP quality check**
 A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
 
 # DMP tools
 Even though, it is generally possible to formulate a DMP in an office document, the use of more dynamic and machine-readable formats finally enables the full anticipated potential.
-In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia.
-This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders.
 
-## DMP templates in RDMO
-RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder.
-This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects.
-These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
+* **Research Data Management Organiser (RDMO):** In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia. This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders. RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder. This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects. These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
+
+* **RDMO4Life:** RDMO4Life is the dedicated version of RDMO for all research institutions that work in the field of life sciences. It offers the possibility of customizing questionnaires to subject/project specific needs. If you would like to get advice on accessing/using RDMO4Life, contact forschungsdaten@zbmed.de.
+
+* **Data Stewardship Wizard (DSW):** DSW was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source, dynamic web form system. It was designed as an expert system and is meant for data stewards who support scientists in the creation of machine-acitonable DMP. It offers user-friendly questionnaires and many different templates (the development of your own template is also possible). Training with DSW are organised by various ELIXIR nodes. 
+
+* **DMPonline:** DMPonline was developed by the Digital Curation Centre (DCC) for the UK funding context, but also in use elsewhere. It is an open-source web-based tool meant for researchers. It allows the creation, reviewing and sharing of DMPs that meet institutional and funder requirements.
 
 # Further resources
 
