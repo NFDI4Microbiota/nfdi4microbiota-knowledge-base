@@ -24,4 +24,3 @@ jobs:
         globs: '**/*.md'
         # Automatically fix supported issues
         fix: true
-        rules: '~MD013'
