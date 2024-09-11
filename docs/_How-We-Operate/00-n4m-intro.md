@@ -21,7 +21,7 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - The National Research Data Infrastructure (NFDI) aims to systematically index, edit, interconnect, and make available the valuable stock of data from science and research.
   Digital data storage is an indispensable prerequisite for treating new research issues, generating findings, and making innovations. Therefore, the NFDI association was founded in 2020.
   Further information can be found on their [website](https://www.nfdi.de/?lang=en).
-- NFDI provides a [starter guide (German)](https://nextcloud.nfdi4microbiota.de/f/103172) (internal link), where you can find information on all committees, etc.
+- NFDI provides a, where you can find information on all committees, etc.
 - Many documents addressing the NFDI e.V. and the proposals of most consortia are published on Zenodo.
 - The NFDI e.V. has [five sections]((https://www.nfdi.de/sections/?lang=en)) addressing cross-cutting topics of all consortia.
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
@@ -170,8 +170,6 @@ December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
 
 
-Download the actual annual timeline [here](https://nextcloud.nfdi4microbiota.de/f/105621) (internal link). 
-
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
 ### NFDI4Microbiota Community
@@ -181,11 +179,10 @@ For communication different contact and mailing lists exist. An overview of all 
 
 ### NFDI4Microbiota Consortium Members
 A member of the NFDI4Microbiota consortium is defined as a person who works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
-Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented [here](https://nextcloud.nfdi4microbiota.de/f/106080)
-) (internal link). 
+Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented. 
 Each member is responsible to update its data frequently. If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
 so that he/she can be removed from all mailing lists, Open Project, Rocket Chat, Nextcloud, etc (Detailed list in the Offboarding section). 
-All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview [here](https://nextcloud.nfdi4microbiota.de/f/106086) (internal link).
+All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview.
 
 ### NFDI4Microbiota Partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
@@ -204,7 +201,7 @@ Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx
 
 ### NFDI4Microbiota Participants and Supporting Societies
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
-found [here](https://nextcloud.nfdi4microbiota.de/f/106081) (internal link). All participants are members of the mailing list participants-at-nfdi4microbiota.de.
+found. All participants are members of the mailing list participants-at-nfdi4microbiota.de.
 
 ### NFDI4Microbiota Ambassadors
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
@@ -219,7 +216,7 @@ For the communication with different groups inside and outside the consortium, t
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
 
-Further internally used mailing lists are filed [here](https://nextcloud.nfdi4microbiota.de/f/106084) (internal link).
+Further internally used mailing lists are filed.
 
 ### Rocket Chat
 The Rocket Chat instance of NFDI e.V. is used for low-level communication within the different consortia, the sections, the task forces, and channels created
