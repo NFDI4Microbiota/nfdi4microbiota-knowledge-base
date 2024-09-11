@@ -30,6 +30,15 @@ DMPs usually ask for “long-term archiving” or “long-term preservation”, 
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/22-data-repositories).
 
+# Templates and examples
+* Templates
+    * [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
+    * Portage Network's template for [advanced research computing](https://doi.org/10.5281/zenodo.4573539)
+    * Portage Network's template for [molecular interactions](https://doi.org/10.5281/zenodo.4683647)
+* Omics-specific examples
+    * [DD-DeCaF Bioinformatics Services for Data-Driven Designof Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
+    * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
+
 # Benefits
 When implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) of a research project despite the initial overhead of creating the DMP itself:
 
@@ -42,7 +51,7 @@ Even though, it is generally possible to formulate a DMP in an office document, 
 In Germany the [Research Data Management Organiser (RDMO)](https://rdmorganiser.github.io/) has gained widespread adoption among institutes and consortia.
 This web-tool is used to create institute-wide templates and organize DMPs in different versions and share them with all stakeholders.
 
-# DMP templates
+## DMP templates in RDMO
 RDMO organizes individual plans around predefined templates that reflect the requirements of the respective institution, discipline or funder.
 This ensures machine-actionable compatibility for administrative stakeholders and re-usability for researchers in following projects.
 These templates usually contain much more aspects that do not have to be answered right from the start of a project, but can be completed as the research progresses.
