@@ -20,7 +20,7 @@ As suggested by Sielemann *et al.* 2020 {% cite sielemann_2020 %}, there are als
 
 For researchers who publish their data, preparing data sets for reuse is time-consuming. 
 
-For researchers reusing data, there are risks such as unknown quality and denormalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating datasets from different sources {% cite sielemann_2020 %}.
+For researchers reusing data, there are risks such as unknown quality and normalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating data sets from different sources {% cite sielemann_2020 %}.
 
 ## Resources to facilitate data re-use in microbiology
 Below are listed widely used resources in microbiology that facilitate the re-use of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
@@ -35,7 +35,7 @@ Below are listed widely used resources in microbiology that facilitate the re-us
 |     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) 	| [re3data](https://www.re3data.org/repository/r3d100014100) 	|
 | **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) 	| - 	| - 	|
 |     | ([inphared](https://github.com/RyanCook94/inphared)) 	| -	| - |
-| **Viruses, Macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
+| **Viruses, macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
 | **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
 |    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
 | **Viruses, -omics datasets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
