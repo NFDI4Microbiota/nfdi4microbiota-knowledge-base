@@ -68,7 +68,7 @@ Testing pre-selected ELNs takes three to six months, depending on when sufficien
 eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Deltablot (France) {% cite cozatl_2021 %}. eLabFTW is a web-based application that runs on all major operating systems. It can be used in research and teaching (e.g. for laboratory exercises) {% cite cozatl_2021 %}. In addition to a search function {% cite rathmann_2021 %} and the ability to take notes, eLabFTW allows you to create experiments and collections of experiments {% cite cozatl_2021 %}, log work steps, document data and results {% cite rathmann_2021 %} with metadata, and create a database for a variety of objects (e.g. lab materials, lab equipment). It is also a good collaborative tool with which you can manage the lab {% cite cozatl_2021 %}. eLabFTW will also help you comply with GRP as it prevents data deletion and provides immutability through timestamps {% cite rathmann_2021 %}. Being open source, it is freely modifiable and highly customisable. It also benefits from community development, by scientists for scientists  {% cite cozatl_2021 %}. Its interface has been translated into 17 languages as of June 2024 {% cite Carpi:2021 %}. To see what it looks like, watch this [video tutorial]((https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K)) with eLabFTW and Labfolder from ZB MED on YouTube.
 
 # Resources
-* [ELN Material Collection]([ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/))
+* [ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/)
 
 * **Best practice examples** (see in {% cite Adam:2021 %})
     * ETH Zürich with openBIS
