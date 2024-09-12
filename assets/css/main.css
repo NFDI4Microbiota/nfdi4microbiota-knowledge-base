@@ -459,6 +459,6 @@ iframe.embed-responsive-item{
   text-align: left;
 }
 
-#TableOfContents .toc-h2 a {
-  font-size: 0.9em; /* Reduce the font size for h2 links */
+#TableOfContents .toc-h2 {
+  font-size: 0.6em; /* Reduce the font size for h2 links */
 }
