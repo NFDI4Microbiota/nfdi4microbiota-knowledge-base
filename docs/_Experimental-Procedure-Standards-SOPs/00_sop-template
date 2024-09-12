@@ -34,6 +34,7 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 
 # add references to the bib file add:
 Here are a few examples:
+
 @misc{fmt_media,
   title = {Media for freezing homogenised faecal samples for re-cultivation / FMT},
   author = {Treichel, Nicole},
@@ -42,6 +43,7 @@ Here are a few examples:
   urldate = {2024-09-12},
   year = {2022},
   month = {Nov}
+}
 
 @article{burz_2019,
   author = {Burz, S.D., Abraham, AL., Fonseca, F. et al.},
@@ -51,7 +53,8 @@ Here are a few examples:
   year = {2019},
   month = {06},
   volume = {9},
-  url = {https://doi.org/10.1038/s41598-019-45173-4},
+  url = {https://doi.org/10.1038/s41598-019-45173-4}
+}
    
 # Protocol
 
