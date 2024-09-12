@@ -9,8 +9,8 @@ Digital preservation means taking certain measures to ensure that digital materi
 
 # Digital preservation for researchers
 The sustainable handling of data by researchers naturally facilitates the long-term accessibility of data. Best practice methods are:
-* Cleaning data / data structures - see also: [Data Organisation](https://knowledgebase.nfdi4microbiota.de/Research-Data-Management/14-data-organization.html)
-* Validating data - see also: [Data Quality Control](https://knowledgebase.nfdi4microbiota.de/Research-Data-Management/13-data-qc.html)
+* Cleaning data / data structures - see also: [Data Organisation](https://knowledgebase.nfdi4microbiota.de/RDM-Process/14-data-organization.html)
+* Validating data - see also: [Data Quality Control](https://knowledgebase.nfdi4microbiota.de/RDM-Collect/13-data-qc.html)
 * Documenting data with metadata and context information to ensure reusability: commenting, adding descriptive, administrative and technical metadata, asigning user license.
 * Using well-known open file formats during the project phase - see below - or transfering data into reusable file formats (needs documenting: original file or derivative)
 * Storing data following the 3-2-1 rule:
@@ -68,6 +68,9 @@ Preservation of file content, being able to open and render it correctly in a so
 * Providing versioning of files and publications and possibility to rollback to earlier versions
   
 Many digital preservation criteria applying to repositories are also present in the certification criteria of the CoreTrustSeal and the nestor seal {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}.
+
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
 # References
 {% bibliography --cited_in_order %}
