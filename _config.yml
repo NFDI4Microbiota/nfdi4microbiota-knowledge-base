@@ -106,3 +106,6 @@ scholar:
 # So enforcing a author-year style
   style: frontiers
   source: ./docs/_bibliography
+  bibtex_filters:
+    - latex
+    - markdown
