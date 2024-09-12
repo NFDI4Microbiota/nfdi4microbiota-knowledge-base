@@ -5,8 +5,14 @@ layout: default
 docs_css: markdown
 ---
 
-# 5S methodology
+# Motivation
+
+## 5S methodology
 “5S” {% cite Wikipedia:5S %} is a workplace organisation method that uses a list of five Japanese words translated into English as: sort, set in order, shine, standardise and sustain. In the context of organising research data (see Glossary), 'sort' would refer to deleting unnecessary files. 'Set in order' would refer to developing and documenting naming conventions and folder structures. 'Shine' would refer to following conventions and developing routines. 'Standardise' would refer to documenting rules and responsibilities and developing best practices and standard operating procedures (SOPs). And 'sustain' would refer to regularly checking that rules are being followed and making improvements where necessary {% cite assmann_2022 %}.
+
+## Further resources
+* [The 5S Methodology in Research Data Management](https://doi.org/10.5281/zenodo.4494258)
+* [5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture)](https://youtu.be/73XzLsLrwMk)
 
 # File naming
 
@@ -72,6 +78,17 @@ Here are some examples of file names that need to be improved {% cite bres_2022 
 * [Total Commander](https://www.ghisler.com/deutsch.htm)
 * [WildRename](https://www.cylog.org/utilities/wildrename.jsp)
 
+## Further resources
+* [File naming examples](https://doi.org/10.3897/rio.6.e56508) (Table 1)
+* Information and steps for creating [naming conventions](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)
+* Information about [file naming](https://rdm.elixir-belgium.org/file_naming)
+* Information on [File Naming and Folder Hierarchy](https://libraries.mit.edu/data-management/store/organize/)
+* Information and examples for [microscopy data](https://www.adelaide.edu.au/microscopy/facilities-services/data-access#how-do-i-organise-my-microscopy-files)
+* [File Naming Convention Worksheet](https://doi.org/10.7907/894Q-ZR22)
+* [Worksheet for Naming and Organizing Files](https://www.dropbox.com/scl/fi/1zd63iszw33rh4hjcu1dl/Worksheet_fileOrg.docx?rlkey=q0t25t1wttp4qx2p1ne39qfhd&e=1&dl=0)
+* [Checklist for FIle Naming Conventions](https://osf.io/dpu45)
+* A detailed [documentation of a File Naming Convention](https://www.data.cam.ac.uk/files/gdl_tilsdocnaming_v1_20090612.pdf)
+
 # File versioning
 Versioning or version control is the practice of tracking and managing changes to a file or set of files over time so that you can later retrieve specific versions.
 
@@ -130,34 +147,22 @@ Make sure you don't have overlapping categories, as you shouldn't have copies of
 * Conference_reports
 * Administrative_information
 
-# Further resources
-* File naming and folder hierarchy: [MIT Libraries](https://libraries.mit.edu/data-management/store/organize/)
-* Naming and organizing your files and folder: [MIT Libraries Data Management Services 2020](https://www.dropbox.com/s/xx26a1onsu1qdpc/Worksheet_fileOrg.docx?dl=0)
-* README: File & Folder Schema: [MIT Libraries Data Management Services 2018](https://www.dropbox.com/s/ritd1mwzyaz2dh6/Sample_README_fileOrg.docx?dl=0)
+## Further resources
+* [Checklist Directory Form](https://osf.io/fp9j5)
+* [Worksheet for Naming and Organizing Files and Folders](https://www.dropbox.com/scl/fi/1zd63iszw33rh4hjcu1dl/Worksheet_fileOrg.docx?rlkey=q0t25t1wttp4qx2p1ne39qfhd&e=1&dl=0)
+* [Information on File Naming and Folder Hierarchy](https://libraries.mit.edu/data-management/store/organize/)
 
-## 5S methodology
-* The 5S Methodology in Research Data Management: [Lang *et al.* 2021](https://doi.org/10.5281/zenodo.4494258)
-* 5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture): [Research Data Management Thuringia (TKFDM)](https://youtu.be/73XzLsLrwMk)
+**Reusable folder structures**
+* [GIN-Tonic](https://gin-tonic.netlify.app/standard/)
+* [Basic Folder Structure](http://nikola.me/folder_structure.html)
+* [Folder Structure generator](https://www.tiesdekok.com/folder-structure-generator/)
+* [Template for research repositories](https://doi.org/10.5281/zenodo.4410128)
+* [Simple Open Data template](https://doi.org/10.5281/zenodo.4899847)
 
-## File naming
-* Batch file renaming tools: [Malinowski 2020](https://www.dropbox.com/s/rropbx4ewxlli09/Handout_BatchRenaming.pdf?dl=0)
-* Best practices: [Malinowski 2020](https://www.dropbox.com/s/ttv3boomxlfgiz5/Handout_fileNaming.pdf?dl=0)
-* Convetion worksheet: [Briney 2020](https://resolver.caltech.edu/CaltechAUTHORS:20200601-161923247)
-* File naming: [ELIXIR Belgium](https://rdm.elixir-belgium.org/file_naming)
-* File naming examples: [Briney *et al.* 2020](https://doi.org/10.3897/rio.6.e56508), Table 1.
-
-## Folder structure
-* Simple Open Data template: [de Plaa 2021](https://doi.org/10.5281/zenodo.4899847) 
-* Template for research repositories: [Colomb *et al.* 2020](https://doi.org/10.5281/zenodo.4410128)
-
-## Data organization in spreadsheets
-* Data Organization in Spreadsheets: [Broman & Woo 2017](https://doi.org/10.1080/00031305.2017.1375989)
-* Six tips for better spreadsheets: [Perkel 2022](https://doi.org/10.1038/d41586-022-02076-1)
-* Tidy data for librarians: [Library Carpentry](https://librarycarpentry.org/lc-spreadsheets/)
-
-## Tools
-* [FAIR4Health Data Curation Tool](https://github.com/fair4health/data-curation-tool)
-* G-Node Infrastructure ([GIN](https://gin.g-node.org/)) = Modern Research Data Management for Neuroscience
+# Tools
+* [Data Curation Tool](https://github.com/fair4health/data-curation-tool) (FAIR4Health)
+* [FAIRDOM](https://fair-dom.org/news/2021-11-30-covid-community-conference-fairdomhub.html): “Project space [...] used by the community to organize, share and publish data, documents, literature and computational models, as well as to list contributors”
+* G-Node Infrastructure ([GIN](https://gin.g-node.org/)) = Modern Research Data Management for Neuroscience (see Notes for more details)
 
 # References
 {% bibliography --cited_in_order %}
