@@ -22,30 +22,19 @@ For researchers who publish their data, preparing data sets for reuse is time-co
 
 For researchers reusing data, there are risks such as unknown quality and normalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating data sets from different sources {% cite sielemann_2020 %}.
 
-## Resources to facilitate data re-use in microbiology
-Below are listed widely used resources in microbiology that facilitate the re-use of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
+# Successful Cases of Data Reuse
 
-| Domain, Data Type	| Data repository 	| FAIRsharing 	| re3data 	| 
-|---	|---	|---	|---	|
-| **Viruses, Knowledge resources** 	| [ViralZone](https://viralzone.expasy.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.tppk10) 	| [re3data](https://www.re3data.org/repository/r3d100013314) 	|
-|     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) 	| - 	| - 	|
-| **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) 	| - 	| - 	|
-|     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) 	| - 	|
-| **Viruses, Sequence analysis platforms** 	| [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) 	| - 	|
-|     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) 	| [re3data](https://www.re3data.org/repository/r3d100014100) 	|
-| **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) 	| - 	| - 	|
-|     | ([inphared](https://github.com/RyanCook94/inphared)) 	| -	| - |
-| **Viruses, macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
-| **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
-|    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
-| **Viruses, -omics data sets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
-|  	| Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) 	| - | - |
-| **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
-{: .table .table-hover}
+## Case 1: FishBase {% cite pavone_2020 %}
+Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyology.bio.auth.gr/files/tsikliras/d/d3.pdf) have been combined into a digital catalogue of fish, known as [FishBase](https://www.fishbase.us/). The data in FishBase were processed using a new algorithm to create a [new dataset](https://thredds.d4science.org/thredds/catalog/public/netcdf/AquaMaps_08_2016/catalog.html). This new dataset was combined with other data to create [AquaMaps](https://www.aquamaps.org/), a tool for predicting the natural occurrence of marine species based on environmental parameters. This led to an increase in citations of FishBase (e.g. [Coro _et al._ 2018](https://doi.org/10.1016/j.ecolmodel.2018.01.007)) and a [report](https://europe.oceana.org/en/our-work/froese-report/overview) on EU fish stocks,the evidence for which was debated in the European Parliament in 2017. In addition, climate change predictions from AquaMaps and NASA were merged to create a [climate change timeline](https://dlnarratives.eu/timeline/climate.html). 
+
+## Case 2: TerrestrialMetagenomeDB
+[TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/) is a public repository of curated and standardised metadata for terrestrial metagenomes. 
+
+## Further cases in microbiology
+See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 
 # Relevant licenses and terms of use
 See [Licenses]({% link _RDM-Share/26-licenses.md %}).
-
 
 # Criteria for selection of trustworthy data sets
 
@@ -77,6 +66,16 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
 * **Further documentation**
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
+
+# Data Provenance
+The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
+* W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
+* W2: Which biological and chemical resources and which equipment was used in the study? [Resources and the equipment used in an experiment including all details such as the lot number and the passage information]
+* W3: How was a particular file created? [Sequence of activities that led to the creation of a particular file]
+* W4: When was an activity conducted? [Date and time point of a particular activity, its duration]
+* W5: Why was the experiment done? [Objective]
+* W6: Where was the experiment conducted? [Institution where the experiments was conducted]
+* W7: What was the order of the stimulation parameters in a particular experiment?
 
 # Data discovery
 
@@ -117,6 +116,27 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
+### Resources to facilitate data reuse in microbiology
+Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
+
+| Domain, Data Type	| Data repository 	| FAIRsharing 	| re3data 	| 
+|---	|---	|---	|---	|
+| **Viruses, Knowledge resources** 	| [ViralZone](https://viralzone.expasy.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.tppk10) 	| [re3data](https://www.re3data.org/repository/r3d100013314) 	|
+|     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) 	| - 	| - 	|
+| **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) 	| - 	| - 	|
+|     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) 	| - 	|
+| **Viruses, Sequence analysis platforms** 	| [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) 	| - 	|
+|     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) 	| [re3data](https://www.re3data.org/repository/r3d100014100) 	|
+| **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) 	| - 	| - 	|
+|     | ([inphared](https://github.com/RyanCook94/inphared)) 	| -	| - |
+| **Viruses, macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
+| **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
+|    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
+| **Viruses, -omics data sets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
+|  	| Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) 	| - | - |
+| **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
+{: .table .table-hover}
+
 ## Strategies to search for data
 
 The Consortium of European Social Science Data Archives (CESSDA) {% cite cessda_2017 %} has produced a list of steps in data discovery. The main ones are outlined below, and you can look at their [website](https://dmeg.cessda.eu/) for the sub-steps.
@@ -130,6 +150,8 @@ CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2
 1. Use appropriate words in appropriate fields
 2. Broaden your scope
 3. Narrow your scope
+
+Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp/osf/osf-tips-mar-1386252?e=38c1d6ec62) include citation chaining (i.e. the process of mining citations in relevant literature to find more sources), looking at previous reuse, and documenting your search strategy to avoid repetition in one repository while helping you to replicate the same strategies in other data. To properly document your search strategy, keep a record of the terms used, filters, other refinements, dates and repositories searched.
 
 # Data citation
 
