@@ -36,7 +36,7 @@ h.	Collect sample eluent and evaporate the samples to dryness in a SpeedVac conc
 7.	Sample are reconstituted in mobile phase (or 50% methanol) before analysis 
 
 # Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/). The [legaly non-binding English translation can be found here]({% link _Privacy-Policy-English-Translation/01-Privacy-Policy-English-Translation.md %}) )
 
 ## References
 {% bibliography --cited_in_order %}

@@ -37,7 +37,7 @@ docs_css: markdown
 * Soiland-Reyes, S., Sefton, P., Crosas, M., Castro, L. J., Coppens, F., Fernández, J. M., Garijo, D., Grüning, B., La Rosa, M., Leo, S., Ó Carragáin, E., Portier, M., Trisovic, A., RO-Crate Community, Groth, P., & Goble, C. (2022). Packaging research artefacts with RO-Crate. In S. Peroni (Ed.), Data Science (Vol. 5, Issue 2, pp. 97–138). IOS Press. [https://doi.org/10.3233/ds-210053](https://doi.org/10.3233/ds-210053)
 
 # Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/). The [legaly non-binding English translation can be found here]({% link _Privacy-Policy-English-Translation/01-Privacy-Policy-English-Translation.md %}) )
 
 ## References
 1. Cozatl R. *et al.* 2021-11. *Workshop on Research Data Management*. Martin Luther University of Halle-Wittenberg and ZB MED - Information Centre for Life Sciences. Google Slides.

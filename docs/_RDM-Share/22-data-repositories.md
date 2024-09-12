@@ -170,7 +170,7 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
 
 # Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/). The [legaly non-binding English translation can be found here]({% link _Privacy-Policy-English-Translation/01-Privacy-Policy-English-Translation.md %}) )
 
 ## References
 * Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)
