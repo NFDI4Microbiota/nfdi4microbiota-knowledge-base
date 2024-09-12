@@ -20,14 +20,14 @@ module Jekyll
           if $1 # LaTeX href pattern
             "[#{$2}](#{$1})"
             "<a href=\"#{$1}\">#{$2}</a>"
-          elsif match =~ /https?:\/\/(?:doi\.org|dx\.doi\.org)\/([-._;()\/:A-Z0-9]+)$/i
+          elsif match =~ /https?:\/\/(doi\.org|dx\.doi\.org)\/(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle full DOI URLs
-            doi_id = $1
-            "<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
+            doi_id = $2
+            "<a href=\"https://doi.org/#{doi_id}\">#{doi_id}</a>"
           elsif match =~ /.*(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
-            "Tjunge #{match} T<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
+            "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
           else
             # Handle general URLs
             #"test[#{match}](#{match})"
