@@ -5,7 +5,7 @@ require 'uri'
 # Updated URL_PATTERN to handle full DOI URLs and simple DOI patterns
 URL_PATTERN = Regexp.compile([
   '\\\\href\\\\{([^\\\\}]+)\\\\}\\\\{([^\\\\}]+)\\\\}',  # For LaTeX href patterns
-  URI.regexp(['http', 'https', 'ftp']),  # For general URLs
+  URI.regexp(['http', 'https']),  # For general URLs
   # DOI patterns to match "10." followed by a series of characters,
   # including full URLs like "https://doi.org/" or "http://dx.doi.org/"
   '(https?://(?:doi\.org|dx\.doi\.org)/[-._;()/:A-Z0-9]+|10\.[0-9]{4,9}/[-._;()/:A-Z0-9]+)'
@@ -26,11 +26,11 @@ module Jekyll
           elsif match =~ /^(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
-            "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
+            "mehr test<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
           else
             # Handle general URLs
-            "[#{$&}](#{$&})"
-            "<a href=\"#{$&}\">#{$&}</a>"
+            "test[#{$&}](#{$&})"
+            "extra<a href=\"#{$&}\">#{$&}</a>"
           end
         end
       end
