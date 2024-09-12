@@ -8,7 +8,7 @@ URL_PATTERN = Regexp.compile([
   URI.regexp(['http', 'https']),  # For general URLs
   # DOI patterns to match "10." followed by a series of characters,
   # including full URLs like "https://doi.org/" or "http://dx.doi.org/"
-  '((?:https?:\/\/(?:doi\.org|dx\.doi\.org)\/)10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
+  '(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
 ].join('|'), Regexp::IGNORECASE)
 
 module Jekyll
@@ -19,7 +19,7 @@ module Jekyll
           if $1 # LaTeX href pattern
             "[#{$2}](#{$1})"
             "<a href=\"#{$1}\">#{$2}</a>"
-          elsif match =~ /^https?:\/\/(?:doi\.org|dx\.doi\.org)\/([-._;()\/:A-Z0-9]+)$/i
+          elsif match =~ /https?:\/\/(?:doi\.org|dx\.doi\.org)\/([-._;()\/:A-Z0-9]+)$/i
             # Handle full DOI URLs
             doi_id = $1
             "<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
