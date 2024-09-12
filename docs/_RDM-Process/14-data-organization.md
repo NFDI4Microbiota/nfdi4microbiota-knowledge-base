@@ -4,26 +4,20 @@ category: RDM-Process
 layout: default
 docs_css: markdown
 ---
-## Introduction
-For data organization, we suggest to use the 5S methodology that uses a list of five words {% cite assmann_2022 %}:
-1. **Sort**: delete unnecessary files.
-2. **Set in order**: develop and document naming conventions and folder structures.
-3. **Shine**:
-    * Comply with conventions.
-    * Develop routines.
-4. **Standardize**:
-    * Document rules and responsibilities.
-    * Develop best practices and Standard Operating Procedures (SOPs).
-5. **Sustain**:
-    * Regularly check whether rules are followed.
-    * Implement improvements if necessary.
+
+## 5S methodology
+“5S” {% cite wiki:5S_(methodology) %} is a workplace organisation method that uses a list of five Japanese words translated into English as: sort, set in order, shine, standardise and sustain. In the context of organising research data (see Glossary), 'sort' would refer to deleting unnecessary files. 'Set in order' would refer to developing and documenting naming conventions and folder structures. 'Shine' would refer to following conventions and developing routines. 'Standardise' would refer to documenting rules and responsibilities and developing best practices and standard operating procedures (SOPs). And 'sustain' would refer to regularly checking that rules are being followed and making improvements where necessary {% cite assmann_2022 %}.
 
 ## File naming
-File names should ideally allow to establish a connection to a certain experiment or data collection {% cite bobrov_2021 %}. Within your research group, it is recommended {% cite bobrov_2021 bres_2022 %} to:
-1. **Choose** a file and folder naming convention.
-2. **Document** your convention, for instance in Standard Operating Procedures (SOPs).
-3. Make the documentation **available** to all research group members.
-4. Stay **consistent**.
+
+### File naming convention
+
+To maximise access to your data, stay organised and quickly identify your files, files and folders should be named in a meaningful and systematic way {% cite LMA_RDMWG:2024a rehwald_2022 %}. A file naming convention provides a framework for naming your files and/or folders in a way that describes what they contain and how they relate to other files. This framework will help you, your future self, and others in a shared or collaborative group file-sharing environment to navigate your work more easily {% cite LMA_RDMWG:2024a %}. 
+
+Thus, within your research group, we recommend {% cite biernacka:2020 bobrov_2021 bobrov_2021 bres_2022 %} that you:
+1. Adopt a naming convention for files and folders.
+2. Document your file and folder naming convention.
+3. Stay consistent: the naming convention should be chosen in advance to ensure that it can be systematically followed and contains the same information (such as date and time) in the same order (e.g. yyyy-mm-dd) {% cite biernacka:2020 %}.
 
 ### Recommendations for naming conventions
 If you need to choose a file and folder naming convention, it is recommended {% cite assmann_2022 bobrov_2021 bres_2022 %} to include the following:
