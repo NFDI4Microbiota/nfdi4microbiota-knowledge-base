@@ -18,19 +18,19 @@ module Jekyll
         value.to_s.gsub(URL_PATTERN) do |match|
           if $1 # LaTeX href pattern
             "[#{$2}](#{$1})"
-            "<a href=\"#{$1}\">#{$2}</a>"
+            "href<a href=\"#{$1}\">#{$2}</a>"
           elsif match =~ /^https?:\/\/(?:doi\.org|dx\.doi\.org)\/([-._;()\/:A-Z0-9]+)$/i
             # Handle full DOI URLs
             doi_id = $1
-            "<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
+            "httpdoi<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
           elsif match =~ /.*(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
-            "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
+            "doi<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
           else
             # Handle general URLs
             #"test[#{match}](#{match})"
-            "<a href=\"#{match}\">#{match}</a>"
+            "else<a href=\"#{match}\">#{match}</a>"
           end
         end
       end
