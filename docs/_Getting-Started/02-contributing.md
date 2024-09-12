@@ -80,6 +80,7 @@ When adding or editing files, please observe the following rules:
 5. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
 6. Place image files in the `assets/img/` directory
 7. Use internal links to markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
+8. Non-public links are be restricted to the how-we-operate section and whitelisted in `.github/workflows/ignored-urls.txt` manually
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
