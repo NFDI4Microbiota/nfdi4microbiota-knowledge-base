@@ -3,101 +3,114 @@ title: Electronic Lab Notebooks (ELNs)
 category: RDM-Collect
 layout: default
 docs_css: markdown
-hide: true
+hide: false
 ---
-# Definition of Electronic Lab Notebooks (ELNs)
-An Electronic Lab Notebook (ELN) is a software meant for documenting experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures and the ability to manage the lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation {% cite kwok_2018 lindstädt_2019 lma_rdmwg vandendorpe_nd vieten_2023 %}.
 
-# Uses of lab notebooks
+# Introduction
 
-## Physical lab notebooks
-As well as documenting your experiments, resulting research data and processes, a physical lab notebook is also intended to communicate your work (e.g. why experiments were initiated?). It also serves as a legal document to prove patents and defend your data against accusations of misconduct. Finally, it is your scientific legacy in the laboratory {% cite n4m_wc_elns_2023 %}.
+An Electronic Lab Notebook (ELN) is a software meant for documenting experiments, resulting research data and processes. In its most basic form, an ELN replicates an interface similar to a page in a physical lab notebook that allows input via computer or mobile device. More advanced forms often offer features such as protocol templates, collaboration tools, support for electronic signatures and the ability to manage the lab inventory. Ultimately, ELNs will replace physical lab notebooks as part of the digital transformation {% cite kwok_2018 lindstädt_2019 lma_rdmwg vandendorpe:2024 n4m_wc_elns_2023 vieten_2023 %} as it makes sense to document and handle digital data with a digital tool.
 
-## Additional uses of ELNs
-ELNs offer features and functions that can pave the way for significant time savings and knowledge transfer in daily laboratory work. For example, ELNs support the annotation of raw data (e.g. with tags or metadata {% cite vandendorpe_nd rathmann_2021 %} without having to switch between different media formats. Annotating data makes it searchable, discoverable, traceable and reusable {% cite vandendorpe_nd %}. ELNs also bring data and their description closer together through embedded multimedia files (e.g. videos of experimental setups), links to shared resources (e.g. chemical databases or analysis software), links to other experiments, and direct links to (raw) data sets and analysis workflows {% cite rehwald_2022 %}. ELNs also allow for the versioning of experiment descriptions {% cite rehwald_2022 %} and the structuring and visualisation of workflows and processes {% cite rathmann_2021 %}. ELNs also have the ability to manage inventories of samples, reagents and other supplies, and track equipment and equipment maintenance schedules {% cite lma_rdmwg %}. ELNs also provide for collaboration {% cite lma_rdmwg %} through a common medium {% cite rehwald_2022 %}. Last but not least, ELNs provide for auditing {% cite lma_rdmwg %}, security and safety. Indeed, ELNs are fireproof, waterproof and cannot be lost, misplaced or stolen. ELNs can also be automatically backed up. They allow timestamping (RFC 3161 using DFN-PKI) and finalisation to prevent further changes {% cite rehwald_2022 %}. They also support electronic signatures {% cite cozatl_2021 %} and require access management {% cite rehwald_2022 %}.
+# Additional uses of ELNs compared to physical lab notebooks
 
-## What ELNs should not be used for
-ELNs are not data publishing platforms and are not suitable for storing large files. Large files require special technology for secure storage (e.g. Object Store, Nextcloud), but can still be linked in the ELN {% cite rehwald_2022 %}.
+ELNs offer features and functions that can pave the way for significant time savings and knowledge transfer in daily laboratory work. For example, ELNs support the annotation of raw data (e.g. with tags or metadata {% cite rathmann_2021 vandendorpe:2024 %}) without having to switch between different media formats. Annotating data makes it searchable, discoverable, traceable and reusable {% cite vandendorpe:2024 %}. ELNs also bring data and their description closer together through embedded multimedia files (e.g. videos of experimental setups), links to shared resources (e.g. chemical databases or analysis software), links to other experiments, and direct links to (raw) data sets and analysis workflows {% cite rehwald_2022 %}. ELNs also allow for the versioning of experiment descriptions {% cite rehwald_2022 %} and the structuring and visualisation of workflows and processes {% cite rathmann_2021 %}. ELNs also have the ability to manage inventories of samples, reagents and other supplies, and track equipment and equipment maintenance schedules {% cite lma_rdmwg %}. ELNs also provide for collaboration {% cite lma_rdmwg %} through a common medium {% cite rehwald_2022 %}. Last but not least, ELNs provide for auditing {% cite lma_rdmwg %}, security and safety. Indeed, ELNs are fireproof, waterproof and cannot be lost, misplaced or stolen. ELNs can also be automatically backed up. They allow timestamping (RFC 3161 using DFN-PKI) and finalisation to prevent further changes {% cite rehwald_2022 %}. They also support electronic signatures {% cite cozatl_2021 %} and require access management {% cite rehwald_2022 %}.
 
-# Benefits and drawbacks
-## Pros & Cons of Physical Lab Notebooks
+# Benefits and drawbacks of ELNs
 
-Historically, documentation of experiments have been done in a physical, paper and pen notebook. For some researchers this is still a preferred method of documentation. It’s easy and inexpensive to use as it does not require computers nor internet access. However, with the technological advancement in data collection and processing there is a greater amount of data produced than ever before and with it there is a need for data to be digitized and managed electronically. 
+## Benefits
+* Boosting efficiency of everyday tasks
+* Connecting to a digital research environment and integration into your Research Data Management (RDM) strategy
+* Complying to the FAIR data principles
+* Contributing to Good Research Practice (GRP)
 
-Also with advances in communication and travel it is even easier to work collaboratively with researchers at different institutes around the world. This collaboration would be difficult or hindered if scans of physical lab notebooks would need to be shared. Of course, this also does not take into consideration the legibility of the experiment notes or the ability to make general sense of it.
+## Drawbacks
+ELNs still have some disadvantages compared to physical lab notebooks, as network interruptions can temporarily limit access to data {% cite kwok_2018 %}. In addition, they may lack chronological continuity, formatting flexibility, haptic perception and resistance to liquids (for end devices). Another major drawback appears to be data security risks, especially when used to collect and document sensitive data. The best solution to this is the use of private servers on site or private, institutionally based cloud services {% cite Guerrero2016 %}.
 
-These drawbacks outweigh the benefits of a physical laboratory notebook. Adoption of an ELN is one of the essential steps needed in making research data FAIR. The purpose of adherence to the FAIR principles is so that the data can continue to be reused, validated, and expanded by researchers in the future. The data life cycle starts with planning and goes through the production and analysis followed by storage and access and ideally ends with data re-use. 
+# Ergonomics
+Several tools and techniques can be used to overcome the difficulties of using a computer when conducting experiments: tablets in the lab, plug-ins (such as voice input and Optical Character Recognition (OCR) plug-ins), linking experiments to raw data files and results, automatic date and time stamping to prove provenance, and integrating ELNs with other research software to capture data and information {% cite lma_rdmwg %}.
 
-In order for data to be re-used it needs to meet the criteria of the FAIR principles. This is where the largest drawback of physical laboratory notebooks lies. Data in a physical notebook cannot be found, accessed, or reused by other researchers. Data in an ELN can be extracted, downloaded, shared, and stored in a FAIR capacity. This data can also be described with metadata which gives more context needed to make sense of the data and ensure it can be reused.
+# The role of ELNs in data security and protection
+Some ELNs can help you keep your data secure by meeting the trustworthiness criteria defined in [FDA 21 CFR Part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) (USA) and [EU Annex 11](https://www.gmp-compliance.org/guidelines/gmp-guideline/eu-gmp-annex-11-computerised-systems) (EU), including the provision of audit capabilities. ELNs can also provide two-factor authentication and unique credentials. Another way to address data security risks is to use of private servers on site or private, institutionally based cloud services {% cite Guerrero2016 %}. If you are setting up an ELN at your institution, you should also develop a data security plan {% cite lma_rdmwg %}. 
+If you intend to collect sensitive data (e.g. sensitive personal data, sensitive environmental data) with the ELN, you should involve your institution's data protection officer (i.e. the person who oversees the application of and compliance with regulations designed to protect important information from corruption, compromise or loss within an organisation {% cite data_protection_officer:2023 crocetti:2021 %}) in the implementation process to ensure compliance with your institution's data protection regulations and the General Data Protection Regulation (GDPR) (i.e. the regulation “on the protection of natural persons with regard to the processing of personal data and on the free movement of such data” {% cite EU:n.d. %}). These regulations may restrict the physical location and transfer of data, excluding the use of cloud-hosted ELNs {% cite kwok_2018 higgins_2022 %}. You can also contact your RDM support team or relevant initiatives (e.g. the National Research Data Infrastructure for Personal Health Data ([NFDI4Health](https://www.nfdi4health.de/en/))) to find out more about anonymisation and pseudonymisation services, as well as your organisation's existing policies and procedures for handling sensitive data and how an ELN might fit into this picture. Ideally, this should be done at the stage of writing your [Data Management Plan (DMP)]({% link _RDM-Plan/01-dmp.md %}). It is important to note that privacy issues are not addressed by the ELN itself, but rather by how you set it up and store your data {% cite vandendorpe:2024 %}. 
 
-Unfortunately, the major drawback to the wide use of ELNs in all areas of research appears to be data security risks, specifically when used in medical research. There is still an ongoing discussion on how to best securely manage patient research data in an ELN. However, according to Guerrero the best solutions involve using private servers on site or private institutionally based cloud services {% cite Guerrero2016 %}.
+# Selecting an ELN for your lab
 
-## Boosting efficiency of everyday tasks
-ELNs increase the efficiency of everyday tasks by providing time-saving features and functions such as search and filtering {% cite vandendorpe_nd %}. ELNs also take advantage of standardisation {% cite rathmann_2021 %}: they have the ability to create templates such as protocols, Standard Operating Procedures (SOPs) and workflows. This facilitates data documentation with metadata {% cite vandendorpe_nd %} and supports clarity and organisation of data and protocols {% cite n4m_wc_elns_2023 %}. ELNs also provide ubiquitous access {% cite vandendorpe_nd %}: protocols, observations, notes and other data can be entered using a computer or mobile device {% cite lma_rdmwg %}.
+To select an ELN, we recommend that you define selection criteria that reflect the needs of your institution and labs. You can then use these criteria in a matrix to compare them with the features offered by available ELNs {% cite vandendorpe:2024 %}, or enter these criteria into the [ELN Finder](https://eln-finder.ulb.tu-darmstadt.de/home). The ELN Finder is a tool developed together by the University and State Library Darmstadt and the ZB MED - Information Centre for Life Sciences. It is an interactive tool for filtering ELNs based on 40 filter criteria {% cite vandendorpe:2024 %}.
 
-## Connection to a digital research environment
-ELNs are linked to a digital research environment {% cite vandendorpe_nd %}, for example through their import and export capabilities {% cite bobrov_2021 %}. ELNs can also provide seamless interfaces to other programmes, such as Application Programming Interfaces (APIs) {% cite bobrov_2021 %}. This networked aspect of ELNs enables them to play a central role in an institution's [Research Data Management (RDM)]({% link _Research-Data-Management/02-rdm.md %}) strategy. Indeed, ELNs can be linked and contribute to almost each step of the research data lifecycle:
+## Important criteria
+* **Discipline**
+* **Proprietary *vs.* open-source**
+* **Software as a Service (SaaS) *vs.* on-premises**
+* **Performance and stability**
+* **ELN *vs.* LIMS:** ELNs are sometimes confused with Laboratory Information Management Systems (LIMS). They both streamline laboratory workflow and data management and are complementary, but they have different functionalities and features. A LIMS is a comprehensive software for managing and tracking laboratory operations and data. A LIMS covers sample management and tracking, workflow management and automation and quality control throughout the laboratory. On the other hand, an ELN focuses on experimental data acquisition, experiment documentation and (real-time) collaboration {% cite Integrated_software_solutions:2023 Halton:2024 %}.
 
-* **Data collection:** ELNs can automatically record results from measuring instruments {% cite rathmann_2021 vandendorpe_2020 %} and retrieve data from databases for actively used data {% cite assmann_2022 Krause_2016 %}.
+## Features for selecting an ELN based on the complexity of the system
 
-* **Data processing:** As we have seen, ELNs facilitate the documentation of data with metadata. They also allow data to be captured as early as possible and fed directly into an analysis pipeline {% cite vandendorpe_nd %}.
+### Basic systems
+Basic systems are tools used as ELNs that were not originally designed for this purpose {% cite Dirnagl:2016 %}. They allow traditional text entry, which can be searched and made available on multiple devices via the cloud. They also allow files (e.g. images, spreadsheets) to be attached to text and the attachments to be viewed, annotated and searched. Such systems include Word, Evernote and Dropbox. Basic systems have the advantage of being inexpensive, easily accessible and already familiar to many researchers. However, considerable effort is required to achieve the functionality of a traditional ELN with such a system {% cite vandendorpe_2020 bobrov_2021 %}. They typically do not include any kind of audit trail (i.e. saving all previous versions of a note and logging changes), certification {% cite Dirnagl:2016 %}, or the ability to digitally sign or timestamp entries, with workarounds such as signing exported files required {% cite higgins_2022 %}.
 
-* **Data sharing and publishing:** ELNs facilitate collaboration by allowing data already in digital form to be used directly in the ELN {% cite vandendorpe_nd %}. ELNs also make it easy to share information about the project, data and documentation with collaborators {% cite lma_rdmwg %}, for example via the cloud {% cite n4m_wc_elns_2023 %}. All this also facilitates collaboration with the institutional library, research data centre and IT centre {% cite vandendorpe_nd %}.
-ELNs also facilitate publishing by providing a means to prepare research data for publication {% cite vandendorpe_2020 %} and by integrating with other applications such as Mendeley, Dataverse and PubMed {% cite n4m_wc_elns_2023 lma_rdmwg %}.
+### Specialised systems
+Specialised systems are ELNs that allow unstructured data entry and offer a wide range of functionalities {% cite Dirnagl:2016 %}. They have all the features of basic systems and more. They have the ability to integrate original data {% cite Dirnagl:2016 %} and capture freehand and chemical drawings {% cite lma_rdmwg %}. They also provide subject-specific features/editors and templates. 
+They also allow task allocation between colleagues, complex rights management (i.e. with roles and individual rights) within institutes and workgroups {% cite Dirnagl:2016 %}, basic inventory management (i.e. the ability to manage the quantity and location of samples and reagents) and extensions/APIs for customisation {% cite vandendorpe_2020 bobrov_2021 %}. 
+Finally, they comply with the [FDA 21 CFR Part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application). This part requires version control {% cite Dirnagl:2016 %}, full audit trails, electronic signatures on completed records, witnessing and freezing (i.e., making a record immutable after the author and a witness have signed it), and prevents the author from deleting records. Such systems include Arxspan, Biovia, eCat, eLabJournal, eLabFTW, iLabber, Labfolder and RSpace. Dedicated systems have the advantage of offering easy entry through free online versions and the ability to install and store data locally. They can also be integrated into your own IT environment via Application Programming Interfaces (APIs) {% cite vandendorpe_2020 bobrov_2021 %}.
 
-* **Digital preservation:** ELNs facilitate the creation of backups {% cite rathmann_2021 %} and can include links to the location of large amounts of data {% cite bobrov_2021 %}. They also facilitate the archiving of data and its documentation {% cite vandendorpe_nd n4m_wc_elns_2023 %} by providing a means to prepare research data for digital preservation {% cite vandendorpe_2020 %} and by being linked to digital preservation systems.
+### High-end systems
+High-end systems are ELNs that are offered as a module of a comprehensive laboratory management system {% cite Dirnagl:2016 %}. They have all the features of specialised systems and more. High-end ELNs integrate a LIMS (e.g. IBDS E-WORKBOOK, iLAB Laboratory Execution System) that allows complete tracking of samples and reagents through all experiments. They are also directly linked to laboratory equipment such as microscopes, spectrometers and sequencers. High-end systems provide workflows for specific samples, experiments and tasks. They can automatically provide raw data and metadata (e.g. date of last calibration) from laboratory instruments. Finally, they allow data mining (i.e. the aggregation and clustering of structured data) and analysis of raw data within the system. Such systems include Hivebench and Limsophy. High-end systems have the advantage of completeness of functionality and all their components fit together seamlessly. However, they can be complex to use and few allow users to use a language other than English (by 2020) {% cite Dirnagl:2016 %}. In addition, they are often cloud-hosted solutions, which means that data control and security remain in the hands of the ELN provider {% cite vandendorpe_2020 bobrov_2021 %}, and that they are more expensive {% cite higgins_2022 %}. They also use proprietary formats, which can increase the risk of vendor lock-in (i.e. making users dependent on the ELN and unable to use their data with another ELN without significant switching costs {% cite vendor_lock_in %}) {% cite vandendorpe_2020 bobrov_2021 %}.
 
-* **Data discovery and reuse:** ELNs can prove provenance {% cite lma_rdmwg %}.
+# Implementing the ELN
 
-## Complying to the FAIR Data Principles
-ELNs support the [FAIR Data Principles]({% link _Research-Data-Management/04-fair.md %}) {% cite lma_rdmwg %}:
+## Steps
+To successfully select and maintain an ELN, you must first analyse the current situation and assess your institution's needs. You will then need to define selection criteria against which you will test pre-selected ELNs to choose the one that best meets your needs. Once you have selected an ELN, you need to licence it and then introduce it to your institution's research groups. The introduction phase consists of ensuring that all technical requirements (such as a stable wireless connection) are met, creating and implementing a distribution plan, training users and setting up support services. Finally, you will need to monitor the application {% cite Adam:2021 vandendorpe:2024 %}.
 
-* **Findability:** ELNs support findability by providing comprehensive search capabilities (e.g. database search, full-text search, conditional search), by supporting the assignment of metadata and tags (e.g. through extraction from documents), by assigning persistent identifiers such as the Digital Object Identifier (DOI) and by linking to data repositories and digital preservation systems {% cite bobrov_2021 %}.
+## Timeframe
+Testing pre-selected ELNs takes three to six months, depending on when sufficient knowledge of the products’ suitability has been acquired {% cite vandendorpe:2024 %}. Setting up an ELN (especially the inventory functions) also takes time. However, having an ELN saves time, e.g. by linking experiments to samples and by managing and ordering supplies {% cite lma_rdmwg %}.
 
-* **Accessibility:** ELNs support accessibility by storing data in a fixed and accessible location, rather than on the researcher's USB stick or portable hard drive {% cite bobrov_2021 %}.
+# eLabFTW
+eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Deltablot (France) {% cite cozatl_2021 %}. eLabFTW is a web-based application that runs on all major operating systems. It can be used in research and teaching (e.g. for laboratory exercises) {% cite cozatl_2021 %}. In addition to a search function {% cite rathmann_2021 %} and the ability to take notes, eLabFTW allows you to create experiments and collections of experiments {% cite cozatl_2021 %}, log work steps, document data and results {% cite rathmann_2021 %} with metadata, and create a database for a variety of objects (e.g. lab materials, lab equipment). It is also a good collaborative tool with which you can manage the lab {% cite cozatl_2021 %}. eLabFTW will also help you comply with GRP as it prevents data deletion and provides immutability through timestamps {% cite rathmann_2021 %}. Being open source, it is freely modifiable and highly customisable. It also benefits from community development, by scientists for scientists  {% cite cozatl_2021 %}. Its interface has been translated into 17 languages as of June 2024 {% cite Carpi:2021 %}. To see what it looks like, watch this [video tutorial]((https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K)) with eLabFTW and Labfolder from ZB MED on YouTube.
 
-* **Interoperability:** ELNs support interoperability by supporting the use of controlled vocabularies in metadata and allowing export to standard formats {% cite bobrov_2021 %}.
-
-* **Reusability:** ELNs support reusability by providing detailed provenance information through audit trails and documentation of both data generation (e.g. method logs) and equipment used {% cite bobrov_2021 %}.
-
-## Contributing to Good Scientific Practice (GSP)
-ELNs make an important contribution to Good Scientific Practice (GSP) by facilitating the tracking, tracing and documentation of research processes and results over time {% cite vandendorpe_nd %}. They enable this by providing functions and features such as electronic signatures, version control {% cite vandendorpe_2020 %}, authentication, 'freezing' of work status, searchability and tagging of entries, and audit trail {% cite bobrov_2021 %}.
-
-ELNs also prevent data loss by eliminating problems with data deletion {% cite bobrov_2021 %}, illegible handwriting, media discontinuities between handwritten and digital entries {% cite vandendorpe_nd %}, damaged paper notebooks, and researchers moving on {% cite lma_rdmwg %}.
-
-Finally, ELNs contribute to GSP by providing for data security and collaboration (see Data sharing and publishing) {% cite lma_rdmwg %}.
-
-# Criteria to select an ELN
-## Basic systems
-Basic systems allow for traditional text entry, which can be searched and made available on multiple devices via the cloud. They also allow files (e.g. images, spreadsheets) to be attached to text and the attachments to be viewed, annotated and searched. Such systems include Word, Evernote and Dropbox. Basic systems have the advantage of being inexpensive, easily accessible and already familiar to many researchers. However, considerable effort is required to achieve the functionality of a traditional ELN with such a system {% cite bobrov_2021 vandendorpe_2020 %}.
-
-## Specialised systems
-Specialised systems have all the features of basic systems and more. They have the ability to capture freehand and chemical drawings {% cite lma_rdmwg %}. They also offer subject-specific features/editors and templates. They also allow task assignment between colleagues, complex rights management (i.e. with roles and individual rights), basic inventory management (i.e. allowing the quantity and location of samples and reagents to be managed) and extensions/APIs for customisation {% cite bobrov_2021 vandendorpe_2020 %}. Last but not least, they comply with the [Code of Federal Regulations Title 21 Part 11](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=11). This part requires full audit trails (i.e. all previous versions of a note are stored and changes are logged), electronic signatures on completed records, witnessing and freezing (i.e. making a note immutable after the author and a witness have signed it), and prevents the deletion of records by their author. Such systems include Arxspan, Biovia, eCat, eLabJournal, eLabFTW, iLabber, Labfolder and RSpace. Specialised systems have the advantage of offering easy entry through free online versions and the possibility of local installation and data storage. They can also be integrated into your own IT environment via APIs {% cite bobrov_2021 vandendorpe_2020 %}.
-
-## High-end systems
-High-end systems have all the features of specialised systems and more. High-end ELNs integrate a Laboratory Information Management System (LIMS) (e.g. IBDS E-WORKBOOK, iLAB Laboratory Execution System) that allows complete tracking of samples and reagents through all experiments. They are also directly linked to laboratory equipment such as microscopes, spectrometers and sequencers. High-end systems provide workflows for specific samples, experiments and tasks. They can automatically deliver raw data and metadata (e.g. date of last calibration) from laboratory equipment. Finally, they allow data mining (aggregation and clustering of structured data) and analysis of raw data within the system. Such systems include Hivebench and Limsophy. High-end systems have the advantage of completeness of features and all their components fit together seamlessly, making them easy to use. However, they are often cloud-hosted solutions, which means that data control and security remain in the hands of the ELN provider {% cite bobrov_2021 vandendorpe_2020 %}, and they are more expensive {% cite higgins_2022 %}. They also use proprietary formats, which can increase the risk of vendor lock-in (i.e. making users dependent on the ELN and unable to use their data with another ELN without significant switching costs {% cite vendor_lock_in %}) {% cite bobrov_2021 vandendorpe_2020 %}.
-
-## Electronic Lab Notebooks *vs.* Laboratory Information Management System (LIMS)
-ELNs are sometimes confused with Laboratory Information Management Systems (LIMS). They both streamline laboratory workflow and data management and are complementary, but they have different functionalities and features. A LIMS is a comprehensive software for managing and tracking laboratory operations and data. A LIMS covers sample management, workflow management and automation, quality control and sample tracking throughout the laboratory. On the other hand, an ELN focuses on experimental data acquisition, experiment documentation and (real-time) collaboration {% cite eln_lims_linkedin eln_lims_sapio %}.
-
-# Implementing an ELN
-## Changing Culture
-A cultural change is needed in order to transition researchers not only to ELNs from physical notebooks but to adhere to FAIR principles thus working towards open science. According to Nosek's [Strategy for Culture Change](https://www.cos.io/blog/strategy-for-culture-change), at the Center for Open Science there are “five levels of intervention” which starts at the bottom with infrastructure. 
-
-Changes to infrastructure would help ease the transition to an ELN by making such it possible to adopt. Covering costs for the use of an ELN at the institutional level, rather than leaving it up to individually funded research projects, would make it possible for groups to justify their use. The next step would be to ensure a good experience with ELNs through a user-friendly interface, training researchers how to use the ELN, and incorporating it into existing workflows.
-
-A community of researchers will begin to form who use ELNs as a common practice. Provide incentives to researchers in order to ensure the continued use of the ELN. According to the Center for Open Science there are over 100 journals which offer badges that indicate when there is data or materials available to the reader. These badges incentivize researchers to share data as it adds more credibility to their findings. After moving through the bottom four levels of infrastructure, experience, community, and incentives the top level policy change will be possible. At the policy level the institution can now make the transition to ELN a requirement for its affiliated researchers.
-
-While there are still researchers who may be apprehensive regarding sharing their data this will change as the culture surrounding research transitions to more transparency.
+# Resources
+* [ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/)
 
 
-# Further resources
-* [ELN Finder - Demo](https://eln-finder.ulb.tu-darmstadt.de/home) - Tool to help researchers searching and selecting a suitable ELN thanks to more than 40 filter criteria.
-* ELN Filter - Selection of ELNs that are suitable for the life sciences and that can be filtered out according to criteria ([English](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2021-06_english.xlsx), [German](https://www.publisso.de/fileadmin/user_upload/PUBLISSO/PUBLISSO_ELN-Filter_2020-12-01.xlsx)).
-* ELN Guide - ELNs in the context of research data management and good research practice – a guide for the life sciences ([English](https://dx.doi.org/10.4126/FRL01-006425772), [German](https://dx.doi.org/10.4126/FRL01-006422868)).
-* Free consultation sessions to get advice on the selection and introduction of an ELN (<forschungsdaten@zbmed.de>).
-* [Video tutorial series](https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K) (only in German).
-* Working groups on ELNs (e.g. in [North Rhine-Westphalia](https://wiki.hhu.de/display/ELB/) in German).
+* **Best practice examples** (see in {% cite Adam:2021 %})
+    * ETH Zürich with openBIS
+    * NFDI4Chem with Chemotion
+    * University Medicine Göttingen with RSpace
+    * University of Edinburgh with RSpace
+
+
+* **Consortium:** [The ELN Consortium](https://github.com/TheELNConsortium)
+
+
+* **ELN comparison matrix:** the ELN comparison matrix was created by the Longwood Medical Area Research Data Management Working Group (LMA RDMWG) in 2018, with the last snapshot taken on 2021-04-19. The aim of this matrix is to help researchers identify practical ELN tools to meet their specific needs. It covers 33 ELNs and was compiled through a survey sent to 26 ELN vendors. It is aimed at researchers in the LMA biomedical research community, other researchers and librarians {% cite lma_rdmwg %}.
+
+
+* **ELN Finder:** the ELN Finder is a tool developed together by the University and State Library Darmstadt and the ZB MED - Information Centre for Life Sciences. It is an interactive tool for filtering ELNs based on 40 filter criteria {% cite vandendorpe:2024 %}.
+
+
+* **Guides**
+    * [Labfolder guide](https://labfolder.com/electronic-lab-notebook-eln-research-guide/)
+    * [SciNote guide](https://www.scinote.net/blog/electronic-lab-notebook-guide/)
+    * [Uncountable guide](https://www.uncountable.com/try/free-guide-electronic-laboratory-notebooks-eln-guide)
+    * [University of Cambridge guide](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks)
+    * ZB MED guide {% cite Adam:2021 %}: the ZB MED ELN Guide is intended to help researchers and information infrastructures choose an ELN. It also contains useful references and is available in both English and German.
+
+
+* **Mailing lists**
+    * [Elabnotebook](https://listserv.gwdg.de/mailman/listinfo/elabnotebook)
+    * [German Research Network](eln@listserv.dfn.de)
+    * [UK Education and Research communities](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=RESEARCHNOTEBOOKS)
+
+
+* **Network:** [Research Data Alliance (RDA) - Research Data Architectures in Research Institutions IG](https://www.rd-alliance.org/groups/research-data-architectures-research-institutions-ig/members/all-members/)
+
+
+* **Working groups**
+    * [ELB.nrw](https://wiki.hhu.de/display/ELB/ELB.nrw+Startseite)
+    * National Research Data Infrastructure (NFDI) working group on ELN
+    * [Ouvrir la science - Cahiers de laboratoire électroniques](https://www.ouvrirlascience.fr/cahiers-de-laboratoire-electroniques/)
+
+
+It is also advisable to talk to other members of your research community to find out about their experiences with ELNs (e.g. advantages and disadvantages of different tools, selection process).
 
 # References
 {% bibliography --cited_in_order %}
