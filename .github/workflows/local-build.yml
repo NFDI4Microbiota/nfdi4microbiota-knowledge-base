@@ -1,4 +1,4 @@
-name: local pages build
+name: Local Pages Build
 on:
   push:
     branches: ["main"]
@@ -17,10 +17,14 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a `.ruby-version` or `.tool-versions`
+          ruby-version: '3.3.4' # Not needed with a `.ruby-version` or `.tool-versions`
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: bundle install
+      # - name: Build
+      #   run: bundle exec jekyll build
       - name: Build
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
