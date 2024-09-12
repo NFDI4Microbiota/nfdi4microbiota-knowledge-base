@@ -73,3 +73,5 @@ issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
 or directly propose changes using a [pull
 request](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/pulls).
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/). The [legaly non-binding English translation can be found here]({% link _Privacy-Policy-English-Translation/01-Privacy-Policy-English-Translation.md %}) )
