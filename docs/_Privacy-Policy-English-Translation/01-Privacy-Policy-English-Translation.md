@@ -138,7 +138,16 @@
 
     The legal basis for the use of Google Analytics is Art. 6 para. 1 sentence 1 lit. f GDPR. 
 
-6. Information from the third-party provider: Google Dublin, Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Terms of use: http://www.google.com/analytics/terms/de.html, overview of data protection: http://www.google.com/intl/de/analytics/learn/privacy.html, as well as the privacy policy: http://www.google.de/intl/de/policies/privacy.
+6. Information from the third-party provider:
+        Google Dublin, <br>
+        Google Ireland Ltd, <br>
+        Gordon House, <br>
+        Barrow Street, Dublin 4, <br>
+        Ireland, <br>
+        Fax: +353 (1) 436 1001. <br>
+        Terms of use: http://www.google.com/analytics/terms/de.html, <br>
+        overview of data protection: http://www.google.com/intl/de/analytics/learn/privacy.html, <br>
+        as well as the privacy policy: http://www.google.de/intl/de/policies/privacy. <br>
 
 ### Use of Piwik/Matomo 
 
