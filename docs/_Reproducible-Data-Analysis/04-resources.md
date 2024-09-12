@@ -49,7 +49,7 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 
 ## Disclaimer: Changes in the tool display
 
-We recently created a [NFDI4Microbiota domain](https://nfdi4microbiota.bio.tools) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
+We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.
 Below you can browse tool recommendations from our consortium members.
