@@ -23,7 +23,7 @@ module Jekyll
             # Handle full DOI URLs
             doi_id = $1
             "<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
-          elsif match =~ /^(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
+          elsif match =~ /.*(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
             "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
