@@ -59,7 +59,7 @@ AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and
 | UML diagram of the Aruna Object Storage data structure starting in Version v2.0. All resources form a directed acyclic graph of belongs to relationships (blue) with Projects as roots and Objects as leaves. Resources can also describe horizontal version relationships (orange), data/metadata relationships (yellow) or even custom user-defined relationships (green). |
 
 # Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/). The [legaly non-binding English translation can be found here]({% link _Privacy-Policy-English-Translation/01-Privacy-Policy-English-Translation.md %}) )
 
 # References
 * Dokumentation and Aruna start page: [https://aruna-storage.org](https://aruna-storage.org)
