@@ -74,6 +74,6 @@ function GenerateScrollSpy() {
     } else if (tag === 'H2' && currentH1) {
       currentUl.append('<li><a class="toc-h2" href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
     }
-  });
+  }); 
 }
 
