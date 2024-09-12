@@ -70,17 +70,22 @@ eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Delt
 # Resources
 * [ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/)
 
+
 * **Best practice examples** (see in {% cite Adam:2021 %})
     * ETH Zürich with openBIS
     * NFDI4Chem with Chemotion
     * University Medicine Göttingen with RSpace
     * University of Edinburgh with RSpace
 
+
 * **Consortium:** [The ELN Consortium](https://github.com/TheELNConsortium)
+
 
 * **ELN comparison matrix:** the ELN comparison matrix was created by the Longwood Medical Area Research Data Management Working Group (LMA RDMWG) in 2018, with the last snapshot taken on 2021-04-19. The aim of this matrix is to help researchers identify practical ELN tools to meet their specific needs. It covers 33 ELNs and was compiled through a survey sent to 26 ELN vendors. It is aimed at researchers in the LMA biomedical research community, other researchers and librarians {% cite lma_rdmwg %}.
 
+
 * **ELN Finder:** the ELN Finder is a tool developed together by the University and State Library Darmstadt and the ZB MED - Information Centre for Life Sciences. It is an interactive tool for filtering ELNs based on 40 filter criteria {% cite vandendorpe:2024 %}.
+
 
 * **Guides**
     * [Labfolder guide](https://labfolder.com/electronic-lab-notebook-eln-research-guide/)
@@ -89,17 +94,21 @@ eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Delt
     * [University of Cambridge guide](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks)
     * ZB MED guide {% cite Adam:2021 %}: the ZB MED ELN Guide is intended to help researchers and information infrastructures choose an ELN. It also contains useful references and is available in both English and German.
 
+
 * **Mailing lists**
     * [Elabnotebook](https://listserv.gwdg.de/mailman/listinfo/elabnotebook)
     * [German Research Network](eln@listserv.dfn.de)
     * [UK Education and Research communities](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=RESEARCHNOTEBOOKS)
 
+
 * **Network:** [Research Data Alliance (RDA) - Research Data Architectures in Research Institutions IG](https://www.rd-alliance.org/groups/research-data-architectures-research-institutions-ig/members/all-members/)
+
 
 * **Working groups**
     * [ELB.nrw](https://wiki.hhu.de/display/ELB/ELB.nrw+Startseite)
     * National Research Data Infrastructure (NFDI) working group on ELN
     * [Ouvrir la science - Cahiers de laboratoire électroniques](https://www.ouvrirlascience.fr/cahiers-de-laboratoire-electroniques/)
+
 
 It is also advisable to talk to other members of your research community to find out about their experiences with ELNs (e.g. advantages and disadvantages of different tools, selection process).
 
