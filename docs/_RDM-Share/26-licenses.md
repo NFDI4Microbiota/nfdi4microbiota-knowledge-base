@@ -101,6 +101,9 @@ Typically, developers or distributors add a plain-text file called `LICENSE` to 
 Especially source repositories like github or gitlab will allow you to choose a license per project and automatically adding such a `LICENSE` file to the source code.
 The benefit of selecting a license on the code hosting platform is the machine readable interpretation of your permissions which can potentially increase visibility in search results across the platform.
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
 # Further resources
 
 - [Creative Commons license chooser](https://creativecommons.org/choose): Explanations and guide to choosing CC licenses for your work.

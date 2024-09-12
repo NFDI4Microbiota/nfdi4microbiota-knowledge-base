@@ -414,3 +414,7 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 - Created by S. Maegol
 - Krawczyk PS, Lipinski L, Dziembowski A. Nucleic Acids Res. 2018 Apr 6;46(6):e35.
 - doi: [10.1093/nar/gkx1321](https://doi.org/10.1093/nar/gkx1321)
+
+  
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

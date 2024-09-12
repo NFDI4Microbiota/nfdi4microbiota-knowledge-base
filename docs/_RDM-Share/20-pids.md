@@ -45,6 +45,9 @@ Wilkinson and collaborators discuss the FAIR principles for research data manage
 
 # PID graph
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
 # Further resources
 {% endcomment %}
 

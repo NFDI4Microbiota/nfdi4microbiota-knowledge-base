@@ -64,6 +64,9 @@ Data interoperability is the ability of a dataset to work with other datasets or
 * How FAIR are your data? [Jones and Grootveld 2017](https://doi.org/10.5281/zenodo.5111307)
 * Self-Assessment Tool to Improve the FAIRness of Your Dataset ([SATIFYD](https://satifyd.dans.knaw.nl/)) 
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
+
 # References
 
 {% bibliography --cited_in_order %}

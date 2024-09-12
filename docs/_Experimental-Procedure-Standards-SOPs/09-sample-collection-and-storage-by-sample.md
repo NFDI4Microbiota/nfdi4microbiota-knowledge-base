@@ -45,5 +45,8 @@ Protein samples stored at -80ºC will be frozen. As repeated freeze-thaw cycles 
 | Yoghurt                          | after purchase, samples were placed immediately at 4°C for transport and within 12 h stared at -80°C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | {% cite Islam_2021 %}                              |
 
 
+# Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
 ## References
 {% bibliography --cited_in_order %}
