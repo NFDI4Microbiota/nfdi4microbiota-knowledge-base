@@ -8,7 +8,7 @@ URL_PATTERN = Regexp.compile([
   URI.regexp(['http', 'https']),  # For general URLs
   # DOI patterns to match "10." followed by a series of characters,
   # including full URLs like "https://doi.org/" or "http://dx.doi.org/"
-  '(https?:\/\/(?:doi\.org|dx\.doi\.org)\/[-._;()\/:A-Z0-9]+|10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
+  '((?:https?:\/\/(?:doi\.org|dx\.doi\.org)\/[-._;()\/:A-Z0-9]+)+|10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
 ].join('|'), Regexp::IGNORECASE)
 
 module Jekyll
@@ -16,6 +16,7 @@ module Jekyll
     class Markdown < BibTeX::Filter
       def apply(value)
         value.to_s.gsub(URL_PATTERN) do |match|
+
           if $1 # LaTeX href pattern
             "[#{$2}](#{$1})"
             "href<a href=\"#{$1}\">#{$2}</a>"
