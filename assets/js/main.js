@@ -72,7 +72,7 @@ function GenerateScrollSpy() {
       currentH1.append(currentUl);
       $('#TableOfContents').children().eq(0).append(currentH1);
     } else if (tag === 'H2' && currentH1) {
-      currentUl.append('<li><a href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
+      currentUl.append('<li><a class="toc-h2" href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
     }
   });
 }
