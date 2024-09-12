@@ -5,15 +5,14 @@ layout: default
 docs_css: markdown
 hide: true
 ---
-# metadata
+
+# Metadata
 
 | Title |  Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |
 | Media for freezing homogenised faecal samples for re-cultivation / FMT  | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab 
 Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite fmt_media %} | {% cite burz_2019 %} |
 {: .table .table-hover}
-
-Collaborative Research Centers and NFDI4Microbiota's participants continously work on improving existing experimental procedures as well as establishing new ones. Here is a list of vetted and frequently used SOPs from our community members.
 
 in bib file add: last accessed URL, 
 
@@ -36,8 +35,8 @@ in bib file add: last accessed URL,
   volume = {9},
   url = {https://doi.org/10.1038/s41598-019-45173-4},
    
-  # Protocol
+# Protocol
 
-  # References
+# References
 {% bibliography --cited_in_order %}
 
