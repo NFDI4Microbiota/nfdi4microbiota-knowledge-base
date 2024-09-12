@@ -220,13 +220,13 @@
   
     a. by setting your browser software accordingly, in particular by suppressing third-party cookies so that you do not receive ads from third-party providers;
    
-    b. by deactivating cookies for conversion tracking by setting your browser to block cookies from the domain www.googleadservices.com, https://www.google. de/settings/ads, whereby this setting will be deleted if you delete your cookies;
+    b. by deactivating cookies for conversion tracking by setting your browser to block cookies from the domain www.googleadservices.com, https://www.google.de/settings/ads, whereby this setting will be deleted if you delete your cookies;
    
     c. by deactivating the interest-based ads of the providers that are part of the “About Ads” self-regulation campaign via the link http://www.aboutads.info/choices, whereby this setting will be deleted if you delete your cookies;
 
     d. by permanently deactivating them in your Firefox, Internet Explorer or Google Chrome browsers via the link http://www.google.com/settings/ads/plugin. We would like to point out that in this case you may not be able to use all the functions of this website to their full extent.
 
-4. The legal basis for the processing of your data is Art. 6 para. 1 sentence 1 lit. f GDPR. Further information on DoubleClick by Google can be found at https://www.google.de/doubleclick and http://support.google.com/adsense/answer/2839090, as well as on data protection at Google in general: https://www.google.de/intl/de/policies/privacy. Alternatively, you can visit the website of the Network Advertising Initiative (NAI) at http://www.networkadvertising.org. Google has submitted to the EU-US Privacy Shield, https://www.privacyshield.gov/EU-US-Framework
+4. The legal basis for the processing of your data is Art. 6 para. 1 sentence 1 lit. f GDPR. Further information on DoubleClick by Google can be found at https://www.google.de/doubleclick and https://support.google.com/campaignmanager/answer/2839090, as well as on data protection at Google in general: https://www.google.de/intl/de/policies/privacy. Alternatively, you can visit the website of the Network Advertising Initiative (NAI) at http://www.networkadvertising.org. Google has submitted to the EU-US Privacy Shield, https://www.privacyshield.gov/EU-US-Framework
 
     Our privacy policy is based on the forms from: **Koreng, Ansgar/Lachenmann, Matthias u.a. (Hrsg.), „Formularhandbuch Datenschutzrecht“, C. H. Beck, München, 2. Auflage, 2018.** <br> 
     We have adapted these according to our needs.
