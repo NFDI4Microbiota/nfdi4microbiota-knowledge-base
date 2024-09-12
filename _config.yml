@@ -104,7 +104,7 @@ collections:
 scholar:
 # Numeric style like american-medical-association causes duplication in numbering of the references
 # So enforcing a author-year style
-  style: frontiers
+  style: apa
   source: ./docs/_bibliography
   bibtex_filters:
     - latex
