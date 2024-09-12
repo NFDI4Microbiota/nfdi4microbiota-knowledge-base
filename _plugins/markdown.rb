@@ -26,11 +26,11 @@ module Jekyll
           elsif match =~ /^(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
-            "mehr test<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
+            "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
           else
             # Handle general URLs
-            "test[#{$&}](#{$&})"
-            "extra<a href=\"#{$&}\">#{$&}</a>"
+            #"test[#{match}](#{match})"
+            "<a href=\"#{match}\">#{match}</a>"
           end
         end
       end
