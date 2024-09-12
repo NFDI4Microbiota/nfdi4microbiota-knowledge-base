@@ -14,7 +14,7 @@ The goal is to gather this information centrally in NFDI4Microbiota to assess th
 We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.  
-In the meantime, browse our tools below and find more [recommendations for resources on reproducible data analysis](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Reproducible-Data-Analysis/04-resources).
+In the meantime, browse our tools below and find more [recommendations for resources on reproducible data analysis]({% link _Reproducible-Data-Analysis/04-resources.md %}).
 
 ## Applications
 ### checkM2 (EMBL) 

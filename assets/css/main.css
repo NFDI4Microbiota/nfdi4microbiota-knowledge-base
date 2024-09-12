@@ -458,3 +458,7 @@ iframe.embed-responsive-item{
   margin: 10px 5px; padding: 5px;
   text-align: left;
 }
+
+#TableOfContents .toc-h2 {
+  font-size: 0.6em !important; 
+}

@@ -79,6 +79,7 @@ When adding or editing files, please observe the following rules:
 4. Reference sources appropriately (see below)
 5. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
 6. Place image files in the `assets/img/` directory
+7. Use internal links to markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
