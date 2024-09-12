@@ -5,10 +5,10 @@ require 'uri'
 # Updated URL_PATTERN to handle full DOI URLs and simple DOI patterns
 URL_PATTERN = Regexp.compile([
   '\\\\href\\\\{([^\\\\}]+)\\\\}\\\\{([^\\\\}]+)\\\\}',  # For LaTeX href patterns
-  URI.regexp(['http', 'https'])  # For general URLs
+  URI.regexp(['http', 'https']),  # For general URLs
   # DOI patterns to match "10." followed by a series of characters,
   # including full URLs like "https://doi.org/" or "http://dx.doi.org/"
-  #'((?:https?:\/\/(?:doi\.org|dx\.doi\.org)\/[-._;()\/:A-Z0-9]+)+|10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
+  '((?:https?:\/\/(?:doi\.org|dx\.doi\.org)\/)?10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)'
 ].join('|'), Regexp::IGNORECASE)
 
 module Jekyll
@@ -16,22 +16,21 @@ module Jekyll
     class Markdown < BibTeX::Filter
       def apply(value)
         value.to_s.gsub(URL_PATTERN) do |match|
-
           if $1 # LaTeX href pattern
             "[#{$2}](#{$1})"
-            "href<a href=\"#{$1}\">#{$2}</a>"
+            "<a href=\"#{$1}\">#{$2}</a>"
           elsif match =~ /^https?:\/\/(?:doi\.org|dx\.doi\.org)\/([-._;()\/:A-Z0-9]+)$/i
             # Handle full DOI URLs
             doi_id = $1
-            "httpdoi<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
+            "<a href=\"https://doi.org/#{doi_id}\">#{match}</a>"
           elsif match =~ /.*(10\.[0-9]{4,9}\/[-._;()\/:A-Z0-9]+)$/i
             # Handle simple DOI patterns
             doi = $&
-            "doi<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
+            "<a href=\"https://doi.org/#{doi}\">#{doi}</a>"
           else
             # Handle general URLs
             #"test[#{match}](#{match})"
-            "else<a href=\"#{match}\">#{match}</a>"
+            "<a href=\"#{match}\">#{match}</a>"
           end
         end
       end
