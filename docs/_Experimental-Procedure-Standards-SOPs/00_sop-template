@@ -1,0 +1,65 @@
+---
+title: Template for SOP
+category: Experimental-Procedure-Standards-SOPs
+layout: default
+docs_css: markdown
+hide: true
+---
+
+This is a template document on how to add templates to the knowledge base. please create a copy and adapt accordingly.
+
+| Title |  Organisation | Category |  Link |
+| ------ | ------ | ------ | ------ |
+| Standard operating procedure for fecal samples identification | International Human Microbiome Standards (IHMS) | Sample Collection |  [SOP 01](https://human-microbiome.org/index.php?id=Sop&num=001) |
+| Standard operating procedure for fecal samples self-Collection, laboratory analysis handled within 4 hours | International Human Microbiome Standards (IHMS) | Sample Collection |  [SOP 02](https://human-microbiome.org/index.php?id=Sop&num=002) |
+| Standard operating procedure for fecal samples self-Collection, laboratory analysis handled within 4 to 24 hours  | International Human Microbiome Standards (IHMS) | Sample Collection |  [SOP 03](https://human-microbiome.org/index.php?id=Sop&num=003) |
+| Standard operating procedure for fecal samples frozen preserved self-Collection, laboratory analysis handled within 24 hours to 7 days  | International Human Microbiome Standards (IHMS) | Sample Collection |  [SOP 04](https://human-microbiome.org/index.php?id=Sop&num=004) |
+| Standard operating procedure for fecal samples preserved in stabilizing solution self-Collection, laboratory analysis handled within 24 hours to 7 days | International Human Microbiome Standards (IHMS) | Sample Collection |  [SOP 05](https://human-microbiome.org/index.php?id=Sop&num=005) |
+| Standard operating procedure for fecal samples DNA Extraction, protocol Q | International Human Microbiome Standards (IHMS) | DNA Extraction |  [SOP 06](https://human-microbiome.org/index.php?id=Sop&num=006) |
+| Standard operating procedure for fecal samples DNA Extraction, protocol H | International Human Microbiome Standards (IHMS) | DNA Extraction |  [SOP 07](https://human-microbiome.org/index.php?id=Sop&num=007) |
+| DNA Extraction Protocol| Earth Microbiome | DNA Extraction |  [DNA Extraction Protocol](https://www.protocols.io/view/earth-microbiome-project-emp-high-throughput-htp-d-8epv5qqjv1bz/v1) |
+|16S Illumina Amplicon Protocol | Earth Microbiome | DNA Sequencing |  [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-16s-illumina-amplicon-protocol-kqdg3dzzl25z/v2) |
+|18S Illumina Amplicon Protocol| Earth Microbiome | DNA Sequencing |  [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-18s-illumina-amplicon-protocol-ewov1b6pgr24/v2) |
+|ITS Illumina Amplicon Protocol| Earth Microbiome | DNA Sequencing |  [ITS Illumina Amplicon Protocol](https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-14egnqypg5dy/v1) |
+{: .table .table-hover}
+
+# Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |
+| Media for freezing homogenised faecal samples for re-cultivation / FMT  | Media preparation | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab 
+Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite fmt_media %} | {% cite burz_2019 %} |
+{: .table .table-hover}
+
+
+# add references to the bib file add:
+Here are a few examples:
+@misc{fmt_media,
+  title = {Media for freezing homogenised faecal samples for re-cultivation / FMT},
+  author = {Treichel, Nicole},
+  publisher = {CRC1382},
+  howpublished = {\url{https://www.crc1382.org/wp-content/uploads/2022/11/221019_FMT-Media-Protocol.pdf}},
+  urldate = {2024-09-12},
+  year = {2022},
+  month = {Nov}
+
+@article{burz_2019,
+  author = {Burz, S.D., Abraham, AL., Fonseca, F. et al.},
+  title = {A Guide for Ex Vivo Handling and Storage of Stool Samples Intended for Fecal Microbiota Transplantation.},
+  doi = {10.1038/s41598-019-45173-4},
+  journal = {Scientific Reports},
+  year = {2019},
+  month = {06},
+  volume = {9},
+  url = {https://doi.org/10.1038/s41598-019-45173-4},
+   
+# Protocol
+
+Add your protocol here.
+
+##Method
+
+##Material
+
+# References
+{% bibliography --cited_in_order %}
