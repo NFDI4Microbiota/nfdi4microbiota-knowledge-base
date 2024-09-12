@@ -1,7 +1,9 @@
 name: local pages build
 on:
- push:
-   branches: ["main"]
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
@@ -12,6 +14,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3' # Not needed with a `.ruby-version` or `.tool-versions`
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
