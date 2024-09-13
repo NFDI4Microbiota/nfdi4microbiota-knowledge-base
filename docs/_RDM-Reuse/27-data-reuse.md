@@ -1,5 +1,5 @@
 ---
-title: Data Reuse
+title: Data Re-Use
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -84,7 +84,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 * [DataCite Commons](https://commons.datacite.org/)
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
-# Data selection
+## Data selection
 
 Below is a list of criteria for selecting trustworthy data sets {% cite bres_2022 sielemann_2020 %}. As in Sielemann *et al.* 2020 {% cite sielemann_2020 %}, for each possible criterion, several questions to consider are listed.
 
@@ -115,8 +115,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
 
-# Data provenance
-
+## Data Provenance
 The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
 * W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
 * W2: Which biological and chemical resources and which equipment was used in the study? [Resources and the equipment used in an experiment including all details such as the lot number and the passage information]
@@ -126,9 +125,10 @@ The provenance of research data can be defined as “a documented trail that acc
 * W6: Where was the experiment conducted? [Institution where the experiments was conducted]
 * W7: What was the order of the stimulation parameters in a particular experiment?
 
-# Data reuse
 
-## Benefits and drawbacks
+## Data reuse
+
+### Benefits and drawbacks
 
 Making data reusable benefits researchers who publish their data, researchers who reuse data, and society. 
 
@@ -144,6 +144,7 @@ For researchers who publish their data, preparing data sets for reuse is time-co
 
 For researchers reusing data, there are risks such as unknown quality and normalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating data sets from different sources {% cite sielemann_2020 %}.
 
+
 ## Successful cases of data reuse
 
 ### Case 1: FishBase {% cite pavone_2020 %}
@@ -158,40 +159,41 @@ See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 ## Relevant licenses and terms of use
 See [Licenses]({% link _RDM-Share/26-licenses.md %}).
 
-# Data citation
+## Data citation
 
-## Common standards for data citation
+### Common standards for data citation
 
-### Interdisciplinary
+#### Interdisciplinary
 * **DataCite 2019**: Creator (PublicationYear): Title. Version. Publisher. (resourceTypeGeneral). Identifier
 * **FORCE 11**: Author(s), Year, Data set title, Data repository or archive, Version, Global persistent identifier (preferably as a link)
 * [BibGuru](https://app.bibguru.com/p/3420f069-22ea-42f6-ba23-4bc6b8ae37e4)
 * [DOI Citation Formatter](https://citation.crosscite.org/)
 * [How to Cite Data sets and Link to Publications](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
 
-### For nucleic acid sequences and functional genomics
+#### For nucleic acid sequences and functional genomics
 * [How do I cite my ArrayExpress data sets in my publication?](https://www.ebi.ac.uk/biostudies/arrayexpress/help#cite)
 * [How to Cite Data in ENA](https://www.ebi.ac.uk/ena/browser/about/citing-ena)
 * [Citing and linking to the GEO database](https://www.ncbi.nlm.nih.gov/geo/info/linking.html)
 * [How do I cite NCBI services and databases?](https://support.nlm.nih.gov/knowledgebase/article/KA-03391/en-us)
 
-## Code citation
+
+### Code citation
 
 Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo, and Zotero {% cite escience_center_2021 %}.
 
-# How-tos
+## How-tos
 
-## How to make your data reusable?
+### How to make your data reusable?
 * Properly document your data with metadata {% cite pavone_2020 %}.
 * Use common metadata standards and terminologies {% cite pavone_2020 %}.
 * Standardise your data.
 * Share your raw data with an open license.
 
-## How to maximize already existing data?
+### How to maximize already existing data?
 See Wood-Charlson *et al.* 2022 {% cite wood-charlson_2022 %}.
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
-# References
+## References
 {% bibliography --cited_in_order %}

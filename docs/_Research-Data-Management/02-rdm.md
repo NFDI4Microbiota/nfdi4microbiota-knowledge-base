@@ -4,6 +4,7 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 ---
+
 ## Definition of Research Data Management (RDM)
 Research Data Management (RDM) is the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term, independent of the data producer and (3) make research results reproducible beyond the research project {% cite biernacka:2020 bres_2022 RfII_RD voigt_2022 pauls_2023 bres_2023 %}. It complements research from planning to data reuse and deletion. 
 
@@ -40,7 +41,7 @@ The research data life cycle is a model that illustrates the steps of RDM and de
     * [BEXIS2](https://demo.bexis2.uni-jena.de) by [NFDI4Biodiversity](https://www.nfdi4biodiversity.org/en/) at [FSU Jena](https://www.uni-jena.de)
     * [GfBio](https://www.gfbio.org) consortium services
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
   
 ## References

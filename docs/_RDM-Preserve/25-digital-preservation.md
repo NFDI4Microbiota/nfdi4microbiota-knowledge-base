@@ -4,10 +4,11 @@ category: RDM-Preserve
 layout: default
 docs_css: markdown
 ---
-# Definition
+
+## Definition
 Digital preservation means taking certain measures to ensure that digital material can be found and can be accessed in the long term ("long-term accessibility of data"). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. 
 
-# Digital preservation for researchers
+## Digital preservation for researchers
 The sustainable handling of data by researchers naturally facilitates the long-term accessibility of data. Best practice methods are:
 * Cleaning data / data structures - see also: [Data Organisation](https://knowledgebase.nfdi4microbiota.de/RDM-Process/14-data-organization.html)
 * Validating data - see also: [Data Quality Control](https://knowledgebase.nfdi4microbiota.de/RDM-Collect/13-data-qc.html)
@@ -18,7 +19,7 @@ The sustainable handling of data by researchers naturally facilitates the long-t
     * Storing files on 2 different media types
     * Keeping at least 1 copy off site.
 
-## Data selection
+### Data selection
 To decide well-founded on data selection we recommend reading the how-to guide of the Edinburgh Digital Curation Centre {% cite dcc_five_2014 %}. The suggested steps are:
 * **Step 1:** Identify purposes that the data could fulfill: consider the purpose or ‘reuse case’ of your data, including reuse outside your research group.
 * **Step 2:** Identify data that **must** be kept: consider legal or policy compliance risks, as well as funder requirements. 
@@ -27,7 +28,7 @@ To decide well-founded on data selection we recommend reading the how-to guide o
 * **Step 5:** Complete the data appraisal, i.e. list what data must, should or could be kept to fulfill which potential reuse purposes. Summarize any actions needed to prepare the data for deposit - or justification for not keeping it.
 
 
-## Recommended file formats for preservation
+### Recommended file formats for preservation
 Making your research available in recommended file formats additional to the original software format supports highly the reusability and long-term accessibility of your data.
 Attributes of those file formats are: 
 * Open rather than proprietary (examples for [open files formats](https://en.wikipedia.org/wiki/List_of_open_file_formats))
@@ -40,18 +41,18 @@ Attributes of those file formats are:
   
 For biomaterial data, recommended formats are CSV, TXT and XML.
 
-# Digital preservation for repository operators
+## Digital preservation for repository operators
 
 Specific preservation measures depend on the digital objects, needs of the user community, and various other conditions. Repositories usually contain publications as files, making file format identification and validation relevant.
 
-## Bitstream preservation
+### Bitstream preservation
 Preservation on the bitstream level is the basis for digital preservation. It covers e. g.
 * Checking checksums of transferred files upon receiving them (or generating file checksums) and conducting regular fixity checks
 * Redundant storage of data
 * Generating backups (e. g. offline backups of the underlying repository database)
 * Strategies for updating storage media (according to e. g. server lifetime)
   
-## Preservation beyond bitstream
+### Preservation beyond bitstream
 Preservation of file content, being able to open and render it correctly in a software is part of logical {% cite lindlar_2020_3672773 %} or technical preservation, also called digital curation. Semantic preservation is concerned with e. g. semantic drift impacting metadata. 
 * Obtaining sufficient rights allowing e. g. format migrations, file repairs and re-use over the long-term like re-publication in other infrastructures
 * File format identification, based format-specific bit patterns, e. g. via [DROID](https://coptr.digipres.org/index.php/DROID) during publication process
@@ -69,10 +70,10 @@ Preservation of file content, being able to open and render it correctly in a so
   
 Many digital preservation criteria applying to repositories are also present in the certification criteria of the CoreTrustSeal and the nestor seal {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}.
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
-# References
+## References
 {% bibliography --cited_in_order %}
 
 

@@ -1,5 +1,5 @@
 ---
-title: Governance workflows
+title: Governance Workflows
 category: How-We-Operate
 layout: default
 docs_css: markdown
