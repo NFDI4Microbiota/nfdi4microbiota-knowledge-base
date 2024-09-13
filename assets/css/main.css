@@ -458,3 +458,13 @@ iframe.embed-responsive-item{
   margin: 10px 5px; padding: 5px;
   text-align: left;
 }
+
+h1::after, h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1); /* Faint color */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

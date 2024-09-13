@@ -1,5 +1,5 @@
 ---
-title: Data Re-Use
+title: Data Reuse
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -115,7 +115,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
 
-## Data Provenance
+## Data provenance
 The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
 * W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
 * W2: Which biological and chemical resources and which equipment was used in the study? [Resources and the equipment used in an experiment including all details such as the lot number and the passage information]
@@ -144,18 +144,18 @@ For researchers who publish their data, preparing data sets for reuse is time-co
 For researchers reusing data, there are risks such as unknown quality and normalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating data sets from different sources {% cite sielemann_2020 %}.
 
 
-## Successful cases of data reuse
+### Successful cases of data reuse
 
-### Case 1: FishBase {% cite pavone_2020 %}
+#### Case 1: FishBase {% cite pavone_2020 %}
 Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyology.bio.auth.gr/files/tsikliras/d/d3.pdf) have been combined into a digital catalogue of fish, known as [FishBase](https://www.fishbase.us/). The data in FishBase were processed using a new algorithm to create a [new dataset](https://thredds.d4science.org/thredds/catalog/public/netcdf/AquaMaps_08_2016/catalog.html). This new dataset was combined with other data to create [AquaMaps](https://www.aquamaps.org/), a tool for predicting the natural occurrence of marine species based on environmental parameters. This led to an increase in citations of FishBase (e.g. [Coro _et al._ 2018](https://doi.org/10.1016/j.ecolmodel.2018.01.007)) and a [report](https://europe.oceana.org/en/our-work/froese-report/overview) on EU fish stocks,the evidence for which was debated in the European Parliament in 2017. In addition, climate change predictions from AquaMaps and NASA were merged to create a [climate change timeline](https://dlnarratives.eu/timeline/climate.html). 
 
-### Case 2: TerrestrialMetagenomeDB
+#### Case 2: TerrestrialMetagenomeDB
 [TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/) is a public repository of curated and standardised metadata for terrestrial metagenomes. 
 
-### Further cases in microbiology
+#### Further cases in microbiology
 See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 
-## Relevant licenses and terms of use
+### Relevant licenses and terms of use
 See [Licenses]({% link _RDM-Share/26-licenses.md %}).
 
 ## Data citation
