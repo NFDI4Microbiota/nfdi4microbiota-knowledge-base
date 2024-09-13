@@ -74,5 +74,5 @@ Execution of workflows on Slurm based clusters is directly supported in the next
 - If your workflow reads large input data it should be possible to read such data directly from an S3 bucket by providing bucket URI and credentials.
 - It should also be possible to directly write all outputs to an S3 bucket.
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

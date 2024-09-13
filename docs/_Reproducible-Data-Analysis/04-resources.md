@@ -6,9 +6,9 @@ docs_css: markdown
 ---
 
 
-# Metainformation Template
+## Metainformation Template
 
-## CV terms
+### CV terms
 
 | Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
 |---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -29,25 +29,25 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 
 ---
 
-## Template
-### Homepage
-### Maturity
-### Topic
-### License
-### Description
-### Input format
-### Tool operation
-### Output data
-### Credits, support
+### Template
+#### Homepage
+#### Maturity
+#### Topic
+#### License
+#### Description
+#### Input format
+#### Tool operation
+#### Output data
+#### Credits, support
   - code: github/gitlab/sourceforge link
   - doi: [10.XXXX/YYYYYY](doi.org/10.xxxx/YYYYYYYY)
 
 
-# Bioinformatic tools
+## Bioinformatic tools
 
 ---
 
-## Disclaimer: Changes in the tool display
+### Disclaimer: Changes in the tool display
 
 We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
@@ -416,5 +416,5 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 - doi: [10.1093/nar/gkx1321](https://doi.org/10.1093/nar/gkx1321)
 
   
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

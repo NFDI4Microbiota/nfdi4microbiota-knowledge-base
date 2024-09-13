@@ -1,5 +1,5 @@
 ---
-title: Contributing to the NFDI4Microbiota Knowledge Base
+title: How to Contribute
 category: Getting-Started
 layout: default
 docs_css: markdown
