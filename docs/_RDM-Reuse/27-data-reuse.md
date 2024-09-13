@@ -1,5 +1,5 @@
 ---
-title: Data Re-Use
+title: Data Reuse
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -115,7 +115,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
 
-## Data Provenance
+## Data provenance
 The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
 * W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
 * W2: Which biological and chemical resources and which equipment was used in the study? [Resources and the equipment used in an experiment including all details such as the lot number and the passage information]
