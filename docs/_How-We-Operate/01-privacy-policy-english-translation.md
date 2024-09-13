@@ -1,4 +1,9 @@
-# Privacy policy
+---
+title: Privacy Policy
+category: How-We-Operate
+layout: default
+docs_css: markdown
+---
 
 ## DISCLAIMER: The following policy is an automated translation of the German text. Please refer to the German original for a legally binding document.
 
