@@ -6,9 +6,9 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-# Data discovery
+## Data discovery
 
-## Strategies to search for data
+### Strategies to search for data
 
 The Consortium of European Social Science Data Archives (CESSDA) {% cite cessda_2017 %} has produced a list of steps in data discovery. The main ones are outlined below, and you can look at their [website](https://dmeg.cessda.eu/) for the sub-steps.
 1. Develop a clear picture of the research data you need
@@ -24,9 +24,9 @@ CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2
 
 Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp/osf/osf-tips-mar-1386252?e=38c1d6ec62) include citation chaining (i.e. the process of mining citations in relevant literature to find more sources), looking at previous reuse, and documenting your search strategy to avoid repetition in one repository while helping you to replicate the same strategies in other data. To properly document your search strategy, keep a record of the terms used, filters, other refinements, dates and repositories searched.
 
-## Services to search for data
+### Services to search for data
 
-### Resources to facilitate data reuse in microbiology
+#### Resources to facilitate data reuse in microbiology
 Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
 | Domain, Data Type	| Data repository 	| FAIRsharing 	| re3data 	| 
@@ -47,13 +47,13 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 | **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
 {: .table .table-hover}
 
-### Services where data can be published
+#### Services where data can be published
 
 * **Interdisciplinary and [discipline-specific]({% link _RDM-Share/22-data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
-### Registries of data repositories
+#### Registries of data repositories
 
 * Registry of Research Data Repositories ([re3data.org](https://www.re3data.org/))
 * [OpenAIRE Explore](https://explore.openaire.eu/)
@@ -61,7 +61,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 * [FAIRsharing.org](https://fairsharing.org/)
 * [Master Data Repository List](https://clarivate.com/webofsciencegroup/master-data-repository-list/)
 
-### Search engines
+#### Search engines
 
 * [NCBI Data sets](https://www.ncbi.nlm.nih.gov/datasets/)
 * **Google**
@@ -77,7 +77,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
     * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
 * [Mendeley Data](https://data.mendeley.com/)
 
-### (Meta)data aggregators
+#### (Meta)data aggregators
 
 * [B2FIND](https://b2find.eudat.eu/)
 * [data.europa.eu](https://data.europa.eu/en)
@@ -124,7 +124,6 @@ The provenance of research data can be defined as “a documented trail that acc
 * W5: Why was the experiment done? [Objective]
 * W6: Where was the experiment conducted? [Institution where the experiments was conducted]
 * W7: What was the order of the stimulation parameters in a particular experiment?
-
 
 ## Data reuse
 
