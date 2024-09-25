@@ -247,7 +247,6 @@ h1 {
 .h2,
 h2 {
     font-size: calc(1.325rem + .9vw);
-    font-style: italic;
 }
 
 @media (min-width:1200px) {
@@ -260,21 +259,22 @@ h2 {
 
 .h3,
 h3 {
-    font-size: calc(1.3rem + .6vw)
+    font-size: calc(1.3rem + .6vw);
+    font-style: italic;
 }
 
 @media (min-width:1200px) {
 
     .h3,
     h3 {
-        font-size: 1.75rem
+        font-size: 1.75rem;
     }
 }
 
 .h4,
 h4 {
     font-size: calc(1.275rem + .3vw);
-    font-style: italic;
+    
 }
 
 @media (min-width:1200px) {
@@ -287,13 +287,13 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    font-style: italic;
 }
 
 .h6,
 h6 {
     font-size: 1rem;
-    font-style: italic;
 }
 
 p {
