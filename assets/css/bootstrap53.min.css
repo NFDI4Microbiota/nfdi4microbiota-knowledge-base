@@ -259,22 +259,20 @@ h2 {
 
 .h3,
 h3 {
-    font-size: calc(1.3rem + .6vw);
-    font-style: italic;
+    font-size: calc(1.3rem + .6vw)
 }
 
 @media (min-width:1200px) {
 
     .h3,
     h3 {
-        font-size: 1.75rem;
+        font-size: 1.75rem
     }
 }
 
 .h4,
 h4 {
     font-size: calc(1.275rem + .3vw);
-    
 }
 
 @media (min-width:1200px) {
@@ -287,8 +285,7 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 1.25rem;
-    font-style: italic;
+    font-size: 1.25rem
 }
 
 .h6,
