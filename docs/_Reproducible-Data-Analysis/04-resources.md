@@ -10,17 +10,18 @@ docs_css: markdown
 
 ### CV terms
 
-| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
-|---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
-| Homepage                        |                                                                                                  |                                   |
-| Developmental stage of the tool | maturity                                                                                         | (Emerging, Mature , Legacy)       |
-| Topic                           | (could be ELIXIR Community)                                                                      |                                   |
-| Software or data license        | license                                                                                          | string                            |
-| Description                     |                                                                                                  | multiline varchar (max. 50 lines) |
-| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  | [^2]               |
-| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004) | [^1]                              |
-| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  |                    |
-| Credits and support             | entity type, entity role                                                                         |                                   |
+| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                                           | Type of value or list of values   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Homepage                        |                                                                                                                           |                                   |
+| Developmental stage of the tool | maturity                                                                                                                  | (Emerging, Mature , Legacy)       |
+| Topic                           | (could be ELIXIR Community)                                                                                               |                                   |
+| Software or data license        | license                                                                                                                   | string                            |
+| Description                     |                                                                                                                           | multiline varchar (max. 50 lines) |
+| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) | [^2]                              |
+| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004)                          | [^1]                              |
+| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) |                                   |
+| Credits and support             | entity type, entity role                                                                                                  |
+{: .table .table-hover} 
 
 [^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
 Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
