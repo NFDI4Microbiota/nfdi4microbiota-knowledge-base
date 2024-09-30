@@ -20,6 +20,9 @@ docs_css: markdown
 </div> -->
 
 ## NFDI4Microbiota
+
+---
+
 ### Democratize access to microbiota data and high-end computational analyses
 
 NFDI4Microbiota is a consortium that is part of the German NFDI (National research Data Infrastructure), aimed at advancing microbiological research through digital transformation. 
@@ -45,6 +48,8 @@ More information on how to contribute to the consortium, participate in coffee t
 By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found bellow the Helpdesk contact form.
 
 ## What is this Knowledge Base about?
+
+---
 
 This knowledge base is a collection of information and references with
 relevance for the microbiology community in terms of Research Data

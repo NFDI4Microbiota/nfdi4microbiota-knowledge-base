@@ -1,4 +1,3 @@
-# 
 ---
 title: Privacy Policy
 category: Getting-Started
@@ -8,9 +7,14 @@ hide: true
 ---
 
 ## DISCLAIMER
+
+---
+
 The following policy is an automated translation of the German text. Please refer to the German original for a legally binding document.
 
 ## § 1 Information on data collection, controller, contacting us
+
+---
 
 1. In the following, we provide information about the collection of personal data when using our websites www.nfdi4microbiota.de, www.nfdi4life.de, www.zbmed.de, www.livivo.de, www.publisso.de, https://books.publisso.de, https://repository.publisso.de and zbmedblog.de. Personal data is all data that can be related to you personally, e.g. name, address, e-mail addresses, user behavior.
 
@@ -34,6 +38,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 2 Your rights
 
+---
+
 1. You have the following rights vis-à-vis us with regard to your personal data:
 
 - Right of access,
@@ -56,6 +62,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 3 What data we collect when you visit our website
 
+---
+
 1. When using the website for information purposes only, i.e. if you do not register or otherwise provide us with information, we only collect the personal data that your browser transmits to our server. If you wish to view our website, we collect the following data, which is technically necessary for us to display our website to you and to ensure stability and security (legal basis is Art. 6 para. 1 sentence 1 lit. f GDPR): - IP address - date and time of the request - time zone difference to Greenwich Mean Time (GMT) - content of the request (specific page) - access status/HTTP status code - amount of data transferred in each case - website from which the request comes - browser - operating system and its interface - language and version of the browser software.
 
 2. In addition to the aforementioned data, cookies are stored on your computer when you use our website. Cookies are small text files that are stored locally in the cache of the visitor's Internet browser. Cookies enable the internet browser to be recognized and allow certain information to flow to the site that sets the cookie (in this case us). Cookies cannot execute programs or transfer viruses to your computer. They are used to make the website more user-friendly and effective overall.
@@ -74,6 +82,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 4 What other data we collect when you use the other functions and offers on our website and what we do with it
 
+---
+
 1. In addition to the purely informational use of our website, we offer various services that you can use if you are interested. These include the use of www.livivo.de, https://books.publisso.de, https://repository.publisso.de and a library user account registered with us. To do so, you must generally provide additional personal data that we use to provide the respective service and to which the aforementioned data processing principles apply.
 
 2. In some cases, we use external service providers to process your data. These have been carefully selected and commissioned by us, are bound by our instructions and are regularly monitored.
@@ -84,6 +94,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 5 Objection to/revocation of the processing of your data
 
+---
+
 1. If you have given your consent to the processing of your data, you can withdraw this at any time. Such a revocation affects the permissibility of the processing of your personal data after you have expressed it to us.
 
 2. If we base the processing of your personal data on the balancing of interests, you can object to the processing. This is the case if, in particular, the processing is not necessary for the performance of a contract with you, which is described by us in the following description of the functions. When exercising such an objection, we ask you to explain the reasons why we should not process your personal data as we have done. In the event of your justified objection, we will examine the situation and will either stop or adapt the data processing or show you our compelling reasons worthy of protection on the basis of which we will continue the processing.
@@ -91,6 +103,8 @@ The following policy is an automated translation of the German text. Please refe
 3. Of course, you can object to the processing of your personal data for data analysis purposes at any time.
 
 ## § 6 Use of our blog function, use of our web store, use of our portals
+
+---
 
   Use of the blog functions In our blog (zbmedblog.de), in which we publish various articles on topics relating to our activities, you can make public comments. Your comment will be published with your specified user name next to the post. We recommend that you use a pseudonym instead of your real name. Your username and e-mail address are required, all other information is voluntary. If you leave a comment, we will continue to store your IP address. This storage is necessary for us to be able to defend ourselves against liability claims in the event of possible publication of unlawful content. We need your e-mail address in order to contact you if a third party objects to your comment as unlawful. The legal basis is Art. 6 para. 1 sentence 1 lit. b and f GDPR. Comments are checked before publication. We reserve the right to delete comments if they are objected to as unlawful by third parties.
 
@@ -122,6 +136,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 7 Our newsletter
 
+---
+
 1. With your consent, you can subscribe to our newsletter, with which we inform you about our current interesting offers. The advertised goods and services are named in the declaration of consent. 
 
 2. We use the so-called double opt-in procedure to subscribe to our newsletter. This means that after you have registered, we will send you an e-mail to the specified e-mail address in which we ask you to confirm that you wish to receive the newsletter. If you do not confirm your registration within 24 hours, your information will be blocked and automatically deleted after one month. In addition, we store the IP addresses you use and the times of registration and confirmation. The purpose of this procedure is to be able to prove your registration and, if necessary, to clarify any possible misuse of your personal data. 
@@ -131,6 +147,8 @@ The following policy is an automated translation of the German text. Please refe
 4.  You can revoke your consent to receive the newsletter at any time and unsubscribe from the newsletter. You can declare your revocation by clicking on the link provided in every newsletter e-mail, for our ZB MED newsletter by e-mail to webredaktion@zbmed.de or by sending a message to the contact details given in the imprint.
 
 ## § 8 Use of web analytics
+
+---
 
 ### Use of Google Analytics 
 
@@ -170,6 +188,8 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 9 Social media
 
+---
+
 ### Use of social media buttons 
 
 1. We currently use the following social media buttons via “c't Shariff”: Youtube, Flickr, Google+, Twitter, Xing, LinkedIn. The c't Shariff project replaces the usual social network share buttons and protects your surfing behavior from prying eyes. Nevertheless, a single click on the button is enough to share information with others. The usual social media buttons transmit user data to Facebook & Co. every time you visit a page and provide the social networks with precise information about your surfing behavior (user tracking). You do not need to be logged in or a member of the network to do this. In contrast, a Shariff button only establishes direct contact between the social network and the visitor when the latter actively clicks on the share button. In this way, Shariff prevents you from leaving a digital trail on every page you visit. Thanks to Shariff, the display of “likes”, “+1s” or “tweets” comes from the operator of the page with the buttons. Shariff acts as an intermediate instance here: Instead of the browser, the website operator's server queries the number of “likes”, “+1s” or “tweets” - and only once a minute to keep traffic within limits. The visitor remains anonymous. Further information on “c't Shariff” can be found at: https://www.heise.de/ct/artikel/Shariff-Social-Media-Buttons-mit-Datenschutz-2467514.html and at: https://www.heise.de/ct/ausgabe/2014-26-Social-Media-Buttons-datenschutzkonform-nutzen-2463330.html. 
@@ -193,6 +213,8 @@ The following policy is an automated translation of the German text. Please refe
 3. Further information on the purpose and scope of data collection and its processing by the plug-in provider can be found in the provider's privacy policy. There you will also find further information on your rights in this regard and setting options to protect your privacy: http://www.google.de/intl/de/policies/privacy. Google also processes your personal data in the USA and has submitted to the EU-US Privacy Shield, https://www.privacyshield.gov/EU-US-Framework.
 
 ## § 10 Online advertising
+
+---
 
 ### Use of Google Adwords Conversion6 
 
