@@ -23,8 +23,7 @@ docs_css: markdown
 | Credits and support             | entity type, entity role                                                                                                  |
 {: .table .table-hover} 
 
-[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
-Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
+[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping, Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
 
 [^2]: FASTA, SAM, TSV, CSV, XLSX, Image
 
