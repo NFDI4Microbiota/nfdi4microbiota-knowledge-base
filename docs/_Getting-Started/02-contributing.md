@@ -5,6 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
+## Introduction
 
 
 This document contains instructions on how to contribute to the Knowledge base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
@@ -19,9 +20,11 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 
 ## Create a GitHub account
 
+
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
 ## Make changes to the repository
+
 
 ### Edit existing files
 
@@ -66,10 +69,12 @@ To create a new issue:
 
 ## Add your name to the CONTRIBUTORS file
 
+
 We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file.
 
 
 ## Contribution Rules
+
 
 When adding or editing files, please observe the following rules:
 
@@ -85,6 +90,7 @@ When adding or editing files, please observe the following rules:
 *Note: we might edit your contribution to homogenize the writing style.*
 
 ## Cite sources
+
 
 1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.
