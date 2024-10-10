@@ -7,13 +7,11 @@ docs_css: markdown
 
 ## DISCLAIMER 
 
----
 
 The following policy is an automated translation of the German text. Please refer to the German original for a legally binding document.
 
 ## § 1 Information on data collection, controller, contacting us
 
----
 
 1. In the following, we provide information about the collection of personal data when using our websites www.nfdi4microbiota.de, www.nfdi4life.de, www.zbmed.de, www.livivo.de, www.publisso.de, https://books.publisso.de, https://repository.publisso.de and zbmedblog.de. Personal data is all data that can be related to you personally, e.g. name, address, e-mail addresses, user behavior.
 
@@ -37,7 +35,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 2 Your rights
 
----
 
 1. You have the following rights vis-à-vis us with regard to your personal data:
 
@@ -61,7 +58,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 3 What data we collect when you visit our website
 
----
 
 1. When using the website for information purposes only, i.e. if you do not register or otherwise provide us with information, we only collect the personal data that your browser transmits to our server. If you wish to view our website, we collect the following data, which is technically necessary for us to display our website to you and to ensure stability and security (legal basis is Art. 6 para. 1 sentence 1 lit. f GDPR): - IP address - date and time of the request - time zone difference to Greenwich Mean Time (GMT) - content of the request (specific page) - access status/HTTP status code - amount of data transferred in each case - website from which the request comes - browser - operating system and its interface - language and version of the browser software.
 
@@ -81,7 +77,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 4 What other data we collect when you use the other functions and offers on our website and what we do with it
 
----
 
 1. In addition to the purely informational use of our website, we offer various services that you can use if you are interested. These include the use of www.livivo.de, https://books.publisso.de, https://repository.publisso.de and a library user account registered with us. To do so, you must generally provide additional personal data that we use to provide the respective service and to which the aforementioned data processing principles apply.
 
@@ -93,7 +88,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 5 Objection to/revocation of the processing of your data
 
----
 
 1. If you have given your consent to the processing of your data, you can withdraw this at any time. Such a revocation affects the permissibility of the processing of your personal data after you have expressed it to us.
 
@@ -103,7 +97,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 6 Use of our blog function, use of our web store, use of our portals
 
----
 
   Use of the blog functions In our blog (zbmedblog.de), in which we publish various articles on topics relating to our activities, you can make public comments. Your comment will be published with your specified user name next to the post. We recommend that you use a pseudonym instead of your real name. Your username and e-mail address are required, all other information is voluntary. If you leave a comment, we will continue to store your IP address. This storage is necessary for us to be able to defend ourselves against liability claims in the event of possible publication of unlawful content. We need your e-mail address in order to contact you if a third party objects to your comment as unlawful. The legal basis is Art. 6 para. 1 sentence 1 lit. b and f GDPR. Comments are checked before publication. We reserve the right to delete comments if they are objected to as unlawful by third parties.
 
@@ -135,7 +128,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 7 Our newsletter
 
----
 
 1. With your consent, you can subscribe to our newsletter, with which we inform you about our current interesting offers. The advertised goods and services are named in the declaration of consent. 
 
@@ -147,7 +139,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 8 Use of web analytics
 
----
 
 ### Use of Google Analytics 
 
@@ -187,7 +178,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 9 Social media
 
----
 
 ### Use of social media buttons 
 
@@ -213,7 +203,6 @@ The following policy is an automated translation of the German text. Please refe
 
 ## § 10 Online advertising
 
----
 
 ### Use of Google Adwords Conversion6 
 

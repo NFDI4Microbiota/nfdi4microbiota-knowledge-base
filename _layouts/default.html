@@ -60,6 +60,29 @@
         })();
     </script>
     <!-- End Matomo Code -->
+
+    
+
+<!-- Modal -->
+<div class="modal fade" id="citationModal" tabindex="-1" aria-labelledby="citationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="citationModalLabel">Citation for this page</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <p> Research Data Infrastructure for Microbiota Research (NFDI4Microbiota). ({{
+                    page.last_modified_at | date: '%Y, %B %d'}}): <i> {{ page.title }} </i>, NFDI4Microbiota Knowledge Base. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#TableOfContents">
@@ -199,17 +222,29 @@
         {% endif %}
         <!-- Heading of the page      -->
         <div class="bd-intro pt-2 ps-lg-2">
+            <h1 class="bd-title mb-0 text-center" id="content">{{ page.title }}</h1>
+            <br>
+            <hr>
             <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
-                <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
-                                                                href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
-                                                                title="View and edit this file on GitHub"
-                                                                target="_blank" rel="noopener">
-                    View on GitHub
-                </a>
+                <div class="mb-3 mb-md-0 d-flex "> <!-- flex-column justify-content-center-->
+                    <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
+                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
+                            title="View and edit this file on GitHub" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                    </div>
+                    <br>
+            
+                    <div class="mb-3 mb-md-0 d-flex text-nowrap"><button type="button" class="btn btn-sm btn-bd-light rounded-2"
+                            data-bs-toggle="modal" data-bs-target="#citationModal">
+                            How to cite us
+                        </button>
+                    </div>
                 </div>
-                <h1 class="bd-title mb-0" id="content">{{ page.title }}</h1>
+                <h6><small class="text-muted">Page last modified on: {{ page.last_modified_at | date: '%Y, %B %d' }}</small></h6>
             </div>
         </div>
+        <br>
 
         <!-- Div for navigation to the topic inside the current page -->
         <div class="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary">
@@ -252,10 +287,6 @@
             <!-- Check if page is under construction -->
             {% if page.empty %}
             <p>This page is currently empty. Please consider contributing! </p>
-            {% else %}
-            <h2>Citation</h2>
-            <hr>
-            <p>National Research Data Infrastructure for Microbiota Research (NFDI4Microbiota). ({{ page.last_modified_at | date: '%Y, %B %d'}}). {{ page.title }}. NFDI4Microbiota Knowledge Base. </p>
             {% endif %}
 
         </div>
