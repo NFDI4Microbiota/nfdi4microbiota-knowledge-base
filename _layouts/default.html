@@ -65,7 +65,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="citationModal" tabindex="-1" aria-labelledby="citationModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="citationModalLabel">Citation for this page</h5>
@@ -73,7 +73,7 @@
             </div>
             <div class="modal-body ">
                 <p> Research Data Infrastructure for Microbiota Research (NFDI4Microbiota). ({{
-                    page.last_modified_at | date: '%Y, %B %d'}}): <i> {{ page.title }} </i>, NFDI4Microbiota Knowledge Base. </p>
+                    page.last_modified_at | date: '%Y, %B %d'}}): <i> {{ page.title }}</i>, NFDI4Microbiota Knowledge Base,<a href="https://knowledgebase.nfdi4microbiota.de{{ page.url }}.html"> https://knowledgebase.nfdi4microbiota.de{{ page.url }}.html </a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
