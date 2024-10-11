@@ -25,7 +25,8 @@ The Administration Unit and the Board of Directors have to prepare the GA. Each 
 
 x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks | x+4 weeks
 -------- | -------- | -------- | ------- | ------- | -------
-Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling  
+Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling 
+{: .table .table-hover}
 
 The preparation includes the following steps:
 - Creating an appointment in the calendar of choice (Google, Outlook, etc.) that includes the date, time, and the link or location for the meeting. This will be sent to the whole consortium.
