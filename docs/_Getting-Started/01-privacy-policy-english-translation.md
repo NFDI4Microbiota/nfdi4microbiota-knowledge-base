@@ -11,6 +11,8 @@ hide: true
 
 The following policy is an automated translation of the German text. Please refer to the German original for a legally binding document.
 
+---
+
 ## § 1 Information on data collection, controller, contacting us
 
 

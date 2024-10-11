@@ -12,7 +12,9 @@ hide: false
 Governance is the process of making and enforcing decisions within an organization or society. The following will introduce the governance structure, and the governance bodies are defined. 
 Details on the bodies of the NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
-## Workflow General Assembly
+---
+
+## The General Assembly
 
 
 ### Frequency of the General Assembly
@@ -70,7 +72,9 @@ consortium for information and review for two weeks. Afterwards, the minutes wil
 ### Documentation of the General Assembly
 All files regarding the General Assembly are filed [in Nextcloud](https://nextcloud.nfdi4microbiota.de/f/105454) (internal link).
 
-## Workflow Scientific Advisory Board
+---
+
+## The Scientific Advisory Board
 
 
 A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
@@ -120,7 +124,9 @@ consortium.
 All files regarding the SAB are filed [here](https://nextcloud.nfdi4microbiota.de/f/105451) (internal link).
 The members of the SAB are displayed on the web portal.
 
-## Workflow Project Review Board
+---
+
+## The Project Review Board
 
 
 The Project Review Board (PRB) is responsible for selecting new projects within the scope of the flexible funding and allocation mechanism, thus reacting to new and unforeseen scenarios. It is staffed based on 
@@ -158,7 +164,9 @@ To update the PRB regularly, they will receive the following information via the
 - the outcome and the proposals of the annual FlexFunds call, and  
 - a season's greeting email.
 
-## Workflow Circulation Procedure
+---
+
+## The Circulation Procedure
 
 
 If resolutions have to be made between the meetings of the General Assembly or the Scientific Advisory Board, a circulation procedure can be performed. A simple majority is required to approve a resolution, 

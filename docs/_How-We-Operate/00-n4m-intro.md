@@ -7,7 +7,7 @@ redirect_from: /How-We-Operate
 hide: false
 ---
 
-## Introduction to the NFDI4Microbiota How We Operate
+## NFDI4Microbiota: How We Operate
 
 
 ### Aim
@@ -17,7 +17,9 @@ Here, all information, guidelines, SOPs, documents, and links required for the w
 ### Contribution
 Each member of the consortium can [contribute to this repository](https://knowledgebase.nfdi4microbiota.de/Getting-Started/02-contributing.html).
 
-## Introduction to the Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI association)
+---
+
+## The Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI association)
 
 
 - The National Research Data Infrastructure (NFDI) aims to systematically index, edit, interconnect, and make available the valuable stock of data from science and research.
@@ -28,6 +30,8 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - The NFDI e.V. has [five sections]((https://www.nfdi.de/sections/?lang=en)) addressing cross-cutting topics of all consortia.
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
 - The Deutsche Forschungsgesellschaft (DFG) funds different NFDI consortia (independently of the NFDI e.V.). Further information and introductory videos can be found on the [DFG website](https://www.dfg.de/en/research-funding/funding-initiative/nfdi).
+
+---
 
 ## Introduction to NFDI4Microbiota
 
@@ -76,6 +80,8 @@ g)	# of publications
 h)	# of training  
 i)	# of ambassadors  
 j)	# of commits to the knowledge base
+
+---
 
 ## Governance of NFDI4Microbiota
 
@@ -143,6 +149,8 @@ thus reacting to new and unforeseen scenarios. It is staffed based on suggestion
 ### NFDI4Microbiota Policy
 The General Assembly adopted the NFDI4Microbiota Policy in 2023, which will be published on the [NFDI4Microbiota Zenodoo community](https://zenodo.org/communities/nfdi4microbiota) soon.
 
+---
+
 ## Annual timeline of important dates for the consortium
 
 
@@ -173,6 +181,8 @@ Middle of November | Announcement | M1.3 | Training and Event announcement
 Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to applicants
 December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
+
+---
 
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
@@ -213,6 +223,8 @@ found. All participants are members of the mailing list participants-at-nfdi4mic
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
 and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on the ambassador program can be found on the [web portal](https://nfdi4microbiota.de/community/ambassador.html).
 
+---
+
 ## Communication
 
 
@@ -240,6 +252,8 @@ Via this mailing list, general information on e.g. NFDI talks, coffee sessions, 
 If you are involved in further sections, task forces, or administrative groups (more information on NFDI e.V. work), it would be easiest to create an account to manage the 
 NFDI mailing lists. For some mailing lists, archives of past emails do exist and can be viewed too. Every NFDI4Microbiota member should at least register to 'nfdi-all' mailing list.
 All lists can be accessed via [this link](https://lists.nfdi.de/postorius/lists/).
+
+---
 
 ## Finances
 

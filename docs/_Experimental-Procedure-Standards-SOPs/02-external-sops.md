@@ -23,5 +23,5 @@ This page lists well-established and tested protocols from the International Hum
 |ITS Illumina Amplicon Protocol| Earth Microbiome | DNA Sequencing |  [ITS Illumina Amplicon Protocol](https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-14egnqypg5dy/v1) |
 {: .table .table-hover}
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

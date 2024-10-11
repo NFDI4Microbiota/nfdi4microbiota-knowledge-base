@@ -29,6 +29,8 @@ software or tools. We only mention certain software products to
 illustrate our points. We separate the guidelines along the timeline of
 before, during, and after the training.
 
+---
+
 ## Before the Training
 
 
@@ -191,7 +193,7 @@ everyone. A good introduction is given in “[Ten simple rules for making
 training materials
 FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)”.
 
-
+---
 
 ## During the Training
 
@@ -328,7 +330,7 @@ training in the future. Do try to ensure that the feedback can be
 anonymous and that the questions highlight points of improvement to
 enable you/the team to provide an even better experience the next time.
 
-
+---
 
 ## After the Training
 
@@ -352,5 +354,7 @@ benefit from the work you already provided. If you do so, make sure to
 state under what license you provide your work. We suggest a permissive
 license such as [CC BY](https://creativecommons.org/licenses/by/4.0/), or „CC 0“.
 
-# Get Help
+---
+
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

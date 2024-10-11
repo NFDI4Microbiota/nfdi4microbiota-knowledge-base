@@ -10,6 +10,8 @@ A Data Management Plan (DMP) is a formal and living document that defines respon
 
 DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and in [EU Funding Programs 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). For funders, DMPs serve as a reporting tool to hold grantees accountable for conducting good and open science, with regular updates or in case of changes. For researchers and other stakeholders, DMPs are meant to be a living document that accompanies them from proposal writing or project start to the sharing of their data and results.
 
+---
+
 ## Content of DMPs
 DMPs typically include the following information:
 * Administrative project-specific information (including a description of the research project)
@@ -27,6 +29,8 @@ DMPs typically include the following information:
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/22-data-repositories.md %}).
 
+---
+
 ## DMP templates and examples
 
 **Templates**
@@ -38,6 +42,8 @@ To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _R
 * [DD-DeCaF Bioinformatics Services for Data-Driven Design of Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
 * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
 
+---
+
 ## Benefits of a DMP
 If implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) in a research project, despite the initial cost of creating the DMP itself.
 
@@ -46,6 +52,8 @@ A DMP can **save time and nerves** for yourself and others by planning ahead. DM
 A DMP can also facilitate and **harmonize the coordination and shared use of data** by multiple project partners, as well as improve knowledge management (even when staff change). A DMP provides the project team with an overview and control of the data, its use and storage, and all data management activities, enabling process optimization and facilitating organization and work. A DMP will also help you to establish project-wide standards and a common vocabulary. It will also allow you to keep track of data by knowing where it is stored during and after the project, making it easily retrievable and reducing the risk of data duplication and loss due to technical or human error (some data, such as excavation data and textual annotations, are not reproducible). Finally, writing a DMP gives you a clear organization of the data and its handling, which helps you to understand your own data (e.g. through documentation) and makes your work more efficient.
 
 DMPs offer **other benefits**, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimize - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity, and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalize this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
+
+---
 
 ## Writing a DMP
 
@@ -56,6 +64,8 @@ DMPs offer **other benefits**, such as enabling verification and control: resear
 **Length & level of details of the DMP:** The length of a DMP can vary from a few paragraphs to several pages (about 2 to 15 pages). It is better to be realistic; be as informative as possible and as detailed as necessary. At the beginning of the research project (e.g. when you have to submit your DMP together with the proposal), the DMP is quite short and provides basic information. As the project progresses, the DMP contains more and more information, the answers become more detailed, and the functions of the DMP increase.
 
 **DMP quality check:** A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
+
+---
 
 ## DMP tools
 Although it is generally possible to formulate a DMP in a text document, the use of more dynamic and machine-readable formats finally unlocks its full potential.
@@ -68,6 +78,8 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 * **[Data Stewardship Wizard](https://ds-wizard.org/) (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source dynamic web form system. It has been designed as an expert system and is intended for data stewards to assist researchers in creating machine-actionable DMPs. It offers user-friendly questionnaires and many different templates (it is also possible to create your own template). Training on DSW is organized by different ELIXIR nodes.
 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Center](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
+
+---
 
 ## Further resources
 * Cessda - [Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
@@ -89,6 +101,8 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 **Software Management (SM) Plans**
 * [SM Wizard](https://smw.ds-wizard.org/)
 * [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
+
+---
 
 ## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

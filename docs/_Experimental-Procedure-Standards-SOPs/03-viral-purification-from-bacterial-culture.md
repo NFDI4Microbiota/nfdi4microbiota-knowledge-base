@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-# Protocol
+## Protocol
 1.	Centrifuge 40 ml of bacterial culture infected with phage at 6000 g for 30 min, remove the supernatant and filter it through a 0.45 μm syringe filter
 2.	Centrifuge the filtrate at 35 000 g for 4 h, remove the supernatant and re-suspend the pellet in 600 μl SM buffer
 3.	Add 2 μl of DNAse I and 20 μl of 10x DNAse buffer and incubate at 37°C for 1.5 h
@@ -18,8 +18,8 @@ docs_css: markdown
 10.	Remove the supernatant and re-suspend the pellet in 100  μl TE buffer
 11.	Store at 4°C
 
-# Source
-In-house protocol provided by Sarah Schulz
+## Source
+In-house protocol provided by Sarah Schulz.
 
-# Get Help
+## Get Help
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
