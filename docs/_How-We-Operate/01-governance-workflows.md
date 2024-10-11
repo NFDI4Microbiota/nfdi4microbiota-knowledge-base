@@ -94,6 +94,7 @@ The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD mee
 x-6 months (min) | x-5 weeks  | x-2 weeks  | x | x+2 weeks 
 -------- | -------- | -------- | ------- | ------- 
 Start a poll to find a date for the meeting | Start to generate an agenda and slides for the meeting. | Sent agenda to SAB | SAB and BoD meeting | Protocol generated for SAB and BoD 
+{: .table .table-hover}
 
 The preparation includes the following steps:
 - Creating an appointment in the calendar of choice (Google, Outlook, etc.) that includes the date, time, and the link or location for the meeting. This will be sent to the SAB members and the BoD.
