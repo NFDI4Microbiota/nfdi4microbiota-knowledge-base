@@ -5,12 +5,12 @@ layout: default
 docs_css: markdown
 ---
 
-# Definition
+## Definition
 Digital preservation (DP) means taking certain measures to ensure that digital material can be found and accessed in the long term (“long-term accessibility of data”). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. {% cite CCSDS_OAIS:2012 noauthor_iso_OAIS_2012 dpc_glossary_2015 %}. 
 
 The long-term timeframe starts now and lasts long as necessary. It may extend into an indefinite future, where there are usually concerns about changing technologies, storage media, obsolete data formats or standards (Definition "Long Term" {% cite CCSDS_OAIS:2012 %}).
 
-# DP during research
+## DP during research
 
 Sustainable handling of data naturally facilitates the long-term accessibility of the data. 
 Best practice methods are:
@@ -22,7 +22,7 @@ Best practice methods are:
    * Store files on 2 different types of data carriers 
    * Keep at least 1 copy off-site.
 
-## Data selection
+### Data selection
 To make well-founded decisions regarding data selection the suggested steps are:
 * **Step 1:** Identify data that **must** and **can** be kept: consider legal or policy compliance risks, as well as funder requirements.
 * **Step 2:** Identify data that **should** be kept: data which was expensive to generate, which is impossible to reproduce, particularly curated data and/or data which supports research findings in papers.
@@ -33,7 +33,7 @@ To make well-founded decisions regarding data selection the suggested steps are:
 
 See also: How-to guide of the Edinburgh Digital Curation Centre {% cite dcc_five_2014 %}.
 
-## File format recommendation
+### File format recommendation
 Saving and publishing your research in recommended file formats in addition to the original format supports the reusability and long-term accessibility of your data. 
 
 Attributes of those file formats are: 
@@ -47,7 +47,7 @@ Attributes of those file formats are:
   
 For biomaterial data, recommended formats are CSV, TXT and XML.
 
-# DP in labs
+## DP in labs
 Depending on the project, institution and funding guidelines, the time at which the data of a research project is transferred to a local data centre for final documentation or to a repository, e.g. for publication, varies. Until then, preparing and setting up long-term archiving in your lab or on-site facility is an effort that will undoubtedly contribute to the sustainability of your research.
 The following section is intended to provide a basic understanding of the possible measures:
 * Determine responsibilities
@@ -83,7 +83,7 @@ The following section is intended to provide a basic understanding of the possib
       * Replace files with problems and document all changes made to the digital object as part of the curative process.
       * Document all versions of files with the option to revert to previous versions if required
   
-# DP for repository operators
+## DP for repository operators
 Repositories usually contain publications in the form of files and are dependent on the quality of submission. Similar to digital preservation in laboratories, digital preservation in repositories depends on sustainable organisational and technical capabilities to prevent technical and semantic obsolescence. In addition, repositories have a particular responsibility to provide published research data and their metadata in a machine readable and usable way that meet the needs of their user community. - see also: [FAIR-principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair.html).  However, the deliberate design of the metadata schema and the repository's publication policy may impose specific requirements for the acceptance of the digital object. Digital Preservation may add additional data quality processes.
 
 
