@@ -78,7 +78,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 |  	| Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) 	| / 	|
 | **Protein sequences** 	| [UniProt](https://www.uniprot.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) 	| [re3data](https://www.re3data.org/repository/r3d100010357) 	|
 | **Proteomes** 	| PRoteomics IDEntifications ([PRIDE](https://www.ebi.ac.uk/pride)) Archive database 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) 	| [re3data](https://www.re3data.org/repository/r3d100010137) 	|
-| **Quantitative and predictive food microbiology** 	| [ComBase](https://www.combase.cc/index.php/en/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
+| **Quantitative and predictive food microbiology** 	| [ComBase](https://combase.errc.ars.usda.gov/) 	| / 	| [re3data](https://www.re3data.org/repository/r3d100010878) 	|
 | **Scientific texts and data** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
@@ -166,8 +166,11 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * To find a suitable interdisciplinary repository: [Generalist Repository Comparison Chart](https://doi.org/10.5281/zenodo.3946720)
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
-## See Also
+## Further Resources
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
+
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
 ## References
 * Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)

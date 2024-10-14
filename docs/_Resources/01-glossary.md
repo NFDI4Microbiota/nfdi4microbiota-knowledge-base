@@ -89,3 +89,5 @@ redirect_from: /Resources
 * [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)
 * [GoFAIR - FAIR principles for metadata vocabulary usage](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/)
 
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

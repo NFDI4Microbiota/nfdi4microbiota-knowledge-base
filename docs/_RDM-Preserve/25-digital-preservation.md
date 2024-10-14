@@ -4,12 +4,14 @@ category: RDM-Preserve
 layout: default
 docs_css: markdown
 ---
+
 # Definition
 Digital preservation (DP) means taking certain measures to ensure that digital material can be found and accessed in the long term (“long-term accessibility of data”). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. [Ref. ISO, OAIS, dpc]. 
 
 The long-term timeframe starts now and lasts long as necessary. It may extend into an indefinite future, where there are usually concerns about changing technologies, storage media, obsolete data formats or standards [OAIS, Defintion of “Long Term”].
 
 # DP during research
+
 The sustainable handling of data naturally facilitates the long-term accessibility of the data. 
 Best practice methods are:
 * Naming, versioning and data structures, etc. - see also: [Data Organisation](https://knowledgebase.nfdi4microbiota.de/RDM-Process/14-data-organization.html)
@@ -28,10 +30,12 @@ To decide well-founded on data selection the suggested steps are:
 * **Step 4:** Identify **purposes** that the data could fulfill: consider the purpose or ‘reuse case’ of your data, including reuse outside your research group.
 * **Step 5:** Complete the data **appraisal**, i.e. list what data must, should or could be kept to fulfill which potential reuse purposes. Summarize any actions needed to prepare the data for deposit - or justification for not keeping it. - see also: Digital preservation in [Data Management Plans (DMPs)](https://knowledgebase.nfdi4microbiota.de/RDM-Plan/01-dmp.html#digital-preservation-in-dmps) 
 
+
 See also: How-to guide of the Edinburgh Digital Curation Centre (DCC, 2014).
 
 ## File formats recommendation
 Providing your research in recommended file formats in addition to the original format supports the reusability and long-term accessibility of your data. 
+
 Attributes of those file formats are: 
 * Open rather than proprietary (examples for [open files formats](https://en.wikipedia.org/wiki/List_of_open_file_formats))
 * Well-documented
@@ -82,6 +86,7 @@ The following section is intended to provide a basic understanding of the possib
 # DP for repository operators
 Repositories usually contain publications in the form of files and are dependent on the quality of submission. Similar to digital preservation in laboratories, digital preservation in repositories depends on sustainable organisational and technical capabilities to prevent technical and semantic obsolescence. In addition, repositories have a particular responsibility to provide published research data and their metadata in a machine readable and usable way that meet the needs of their user community. - see also: [FAIR-principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair.html).  However, the deliberate design of the metadata schema and the repository's publication policy may impose specific requirements for the acceptance of the digital object. Digital Preservation may add additional data quality processes.
 
+
 Most measures mentioned in the section “DP for labs” are just as essential for repositories (see above). 
 Additionally, some workflows and tools beneficial for repository operators are listed below: 
 
@@ -91,13 +96,17 @@ Additionally, some workflows and tools beneficial for repository operators are l
 * Encourage your users to inform you publications in your repository that cannot be used
 * Replace files with problems (e.g. invalid files) as early as possible, e.g. migrate obsolete file formats to sustainable formats. - see also: [COPTR migration tools](https://coptr.digipres.org/index.php/File_Format_Migration).  
 * Document all technical changes made to the digital object and ensure that versioning is activated so that you can revert to previous versions if necessary.
+
   
 Many of the criteria for digital preservation that apply to repositories can also be found in the certification [criteria of the CoreTrustSeal](https://zenodo.org/records/7051096) and the nestor seal ( Standards & Board, 2022 ; Harmsen et al., 2013). Taking certification material into account is a good idea in any case, even if certification is not or not yet an issue. Research funders increasingly recommend publication of research data in certified repositories.
 
 
 {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}.
 
-# References
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
+## References
 {% bibliography --cited_in_order %}
 1.	DCC. (2014). Five steps to decide what data to keep: a checklist for appraising research data v.1. In Edinburgh: Digital Curation Centre. https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep
 2.	Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). "You say potato, I say potato" - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. 15(1). https://doi.org/10.2218/ijdc.v15i1.728

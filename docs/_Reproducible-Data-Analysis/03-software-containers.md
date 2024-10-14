@@ -1,14 +1,12 @@
 ---
-title: Software containers
+title: Software Containers
 category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
 empty: true
 ---
 
-# Software Containers
 
-## Introduction to Software Containers
 Software containers, such as [Apptainer](https://apptainer.org/) (formerly known as Singularity) and [Docker](https://www.docker.com/) provide a way to encapsulate an application and its environment for consistent, portable, and reproducible execution across various computing environments.
 This is crucial for scientific research, ensuring that analyses remain consistent regardless of the underlying infrastructure.
 
@@ -75,13 +73,16 @@ Use volumes or bind mounts for data that needs to persist beyond the life of the
 
 
 ## Advanced Usage
-#### [Integration with Nextflow](https://www.nextflow.io/docs/latest/container.html)
+### Integration with [Nextflow](https://www.nextflow.io/docs/latest/container.html)
 - **Nextflow and Containers**: Simplifies complex workflows by executing each step in a container for consistency across environments.
 - **Configurations**: Supports managing containers through `nextflow.config`, streamlining execution.
 
-#### [Kubernetes and Containers](https://kubernetes.io/docs/home/)
+### [Kubernetes](https://kubernetes.io/docs/home/) and Containers
 - **Container Orchestration**: Automates deployment, scaling, and management of containerized applications, essential for microservices architecture.
 - **Scalability and Management**: Provides tools for load balancing, auto-scaling, and efficient resource allocation across diverse infrastructures.
+
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
 
 ## Resources and Further Reading
 - [Apptainer User Guide](https://apptainer.org/docs/user/latest/introduction.html): Comprehensive documentation for getting started with Apptainer.

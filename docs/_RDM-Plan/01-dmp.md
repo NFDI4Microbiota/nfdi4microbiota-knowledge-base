@@ -5,12 +5,14 @@ layout: default
 docs_css: markdown
 ---
 
-# Introduction
+## Introduction
 A Data Management Plan (DMP) is a formal and living document that defines responsibilities and provides guidance. It describes data and data management during the project and measures for archiving and making data and research results available, usable, and understandable after the project has ended. 
 
 DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/research_funding/announcements_proposals/2022/info_wissenschaft_22_25/index.html) and in [EU Funding Programs 2021-2027](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf). For funders, DMPs serve as a reporting tool to hold grantees accountable for conducting good and open science, with regular updates or in case of changes. For researchers and other stakeholders, DMPs are meant to be a living document that accompanies them from proposal writing or project start to the sharing of their data and results.
 
-# Content of DMPs
+---
+
+## Content of DMPs
 DMPs typically include the following information:
 * Administrative project-specific information (including a description of the research project)
 * Roles, responsibilities and obligations
@@ -27,7 +29,9 @@ DMPs typically include the following information:
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/22-data-repositories.md %}).
 
-# DMP templates and examples
+---
+
+## DMP templates and examples
 
 **Templates**
 * [NFDI4Microbiota's template](https://doi.org/10.5281/zenodo.13628589)
@@ -38,7 +42,9 @@ To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _R
 * [DD-DeCaF Bioinformatics Services for Data-Driven Design of Cell Factories and Communities](https://phaidra.univie.ac.at/o:1139495)
 * [METASTAVA](https://doi.org/10.5281/zenodo.5841166)
 
-# Benefits of a DMP
+---
+
+## Benefits of a DMP
 If implemented correctly, a DMP can [benefit all stakeholders](https://doi.org/10.1371/journal.pcbi.1006750) in a research project, despite the initial cost of creating the DMP itself.
 
 A DMP can **save time and nerves** for yourself and others by planning ahead. DMPs define roles, responsibilities, and efforts regarding the data and its management. Writing a DMP will also get you in touch with IT staff and your institution's data protection officer at an early stage. Writing a DMP also ensures data quality and allows you to easily trace your processing steps, making your analysis and results reproducible. Writing a DMP also allows you to manage access rights and prevent security breaches. Finally, by writing your DMP, you may be able to identify gaps and vulnerabilities in your current data management strategy at an early stage and outline solutions to fill them.
@@ -47,7 +53,9 @@ A DMP can also facilitate and **harmonize the coordination and shared use of dat
 
 DMPs offer **other benefits**, such as enabling verification and control: researchers are accountable for how their data are managed during their research project. They also help to identify - and potentially minimize - time and money costs that need to be included in the proposal, such as for Research Data Management (RDM) activities. They also help to comply with Good Research Practice (GRP), support research integrity, and ensure that ethical and legal requirements are met. DMPs also help to meet institutional and funder requirements: funding agencies increasingly require information on the management of research data, and a DMP allows you to structure and formalize this information. Last but not least, DMPs facilitate data reuse, thereby increasing data citation and advancing scientific progress.
 
-# Writing a DMP
+---
+
+## Writing a DMP
 
 **Who is involved in the creation of the DMP?** Entities involved in the creation of a DMP are researchers, RDM staff (check your institution's [research data policy](https://www.forschungsdaten.org/index.php/Forschungsdaten-Policies) and ask for [local support](https://www.forschungsdaten.org/index.php/FDM-Kontakte)) and central infrastructure (e.g. computer center, library).
 
@@ -57,7 +65,9 @@ DMPs offer **other benefits**, such as enabling verification and control: resear
 
 **DMP quality check:** A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
 
-# DMP tools
+---
+
+## DMP tools
 Although it is generally possible to formulate a DMP in a text document, the use of more dynamic and machine-readable formats finally unlocks its full potential.
 
 * **[Research Data Management Organizer](https://rdmorganiser.github.io/) (RDMO)** is an open-source web application that has been widely adopted by institutes and consortia in Germany. RDMO supports the structured and collaborative planning and implementation of RDM and also enables the textual output of a DMP. 
@@ -69,7 +79,9 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Center](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
 
-# Further resources
+---
+
+## Further resources
 * Cessda - [Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide)
 * [Content of a Data Management Plan](https://doi.org/10.18154/RWTH-2019-10064)
 * [Data Management Plan — the Turing Way - Data Management Plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html)
@@ -90,5 +102,10 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 * [SM Wizard](https://smw.ds-wizard.org/)
 * [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
 
-# References
+---
+
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+
+## References
 {% bibliography --cited_in_order %}

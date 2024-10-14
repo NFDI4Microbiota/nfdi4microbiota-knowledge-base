@@ -29,18 +29,8 @@ bootstrap:
 
   # generate social links in footer
   social_links:
-    twitter: 'https://twitter.com/jonaharagon'
-    github:  'https://github.com/jonaharagon'
-    #facebook: 'https://example.com/@jekyllrb'
-    #instagram: 'https://example.com/@jekyllrb'
-    #linkedin: 'https://example.com/@jekyllrb'
-    #google: 'https://example.com/@jekyllrb'
-    #youtube: 'https://example.com/@jekyllrb'
-    #twitch: 'https://example.com/@jekyllrb'
-    #telegram: 'https://example.com/@jekyllrb'
-    #whatsapp: 'https://example.com/@jekyllrb'
-    #discord: 'https://example.com/@jekyllrb'
-    #slack: 'https://example.com/@jekyllrb'
+    mastodon: 'https://nfdi.social/@NFDI4Microbiota'
+    github:  'https://github.com/NFDI4Microbiota'
 
 
 # Build settings
@@ -53,6 +43,7 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-last-modified-at
+  - jekyll-scholar
 markdown: Kramdown
 collections_dir: docs
 collections:
@@ -115,3 +106,6 @@ scholar:
 # So enforcing a author-year style
   style: apa
   source: ./docs/_bibliography
+  bibtex_filters:
+    - latex
+    - markdown

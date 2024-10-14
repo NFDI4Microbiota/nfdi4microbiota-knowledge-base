@@ -7,6 +7,7 @@ docs_css: markdown
 
 The following list contains the names of the contributors in alphabetical order. If a new name is to be added, please simply add it in the correct place.
 
+* Boße, Sophie (ORCID ID: [0009-0002-6461-8291](https://orcid.org/0009-0002-6461-8291))
 * Bole, Martin (ORCID ID: [0009-0004-9189-8852](https://orcid.org/0009-0004-9189-8852))
 * Cassman, Noriko (ORCID ID: [0000-0003-1655-0931](https://orcid.org/0000-0003-1655-0931))
 * Förster, Frank (ORCID ID: [0000-0003-4166-5423](https://orcid.org/0000-0003-4166-5423), Wikidata: [Q42155371](https://www.wikidata.org/wiki/Q42155371))

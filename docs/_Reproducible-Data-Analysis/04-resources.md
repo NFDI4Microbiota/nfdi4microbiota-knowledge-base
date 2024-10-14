@@ -6,84 +6,131 @@ docs_css: markdown
 ---
 
 
-# Metainformation Template
+## Metainformation Template
 
-## CV terms
+### CV terms
 
-| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
-|---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
-| Homepage                        |                                                                                                  |                                   |
-| Developmental stage of the tool | maturity                                                                                         | (Emerging, Mature , Legacy)       |
-| Topic                           | (could be ELIXIR Community)                                                                      |                                   |
-| Software or data license        | license                                                                                          | string                            |
-| Description                     |                                                                                                  | multiline varchar (max. 50 lines) |
-| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  | [^2]               |
-| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004) | [^1]                              |
-| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  |                    |
-| Credits and support             | entity type, entity role                                                                         |                                   |
+| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                                           | Type of value or list of values   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Homepage                        |                                                                                                                           |                                   |
+| Developmental stage of the tool | maturity                                                                                                                  | (Emerging, Mature , Legacy)       |
+| Topic                           | (could be ELIXIR Community)                                                                                               |                                   |
+| Software or data license        | license                                                                                                                   | string                            |
+| Description                     |                                                                                                                           | multiline varchar (max. 50 lines) |
+| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) | [^2]                              |
+| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004)                          | [^1]                              |
+| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) |                                   |
+| Credits and support             | entity type, entity role                                                                                                  |
+{: .table .table-hover} 
 
-[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
-Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
+[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping, Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
 
 [^2]: FASTA, SAM, TSV, CSV, XLSX, Image
 
 ---
 
-## Template
-### Homepage
-### Maturity
-### Topic
-### License
-### Description
-### Input format
-### Tool operation
-### Output data
-### Credits, support
+### Template
+#### Homepage
+#### Maturity 
+#### License 
+#### Description
+#### Input format
+#### Tool operation
+#### Output data
+#### Credits, support
   - code: github/gitlab/sourceforge link
   - doi: [10.XXXX/YYYYYY](doi.org/10.xxxx/YYYYYYYY)
 
 
-# Bioinformatic tools
+## Bioinformatic tools
 
 ---
 
-## Disclaimer: Changes in the tool display
+#### Disclaimer: Changes in the tool display
 
-We recently created a [NFDI4Microbiota domain](https://nfdi4microbiota.bio.tools) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
+We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on the life sciences software registry [bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.
 Below you can browse tool recommendations from our consortium members.
 
 
-## bakta
-### Homepage
-https://github.com/oschwengers/bakta
-### maturity
-Mature
-### topic
-nnotation of bacterial genomes and plasmids
-### license
-[GPL-3.0](https://opensource.org/license/gpl-3-0/)
-### Description
+### bakta
+
+<table>
+<thead>
+  <tr>
+    <th>Dates in 2024</th>
+    <th>Event</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>January 29</td>
+    <td>Introduction to Ambassador Program and NFDI4Microbiota</td>
+  </tr>
+  <tr>
+    <td>March 25</td>
+    <td><b>“NFDI4Microbiota Standards &amp; policies”</b><br>by Sarah Schulz (EMBL)</td>
+  </tr>
+  <tr>
+    <td>May 27</td>
+    <td><b>“Introduction into The Carpentries”</b><br>by Rabea Müller (ZB-MED)</td>
+  </tr>
+  <tr>
+    <td>July 29</td>
+    <td><b>“ARUNA Object Storage”</b><br>by Frank Förster (Justus Liebig Universität Gießen)</td>
+  </tr>
+  <tr>
+    <td>September 30</td>
+    <td><b>“NFDI4Microbiota Use Cases”</b><br>by Maja Magel (RWTH)</td>
+  </tr>
+  <tr>
+    <td>November 25</td>
+    <td><b>“NFDI4Microbiota Knowledge Base”</b><br>by Kassian Kobert (Universität Bielefeld)</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th> Maturity </th>
+    <th>License </th>
+    <th>Input formats </th>
+    <th>Tool operation </th>
+    <th> Link</th>
+    </tr>
+</thead>
+<tbody>
+  <tr>
+  <td> mature </td>
+  <td> [GPL-3.0](https://opensource.org/license/gpl-3-0/) </td>
+  <td> (zipped) fasta file </td>
+  <td> Annotation </td>
+  <td> [Github](https://github.com/oschwengers/bakta) </td>
+  </tr>
+</tbody>
+</table>
+
+
+#### Description
 Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs. It provides dbxref-rich, sORF-including and taxon-independent annotations in machine-readable JSON & bioinformatics standard file formats for automated downstream analysis.
-### Input format
-(zipped) fasta
-### Tool operation
-annotation
+
+
 ### Output data
-.tsv: annotations as simple human readble TSV
-.gff3: annotations & sequences in GFF3 format
-.gbff: annotations & sequences in (multi) GenBank format
-.embl: annotations & sequences in (multi) EMBL format
-.fna: replicon/contig DNA sequences as FASTA
-.ffn: feature nucleotide sequences as FASTA
-.faa: CDS/sORF amino acid sequences as FASTA
-.hypotheticals.tsv: further information on hypothetical protein CDS as simple human readble tab separated values
-.hypotheticals.faa: hypothetical protein CDS amino acid sequences as FASTA
-.json: all (internal) annotation & sequence information as JSON
-.txt: summary as TXT
-.png: circular genome annotation plot as PNG
-.svg: circular genome annotation plot as SVG
+- **.tsv:** annotations as simple human readble TSV
+- **.gff3:** annotations & sequences in GFF3 format
+- **.gbff:** annotations & sequences in (multi) GenBank format
+- **.embl:** annotations & sequences in (multi) EMBL format
+- **.fna:** replicon/contig DNA sequences as FASTA
+- **.ffn:** feature nucleotide sequences as FASTA
+- **.faa:** CDS/sORF amino acid sequences as FASTA
+- **.hypotheticals.tsv:** further information on hypothetical protein CDS as simple human readble tab separated values
+- **.hypotheticals.faa:** hypothetical protein CDS amino acid sequences as FASTA
+- **.json:** all (internal) annotation & sequence information as JSON
+- **.txt:** summary as TXT
+- **.png:** circular genome annotation plot as PNG
+- **.svg:** circular genome annotation plot as SVG
 ### Credits, support
   - code: [oschwengers@github](https://github.com/oschwengers/bakta)
   - doi: [10.1099/mgen.0.000685](https://doi.org/10.1099/mgen.0.000685)
@@ -414,3 +461,7 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 - Created by S. Maegol
 - Krawczyk PS, Lipinski L, Dziembowski A. Nucleic Acids Res. 2018 Apr 6;46(6):e35.
 - doi: [10.1093/nar/gkx1321](https://doi.org/10.1093/nar/gkx1321)
+
+  
+## Get Help
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
