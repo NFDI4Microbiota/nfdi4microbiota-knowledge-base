@@ -11,7 +11,7 @@ Microbes exhibit remarkable versatility, thriving in environments as varied as t
 To fully leverage extensive (microbiological) data, it must be well-organized and carefully annotated. This involves adhering to best practices for data analysis, documenting data with comprehensive metadata, and ensuring it is shared in a way that ensures reusability and reproducibility. The FAIR principles—Findable, Accessible, Interoperable, and Reusable—offer a clear framework for effective data management, making data easier to use and share within the scientific community.
 
 ## What are FAIR Principles?
-
+---
 The FAIR data principles are a concise and measurable set of principles that may act as a guideline for those wishing to enhance the reusability of their data holdings. FAIR stands for Findable, Accessible, Interoperable and Reusable {% cite wilkinson_2016  %}. The FAIR data principles aims at {% cite wilkinson_2016 lowenberg_2021 %}:
 
 * Improving the infrastructure supporting the reuse of scholarly data.
@@ -52,10 +52,11 @@ Data interoperability is the ability of a dataset to work with other datasets or
 
 
 ## Challenges in Adopting FAIR Principles in Microbiology Research
-
+---
 Despite the advantages, some challenges exist in adopting FAIR principles in the field of microbiology. Researchers may encounter difficulties due to varying levels of awareness about data standards and where to deposit complex microbial data. Inconsistent reporting practices across the field can also pose challenges. Data sharing requirements (e.g. for journals, funding agencies) are not always comprehensive, sometimes focusing only on certain types of data, which can lead to variability in what is shared. The diversity of metadata, such as experimental and environmental conditions, can further complicate standardization efforts. Additionally, technical issues such as data quality and version management, combined with limited incentives for adherence to FAIR principles, may affect adoption {% cite huttenhower_2023 %}.
 
 ## Further resources
+---
 * Introducing the FAIR Principles for research software: [Barker *et al.* 2022](https://doi.org/10.1038/s41597-022-01710-x)
 
 ### Learning resources
@@ -76,7 +77,9 @@ Despite the advantages, some challenges exist in adopting FAIR principles in the
 * Self-Assessment Tool to Improve the FAIRness of Your Dataset ([SATIFYD](https://satifyd.dans.knaw.nl/)) 
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
 
 ## References
+---
 {% bibliography --cited_in_order %}

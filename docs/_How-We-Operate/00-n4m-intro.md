@@ -17,10 +17,9 @@ Here, all information, guidelines, SOPs, documents, and links required for the w
 ### Contribution
 Each member of the consortium can [contribute to this repository](https://knowledgebase.nfdi4microbiota.de/Getting-Started/02-contributing.html).
 
----
-
 ## The Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI association)
 
+---
 
 - The National Research Data Infrastructure (NFDI) aims to systematically index, edit, interconnect, and make available the valuable stock of data from science and research.
   Digital data storage is an indispensable prerequisite for treating new research issues, generating findings, and making innovations. Therefore, the NFDI association was founded in 2020.
@@ -31,10 +30,10 @@ Each member of the consortium can [contribute to this repository](https://knowle
 - In a 30-minute video, the [statute](https://www.youtube.com/watch?v=mXNeZdzCfBg&t=434s) of the NFDI e.V. (German) is explained on their [YouTube channel](https://www.youtube.com/channel/UCTz321rUFOvrKOgkFfhyhLQ).
 - The Deutsche Forschungsgesellschaft (DFG) funds different NFDI consortia (independently of the NFDI e.V.). Further information and introductory videos can be found on the [DFG website](https://www.dfg.de/en/research-funding/funding-initiative/nfdi).
 
----
 
 ## Introduction to NFDI4Microbiota
 
+---
 
 **Vision:** 
 
@@ -81,10 +80,10 @@ h)	# of training
 i)	# of ambassadors  
 j)	# of commits to the knowledge base
 
----
 
 ## Governance of NFDI4Microbiota
 
+---
 
 Governance is the process of making and enforcing decisions within an organization or society. In the following, the governance structure will be introduced, and the governance bodies are defined.
 
@@ -149,10 +148,9 @@ thus reacting to new and unforeseen scenarios. It is staffed based on suggestion
 ### NFDI4Microbiota Policy
 The General Assembly adopted the NFDI4Microbiota Policy in 2023, which will be published on the [NFDI4Microbiota Zenodoo community](https://zenodo.org/communities/nfdi4microbiota) soon.
 
----
-
 ## Annual timeline of important dates for the consortium
 
+---
 
 This timeline gives a rough orientation on the annual tasks, deliverables, meetings, etc. of the administration and the outreach of NFDI4Microbiota.
 
@@ -182,10 +180,10 @@ Middle of November | Announcement | M5.3 | Forwarding Flex Funds decision to app
 December | Event | TA51 | NFDI4Microbiota Annual Conference 2024
 December | Meeting | TA5 | Quarterly coordination coffee
 
----
 
 ## NFDI4Microbiota Community, Members, Partners, and Participants
 
+---
 
 ### NFDI4Microbiota Community
 The NFDI4Microbiota community is defined as the group of all researchers working within or with microbiology-related projects and the respective data. 
@@ -223,10 +221,10 @@ found. All participants are members of the mailing list participants-at-nfdi4mic
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
 and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on the ambassador program can be found on the [web portal](https://nfdi4microbiota.de/community/ambassador.html).
 
----
 
 ## Communication
 
+---
 
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
@@ -253,10 +251,10 @@ If you are involved in further sections, task forces, or administrative groups (
 NFDI mailing lists. For some mailing lists, archives of past emails do exist and can be viewed too. Every NFDI4Microbiota member should at least register to 'nfdi-all' mailing list.
 All lists can be accessed via [this link](https://lists.nfdi.de/postorius/lists/).
 
----
 
 ## Finances
 
+---
 
 For the consortium, the information on the annual direct cost distributions and flexible funding are of interest. 
 In general, the [Usage Guidelines of the DFG](https://www.dfg.de/resource/blob/168728/8ee8c5e88b49e485ec3e0cb8d3fe107d/dfg-nfdi300-de-v0721-data.pdf) giving a guideline on 

@@ -11,11 +11,13 @@ Software containers, such as [Apptainer](https://apptainer.org/) (formerly known
 This is crucial for scientific research, ensuring that analyses remain consistent regardless of the underlying infrastructure.
 
 ## Why Use Software Containers?
+---
 - **Consistency and Reproducibility**: Containers ensure your analysis runs the same way, everywhere.
 - **Isolation**: Package your application with its dependencies to avoid conflicts.
 - **Portability**: Easily share your computational environment with others.
 
 ## Getting Started with Containers
+---
 Apptainer is a popular choice in scientific and high-performance computing (HPC) environments due to its ability to handle container privileges.
 It offers secure, user-friendly containerization, making it ideal for computational biology and bioinformatics.
 Based on the same technology, Docker images are compatible with Apptainer and most commands function similarly.
@@ -29,6 +31,7 @@ For installation and quick start, always refer to the main documenation page fro
 
 
 ## Example of Working with Containers
+---
 
 ### Apptainer
 To start getting an idea what a container actually is, it is relevant to get some examples.
@@ -47,6 +50,7 @@ Similarly with Docker, the user can find an example of running BLAST [here](http
 
 
 ## Best Practices for Container Creation {best-practices}
+---
 When creating containers, incorporating best practices ensures efficiency, security, and reproducibility. Here's a concise guide, drawing from broader container best practices, including insights from [Google Cloud's recommendations](https://cloud.google.com/architecture/best-practices-for-building-containers):
 
 - **Use Specific Versions**: Specify exact versions of base images, software, and libraries, in order to avoid breaking changes occuring when updating with the `latest` tag and ensures consistency across environments.
@@ -73,6 +77,7 @@ Use volumes or bind mounts for data that needs to persist beyond the life of the
 
 
 ## Advanced Usage
+---
 ### Integration with [Nextflow](https://www.nextflow.io/docs/latest/container.html)
 - **Nextflow and Containers**: Simplifies complex workflows by executing each step in a container for consistency across environments.
 - **Configurations**: Supports managing containers through `nextflow.config`, streamlining execution.
@@ -82,9 +87,11 @@ Use volumes or bind mounts for data that needs to persist beyond the life of the
 - **Scalability and Management**: Provides tools for load balancing, auto-scaling, and efficient resource allocation across diverse infrastructures.
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
 
 ## Resources and Further Reading
+---
 - [Apptainer User Guide](https://apptainer.org/docs/user/latest/introduction.html): Comprehensive documentation for getting started with Apptainer.
 - [BioContainers Community](https://biocontainers.pro/): A resource for finding and sharing containerized bioinformatics tools.
 - [Docker Introduction Lesson (Beta version)](https://carpentries-incubator.github.io/docker-introduction/)

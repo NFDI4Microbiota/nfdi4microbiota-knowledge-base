@@ -7,6 +7,7 @@ docs_css: markdown
 A **data repository** is a location where digital objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
 
 ## Benefits of publishing data in a repository
+---
 * **Back-up** (i.e. the practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage).
 * Increased **data discoverability** and **accessibility**, and thus potential **data reuse**.
 * Increased **visibility** and **citations** as repositories can be harvested by **search engines** such as:
@@ -16,6 +17,7 @@ A **data repository** is a location where digital objects are stored and documen
     * [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
 
 ## Criteria to select a trusted repository
+---
 Below are listed criteria you might want to consider when selecting a repository where to publish your data:
 * Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 or ISO 16363? Find these repositories via re3data or the website of various certification initatives:
     * [Find CTS-certified repositories on re3data](https://www.re3data.org/search?query=&certificates%5B%5D=CoreTrustSeal)
@@ -34,6 +36,7 @@ Below are listed criteria you might want to consider when selecting a repository
 * Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation.
 
 ## Order of preference for selecting a repository
+---
 1. A certified resposity (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
 2. A well-established repository in your discipline that offers a specific scope (e. g. supporting a specific metadata schema).
 3. One of the repositories recommended by your funding organization or the funding program.
@@ -42,6 +45,7 @@ Below are listed criteria you might want to consider when selecting a repository
 6. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
 ## Well-established repositories for data deposition in microbiology
+---
 Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
 | Data type 	| Data repository 	| FAIRsharing 	| re3data 	| 
@@ -86,6 +90,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 {: .table .table-hover}
 
 ## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
+---
 
 #### Repository details
 * **Data types**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
@@ -125,6 +130,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 * The FRL can be browsed only in German.
 
 ## Data publishing in Zenodo
+---
 
 #### Repository details
 * **Data types**: all research outputs, positive and negative results
@@ -159,6 +165,7 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * Zenodo has a size limit of 50 GB per record. For bigger size, a request has to be made.
 
 ## Repository finders
+---
 * To find any repositories:
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
     * The RDA-endorsed [FAIRsharing.org](https://fairsharing.org/) ([search results](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=microbiology&page=1) for Databases in Microbiology)
@@ -167,12 +174,15 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * To find Open Access repositories: [OpenDOAR](https://v2.sherpa.ac.uk/opendoar/): Directory of Open Access Repositories
 
 ## Further Resources
+---
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
 ## References
+---
 * Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. [https://doi.org/10.5281/ZENODO.6674301](https://doi.org/10.5281/ZENODO.6674301)
 * Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). “You say potato, I say potato” - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. [https://doi.org/10.5281/ZENODO.3672773](https://doi.org/10.5281/ZENODO.3672773)
 * Rathmann T. et al. 2021-10. Workshop on Research Data Management. FoDaKo and ZB MED - Information Centre for Life Sciences. Google Slides.

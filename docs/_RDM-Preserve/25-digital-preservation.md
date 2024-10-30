@@ -5,12 +5,13 @@ layout: default
 docs_css: markdown
 ---
 
-# Definition
+## Definition
 Digital preservation (DP) means taking certain measures to ensure that digital material can be found and accessed in the long term (“long-term accessibility of data”). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. [Ref. ISO, OAIS, dpc]. 
 
 The long-term timeframe starts now and lasts long as necessary. It may extend into an indefinite future, where there are usually concerns about changing technologies, storage media, obsolete data formats or standards [OAIS, Defintion of “Long Term”].
 
-# DP during research
+## DP during research
+---
 
 The sustainable handling of data naturally facilitates the long-term accessibility of the data. 
 Best practice methods are:
@@ -22,7 +23,7 @@ Best practice methods are:
    * Store files on 2 different types of data carriers 
    * Keep at least 1 copy off-site.
 
-## Data selection
+### Data selection
 To decide well-founded on data selection the suggested steps are:
 * **Step 1:** Identify data that **must** and **can** be kept: consider legal or policy compliance risks, as well as funder requirements.
 * **Step 2:** Identify data that **should** be kept: data which was expensive to generate, which is impossible to reproduce, particularly curated data and/or data which supports research findings in papers.
@@ -33,7 +34,7 @@ To decide well-founded on data selection the suggested steps are:
 
 See also: How-to guide of the Edinburgh Digital Curation Centre (DCC, 2014).
 
-## File formats recommendation
+### File formats recommendation
 Providing your research in recommended file formats in addition to the original format supports the reusability and long-term accessibility of your data. 
 
 Attributes of those file formats are: 
@@ -47,7 +48,8 @@ Attributes of those file formats are:
   
 For biomaterial data, recommended formats are CSV, TXT and XML.
 
-# DP in labs
+## DP in labs
+---
 Depending on the project, institution and funding guidelines, the time at which the data of a research project is transferred to a local data centre for final documentation or to a repository, e.g. for publication, varies. Until then, preparing and setting up long-term archiving in your lab or on-site facility is an effort that will undoubtedly contribute to the sustainability of your research.
 The following section is intended to provide a basic understanding of the possible measures:
 * Determine responsibilities
@@ -83,7 +85,8 @@ The following section is intended to provide a basic understanding of the possib
       * Replace files with problems and document all changes made to the digital object as part of the curative process.
       * Document all versions of files with the option to revert to previous versions if required
   
-# DP for repository operators
+## DP for repository operators
+---
 Repositories usually contain publications in the form of files and are dependent on the quality of submission. Similar to digital preservation in laboratories, digital preservation in repositories depends on sustainable organisational and technical capabilities to prevent technical and semantic obsolescence. In addition, repositories have a particular responsibility to provide published research data and their metadata in a machine readable and usable way that meet the needs of their user community. - see also: [FAIR-principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair.html).  However, the deliberate design of the metadata schema and the repository's publication policy may impose specific requirements for the acceptance of the digital object. Digital Preservation may add additional data quality processes.
 
 
@@ -104,9 +107,11 @@ Many of the criteria for digital preservation that apply to repositories can als
 {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}.
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
 ## References
+---
 {% bibliography --cited_in_order %}
 1.	DCC. (2014). Five steps to decide what data to keep: a checklist for appraising research data v.1. In Edinburgh: Digital Curation Centre. https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep
 2.	Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). "You say potato, I say potato" - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. 15(1). https://doi.org/10.2218/ijdc.v15i1.728
