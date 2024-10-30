@@ -22,21 +22,21 @@ The FAIR data principles are a concise and measurable set of principles that may
 
 The principles {% cite wilkinson_2016 go_fair_2022 %} are reproduced below:
 
-## To be Findable
+### To be Findable
 
 * (Meta)data are assigned a globally unique and persistent identifier.
 * Data are described with rich metadata.
 * Metadata clearly and explicitly include the identifier of the data it describes.
 * (Meta)data are registered or indexed in a searchable resource (e.g. data repository).
 
-## To be Accessible
+### To be Accessible
 
 * (Meta)data are retrievable by their identifier using a standardized communications protocol (e.g. http(s)).
 * The protocol is open, free, and universally implementable.
 * The protocol allows for an authentication and authorization procedure, where necessary.
 * Metadata are accessible, even when the data are no longer available.
 
-## To be Interoperable 
+### To be Interoperable 
 
 Data interoperability is the ability of a dataset to work with other datasets or systems without special effort on the part of the user {% cite godan_action_2019_3588148 %}.
 
@@ -44,7 +44,7 @@ Data interoperability is the ability of a dataset to work with other datasets or
 * (Meta)data use vocabularies that follow the FAIR principles (e.g. using FAIR Data Point).
 * (Meta)data include qualified references to other (meta)data (e.g. specifying if one dataset builds on another one, properly citing all datasets).
 
-## To be Reusable
+### To be Reusable
 
 * Meta(data) are richly described with a plurality of accurate and relevant attributes (i.e. metadata that richly describes the context under which the data was generated such as the experimental protocols, the species used).
 * (Meta)data are released with a clear and accessible data usage license.
