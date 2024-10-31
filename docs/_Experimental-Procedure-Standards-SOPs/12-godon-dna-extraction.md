@@ -7,7 +7,7 @@ hide: true
 ---
 
 
-# Metadata
+## Metadata
 
 | Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |------ |
@@ -17,16 +17,18 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 
 *Consider accessing the protocol for a donwloadable PDF version.*
    
-# Protocol
+## Protocol
 
-## Prepare: 
+---
+
+### Prepare: 
 - TE buffer (10 mM Tris-HCl pH 8.0, 1 mM EDTA) 
 - Bead-beater-tubes (with 500 mg+/- 10 mg Zirconia/Silicia beads, autoclaved) 
 - 4M Guanidinethiocyanate in 0,1M Tris pH 7,5 (consider appropriate disposal) 
 - 5 % N-laurolylsarcosine in PBS (Dulbecco’s phosphate Buffered Saline) (consider appropriate disposal)
 
 
-## Sample preparation: 
+### Sample preparation: 
 Consider first if you want to use the enzymatic lysis step! 
 - For extraction from bacterial culture: Take 2 ml of a well grown culture, centrifuge it at 12.000 x g for 10 min, and discard 
 the supernatant 
@@ -36,7 +38,7 @@ thaw at room temperature.
 temperature  
 - If protocol is used with enzymatic step do not use DNA Stabilizer
 
-## DNA Isolation: 
+### DNA Isolation: 
 **For enzymatic extraction**
 Prepare Lysozyme-Solution (TE Buffer with 15 µg/µl Lysozyme): 
     mass Lysozyme = (#Samples(+1)) * 7.5 mg 
@@ -67,7 +69,7 @@ Centrifuge at 15.000 x g, 4 °C, 3 min
 heat up DE)  
 11. Proceed with the NucleoSpin® gDNA Clean-up follow protocol
 
-##Material
+### Material
 
 - ProteinaseK; Carl Roth (7528.1) 
 - NucleoSpin® gDNA Clean-up; Macherey-Nagel (740230.250) 
@@ -78,6 +80,3 @@ heat up DE)
 - TE buffer; Sigma-Aldrich (T9285-100ML) 
 - Poly(vinylpolypyrrolidone); Sigma-Aldrich (P5288-100G) 
 - 1.5 mL and 2 mL Eppendorf tubes 
-
-# References
-{% bibliography --cited_in_order %}

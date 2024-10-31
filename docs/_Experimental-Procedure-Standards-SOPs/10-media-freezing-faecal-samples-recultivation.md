@@ -6,7 +6,7 @@ docs_css: markdown
 hide: false
 ---
 
-# Metadata
+## Metadata
 
 | Title |  Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |
@@ -15,8 +15,9 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 {: .table .table-hover}
 
    
-# Protocol
+## Protocol
 
+---
 
 1. Make normal saline: 9.0 g/L NaCl 
 2. Dissolve Maltodextrin and Trehalose in normal saline at 40 °C, to respective final concentrations 
@@ -31,15 +32,11 @@ For 100 mL:
 0.5 g   | Ascorbic acid |
 0.05 g  |  L-Cystein |
 
-## Material
+### Material
+
 - Maltodextrin [PubChem SID: 481109074](https://pubchem.ncbi.nlm.nih.gov/substance/481109074)
 - Trehalose 
 - L-Cystein 
 - Ascorbic acid 
 - NaCl 
 - Water (MQ/DEPC) 
-
-
-# References
-{% bibliography --cited_in_order %}
-

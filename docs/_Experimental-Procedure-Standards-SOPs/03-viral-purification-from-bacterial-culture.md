@@ -19,4 +19,7 @@ docs_css: markdown
 11.	Store at 4°C
 
 ## Source
+
+---
+
 In-house protocol provided by Sarah Schulz.

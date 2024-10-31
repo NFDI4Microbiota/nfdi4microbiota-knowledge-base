@@ -9,7 +9,7 @@ hide: true
 This is a template document on how to add templates to the knowledge base. Please create a copy and adapt accordingly.
 
 
-# Metadata
+## Metadata
 
 | Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |------ |
@@ -18,7 +18,10 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 {: .table .table-hover}
 
 
-# add references to the bib file add:
+## add references to the bib file add:
+
+---
+
 Here are a few examples:
 
 @misc{fmt_media,
@@ -42,7 +45,9 @@ Here are a few examples:
   url = {https://doi.org/10.1038/s41598-019-45173-4}
 }
    
-# Protocol
+## Protocol
+
+---
 
 Add your protocol here.
 
@@ -50,5 +55,3 @@ Add your protocol here.
 
 ##Material
 
-# References
-{% bibliography --cited_in_order %}

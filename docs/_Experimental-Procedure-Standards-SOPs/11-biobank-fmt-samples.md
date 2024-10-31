@@ -6,7 +6,7 @@ docs_css: markdown
 hide: true
 ---
 
-# Metadata
+## Metadata
 
 | Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |-------|
@@ -15,7 +15,9 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 {: .table .table-hover}
 
    
-# Protocol
+## Protocol
+
+---
 
 For each sample (001-NNN), label 50 x 1,5 mL Eppendorf Tubes as follows (example for project acronym 
 “Cultimic”): 
@@ -74,6 +76,3 @@ Collect questionnaires and enter metadata into the protected, study-specific spr
 -  1 mL syringes 
 -  50 mL Falcon tubes 
 -  Pipet tips with wide opening 1250µL; VWR (613-0751)
-
-# References
-{% bibliography --cited_in_order %}
