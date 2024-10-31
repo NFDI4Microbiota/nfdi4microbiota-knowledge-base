@@ -107,13 +107,4 @@ Additionally, some workflows and tools beneficial for repository operators are l
 Many of the criteria for digital preservation that apply to repositories can also be found in certification such as CoreTrustSeal and the nestor seal {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}. Taking certification material into account is a good idea in any case, even if certification is not or not yet an issue. Research funders increasingly recommend publication of research data in certified repositories.
 
 
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
-
-## References
----
-{% bibliography --cited_in_order %}
-
-
 
