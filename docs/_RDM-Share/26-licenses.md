@@ -14,6 +14,7 @@ Defining or using a suitable license for published content usually has the benef
 In sciences, two categories of licenses can applied to either software or data and results that explicitly describe whether and how others can use it.
 
 ## Properties of recommendable licenses
+---
 * Standardized, i.e. machine-readable, text
 * Available in an easy-to-read version
 * No transfer of exclusive rights
@@ -21,6 +22,7 @@ In sciences, two categories of licenses can applied to either software or data a
 * Common
 
 ## Licenses for data and other creative works
+---
 Also scientific data and output are subject to copyright if their generation requires a sufficient amount of creativity (this might be contested in some contexts).
 However, since scientists conduct experiments mostly within their employment of their funding institution, the copyright lies with both and should ideally be discussed with the employer (the universities legal department) in high profile cases.
 
@@ -68,6 +70,7 @@ We are going to be looking at two examples here:
 Both datasets have been submitted to Zenodo under the  [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). That means that the data that has been deposited is in the public domain. That implies that the data deposited can be copied, modified, distributed, and used even for commercial purposes, and the depositor/generator of the data waives their right to the work. The user of data does not need to seek the permission of the data/material submitter or generator.
 
 ## Software licenses
+---
 When software sources are distributed, it is considered good practice to specify an already established license under which it can be used.
 Software developed in the context of science and funded by public money, usually needs to be made available free of charge and in open source by requirements of the funder or the governing institution's policies.
 
@@ -102,10 +105,11 @@ Especially source repositories like github or gitlab will allow you to choose a 
 The benefit of selecting a license on the code hosting platform is the machine readable interpretation of your permissions which can potentially increase visibility in search results across the platform.
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
 ## Further resources
-
+---
 - [Creative Commons license chooser](https://creativecommons.org/choose): Explanations and guide to choosing CC licenses for your work.
 - [tl;drLegal](https://tldrlegal.com/): Software licenses in plain English with a short feature list.
 - [ChooseALicense](https://choosealicense.com/licenses/): Simple but incomplete recommendation for software licenses with short feature lists.

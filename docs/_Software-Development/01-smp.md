@@ -6,11 +6,11 @@ docs_css: markdown
 ---
 
 
-# Introduction
+## Introduction
+---
 
-
-# References
-
+## References
+---
 - Martinez-Ortiz, Carlos, Martinez Lavanchy, Paula, Sesink, Laurents,
   Olivier, Brett G., Meakin, James, de Jong, Maaike, & Cruz,
   Maria. (2022). Practical guide to Software Management Plans

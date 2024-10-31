@@ -136,9 +136,8 @@ Bakta is a tool for the rapid & standardized annotation of bacterial genomes and
   - doi: [10.1099/mgen.0.000685](https://doi.org/10.1099/mgen.0.000685)
 
 
----
-
 ## andi
+---
 ### Homepage
 http://github.com/evolbioinf/andi/
 ### maturity
@@ -161,9 +160,8 @@ txt (distance matrix)
  - doi: [10.1093/bioinformatics/btu815](https://doi.org/10.1093/bioinformatics/btu815)
 
 
----
-
 ## xenoseq
+---
 ### Homepage
 https://github.com/bramvandijk88/xenoseq
 ### maturity
@@ -184,9 +182,8 @@ fasta, tsv
   - github: @bramvandijk88
 
 
----
-
 ## syntenet
+---
 ### Homepage
 <https://doi.org/doi:10.18129/B9.bioc.syntenet>
 ### maturity
@@ -207,10 +204,8 @@ R data.frame
   - github: @almeidasilvaf
   - doi:10.1093/bioinformatics/btac806
 
-
----
-
 ## DeLTA2
+---
 ### Homepage
 https://gitlab.com/dunloplab/delta
 ### maturity
@@ -232,9 +227,8 @@ tiff, tsv
   - doi:10.1371/journal.pcbi.1009797
 
 
----
-
 ## Omnipose
+---
 ### Homepage
 https://github.com/kevinjohncutler/omnipose
 ### maturity
@@ -256,9 +250,8 @@ tiff, hdf5
   - doi:10.1038/s41592-022-01639-4
 
 
----
-
 ## RAREFAN
+---
 ### Homepage
 http://rarefan.evolbio.mpg.de
 ### maturity
@@ -280,9 +273,8 @@ gff3, html, R
   - doi:10.24072/pcjournal.244
 
 
----
-
 ## ProteinOrtho
+---
 ### Homepage
 https://gitlab.com/paulklemm_PHD/proteinortho
 ### maturity
@@ -309,9 +301,8 @@ tsv, graph, html, xml
  - doi:10.1186/1471-2105-12-124
 
 
----
-
 ## vConTACT
+---
 ### Homepage
  ### maturity
 Mature
@@ -331,10 +322,8 @@ TSV,  network file, annotation file
  - code: https://bitbucket.org/MAVERICLab/vcontact2/src/master/
  - doi: [10.1038/s41587-019-0100-8](10.1038/s41587-019-0100-8)
 
-
----
-
 ## VirFinder
+---
 ### Homepage
 https://github.com/jessieren/VirFinder
 ### maturity
@@ -357,9 +346,8 @@ TSV
  - doi:
 
 
----
-
 ## deepARG
+---
 ### Homepage
 [https://github.com/gaarangoa/deeparg](https://github.com/gaarangoa/deeparg)
 ### Maturity
@@ -386,9 +374,8 @@ The deepARG tool leverages deep learning techniques to predict antibiotic resist
 - doi: [10.1186/s40168-018-0401-z](https://doi.org/10.1186/s40168-018-0401-z)
 
 
----
-
 ## Qiita
+---
 ### Homepage
 [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 ### maturity
@@ -412,9 +399,8 @@ SAM, Tables, visualizations
   - doi: [10.1038/s41592-018-0141-9](https://doi.org/10.1038/s41592-018-0141-9)
 
 
----
-
 ## GTDBTk
+---
 ### Homepage
 [https://github.com/Ecogenomics/GTDBTk](https://github.com/Ecogenomics/GTDBTk)
 [https://ecogenomics.github.io/GTDBTk/](https://ecogenomics.github.io/GTDBTk/)
@@ -438,9 +424,8 @@ GTDBTk (Genome Taxonomy Database Toolkit) is a software toolkit designed to clas
 - doi: [10.1093/bioinformatics/btac672](https://doi.org/10.1093/bioinformatics/btac672)
 
 
----
-
 ## PlasFlow
+---
 ### Homepage
 [https://github.com/smaegol/PlasFlow](https://github.com/smaegol/PlasFlow)
 ### Maturity
@@ -464,4 +449,5 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 
   
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

@@ -10,13 +10,14 @@ The following data is compiled from a questionnaire of Q4 2022 and is targeted a
 The goal is to gather this information centrally in NFDI4Microbiota to assess the span of tools and derive consortium-wide guidelines for the tightest integration possible.
 
 ## Disclaimer: Changes in the tool display
-
+---
 We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.  
 In the meantime, browse our tools below and find more [recommendations for resources on reproducible data analysis]({% link _Reproducible-Data-Analysis/04-resources.md %}).
 
 ## Applications
+---
 ### checkM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
@@ -68,6 +69,7 @@ License: [LGPL 3.0](https://opensource.org/license/lgpl-3-0/)
 Link: [https://gitlab.com/paulklemm_PHD/proteinortho](https://gitlab.com/paulklemm_PHD/proteinortho)
 
 ## Benchmarks
+---
 ### AMBER (Helmholtz-HZI) 
 
 Assessment of Metagenome BinnERs
@@ -79,6 +81,7 @@ License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 Link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
 
 ## Databases
+---
 ### BacDive (DSMZ) 
 
 "BacDive is the worldwide largest database for standardized bacterial information.
@@ -150,6 +153,7 @@ License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 Link: [https://webapp.ufz.de/tmdb](https://webapp.ufz.de/tmdb)
 
 ## Pipelines
+---
 ### BioAutoML (UFZ) 
 
 BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences
@@ -237,6 +241,7 @@ License: [BSD3](https://opensource.org/license/bsd-3-clause/)
 Link: [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 
 ## Webservices
+---
 ### iPath (EMBL) 
 
 Interactive Pathways Explorer (iPath) is a web-based tool for the visualization, analysis and customization of various pathway maps.
@@ -268,4 +273,5 @@ License: NA
 Link: [https://nfdi4microbiota.de/contact-form/](https://nfdi4microbiota.de/contact-form/)
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

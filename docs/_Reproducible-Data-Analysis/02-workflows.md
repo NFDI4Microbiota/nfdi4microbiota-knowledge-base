@@ -11,7 +11,7 @@ redirect_from: /Reproducible-Data-Analysis
 This page should give an overview of suggested standards for workflows. Not all points are applicable to, or reasonable for, all situations. Thus, the following suggestions should be taken as guidelines for good workflow practices, not strict requirements. In this context, we consider a workflow to be a pipeline of programs for data processing.
 
 ## FAIR Principles for Data management
-
+---
 In NFDI4Microbiota, we aim to follow the FAIR principles for data management (see [here]({% link _Research-Data-Management/04-fair.md %}) for more details).
 In essence, data should be Findable, Accessible, Interoperable, and Reusable.
 For workflows this means, data and/or results in the form of processed data should (if possible):
@@ -24,6 +24,7 @@ E.g. See [here](https://ena-docs.readthedocs.io/en/latest/submit/assembly/metage
 Also consider uploading/providing intermediate results, if the pre-processing done by the workflow is time-consuming and the data is of broad interest.
 
 ## Accessibility of the Workflow
+---
 Similar to data, the workflow itself should be accessible and (re-)usable by a broad user-base.
 In particular, this means the workflow should:  
 
@@ -34,7 +35,7 @@ In particular, this means the workflow should:
 - If you are maintaining the workflow and offering support to users, supply a way to contact help/support.
 
 ## Documentation
-
+---
 Any workflow should be well documented. (e.g. via a README.md or wiki etc.). This includes documentation on different levels. In particular, a workflow should:
 
 - Have a concise high level documentation describing the overall goal of the workflow and the type of addressed problem.
@@ -45,7 +46,7 @@ Any workflow should be well documented. (e.g. via a README.md or wiki etc.). Thi
 - As a recommendation: Have a graphical representation of the workflow as part of the user documentation.
 
 ## Reproducibility
-
+---
 Ideally, results obtained with the workflow should be reproducible. That is, given the same input data and same parameters, the same version of a workflow should always produce the same result. This requirement is non-trivial. Using different versions of the underlying tools, (unseeded) random results, different operating systems, or even different resolutions for race conditions can all result in different output for a given workflow. Containerization is a good way to address some of these concerns.
 Thus, a good workflow should:
 
@@ -55,7 +56,7 @@ Thus, a good workflow should:
 - Use and note seeds used for randomized steps in the pipeline (if possible)
 
 ## Quality Control
-
+---
 A good workflow should consistently produce good results. For this reason, we propose the following quality control measures. Workflows should:
 
 - Set reasonable default parameters, such that standard use-cases require minimal adjustment
@@ -64,7 +65,7 @@ A good workflow should consistently produce good results. For this reason, we pr
 - Be supplied alongside a simple test case and matching expected result, such that the continued validity of the workflow can be verified (e.g. as part of a CI/CD process)
 
 ## Technical requirements
-
+---
 Execution of workflows on Slurm based clusters is directly supported in the nextflow as well as snakemake workflow engines. However, for running smoothly, in particular on a larger scale, well designed workflow should follow the subsequent recommendations:
 
 - Specify the required resources in each workflow step's executor as accurately as possible. E.g. A memory demanding assembly step should also request an appropriate amount of memory to guarantee that the workflow engine schedules the job to a cluster node fulfilling the memory demands.
@@ -75,4 +76,5 @@ Execution of workflows on Slurm based clusters is directly supported in the next
 - It should also be possible to directly write all outputs to an S3 bucket.
 
 ## Get Help
+---
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
