@@ -34,8 +34,3 @@ h.	Collect sample eluent and evaporate the samples to dryness in a SpeedVac conc
 6.	Store samples at -80°C till further analysis or ship in dry ice.
 
 7.	Sample are reconstituted in mobile phase (or 50% methanol) before analysis 
-
-
-
-## References
-{% bibliography --cited_in_order %}

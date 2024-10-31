@@ -99,7 +99,3 @@ Sample elution & collection:
 9. Elute with 50 µl B
 10. Elute with 50 µl B
 Dry samples in Speedvac and reconstitute peptides in 1% formic acid supplemented with 4% acetonitrile. Samples are now ready for the injection on a mass spectrometer
-
-## References
-{% bibliography --cited_in_order %}
-

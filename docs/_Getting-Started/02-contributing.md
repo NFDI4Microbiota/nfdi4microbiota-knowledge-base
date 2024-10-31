@@ -1,11 +1,11 @@
 ---
-title: Contributing to the NFDI4Microbiota Knowledge Base
+title: How to Contribute
 category: Getting-Started
 layout: default
 docs_css: markdown
 ---
 
-
+## Introduction
 
 This document contains instructions on how to contribute to the Knowledge base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
@@ -15,13 +15,18 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 2. Make changes to files in the repository:
     - Edit existing files *or*
     - Create new files
-3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file
+3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file.
 
 ## Create a GitHub account
 
+---
+
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
+
 ## Make changes to the repository
+
+---
 
 ### Edit existing files
 
@@ -64,12 +69,17 @@ To create a new issue:
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
+
 ## Add your name to the CONTRIBUTORS file
+
+---
 
 We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/03-contributors.md) file.
 
 
 ## Contribution Rules
+
+---
 
 When adding or editing files, please observe the following rules:
 
@@ -77,13 +87,18 @@ When adding or editing files, please observe the following rules:
 2. Use American English
 3. Keep the content factual
 4. Reference sources appropriately (see below)
-5. Use a single `#` for the main file heading and use `##`, `###`, etc, for all subheadings
-6. Place image files in the `assets/img/` directory
-7. Use internal links to markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
+5. Use a single `##` for the main file heading and use `###`, `####`, etc, for all subheadings
+6. After the second and every following `##` add `---` for a visual break line.
+7. Place image files in the `assets/img/` directory
+8. Use internal links to markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
+9. Non-public links are be restricted to the how-we-operate section and whitelisted in `.github/workflows/ignored-urls.txt` manually
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
+
 ## Cite sources
+
+---
 
 1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.

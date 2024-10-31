@@ -88,4 +88,3 @@ redirect_from: /Resources
 * [Glossary - Data processing and visualization for metagenomics](https://carpentries-lab.github.io/metagenomics-analysis/reference.html)
 * [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)
 * [GoFAIR - FAIR principles for metadata vocabulary usage](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/)
-

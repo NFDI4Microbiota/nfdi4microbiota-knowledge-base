@@ -61,18 +61,18 @@ function ChangeSelect(TxtBox) {
 }
 function GenerateScrollSpy() {
   let currentUl = $('<ul></ul>'); // Start with an empty list
-  let currentH1 = null; // Track the current <h1>
+  let currentH = null; // Track the current <h1>
 
-  $('h1, h2').each(function (index, element) {
+  $('h2, h3').each(function (index, element) {
     const tag = $(element).prop('tagName');
     
-    if (tag === 'H1') {
-      currentH1 = $('<li><a href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
+    if (tag === 'H2') {
+      currentH = $('<li><a href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
       currentUl = $('<ul></ul>'); // Create a new <ul> for nested h2 elements
-      currentH1.append(currentUl);
-      $('#TableOfContents').children().eq(0).append(currentH1);
-    } else if (tag === 'H2' && currentH1) {
-      currentUl.append('<li><a class="toc-h2" style="font-size:0.6rem" href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
+      currentH.append(currentUl);
+      $('#TableOfContents').children().eq(0).append(currentH);
+    } else if (tag === 'H3' && currentH) {
+      currentUl.append('<li><a style="font-size:0.8rem" href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
     }
   }); 
 }

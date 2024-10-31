@@ -7,6 +7,8 @@ redirect_from: /How-We-Operate
 ---
 
 ## Introduction
+
+
 The guidelines collected here should give prospective trainers an
 overview of general (common sense) best practices for executing training
 courses. We focus on training events targeted at professionals from the
@@ -28,6 +30,8 @@ illustrate our points. We separate the guidelines along the timeline of
 before, during, and after the training.
 
 ## Before the Training
+
+---
 
  A large part of the trainer’s work will already be done in preparation
 for any training event. Here, we list some points that should be considered when preparing to provide a well-received training event.
@@ -188,9 +192,9 @@ everyone. A good introduction is given in “[Ten simple rules for making
 training materials
 FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)”.
 
-
-
 ## During the Training
+
+---
 
 ### Arrival
 Before the first session of your training event, you should
@@ -325,8 +329,10 @@ anonymous and that the questions highlight points of improvement to
 enable you/the team to provide an even better experience the next time.
 
 
-
 ## After the Training
+
+---
+
 Shortly after the event, you should  **meet with all trainers** involved
 and **gather their feedback**. Collect points that should be improved
 for the next course of this kind and document them in an appropriate

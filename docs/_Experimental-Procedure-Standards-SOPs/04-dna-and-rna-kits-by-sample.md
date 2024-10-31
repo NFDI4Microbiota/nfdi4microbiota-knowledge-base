@@ -6,9 +6,9 @@ docs_css: markdown
 ---
 
 
-# Nucleic Acid extraction kits
+## Nucleic Acid extraction kits
 
-## DNA extraction
+### DNA extraction
 
 - Sponges - QIAamp® DNA Micro kit (QIAGEN){% cite Ruocco_2021 %}
 - Sponges –DNeasy® PowerSoil® Pro Kit (QIAGEN){% cite Ruocco_2021 %}
@@ -52,7 +52,7 @@ docs_css: markdown
 - Bacterial DNA from cultures (automated) - GenFind v3 Kit (Beckman Coulter) - in house protocol provided by Nicole Treichel
 - Bacterial DNA from low biomass (eg. FACS sorted) samlpes – mericon DNA Bacteria Kit (Qiagen)- in house protocol provided by Nicole Treichel
 
-## RNA extraction
+### RNA extraction
 - Mosquitos - TRIzol LS (Invitrogen) – purified with RNeasy MinElute Cleanup Kit (Qiagen){% cite Ali_2021 %}
 - Sea Water - RNeasy mini kit (Qiagen){% cite Martínez-Pérez._2022 %}
 - Antarctic ticks - MagMax mirVana™ Total RNA isolation Kit (ThermoFisher Scientific){% cite Willis_2020 %}
@@ -63,6 +63,3 @@ docs_css: markdown
 - Cerebellum, hippocampus and visual cortex - Uneasy Plus Universal Mini Kit (Qiagen) - in house protocol provided by Justine Vandendorpe
 - Bile samples - ZymoBIOMICS DNA/RNA Miniprep Kit - in house protocol provided by Nicole Treichel
 - mouse small intestine content - ZymoBIOMICS DNA/RNA Miniprep Kit - in house protocol provided by Nicole Treichel
-
-## References
-{% bibliography --cited_in_order %}

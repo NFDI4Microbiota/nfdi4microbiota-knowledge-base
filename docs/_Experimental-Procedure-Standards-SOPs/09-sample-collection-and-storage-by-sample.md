@@ -44,6 +44,3 @@ Protein samples stored at -80ºC will be frozen. As repeated freeze-thaw cycles 
 | Vaginal swabs                    | Skin samples were collected using Catch-All-Swabs (Epicentre Technologies, Wisconsin, USA). The swab was rubbed 5 times, with a circular motion, in the vaginal introitus and then the swab head was placed in a 15&nbsp;ml sterile screw top collection tube containing 2&nbsp;ml SCF-1 buffer (see photos above). | (in-house protocol provided by Pamela Ferretti)    |
 | Yoghurt                          | after purchase, samples were placed immediately at 4°C for transport and within 12 h stared at -80°C  | {% cite Islam_2021 %}|
 {: .table .table-hover}
-
-## References
-{% bibliography --cited_in_order %}
