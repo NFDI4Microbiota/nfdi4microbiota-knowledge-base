@@ -85,6 +85,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
 ## Data selection
+---
 
 Below is a list of criteria for selecting trustworthy data sets {% cite bres_2022 sielemann_2020 %}. As in Sielemann *et al.* 2020 {% cite sielemann_2020 %}, for each possible criterion, several questions to consider are listed.
 
@@ -116,6 +117,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     * Is it documented whether the data are raw or processed? 
 
 ## Data provenance
+---
 The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
 * W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
 * W2: Which biological and chemical resources and which equipment was used in the study? [Resources and the equipment used in an experiment including all details such as the lot number and the passage information]
@@ -126,6 +128,7 @@ The provenance of research data can be defined as “a documented trail that acc
 * W7: What was the order of the stimulation parameters in a particular experiment?
 
 ## Data reuse
+---
 
 ### Benefits and drawbacks
 
@@ -159,6 +162,7 @@ See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 See [Licenses]({% link _RDM-Share/26-licenses.md %}).
 
 ## Data citation
+---
 
 ### Common standards for data citation
 
@@ -181,6 +185,7 @@ See [Licenses]({% link _RDM-Share/26-licenses.md %}).
 Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo, and Zotero {% cite escience_center_2021 %}.
 
 ## How-tos
+---
 
 ### How to make your data reusable?
 * Properly document your data with metadata {% cite pavone_2020 %}.
@@ -190,9 +195,3 @@ Code citation allows for greater recognition of research software. Some major pl
 
 ### How to maximize already existing data?
 See Wood-Charlson *et al.* 2022 {% cite wood-charlson_2022 %}.
-
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
-
-## References
-{% bibliography --cited_in_order %}

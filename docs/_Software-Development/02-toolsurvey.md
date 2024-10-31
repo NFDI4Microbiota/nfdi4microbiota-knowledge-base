@@ -10,22 +10,23 @@ The following data is compiled from a questionnaire of Q4 2022 and is targeted a
 The goal is to gather this information centrally in NFDI4Microbiota to assess the span of tools and derive consortium-wide guidelines for the tightest integration possible.
 
 ## Disclaimer: Changes in the tool display
-
+---
 We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.  
 In the meantime, browse our tools below and find more [recommendations for resources on reproducible data analysis]({% link _Reproducible-Data-Analysis/04-resources.md %}).
 
 ## Applications
+---
 ### checkM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
 
 operating system: Linux
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
-link: [https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM2)
+Link: [https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM2)
 
 ### Eggnog mapper (EMBL) 
 
@@ -33,9 +34,9 @@ Fast genome-wide functional annotation through orthology assignment
 
 operating system: Linux, MacOS, Windows
 
-license: [AGPL 3.0](https://opensource.org/license/agpl-v3/) 
+License: [AGPL 3.0](https://opensource.org/license/agpl-v3/) 
 
-link: [https://github.com/eggnogdb/eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper)
+Link: [https://github.com/eggnogdb/eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper)
 
 ### GUNC (EMBL) 
 
@@ -43,9 +44,9 @@ Python package for detection of chimerism and contamination in prokaryotic genom
 
 operating system: Linux, MacOS, Windows
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/) 
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/) 
 
-link: [https://github.com/grp-bork/gunc](https://github.com/grp-bork/gunc)
+Link: [https://github.com/grp-bork/gunc](https://github.com/grp-bork/gunc)
 
 ### mOTUs (EMBL) 
 
@@ -53,9 +54,9 @@ A computational tool that estimates relative taxonomic abundance of known and cu
 
 operating system: Linux
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)  
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)  
 
-link: [https://github.com/motu-tool/mOTUs](https://github.com/motu-tool/mOTUs)
+Link: [https://github.com/motu-tool/mOTUs](https://github.com/motu-tool/mOTUs)
 
 ### Proteinortho (UMR) 
 
@@ -63,31 +64,33 @@ Proteinortho is a tool to detect orthologous genes within different species.
 
 operating system: Linux, MacOS
 
-license: [LGPL 3.0](https://opensource.org/license/lgpl-3-0/)
+License: [LGPL 3.0](https://opensource.org/license/lgpl-3-0/)
 
-link: [https://gitlab.com/paulklemm_PHD/proteinortho](https://gitlab.com/paulklemm_PHD/proteinortho)
+Link: [https://gitlab.com/paulklemm_PHD/proteinortho](https://gitlab.com/paulklemm_PHD/proteinortho)
 
 ## Benchmarks
+---
 ### AMBER (Helmholtz-HZI) 
 
 Assessment of Metagenome BinnERs
 
 operating system: Linux
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
-link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
+Link: [https://github.com/CAMI-challenge/AMBER](https://github.com/CAMI-challenge/AMBER)
 
 ## Databases
+---
 ### BacDive (DSMZ) 
 
 "BacDive is the worldwide largest database for standardized bacterial information.
 
 operating system: Linux
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/)
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/)
 
-link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
+Link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
 
 ### EggNOG Database (EMBL) 
 
@@ -95,9 +98,9 @@ link: [https://bacdive.dsmz.de/](https://bacdive.dsmz.de/)
 
 operating system: Linux
 
-license: unknown 
+License: unknown 
 
-link: [http://eggnog5.embl.de/#/app/home](http://eggnog5.embl.de/#/app/home)
+Link: [http://eggnog5.embl.de/#/app/home](http://eggnog5.embl.de/#/app/home)
 
 ### MediaDive (DSMZ) 
 
@@ -105,9 +108,9 @@ Standardized cultivation media database
 
 operating system: Linux, MacOS, Windows
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
-link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
+Link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
 
 ### HumanMetagenomeDB (UFZ)
 
@@ -115,9 +118,9 @@ link: [https://mediadive.dsmz.de](https://mediadive.dsmz.de)
 
 operating system: Platform independent
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
-link: [https://web.app.ufz.de/hmgdb/](https://web.app.ufz.de/hmgdb/)
+Link: [https://web.app.ufz.de/hmgdb/](https://web.app.ufz.de/hmgdb/)
 
 ### MarineMetagenomeDB (UFZ)
 
@@ -125,9 +128,9 @@ link: [https://web.app.ufz.de/hmgdb/](https://web.app.ufz.de/hmgdb/)
 
 operating system: Platform independent
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
-link: [https://web.app.ufz.de/marmdb/](https://web.app.ufz.de/marmdb/)
+Link: [https://web.app.ufz.de/marmdb/](https://web.app.ufz.de/marmdb/)
 
 ### AnimalAssociatedMetagenomeDB (UFZ)
 
@@ -135,9 +138,9 @@ link: [https://web.app.ufz.de/marmdb/](https://web.app.ufz.de/marmdb/)
 
 operating system: Platform independent
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
-link: [https://webapp.ufz.de/aamdb/](https://webapp.ufz.de/aamdb/)
+Link: [https://webapp.ufz.de/aamdb/](https://webapp.ufz.de/aamdb/)
 
 ### TerrestrialMetagenomeDB (UFZ)
 
@@ -145,20 +148,21 @@ link: [https://webapp.ufz.de/aamdb/](https://webapp.ufz.de/aamdb/)
 
 operating system: Platform independent
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
-link: [https://webapp.ufz.de/tmdb](https://webapp.ufz.de/tmdb)
+Link: [https://webapp.ufz.de/tmdb](https://webapp.ufz.de/tmdb)
 
 ## Pipelines
+---
 ### BioAutoML (UFZ) 
 
 BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences
 
 operating system: Linux, MacOS
 
-license: [BSD3](https://opensource.org/license/bsd-3-clause/)
+License: [BSD3](https://opensource.org/license/bsd-3-clause/)
 
-link: [https://github.com/Bonidia/BioAutoML](https://github.com/Bonidia/BioAutoML)
+Link: [https://github.com/Bonidia/BioAutoML](https://github.com/Bonidia/BioAutoML)
 
 ### CAMISIM (Helmholtz-HZI) 
 
@@ -166,9 +170,9 @@ Model abundance distributions of microbial communities and simulate metagenome d
 
 operating system: Linux
 
-license: [Apache 2](https://opensource.org/license/apache-2-0/)
+License: [Apache 2](https://opensource.org/license/apache-2-0/)
 
-link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challenge/CAMISIM)
+Link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challenge/CAMISIM)
 
 ### MetaProteomeAnalyzer (ISAS) 
 
@@ -176,9 +180,9 @@ Workflow for metaproteomics anaylysis of microbiomes
 
 operating system: Linux, Windows
 
-license: [Apache 2](https://opensource.org/license/apache-2-0/)
+License: [Apache 2](https://opensource.org/license/apache-2-0/)
 
-link: [https://github.com/compomics/meta-proteome-analyzer](https://github.com/compomics/meta-proteome-analyzer)
+Link: [https://github.com/compomics/meta-proteome-analyzer](https://github.com/compomics/meta-proteome-analyzer)
 
 ### Multi-Domain Genome Recovery (MuDoGeR) (UFZ)
 
@@ -190,9 +194,9 @@ It was designed to be an easy-to-use tool that outputs ready-to-use comprehensiv
 
 operating system: Linux
 
-license: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
+License: [GPL 3.0](https://opensource.org/license/gpl-3-0/)
 
-link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
+Link: [https://github.com/mdsufz/MuDoGeR](https://github.com/mdsufz/MuDoGeR)
 
 ### OrtSuite (UFZ) 
 
@@ -200,9 +204,9 @@ Flexible pipeline for annotation of ecosystem processes and prediction of putati
 
 operating system: Linux
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
-link: [https://github.com/mdsufz/OrtSuite](https://github.com/mdsufz/OrtSuite)
+Link: [https://github.com/mdsufz/OrtSuite](https://github.com/mdsufz/OrtSuite)
 
 ### PredicTF (UFZ) 
 
@@ -210,9 +214,9 @@ Tool to predict bacterial transcription factors in complex microbial communities
 
 operating system: Linux
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)  
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)  
 
-link: [https://github.com/mdsufz/PredicTF](https://github.com/mdsufz/PredicTF)
+Link: [https://github.com/mdsufz/PredicTF](https://github.com/mdsufz/PredicTF)
 
 ### Protologger (UKAachen) 
 
@@ -222,9 +226,9 @@ By producing multiple taxonomic outputs, functional features and ecological anal
 
 operating system: Linux
 
-license: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
+License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
-link: [http://protologger.de/](http://protologger.de/)
+Link: [http://protologger.de/](http://protologger.de/)
 
 ### Qiita (JLU) 
 
@@ -232,20 +236,21 @@ Best practice microbiome analysis suite
 
 operating system: Linux
 
-license: [BSD3](https://opensource.org/license/bsd-3-clause/)
+License: [BSD3](https://opensource.org/license/bsd-3-clause/)
 
-link: [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
+Link: [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 
 ## Webservices
+---
 ### iPath (EMBL) 
 
 Interactive Pathways Explorer (iPath) is a web-based tool for the visualization, analysis and customization of various pathway maps.
 
 operating system: Linux
 
-license: [GPL](https://opensource.org/license/gpl-3-0/) 
+License: [GPL](https://opensource.org/license/gpl-3-0/) 
 
-link: [https://pathways.embl.de/](https://pathways.embl.de/)
+Link: [https://pathways.embl.de/](https://pathways.embl.de/)
 
 ### iTOL (EMBL) 
 
@@ -253,9 +258,9 @@ Interactive Tree Of Life is an online tool for the display, annotation and manag
 
 operating system: Linux
 
-license: paid 
+License: paid 
 
-link: [https://itol.embl.de/](https://itol.embl.de/)
+Link: [https://itol.embl.de/](https://itol.embl.de/)
 
 ### Help Desk (ZBMED) 
 
@@ -263,9 +268,6 @@ Utility flask app for contact notification on the NFDI4Microbiota homepage
 
 operating system: Linux
 
-license: NA 
+License: NA 
 
-link: [https://nfdi4microbiota.de/contact-form/](https://nfdi4microbiota.de/contact-form/)
-
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
+Link: [https://nfdi4microbiota.de/contact-form/](https://nfdi4microbiota.de/contact-form/)

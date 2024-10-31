@@ -10,20 +10,20 @@ docs_css: markdown
 
 ### CV terms
 
-| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                  | Type of value or list of values   |
-|---------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------|
-| Homepage                        |                                                                                                  |                                   |
-| Developmental stage of the tool | maturity                                                                                         | (Emerging, Mature , Legacy)       |
-| Topic                           | (could be ELIXIR Community)                                                                      |                                   |
-| Software or data license        | license                                                                                          | string                            |
-| Description                     |                                                                                                  | multiline varchar (max. 50 lines) |
-| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  | [^2]               |
-| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004) | [^1]                              |
-| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en)  |                    |
-| Credits and support             | entity type, entity role                                                                         |                                   |
+| Issue 84 metadata key           | Corresponding bio.tools CV term                                                                                           | Type of value or list of values   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Homepage                        |                                                                                                                           |                                   |
+| Developmental stage of the tool | maturity                                                                                                                  | (Emerging, Mature , Legacy)       |
+| Topic                           | (could be ELIXIR Community)                                                                                               |                                   |
+| Software or data license        | license                                                                                                                   | string                            |
+| Description                     |                                                                                                                           | multiline varchar (max. 50 lines) |
+| Input format                    | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) | [^2]                              |
+| Tool operation (function)       | see [link](https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=operation_0004)                          | [^1]                              |
+| Output data                     | see [EBI](https://www.ebi.ac.uk/ols4/ontologies/edam/classes/http%253A%252F%252Fedamontology.org%252Fformat_1915?lang=en) |                                   |
+| Credits and support             | entity type, entity role                                                                                                  |
+{: .table .table-hover} 
 
-[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping,
-Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
+[^1]: Alignment, Analysis, Annotation, Calculation, Classification, Clustering, Comparison, Conversion, Correlation, Data handling, Design, Generation, Indexing, Mapping, Modelling and simulation, Optimisation and refinement, Prediction and recognition, Quantification, Service management, Validation, Visualisation
 
 [^2]: FASTA, SAM, TSV, CSV, XLSX, Image
 
@@ -31,9 +31,8 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 
 ### Template
 #### Homepage
-#### Maturity
-#### Topic
-#### License
+#### Maturity 
+#### License 
 #### Description
 #### Input format
 #### Tool operation
@@ -47,51 +46,41 @@ Modelling and simulation, Optimisation and refinement, Prediction and recognitio
 
 ---
 
-### Disclaimer: Changes in the tool display
+#### Disclaimer: Changes in the tool display
 
-We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on [the life sciences software registry bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
+We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on the life sciences software registry [bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
 Thank you for your patience while we sort out editing rights and collection labels.
 Below you can browse tool recommendations from our consortium members.
 
 
-## bakta
-### Homepage
-https://github.com/oschwengers/bakta
-### maturity
-Mature
-### topic
-nnotation of bacterial genomes and plasmids
-### license
-[GPL-3.0](https://opensource.org/license/gpl-3-0/)
-### Description
+### bakta
+
+#### Description
 Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs. It provides dbxref-rich, sORF-including and taxon-independent annotations in machine-readable JSON & bioinformatics standard file formats for automated downstream analysis.
-### Input format
-(zipped) fasta
-### Tool operation
-annotation
+
+
 ### Output data
-.tsv: annotations as simple human readble TSV
-.gff3: annotations & sequences in GFF3 format
-.gbff: annotations & sequences in (multi) GenBank format
-.embl: annotations & sequences in (multi) EMBL format
-.fna: replicon/contig DNA sequences as FASTA
-.ffn: feature nucleotide sequences as FASTA
-.faa: CDS/sORF amino acid sequences as FASTA
-.hypotheticals.tsv: further information on hypothetical protein CDS as simple human readble tab separated values
-.hypotheticals.faa: hypothetical protein CDS amino acid sequences as FASTA
-.json: all (internal) annotation & sequence information as JSON
-.txt: summary as TXT
-.png: circular genome annotation plot as PNG
-.svg: circular genome annotation plot as SVG
+- **.tsv:** annotations as simple human readble TSV
+- **.gff3:** annotations & sequences in GFF3 format
+- **.gbff:** annotations & sequences in (multi) GenBank format
+- **.embl:** annotations & sequences in (multi) EMBL format
+- **.fna:** replicon/contig DNA sequences as FASTA
+- **.ffn:** feature nucleotide sequences as FASTA
+- **.faa:** CDS/sORF amino acid sequences as FASTA
+- **.hypotheticals.tsv:** further information on hypothetical protein CDS as simple human readble tab separated values
+- **.hypotheticals.faa:** hypothetical protein CDS amino acid sequences as FASTA
+- **.json:** all (internal) annotation & sequence information as JSON
+- **.txt:** summary as TXT
+- **.png:** circular genome annotation plot as PNG
+- **.svg:** circular genome annotation plot as SVG
 ### Credits, support
   - code: [oschwengers@github](https://github.com/oschwengers/bakta)
   - doi: [10.1099/mgen.0.000685](https://doi.org/10.1099/mgen.0.000685)
 
 
----
-
 ## andi
+---
 ### Homepage
 http://github.com/evolbioinf/andi/
 ### maturity
@@ -114,9 +103,8 @@ txt (distance matrix)
  - doi: [10.1093/bioinformatics/btu815](https://doi.org/10.1093/bioinformatics/btu815)
 
 
----
-
 ## xenoseq
+---
 ### Homepage
 https://github.com/bramvandijk88/xenoseq
 ### maturity
@@ -137,9 +125,8 @@ fasta, tsv
   - github: @bramvandijk88
 
 
----
-
 ## syntenet
+---
 ### Homepage
 <https://doi.org/doi:10.18129/B9.bioc.syntenet>
 ### maturity
@@ -160,10 +147,8 @@ R data.frame
   - github: @almeidasilvaf
   - doi:10.1093/bioinformatics/btac806
 
-
----
-
 ## DeLTA2
+---
 ### Homepage
 https://gitlab.com/dunloplab/delta
 ### maturity
@@ -185,9 +170,8 @@ tiff, tsv
   - doi:10.1371/journal.pcbi.1009797
 
 
----
-
 ## Omnipose
+---
 ### Homepage
 https://github.com/kevinjohncutler/omnipose
 ### maturity
@@ -209,9 +193,8 @@ tiff, hdf5
   - doi:10.1038/s41592-022-01639-4
 
 
----
-
 ## RAREFAN
+---
 ### Homepage
 http://rarefan.evolbio.mpg.de
 ### maturity
@@ -233,9 +216,8 @@ gff3, html, R
   - doi:10.24072/pcjournal.244
 
 
----
-
 ## ProteinOrtho
+---
 ### Homepage
 https://gitlab.com/paulklemm_PHD/proteinortho
 ### maturity
@@ -262,9 +244,8 @@ tsv, graph, html, xml
  - doi:10.1186/1471-2105-12-124
 
 
----
-
 ## vConTACT
+---
 ### Homepage
  ### maturity
 Mature
@@ -284,10 +265,8 @@ TSV,  network file, annotation file
  - code: https://bitbucket.org/MAVERICLab/vcontact2/src/master/
  - doi: [10.1038/s41587-019-0100-8](10.1038/s41587-019-0100-8)
 
-
----
-
 ## VirFinder
+---
 ### Homepage
 https://github.com/jessieren/VirFinder
 ### maturity
@@ -310,9 +289,8 @@ TSV
  - doi:
 
 
----
-
 ## deepARG
+---
 ### Homepage
 [https://github.com/gaarangoa/deeparg](https://github.com/gaarangoa/deeparg)
 ### Maturity
@@ -339,9 +317,8 @@ The deepARG tool leverages deep learning techniques to predict antibiotic resist
 - doi: [10.1186/s40168-018-0401-z](https://doi.org/10.1186/s40168-018-0401-z)
 
 
----
-
 ## Qiita
+---
 ### Homepage
 [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
 ### maturity
@@ -365,9 +342,8 @@ SAM, Tables, visualizations
   - doi: [10.1038/s41592-018-0141-9](https://doi.org/10.1038/s41592-018-0141-9)
 
 
----
-
 ## GTDBTk
+---
 ### Homepage
 [https://github.com/Ecogenomics/GTDBTk](https://github.com/Ecogenomics/GTDBTk)
 [https://ecogenomics.github.io/GTDBTk/](https://ecogenomics.github.io/GTDBTk/)
@@ -391,9 +367,8 @@ GTDBTk (Genome Taxonomy Database Toolkit) is a software toolkit designed to clas
 - doi: [10.1093/bioinformatics/btac672](https://doi.org/10.1093/bioinformatics/btac672)
 
 
----
-
 ## PlasFlow
+---
 ### Homepage
 [https://github.com/smaegol/PlasFlow](https://github.com/smaegol/PlasFlow)
 ### Maturity
@@ -415,6 +390,3 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 - Krawczyk PS, Lipinski L, Dziembowski A. Nucleic Acids Res. 2018 Apr 6;46(6):e35.
 - doi: [10.1093/nar/gkx1321](https://doi.org/10.1093/nar/gkx1321)
 
-  
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

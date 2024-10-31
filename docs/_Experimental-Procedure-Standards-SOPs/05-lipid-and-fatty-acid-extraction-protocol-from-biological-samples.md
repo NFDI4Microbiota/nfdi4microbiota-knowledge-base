@@ -47,11 +47,6 @@ Specific instructions for homogenization of frozen tissues (eg; liver) prior to 
 
 *It is difficult to process tissue samples at weights below 10 mg, so aim for at least 10 mg of tissue to start with 
 
-# Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
-
-## References
-{% bibliography --cited_in_order %}
 
 
 

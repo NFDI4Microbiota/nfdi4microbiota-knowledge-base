@@ -7,10 +7,15 @@ hide: false
 ---
 
 ## Governance of NFDI4Microbiota
+
+
 Governance is the process of making and enforcing decisions within an organization or society. The following will introduce the governance structure, and the governance bodies are defined. 
 Details on the bodies of the NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
-## Workflow General Assembly
+
+## The General Assembly
+
+---
 
 ### Frequency of the General Assembly
 The GA takes place twice a year, most likely in March/April and in October/November.
@@ -22,7 +27,8 @@ The Administration Unit and the Board of Directors have to prepare the GA. Each 
 
 x-5 weeks | x-2 weeks | x-1 week | x | x+2 weeks | x+4 weeks
 -------- | -------- | -------- | ------- | ------- | -------
-Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling  
+Start to generate an agenda, and prepare files for resolution and slides for the GA. | Sent agenda to the consortium with the possibility to add points or change the agenda. | Correct agenda if required and send out an updated version. | General assembly meeting | Protocol generated for consortium and NFDI directorate | Send protocol to the consortium, NFDI directorate, and ZB MED controlling 
+{: .table .table-hover}
 
 The preparation includes the following steps:
 - Creating an appointment in the calendar of choice (Google, Outlook, etc.) that includes the date, time, and the link or location for the meeting. This will be sent to the whole consortium.
@@ -66,7 +72,10 @@ consortium for information and review for two weeks. Afterwards, the minutes wil
 ### Documentation of the General Assembly
 All files regarding the General Assembly are filed [in Nextcloud](https://nextcloud.nfdi4microbiota.de/f/105454) (internal link).
 
-## Workflow Scientific Advisory Board
+
+## The Scientific Advisory Board
+
+---
 
 A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
@@ -89,6 +98,7 @@ The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD mee
 x-6 months (min) | x-5 weeks  | x-2 weeks  | x | x+2 weeks 
 -------- | -------- | -------- | ------- | ------- 
 Start a poll to find a date for the meeting | Start to generate an agenda and slides for the meeting. | Sent agenda to SAB | SAB and BoD meeting | Protocol generated for SAB and BoD 
+{: .table .table-hover}
 
 The preparation includes the following steps:
 - Creating an appointment in the calendar of choice (Google, Outlook, etc.) that includes the date, time, and the link or location for the meeting. This will be sent to the SAB members and the BoD.
@@ -114,7 +124,10 @@ consortium.
 All files regarding the SAB are filed [here](https://nextcloud.nfdi4microbiota.de/f/105451) (internal link).
 The members of the SAB are displayed on the web portal.
 
-## Workflow Project Review Board
+## The Project Review Board
+
+---
+
 The Project Review Board (PRB) is responsible for selecting new projects within the scope of the flexible funding and allocation mechanism, thus reacting to new and unforeseen scenarios. It is staffed based on 
 suggestions made by the SAB and decision-making includes a peer review process.
 
@@ -150,17 +163,20 @@ To update the PRB regularly, they will receive the following information via the
 - the outcome and the proposals of the annual FlexFunds call, and  
 - a season's greeting email.
 
-## Workflow Circulation Procedure
+## The Circulation Procedure
+
+---
+
 If resolutions have to be made between the meetings of the General Assembly or the Scientific Advisory Board, a circulation procedure can be performed. A simple majority is required to approve a resolution, 
 which means more then half of the cast votes.
 
 **Preparation, conduction, and follow-up of the circulation procedure:**
 
 1. A new circulation procedure document will be filled with details regarding the specific topic.
-3. If necessary, informational files with further details will be created to be attached to the circulation procedure document.
-4. The documents will be sent to the GA or SAB with a deadline of at least two weeks.
-5. A resolution will be written from the results of the circulation with details regarding the voting and the outcome of the circulation procedure.
-6. The resolution will be communicated to the GA, respective SAB, and the whole consortium and filed.  
+2. If necessary, informational files with further details will be created to be attached to the circulation procedure document.
+3. The documents will be sent to the GA or SAB with a deadline of at least two weeks.
+4. A resolution will be written from the results of the circulation with details regarding the voting and the outcome of the circulation procedure.
+5. The resolution will be communicated to the GA, respective SAB, and the whole consortium and filed.  
 
 ### Documentation
 All templates are filed [here](https://nextcloud.nfdi4microbiota.de/f/102947) (internal link). All circulation procedures (Except for the documents containing results) are filed in a respective folder created. 

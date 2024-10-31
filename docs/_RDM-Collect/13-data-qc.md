@@ -151,6 +151,8 @@ Legend:
 
 ## Single cell
 
+---
+
 ### Quality check
 1. peak at left/right side in gene or reads per cell histogram or log10-cummulative-number of reads per cell id
 - **source**: BD rhapsody pipeline, negative control study
@@ -190,6 +192,3 @@ Legend:
 - **source**: seurat/deseq, negative control study
 - **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling <https://doi.org/10.1126/science.aah4573>
 - **solution/measure**: never ever use excel or at least make sure that cell type is not "AUTO"
-
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

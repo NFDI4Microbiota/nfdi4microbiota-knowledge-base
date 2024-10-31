@@ -19,7 +19,8 @@ docs_css: markdown
 
 </div> -->
 
-## NFDI4Microbiota - Democratize access to microbiota data and high-end computational analyses
+## NFDI4Microbiota - <small class="text-muted">Democratize access to microbiota data and high-end computational analyses</small>
+
 
 NFDI4Microbiota is a consortium that is part of the German NFDI (National research Data Infrastructure), aimed at advancing microbiological research through digital transformation. 
 
@@ -43,7 +44,12 @@ More information on how to contribute to the consortium, participate in coffee t
 
 By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found bellow the Helpdesk contact form.
 
+
+
+
 ## What is this Knowledge Base about?
+
+---
 
 This knowledge base is a collection of information and references with
 relevance for the microbiology community in terms of Research Data
@@ -51,20 +57,20 @@ Management, Data Analysis, FAIR principles, standards, and much
 more. Furthermore, information about the NFDI4Microbiota consortium
 are collected.
 
-## How to use this resource
+### How to use this resource
 
 The available resources are shown in the left navigation. Clicking on
 the link will toggle the visibility of sub-content. This resource is
 published under the Creative Commons Attribution
 ([CC-BY](https://creativecommons.org/licenses/by/4.0/)).
 
-## How to find a resource
+### How to find a resource
 
 Use the search bar at the top of the left navigation. All the
 documents have been indexed so a keyword should be sufficient in
 achieving the look-up for the desired document.
 
-## How to contribute to this resource
+### How to contribute to this resource
 
 The files are hosted at a [repo on
 GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You

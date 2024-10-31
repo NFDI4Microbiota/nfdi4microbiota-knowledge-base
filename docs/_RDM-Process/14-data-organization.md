@@ -15,6 +15,7 @@ docs_css: markdown
 * [5S Data: Setz dich auf deine 5 Buchstaben und organisiere deine Daten! (Coffee Lecture)](https://youtu.be/73XzLsLrwMk)
 
 ## File naming
+---
 
 ### File naming convention
 
@@ -90,6 +91,7 @@ Here are some examples of file names that need improvement {% cite bres_2022 %}:
 * A detailed [documentation of a File Naming Convention](https://www.data.cam.ac.uk/files/gdl_tilsdocnaming_v1_20090612.pdf)
 
 ## File versioning
+---
 Versioning or version control is the practice of tracking and managing changes to a file or set of files over time so that you can later retrieve specific versions.
 
 We recommend that you meet with project partners to decide how versioning will be carried out, how version changes will be documented, and how a version change will be defined {% cite bres_2022 %}.
@@ -109,6 +111,7 @@ Manual file versioning can be done using [semantic versioning](https://semver.or
 If you decide to use manual file versioning, it is recommended that you use a version control table (a version control table template from the University of Sydney Library can be downloaded [here](https://www.library.sydney.edu.au/content/dam/library/documents/support/doc_versioncontrol.docx)). It is also recommended that you assign responsibilities for completing files, store milestone versions, and store obsolete versions separately after backup. How many versions of a file will be kept, which versions (e.g. major versions instead of minor versions (version 2.0 but not 2.1)), for how long, and how the versions will be organised need to be decided in advance {% cite biernacka:2020 %}, ideally with project partners.
 
 ## Folder structure
+---
 To make it easier to find files, especially if you have a lot of data, you should avoid a chaotic or alphabetical approach to storing data. Instead, a proper folder structure is a hierarchical arrangement in which folders are created to make it easier to find data {% cite biernacka:2020 %}. A typical hierarchical folder structure has a root folder and several levels of subfolders. A carefully planned folder structure, with understandable folder names and an intuitive design, is the foundation of good data organisation. The folder structure provides an overview of what information can be found where, enabling both current and future contributors to understand what files have been produced in the project {% cite Mičetić:n.d. %}.
 
 ### General characteristics of an efficient folder structure
@@ -160,9 +163,8 @@ Make sure you don't have overlapping categories, as you shouldn't have copies of
 * [Simple Open Data template](https://doi.org/10.5281/zenodo.4899847)
 
 ## Tools
+---
 * [Data Curation Tool](https://github.com/fair4health/data-curation-tool) (FAIR4Health)
 * [FAIRDOM](https://fair-dom.org/news/2021-11-30-covid-community-conference-fairdomhub.html): “Project space [...] used by the community to organize, share and publish data, documents, literature and computational models, as well as to list contributors”
 * G-Node Infrastructure ([GIN](https://gin.g-node.org/)) = Modern Research Data Management for Neuroscience (see Notes for more details)
 
-## References
-{% bibliography --cited_in_order %}
