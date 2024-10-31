@@ -20,6 +20,3 @@ docs_css: markdown
 
 ## Source
 In-house protocol provided by Sarah Schulz.
-
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))

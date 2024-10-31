@@ -56,63 +56,6 @@ Below you can browse tool recommendations from our consortium members.
 
 ### bakta
 
-<table>
-<thead>
-  <tr>
-    <th>Dates in 2024</th>
-    <th>Event</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>January 29</td>
-    <td>Introduction to Ambassador Program and NFDI4Microbiota</td>
-  </tr>
-  <tr>
-    <td>March 25</td>
-    <td><b>“NFDI4Microbiota Standards &amp; policies”</b><br>by Sarah Schulz (EMBL)</td>
-  </tr>
-  <tr>
-    <td>May 27</td>
-    <td><b>“Introduction into The Carpentries”</b><br>by Rabea Müller (ZB-MED)</td>
-  </tr>
-  <tr>
-    <td>July 29</td>
-    <td><b>“ARUNA Object Storage”</b><br>by Frank Förster (Justus Liebig Universität Gießen)</td>
-  </tr>
-  <tr>
-    <td>September 30</td>
-    <td><b>“NFDI4Microbiota Use Cases”</b><br>by Maja Magel (RWTH)</td>
-  </tr>
-  <tr>
-    <td>November 25</td>
-    <td><b>“NFDI4Microbiota Knowledge Base”</b><br>by Kassian Kobert (Universität Bielefeld)</td>
-  </tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-  <tr>
-    <th> Maturity </th>
-    <th>License </th>
-    <th>Input formats </th>
-    <th>Tool operation </th>
-    <th> Link</th>
-    </tr>
-</thead>
-<tbody>
-  <tr>
-  <td> mature </td>
-  <td> [GPL-3.0](https://opensource.org/license/gpl-3-0/) </td>
-  <td> (zipped) fasta file </td>
-  <td> Annotation </td>
-  <td> [Github](https://github.com/oschwengers/bakta) </td>
-  </tr>
-</tbody>
-</table>
-
-
 #### Description
 Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs. It provides dbxref-rich, sORF-including and taxon-independent annotations in machine-readable JSON & bioinformatics standard file formats for automated downstream analysis.
 
@@ -447,7 +390,3 @@ PlasFlow is a set of scripts used for prediction of plasmid sequences in metagen
 - Krawczyk PS, Lipinski L, Dziembowski A. Nucleic Acids Res. 2018 Apr 6;46(6):e35.
 - doi: [10.1093/nar/gkx1321](https://doi.org/10.1093/nar/gkx1321)
 
-  
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)

@@ -38,9 +38,3 @@ Sample preparation and metabolite extraction:
 16.	SpeedVac/lyophilize or dry under nitrogen gas to a pellet using no heat.
 17.	Submit dried sample in 1.5 ml eppendorf tube and can be stored at in dried ice.
 18.	Blank control: prepare processed blank sample using same procedure but without biological sample (use water or buffer instead). 
-
-## Get Help
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
-
-## References
-{% bibliography --cited_in_order %}

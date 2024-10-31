@@ -95,7 +95,7 @@ eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Delt
 * [ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/)
 
 
-## Get Help
+## More Info
 
 ---
 
@@ -143,8 +143,3 @@ It is also advisable to talk to other members of your research community to find
 
 If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
 
-## References
-
----
-
-{% bibliography --cited_in_order %}

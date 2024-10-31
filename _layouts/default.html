@@ -282,11 +282,28 @@
 
         <div class="bd-content ps-lg-2">
             {{content}}
-
-
             <!-- Check if page is under construction -->
             {% if page.empty %}
             <p>This page is currently empty. Please consider contributing! </p>
+            {% else %}
+            <!-- Check if page can have references -->
+            {% if page.url contains "/Getting-Started/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
+            <p></p>
+            {% else %}
+
+            <h2> Get Help </h2>
+            <hr>
+            <p>If you have any further questions about the management and analysis of your microbial research data, please contact us: 
+            <a href="mailto:helpdesk@nfdi4microbiota.de">helpdesk@nfdi4microbiota.de</a>
+            (by emailing us you agree to the <a href="https://nfdi4microbiota.de/legals/privacy-policy.html">privacy policy - in German </a> 
+            on our website: <a href="https://nfdi4microbiota.de/contact-form/">Contact</a>. 
+            The legally non-binding English translation can be found <a href="{{ '/docs/_Getting-Started/01-privacy-policy-english-translation.md' | relative_url }}"> here</a>.).
+            </p>
+
+            <h2>References </h2>
+            <hr>
+            {% bibliography --cited_in_order %}
+            {% endif %}
             {% endif %}
 
         </div>

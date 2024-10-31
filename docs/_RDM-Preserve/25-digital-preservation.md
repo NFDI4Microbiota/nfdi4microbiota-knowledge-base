@@ -106,16 +106,12 @@ Many of the criteria for digital preservation that apply to repositories can als
 
 {% cite coretrustseal_standards_and_certificatio_2022_7051012 harmsen_henk_explanatory_2013 %}.
 
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+## More Info
 
-## References
 ---
-{% bibliography --cited_in_order %}
+
 1.	DCC. (2014). Five steps to decide what data to keep: a checklist for appraising research data v.1. In Edinburgh: Digital Curation Centre. https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep
 2.	Lindlar, M., Rudnik, P., Horton, L., & Jones, S. (2020). "You say potato, I say potato" - Mapping Digital Preservation and Research Data Management Concepts towards Collective Curation and Preservation Strategies. 15(1). https://doi.org/10.2218/ijdc.v15i1.728
-3.	Standards, C. T. S., & Board, C. (2022). CoreTrustSeal Requirements 2023-2025 (Version V01.00). Zenodo. https://doi.org/10.5281/zenodo.7051012
-4.	Harmsen, H., Keitel, C., Schmidt, C., Schoger, A., Schrimpf, S., Stürzlinger, M., & Wolf, S. (2013). Explanatory notes on the nestor Seal for Trusworthy Digital Archives. nestor Certification Working Group (Vol. 17). https://nbn-resolving.de/urn:nbn:de:0008-2013100901
+
 
 

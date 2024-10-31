@@ -165,7 +165,17 @@ The following policy is an automated translation of the German text. Please refe
 
     The legal basis for the use of Google Analytics is Art. 6 para. 1 sentence 1 lit. f GDPR. 
 
-6. Information from the third-party provider: Google Dublin, Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Terms of use: http://www.google.com/analytics/terms/de.html, overview of data protection: http://www.google.com/intl/de/analytics/learn/privacy.html, as well as the privacy policy: http://www.google.de/intl/de/policies/privacy.
+6. Information from the third-party provider:
+        Google Dublin, <br>
+        Google Ireland Ltd, <br>
+        Gordon House, <br>
+        Barrow Street, Dublin 4, <br>
+        Ireland, <br>
+        Fax: +353 (1) 436 1001. <br>
+        Terms of use: http://www.google.com/analytics/terms/de.html, <br>
+        overview of data protection: http://www.google.com/intl/de/analytics/learn/privacy.html, <br>
+        as well as the privacy policy: http://www.google.de/intl/de/policies/privacy. <br>
+
 
 ### Use of Piwik/Matomo 
 
@@ -193,7 +203,7 @@ The following policy is an automated translation of the German text. Please refe
 
 ### Use of social media buttons 
 
-1. We currently use the following social media buttons via “c't Shariff”: Youtube, Flickr, Google+, Twitter, Xing, LinkedIn. The c't Shariff project replaces the usual social network share buttons and protects your surfing behavior from prying eyes. Nevertheless, a single click on the button is enough to share information with others. The usual social media buttons transmit user data to Facebook & Co. every time you visit a page and provide the social networks with precise information about your surfing behavior (user tracking). You do not need to be logged in or a member of the network to do this. In contrast, a Shariff button only establishes direct contact between the social network and the visitor when the latter actively clicks on the share button. In this way, Shariff prevents you from leaving a digital trail on every page you visit. Thanks to Shariff, the display of “likes”, “+1s” or “tweets” comes from the operator of the page with the buttons. Shariff acts as an intermediate instance here: Instead of the browser, the website operator's server queries the number of “likes”, “+1s” or “tweets” - and only once a minute to keep traffic within limits. The visitor remains anonymous. Further information on “c't Shariff” can be found at: https://www.heise.de/ct/artikel/Shariff-Social-Media-Buttons-mit-Datenschutz-2467514.html and at: https://www.heise.de/ct/ausgabe/2014-26-Social-Media-Buttons-datenschutzkonform-nutzen-2463330.html. 
+1. We currently use the following social media buttons via “c't Shariff”: Youtube, Flickr, Google+, Twitter, Xing, LinkedIn. The c't Shariff project replaces the usual social network share buttons and protects your surfing behavior from prying eyes. Nevertheless, a single click on the button is enough to share information with others. The usual social media buttons transmit user data to Facebook & Co. every time you visit a page and provide the social networks with precise information about your surfing behavior (user tracking). You do not need to be logged in or a member of the network to do this. In contrast, a Shariff button only establishes direct contact between the social network and the visitor when the latter actively clicks on the share button. In this way, Shariff prevents you from leaving a digital trail on every page you visit. Thanks to Shariff, the display of “likes”, “+1s” or “tweets” comes from the operator of the page with the buttons. Shariff acts as an intermediate instance here: Instead of the browser, the website operator's server queries the number of “likes”, “+1s” or “tweets” - and only once a minute to keep traffic within limits. The visitor remains anonymous. Further information on “c't Shariff” can be found at: https://www.heise.de/ct/artikel/Shariff-Social-Media-Buttons-mit-Datenschutz-2467514.html.
 
 2. Address of the respective button provider and URL with its data protection information: Heise Medien GmbH & Co. KG, Karl-Wiechert-Allee 10, 30625 Hanover, Germany; https://www.heise.de/Privacy-Policy-der-Heise-Medien-GmbH-Co-KG-4860.html.
 
@@ -231,7 +241,7 @@ The following policy is an automated translation of the German text. Please refe
   
     a. by setting your browser software accordingly, in particular by suppressing third-party cookies so that you do not receive any ads from third-party providers; 
   
-    b. by deactivating cookies for conversion tracking by setting your browser to block cookies from the domain www.googleadservices.com, https://www.google. de/settings/ads, whereby this setting will be deleted if you delete your cookies; 
+    b. by deactivating cookies for conversion tracking by setting your browser to block cookies from the domain www.googleadservices.com, https://www.google.de/settings/ads, whereby this setting will be deleted if you delete your cookies; 
   
     c. by deactivating the interest-based ads of the providers that are part of the “About Ads” self-regulation campaign via the link http://www.aboutads.info/choices, whereby this setting will be deleted if you delete your cookies; 
   

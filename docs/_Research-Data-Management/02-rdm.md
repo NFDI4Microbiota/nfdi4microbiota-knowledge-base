@@ -43,10 +43,3 @@ The research data life cycle is a model that illustrates the steps of RDM and de
     * [BEXIS2](https://demo.bexis2.uni-jena.de) by [NFDI4Biodiversity](https://www.nfdi4biodiversity.org/en/) at [FSU Jena](https://www.uni-jena.de)
     * [GfBio](https://www.gfbio.org) consortium services
 
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the [privacy policy - in German](https://nfdi4microbiota.de/legals/privacy-policy.html) on our website: [Contact](https://nfdi4microbiota.de/contact-form/).)
-  
-## References
----
-{% bibliography --cited_in_order %}

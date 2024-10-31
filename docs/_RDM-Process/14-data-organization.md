@@ -168,6 +168,3 @@ Make sure you don't have overlapping categories, as you shouldn't have copies of
 * [FAIRDOM](https://fair-dom.org/news/2021-11-30-covid-community-conference-fairdomhub.html): “Project space [...] used by the community to organize, share and publish data, documents, literature and computational models, as well as to list contributors”
 * G-Node Infrastructure ([GIN](https://gin.g-node.org/)) = Modern Research Data Management for Neuroscience (see Notes for more details)
 
-## References
----
-{% bibliography --cited_in_order %}
