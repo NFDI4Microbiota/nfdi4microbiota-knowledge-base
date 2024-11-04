@@ -25,12 +25,13 @@ of 18.75% and 6.25% (w/v; 1% = 1 g/100 mL). Add 0.5% (w/v) Ascorbic acid and 0.0
 
 
 For 100 mL: 
+
 |amount | ingredient |
 |--------|--------------|
-18.75 g | Maltodextrin |
-6.25 g  | Trehalose | 
-0.5 g   | Ascorbic acid |
-0.05 g  |  L-Cystein |
+| 18.75 g | Maltodextrin |
+| 6.25 g  | Trehalose | 
+| 0.5 g   | Ascorbic acid |
+| 0.05 g  |  L-Cystein |
 {: .table .table-hover}
 
 ### Material
