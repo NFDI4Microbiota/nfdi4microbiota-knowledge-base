@@ -8,7 +8,3 @@ empty: true
 hide: true
 ---
 
-
-## Motivation
-
-Demo edit for the Ambassador Talk
