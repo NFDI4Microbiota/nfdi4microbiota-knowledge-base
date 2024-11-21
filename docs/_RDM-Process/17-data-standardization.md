@@ -7,3 +7,8 @@ redirect_from: /RDM-Process
 empty: true
 hide: true
 ---
+
+
+## Motivation
+
+Demo edit for the Ambassador Talk
