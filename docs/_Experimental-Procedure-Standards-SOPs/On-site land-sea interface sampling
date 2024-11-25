@@ -1,0 +1,1395 @@
+ On-site land-sea interface sampling 
+
+
+Glossary:
+Institute: Collaborative institution / marine station that is hosting us at the time
+Site: Location of an individual land to sea transect (2 to 4 per institute) 
+Transect: A cross section parallel to the the coast representing a different distance from the shoreline (3 soil transects and 1-2 sediment transect(s))
+Shoreline: End of intertidal shore; where water is at high tide
+Square: 1.4x1.4 m area used to identify the location a sample is taken from during soil sampling
+Triangle: 1x1 m area used to identify the location a sample is taken from during sediment sampling
+Sample: Collection of cores taken from a square or triangle (5 for soil / 3 for sediment)
+Core: Individual cores taken for sample
+Sub-samples: A small amount of the sample that will be used for different types of analysis
+Technical replicates: Multi-subsamples used for the same analysis
+
+Field briefings
+An in-depth briefing with the entire field team should be held upon arrival at the local collaborative institute / marine station (coordinated by the Field Operations Coordinator and Lead Sampler)
+Welcome and introduction of local collaborative institute / marine station
+Introduction of the local environment (info can also be found in field safety protocols (FO23 and FO24))
+General remarks regarding landscape, potential risks (e.g., terrain, weather, sea, transport, etc.)
+Tides and general characteristics of coastline (danger related to mud, water)
+Safety concerns (e.g. poisonous plants and animals, other hazards)
+Local emergency workflow (emergency numbers)
+Introduction of TREC and what we do here
+Presentation of TREC core team (who is responsible for what) and local volunteers
+A short daily briefing should be held before sampling days (either evening before or in the morning, coordinated by the Lead Sampler)
+
+Repeat the most important points from the initial institutional briefing
+Local environment and hazards
+Tides / coastline
+Safety concerns
+Local emergency workflow
+Brief team meetings
+Schedule and working hours
+Drivers
+Make roles and responsibilities clear (TREC core team lead (=operator A, B, C, D) + TREC volunteer or local volunteer (=volunteer 1, 2, 3, 4))
+Field communication (ppt slide)
+Safety and code of conduct (check field safety protocol)
+Preparations and analysis
+
+Checklist boxes with equipment and consumables
+
+Before each sampling day, the sampling equipment (augers, cores, trophies, gloves, etc.) and sample consumables (tubes, bags, spatulas, knives, etc.) need to be checked for quantity (quick inventory).
+Check the TREC field counts list regarding sample consumables for soil, sediment, shallow water and aerosol
+Check the TREC field counts list regarding equipment
+Check all sampling equipment regarding cleanliness (augers, trophies, cores, boxes, tables, tubes, etc.) 
+
+Normal Site - Consumables Soil
+Type
+In bag
+# of Bags
+Total
+DNA
+50ml tube
+3
+9
+27
+Ions
+50ml tube
+1
+9
+9
+MgCl + PFA microscopy
+50ml tube
+1
+9
+9
+Dry Chemistry
+Whirl-Pak small
+1
+9
+9
+Inorganic pollutants (metals)
+Whirl-Pak small
+1
+9
+9
+Extra sample
+Whirl-Pak large
+1
+9
+9
+Organic carbon
+Whirl-Pak large
+1
+9
+9
+Cryo
+Whirl-Pak large
+1
+9
+9
+Storage
+Dark-Bag
+2
+9
+18
+Xenobiotics
+100ml Duran glass bottle
+1
+9
+9
+
+
+
+Normal Site - Consumables Sediments
+Type
+In bag
+# of Bags
+Total
+DNA
+50ml tube
+3
+3
+9
+Ions
+50ml tube
+1
+3
+3
+Organic Carbon
+15ml tube
+1
+3
+3
+Chlorophyll
+15ml tube
+1
+3
+3
+Granulometry
+15ml tube
+1
+3
+3
+Porosity
+15ml tube
+1
+3
+3
+Extra
+Whirl-Pak large
+1
+3
+3
+Cryo
+Whirl-Pak large
+1
+3
+3
+Inorganic Chemistry
+Whirl-Pak small
+1
+3
+3
+Storage
+Dark-Bag
+2
+3
+6
+Xenobiotics
+100ml Duran glass bottle
+1
+3
+3
+Meiofauna / Microscopy material
+250ml Bottle
+3
+3
+9
+
+
+Super Site - Consumables Soil
+Type
+In bag
+# of Bags
+Total
+DNA
+50ml tube
+12
+9
+108
+Ions
+50ml tube
+1
+9
+9
+MgCL + PFA Microscopy
+50ml tube
+1
+9
+9
+Dry Chemistry
+Whirl-Pak small
+1
+9
+9
+Living organisms ?
+Whirl-Pak small
+1
+9
+9
+Inorganic Chemistry (metals)
+Whirl-Pak small
+1
+9
+9
+Extra
+Whirl-Pak large
+1
+9
+9
+Organic Carbon
+Whirl-Pak large
+6
+9
+54
+Cryo
+Whirl-Pak large
+6
+9
+54
+Storage
+Dark-Bag
+2
+9
+18
+Xenobiotics
+100ml Duran glass bottle
+1
+9
+9
+Giant Viruses
+Whirl-Pak large
+
+
+
+
+1
+Symbiosis
+Whirl-Pak large
+
+
+
+
+1
+
+
+Super Site - Consumables Sediment
+Type
+In bag
+# of Bags
+Total
+DNA
+50ml tube
+12
+6
+72
+Ions
+50ml tube
+1
+6
+6
+Organic carbon
+15ml tube
+1
+6
+6
+Chlorophyll
+15ml tube
+1
+6
+6
+Granulometry
+15ml tube
+1
+6
+6
+Porosity
+15ml tube
+1
+6
+6
+Extra
+Whirl-Pak large
+1
+6
+6
+Cryo
+Whirl-Pak large
+4
+6
+24
+Inorganic Chemistry
+Whirl-Pak small
+1
+6
+6
+Storage
+Dark-Bag
+2
+6
+12
+Xenobiotics
+100ml Duran glass bottle
+1
+6
+6
+MgCL + PFA / Microscopy
+250ml nalgane
+3
+6
+9
+Living organisms
+250ml nalgane
+1
+6
+6
+
+
+
+Day before preparation
+General
+Upload pictures of previous sampling site (images, log-sheets, others)
+Recharge photo cameras and field cell phones
+Recharge handheld radios with PTT
+Recharge FTIR
+Check the batteries in (change if too low) : 
+Scale
+Multimeter probe
+Light meter
+GPS
+Check consumables (tubes, bags, spatulas, etc.) for numbers and counts
+Check equipment is clean, dry and sterile
+Check dry shipper is cold, add liquid nitrogen (LN) if not
+Pack consumables and equipment in gray boxes and on sampling vehicles
+Pack a few extra consumables (e.g. 5x each Whirl-Pak, tubes etc.)
+Aerosols
+Charge the batteries for the air sampler (3x)  
+Charge the batter for the particle counter  (ghost buster)                                                    
+Pre-label 6x small Whirl-Pak (0.5 L) and filters (using the labels / barcodes provided, 3x control + 3x sample)
+Prepare a dry shipper with liquid nitrogen (LN)
+Prepare 70% ethanol
+Prepare DNA away
+Sediment
+Prepare syringes at EMBL and ship to institutional stop
+Cut at the top where it will be inserted into the sediments 
+Mark 5 cm depth with a permanent marker
+Autoclave the syringe (3 in one bag)
+Syringes must be new and sterile at each site  
+
+
+Sample naming protocol (stickers should be made and just added before) 
+All samples should be named according to the following naming convention: a-b-c-d-e-f example: ROSCOFF-LSI-1-Soil-1-1
+Institute: The name of the stop used as a base camp for the sampling
+Team: The team collecting the sample; for us it is always LSI
+Site ID number: A number between 1-4, which is the reference to the site order for each institute 
+Sample type: Soil, Sediment, Water, Aerosol, Leaf etc.
+Transect number: Number indicating which transect the sample was taken from
+Sample number: Number indicating which square the sample was taken from
+Each subsample should have the additional information according to the following naming convention: a b c d example: ROSCOFF-LSI-1-Soil-1-1 DNA1 Dry Shipper Barcode (should be a sticker) 
+Sample Name: Name created in step 1
+Intended analysis: What will the sample be used for 
+Storage condition: How the sample is to be stored 
+ID number: A unique identifier (barcode) for each subsample
+
+Field Protocol (one whole day of sampling) 
+Site Selection (fill out -> Site Description Form)
+Arrive at or before high tide and just before sunrise (if applicable)
+Check tidal charts ahead of time and check with local collaborators
+Devise a sampling plan at institutional briefing based on tides
+Aim to sample: water in outgoing tide, sediment at low tide, soil throughout the day
+Locate GPS coordinates previously chosen (using handheld GPS device + provided maps)
+Take flags and markers but leave rest of the sampling supplies with vehicles
+Explore the site to identify if it is a suitable sampling site 
+Set a meeting place
+Split into groups of two: Sediment/water samplers and Soil samplers
+Sediment/water team: Check coastline for accessibility, safety and that the sediment is able to be sampled
+Soil team:Perform plan tour by walking the area in a systematic manner,Look for areas where 20-40m, homogeneous transects would be plausible 
+Max. time for site exploration is 45 minutes
+Return to meeting place
+Discuss and identify soil and sediment transects following the Transect Selection Protocol (section II) 
+If suitable transects cannot be identified than adjust site location
+Site must be within 500m (on either side) of previously chosen sites
+Max. width of site is 200m  
+Max. time for picking new site: 1 hour
+
+Transect Selection
+Four transects (1x sediment + 3x soil) must be selected using the following spacial criteria 
+Transects must be at least 20m wide (max. 40m) with 10m spacing possible (max. 20m) between each square (with square 2 being in the middle of the 20 / 40m)
+Sediment transect must be possible in subtidal/intertidal zone
+Identify intertidal zone
+Look at the sediment type
+Muddy and silty sediment preferred 
+Sandy and rocky sediments should be chosen only as a last option 
+Look for macroalgae typical of intertidal zone (ex Brown algae: Fucus vesiculosus in NW atlantic)
+Look for water line
+Look for recently deposited debris (e.g. driftwood, rubbish, etc.)
+At low tide try to move at least 1-10 m from shoreline depending on the safety conditions at the site
+1st soil transect: Stay within 10-50m from shoreline 
+2nd soil transect: 50-150m from shoreline
+3rd soil transect: 200-300m from shoreline 
+The transect homogeneity must be evaluated using the following criteria: 
+Vegetation similarity
+Litter similarity 
+Elevation similarity (peaks or valleys)
+Minimal hotspots (fallen trunks, piles of organic litter) 
+Minimal tracks (vehicles, humans, general compaction) 
+Transect can be safely accessed
+If transects are possible continue to Transect Analysis, if not return to Site Selection section
+Take pictures of sites (fill out -> Site Imagery Description Form)
+Mark chosen transect areas with provided poles and flags
+Record coordinates with handheld GPS
+Take picture with poles, flags and whiteboard with sample / replicate name written on it
+
+Aerosoles (fill out -> Aerosols Sample Description Form)
+Once transects are finalized, aerosol samplers can be set up
+Setup and start AIRQUALIFIER EDM 264 at the in center of site away from people or structures (THE BATTERY HAS TO BE CARRIED BY AT LEAST 2 PERSONS)
+An SASS 3100 aerosol sampler should be set up at each (soil) transect at the same time
+To minimize human exposure, the samplers should also be placed between the first and second square of each soil transect
+If topography of any of the transects does not support this, move all samplers to between the second and third square of each soil transect
+Assemble the air sampling equipment (report serial # of sampler on log-sheet)
+Mount the SASS 3100s on a camera tripod so that they sit upright with the air inlet facing up 
+Make sure the tripod and the sampler are steady
+Stretch out all joints of the tripod and lock them by turning into the “lock” position
+Push the “Benro” lock into place to prevent the legs from moving
+Assemble the mounting part so the joints are tight
+When all stretched out, the height to the top of the tripod from the ground should be about 144 cm                                                                                
+Make sure that the temperature/humidity device is on and not placed close to sources which could disrupt the measurements (e.g. heaters, fans, etc.).
+Clean the air inlet of the SASS 3100
+Put on a new pair of gloves
+Use an alcohol wipe or a tissue with 70% ethanol
+Wipe carefully (dab, don’t rub) if you use a tissue so that the tissue doesn’t disintegrate and leave bits all over the air inlet
+Let the air inlet air dry (approximately 2 min)
+Prepare the negative control filter on the SASS 3100 (report serial and lot # on the log-sheet)
+Carefully open the filter pouch 
+Touching only the filter frame, take the filter out of the bag 
+Do not touch the filter with your hands, as it is sterile!
+Mount it onto the air inlet                                                                                                     
+With gloves, take the filters off the sampler by only touching the frame
+While holding the filter frame, gently push the filter in one corner using clean tweezers. Grab the filter with the tweezers and place it in a pre-labeled small Whirl-Pak (0.5 L)
+Push very carefully to avoid that the filter falls on the ground
+Freeze the negative control filter in liquid nitrogen and store it in a cardboard box in a dry shipper until it arrives at the laboratory
+Prepare the sample filter on the SASS 3100 (report serial and lot # on the log-sheet)
+Carefully open a new filter pouch 
+Touching only the filter frame, take the filter out of the bag 
+Do not touch the filter with your hands, as it is sterile!
+Mount it onto the air inlet
+Add the dust/rain covers to the SASS 3100s by sliding it in and clicking it into place
+Start the SASS 3100 sampler 
+Flip the ON/OFF switch all the way over from OFF to ON (make sure not to end up in the middle position) 
+Walk away immediately (to avoid sampling human material) 
+Set an alarm for 4 hours (ideally by 2-3 samplers so that it is not forgotten)
+After 4 hours turn the sampler off by flipping the ON/OFF switch all the way over to the OFF position (all three samplers should be switched off simultaneously by three samplers)
+Recover sampling filter
+Take the dust/rain covers off the samplers
+With gloves, take the filters off the sampler by only touching the frame
+While holding the filter frame, gently push the filter in one corner using clean tweezers. Grab the filter with the tweezers and place it in a pre-labeled small Whirl-Pak (0.5 L)
+Push very carefully to avoid that the filter falls on the ground
+Freeze the sample filter in liquid nitrogen and store it in a cardboard box in a dry shipper until it arrives at the laboratory
+Take the SASS 3100 air sampler off the tripod and clean 
+Wipe with dH2O to prevent corrosion and salt accumulation
+Using an alcohol wipe or a tissue with 70% ethanol 
+Wipe carefully (dab, don’t rub) if you use a tissue so that the tissue doesn’t disintegrate and leave bits all over the air inlet
+Let the air inlet air dry (approximately 2 min)
+Take the battery out of the sampler and charge it overnight at the institute
+Store the sampler in its Pelican case (whenever not in use)
+Disassemble the tripod and store it in its bags. The folded up tripod should look like this in order to fit in the bag   
+
+Shallow waters (fill out -> Shallow Water Sample Description Form)
+Important Note
+This section only covers the site selection, sampling and initial filtration of shallow water near the shoreline, but not the entire shallow water processing, which will be done at the processing van. For the detailed protocol, see the “Handbook of operations and protocol for shallow water (SW) for TREC”
+Choosing the sampling site
+The site for sampling of the shallow water should be aligned with the transects selected previously (if possible), but may be shifted depending on the conditions at the site, especially regarding safety measures
+Site specific sampling strategy should be discussed beforehand i.e. bucket vs niskin bottle, rope vs entering the water
+The exact location for sampling has to be decided based on the following criteria (in order of importance):
+SECURITY
+Depth at the sampling site between 50 cm and 1m deep
+Minimal potential sediment resuspension by the samplers
+Minimal natural sediment resuspension (e.g. waves, currents, …)
+Sampling
+Once the sampling location has been decided, set up the CTD:
+Assemble the CTD, the floating platform and the mooring line
+Turn on the CTD by turning clockwise the red cap
+Moor the CTD in close vicinity to the sampling point.
+<!> If there is current, place the CTD upstream of the sampling point in order to avoid the resuspended sediment due to sampling to pollute the CTD acquisition.
+Before proper sampling, make FSW using the portable filtration device (Katadyn Hiker Pro).
+Plunge the inlet in sea water and connect the outlet to a cleaned washing bottle
+Fill the two washing bottles 
+<!> Pay attention not to contaminate FSW with drops coming from your hands and/or the filtration device
+Sampling using the 5L Niskin bottle
+<!> Avoid as much as possible the contamination with artificially resuspended sediments by staying downstream of the Niskin. Minimise stepping in the sampling area
+<i> If the conditions are not met for Niskin sampling (e.g. water too shallow, outgoing tide….) use a 10L bucket (degraded mode)
+Place the Niskin with both sides open at sub-surface (~20-30 cm deep).
+Let some water flow through the Niskin to rinse it (especially for the first water collection).
+Pour ~1L of the filtered Niskin content to each of the carboys to rinse them. Use the series of 200µm and 20µm sieve and the funnels to keep only the <20µm size fraction. To speed up the process use the bottom Niskin lid instead of the Niskin spigot. Open the lid gently to control the flow.
+<!> Pay attention to not let water overflow the sieve
+Close the carboys lids, shake and empty them. Repeat this rinsing operation a second time.
+After rinsing, clean the sieve in the water to remove all particulate matter by dipping them in the water and quickly washing them with FSW.
+Fill all the carboys to 10L by repeating twice the Niskin sampling and the transfer into the carboys using the 200µm and the 20µm.
+The last two filled carboys are the ones dedicated to MetaBGT.
+For each Carboy, recover the 20-200µm size fraction. Concentrate the particles collected on the sieve on one side using the washing bottle (filled on site manually with freshly on-site FSW). Poor the particles to the dedicated 20-200µm 200 nmL bottles. Complete the bottle to 200 mL using the washing bottle.
+Fill a last Niskin bottle to be brought back to the van lab
+Recover the CTD probe and stop the acquisition.
+Bring the 4 x 10L carboys, 4 x 200 mL 20-200 µm bottle and the Niskin to the van lab for processing.
+
+
+
+ Sediment
+Site Preparation 
+Prepare the working area 
+Set up the folding table in the parking zone if it is near the sample transect
+Set up the folding table on the shore if the parking zone is too far from the sample transect
+Keep all consumables, equipment and the dry shipper in the working area
+Unpack prelabeled tubes and bags
+Barcodes of each sample taken should be added to the checklist / log-sheet on the Sediment Sample Distribution form after samples are taken
+Prepare and follow the TREC field safety guide (check surroundings, safety equipment like manual life jackets, dry suits, ropes, bodyboard, packraft etc.) 
+Transect Analysis (fill in -> Sediment Transect Description Form)
+
+Sediment transect must be possible in subtidal/intertidal zone
+At low tide try to move at least 1-10 m from shoreline depending on the safety conditions at the site
+Using a field tape, measure off 40 meters (decrease down to 20 or 10 meters if necessary)
+Mark each end of the transect with a pole and flag
+Identify the midpoint and mark with pole and flag
+Standing with back to the ocean start at the right most marker. This will be triangle 1
+Confirm that triangle is suitable for sampling and place the PVC triangle 
+Each triangle is equilateral with 1m side length. 1 core will be taken from each corner / point (with the center of the triangle on the 40 m transect line previously selected) if this is not possible:
+Triangle can be rotated slightly left or right maintaining a 1m distance
+If it is necessary to move the triangle more than 1 meter from original marker, the whole transect will need to be adjusted
+Repeat step 5 for triangle 2 (middle marker) and triangle 3 (far left marker with back to ocean)
+For each transect record (fill in -> Sediment Transect Description Form):
+Take picture of the site 
+Flora and fauna
+Sediment type and color
+Water color
+Anthropogenic feature
+Coring Procedure (fill in -> Sediment Sample Description Form)
+Record GPS location and take picture of the triangle
+Place on gloves
+Take 3 cores simultaneously at triangle
+Take cores in a equilateral triangle
+3 samplers place 10cm diameter cores simultaneously
+Push the core ¾ of the way down
+Reach underneath and slide PVC disk or spatula up against the bottom of the core
+Gently pull out the core
+Top with the lid (the cup or plexiglas)
+Take back rapidly to shore
+If the sampler is stuck in the mud, pass the cores off to waiting partner
+Get rescued
+Hand off to processing people
+Sample distribution (fill in -> Sediment Sample Distribution Form)
+Put on sterile gloves
+Clean working area with Milli-Q water and 70% ethanol 
+Slide core onto the plunger off of plexiglass plate or spatula
+Push a little bit the core
+Take picture of core from side view with sample name on the board (1 core only)
+Remove the lid
+Push the core until it reaches the top removing all remaining water
+Process cores A, B and C simultaneously 
+MetaG/T/B, Chlorophyll, Organic carbon, Organic Pollutants (Ifremer), Xenobiotics (Zimmermann), Metals, and extra sub-samples are composed of a parts of cores A, B and C 
+Microscopy / Meiofauna material are sampled separately from each core (A, B and C)
+Ions, Granulometry and Porosity sub-samples are only taken from core A
+Sub-sampling for MetaG/T/B and placement in dry shipper within 30 mins of collection
+Into core A, B and C, insert 1 prepared sterile syringe (15 ml for normal sites or 60 ml for supersites) into the internal part of the core (avoid touching the core edges) up to 5 cm 
+Starting with core A, pull out the syringe gently tilting to keep material in syringe
+Open the tube, keep sterility of the tube (avoid contamination of the cap) 
+Eliminate sediment on the outside of the syringe by wiping it on core 
+Transfer to 50 ml cryo tube by gravity 
+Close the tube with cap
+Repeat for core B and C in the same tube
+Shake the tube strongly once to let the sediments deposit at the bottom of the tube
+Place the tube gently in a cryo bag (large Whirl-Pak 2 L) and directly in the dry shipper
+Repeat this operation two times (2x) using new 50ml tubes for technical replicates and add to cryo bag (large Whirl-Pak 2 L) in dry shipper
+ Sub-sample for Chlorophyll
+Use inox spatula / spoon or wooden tongue depressor (the inox spatula can also be used for 11-13 and 16-19)
+Collect 2ml from each core
+Place in the same a 15ml tube and reach a total volume of 6ml
+Place in dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage 
+Sub-sample for Organic carbon
+Use inox spatula / spoon
+Collect 2ml from each core
+Place in the same 15 ml tube and reach a total volume of 6ml
+Place in 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage 
+Sub-sample for Organic Pollutants (Ifremer) 
+Use inox spatula / spoon
+Collect 30 ml from each core
+Place into the same provided 100ml burned glass bottles 
+Capped with sterile Aluminum foil 
+And then with the final plastic cap 
+Place in dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Repeat 1x if enough material
+ Sub-sample for Xenobiotics (M. Zimmermann)
+Use inox spatula / spoon
+Collect 30 ml from each core
+Place into the same untreated 100ml glass bottles 
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage 
+Sub-sample for Inorganic pollutants (Metals)
+Use plastic syringes used for DNA / wooden tongue depressor
+Collect 50 to 100 g from each core used for DNA
+Place in small Whirl-Pak (0.5 L) 
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage 
+Sub-sample for Meiofauna / Microscopy material
+Use plastic syringes used for DNA
+Collect two syringes of the first 5 cm (as for DNA) of core Afrom each core 
+Place the sediment in 250 ml nalgene bottle with 20 ml of MgCl2 (6x in di-water) and gently invert (not shake!) to cover the sediments (3L prepared at EMBL and shipped with consumables)
+Repeat for core B and C in a new bottle
+Place in the 2nd dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage 
+Keep in cooler 
+Back at van hand off to shallow water team
+Without exposing bottles to light, add 20 ml of 4% formaldehyde each
+Place back in cooler until final storage
+Sub-sample for Ions (only from core A) 
+Use inox spatula / spoon
+Collect (no more than) 230ml from core A
+Place in 50 ml tube
+Keep at RT
+Sub-sample for Granulometry (only from core A) 
+Use inox spatula / spoon
+Collect 4ml from core A
+Place in 15 ml tube
+Keep in cooler
+Sub-sample for Porosity (only from core A)
+Weigh 15ml tubes 
+Use inox spatula / spoon
+Collect 4ml from core A
+Reweigh and record weight difference
+Keep in RT
+Extra
+If there is extra fill up to 100g in a large Whirl-Pak (2 L)
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Repeat core processing for remaining triangles 
+Take pictures of data log-sheet
+Store the samples in the processing van until arrival at the institutional stop / marine station where it can be transferred to final storage conditions (see below) 
+Soil
+Transect Analysis (fill out -> Soil Transect Description Form)
+Starting with the first soil transect, fill out the site description (fill out -> Soil Transect Description Form) 
+Using a field tape, measure off 40 meters (decrease down to 20 meters if necessary)
+Mark each end with a pole and flag
+Identify the midpoint and mark with pole and flag
+Standing with your back to the ocean, start at the right most marker. This will be square 1
+Confirm square is suitable for sampling:
+Each square is 1.4x1.4 m2 with 1 core taken from center and 1 from each corner (1m from the center core, which should be centered on the 40 m transect line previously selected) if this is not possible:
+The corner of the squares can be rotated slightly left or right maintaining a 1m distance from the center
+Whole square can be adjusted in any direction as long as it is less than 1 meter from original marker
+If it is necessary to move the square more than 1 meter from original marker the whole transect will need to be adjusted
+Repeat step 6 for square 2 (middle marker) and square 3 (far left marker with back to ocean)
+For each transect record at middle square:
+Weather data from nearest weather station
+Weather data for exact locations using atmospheric sensor at mulrti meter probe
+Collect leaves for DNA and Microbe Analysis (fill in -> Leaf Sample Description Form)
+Collect 2 grams of fresh leaf weight (~10 leaves at least) two times from 3 to 5 plant individuals that belonging to different species along the transect (~80 leaves per transect)
+Stay between square 1 and 3 and within 3 meters of the transect perpendicular to the transect
+Collected leaves should:
+have no obvious symptoms of disease
+have <5% loss to herbivores (“holes”)
+have 0.125 m3 space separating each plant species
+In wooded habitats, 6 tree (or other woody) species and 2 herb/grass species would be preferable. 
+Place leave samples from each plant in separate envelopes and transport them carefully ensuring that they are not crushed during transport
+Record name of each 8 plant species, if possible (preferably in Latin)
+Use PlantNet app for ID / scientific name
+Core Location Analysis (fill out -> Soil Sample Description Form and Soil Multimeter Probe Form)
+Starting with the 1st square
+Lay a 1.4 meter square down to mark the coring area (with foldable rulers)
+Fill out GPS data
+Fill out luxGalaxy sensor data 
+Fill out Geiger counter data
+Use Temperature/pH/moisture probe (slightly to the side of the coring area)
+Use mid-infrared sensor on the site (handheld FTIR)
+Fill out Transect description form
+Proceed to “Coring Procedure” for 1st square
+Coring Procedure
+Attach a clean combination auger head to the handel 
+Using side of clean knife, clear litter from site (or garden and grass scissor)
+Using knife and/or scissors remove living vegetation and the litter layer from site until the mineral soil is reached
+Drill down by twisting clockwise until the 20cm mark is reached 
+If you are on a slope also drill facing the slope on a perpendicular line
+Continue turning clockwise as you pull up
+If unable to get an intact core then switch to soil specific auger head (e.g. clay or gravel auger) and repeat steps 15-16
+Mark this change on the log-sheet (report type and number of auger on Soil Sample Description Form)
+Use the knife to trim the side of the core by running the knife along the side of the core parallel to the metal sides of the core
+Place core in analysis tray for analysis 
+Repeat 4 more times creating an X pattern where cores are taken from all four corners and the center of the defined square and are added to the same analysis tray
+Core Analysis (fill in → Soil Sample Distribution Form)
+Fill in “Soil Sample Distribution Form”
+Mixing and distribution of samples
+Once the five cores have been collected and placed in the mixing tray, ONE person with sterile gloves on manually homogenizes the soil (except super sites, see separate procedure at the end of this protocol)
+Using a gloved hand and sterile plate knife start by breaking up the core
+Remove any large rocks, roots and twigs, keep roots and twigs in paper bagWhirlPak bag, store at RT ???
+Mix soil as follows
+Split into four sections
+Mix each section separately
+Mix each section together
+Repeat x2
+Unpack prelabeled tubes and bags
+Barcodes of each sample taken should be added to the checklist / log-sheet on the Soil Sample Distribution form after samples are taken
+Once mixed, subsample the soil as follows:
+DNA:
+DNA should be sampled first by one person with clean gloves to lower contamination
+Use sterile spatulas for each new sample
+Fill a 50 ml tube up to the 30-35 mL line and place in storage bag (x3)
+Place in large Whirl-Pak (2 L) in cryofreezer
+Once DNA is done, the rest of the subsamples can be taken simultaneously using the small field scale and an inox spatula for all subsamples except inorganic pollution (e) (2-3 persons)
+Dry Chemistry
+Fill small Whirl-Pak (0.5 L) with 100-150g
+Place in RT storage bag
+Ions
+Fill 50 ml tube up to the 20 ml line with soil
+Place in RT storage bag
+Organic carbon
+Fill large Whirl-Pak (2 L) with ~150-200g 
+Place in cooler
+Xenobiotics
+Fill a 100mL Schott/Duran bottle to top
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Inorganic pollution (metals)
+Fill small Whirl-Pak (0.5 L) with 50-100g with wooden tongue depressor
+Place the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Microscopy
+Place 20ml of soil in 50 ml tube with 10 ml of  MgCl2 (6x in dH2O) to cover the soil (3L prepared at EMBL and shipped with consumables)
+Place in the 2nd dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Back at van hand off to shallow water team
+Take out the bottles without exposing them to light. Add 10 ml of 4% formaldehyde to each of the three bottles
+Place back Whirl-Pak and in cooler until final storage
+Extra
+If there is extra fill up to 100g in a large Whirl-Pak (2 L)
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Repeat “Core Location Analysis”, “Coring Procedure”, “Core Analysis” and “Mixing and distribution of samples” at remaining 2 squares
+Repeat Transect Analysis for transects 2 and 3
+Institute analysis 
+Aerosols
+Remove filters from EMBL field dry shippers and place in long-term storage box in Aerosol dry shipper for shipping
+Shallow Water
+Check the shallow water handbook for all cleaning steps to be done at the processing lab
+Sediment
+Storing at mobile lab until the lab definitive storage condition 
+DNA kept in dry shipper until EMBL depository 
+Chlorophyll in dark (black bag) at 4C then put in -20°C for final storage 
+Organic carbon in dark (black bag) 4C then -20°C for final storage 
+Inorganic pollutants (Metals) in 4C (black bag) then put in -20°C for final storage 
+Organic Pollutants in 4C (black bag) then put in -20°C for final storage 
+Xenobiotic (M. Zimmermann) in 4C (black bag) then put in -20°C for final storage
+Fixed MgCL2/Formaldehyde samples at RT and at RT for final storage
+Ion at RT and at RT for final storage
+Granulometry at RT and at RT for final storage
+Porosity at RT at 4C 
+Extra in dark cooler backpack and at 4C for final storage
+Perform nutrient analysis on sediment samples (Can be done at same time as soil) (fill out -> Ion Analysis form)
+Add 15 mL of deionized water to the 15g soil in the 50 ml tube for Ions
+Mix creating a soil “slurry” by hand or by Vortex
+Analysis according to the immucus10 protocol
+(https://drive.google.com/drive/folders/1oGaT4w9NiP_LW6tVdsYnrV1dmSLktUvC)
+Soil
+Upon returning to the institute, store soil samples as follows:
+DNA kept in dry shipper until EMBL depository 
+Transfer tubes and bags from cooler to 4C fridge
+Keep out ambient temperature samples for further analysis 
+Drying soil for future chemical analysis  (fill out -> Drying Analysis Form)
+Heat oven to 40°C
+Zero scientific scale
+Label baking dish
+Weigh baking dish
+Add sample to baking dish
+Weigh and record wet soil sample in baking dish
+Repeat steps b-f for each soil and sediment sample
+Dry samples for 16-48 hr
+Weigh and record dry sample weight
+Place back in sample bag and store at room temperature
+Perform nutrient analysis on soil samples (Can be done at same time as sediment) (fill out -> Ion Analysis form)
+Add 20 mL of deionized water to the 20g soil in the 50 ml tube for Ions
+Mix creating a soil “slurry” by hand or by Vortex
+Analysis according to the immucus10 protocol (https://drive.google.com/drive/folders/1oGaT4w9NiP_LW6tVdsYnrV1dmSLktUvC)
+Leaves
+Dry leaves
+Dry leaves at preferably 35°C at the institute lab or processing lab (if needed raise to a maximum of 50°C making sure that temperature does not rise above 50 °C) 
+Store leaves
+Dried leaves should be placed in air-tight plastic bag and shipped carefully so that they are not crushed during transport
+
+Data management
+Fill all log sheets and provide to Station manager
+Save field images on SPL Laptops server :/data/LSI/imaging_data in their according station and site folder. Read the README file for naming scheme.
+Save CTD data on SPL Laptops server :/data/LSI/CTD_data in their according station and site folder. Use the Ruskin software installed on both SPL Laptops for data observation and analysis.
+End of day clean up
+After returning to the institute -> unpack and clean the equipment 
+Clean up the auger, sampling trays and bucket as follows:
+Clean with DiWater making sure to remove all visible dirt 
+Dry with ChemWipes
+Rinse with ethanol from wash bottle 
+Place on a clean towel and leave to dry for 1-2 min
+Ensure that equipment is free of paper residues
+Place auger heads in clean sampling bag and tie off to to keep sterile
+Rinse out and dry coolers
+Place all cooling packs in a freezer to refreeze
+Label consumables (bags and tubes) for next sampling trip
+Fill a 50mL tube half full with MgCl
+Fill a 50mL tube half full with PFA
+Plug in any equipment/batteries that need to charge
+Clean and autoclave spatulas/knives if possible (otherwise fresh sets from EMBL)
+Make sure all data has been saved and compiled into data sheets 
+Cleaning for sediment
+Cores, cups, plates, plunger cleaned with 10x diluted bleach 
+Put basin of water with small proportion of bleach (~5ml pure bleach)
+Rince the spatulas and the cores with water and then place them in a basin (sufficiently large to hold all material, e.g. 60 cm x 1 m x 20 cm in height ) with bleach for 15 minutes
+Let them dry or dry them with tissues
+Put them in a plastic dark bag (litter bag) to avoid contamination 
+Close the bag, and keep it ‘sterile’ until the next sampling 
+If possibles alternate cores per TREC site (e.g. 9 cores for Beys de Veys and 9 new cores for Le Havre) 
+Rince the core plunger and the shovel (spatula, PVC blade) with normal water. 
+Throw away used syringes and prepare new ones for next sampling (or sent them back for autoclave to EMBL)
+
+Shipping
+Shipping for sediment
+DNA in dry shipper or dry ice
+Chlorophyll at -20°C
+Organic carbon at -20°C
+Inorganic pollutants (Metals) at -20°C
+Organic Pollutants at -20°C
+Xenobiotic (M. Zimmermann) at -20°C
+Fixed MgCL2/Formaldehyde at RT
+Ion at RT
+Granulometry at RT
+Porosity at RT
+Extra at 4C
+Living material in a dark bag, don’t ship!
+
+Field Sampling priority list
+
+
+	Priority Sampling in general:
+Per institutional stop / station, the priority is always to have a complete land to sea transect (= sampling site) rather than reducing samples taken per transect
+If a site needs to be dropped, always prioritize to sample the ones that align with TARA sampling
+If all samples can’t be taken at the same sampling site decouple as follow
+Move water away from sediment and soil transects
+Move water and sediment transect away from soil transects
+	Priority Sediment:
+Reduce to only one sediment transect (at supersites)
+Reduce to only the middle triangle (out of the three)
+Drop the transect = drop the sampling site
+	Priority Soil:
+Drop the 3rd transect
+Drop the 2nd transect
+Drop the transect = drop the samping site
+
+If sample quantities are limited, the priority of soil sub-samples is:
+DNA
+Organic carbon
+Xenobiotics
+Dry Chemistry
+Inorganic pollution (metals)
+Ions
+Microscopy
+Extra
+If sample quantities are limited, the priority of sediment sub-samples is:
+DNA
+Organic carbon
+Xenobiotics (M. Zimmermann)
+Organic Pollutants (Ifremer) 
+Inorganic pollutants (Metals)
+Chlorophyll
+Meiofauna / Microscopy material
+Granulometry 
+Porosity
+Ions 
+Extra
+Operator roles
+Jobs:
+
+Job
+Aerosols
+Water
+Sediment
+Soil
+General
+Operator A (water)
+Carry AIRQUALIFIER EDM 264 to first transect
+Find spot to sample, determine if sampling is safe/possible, decide on sampling method
+none
+Help with sample distribution once water filtration is finished
+Coordinate shallow water
+Start Air Qualifier
+Set up filtering system
+
+
+Help with clean up
+Oversee water processing, contact water coordinators if necessary
+Turn off Air Qualifier
+Oversee water sampling
+
+
+
+
+
+
+Carry back to Van
+Carry carboy to van
+
+
+
+
+
+
+
+
+Set up filtering system
+
+
+
+
+
+
+
+
+Filter for Metagenomics
+
+
+
+
+
+
+
+
+Filter for Chemical profile
+
+
+
+
+
+
+
+
+Store samples
+
+
+
+
+
+
+
+
+Clean van and filtering system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operator B (Sediment)
+Carry SASS 3100 sampler to 1st transect
+Fix and start CTD
+Find spot to sample, determine if sampling is safe/possible, decide on sampling method
+Help with sample distribution once water filtration is finished
+Coordinate sediment and be the second on water sampling
+Set up sampler
+Collect water using the niskin bottle
+Core sediment/decide if safe for multiple corers to participate
+Help with clean up
+
+
+Start sampler
+Retrieve CTD
+Oversee sample sediment cores
+
+
+
+
+
+
+Carry CTD to van
+Oversee storage samples
+
+
+
+
+
+
+Biogeochemistry analysis
+
+
+
+
+
+
+
+
+Single cell ecology
+
+
+
+
+
+
+
+
+Store samples
+
+
+
+
+
+
+
+
+Clean van
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operator C (Soil)
+Carry SASS 3100 sampler to 2nd transect
+Sieve water
+Clean and Set up sampling stations
+Find spot to sample, determine if sampling is safe/possible, decide on sampling method
+Coordinate team on sampling day
+Set up sampler
+Rinse 20um sieve into sample bottle
+Core sediment if safe for multiple samplers
+Coring soil samples
+Coordinate with field operations manager
+Start sampler
+Carry carryboys to van
+Sample sediment cores
+Analyzing sample cores
+Coordinate prep for next day
+Remove Filter and store in dry shipper x2
+Clean and carry sieve setup to van
+Store samples
+Sample distribution
+Coordinate with partner of local station
+Turn off sampler x2
+
+
+Clean and store equipment
+
+
+
+
+Disassemble sampler x2
+
+
+
+
+
+
+
+
+Carry back to Van
+
+
+
+
+
+
+
+
+Operator D (Trained volunteer)
+Carry SASS 3100 sampler to 3rd transect
+Sieve water
+Clean and Set up sampling stations
+Help with site evaluation
+
+
+Set up sampler
+Rinse 20um sieve into sample bottle
+Monitor samplers from the beach. Call for help if need
+Operate probes/FTIR
+
+
+Start sampler
+Carry sieve setup to van
+Sample sediment cores
+Monitor leaf collections
+
+
+Remove Filter and store in dry shipper
+
+
+Store samples
+Help with sample distribution once probing is done
+
+
+Turn off sampler
+
+
+Clean and store equipment
+Help with clean up
+
+
+Disassemble sampler
+
+
+
+
+
+
+
+
+Carry back to Van
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Volunteer 1
+Help carry, set up and take down AIRQUALIFIER EDM 264
+Find spot to sample
+None
+Record data
+
+
+
+
+Set up filtration systems
+
+
+Take photos
+
+
+
+
+Carry carboys to van
+
+
+Help with clean up
+
+
+
+
+Help with filtering for Metagenomics
+
+
+
+
+
+
+Volunteer 2
+Help Carry, set up and take down SASS 3100 sampler to 1st transect
+Carry niskin bottle back and forth to shore
+Core sediment if safe for multiple samplers
+Assist with probe
+
+
+Record metadata
+Carry carboys to van
+Sample sediment cores
+Collect leaves
+
+
+Carry back to Van
+
+
+Store samples
+Help with clean up
+
+
+
+
+
+
+Clean and store equipment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Volunteer 3
+Help Carry, set up and take down SASS 3100 sampler to 2nd transect
+Carry niskin bottle back and forth to shore
+Set up sediment sampling stations
+Coring soil samples
+
+
+Record metadata
+Carry carboys to van
+Help transport sediment cores to station
+Analyzing sample cores
+
+
+
+
+
+
+Hold cores for sampling
+Sample distribution
+
+
+
+
+
+
+Clean and store equipment
+Help with clean up
+
+
+Volunteer 4
+Help Carry, set up and take down SASS 3100 sampler to 3rd transect
+Carry niskin bottle back and forth to shore
+Set up sediment sampling stations
+Coring soil samples
+
+
+Record metadata
+Carry samples to van
+Help transport sediment cores to station
+Analyzing sample cores
+
+
+
+
+
+
+Hold cores for sampling
+Sample distribution
+
+
+
+
+
+
+Clean and store equipment
+Help with clean up
+
+
+
+
+At Super Sites
+
+Aerosols 
+No difference
+Water
+ 	No difference
+Sediment
+Two transects if possible in intertidal / subtidal zone depending on coast and safety aspects
+Process cores A, B and C simultaneously (3-4 samplers)
+MetaG/T/B and Organic Chemistry sub-samples are composed of equal parts of cores A, B and C and 3 separate sub-samples of each core
+Chlorophyll, Organic Pollutants (Inferemer), Xenobiotics (Zimmermann), Metals and Extra sub-samples are composed of equal parts of cores A, B and C.
+Microscopy / Meiofauna material are sampled separately from each core (A, B and C)
+Ions, Granulometry and Porosity sub-samples are only sampled from core A
+ 
+Sub-sampling for MetaG/T/B and placement in dry shipper within 30 mins of collection
+A.	In each core A, B and C, insert 2 prepared sterile syringes (60ml or 15ml) into core A into the internal part of the core (avoid touching the core edges) up to 5cm 
+B.    Sub-sample for MetaG/T/B for technical replicate on each core (3 per cores)
+a)    Open the tube, but be careful to keep sterility of the tube (avoid contamination of the cap) 
+b)    Pull out the first syringe gently tilting to keep material in syringe
+c)    Eliminate sediment on the outside of the syringe by wiping it on core
+d)	Transfer to 50 ml cryo tube by gravity
+e)	Place the syringes back in the sediment and repeat a second time in the same tube (only for syringe 15ml)
+f) 	Close the tube with cap
+g)	Shake the tube strongly once to let the sediments deposit at the bottom of the tube
+h)    Place the tube gently in a cryo bag and directly in dry shipper
+i)      Repeat this operation two times (x2) using new 50ml tubes for technical replicates and add to cryobag in dry shipper (x3 sub-samples per core)
+j)      Repeat for core B and C (x9 sub-samples per triangle)
+C.   Sub-samples composed of equal parts of cores A, B and C 
+a)    Starting with core A, pull out the second syringe gently tilting to keep material in syringe
+b)	Open the tube, keep sterility of the tube (avoid contamination of the cap) 
+c)	Eliminate sediment on the outside of the syringe by wiping it on core
+d)	Transfer to 50 ml cryo tube (either by gravity or by pushing with the syringe piston)
+e)	Repeat for core B and C in the same tube
+f) 	Close the tube with cap
+g)	Shake the tube strongly once to let the sediments deposit at the bottom of the tube
+h)	Place the tube gently in the cryo bag and directly in dry shipper
+i)  	Repeat this operation two times (x2) using new 50ml tube for technical replicates and add to cryobag in dry shipper
+D.   Repeat for each triangle (36 subsamples per transect)
+
+4.  	Living Organisms 
+When all other parameter have been sampled
+Collect 1/3 from each core with wooden spatula
+ Place in 250 ml bottle
+ Place in dark bag
+ Keep in cooler 
+Transfer to 4°C at institute
+5. The methods of other sub-samples parameters are the same as « normal site »
+
+
+Soil
+Attach a clean combination auger head to the handel 
+Using side of clean knife/scissors clear litter from site
+Using knife/scissors remove living vegetation from site until the soil is reached
+Drill down by twisting clockwise until 20cm mark is reached 
+If you are on a slope also drill facing the slope on a perpendicular line
+Continue turning clockwise as you pull up
+If unable to get an intact core then switch to soil specific auger head (e.g. clay auger ) and repeat steps
+Mark this change on the log sheet
+Place core in its individual analysis tray for analysis (all steps only done by ONE person with sterile gloves on)
+Homogenize core 
+Using a gloved hand and sterile plate knife start by breaking up the core
+Remove any large rocks, roots and twigs
+mix soil 
+Subsample DNA
+DNA should be sampled first by one person with clean gloves to lower contamination
+Use sterile spatulas
+Fill a 50 ml tube up to the 30-35mL line and place in large Whirl-Pak (2 L) and directly put in dry shipper
+Repeat x1
+Subsample for Organic Chemistry
+Fill large Whirl-Pak (2 L) with ~150-200g 
+Place in cooler
+Repeat 4 more times creating an X pattern where cores are taken from all four corners and the center and each go into one individual analysis trays
+Once all coring and above sampling is complete, mix all cores together in a large sample box in the same method as for normal sites and sub-sample as previously described repeating the DNA (duplicates) and Organic Chemistry 
+Distribute 
+Subsample DNA
+DNA should be sampled first by one person with clean gloves to lower contamination
+Use sterile spatulas
+Fill a 50 ml tube up to the 30-35mL line and place in large Whirl-Pak (2 L) and directly put in dry shipper
+Repeat x1
+Subsample for Organic Chemistry
+Fill large Whirl-Pak (2 L) with ~150-200g 
+Place in cooler
+Dry Chemistry
+Fill small Whirl-Pak (0.5 L) with 100-150g soil
+Place in RT storage bag
+
+Ions
+Fill 50 ml tube up to the 20 ml line with soil
+Place in RT storage bag
+Xenobiotics
+Fill a 100mL Schott/Duran bottle to top
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Microscopy
+Place 20ml of soil in 50 ml tube bottle with 10 ml of  MgCl2 (6x in diwater) to cover the soil (3L prepared at EMBL and shipped with consumables)
+Place in the 2nd dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Back at van hand off to shallow water team
+Without exposing bottles to light add 10 ml of 4% formaldehyde each
+Place back in cooler until final storage
+Inorganic pollution (metals)
+Fill small Whirl-Pak (0.5 L) with 50-100g with wooden tongue depressor
+Place the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Meiofauna
+Place ~20g in a small Whirl-Pak (0.5 L) 
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Extra
+If there is extra fill up to 100g in a large Whirl-Pak (2 L)
+Place in the 1st dark-colored, large Whirl-Pak (2 L) and keep in cooler until final storage
+Once subsamples are distributed, sample for composite analysis
+place 0-60g grams in a large Whirl-Pak (2 L) for Giant Virus analysis
+place 0-60g grams in a large Whirl-Pak (2 L) for Symbiosis analysis
+Note one subsample consists of extra soil from all sampling squares: Total combined weight should be between 100-500 grams
+Repeat for each square on each transect
+Leaves
+No difference
+
+
