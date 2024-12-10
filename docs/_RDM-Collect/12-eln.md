@@ -95,10 +95,6 @@ eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Delt
 * [ELN Material Collection](https://elb-materialsammlung.gitlab.io/sammlung/)
 
 
-## More Info
-
----
-
 * **Best practice examples** (see in {% cite Adam:2021 %})
     * ETH Zürich with openBIS
     * NFDI4Chem with Chemotion
