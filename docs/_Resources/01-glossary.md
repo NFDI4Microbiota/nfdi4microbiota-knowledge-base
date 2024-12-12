@@ -37,7 +37,8 @@ redirect_from: /Resources
 
 ## G
 * **General Data Protection Regulation (GDPR):** regulation “on the protection of natural persons with regard to the processing of personal data and on the free movement of such data”.
-* **git-annex:** distributed file synchronisation system that allows large files to be managed using git without storing the file contents in git.
+* **Git:** software tool that helps teams manage changes to files over time and provides a complete mirror of a repository, including its full history.
+* **git-annex:** distributed file synchronisation system for managing large files with git, without storing the file contents in git.
 
 ## I
 * **Identifiable natural person:**  person who can be directly or indirectly identified using an (online) identifier.
@@ -69,7 +70,8 @@ redirect_from: /Resources
 ## R
 * **Research data:** the collection of digital and non-digital objects (excluding scientific publications) that are generated (e.g. through measurements, surveys, source work), studied and stored during or as a result of scientific research activities. These objects are commonly accepted in the scientific community as necessary for the production, validation and documentation of original research results. In the context of Research Data Management, research data also includes non-data objects such as software and simulations.
 * **Research data life cycle:** a model that illustrates the steps in research data management and describes how data should ideally flow through a research project to ensure successful data curation and preservation.
-* **Research Data Management (RDM):** the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term, and (3) make research results reproducible beyond the research project. It complements the research from planning to data reuse and deletion. 
+* **Research Data Management (RDM):** the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term, and (3) make research results reproducible beyond the research project. It complements the research from planning to data reuse and deletion.
+* **Research data workflow:** detailed description of the individual processing steps of research data depending on the selected software and the required infrastructures and services.
 
 ## S
 * **Storage:** the act of keeping your research data in a secure location that you can easily access.
