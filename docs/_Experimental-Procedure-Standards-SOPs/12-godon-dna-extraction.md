@@ -1,5 +1,5 @@
 ---
-title: DNA extraction: Shortened Godon protocol with optional enzymatic lysis
+title: "DNA extraction: Shortened Godon protocol with optional enzymatic lysis"
 category: Experimental-Procedure-Standards-SOPs
 layout: default
 docs_css: markdown
