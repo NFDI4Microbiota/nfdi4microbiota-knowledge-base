@@ -63,7 +63,7 @@ NFDI4Microbiota offers dedicated services and tools along the research data life
 
 If the steps of the research data life cycle are not completed, data and results may be lost, or they may be preserved but without the necessary metadata to reuse them or make the research process reproducible (see Lost Data Map below). It is important to note that the research data life cycle is a model whose steps do not necessarily have to be followed in strict order, but they should all be completed.
 
-![Lost Data Map]({{ '/assets/img/lost_data_map_rfii_Mau_CC-BY.png' | relative_url }})
+![Lost Data Map]({{ '/assets/img/lost_data_map_rfii_Mau_CC-BY.png' | relative_url }}){:width="70%"}
 
 ## Current developments and initiatives
 ---
