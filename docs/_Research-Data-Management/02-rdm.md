@@ -67,10 +67,9 @@ If the steps of the research data life cycle are not completed, data and results
 
 ## Current developments and initiatives
 ---
-Internationally, the increasingly frequent requirement to produce a DMP has stimulated interest in RDM [Yamaji 2024] and encouraged libraries to take an active role in RDM through advocacy, policy development, and advisory and consultancy services [Cox et al. 2017]. Some institutions, such as KU Leuven, have also developed a dashboard to review datasets to meet funder requirements [Yamaji 2024].
+Internationally, the increasingly frequent requirement to produce a DMP has stimulated interest in RDM {% cite yamaji:2024 %} and encouraged libraries to take an active role in RDM through advocacy, policy development, and advisory and consultancy services {% cox:2017 %}. Some institutions, such as KU Leuven, have also developed a dashboard to review datasets to meet funder requirements {% cite yamaji:2024 %}.
 
 In Germany, the National Research Data Infrastructure (NFDI) funds nearly 30 discipline-specific consortia to help researchers make their data reusable in the long term.
-
 
 ## Further resources
 ---
