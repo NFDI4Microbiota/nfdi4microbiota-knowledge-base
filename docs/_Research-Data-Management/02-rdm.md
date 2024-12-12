@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 ## Definition of Research Data Management (RDM)
-Research Data Management (RDM) is the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term, independent of the data producer and (3) make research results reproducible beyond the research project {% cite biernacka:2020 bres_2022 RfII_RD voigt_2022 pauls_2023 bres_2023 %}. It complements research from planning to data reuse and deletion. 
+Research Data Management (RDM) is the care and maintenance required to (1) obtain high-quality data, whether produced or reused, (2) make the data available and usable in the long term, whether produced or reused and (3) make research results reproducible beyond the research project {% cite biernacka:2020 bres_2022 RfII_RD voigt_2022 pauls_2023 bres_2023 %}. It complements research from planning to data reuse and deletion. 
 
 ## RDM in microbiology
 ---
