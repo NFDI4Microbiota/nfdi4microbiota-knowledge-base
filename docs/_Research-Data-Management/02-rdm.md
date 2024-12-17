@@ -45,6 +45,9 @@ If the steps of the research data life cycle are not completed, data and results
 
 ![Lost Data Map]({{ '/assets/img/lost_data_map_rfii_Mau_CC-BY.png' | relative_url }}){:width="70%"}
 
+## Measures of good RDM
+---
+
 Below are measures of good RDM, grouped according to the steps in the research data life cycle. These measures are largely based on {% cite biernacka:2020 pauls_2023 steen:2022 %}, and some are explained in more detail on other pages of this Knowledge Base.
 
 ### Plan
