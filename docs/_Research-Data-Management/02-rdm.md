@@ -12,14 +12,14 @@ Research Data Management (RDM) is the care and maintenance required to (1) obtai
 ---
 Research data are valuable {% cite pauls_2023 %} and therefore need to be managed systematically and responsibly {% cite biernacka:2020 %}. Incorporating robust RDM practices from the outset of a research project helps make research data accessible, reusable and verifiable throughout the research process and in the long term, regardless of the data producer {% cite pauls_2023 %}. Such practices also ensure integrity and help maximise the impact, reproducibility, transparency and rigour of researchers' analyses and findings. Finally, robust RDM practices enhance collaboration and knowledge sharing and help preserve the scientific record and advance scientific knowledge.
 
-## Benefits and drawbacks of RDM
+## Benefits and Drawbacks of RDM
 ---
 As noted above, there are many benefits to incorporating robust RDM practices from the outset of a research project. For researchers, good RDM enhances visibility, reputation (by ensuring the quality of research), data ownership (i.e. "the possession of and responsibility for information" [NCATS Toolkit](https://toolkit.ncats.nih.gov/)) {% cite bres_2022 jacob_2022 %} and helps them to meet formal requirements from third parties (e.g. research funders, institutions and publishers). For the project, good RDM brings clarity and findability, supports coordination, data security and good storage practices, helps to keep track of the project and deal with legal aspects, and increases eligibility for funding {% cite assmann_2022 bres_2022 bres_2023 %}. For the research group, good RDM enables knowledge management, transfer and preservation, while improving teamwork and saving time, money and resources {% cite assmann_2022 bobrov_2021 bres_2022 %}. For third parties, good RDM practices increase transparency, make data FAIR (i.e. findable, accessible, interoperable and reusable (no need for unnecessary duplication)) and increase collaboration {% cite assmann_2022 bobrov_2021 bres_2022 jacob_2022 voigt_2022 assmann:2022-08 %}. Last but not least, good RDM practices help to address societal challenges by ensuring reproducibility, availability and verifiability, preventing data loss and preserving the scientific record, ensuring good research practice (GRP) and supporting open science (i.e. open transfer of research knowledge, open access to research data) {% cite assmann_2022 bobrov_2021 engelhardt_2022 jacob_2022 lindstädt_2019 voigt_2022 bres_2023 %}.
 
 There are also consequences of poor RDM practices, such as retractions of papers. For example, Dan Ariely, a professor of psychology and behavioural economics at Duke University, had one of his papers on dishonesty retracted. He could not remember in what year and in what form he had received the data from the company he was working with. Nor did he check the data for irregularities. The company could not find the data either {% cite bartlett:2021 %}. 
 Another consequence might be that a paper, or in this case a book, has to be corrected and submitted again for review: Eliran Bar-El, a sociologist at the University of York had to correct his book “How Slavoj Became Žižek - The Digital Making of a Public Intellectual” because of “[several insufficient, missing, or erroneous citations of source material upon which the author builds his argument](https://web.archive.org/web/20231109095858/https:/press.uchicago.edu/books/Book-Pages/9780226823508.html)” {% cite joelving:2023 %}. 
 
-## Research data life cycle
+## Research Data Life Cycle
 ---
 The research data life cycle is a model that illustrates the steps of RDM and describes how data should ideally flow through a research project to ensure successful data curation and preservation {% cite NTU_LibGuides_RD_life_cycle princeton:2024 %}. It is intended to help researchers understand the scope and importance of data management {% cite sheikh:2023 %}. The research data life cycle can be illustrated as follow {% cite RDMkit:2021 %}: 
 
@@ -45,7 +45,7 @@ If the steps of the research data life cycle are not completed, data and results
 
 ![Lost Data Map]({{ '/assets/img/lost_data_map_rfii_Mau_CC-BY.png' | relative_url }}){:width="70%"}
 
-## Measures of good RDM
+## Measures of Good RDM
 ---
 
 Below are measures of good RDM, grouped according to the steps in the research data life cycle. These measures are largely based on {% cite biernacka:2020 pauls_2023 steen:2022 %}, and some are explained in more detail on other pages of this Knowledge Base.
@@ -59,7 +59,7 @@ Collecting primary research data requires the creation of clear protocols for da
 Collecting research data also involves capturing data with metadata. For example, researchers studying bacterial evolution should carefully document their sampling procedures, including information on sampling sites, environmental conditions and sampling techniques to ensure reproducibility. 
 Finally, collecting research data includes data validation (i.e. data cleaning and quality control), the use of acceptable file formats, and data check.
 
-### Process & Analyse
+### Process and Analyse
 Processing research data begins with the proper documentation/description of the data. In terms of documenting scripts, code and software, software tools (from small analysis scripts to machine learning models) are integral to the processing, analysis and interpretation of complex microbiology data sets. Therefore, documenting the software environment, version numbers and dependencies used in data analysis workflows is critical to ensure reproducibility and transparency. For example, a study investigating the taxonomic composition of the gut microbiota may rely on custom Python scripts for data pre-processing and statistical analysis. By documenting these scripts, along with the parameters and input data used, researchers can enable others to replicate their analyses and validate their findings. In addition, the use of version control systems (VCS) such as Git, and the hosting of Git repositories on platforms such as GitHub or GitLab, ensures the traceability and accessibility of software artefacts. By incorporating such software management practices into their RDM strategy, microbiology researchers can improve the reproducibility, transparency and rigour of their computational analyses, thereby advancing scientific knowledge in the field. When it comes to documenting models, with the increasing use of machine learning in microbiology (e.g. to predict antibiotic resistance or classify microbial species), it is imperative that the underlying models are managed transparently. Researchers should document model architectures, training data and performance metrics to facilitate model validation and comparison across studies.
 Before research data can be analysed, it needs to be digitised, transcribed, translated and possibly anonymised. Clear protocols for data analysis must then be established. Finally, the data can be interpreted and research findings produced.
 
@@ -73,7 +73,7 @@ Microbiology researchers can embrace open-science practices by depositing their 
 ### Reuse
 Reusing data includes reviewing results and previous research, conducting follow-up research, and using data for teaching and learning.
 
-## Issues and challenges in RDM
+## Issues and Challenges in RDM
 ---
 Current issues and challenges in RDM can be classified by stakeholder, as individual researchers, research funders, research organisations, librarians and reviewers have different needs {% cite science_europe:2024 %}. 
 
@@ -85,7 +85,7 @@ For research organisations, the institutional commitment and academic engagement
 
 For librarians and RDM staff, raising awareness among researchers of the benefits of data sharing remains a challenge. On another note, librarians need (discipline-specific) skills and competencies to provide RDM-based services {% cite sheikh:2023 %}.
 
-## Developments and initiatives in RDM
+## Developments and Initiatives in RDM
 ---
 Internationally, the increasingly frequent requirement to produce a DMP has stimulated interest in RDM {% cite yamaji:2024 %} and encouraged libraries to take an active role in RDM through advocacy, policy development, and advisory and consultancy services {% cite cox:2017 %}. Some institutions, such as KU Leuven, have also developed a dashboard to review datasets to meet funder requirements {% cite yamaji:2024 %}.
 
@@ -94,7 +94,7 @@ In Germany, the National Research Data Infrastructure (NFDI) funds nearly 30 dis
 ## Resources
 ---
 
-### General resources
+### General Resources
 * [Brief Guide - Research Data Management](https://doi.org/10.5281/zenodo.4000989) by Training Expert Group.
 * The Research Data Management toolkit for Life Sciences [RDMkit](https://rdmkit.elixir-europe.org/) by ELIXIR
 * Virtual Research Environment ([VRE](https://vre.charite.de/vre/))
@@ -105,7 +105,7 @@ In Germany, the National Research Data Infrastructure (NFDI) funds nearly 30 dis
 * [GfBio](https://www.gfbio.org/) consortium services
 * Research Data Management Competence Base ([RDM Compas](https://rdm-compas.org/en/homepage)) by KonsortSWD (social, behavioural, educational and economic sciences)
 
-### Bioinformatics and life-science resources
+### Bioinformatics and Life-science Resources
 * [Bio.tools](https://bio.tools/): essential scientific and technical information on software tools, databases and services for bioinformatics and the life sciences.
 * G-Node infrastructure ([GIN](https://gin.g-node.org/)): GIN offers modern RDM for neuroscience. It is based on Gogs, git and git-annex technologies. GIN features include project management/coordination, large file support and data publishing. It also allows subfolders to be synchronised, shared and published independently of other subfolders. GIN also supports Markdown and LaTeX for manuscript writing. 
 To use GIN, you must first create a new project repository and clone the research folder structure. You can then add a script that synchronises the repository and its submodules on double-click. You can also add submodules to a lab-wide repository. 
