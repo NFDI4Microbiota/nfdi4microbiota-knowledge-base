@@ -6,7 +6,7 @@ docs_css: markdown
 ---
 
 ## Definition of Research Data Management (RDM)
-Research Data Management (RDM) is the care and maintenance required to (1) obtain high-quality data, whether produced or reused, (2) make the data available and usable in the long term, whether produced or reused and (3) make research results reproducible beyond the research project {% cite biernacka:2020 bres_2022 RfII_RD voigt_2022 pauls_2023 bres_2023 %}. It complements research from planning to data reuse and deletion. 
+Research Data Management (RDM) is the care and maintenance required to (1) obtain high-quality data (whether produced or reused), (2) make the data available and usable in the long term (whether produced or reused) and (3) make research results reproducible beyond the research project {% cite biernacka:2020 bres_2022 RfII_RD voigt_2022 pauls_2023 bres_2023 %}. It complements research from planning to data reuse and deletion. 
 
 ## Relevance of RDM
 ---
@@ -33,15 +33,15 @@ NFDI4Microbiota offers dedicated services and tools along the research data life
     * Training with eLabFTW (see example demo [here](https://doi.org/10.5446/68306)).
     * Annual seminar on ELNs.
 * **Process:** metadata (standards):
-    * On this [Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/03-md.html)
-    * On [GitHub](https://github.com/NFDI4Microbiota/MetadataStandards)
-* **Analyse:** the Cloud-based Workflow Manager ([CloWM](https://clowm.bi.denbi.de/login?next=/dashboard)) (15 Nextflow workflows in production, more than 20 available soon).
+    * On this [Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/03-md.html).
+    * On [GitHub](https://github.com/NFDI4Microbiota/MetadataStandards).
+* **Analyse:** the Cloud-based Workflow Manager ([CloWM](https://clowm.bi.denbi.de/login?next=/dashboard)).
 * **Preserve:** the [ARUNA](https://aruna-storage.org/) data orchestration engine, an open-source data management platform that allows scientists and industry partners to store, annotate and share their data according to the FAIR data principles.
 * **Reuse:** 
     * [StrainInfo](https://straininfo.dsmz.de/), a service developed to provide a resolution of microbial strain identifiers by storing culture collection numbers, their relations, and culture-associated data.
     * [VirJenDB](https://www.virjendb.org/), a central hub connecting virus researchers to publicly available virus resources, metadata and sequences.
 
-If the steps of the research data life cycle are not completed, data and results may be lost, or they may be preserved but without the necessary metadata to reuse them or make the research process reproducible (see Lost Data Map below). It is important to note that the research data life cycle is a model whose steps do not necessarily have to be followed in strict order, but they should all be completed.
+If the steps of the research data life cycle are not completed, data and results may be lost, or they may be preserved but without the necessary metadata to reuse them or make the research process reproducible (see Lost Data Map {% cite mau:2019 %} below).
 
 ![Lost Data Map]({{ '/assets/img/lost_data_map_rfii_Mau_CC-BY.png' | relative_url }}){:width="70%"}
 
@@ -77,7 +77,7 @@ Reusing data includes reviewing results and previous research, conducting follow
 ---
 Current issues and challenges in RDM can be classified by stakeholder, as individual researchers, research funders, research organisations, librarians and reviewers have different needs {% cite science_europe:2024 %}. 
 
-For individual researchers, the different organisational requirements can be confusing, especially if they work with different organisations, change their home institution or collaborate with researchers from other organisations where different rules apply  {% cite science_europe:2024 sheikh:2023 %}. The lack of connectivity between tools used at different stages of the research data lifecycle can also be a barrier to the proper management of their data.
+For individual researchers, the different organisational requirements can be confusing, especially if they work with different organisations, change their home institution or collaborate with researchers from other organisations where different rules apply  {% cite science_europe:2024 sheikh:2023 %}. The lack of connectivity between tools used at different steps in the research data lifecycle can also be a barrier to the proper management of their data.
 
 For research funders, the development of technological infrastructure can be difficult {% cite sheikh:2023 %}. 
 
