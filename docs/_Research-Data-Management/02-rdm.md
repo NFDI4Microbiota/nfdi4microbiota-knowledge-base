@@ -61,8 +61,14 @@ Processing research data begins with the proper documentation/description of the
 Before research data can be analysed, it needs to be digitised, transcribed, translated and possibly anonymised. Clear protocols for data analysis must then be established. Finally, the data can be interpreted and research findings produced.
 
 ### Preserve
+Preserving research data requires establishing clear protocols for data storage and migrating data to appropriate media and formats. Adopting standardised formats, such as FASTA or the GenBank flat file format, facilitates interoperability and data sharing between studies, thereby enhancing collaboration and knowledge sharing with the microbiology research community. Data preservation also requires the creation of preservation documentation prior to the actual long-term preservation of data. 
+
 ### Share
+Data sharing requires access control (i.e. selecting appropriate access to data) and data security. Researchers working with sensitive data, such as sensitive personal data (e.g. in clinical microbiology studies) or sensitive environmental data, need to consider protection and security measures to safeguard this information. Data sharing also requires that copyright be established before the data is actually shared and published. 
+Microbiology researchers can embrace open-science practices by depositing their research data in public repositories such as NCBI's GenBank or EMBL-EBI's European Nucleotide Archive (ENA), thereby promoting transparency and long-term preservation of microbial data and ensuring its availability for future research.
+
 ### Reuse
+Reusing data includes reviewing results and previous research, conducting follow-up research, and using data for teaching and learning.
 
 ## Issues and challenges in RDM
 ---
@@ -84,11 +90,26 @@ In Germany, the National Research Data Infrastructure (NFDI) funds nearly 30 dis
 
 ## Resources
 ---
-* General resources:
-    * Brief Guide - Research Data Management: [Training Expert Group 2020](https://doi.org/10.5281/zenodo.4000989)
-    * The Research Data Management toolkit for Life Sciences [RDMkit](https://rdmkit.elixir-europe.org) by [ELIXIR](https://elixir-europe.org)
-* Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences: [bio.tools](https://bio.tools/)
-* Research data management platforms:
-    * [Coscine](https://coscine.de/) by [RWTH Aachen](https://www.rwth-aachen.de)
-    * [BEXIS2](https://demo.bexis2.uni-jena.de) by [NFDI4Biodiversity](https://www.nfdi4biodiversity.org/en/) at [FSU Jena](https://www.uni-jena.de)
-    * [GfBio](https://www.gfbio.org) consortium services
+
+### General resources
+* [Brief Guide - Research Data Management](https://doi.org/10.5281/zenodo.4000989) by Training Expert Group.
+* The Research Data Management toolkit for Life Sciences [RDMkit](https://rdmkit.elixir-europe.org/) by ELIXIR
+* Virtual Research Environment ([VRE](https://vre.charite.de/vre/))
+
+#### Platforms
+* [BExIS2](https://demo.bexis2.uni-jena.de/) by NFDI4Biodiversity at FSU Jena
+* [Coscine](https://www.coscine.de/en/) by RWTH aachen
+* [GfBio](https://www.gfbio.org/) consortium services
+* Research Data Management Competence Base ([RDM Compas](https://rdm-compas.org/en/homepage)) by KonsortSWD (social, behavioural, educational and economic sciences)
+
+### Bioinformatics and life-science resources
+* [Bio.tools](https://bio.tools/): essential scientific and technical information on software tools, databases and services for bioinformatics and the life sciences.
+* G-Node infrastructure ([GIN](https://gin.g-node.org/)): GIN offers modern RDM for neuroscience. It is based on Gogs, git and git-annex technologies. GIN features include project management/coordination, large file support and data publishing. It also allows subfolders to be synchronised, shared and published independently of other subfolders. GIN also supports Markdown and LaTeX for manuscript writing. 
+To use GIN, you must first create a new project repository and clone the research folder structure. You can then add a script that synchronises the repository and its submodules on double-click. You can also add submodules to a lab-wide repository. 
+
+* TMF-Portal [ToolPool Gesundheitsforschung](https://www.toolpool-gesundheitsforschung.de/): The TMF-Portal was launched in 2017 and is operated by the Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V. (TMF). It provides a collection of IT infrastructure-related products for networked medical research. There are products from the TMF and from other providers such as companies and research institutions. There are over 80 products, more than half of which are software tools. Other product categories include eServices, reports and expert opinions, working materials and checklists, consultancy services and training courses. Products can be filtered by category, topic, project phase, keywords, provider and year. Similar products can also be compared using a feature matrix. On each product page you will find information about the use of the product in projects, testimonials from other users and references. New products can be submitted by anyone. Each product is then reviewed by a team of TMF members against a set of criteria before being added to the portal.
+To use the portal, follow this link. Many offerings are free and can be accessed directly from the portal. Software products usually require local installation and configuration {% cite steen:2022 %}.
+
+#### Standard Operating Procedures (SOPs)
+* [SOP: Data management in clinical trials](https://khpcto.co.uk/SOPs/18_DataSOP.php)
+* [SOP: Data Management in the National Institute of Neurological Disorders and Stroke](https://research.ninds.nih.gov/sites/default/files/documents/SOP18_Cinical_Data_Management_508C.pdf)
