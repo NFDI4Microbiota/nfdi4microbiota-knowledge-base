@@ -20,6 +20,7 @@ The following list contains the names of the contributors in alphabetical order.
 * Magel, Maja (ORCID ID: [0009-0004-2517-0791](https://orcid.org/0009-0004-2517-0791))
 * Markus, Katharina (ORCID ID: [0000-0002-9316-8982](https://orcid.org/0000-0002-9316-8982))
 * Müller, Rabea (ORCID ID: [0000-0002-3096-8237](https://orcid.org/0000-0002-3096-8237), Wikidata: [Q95461538](https://www.wikidata.org/wiki/Q95461538))
+* Majid, Mahnoor (ORCID ID: [0000-0002-7327-6433](https://orcid.org/0000-0002-7327-6433))
 * Parmaksiz, Uta (ORCID ID: [0000-0002-0087-5056](https://orcid.org/0000-0002-0087-5056))
 * Pauvert, Charlie (ORCID ID: [0000-0001-9832-2507](https://orcid.org/0000-0001-9832-2507), Wikidata: [Q103017355](https://www.wikidata.org/wiki/Q103017355))
 * Smirnova, Ekaterina
