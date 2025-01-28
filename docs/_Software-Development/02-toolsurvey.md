@@ -18,6 +18,18 @@ In the meantime, browse our tools below and find more [recommendations for resou
 
 ## Applications
 ---
+
+### The Cloud-based Workflow Manager - CloWM (BIBI)
+The Cloud-based Workflow Manager (CloWM /klaʊm/) offers the seamless integration of (1) curated, scientific workflows written in the Nextflow DSL, (2) robust data storage, (3) a highly scalable compute layer for data-intensive analysis tasks and a (4) user-friendly interface. The CloWM platform is completely open-source and can be used free-of-charge.
+The CloWM platform already contains several curated, best-practice workflows that cover a broad range of research fields/tasks, such as metagenomics (WGS and 16S), human-variation-analysis, infectious diseases (SARS-CoV2, Mpox, Influenza A+B), meta-barcoding, genome assembly, transcriptomics, basecalling, phylogenomics, …
+Some of these workflows are exclusively available on CloWM.
+
+operating system: Platform independent
+
+License: [Apache 2](https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+Link: [https://clowm.bi.denbi.de](https://clowm.bi.denbi.de)
+
 ### checkM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
