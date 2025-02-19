@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Jekyll site using Docker
         run: |
-          sudo docker run --rm \
+          sudo docker run --rm --user $(id -u):$(id -g) \
             -v "${{ github.workspace }}":/srv/jekyll \
             -w /srv/jekyll \
             jekyll/jekyll jekyll build
