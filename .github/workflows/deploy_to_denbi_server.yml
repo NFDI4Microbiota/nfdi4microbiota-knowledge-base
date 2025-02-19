@@ -1,4 +1,4 @@
-name: Deploy Jekyll Site
+name: Deploy to DeNBI Faroe server
 
 on:
   push:
@@ -12,7 +12,10 @@ on:
 
 jobs:
   deploy:
-    runs-on: faroe-github-runner
+    runs-on:
+      - self-hosted
+    labels:
+      - faroe-github-runner
 
     steps:
       - name: Checkout repository
