@@ -1,0 +1,63 @@
+name: Deploy Jekyll to Self-hosted Runner (faroe@denbi)
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Ruby dependencies and Jekyll
+        run: |
+          # Install Jekyll and Bundler
+          gem install bundler jekyll
+          # If your project uses a Gemfile, install the dependencies
+          if [ -f Gemfile ]; then
+            bundle install
+          fi
+
+      - name: Build Jekyll site
+        run: |
+          if [ -f Gemfile ]; then
+            bundle exec jekyll build
+          else
+            jekyll build
+          fi
+
+      - name: Determine target directory
+        id: deploy-path
+        run: |
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            echo "TARGET_DIR=/var/www/production/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
+          elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
+            echo "TARGET_DIR=/var/www/development/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
+          else
+            echo "Skipping deployment for unrecognized branch"
+            exit 1
+          fi
+
+      - name: Deploy to target directory
+        if: github.event_name == 'push'
+        run: |
+          sudo rm -rf $TARGET_DIR/*
+          sudo cp -r _site/* $TARGET_DIR/
+          sudo chown -R www-data:www-data $TARGET_DIR
+          sudo chmod -R 755 $TARGET_DIR
+
+      - name: Clean Up Workspace
+        if: always()
+        run: |
+          echo "Cleaning up workspace..."
+          rm -rf $GITHUB_WORKSPACE/*
+          echo "Cleanup complete."
