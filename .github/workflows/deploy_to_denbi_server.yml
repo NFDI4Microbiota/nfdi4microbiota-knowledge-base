@@ -1,4 +1,4 @@
-name: Deploy Jekyll to Self-hosted Runner
+name: Deploy Jekyll Site
 
 on:
   push:
@@ -11,44 +11,37 @@ on:
       - dev
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: self-hosted
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build Jekyll site using Docker
+      - name: Set deployment path
         run: |
-          sudo docker run --rm --user $(id -u):$(id -g) \
-            -v "${{ github.workspace }}":/srv/jekyll \
-            -w /srv/jekyll \
-            jekyll/jekyll jekyll build
-
-      - name: Determine target directory
-        id: deploy-path
-        run: |
-          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
-            echo "TARGET_DIR=/var/www/production/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
-          elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
-            echo "TARGET_DIR=/var/www/development/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "DEPLOY_PATH=/var/www/production/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
+          elif [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
+            echo "DEPLOY_PATH=/var/www/development/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
           else
-            echo "Skipping deployment for unrecognized branch"
+            echo "Unknown branch. Skipping deployment."
             exit 1
           fi
 
-      - name: Deploy to target directory
-        if: github.event_name == 'push'
+      - name: Build Jekyll site with Docker
         run: |
-          sudo rm -rf $TARGET_DIR/*
-          sudo cp -r _site/* $TARGET_DIR/
-          sudo chown -R www-data:www-data $TARGET_DIR
-          sudo chmod -R 755 $TARGET_DIR
+          docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle \
+            jekyll/jekyll:latest jekyll build -d _site
 
-      - name: Clean Up Workspace
-        if: always()
+      - name: Deploy to server
         run: |
-          echo "Cleaning up workspace..."
-          rm -rf $GITHUB_WORKSPACE/*
-          echo "Cleanup complete."
-          sudo docker system prune -f
+          sudo rm -rf $DEPLOY_PATH/*
+          sudo cp -r _site/* $DEPLOY_PATH/
+          sudo chown -R www-data:www-data $DEPLOY_PATH
+
+      - name: Cleanup build artifacts
+        run: |
+          rm -rf _site
+          rm -rf vendor
+          docker system prune -f
