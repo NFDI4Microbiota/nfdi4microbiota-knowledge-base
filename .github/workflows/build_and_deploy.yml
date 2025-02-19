@@ -18,6 +18,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Build Jekyll site with Docker
         run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
