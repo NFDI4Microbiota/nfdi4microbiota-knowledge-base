@@ -12,9 +12,7 @@ on:
 
 jobs:
   deploy:
-    runs-on:
-      labels:
-        - faroe-github-runner
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
