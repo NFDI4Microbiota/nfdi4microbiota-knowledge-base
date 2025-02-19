@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set deployment path
         run: |
@@ -42,6 +44,5 @@ jobs:
 
       - name: Cleanup build artifacts
         run: |
-          rm -rf _site
-          sudo rm -rf vendor
+          sudo rm -rf $GITHUB_WORKSPACE/*
           docker system prune -f
