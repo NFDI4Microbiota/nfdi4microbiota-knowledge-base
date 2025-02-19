@@ -43,5 +43,5 @@ jobs:
       - name: Cleanup build artifacts
         run: |
           rm -rf _site
-          rm -rf vendor
+          sudo rm -rf vendor
           docker system prune -f
