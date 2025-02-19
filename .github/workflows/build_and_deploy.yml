@@ -17,7 +17,7 @@ jobs:
         run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
 
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
