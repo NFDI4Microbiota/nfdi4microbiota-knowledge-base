@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Jekyll site using Docker
         run: |
-          docker run --rm \
+          sudo docker run --rm \
             -v "${{ github.workspace }}":/srv/jekyll \
             -w /srv/jekyll \
             jekyll/jekyll jekyll build
@@ -51,3 +51,4 @@ jobs:
           echo "Cleaning up workspace..."
           rm -rf $GITHUB_WORKSPACE/*
           echo "Cleanup complete."
+          sudo docker system prune -f
