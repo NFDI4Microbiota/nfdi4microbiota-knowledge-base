@@ -1,4 +1,4 @@
-name: Deploy Jekyll to Self-hosted Runner (faroe@denbi)
+name: Deploy Jekyll to Self-hosted Runner
 
 on:
   push:
@@ -18,22 +18,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Ruby dependencies and Jekyll
+      - name: Build Jekyll site using Docker
         run: |
-          # Install Jekyll and Bundler
-          gem install bundler jekyll
-          # If your project uses a Gemfile, install the dependencies
-          if [ -f Gemfile ]; then
-            bundle install
-          fi
-
-      - name: Build Jekyll site
-        run: |
-          if [ -f Gemfile ]; then
-            bundle exec jekyll build
-          else
-            jekyll build
-          fi
+          docker run --rm \
+            -v "${{ github.workspace }}":/srv/jekyll \
+            -w /srv/jekyll \
+            jekyll/jekyll jekyll build
 
       - name: Determine target directory
         id: deploy-path
