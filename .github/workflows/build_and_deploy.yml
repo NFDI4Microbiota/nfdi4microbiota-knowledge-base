@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build Jekyll site with Docker
-        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build -d _site"
+        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build -d _site"
 
       - name: Copy site data to the serving directory
         env:
