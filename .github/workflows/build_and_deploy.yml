@@ -14,7 +14,7 @@ jobs:
       - name: Acquire ownership permissions
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
+        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../* && git config --global --add safe.directory $PWD
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,14 +23,7 @@ jobs:
 
       - name: Build Jekyll site with Docker
         run: |
-         docker run --rm \
-          -v "$PWD:/srv/jekyll" \
-          -v "$PWD/.git:/srv/jekyll/.git" \
-          -v "$PWD/_site:/srv/jekyll/_site" \
-          jekyll/jekyll:latest /bin/bash -c "
-          git config --global --add safe.directory /srv/jekyll &&
-          chmod -R 777 /srv/jekyll &&
-          jekyll build -d _site"
+          docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle jekyll/jekyll:latest jekyll build -d _site
 
       - name: Copy site data to the serving directory
         env:
