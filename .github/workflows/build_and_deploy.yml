@@ -11,11 +11,6 @@ jobs:
     runs-on: zbmed-self-hosted
 
     steps:
-      - name: Acquire ownership permissions
-        env:
-          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../* && git config --global --add safe.directory $PWD
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
