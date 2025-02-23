@@ -22,15 +22,10 @@ jobs:
           fetch-depth: 0
 
       - name: Build Jekyll site with Docker
-        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        run: docker run --rm -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build -d _site"
 
       - name: Copy site data to the serving directory
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
           rm -rf /var/www/kb-nfdi4microbiota/* && cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
-
-      - name: Cleanup build artifacts
-        run: |
-          sudo rm -rf $GITHUB_WORKSPACE/*
-          docker system prune -f
