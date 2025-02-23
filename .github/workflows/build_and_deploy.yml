@@ -11,10 +11,10 @@ jobs:
     runs-on: zbmed-self-hosted
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout repository with correct permissions
+        env:
+          SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
+        run: echo $SUDO_PASS | sudo -S -u elhossary git clone --depth=0 https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.git .
 
       - name: Build Jekyll site with Docker
         run: |
