@@ -29,3 +29,8 @@ jobs:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
         run: |
           rm -rf /var/www/kb-nfdi4microbiota/* && cp -r $PWD/_site/* /var/www/kb-nfdi4microbiota/
+
+      - name: Cleanup build artifacts
+        run: |
+          sudo rm -rf $GITHUB_WORKSPACE/*
+          docker system prune -f
