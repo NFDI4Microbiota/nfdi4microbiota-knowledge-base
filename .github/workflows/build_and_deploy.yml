@@ -11,14 +11,23 @@ jobs:
     runs-on: zbmed-self-hosted
 
     steps:
-      - name: Checkout repository with correct permissions
+      - name: Acquire ownership permissions
         env:
           SUDO_PASS: ${{ secrets.ELHOSSARY_SUDO_PASSWORD }}
-        run: echo $SUDO_PASS | sudo -S -u elhossary git clone --depth=0 https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.git .
+        run: echo $SUDO_PASS | sudo -S chown -R elhossary:elhossary $PWD/../../*
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set Git Safe Directory
+        run: git config --global --add safe.directory $PWD/../../
 
       - name: Build Jekyll site with Docker
         run: |
-          docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle jekyll/jekyll:latest jekyll build -d _site
+          docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle \
+            jekyll/jekyll:latest jekyll build -d _site
 
       - name: Copy site data to the serving directory
         env:
