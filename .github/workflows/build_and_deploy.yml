@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: self-hosted
+    runs-on: zbmed-self-hosted
 
     steps:
       - name: Acquire ownership permissions
