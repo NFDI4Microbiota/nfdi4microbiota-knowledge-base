@@ -18,11 +18,12 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v4
+        run: git config --global --add safe.directory /srv/jekyll
         with:
           fetch-depth: 0
 
       - name: Build Jekyll site with Docker
-        run: git config --global --add safe.directory '*' && docker run --rm -v "$PWD/.git:/srv/jekyll/.git" -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle info jekyll-last-modified-at && jekyll build --trace -d _site"
+        run: docker run --rm -v "$PWD/.git:/srv/jekyll/.git" -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --trace -d _site"
 
       - name: Copy site data to the serving directory
         env:
