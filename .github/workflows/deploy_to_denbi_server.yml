@@ -12,7 +12,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: faroe-self-hosted
 
     steps:
       - name: Checkout repository
