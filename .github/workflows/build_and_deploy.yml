@@ -22,7 +22,9 @@ jobs:
           fetch-depth: 0
 
       - name: Set Git Safe Directory
-        run: git config --global --add safe.directory $PWD/../../
+        run: |
+          git config --global --add safe.directory $PWD/../../
+          git config --global --add safe.directory /srv/jekyll
 
       - name: Build Jekyll site with Docker
         run: |
