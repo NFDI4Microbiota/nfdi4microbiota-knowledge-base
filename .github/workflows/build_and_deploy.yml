@@ -23,8 +23,14 @@ jobs:
 
       - name: Build Jekyll site with Docker
         run: |
-          git config --global --add safe.directory /srv/jekyll
-          docker run --rm -v "$PWD/.git:/srv/jekyll/.git" -v "$PWD:/srv/jekyll" -v "$PWD/_site:/srv/jekyll/_site" jekyll/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --trace -d _site"
+         docker run --rm \
+          -v "$PWD:/srv/jekyll" \
+          -v "$PWD/.git:/srv/jekyll/.git" \
+          -v "$PWD/_site:/srv/jekyll/_site" \
+          jekyll/jekyll:latest /bin/bash -c "
+          git config --global --add safe.directory /srv/jekyll &&
+          chmod -R 777 /srv/jekyll &&
+          jekyll build -d _site"
 
       - name: Copy site data to the serving directory
         env:
