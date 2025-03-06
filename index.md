@@ -1,4 +1,4 @@
 ---
 layout: default
-redirect_to: Getting-Started/01-introduction.html
+redirect_to: Getting-Started/introduction.html
 ---

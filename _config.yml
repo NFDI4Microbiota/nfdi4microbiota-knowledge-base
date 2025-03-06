@@ -50,55 +50,128 @@ collections:
   Getting-Started:
     output: true
     permalink: /:collection/:name
-    order: 1
+    order:
+     - introduction.md
+     - contributing.md
+     - contributors.md
+     - privacy-policy-english-translation.md
   Research-Data-Management:
     output: true
     permalink: /:collection/:name
-    order: 2
+    order:
+     - rd.md
+     - rdm.md
+     - md.md
+     - fair.md
+     - os.md
+     - gsp.md
+     - policies.md
+     - rdm-in-industry.md
   RDM-Plan:
     output: true
     permalink: /:collection/:name
-    order: 3
+    order:
+     - dmp.md
+     - preregistration.md
   RDM-Collect:
     output: true
     permalink: /:collection/:name
-    order: 4
+    order:
+     - data-creation.md
+     - informed-consent.md
+     - eln.md
+     - data-qc.md
   RDM-Process:
     output: true
     permalink: /:collection/:name
-    order: 5
+    order:
+     - data-organization.md
+     - file-formats.md
+     - data-documentation.md
+     - data-standardization.md
   RDM-Preserve:
     output: true
     permalink: /:collection/:name
-    order: 6
+    order:
+     - aruna-object-storage.md
+     - digital-preservation.md
   RDM-Share:
     output: true
     permalink: /:collection/:name
-    order: 7
+    order:
+     - data-security.md
+     - collaboration-tools.md
+     - pids.md
+     - data-publishing.md
+     - data-repositories.md
+     - licenses.md
+     - privacy-issues.md
   RDM-Reuse:
     output: true
     permalink: /:collection/:name
-    order: 8
+    order:
+     - research-data-commons.md
+     - data-reuse.md
   Reproducible-Data-Analysis:
     output: true
     permalink: /:collection/:name
-    order: 9
+    order:
+     - workflows.md
+     - software-containers.md
+     - resources.md
   Software-Development:
     output: true
     permalink: /:collection/:name
-    order: 10
+    order:
+     - smp.md
+     - toolsurvey.md
   Experimental-Procedure-Standards-SOPs:
     output: true
     permalink: /:collection/:name
-    order: 11
+    order:
+     - sop-template.md
+     - introduction.md
+     - external-sops.md
+     - viral-purification-from-bacterial-culture.md
+     - dna-and-rna-kits-by-sample.md
+     - lipid-and-fatty-acid-extraction-protocol-from-biological-samples.md
+     - metabolite-extraction-from-adherent-mammalian-cells.md
+     - metabolite-extraction-from-plant-tissue.md
+     - proteomics-tmt-labelled-sp3-method.md
+     - sample-collection-and-storage-by-sample.md
+     - media-freezing-faecal-samples-recultivation.md
+     - biobank-fmt-samples.md
+     - godon-dna-extraction.md
   Resources:
     output: true
     permalink: /:collection/:name
-    order: 12
+    order:
+     - glossary.md
+     - external-training-resources.md
   How-We-Operate:
     output: true
     permalink: /:collection/:name
-    order: 13
+    order:
+     - n4m-intro.md
+     - governance-workflows.md
+     - privacy-policy-english-translation.md
+     - training-guidelines.md
+
+collection_order:
+  - Getting-Started
+  - Research-Data-Management
+  - RDM-Plan
+  - RDM-Plan
+  - RDM-Collect
+  - RDM-Process
+  - RDM-Preserve
+  - RDM-Share
+  - RDM-Reuse
+  - Reproducible-Data-Analysis
+  - Software-Development
+  - Experimental-Procedure-Standards-SOPs
+  - Resources
+  - How-We-Operate
 
 # Plugin settings
 scholar:

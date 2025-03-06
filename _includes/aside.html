@@ -9,8 +9,9 @@
     <div class="offcanvas-body">
       <nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
         <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
-          {% assign collections = site.collections | sort: "order" %}
-          {% for collection in collections %}
+          
+          {% for collection_name in site.collection_order %}
+            {% assign collection = site.collections | where: "label", collection_name | first %}
             {% assign num_hidden = collection.docs | where: "hide", true | size %}
             {% assign collection_size = collection.docs | size %}
             <!-- The posts collection is hard coded into jekyll so has to be manually excluded -->
