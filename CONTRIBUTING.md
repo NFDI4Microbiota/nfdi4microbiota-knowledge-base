@@ -1,1 +1,1 @@
-please look at: docs/_Getting-Started/02-contributing.md
+please look at: docs/_Getting-Started/contributing.md

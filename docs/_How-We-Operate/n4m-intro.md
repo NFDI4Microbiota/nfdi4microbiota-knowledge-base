@@ -15,7 +15,7 @@ The NFDI4Microbiota 'How we operate' repository shall serve as the base for the 
 Here, all information, guidelines, SOPs, documents, and links required for the work in the consortium can be found.
 
 ### Contribution
-Each member of the consortium can [contribute to this repository](https://knowledgebase.nfdi4microbiota.de/Getting-Started/02-contributing.html).
+Each member of the consortium can [contribute to this repository](https://knowledgebase.nfdi4microbiota.de/Getting-Started/contributing.html).
 
 ## The Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI association)
 
