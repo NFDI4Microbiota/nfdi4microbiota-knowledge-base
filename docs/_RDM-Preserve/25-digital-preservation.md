@@ -31,7 +31,7 @@ To make well-founded decisions regarding data selection the suggested steps are:
 * **Step 2:** Identify data that **should** be kept: data which was expensive to generate, which is impossible to reproduce, particularly curated data and/or data which supports research findings in papers.
 * **Step 3:** Weigh up the **costs** and identify any need for external advice in case of shortfall in the budget.
 * **Step 4:** Identify **purposes** that the data could fulfill: consider the purpose or ‘reuse case’ of your data, including reuse outside your research group.
-* **Step 5:** Complete the data **appraisal**, i.e. list what data must, should or could be kept to fulfill which potential reuse purposes. Summarize any actions needed to prepare the data for deposit - or justification for not keeping it. - see also: Digital preservation in [Data Management Plans (DMPs)](https://knowledgebase.nfdi4microbiota.de/RDM-Plan/01-dmp.html#digital-preservation-in-dmps) 
+* **Step 5:** Complete the data **appraisal**, i.e. list what data must, should or could be kept to fulfill which potential reuse purposes. Summarize any actions needed to prepare the data for deposit - or justification for not keeping it. - see also: Digital preservation in [Data Management Plans (DMPs)](https://knowledgebase.nfdi4microbiota.de/RDM-Plan/dmp.html#digital-preservation-in-dmps) 
 
 
 See also: How-to guide of the Edinburgh Digital Curation Centre {% cite dcc_five_2014 %}.
@@ -58,7 +58,7 @@ The following section is intended to provide a basic understanding of the possib
 * Determine responsibilities
    * Define who will be responsible for the data of your organization/research project in the long-term. Determine handover scenarios in the event that the person leaves.
    * Define possible risks of data loss and which follow-up measures should be taken - even after the project has been completed. 
-   * Decide on a technical support, which hardware and software is required and who will provide the resources. - see also: [Data Management Plans (DMP)](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Plan/01-dmp.html#content-of-dmps)
+   * Decide on a technical support, which hardware and software is required and who will provide the resources. - see also: [Data Management Plans (DMP)](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Plan/dmp.html#content-of-dmps)
 * Determine who should be able to find and access the data.
    * How will these persons be made aware of the existence of relevant data in this location? How can they can search for specific projects or files?
    * Set up a website, an index or a database with required metadata and ensure that necessary metadata is entered.

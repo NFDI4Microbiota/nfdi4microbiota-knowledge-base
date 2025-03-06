@@ -50,55 +50,79 @@ collections:
   Getting-Started:
     output: true
     permalink: /:collection/:name
-    order: 1
+    order:
+     - introduction.md
+     - contributing.md
+     - contributors.md
+     - privacy-policy-english-translation.md
   Research-Data-Management:
     output: true
     permalink: /:collection/:name
-    order: 2
+    order:
+     - rd.md
+     - rdm.md
+     - md.md
+     - fair.md
+     - os.md
+     - gsp.md
+     - policies.md
+     - rdm-in-industry.md
   RDM-Plan:
     output: true
     permalink: /:collection/:name
-    order: 3
+    order:
+     - dmp.md
+     - preregistration.md
   RDM-Collect:
     output: true
     permalink: /:collection/:name
-    order: 4
+     - data-creation.md
+     - informed-consent.md
+     - eln.md
+     - data-qc.md
   RDM-Process:
     output: true
     permalink: /:collection/:name
-    order: 5
   RDM-Preserve:
     output: true
     permalink: /:collection/:name
-    order: 6
   RDM-Share:
     output: true
     permalink: /:collection/:name
-    order: 7
   RDM-Reuse:
     output: true
     permalink: /:collection/:name
-    order: 8
   Reproducible-Data-Analysis:
     output: true
     permalink: /:collection/:name
-    order: 9
   Software-Development:
     output: true
     permalink: /:collection/:name
-    order: 10
   Experimental-Procedure-Standards-SOPs:
     output: true
     permalink: /:collection/:name
-    order: 11
   Resources:
     output: true
     permalink: /:collection/:name
-    order: 12
   How-We-Operate:
     output: true
     permalink: /:collection/:name
-    order: 13
+
+collection_order:
+  - Getting-Started
+  - Research-Data-Management
+  - RDM-Plan
+  - RDM-Plan
+  - RDM-Collect
+  - RDM-Process
+  - RDM-Preserve
+  - RDM-Share
+  - RDM-Reuse
+  - Reproducible-Data-Analysis
+  - Software-Development
+  - Experimental-Procedure-Standards-SOPs
+  - Resources
+  - How-We-Operate
 
 # Plugin settings
 scholar:
