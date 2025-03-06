@@ -9,4 +9,9 @@ h5 {
     font-style: italic ;
 }
 
-
+/* Search bar */
+.suggestions {
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+}

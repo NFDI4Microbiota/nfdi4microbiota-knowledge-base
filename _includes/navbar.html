@@ -50,6 +50,16 @@
             <a class="nav-link py-2 px-0 px-lg-2 active" aria-current="true"
               href="{{ '/' | relative_url }}">KNOWLEDGE BASE</a>
           </li>
+          <!-- Search bar -->
+          <div class="position-relative d-none d-lg-block">
+            <form class="d-flex searchForm" method="GET" action="{{ url_for('web.search') }}" id="searchForm">
+                <div class="input-group w-100">
+                    <input class="form-control me-2 rounded-pill border-3 border-warning" id="search-input-docs" type="search" autocomplete="off" placeholder="Search">
+                </div>
+            </form>
+            <!-- Results -->
+            <div id="results-container-docs" class="position-absolute w-100 top-100 bg-white list-group rounded suggestions"></div>
+          </div>
         </ul>
 
         <hr class="d-lg-none text-white-50">
