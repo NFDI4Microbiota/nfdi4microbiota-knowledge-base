@@ -4,16 +4,14 @@ layout: none
 [
   {% assign posts = site.Getting-Started | 
                     concat: site.Research-Data-Management | 
-                    concat: site.RDM-Collect | 
                     concat: site.RDM-Plan | 
-                    concat: site.RDM-Preserve | 
+                    concat: site.RDM-Collect | 
                     concat: site.RDM-Process | 
-                    concat: site.RDM-Reuse | 
+                    concat: site.RDM-Preserve | 
                     concat: site.RDM-Share | 
-                    concat: site.Reproducible-Data-Analysis | 
-                    concat: site.Experimental-Procedure-Standards-SOPs | 
-                    concat: site.Resources | 
-                    concat: site.How-We-Operate %}
+                    concat: site.RDM-Reuse | 
+                    concat: site.Software-Development | 
+                    concat: site.Resources %}
   {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
