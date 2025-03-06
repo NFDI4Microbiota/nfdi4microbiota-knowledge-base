@@ -28,7 +28,7 @@ DMPs typically include the following information:
 1. a repository that has a CoreTrustSeal, Nestor seal (DIN 31644), or ISO 16363 certification
 2. a repository that is widely used and supported by the international research community
 
-To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/22-data-repositories.md %}).
+To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/data-repositories.md %}).
 
 ## DMP templates and examples
 

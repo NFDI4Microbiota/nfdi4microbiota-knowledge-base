@@ -49,7 +49,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 
 #### Services where data can be published
 
-* **Interdisciplinary and [discipline-specific]({% link _RDM-Share/22-data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology) repositories**
+* **Interdisciplinary and [discipline-specific]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
@@ -159,7 +159,7 @@ Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyo
 See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 
 ### Relevant licenses and terms of use
-See [Licenses]({% link _RDM-Share/26-licenses.md %}).
+See [Licenses]({% link _RDM-Share/licenses.md %}).
 
 ## Data citation
 ---
