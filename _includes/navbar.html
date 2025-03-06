@@ -50,6 +50,15 @@
             <a class="nav-link py-2 px-0 px-lg-2 active" aria-current="true"
               href="{{ '/' | relative_url }}">KNOWLEDGE BASE</a>
           </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Search bar-->
+            <form class="w-100 m-2">
+              <input id="search-input-docs" class="form-control me-2 rounded-pill border-3 border-warning"  type="search" placeholder="Search Handbook"
+                aria-label="Search">
+            </form>
+            <!--Search bar results-->
+            <div class="list-group search_result-docs" id="results-container-docs"></div>
+        </div>
         </ul>
 
         <hr class="d-lg-none text-white-50">
