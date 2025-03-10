@@ -1,5 +1,7 @@
 <header class="navbar navbar-expand-lg bd-navbar sticky-top">
+
   <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+
     <div class="bd-navbar-toggle">
       <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar"
         aria-controls="bdSidebar" aria-label="Toggle docs navigation">
@@ -13,19 +15,23 @@
       </button>
     </div>
 
-    <a class="navbar-brand p-0 me-0 me-lg-2" href="https://nfdi4microbiota.de/" aria-label="Bootstrap">
+    <a class="navbar-brand p-0 me-auto mb-2 me-lg-2" href="https://nfdi4microbiota.de/" aria-label="Bootstrap">
       <img height="45" width="70" src="{{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }}"></img>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block my-1" viewBox="0 0 118 94"
-        role="img">
-        <title>NFDI4Microbiota</title>
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-          fill="currentColor" />
-      </svg> -->
     </a>
 
     <div class="d-flex">
-      <!-- <div class="bd-search" id="docsearch" data-bd-docs-version="5.3"></div> -->
+
+      <div class="bd-search" id="docsearch" data-bd-docs-version="5.3">
+          <!-- Search bar -->
+          <div class="position-relative d-lg-block">
+            <form class="d-flex searchForm" id="searchForm">
+                <div class="input-group w-100">
+                    <input class="form-control me-2 rounded-pill border-3 border-warning" id="search-input-docs" type="search" autocomplete="off" placeholder="Search">
+                </div>
+            </form>
+            <div id="results-container-docs" class="position-absolute w-100 top-100 bg-white list-group rounded suggestions"></div>
+          </div>
+      </div>
 
       <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
@@ -33,10 +39,12 @@
           <use xlink:href="#three-dots"></use>
         </svg>
       </button>
+
     </div>
 
-    <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar"
-      aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+    <!-- Offcanvas -->
+    <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+      
       <div class="offcanvas-header px-4 pb-0">
         <h5 class="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">NFDI4Microbiota</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"
@@ -44,27 +52,21 @@
       </div>
 
       <div class="offcanvas-body p-4 pt-0 p-lg-0">
+        
+        <!-- Offcanvas divider -->
         <hr class="d-lg-none text-white-50">
+
         <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+
           <li class="nav-item col-6 col-lg-auto">
-            <a class="nav-link py-2 px-0 px-lg-2 active" aria-current="true"
-              href="{{ '/' | relative_url }}">KNOWLEDGE BASE</a>
           </li>
-          <!-- Search bar -->
-          <div class="position-relative d-none d-lg-block">
-            <form class="d-flex searchForm" method="GET" action="{{ url_for('web.search') }}" id="searchForm">
-                <div class="input-group w-100">
-                    <input class="form-control me-2 rounded-pill border-3 border-warning" id="search-input-docs" type="search" autocomplete="off" placeholder="Search">
-                </div>
-            </form>
-            <!-- Results -->
-            <div id="results-container-docs" class="position-absolute w-100 top-100 bg-white list-group rounded suggestions"></div>
-          </div>
+
         </ul>
 
-        <hr class="d-lg-none text-white-50">
 
+        <!-- Contact and Theme -->
         <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+
           <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
@@ -76,6 +78,7 @@
               <small class="d-lg-none ms-2">GitHub</small>
             </a>
           </li>
+
           <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link py-2 px-0 px-lg-2" href="https://nfdi4microbiota.de/contact-form/" target="_blank"
               rel="noopener">
@@ -86,6 +89,7 @@
               <small class="d-lg-none ms-2">Contact us</small>
             </a>
           </li>
+
           <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link py-2 px-0 px-lg-2" href="https://nfdi.social/@NFDI4Microbiota" target="_blank"
               rel="noopener">
@@ -97,32 +101,15 @@
             </a>
           </li>
 
-
-          
-          <!-- <li class="nav-item col-6 col-lg-auto">
-            <a class="nav-link py-2 px-0 px-lg-2" href="https://opencollective.com/bootstrap" target="_blank"
-              rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" fill-rule="evenodd"
-                class="navbar-nav-svg" viewBox="0 0 40 41" role="img">
-                <title>Open Collective</title>
-                <path fill-opacity=".4"
-                  d="M32.8 21c0 2.4-.8 4.9-2 6.9l5.1 5.1c2.5-3.4 4.1-7.6 4.1-12 0-4.6-1.6-8.8-4-12.2L30.7 14c1.2 2 2 4.3 2 7z" />
-                <path
-                  d="M20 33.7a12.8 12.8 0 0 1 0-25.6c2.6 0 5 .7 7 2.1L32 5a20 20 0 1 0 .1 31.9l-5-5.2a13 13 0 0 1-7 2z" />
-              </svg>
-              <small class="d-lg-none ms-2">Open Collective</small>
-            </a>
-          </li> -->
+          <!-- Offcanvas divider -->
           <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
             <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
             <hr class="d-lg-none my-2 text-white-50">
           </li>
 
-
-
-
-
+          <!-- Theme Dropdown-->
           <li class="nav-item dropdown">
+
             <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
               aria-label="Toggle theme (auto)">
@@ -131,7 +118,9 @@
               </svg>
               <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
             </button>
+
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
                   aria-pressed="false">
@@ -144,6 +133,7 @@
                   </svg>
                 </button>
               </li>
+
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
                   aria-pressed="false">
@@ -156,6 +146,7 @@
                   </svg>
                 </button>
               </li>
+
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
                   aria-pressed="true">
@@ -168,10 +159,16 @@
                   </svg>
                 </button>
               </li>
+              
             </ul>
+          
           </li>
+        
         </ul>
       </div>
+
     </div>
+
   </nav>
+
 </header>
