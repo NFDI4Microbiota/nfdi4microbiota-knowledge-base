@@ -15,12 +15,26 @@
       </button>
     </div>
 
-    <a class="navbar-brand p-0 me-0 me-lg-2" href="https://nfdi4microbiota.de/" aria-label="Bootstrap">
-      <img height="45" width="70" src="{{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }}"></img>
-    </a>
+    <!-- Wrapper to keep logo and search bar together -->
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-start justify-content-center">
+      
+      <a class="navbar-brand p-0 me-md-2 mb-2 mb-md-0" href="https://nfdi4microbiota.de/" aria-label="Bootstrap">
+        <img height="45" width="70" src="{{ '/assets/img/nfdi4microbiota_Logo_new.png' | relative_url }}">
+      </a>
+
+      <!-- Search bar -->
+      <div class="position-relative">
+        <form class="d-flex searchForm" method="GET" action="{{ url_for('web.search') }}" id="searchForm">
+          <div class="input-group w-100">
+            <input class="form-control me-2 rounded-pill border-3 border-warning" id="search-input-docs" type="search" autocomplete="off" placeholder="Search">
+          </div>
+        </form>
+        <div id="results-container-docs" class="position-absolute w-100 top-100 bg-white list-group rounded suggestions"></div>
+      </div>
+
+    </div>
 
     <div class="d-flex">
-      <!-- <div class="bd-search" id="docsearch" data-bd-docs-version="5.3"></div> -->
 
       <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
@@ -50,16 +64,6 @@
             <a class="nav-link py-2 px-0 px-lg-2 active" aria-current="true"
               href="{{ '/' | relative_url }}">KNOWLEDGE BASE</a>
           </li>
-
-          <!-- Search bar -->
-          <div class="position-relative d-lg-block">
-            <form class="d-flex searchForm" method="GET" action="{{ url_for('web.search') }}" id="searchForm">
-                <div class="input-group w-100">
-                    <input class="form-control me-2 rounded-pill border-3 border-warning" id="search-input-docs" type="search" autocomplete="off" placeholder="Search">
-                </div>
-            </form>
-            <div id="results-container-docs" class="position-absolute w-100 top-100 bg-white list-group rounded suggestions"></div>
-          </div>
 
         </ul>
 
