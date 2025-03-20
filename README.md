@@ -12,12 +12,13 @@ If you want to contribute to the Knowledge Base, please see the [contributing.md
 
 ## Running the Knowledge Base locally
 
-### Ubuntu/Debian and Mac
+### Ubuntu/Debian (Linux) and Mac
 
 1. Install [Ruby](https://www.ruby-lang.org/en/downloads/) (2.7.0 or higher): `sudo apt install ruby-full`
 2. Install [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/): `sudo apt install build-essential`
 3. Install required gems: `make build`
 4. Create the knowledge base: `make serve`
+5. Go to `localhost:4000` on your web browser
 
 ### Windows
 
