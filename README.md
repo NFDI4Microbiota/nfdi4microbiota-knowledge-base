@@ -10,6 +10,19 @@ This knowledge base is a collection of documents and references important to the
 
 If you want to contribute to the Knowledge Base, please see the [contributing.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributing.md) file, and be sure to add yourself to the [contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
 
+## Running the Knowledge Base locally
+
+### Ubuntu/Debian and Mac
+
+1. Install [Ruby](https://www.ruby-lang.org/en/downloads/) (2.7.0 or higher): `sudo apt install ruby-full`
+2. Install [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/): `sudo apt install build-essential`
+3. Install required gems: `make build`
+4. Create the knowledge base: `make serve`
+
+### Windows
+
+TODO
+
 ## License
 
 This work is licensed under a
