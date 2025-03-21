@@ -23,8 +23,9 @@ If you want to contribute to the Knowledge Base, please see the [contributing.md
 ### Windows
 1. Install RubyInstaller and with it Jekyll as shown [here](https://jekyllrb.com/docs/installation/windows/)
 2. Clone the KB git repository into your chosen folder and open that folder with your favorite IDE.
-3. Start a local server by running: `bundle exec jekyll serve`
-4. Open your browser and go to: `http://127.0.0.1:4000/`
+3. Run `bundle install` to install missing gems.
+4. Start a local server by running: `bundle exec jekyll serve`
+5. Open your browser and go to: `http://127.0.0.1:4000/`
 
 ## License
 
