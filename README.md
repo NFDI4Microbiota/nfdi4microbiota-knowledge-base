@@ -21,8 +21,11 @@ If you want to contribute to the Knowledge Base, please see the [contributing.md
 5. Go to `localhost:4000` on your web browser
 
 ### Windows
-
-TODO
+1. Install RubyInstaller and with it Jekyll as shown [here](https://jekyllrb.com/docs/installation/windows/)
+2. Clone the KB git repository into your chosen folder and open that folder with your favorite IDE.
+3. Start a local server by running: 'bundle exec jekyll serve'
+	! The building time of the KB is pretty long due to the amount of pages we have. !
+5. Open your browser and go to: http://127.0.0.1:4000/
 
 ## License
 
