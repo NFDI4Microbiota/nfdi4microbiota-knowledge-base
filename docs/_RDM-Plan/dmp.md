@@ -14,6 +14,8 @@ DMPs are required in [DFG funding proposals since 2022](https://www.dfg.de/en/re
 
 ---
 
+
+
 DMPs typically include the following information:
 * Administrative project-specific information (including a description of the research project)
 * Roles, responsibilities and obligations
