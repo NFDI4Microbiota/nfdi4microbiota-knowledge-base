@@ -86,7 +86,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 | **Scientific texts and data** 	| [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) 	| [FAIRsharing](https://fairsharing.org/4357) 	| [re3data](https://www.re3data.org/repository/r3d100013523) 	|
 | **Species interaction data** 	| Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) 	| / 	| / 	|
 | **Standardized bacterial information** 	| Bacterial Diversity Metadatabase ([BacDive](https://bacdive.dsmz.de/)) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.aSszvY) 	| [re3data](https://www.re3data.org/repository/r3d100013060) 	|
-| **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/virion/) 	| / 	| / 	|
+| **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/) 	| / 	| / 	|
 {: .table .table-hover}
 
 ## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
