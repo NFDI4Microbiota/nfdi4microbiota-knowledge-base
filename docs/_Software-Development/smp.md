@@ -1,5 +1,5 @@
 ---
-title: Software Management Plans
+title: Software Management Plans (SMPs)
 category: Software Development
 layout: default
 docs_css: markdown
