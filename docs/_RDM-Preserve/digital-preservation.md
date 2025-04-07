@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-## Definition of Digital Preservation
+## Definition of Digital Preservation (DP)
 
 Digital preservation (DP) means taking certain measures to ensure that digital material can be found and accessed in the long term (“long-term accessibility of data”). It aims to preserve information in a way that is understandable and reusable for a specific community and to prove its authenticity. {% cite CCSDS_OAIS:2012 noauthor_iso_OAIS_2012 dpc_glossary_2015 %}. 
 
