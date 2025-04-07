@@ -19,7 +19,7 @@ docs_css: markdown
 
 ### File naming convention
 
-In order to maximise access to your data, to stay organised and to identify your files quickly, files and folders should be named in a meaningful and systematic way {% cite LMA_RDMWG:2024a rehwald_2022 %}. A file naming convention provides a framework for naming your files and/or folders in a way that describes what they contain and how they relate to other files. This framework will help you, your future self, and others in a shared or collaborative group file-sharing environment to navigate your work more easily {% cite LMA_RDMWG:2024a %}. 
+In order to maximize access to your data, to stay organised and to identify your files quickly, files and folders should be named in a meaningful and systematic way {% cite LMA_RDMWG:2024a rehwald_2022 %}. A file naming convention provides a framework for naming your files and/or folders in a way that describes what they contain and how they relate to other files. This framework will help you, your future self, and others in a shared or collaborative group file-sharing environment to navigate your work more easily {% cite LMA_RDMWG:2024a %}. 
 
 Thus, within your research group, we recommend {% cite biernacka:2020 bobrov_2021 bobrov_2021 bres_2022 %} that you:
 1. Adopt a naming convention for files and folders.

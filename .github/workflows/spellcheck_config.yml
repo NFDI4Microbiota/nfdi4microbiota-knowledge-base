@@ -10,6 +10,8 @@ matrix:
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
+    markdown_extensions:
+    - markdown.extensions.extra:
   - pyspelling.filters.html:
       comments: false
       ignores:
