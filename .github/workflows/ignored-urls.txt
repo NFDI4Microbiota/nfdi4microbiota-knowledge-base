@@ -2,3 +2,10 @@ https://doi.org/.*
 https://nextcloud\.nfdi4microbiota\.de/f/.*
 https://academic\.oup\.com/.*
 https://research.ninds.nih.gov/sites/default/files/documents/SOP18_Cinical_Data_Management_508C.pdf
+https://qiita.ucsd.edu/
+https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application
+https://www.gnu.org/software/make/
+https://www.adelaide.edu.au/microscopy/facilities-services/data-access#how-do-i-organise-my-microscopy-files
+https://www.adobe.com/products/bridge.html
+https://www.fishbase.us/
+https://www.flickr.com/people/33255628@N00
