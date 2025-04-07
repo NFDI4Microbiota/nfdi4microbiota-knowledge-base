@@ -1,4 +1,4 @@
-https://doi.org/.*
+https://doi\.org/.*
 https://nextcloud\.nfdi4microbiota\.de/f/.*
 https://academic\.oup\.com/.*
 https://research.ninds.nih.gov/sites/default/files/documents/SOP18_Cinical_Data_Management_508C.pdf
