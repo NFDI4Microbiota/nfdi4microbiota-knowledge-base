@@ -43,8 +43,13 @@ A more precise subclass, [woodland biome \[ENVO:01000175\]](http://purl.obolibra
 To pinpoint the material or medium that was sampled, we take a subclass of [soil /[ENVO:00001998/]](http://purl.obolibrary.org/obo/ENVO_00001998), that adequately describes our sample, in this case [rhizosphere /[ENVO:00005801/]](http://purl.obolibrary.org/obo/ENVO_00005801).
 
 ### Host-associated examples - Host Metadata
+---
+#### Human-associated - Ontology recommendations
+[Human Disease Ontology - DOID](https://www.disease-ontology.org/) - The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts.
 
-#### Human-associated
+[Human Phenotype Ontology - HP](https://hpo.jax.org/) - The Human Phenotype Ontology provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.
+
+[Uber-anatomy ontology - UBERON](https://obophenotype.github.io/uberon/) - Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
 
 #### Animal-associated
 
