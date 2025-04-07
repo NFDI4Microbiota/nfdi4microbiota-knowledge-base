@@ -40,7 +40,7 @@ Starting with a general search term such as [biome
 A more precise subclass, [woodland biome \[ENVO:01000175\]](http://purl.obolibrary.org/obo/ENVO_01000175) (env_broad_scale), and subsequently [temperate woodland biome \[ENVO:01000221\]](http://purl.obolibrary.org/obo/ENVO_01000175) (env_local_scale) are identified, providing a more accurate description of the environmental context of the sample.
 
 3. Identify the sampled material (env_medium):
-To pinpoint the material or medium that was sampled, we take a subclass of [soil /[ENVO:00001998/]](http://purl.obolibrary.org/obo/ENVO_00001998), that adequately describes our sample, in this case [rhizosphere /[ENVO:00005801/]](http://purl.obolibrary.org/obo/ENVO_00005801).
+To pinpoint the material or medium that was sampled, we take a subclass of [soil \[ENVO:00001998\]](http://purl.obolibrary.org/obo/ENVO_00001998), that adequately describes our sample, in this case [rhizosphere \[ENVO:00005801\]](http://purl.obolibrary.org/obo/ENVO_00005801).
 
 ### Host-associated examples - Host Metadata
 ---
@@ -51,10 +51,58 @@ To pinpoint the material or medium that was sampled, we take a subclass of [soil
 
 [Uber-anatomy ontology - UBERON](https://obophenotype.github.io/uberon/) - Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
 
+[SNOMED Clinical Terms (International Edition)](https://www.snomed.org/) - SNOMED CT or SNOMED Clinical Terms is a systematically organized computer processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting.
+
+[Neuro Behavior Ontology - NBO](https://www.ebi.ac.uk/ols4/ontologies/nbo) - An ontology of human and animal behaviours and behavioural phenotypes.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Gene Ontology - GO](http://geneontology.org/) - The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
+
 #### Animal-associated
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[Biological Spatial Ontology - BSPO](https://obofoundry.org/ontology/bspo) - An ontology for respresenting spatial concepts, anatomical axes, gradients, regions, planes, sides and surfaces. These concepts can be used at multiple biological scales and in a diversity of taxa, including plants, animals and fungi. The BSPO is used to provide a source of anatomical location descriptors for logically defining anatomical entity classes in anatomy ontologies.
+
+[Uber-anatomy ontology - UBERON](https://obophenotype.github.io/uberon/) - Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
+
+[Cell Ontology - CL](https://obofoundry.org/ontology/cl.html) - The Cell Ontology is a structured controlled vocabulary for cell types in animals.
+
+[Neuro Behavior Ontology - NBO](https://www.ebi.ac.uk/ols4/ontologies/nbo) - An ontology of human and animal behaviours and behavioural phenotypes.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Gene Ontology - GO](http://geneontology.org/) - The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
 
 #### Plant-associated
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[Agronomy Ontology - AGRO](https://www.ebi.ac.uk/ols4/ontologies/agro) - AgrO is an ontlogy for representing agronomic practices, techniques, variables and related entities.
+
+[Flora Phenotype Ontology - FLOPO](https://www.ebi.ac.uk/ols4/ontologies/flopo) - Traits and phenotypes of flowering plants occurring in digitized Floras.
+
+[Plant Experimental Conditions Ontology - PECO](http://planteome.org/) - A structured, controlled vocabulary which describes the treatments, growing conditions, and/or study types used in plant biology experiments.
+
+[Plant Ontology - PO](http://browser.planteome.org/amigo) - An ontology that describes plant anatomy, morphology, and growth and development in plants.
+
+[Plant Phenology Ontology - PPO](https://www.ebi.ac.uk/ols4/ontologies/ppo) - An ontology that defines plant phenological classes and is used to run the plantphenology.org data portal. Reuses terms from PO and PATO where possible.
+
+[Plant Trait Ontology - TO](https://www.ebi.ac.uk/ols4/ontologies/to) - An ontology that describes phenotypic traits in plants. Each trait is a distinguishable feature, characteristic, quality or phenotypic feature of a developing or mature plant.
+
+[Plant Stress Ontology - PSO](https://www.ebi.ac.uk/ols4/ontologies/pso) - An ontology containing biotic and abiotic plant stresses.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Gene Ontology - GO](http://geneontology.org/) - The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
 
 #### Marine
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
 
 #### Terrestrial and Terrestrial- Constructed
