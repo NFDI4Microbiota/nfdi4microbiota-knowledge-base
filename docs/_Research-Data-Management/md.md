@@ -89,6 +89,7 @@ For every metadata field part of a metadata standard, one could expect a human-r
 [More than a thousand standards are listed by the organization `FAIRsharing.org`](https://fairsharing.org/search?fairsharingRegistry=Standard) which can be overwhelming.
 At NFDI4Microbiota, we compiled a [list of widely used metadata standards in the field of microbiome research](https://github.com/NFDI4Microbiota/MetadataStandards) that you can browse and use for the different types of data collected during your investigations.
 
+Thompson_2020
 
 ## Metadata management
 ---
@@ -98,3 +99,4 @@ At NFDI4Microbiota, we compiled a [list of widely used metadata standards in the
 
 Furthermore, metadata quality control in microbiology extends to the curation of controlled vocabularies and ontologies to harmonize terminology and promote semantic interoperability across data sets. Standardized metadata terms ensure consistency in data annotation and facilitate data integration from diverse sources. For instance, ontologies such as the Environment Ontology (ENVO) provide a structured vocabulary for describing environmental parameters, enabling researchers to annotate microbial samples with terms like "soil pH," "temperature," and "moisture content" uniformly. Additionally, validation rules and automated workflows are employed to enforce data integrity and conformity to predefined metadata standards. For example, data submission portals for public repositories often incorporate validation checks to verify compliance with metadata schema requirements before data deposition, minimizing errors and enhancing data usability. By implementing robust metadata quality control measures, microbiology researchers can uphold data integrity, foster data harmonization and interoperability, and facilitate meaningful insights into microbial ecosystems and host-microbe 
 
+{ % cite Thompson:2020 %}
