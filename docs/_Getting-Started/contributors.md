@@ -23,6 +23,7 @@ The following list contains the names of the contributors in alphabetical order.
 * Majid, Mahnoor (ORCID ID: [0000-0002-7327-6433](https://orcid.org/0000-0002-7327-6433))
 * Parmaksiz, Uta (ORCID ID: [0000-0002-0087-5056](https://orcid.org/0000-0002-0087-5056))
 * Pauvert, Charlie (ORCID ID: [0000-0001-9832-2507](https://orcid.org/0000-0001-9832-2507), Wikidata: [Q103017355](https://www.wikidata.org/wiki/Q103017355))
+* Saghaei, Shahram (ORCID ID: [0009-0005-5554-275X](https://orcid.org/0009-0005-5554-275X))
 * Smirnova, Ekaterina
 * Thölken, Clemens (ORCID ID: [0000-0003-4328-9193](https://orcid.org/0000-0003-4328-9193)
 * Vandendorpe, Justine (ORCID ID: [0000-0002-9421-8582](https://orcid.org/0000-0002-9421-8582), Wikidata: [Q62930742](https://www.wikidata.org/wiki/Q62930742))
