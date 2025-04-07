@@ -40,7 +40,7 @@ We strive to improve research processes by organizing and linking microbial (met
 
 ### Where to find us
 
-More information on how to contribute to the consortium, participate in coffee talks, become an ambasador or take part in training events, visit the [NFDI4Microbiota webpage](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Helpdesk](https://nfdi4microbiota.de/contact-form/) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de). 
+More information on how to contribute to the consortium, participate in coffee talks, become an ambasador or take part in training events, visit the [NFDI4Microbiota webpage](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Helpdesk](https://nfdi4microbiota.de/contact-form.html) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de). 
 
 By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found bellow the Helpdesk contact form.
 

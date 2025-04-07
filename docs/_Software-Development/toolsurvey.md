@@ -282,4 +282,4 @@ operating system: Linux
 
 License: NA 
 
-Link: [https://nfdi4microbiota.de/contact-form/](https://nfdi4microbiota.de/contact-form/)
+Link: [https://nfdi4microbiota.de/contact-form.html](https://nfdi4microbiota.de/contact-form.html)
