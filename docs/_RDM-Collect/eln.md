@@ -137,5 +137,5 @@ eLabFTW is a free and open-source {% cite rathmann_2021 %} ELN developed by Delt
 It is also advisable to talk to other members of your research community to find out about their experiences with ELNs (e.g. advantages and disadvantages of different tools, selection process).
 
 
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form/))
+If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form.html))
 
