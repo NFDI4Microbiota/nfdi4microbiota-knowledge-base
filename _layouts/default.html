@@ -245,7 +245,9 @@
             </div>
         </div>
         <br>
+        {% if page.url == "/" %}
 
+        {%else%}
         <!-- Div for navigation to the topic inside the current page -->
         <div class="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary">
             <button class="btn btn-link p-md-0 mb-2 mb-md-0 text-decoration-none bd-toc-toggle d-md-none"
@@ -278,7 +280,7 @@
                 </nav>
             </div>
         </div>
-
+        {% endif %}
 
         <div class="bd-content ps-lg-2">
             {{content}}
@@ -287,7 +289,7 @@
             <p>This page is currently empty. Please consider contributing! </p>
             {% else %}
             <!-- Check if page can have references -->
-            {% if page.url contains "/Getting-Started/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
+            {% if page.url contains "/Getting-Started/" or page.url == "/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
             <p></p>
             {% else %}
             <h2>References </h2>
