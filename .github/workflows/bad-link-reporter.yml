@@ -18,7 +18,7 @@ env:
   lookback: 100
 
   # Time (sec) to wait on an unresponsive URL before trying once more.
-  timeout: 30
+  timeout: 60
 
   # Optional file containing a list of URLs to ignore, one per line:
   ignore: .github/workflows/ignored-urls.txt
