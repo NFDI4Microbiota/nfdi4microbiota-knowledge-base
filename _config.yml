@@ -49,7 +49,7 @@ collections_dir: docs
 collections:
   Getting-Started:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - 01-introduction.md
      - contributing.md
@@ -57,7 +57,7 @@ collections:
      - privacy-policy-english-translation.md
   Research-Data-Management:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - rd.md
      - rdm.md
@@ -69,13 +69,13 @@ collections:
      - rdm-in-industry.md
   RDM-Plan:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - dmp.md
      - preregistration.md
   RDM-Collect:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - data-creation.md
      - informed-consent.md
@@ -83,7 +83,7 @@ collections:
      - data-qc.md
   RDM-Process:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - data-organization.md
      - file-formats.md
@@ -91,13 +91,13 @@ collections:
      - data-standardization.md
   RDM-Preserve:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - aruna-object-storage.md
      - digital-preservation.md
   RDM-Share:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - data-security.md
      - collaboration-tools.md
@@ -108,26 +108,26 @@ collections:
      - privacy-issues.md
   RDM-Reuse:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - research-data-commons.md
      - data-reuse.md
   Reproducible-Data-Analysis:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - workflows.md
      - software-containers.md
      - resources.md
   Software-Development:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - smp.md
      - toolsurvey.md
   Experimental-Procedure-Standards-SOPs:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - sop-template.md
      - introduction.md
@@ -144,13 +144,13 @@ collections:
      - godon-dna-extraction.md
   Resources:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - glossary.md
      - external-training-resources.md
   How-We-Operate:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
     order:
      - n4m-intro.md
      - governance-workflows.md
