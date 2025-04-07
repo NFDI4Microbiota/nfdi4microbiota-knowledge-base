@@ -8,7 +8,7 @@ docs_css: markdown
 ## Motivation
 
 ### 5S methodology
-“5S” {% cite Wikipedia:5S %} is a workplace organisation method that uses a list of five Japanese words translated into English as: sort, set in order, shine, standardise and sustain. In the context of organising research data, 'sort' would refer to deleting unnecessary files. 'Set in order' would refer to developing and documenting naming conventions and folder structures. 'Shine' would refer to following conventions and developing routines. 'Standardise' would refer to documenting rules and responsibilities and developing best practices and standard operating procedures (SOPs). And 'sustain' would refer to regularly checking that rules are being followed and making improvements where necessary {% cite assmann_2022 %}.
+“5S” {% cite Wikipedia:5S %} is a workplace organisation method that uses a list of five Japanese words translated into English as: sort, set in order, shine, standardize and sustain. In the context of organizing research data, 'sort' would refer to deleting unnecessary files. 'Set in order' would refer to developing and documenting naming conventions and folder structures. 'Shine' would refer to following conventions and developing routines. 'Standardize' would refer to documenting rules and responsibilities and developing best practices and standard operating procedures (SOPs). And 'sustain' would refer to regularly checking that rules are being followed and making improvements where necessary {% cite assmann_2022 %}.
 
 ### Further resources on the 5S methodology
 * [The 5S Methodology in Research Data Management](https://doi.org/10.5281/zenodo.4494258)
@@ -19,7 +19,7 @@ docs_css: markdown
 
 ### File naming convention
 
-In order to maximize access to your data, to stay organised and to identify your files quickly, files and folders should be named in a meaningful and systematic way {% cite LMA_RDMWG:2024a rehwald_2022 %}. A file naming convention provides a framework for naming your files and/or folders in a way that describes what they contain and how they relate to other files. This framework will help you, your future self, and others in a shared or collaborative group file-sharing environment to navigate your work more easily {% cite LMA_RDMWG:2024a %}. 
+In order to maximize access to your data, to stay organized and to identify your files quickly, files and folders should be named in a meaningful and systematic way {% cite LMA_RDMWG:2024a rehwald_2022 %}. A file naming convention provides a framework for naming your files and/or folders in a way that describes what they contain and how they relate to other files. This framework will help you, your future self, and others in a shared or collaborative group file-sharing environment to navigate your work more easily {% cite LMA_RDMWG:2024a %}. 
 
 Thus, within your research group, we recommend {% cite biernacka:2020 bobrov_2021 bobrov_2021 bres_2022 %} that you:
 1. Adopt a naming convention for files and folders.
