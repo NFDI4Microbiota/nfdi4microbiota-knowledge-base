@@ -82,7 +82,7 @@ redirect_from: /Resources
 ## W
 * **Workflow management system (WMS):** a software tool designed to help streamline routine processes for optimum efficiency. The aim of a WMS is to document processing steps.
 
-## Further resources
+## Further Resources
 * [BIO514 - Systems medicine - Microbiome - Glossary](http://siobhonlegan.com/BIO514-microbiome/#glossary)
 * [Bioinformatics Glossary](https://doi.org/10.1002/9780470904640.app3)
 * Chiu, C.Y., Miller, S.A. Clinical metagenomics. Nat Rev Genet 20, 341–355 (2019). [https://doi.org/10.1038/s41576-019-0113-7](https://doi.org/10.1038/s41576-019-0113-7)
