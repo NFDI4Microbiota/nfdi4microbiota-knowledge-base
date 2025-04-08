@@ -7,7 +7,7 @@
             {% assign previous_url = previous_url | append: "/" | append: url_part %}
             {% assign previous_url = previous_url | replace: "Home/", "" %}
             
-            <li class="breadcrumb-item"><a href="{{ previous_url | relative_url }}.html">{{ url_part }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ previous_url | relative_url }}">{{ url_part }}</a></li>
         {% endfor %}
     </ol>
 </nav>

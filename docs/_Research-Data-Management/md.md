@@ -1,5 +1,5 @@
 ---
-title: Metadata & Metadata Standards
+title: Metadata (Standards)
 category: Research-Data-Management
 layout: default
 docs_css: markdown

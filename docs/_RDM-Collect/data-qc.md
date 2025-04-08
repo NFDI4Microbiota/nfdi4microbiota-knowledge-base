@@ -5,9 +5,12 @@ layout: default
 docs_css: markdown
 ---
 
-Qualtiy Control Expert Q&A
+# Introduction
 
-Legend:
+Data quality is a critical pillar in any research involving complex datasets, especially in fields such as genomics and high-throughput sequencing. Maintaining high data quality ensures that downstream analyses, like differential expression analysis or clustering in single-cell studies, are reliable and reproducible. This guide provides a detailed Quality Control (QC) expert Q&A, addressing common challenges encountered during quality assessment—from RNA-seq to single-cell analysis. The guidelines, tips, and potential solutions summarized in this post are intended to help troubleshoot common issues and inform the design of robust experiments.
+
+### Legend
+
 * FP = false positive result
 * END = no solution, this problem is unsolvable
 
@@ -122,7 +125,7 @@ Legend:
 - **possible reason(s)**: e.g. biol. and tech. replicates are mixed up
 - **solution/measure**: END-RESTART
 
-### DEA
+### DEA - differential expression analysis
 1. dispersion-plot: gene estimation does not follow red fit
 - **source**: DESeq2, negative control study
 - **possible reason(s)**: model does not represent data
@@ -140,7 +143,7 @@ Legend:
 - **possible reason(s)**: negative control study (FP)
 
 ### Visualize
-1. using CPM to visualize DEGs
+1. using CPM to visualize DEGs (differentially expressed genes)
 - **source**: Plot, negative control study
 - **possible reason(s)**: mixed up within- and between-sample normalization
 - **solution/measure**: use correct normalization
@@ -183,8 +186,8 @@ Legend:
 - **possible reason(s)**: batch effect
 - **solution/measure**: correct for batch effect (e.g. integrate using seurat)
 
-### DEA
-1. many DEGs
+### DEA - differential expression analysis
+1. many DEGs (differentially expressed genes)
 - **source**: seurat/deseq, negative control study
 - **possible reason(s)**: DEG between very small sub-populations
 - **solution/measure**: use a population size cutoff or state the number

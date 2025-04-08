@@ -18,29 +18,29 @@ env:
   lookback: 100
 
   # Time (sec) to wait on an unresponsive URL before trying once more.
-  timeout: 30
+  timeout: 60
 
   # Optional file containing a list of URLs to ignore, one per line:
   ignore: .github/workflows/ignored-urls.txt
 
-# on:
-#   schedule:  # Cron syntax is: "min hr day-of-month month day-of-week"
-#     - cron: 00 04 * * 1
-#   push:
-#     paths: ['**.md']
-#   workflow_dispatch:
-# NOTE: Currently running on every push, change to schedule after the sprint
 on:
-  # Runs on pushes targeting the default branch
+  schedule:  # Cron syntax is: "min hr day-of-month month day-of-week"
+    - cron: 00 04 * * 1
   push:
-    branches: ["main"]
-
-  # Run on pull request
-  pull_request:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+    paths: ['**.md']
   workflow_dispatch:
+# NOTE: Uncomment to run on every push
+# on:
+#   # Runs on pushes targeting the default branch
+#   push:
+#     branches: ["main"]
+
+#   # Run on pull request
+#   pull_request:
+#     branches: ["main"]
+
+#   # Allows you to run this workflow manually from the Actions tab
+#   workflow_dispatch:
 
 
 # The rest of this file should be left as-is ─────────────────────────
