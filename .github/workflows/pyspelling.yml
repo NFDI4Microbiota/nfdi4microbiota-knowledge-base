@@ -1,15 +1,19 @@
-spelling:
-  lang: en_US
-  dictionary: .github/workflows/whitelist.txt
-  ignore:
-    - 'code'
-    - 'pre'
-    - 'a'
+matrix:
+  - name: Spelling Check
+    spelling:
+      lang: en_US
+      dictionary: .github/workflows/whitelist.txt
+      ignore:
+        - 'code'
+        - 'pre'
+        - 'a'
 
-files:
-  - '**/*.md'
-  - '**/*.txt'
+    sources:
+      - '**/*.md'
+      - '**/*.txt'
 
-processors:
-  - name: pyspelling.processors.MarkdownProcessor
-  - name: pyspelling.processors.TextProcessor
+    # Optional: specify how files are processed
+    # This handles markdown and plain text well
+    pipeline:
+      - pyspelling.filters.markdown:
+      - pyspelling.filters.html:
