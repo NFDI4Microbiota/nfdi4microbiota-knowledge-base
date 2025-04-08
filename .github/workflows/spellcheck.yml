@@ -1,30 +1,24 @@
-name: Spellcheck with PySpelling
+name: Spellcheck Action
 
 on:
   push:
-  pull_request:
-    paths:
-      - '**/*.md'
-      - '**/*.txt'
+  workflow_dispatch:
 
 jobs:
-  spellcheck:
+  build:
+    name: Spellcheck
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Install aspell
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y aspell aspell-en
 
-    - name: Install PySpelling
-      run: pip install pyspelling
-    
-    - name: Install aspell
-      run: sudo apt-get install -y aspell
-
-    - name: Run PySpelling
-      run: pyspelling -c .github/workflows/pyspelling.yml
+      - name: Spellcheck
+        uses: rojopolis/spellcheck-github-actions@v0
+        with:
+          config_path: .github/workflows/spellcheck_config.yml
