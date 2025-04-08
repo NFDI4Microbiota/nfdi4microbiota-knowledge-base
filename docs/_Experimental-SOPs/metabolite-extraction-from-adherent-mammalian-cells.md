@@ -1,6 +1,6 @@
 ---
 title: Metabolite extraction from adherent mammalian cells
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 ---

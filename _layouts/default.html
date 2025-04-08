@@ -290,7 +290,7 @@
             {% if page.url contains "/Getting-Started/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
             <p></p>
             {% else %}
-            <h2>References </h2>
+            <h2 id="references">References </h2>
             <hr>
             {% bibliography --cited_in_order %}
             {% endif %}
@@ -305,6 +305,7 @@
 
 <div class="position-fixed" aria-hidden="true"><input type="text" tabindex="-1"></div>
 
+<script src={{ '/assets/js/scroll.js' | relative_url }} type="text/javascript"></script>
 <script src={{ '/assets/js/simple-search.js' | relative_url }} type="text/javascript"></script>
 <script>
     SimpleJekyllSearch({

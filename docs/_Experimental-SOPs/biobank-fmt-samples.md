@@ -1,6 +1,6 @@
 ---
 title: Biobank of human stool samples – sample processing
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: true

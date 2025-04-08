@@ -6,9 +6,9 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-## Data discovery
+## Data Discovery
 
-### Strategies to search for data
+### Strategies to Search for Data
 
 The Consortium of European Social Science Data Archives (CESSDA) {% cite cessda_2017 %} has produced a list of steps in data discovery. The main ones are outlined below, and you can look at their [website](https://dmeg.cessda.eu/) for the sub-steps.
 1. Develop a clear picture of the research data you need
@@ -24,9 +24,9 @@ CESSDA also suggests three steps to adjust your search strategy {% cite cessda_2
 
 Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp/osf/osf-tips-mar-1386252?e=38c1d6ec62) include citation chaining (i.e. the process of mining citations in relevant literature to find more sources), looking at previous reuse, and documenting your search strategy to avoid repetition in one repository while helping you to replicate the same strategies in other data. To properly document your search strategy, keep a record of the terms used, filters, other refinements, dates and repositories searched.
 
-### Services to search for data
+### Services to Search for Data
 
-#### Resources to facilitate data reuse in microbiology
+#### Resources to Facilitate Data Reuse in Microbiology
 Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
 | Domain, Data Type	| Data repository 	| FAIRsharing 	| re3data 	| 
@@ -47,13 +47,13 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 | **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
 {: .table .table-hover}
 
-#### Services where data can be published
+#### Services Where Data Can Be Published
 
 * **Interdisciplinary and [discipline-specific]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology) repositories**
 * **Data reports**
 * **Data journals** (see e.g. [here](https://www.forschungsdaten.org/index.php/Data_Journals))
 
-#### Registries of data repositories
+#### Registries of Data Repositories
 
 * Registry of Research Data Repositories ([re3data.org](https://www.re3data.org/))
 * [OpenAIRE Explore](https://explore.openaire.eu/)
@@ -61,7 +61,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 * [FAIRsharing.org](https://fairsharing.org/)
 * [Master Data Repository List](https://clarivate.com/webofsciencegroup/master-data-repository-list/)
 
-#### Search engines
+#### Search Engines
 
 * [NCBI Data sets](https://www.ncbi.nlm.nih.gov/datasets/)
 * **Google**
@@ -77,14 +77,14 @@ Below are listed widely used resources in microbiology that facilitate the reuse
     * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
 * [Mendeley Data](https://data.mendeley.com/)
 
-#### (Meta)data aggregators
+#### (Meta)Data Aggregators
 
 * [B2FIND](https://b2find.eudat.eu/)
 * [data.europa.eu](https://data.europa.eu/en)
 * [DataCite Commons](https://commons.datacite.org/)
 * [gesisDataSearch](https://datasearch.gesis.org/start)
 
-## Data selection
+## Data Selection
 ---
 
 Below is a list of criteria for selecting trustworthy data sets {% cite bres_2022 sielemann_2020 %}. As in Sielemann *et al.* 2020 {% cite sielemann_2020 %}, for each possible criterion, several questions to consider are listed.
@@ -116,7 +116,7 @@ Below is a list of criteria for selecting trustworthy data sets {% cite bres_202
     * Is the research purpose/(hypo-)thesis well documented?
     * Is it documented whether the data are raw or processed? 
 
-## Data provenance
+## Data Provenance
 ---
 The provenance of research data can be defined as “a documented trail that accounts for the origin of a piece of data and where it has moved from to where it is presently” {% cite National_Library_of_Medicine:2022 %}. As suggested by Schröder et al. 2022, it can be accounted for by answering questions based on the W7 provenance model {% cite Schroder:2022 %}:
 * W1: Who participated in the study? [List of all researchers involved in an experiment and their affiliations]
@@ -127,10 +127,10 @@ The provenance of research data can be defined as “a documented trail that acc
 * W6: Where was the experiment conducted? [Institution where the experiments was conducted]
 * W7: What was the order of the stimulation parameters in a particular experiment?
 
-## Data reuse
+## Data Reuse
 ---
 
-### Benefits and drawbacks
+### Benefits and Drawbacks
 
 Making data reusable benefits researchers who publish their data, researchers who reuse data, and society. 
 
@@ -147,7 +147,7 @@ For researchers who publish their data, preparing data sets for reuse is time-co
 For researchers reusing data, there are risks such as unknown quality and normalization (i.e. "the same data is stored multiple times in the same database under different names/identifiers"). There is also the challenge of comparing and integrating data sets from different sources {% cite sielemann_2020 %}.
 
 
-### Successful cases of data reuse
+### Successful Cases of Data Reuse
 
 #### Case 1: FishBase {% cite pavone_2020 %}
 Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyology.bio.auth.gr/files/tsikliras/d/d3.pdf) have been combined into a digital catalogue of fish, known as [FishBase](https://www.fishbase.us/). The data in FishBase were processed using a new algorithm to create a [new dataset](https://thredds.d4science.org/thredds/catalog/public/netcdf/AquaMaps_08_2016/catalog.html). This new dataset was combined with other data to create [AquaMaps](https://www.aquamaps.org/), a tool for predicting the natural occurrence of marine species based on environmental parameters. This led to an increase in citations of FishBase (e.g. [Coro _et al._ 2018](https://doi.org/10.1016/j.ecolmodel.2018.01.007)) and a [report](https://europe.oceana.org/en/our-work/froese-report/overview) on EU fish stocks,the evidence for which was debated in the European Parliament in 2017. In addition, climate change predictions from AquaMaps and NASA were merged to create a [climate change timeline](https://dlnarratives.eu/timeline/climate.html). 
@@ -155,16 +155,16 @@ Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyo
 #### Case 2: TerrestrialMetagenomeDB
 [TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/) is a public repository of curated and standardised metadata for terrestrial metagenomes. 
 
-#### Further cases in microbiology
+#### Further Cases in Microbiology
 See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
 
-### Relevant licenses and terms of use
+### Relevant Licenses and Terms of Use
 See [Licenses]({% link _RDM-Share/licenses.md %}).
 
 ## Data citation
 ---
 
-### Common standards for data citation
+### Common Standards for Data Citation
 
 #### Interdisciplinary
 * **DataCite 2019**: Creator (PublicationYear): Title. Version. Publisher. (resourceTypeGeneral). Identifier
@@ -173,25 +173,25 @@ See [Licenses]({% link _RDM-Share/licenses.md %}).
 * [DOI Citation Formatter](https://citation.crosscite.org/)
 * [How to Cite Data sets and Link to Publications](https://www.dcc.ac.uk/guidance/how-guides/cite-datasets)
 
-#### For nucleic acid sequences and functional genomics
+#### For Nucleic Acid Sequences and Functional Genomics
 * [How do I cite my ArrayExpress data sets in my publication?](https://www.ebi.ac.uk/biostudies/arrayexpress/help#cite)
 * [How to Cite Data in ENA](https://www.ebi.ac.uk/ena/browser/about/citing-ena)
 * [Citing and linking to the GEO database](https://www.ncbi.nlm.nih.gov/geo/info/linking.html)
 * [How do I cite NCBI services and databases?](https://support.nlm.nih.gov/knowledgebase/article/KA-03391/en-us)
 
 
-### Code citation
+### Code Citation
 
 Code citation allows for greater recognition of research software. Some major platforms and tools offer code citation: GitHub, GitLab, JabRef, Zenodo, and Zotero {% cite escience_center_2021 %}.
 
-## How-tos
+## How-Tos
 ---
 
-### How to make your data reusable?
+### How to Make Your Data Reusable?
 * Properly document your data with metadata {% cite pavone_2020 %}.
 * Use common metadata standards and terminologies {% cite pavone_2020 %}.
 * Standardise your data.
 * Share your raw data with an open license.
 
-### How to maximize already existing data?
+### How to Maximize Already Existing Data?
 See Wood-Charlson *et al.* 2022 {% cite wood-charlson_2022 %}.
