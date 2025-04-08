@@ -1,6 +1,6 @@
 ---
 title: Lipid and fatty acid extraction protocol from biological samples
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 ---
