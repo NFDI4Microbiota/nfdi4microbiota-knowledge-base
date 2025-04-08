@@ -1,6 +1,6 @@
 ---
 title: Proteomics TMT labelled SP3 method
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 ---

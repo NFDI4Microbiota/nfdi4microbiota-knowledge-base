@@ -1,9 +1,9 @@
 ---
 title: Introduction
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
-redirect_from: /Experimental-Procedure-Standards-SOPs
+redirect_from: /Experimental-SOPs
 empty: false
 ---
 
