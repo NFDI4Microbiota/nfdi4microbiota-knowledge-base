@@ -125,7 +125,7 @@ collections:
     order:
      - smp.md
      - toolsurvey.md
-  Experimental-Procedure-Standards-SOPs:
+  Experimental-SOPs:
     output: true
     permalink: /:collection/:name.html
     order:
@@ -168,7 +168,7 @@ collection_order:
   - RDM-Reuse
   - Reproducible-Data-Analysis
   - Software-Development
-  - Experimental-Procedure-Standards-SOPs
+  - Experimental-SOPs
   - Resources
   - How-We-Operate
 
