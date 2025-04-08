@@ -15,8 +15,8 @@ The long-term timeframe starts now and lasts long as necessary. It may extend in
 
 Sustainable handling of data naturally facilitates the long-term accessibility of the data. 
 Best practice methods are:
-* Naming, versioning and data structures, etc. - see also: [Data Organisation](https://knowledgebase.nfdi4microbiota.de/RDM-Process/14-data-organization.html)
-* Documenting data with metadata and context information to ensure reusability: commenting, adding descriptive, administrative and technical metadata, assigning user license. – see also: [Metadata and Metadata standards](https://knowledgebase.nfdi4microbiota.de/Research-Data-Management/03-md.html)
+* Naming, versioning and data structures, etc. - see also: [Data Organisation]({% link _RDM-Process/data-organization.md %})
+* Documenting data with metadata and context information to ensure reusability: commenting, adding descriptive, administrative and technical metadata, assigning user license. – see also: [Metadata and Metadata standards]( {% link _Research-Data-Management/md.md %})
 * Using well-known open file formats during the project phase - see below - or converting data into reusable file formats (needs documenting: original file or converted file)
 * Storing data in compliance with the 3-2-1 rule: 
    * Keep 3 copies of any important file
@@ -58,7 +58,7 @@ The following section is intended to provide a basic understanding of the possib
 * Determine responsibilities
    * Define who will be responsible for the data of your organization/research project in the long-term. Determine handover scenarios in the event that the person leaves.
    * Define possible risks of data loss and which follow-up measures should be taken - even after the project has been completed. 
-   * Decide on a technical support, which hardware and software is required and who will provide the resources. - see also: [Data Management Plans (DMP)](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/RDM-Plan/dmp.html#content-of-dmps)
+   * Decide on a technical support, which hardware and software is required and who will provide the resources. - see also: [Data Management Plans (DMP)]({% link _RDM-Plan/dmp.md %}#content-of-dmps)
 * Determine who should be able to find and access the data.
    * How will these persons be made aware of the existence of relevant data in this location? How can they can search for specific projects or files?
    * Set up a website, an index or a database with required metadata and ensure that necessary metadata is entered.
@@ -74,7 +74,7 @@ The following section is intended to provide a basic understanding of the possib
       * Check that files must not be encrypted, password-protected or protected against printing or copying of content. 
       * Check that files are virus-free
       * Generate and check the checksums of files if transferred or on receipt, document them and conduct regular fixity checks so it is noticeable if files are no longer intact
-      * Store data redundantly - see above: [3-2-1 rule](https://knowledgebase.nfdi4microbiota.de/RDM-Preserve/25-digital-preservation.html#digital-preservation-for-researchers) 
+      * Store data redundantly - see above: [3-2-1 rule](#digital-preservation-for-researchers) 
       * Develop strategies for monitoring and updating storage media (e.g. according to the technical lifespan)
       * Perform control, logging and versioning of any changes
    * **DP at Content preservation level:** This is generally understood to cover the combination of technical-logical and semantic preservation in order to understand for what the data is intended and how it is organized technically. {% cite markus_long-term_2024 lindlar_2020_3672773 %}. 
@@ -90,7 +90,7 @@ The following section is intended to provide a basic understanding of the possib
   
 ## DP for repository operators
 
-Repositories usually contain publications in the form of files and are dependent on the quality of submission. Similar to digital preservation in laboratories, digital preservation in repositories depends on sustainable organisational and technical capabilities to prevent technical and semantic obsolescence. In addition, repositories have a particular responsibility to provide published research data and their metadata in a machine readable and usable way that meet the needs of their user community. - see also: [FAIR-principles](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/04-fair.html).  However, the deliberate design of the metadata schema and the repository's publication policy may impose specific requirements for the acceptance of the digital object. Digital Preservation may add additional data quality processes.
+Repositories usually contain publications in the form of files and are dependent on the quality of submission. Similar to digital preservation in laboratories, digital preservation in repositories depends on sustainable organisational and technical capabilities to prevent technical and semantic obsolescence. In addition, repositories have a particular responsibility to provide published research data and their metadata in a machine readable and usable way that meet the needs of their user community. - see also: [FAIR-principles]({% link _Research-Data-Management/fair.md %}).  However, the deliberate design of the metadata schema and the repository's publication policy may impose specific requirements for the acceptance of the digital object. Digital Preservation may add additional data quality processes.
 
 
 Most measures mentioned in the section “DP for labs” are just as essential for repositories (see above). 

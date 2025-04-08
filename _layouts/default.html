@@ -73,7 +73,7 @@
             </div>
             <div class="modal-body ">
                 <p style="text-align: left;"> Research Data Infrastructure for Microbiota Research (NFDI4Microbiota). ({{
-                    page.last_modified_at | date: '%Y, %B %d'}}): <i> {{ page.title }}</i>, NFDI4Microbiota Knowledge Base,<a href="https://knowledgebase.nfdi4microbiota.de{{ page.url }}.html"> https://knowledgebase.nfdi4microbiota.de{{ page.url }}.html </a></p>
+                    page.last_modified_at | date: '%Y, %B %d'}}): <i> {{ page.title }}</i>, NFDI4Microbiota Knowledge Base,<a href="https://knowledgebase.nfdi4microbiota.de{{ page.url }}"> https://knowledgebase.nfdi4microbiota.de{{ page.url }} </a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -312,7 +312,7 @@
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input-docs'),
       resultsContainer: document.getElementById('results-container-docs'),
-      searchResultTemplate: "<a href='{{ site.url }}{url}.html' class='list-group-item list-group-item-action'>{title}</a>",
+      searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
       json: "{{ '/search.json' | relative_url }}",
       noResultsText: '<div class="list-group-item">No results found</div>'
     })

@@ -33,7 +33,7 @@ NFDI4Microbiota offers dedicated services and tools along the research data life
     * Training with eLabFTW (see example demo [here](https://doi.org/10.5446/68306)).
     * Annual seminar on ELNs.
 * **Process:** metadata (standards):
-    * On this [Knowledge Base](https://nfdi4microbiota.github.io/nfdi4microbiota-knowledge-base/Research-Data-Management/03-md.html).
+    * On this [Knowledge Base]({% link _Research-Data-Management/md.md %}).
     * On [GitHub](https://github.com/NFDI4Microbiota/MetadataStandards).
 * **Analyse:** the Cloud-based Workflow Manager ([CloWM](https://clowm.bi.denbi.de/login?next=/dashboard)).
 * **Preserve:** the [ARUNA](https://aruna-storage.org/) data orchestration engine, an open-source data management platform that allows scientists and industry partners to store, annotate and share their data according to the FAIR data principles.
