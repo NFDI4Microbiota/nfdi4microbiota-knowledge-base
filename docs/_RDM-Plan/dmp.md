@@ -32,7 +32,7 @@ DMPs typically include the following information:
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/data-repositories.md %}).
 
-## DMP templates and examples
+## DMP Templates and Examples
 
 ---
 
@@ -70,7 +70,7 @@ DMPs offer **other benefits**, such as enabling verification and control: resear
 
 **DMP quality check:** A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
 
-## DMP tools
+## DMP Tools
 
 ---
 
@@ -79,13 +79,11 @@ Although it is generally possible to formulate a DMP in a text document, the use
 * **[Research Data Management Organizer](https://rdmorganiser.github.io/) (RDMO)** is an open-source web application that has been widely adopted by institutes and consortia in Germany. RDMO supports the structured and collaborative planning and implementation of RDM and also enables the textual output of a DMP. 
 RDMO organizes individual DMPs around predefined templates that reflect the requirements of the respective institution, discipline, or funder. This ensures machine-actionable compatibility for administrative stakeholders and reusability for researchers in subsequent projects.
 
-* **[RDMO4Life](https://rdmo.publisso.de/)**  is the dedicated version of RDMO for all research organizations working in the life sciences. It provides the ability to customize questionnaires to meet subject/project-specific needs. If you would like advice on how to access/use RDMO4Life, please contact <forschungsdaten@zbmed.de>.
-
 * **[Data Stewardship Wizard](https://ds-wizard.org/) (DSW)** was developed by ELIXIR Netherlands and ELIXIR Czech Republic and is recommended by the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf). DSW is an open-source dynamic web form system. It has been designed as an expert system and is intended for data stewards to assist researchers in creating machine-actionable DMPs. It offers user-friendly questionnaires and many different templates (it is also possible to create your own template). Training on DSW is organized by different ELIXIR nodes.
 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Center](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
 
-## Further resources
+## Further Resources
 
 ---
 

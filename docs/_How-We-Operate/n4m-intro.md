@@ -17,7 +17,7 @@ Here, all information, guidelines, SOPs, documents, and links required for the w
 ### Contribution
 Each member of the consortium can [contribute to this repository](https://knowledgebase.nfdi4microbiota.de/Getting-Started/contributing.html).
 
-## The Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI association)
+## The Nationale Forschungsdateninfrastruktur (NFDI) e.V. (NFDI Association)
 
 ---
 
@@ -148,7 +148,7 @@ thus reacting to new and unforeseen scenarios. It is staffed based on suggestion
 ### NFDI4Microbiota Policy
 The General Assembly adopted the NFDI4Microbiota Policy in 2023, which will be published on the [NFDI4Microbiota Zenodoo community](https://zenodo.org/communities/nfdi4microbiota) soon.
 
-## Annual timeline of important dates for the consortium
+## Annual Timeline of Important Dates for the Consortium
 
 ---
 
@@ -228,7 +228,7 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
-### NFDI4Microbiota mailing lists
+### Nfdi4microbiota Mailing Lists
 For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
@@ -245,7 +245,7 @@ Channels provided by NFDI4Microbiota:
 To have your user account created on the Rocket Chat, contact one of the Administration Unit.
 Afterwards, you can access the rocket chat for [NFDI](https://all-chat.nfdi.de).
 
-### NFDI e.V. mailing lists
+### NFDI e.V. Mailing Lists
 Via this mailing list, general information on e.g. NFDI talks, coffee sessions, onboarding (quarterly), and statute introduction (semi-annually) are shared.
 If you are involved in further sections, task forces, or administrative groups (more information on NFDI e.V. work), it would be easiest to create an account to manage the 
 NFDI mailing lists. For some mailing lists, archives of past emails do exist and can be viewed too. Every NFDI4Microbiota member should at least register to 'nfdi-all' mailing list.
@@ -260,11 +260,11 @@ For the consortium, the information on the annual direct cost distributions and 
 In general, the [Usage Guidelines of the DFG](https://www.dfg.de/resource/blob/168728/8ee8c5e88b49e485ec3e0cb8d3fe107d/dfg-nfdi300-de-v0721-data.pdf) giving a guideline on 
 different financial topics as well, like travel costs, etc. As repetition is not intended, here only consortium-specific topics are addressed.
 
-### Direct costs
+### Direct Costs
 The direct costs were not distributed within the consortium during the proposal phase. Therefore, each year the direct costs have to be distributed throughout the partner institutions. 
 An annual financial forecast is implemented and described in ....
 
-### Flexible funding (Flex Funds)
+### Flexible Funding (Flex Funds)
 The NFDI4Microbiota consortium aims to realize the dynamic adaptation of services and support of further data types, the development of new training programs, and the improvement of the 
 ability to react to unforeseen technical challenges. Therefore, within the NFDI4Microbiota project work, flexible funding (so-called ‘Flex Funds’) for small projects within the 
 research community is available for the years 2023 to 2026. To implement a dynamic system that stays on track with new trends in the field, the Flex Funds shall support small 

@@ -13,7 +13,7 @@ Defining or using a suitable license for published content usually has the benef
 
 In sciences, two categories of licenses can applied to either software or data and results that explicitly describe whether and how others can use it.
 
-## Properties of recommendable licenses
+## Properties of Recommendable Licenses
 ---
 * Standardized, i.e. machine-readable, text
 * Available in an easy-to-read version
@@ -21,7 +21,7 @@ In sciences, two categories of licenses can applied to either software or data a
 * Compatible with many jurisdictions
 * Common
 
-## Licenses for data and other creative works
+## Licenses for Data and Other Creative Works
 ---
 Also scientific data and output are subject to copyright if their generation requires a sufficient amount of creativity (this might be contested in some contexts).
 However, since scientists conduct experiments mostly within their employment of their funding institution, the copyright lies with both and should ideally be discussed with the employer (the universities legal department) in high profile cases.
@@ -55,21 +55,21 @@ Creators can declare a works license by selecting it during upload to a website/
 
 Here we look at some examples of license usage, found on [Zenodo](https://zenodo.org/).
 
-#### CC BY 4.0 example usage
+#### CC BY 4.0 Example Usage
 We are going to be looking at two examples here: 
 1. [Metagenome-assembled genomes (MAGs), colorectal cancer (CRC)](https://zenodo.org/records/7008911) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7008911.svg)](https://doi.org/10.5281/zenodo.7008911)
 2. [Metagenome assemblies and metagenome-assembled genomes from the Daphnia magna microbiota](https://zenodo.org/records/4435010) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4435010.svg)](https://doi.org/10.5281/zenodo.4435010)
 
 Both datasets have been submitted to Zenodo under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). That means that the data that has been deposited is free to share and free to redistribute (including commercially) in any format or medium. It also enables the data user to build upon or transform it for any purpose (including commercial use). However, the license requires the data user to give appropriate credit to the submitter/data generator. In addition, the user must also provide a link to the license and disclose any changes made when licensing their work when derived from work already under license.
 
-#### CC0 example usage
+#### CC0 Example Usage
 We are going to be looking at two examples here:
 1. [Data from: Mining for NRPS and PKS genes revealed a high diversity in the Sphagnum bog metagenome](https://zenodo.org/records/4976456) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.hf56v.svg)](https://doi.org/10.5061/dryad.hf56v)
 2. [Data from: Generational conservation of composition and diversity of field-acquired midgut microbiota in Anopheles gambiae sensu lato during colonization in the laboratory](https://zenodo.org/records/5001400) [![DOI](https://zenodo.org/badge/DOI/10.5061/dryad.98jj7gk.svg)](https://doi.org/10.5061/dryad.98jj7gk)
 
 Both datasets have been submitted to Zenodo under the  [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). That means that the data that has been deposited is in the public domain. That implies that the data deposited can be copied, modified, distributed, and used even for commercial purposes, and the depositor/generator of the data waives their right to the work. The user of data does not need to seek the permission of the data/material submitter or generator.
 
-## Software licenses
+## Software Licenses
 ---
 When software sources are distributed, it is considered good practice to specify an already established license under which it can be used.
 Software developed in the context of science and funded by public money, usually needs to be made available free of charge and in open source by requirements of the funder or the governing institution's policies.
@@ -103,10 +103,6 @@ An exhaustive list of generally recommended licenses for Open Source is curated 
 Typically, developers or distributors add a plain-text file called `LICENSE` to the source code or binary of their software that contains the chosen license text.
 Especially source repositories like github or gitlab will allow you to choose a license per project and automatically adding such a `LICENSE` file to the source code.
 The benefit of selecting a license on the code hosting platform is the machine readable interpretation of your permissions which can potentially increase visibility in search results across the platform.
-
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form.html))
 
 ## Further resources
 ---
