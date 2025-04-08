@@ -2,7 +2,7 @@ matrix:
   - name: Spelling Check
     spelling:
       lang: en_US
-      dictionary: .github/workflows/whitelist.txt
+      dictionary: .github/workflows/spellcheck.whitelist
       ignore:
         - 'code'
         - 'pre'
