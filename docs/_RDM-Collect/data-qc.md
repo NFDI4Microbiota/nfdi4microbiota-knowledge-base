@@ -172,7 +172,7 @@ Legend:
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use raw data for tSNE/UMAP
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
-3. "The first two principle components were used to perform a tSNE" <https://doi.org/10.1126/science.aag3009>
+3. "The first two principle components were used to perform a tSNE" {% cite see_2017 %} <https://doi.org/10.1126/science.aag3009>
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
@@ -190,5 +190,5 @@ Legend:
 - **solution/measure**: use a population size cutoff or state the number
 2. some genes look like dates (1-Mar,...)
 - **source**: seurat/deseq, negative control study
-- **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling <https://doi.org/10.1126/science.aah4573>
+- **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling { % cite villani_2017 %}
 - **solution/measure**: never ever use excel or at least make sure that cell type is not "AUTO"
