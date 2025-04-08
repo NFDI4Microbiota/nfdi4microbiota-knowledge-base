@@ -45,7 +45,7 @@ There are different versions of CC that consist of the core license with further
 - **Non-derivative (ND):** No derivatives or adaptations of the work are permitted (not compatible with share-alike).
 
 
-![ccsprectrum]({{ '/assets/img/Creative_commons_license_spectrum.svg' | relative_url }})
+![Creative Commons License Spectrum](https://upload.wikimedia.org/wikipedia/commons/e/e1/Creative_commons_license_spectrum.svg)
 
 ([Source](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg), CC-BY Shaddim; original CC license symbols by Creative Commons)
 
