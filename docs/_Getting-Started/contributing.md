@@ -44,7 +44,7 @@ To edit an existing file:
 6. Write a comment briefly describing the changes you have made
    1. If you are working on a page related to Research Data Management (RDM), assign @jvddorpe (Justine Vandendorpe) as a reviewer
    2. If you are working on a page related to Workflows, assign @KK-NFDI (Kassian Kobert) as a reviewer
-7. Assign the pull request to `Mahdi Robbani`
+7. Assign the pull request to `Mahdi Robbani` or  `Natalie Kurtys`
 8. Press the `Create pull request` button
 
 [Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to editing files on GitHub if you need futher help.
