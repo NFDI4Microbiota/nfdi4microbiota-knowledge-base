@@ -34,8 +34,9 @@ docs_css: markdown
 * Increase the speed of discovery and the knowledge creation process.
 * Internationalize your research and be inclusive.
 
-## Further Resources
+{ %cite: soiland-reye_2022 %}
+
+{ %cite: sielemann_2020 %}
 ---
-* Sielemann, K., Hafner, A., & Pucker, B. (2020). The reuse of public datasets in the life sciences: potential risks and rewards. In PeerJ (Vol. 8, p. e9954). PeerJ. [https://doi.org/10.7717/peerj.9954](https://doi.org/10.7717/peerj.9954)
-* Soiland-Reyes, S., Sefton, P., Crosas, M., Castro, L. J., Coppens, F., Fernández, J. M., Garijo, D., Grüning, B., La Rosa, M., Leo, S., Ó Carragáin, E., Portier, M., Trisovic, A., RO-Crate Community, Groth, P., & Goble, C. (2022). Packaging research artefacts with RO-Crate. In S. Peroni (Ed.), Data Science (Vol. 5, Issue 2, pp. 97–138). IOS Press. [https://doi.org/10.3233/ds-210053](https://doi.org/10.3233/ds-210053)
+
 
