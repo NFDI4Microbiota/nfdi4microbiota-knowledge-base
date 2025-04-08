@@ -103,3 +103,17 @@ When adding or editing files, please observe the following rules:
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
    1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
    2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+      
+
+## Special case: Reordering document pages in the collection headers
+
+---
+
+You can suggest to reorder the pages within a collection if needed or even reassign them to different collections, if another topic seems more suitable. Please have a look at how the pages and collections are currently ordered in [this config.yaml file](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/9132ef3bfc9f28fcf8eb293d93fc4507eec87a9d/_config.yml#L48).
+The view corresponds to the left-hand navigation bar on topics featured on the Knowledge Base.
+1. Make a reordering suggestion in the file.
+2. Follow the instructions under `### Edit Existing Files`
+3. Must-have for the commit message and merge requests:
+   1. meaningful commit header and **detailed** description 
+   2. Add content reviewers, assign @jvddorpe (Justine Vandendorpe) as a reviewer
+4. Your suggestions will be discussed internally before potential acceptance.
