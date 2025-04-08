@@ -22,6 +22,9 @@ jobs:
 
     - name: Install PySpelling
       run: pip install pyspelling
+    
+    - name: Install aspell
+      run: sudo apt-get install -y aspell
 
     - name: Run PySpelling
       run: pyspelling -c .github/workflows/pyspelling.yml
