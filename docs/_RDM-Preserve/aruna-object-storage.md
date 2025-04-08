@@ -68,5 +68,5 @@ AOS organizes data in Version 1.x into Projects, Collections, Object Groups, and
 ---
 
 * Dokumentation and Aruna start page: [https://aruna-storage.org](https://aruna-storage.org)
-* Source-Code: [https://github.com/ArunaStorage](https://github.com/ArunaStorage)
+* Source-Code: [https://github.com/arunaengine/aruna](https://github.com/arunaengine/aruna)
 

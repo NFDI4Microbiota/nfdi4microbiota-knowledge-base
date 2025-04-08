@@ -88,7 +88,7 @@ Here are some examples of file names that need improvement {% cite bres_2022 %}:
 * [File Naming Convention Worksheet](https://doi.org/10.7907/894Q-ZR22)
 * [Worksheet for Naming and Organizing Files](https://www.dropbox.com/scl/fi/1zd63iszw33rh4hjcu1dl/Worksheet_fileOrg.docx?rlkey=q0t25t1wttp4qx2p1ne39qfhd&e=1&dl=0)
 * [Checklist for FIle Naming Conventions](https://osf.io/dpu45)
-* A detailed [documentation of a File Naming Convention](https://www.data.cam.ac.uk/files/gdl_tilsdocnaming_v1_20090612.pdf)
+* A detailed [documentation of a File Naming Convention](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)
 
 ## File versioning
 ---

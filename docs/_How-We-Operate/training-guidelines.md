@@ -14,7 +14,7 @@ overview of general (common sense) best practices for executing training
 courses. We focus on training events targeted at professionals from the
 microbiology field. The points in this guide are partially based on
 [Recommendations for Teaching Carpentries Workshops
-Online](https://carpentries.org/files/pdf/online-workshop-recommendations.pdf)
+Online](https://carpentries.org/blog/2020/04/taking-your-carpentries-workshop-online/)
 by The Carpentries ([CC BY](https://creativecommons.org/licenses/by/4.0/) 2020).
 
 There are many different formats for training events, ranging from short
