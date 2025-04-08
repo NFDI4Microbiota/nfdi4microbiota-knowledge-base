@@ -34,9 +34,8 @@ docs_css: markdown
 * Increase the speed of discovery and the knowledge creation process.
 * Internationalize your research and be inclusive.
 
-{ %cite: soiland-reye_2022 %}
-
-{ %cite: sielemann_2020 %}
+  { % cite: soiland-reye_2022 %}
+  { % cite: sielemann_2020 %}
 ---
 
 
