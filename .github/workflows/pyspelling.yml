@@ -2,8 +2,11 @@ matrix:
   - name: Spelling Check
     spelling:
       lang: en_US
-      dictionary: .github/workflows/spellcheck.whitelist
-      ignore:
+      dictionary: 
+        wordlists:
+          - .github/workflows/spellcheck.whitelist
+          - .github/workflows/spellcheck.acronyms.whitelist
+        ignore:
         - 'code'
         - 'pre'
         - 'a'
