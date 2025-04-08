@@ -7,7 +7,7 @@ docs_css: markdown
  
 ## Introduction
 
-This document contains instructions on how to contribute to the Knowledge base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
+This page contains instructions on how to contribute to the Knowledge Base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
 The main steps a user must follow to contribute to the Knowledge Base are:
 
@@ -15,7 +15,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 2. Make changes to files in the repository:
     - Edit existing files *or*
     - Create new files
-3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
+3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file
 
 ## Create a GitHub account
 
@@ -30,20 +30,20 @@ Users will need a GitHub account if they wish to contribute to the Knowledge Bas
 
 ### Edit existing files
 
-In order to make changes to the respository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
+In order to make changes to the respository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
-*Note: Markdown files are files which end with the `.md` suffix for example, this `02-Contributing.md` file. Please do not try to edit non Markdown files.*
+*Note: Markdown files are files which end with the `.md` suffix, for example this `contributing.md` file. Please do not try to edit non Markdown files.*
 
 To edit an existing file:
 
-1. Navigate to the file on the repository and click on it
+1. Navigate to the file you want to edit in the repository and click on it
 2. Click on the pen icon on the top right to begin editing
 3. After editing the file, add a commit name that includes the name of the edited file and the [issue number](#github-issues) (if available) e.g. `#32 fixed typo in RDM page`
 4. Select the `Create new branch` option and add a branch name which includes the name of the edited file and the [issue number](#github-issues) (if available)
 5. Press the `Propose changes` button
 6. Write a comment briefly describing the changes you have made
    1. If you are working on a page related to Research Data Management (RDM), assign @jvddorpe (Justine Vandendorpe) as a reviewer
-   2. If you are working on a page related to Workflows, assign @KK-NFDI (Kassian Kobert) as a reviewer.
+   2. If you are working on a page related to Workflows, assign @KK-NFDI (Kassian Kobert) as a reviewer
 7. Assign the pull request to `Mahdi Robbani`
 8. Press the `Create pull request` button
 
@@ -53,11 +53,7 @@ To edit an existing file:
 
 ### Create new files
 
-If you want to create a page on the website that doesn't already exist, create a new issue.
-
-#### GitHub Issues
-
-A [GitHub Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the page. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
+If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
 
 To create a new issue:
 
@@ -86,12 +82,14 @@ When adding or editing files, please observe the following rules:
 1. Use respectful and inclusive language
 2. Use American English
 3. Keep the content factual
-4. Reference sources appropriately (see below)
-5. Use a single `##` for the main file heading and use `###`, `####`, etc, for all subheadings
+4. Cite sources appropriately (see below)
+5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
 6. After the second and every following `##` add `---` for a visual break line.
 7. Place image files in the `assets/img/` directory
-8. Use internal links to markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
-9. Non-public links are be restricted to the how-we-operate section and whitelisted in `.github/workflows/ignored-urls.txt` manually
+8. Use internal links to Markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
+9. Non-public links are restricted to the how-we-operate section and manually whitelisted in `.github/workflows/ignored-urls.txt`
+10. Write "Knowledge Base" in capital letters
+11. Be consistent with adding periods or not at the end of list items
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
@@ -101,7 +99,6 @@ When adding or editing files, please observe the following rules:
 ---
 
 1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
-2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal.
-3. In order to reference an article:
+2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
    1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
    2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
