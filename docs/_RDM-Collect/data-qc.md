@@ -172,7 +172,7 @@ Legend:
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use raw data for tSNE/UMAP
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
-3. "The first two principle components were used to perform a tSNE" {% cite see_2017 %} <https://doi.org/10.1126/science.aag3009>
+3. "The first two principle components were used to perform a tSNE" {% cite see_2017 %}
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
