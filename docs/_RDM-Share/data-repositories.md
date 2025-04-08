@@ -4,9 +4,12 @@ category: RDM-Share
 layout: default
 docs_css: markdown
 ---
+
+## Definition of a Data Repository
+
 A **data repository** is a location where digital objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
 
-## Benefits of publishing data in a repository
+## Benefits of Publishing Data in a Repository
 ---
 * **Back-up** (i.e. the practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage).
 * Increased **data discoverability** and **accessibility**, and thus potential **data reuse**.
@@ -16,7 +19,7 @@ A **data repository** is a location where digital objects are stored and documen
     * [Google Dataset Search](https://datasetsearch.research.google.com/)
     * [LIVIVO - ZB MED Search Portal for Life Sciences](https://www.livivo.de/)
 
-## Criteria to select a trusted repository
+## Criteria to Select a Trusted Repository
 ---
 Below are listed criteria you might want to consider when selecting a repository where to publish your data:
 * Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 or ISO 16363? Find these repositories via re3data or the website of various certification initatives:
@@ -35,7 +38,7 @@ Below are listed criteria you might want to consider when selecting a repository
 * Does the repository offer the possibility to integrate all metadata relevant for finding and specifying your publication? 
 * Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation.
 
-## Order of preference for selecting a repository
+## Order of Preference for Selecting a Repository
 ---
 1. A certified resposity (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
 2. A well-established repository in your discipline that offers a specific scope (e. g. supporting a specific metadata schema).
@@ -44,7 +47,7 @@ Below are listed criteria you might want to consider when selecting a repository
 5. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
 6. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
-## Well-established repositories for data deposition in microbiology
+## Well-Established Repositories for Data Deposition in Microbiology
 ---
 Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
 
@@ -89,10 +92,10 @@ Below are listed well-established repositories in microbiology. For each reposit
 | **Vertebrate-virus network** 	| [VIRION](https://viralemergence.github.io/) 	| / 	| / 	|
 {: .table .table-hover}
 
-## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
+## Data Publishing in the PUBLISSO – Repository for Life Sciences (FRL)
 ---
 
-#### Repository details
+#### Repository Details
 * **Data types**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -105,7 +108,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 * **Data guarantee**: availability for at least 10 years and transfer to a long-term archive
 * **Recommended publication formats for research data**: see "Recommended preservation formats for research data" on this [page](https://www.publisso.de/en/research-data-management/rd-archiving/)
 
-#### Steps to deposit data in the FRL
+#### Steps to Deposit Data in the FRL
 1.	Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de).
 2.	You will receive:
     * The terms of use that you need to sign and send back.
@@ -129,10 +132,10 @@ Below are listed well-established repositories in microbiology. For each reposit
 * The FRL is not suitable for sensitive data.
 * The FRL can be browsed only in German.
 
-## Data publishing in Zenodo
+## Data Publishing in Zenodo
 ---
 
-#### Repository details
+#### Repository Details
 * **Data types**: all research outputs, positive and negative results
 * **Open Access**: yes
 * **Terms of use & License**: yes
@@ -164,7 +167,7 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * Zenodo might not be suitable for sensitive data that might have to stay in their country of origin.
 * Zenodo has a size limit of 50 GB per record. For bigger size, a request has to be made.
 
-## Repository finders
+## Repository Finders
 ---
 * To find any repositories:
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
@@ -176,7 +179,3 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 ## Further Resources
 ---
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).
-
-## Get Help
----
-If you have any further questions about the management and analysis of your microbial research data, please contact us: [helpdesk@nfdi4microbiota.de](mailto:helpdesk@nfdi4microbiota.de) (by emailing us you agree to the privacy policy on our website: [Contact](https://nfdi4microbiota.de/contact-form.html))

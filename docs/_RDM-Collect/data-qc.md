@@ -29,7 +29,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: it is not possible to distinguish between the biological and the technical variance -> bad design
 - **solution/measure**: exclude rRNAs
 
-### QC
+### Quality Control
 1. low base call quality at 3'-end
 - **source**: fastqc, fastq input (sam/bam are missing Phred)
 - **possible reason(s)**: general effect esp. for older data, could be hint for 3'-adapters
@@ -152,11 +152,11 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: humans are bad with ratios (0.01 = almost 0 and 100 is just large but not the largest bar ever)
 - **solution/measure**: use any log transformation (e.g. log10: 0.01 => -2, 100 => +2)
 
-## Single cell
+## Single Cell
 
 ---
 
-### Quality check
+### Quality Check
 1. peak at left/right side in gene or reads per cell histogram or log10-cummulative-number of reads per cell id
 - **source**: BD rhapsody pipeline, negative control study
 - **possible reason(s)**: left=cell fragments, right=multiplets present
@@ -166,7 +166,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: using raw UMI counts
 - **solution/measure**: use DBEC/RSEC UMI counts
 
-### Dim. reduction
+### Dimension Reduction
 1. poor PCA/UMAP/tSNE embedding
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: using e.g. only one assay of count data for embedding
@@ -180,7 +180,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
 
-### Find subpopulations
+### Find Subpopulations
 1. cluster form based for a specific batch index
 - **source**: Dim. reduction embedding + clustering, negative control study
 - **possible reason(s)**: batch effect

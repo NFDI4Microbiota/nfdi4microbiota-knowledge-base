@@ -6,7 +6,7 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 ---
 
-## Definition of research data
+## Definition of Research Data
 There is no consensus on the definition of research data as they are highly heterogeneous. Thus, the definition can vary considerably depending on the research funder, the scientific discipline or subject, and the research data itself {% cite lindstädt_2019 biernacka:2020 voigt_2022 %}. We propose the following definition, based on around 20 others: **research data** is the collection of digital and non-digital objects (excluding scientific publications) that are generated (e.g. through measurements, surveys, source work), studied and stored during or as a result of scientific research activities. These objects are commonly accepted in the scientific community as necessary for the production, validation and documentation of original research results. In the context of Research Data Management (RDM), research data also includes non-data objects such as software and simulations (see further examples below).
 
 The characteristics of research data depend strongly on the context (i.e. conditions of generation, methods used, perspective) {% cite biernacka:2020 %}. Nevertheless, we can try to classify them as follows:
@@ -21,7 +21,7 @@ Data is differentiated from **information** (i.e. processed data that can be con
 
 ![Information pyramid]({{ '/assets/img/information_pyramid.png' | relative_url }} "Information pyramid"){:width="70%"}
 
-## General data types
+## General Data Types
 ---
  General data types include the following {% cite NC_State_University_Library:2020 steen:2022 voigt_2022 dfg:2015 %}:
 * Data files (e.g. text files, binary files)
@@ -40,7 +40,7 @@ Data is differentiated from **information** (i.e. processed data that can be con
 * Methodologies and workflows
 * Standard Operating Procedures (SOPs) and protocols
 
-## Common data types in microbiology
+## Common Data Types in Microbiology
 ---
 Data types in microbiology include the following:
 * Antibiotic resistance data

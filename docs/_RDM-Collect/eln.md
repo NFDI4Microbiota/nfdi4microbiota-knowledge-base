@@ -17,7 +17,7 @@ An Electronic Lab Notebook (ELN) is a software meant for documenting experiments
 
 ELNs offer features and functions that can pave the way for significant time savings and knowledge transfer in daily laboratory work. For example, ELNs support the annotation of raw data (e.g. with tags or metadata {% cite rathmann_2021 vandendorpe:2024 %}) without having to switch between different media formats. Annotating data makes it searchable, discoverable, traceable and reusable {% cite vandendorpe:2024 %}. ELNs also bring data and their description closer together through embedded multimedia files (e.g. videos of experimental setups), links to shared resources (e.g. chemical databases or analysis software), links to other experiments, as well as direct links to (raw) data sets and analysis workflows {% cite rehwald_2022 %}. ELNs also allow for the versioning of experiment descriptions {% cite rehwald_2022 %} and the structuring and visualisation of workflows and processes {% cite rathmann_2021 %}. ELNs also have the ability to manage inventories of samples, reagents and other supplies, and track equipment and equipment maintenance schedules {% cite lma_rdmwg %}. ELNs also provide for collaboration {% cite lma_rdmwg %} through a common medium {% cite rehwald_2022 %}. Last but not least, ELNs provide for auditing {% cite lma_rdmwg %}, security and safety. Indeed, ELNs are fireproof, waterproof and cannot be lost, misplaced or stolen. ELNs can also be automatically backed up. They allow timestamping (RFC 3161 using DFN-PKI) and finalisation to prevent further changes {% cite rehwald_2022 %}. They also support electronic signatures {% cite cozatl_2021 %} and require access management {% cite rehwald_2022 %}.
 
-## Benefits and drawbacks
+## Benefits and Drawbacks
 
 ---
 
@@ -36,7 +36,7 @@ ELNs still have some disadvantages compared to physical lab notebooks, as networ
 
 Several tools and techniques can be used to overcome the difficulties of using a computer when conducting experiments: tablets in the lab, plug-ins (such as voice input and Optical Character Recognition (OCR) plug-ins), linking experiments to raw data files and results, automatic date and time stamping to prove provenance, and integrating ELNs with other research software to capture data and information {% cite lma_rdmwg %}.
 
-## The role of ELNs in data security and protection
+## ELNs’ Role in Data Security and Protection
 
 ---
 
@@ -56,19 +56,19 @@ To select an ELN, we recommend that you define selection criteria that reflect t
 * **Performance and stability**
 * **ELN *vs.* LIMS:** ELNs are sometimes confused with Laboratory Information Management Systems (LIMS). They both streamline laboratory workflow and data management and are complementary, but they have different functionalities and features. A LIMS is a comprehensive software for managing and tracking laboratory operations and data. A LIMS covers sample management and tracking, workflow management and automation and quality control throughout the laboratory. On the other hand, an ELN focuses on experimental data acquisition, experiment documentation and (real-time) collaboration {% cite Integrated_software_solutions:2023 Halton:2024 %}.
 
-### Features for selecting an ELN based on the complexity of the system
+### Features Based on System Complexity
 
-#### Basic systems
+#### Basic Systems
 Basic systems are tools used as ELNs that were not originally designed for this purpose {% cite Dirnagl:2016 %}. They allow traditional text entry, which can be searched and made available on multiple devices via the cloud. They also allow files (e.g. images, spreadsheets) to be attached to text and the attachments to be viewed, annotated and searched. Such systems include Word, Evernote and Dropbox. Basic systems have the advantage of being inexpensive, easily accessible and already familiar to many researchers. However, considerable effort is required to achieve the functionality of a traditional ELN with such a system {% cite vandendorpe_2020 bobrov_2021 %}. They typically do not include any kind of audit trail (i.e. saving all previous versions of a note and logging changes), certification {% cite Dirnagl:2016 %}, or the ability to digitally sign or timestamp entries, with workarounds such as signing exported files required {% cite higgins_2022 %}.
 
-#### Specialised systems
+#### Specialised Systems
 Specialised systems are ELNs that allow unstructured data entry and offer a wide range of functionalities {% cite Dirnagl:2016 %}. These specialised systems have all the features of basic systems and more; including the ability to integrate original data {% cite Dirnagl:2016 %} and capture freehand and chemical drawings {% cite lma_rdmwg %}. Specialized systems also provide subject-specific features/editors and templates, task allocation between colleagues, complex rights management (i.e. with roles and individual rights) within institutes and workgroups {% cite Dirnagl:2016 %}, basic inventory management (i.e. the ability to manage the quantity and location of samples and reagents) and extensions/APIs for customisation {% cite vandendorpe_2020 bobrov_2021 %}. 
 
 Finally, they comply with the [FDA 21 CFR Part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application). This part requires version control {% cite Dirnagl:2016 %}, full audit trails, electronic signatures on completed records, witnessing and freezing (i.e., making a record immutable after the author and a witness have signed it), and prevents the author from deleting records. Examples of specialised systems: include Arxspan, Biovia, eCat, eLabJournal, eLabFTW, iLabber, Labfolder, and RSpace. 
 
 Specialised systems have the advantage of offering easy entry through free online versions and the ability to install and store data locally. They can also be integrated into your own IT environment via Application Programming Interfaces (APIs) {% cite vandendorpe_2020 bobrov_2021 %}.
 
-#### High-end systems
+#### High-End Systems
 High-end systems are ELNs that are offered as a module of a comprehensive laboratory management system {% cite Dirnagl:2016 %}. They have all the features of specialised systems and more. High-end ELNs integrate a LIMS (e.g. IBDS E-WORKBOOK, iLAB Laboratory Execution System) that allows complete tracking of samples and reagents through all experiments. They are also directly linked to laboratory equipment such as microscopes, spectrometers and sequencers. High-end systems provide workflows for specific samples, experiments and tasks. They can automatically provide raw data and metadata (e.g. date of last calibration) from laboratory instruments. Finally, high-end systems allow data mining (i.e. the aggregation and clustering of structured data) and analysis of raw data within the system. Such systems include Hivebench and Limsophy. High-end systems have the advantage of completeness of functionality and all their components fit together seamlessly. However, they can be complex to use and few allow users to use a language other than English (by 2020) {% cite Dirnagl:2016 %}. In addition, they are often cloud-hosted solutions, which means that data control and security remain in the hands of the ELN provider {% cite vandendorpe_2020 bobrov_2021 %}, and that they are more expensive {% cite higgins_2022 %}. They also use proprietary formats, which can increase the risk of vendor lock-in (i.e. making users dependent on the ELN and unable to use their data with another ELN without significant switching costs {% cite vendor_lock_in %}) {% cite vandendorpe_2020 bobrov_2021 %}.
 
 
