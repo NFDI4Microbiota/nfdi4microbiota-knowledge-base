@@ -197,7 +197,7 @@ Other resources:
 [The Ontology of Data Analysis and Management - EDAM](http://edamontology.org/) - EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and imaging). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below). EDAM is particularly suitable for semantic annotations and categorisation of diverse scientific resources: e.g. tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed scientific data.
 
 ---
-#### **Proteomics - Ontology recommendations**
+#### **(Meta)Proteomics - Ontology recommendations**
 [Proteomics Identification Database Ontology - PRIDE](https://www.ebi.ac.uk/ols4/ontologies/pride) - Proteomics Identification Database Ontology, terms describing proteomics data and experimental metadata.
 
 [Mass Spectroscopy - MS](https://www.ebi.ac.uk/ols4/ontologies/ms) - The Controlled Vocabularies (CV’s) of the Proteomic Standard Initiative (PSI) provide a consensus annotation system to standardize the meaning, syntax and formalism of terms used across proteomics, as required by the PSI Working Groups. Each PSI working group develops the CV’s required by the technology or data type it aims to standardize, following common recommendations for devoplement and maintenance.
@@ -234,4 +234,16 @@ Other resources:
 
 [Reaction Ontologies - RXNO](https://www.ebi.ac.uk/ols4/ontologies/rxno) - RXNO is the name reaction ontology. It contains more than 500 classes representing organic reactions such as the Diels–Alder cyclization.
 
+---
+#### **Synthetic and Systems Biology - Ontology Recommendations**
+[Synthetic Biology Open Language Ontology - SBOL Ontology](https://sbolstandard.org/ontology/) - The SBOL-OWL ontology provides a set of controlled terms that are used to describe genetic circuit designs using [SBOL](https://sbolstandard.org/datamodel-about/).
+
+[Systems Biology Ontology - SBO](https://www.ebi.ac.uk/ols4/ontologies/sbo) - The Systems Biology Ontology is a set of controlled, relational vocabularies of terms commonly used in Systems Biology, and in particular in computational modeling. The ontology consists of six orthogonal vocabularies defining: the roles of reaction participants (eg. “substrate”), quantitative parameters (eg. “Michaelis constant”), a precise classification of mathematical expressions that describe the system (eg. “mass action rate law”), the modeling framework used (eg. “logical framework”), and a branch each to describe entity (eg. “macromolecule”) and interaction (eg. “process”) types. SBO terms can be used to introduce a layer of semantic information into the standard description of a model, or to annotate the results of biochemical experiments in order to facilitate their efficient reuse.
+
+[Sequence Types and Features Ontology - SO](http://www.sequenceontology.org/) - The Sequence Ontology is a set of terms and relationships used to describe the features and attributes of biological sequence. SO includes different kinds of features which can be located on the sequence. Biological features are those which are defined by their disposition to be involved in a biological process. Examples are binding_site and exon. Biomaterial features are those which are intended for use in an experiment such as aptamer and PCR_product. There are also experimental features which are the result of an experiment. SO also provides a rich set of attributes to describe these features such as “polycistronic” and “maternally imprinted”.
+
+[TErminology for the Description of DYnamics - TEDDY](https://www.ebi.ac.uk/ols4/ontologies/teddy) - The TErminology for the Description of DYnamics (TEDDY) project aims to provide an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems Biology and Synthetic Biology.
+
 [Molecular Process Ontology - MOP](https://www.ebi.ac.uk/ols4/ontologies/mop) -  It contains the molecular processes that underlie the name reaction ontology RXNO, for example cyclization, methylation and demethylation.
+
+[Reaction Ontologies - RXNO](https://www.ebi.ac.uk/ols4/ontologies/rxno) - RXNO is the name reaction ontology. It contains more than 500 classes representing organic reactions such as the Diels–Alder cyclization.
