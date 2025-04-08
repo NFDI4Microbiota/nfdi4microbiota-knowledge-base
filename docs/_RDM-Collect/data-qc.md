@@ -125,7 +125,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: e.g. biol. and tech. replicates are mixed up
 - **solution/measure**: END-RESTART
 
-### DEA - differential expression analysis
+### Differential Expression Analysis (DEA)
 1. dispersion-plot: gene estimation does not follow red fit
 - **source**: DESeq2, negative control study
 - **possible reason(s)**: model does not represent data
@@ -186,7 +186,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: batch effect
 - **solution/measure**: correct for batch effect (e.g. integrate using seurat)
 
-### DEA - differential expression analysis
+### Differential Expression Analysis (DEA)
 1. many DEGs (differentially expressed genes)
 - **source**: seurat/deseq, negative control study
 - **possible reason(s)**: DEG between very small sub-populations
