@@ -290,7 +290,7 @@
             {% if page.url contains "/Getting-Started/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
             <p></p>
             {% else %}
-            <h2>References </h2>
+            <h2 id="references">References </h2>
             <hr>
             {% bibliography --cited_in_order %}
             {% endif %}
