@@ -1,0 +1,15 @@
+spelling:
+  lang: en_US
+  dictionary: .github/workflows/whitelist.txt
+  ignore:
+    - 'code'
+    - 'pre'
+    - 'a'
+
+files:
+  - '**/*.md'
+  - '**/*.txt'
+
+processors:
+  - name: pyspelling.processors.MarkdownProcessor
+  - name: pyspelling.processors.TextProcessor
