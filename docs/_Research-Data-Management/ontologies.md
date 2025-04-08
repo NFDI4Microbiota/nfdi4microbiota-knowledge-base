@@ -8,7 +8,7 @@ empty: false
 hide: false
 ---
 
-## Introduction
+## **Introduction**
 ---
 Controlled vocabularies, also known as ontologies, are standardized sets of terms and definitions used to ensure clarity, consistency, and accuracy in (meta)data annotation and communication within and across research communities. In this section, the terms "controlled vocabulary" and "ontology" will be used interchangeably.
 
@@ -16,14 +16,25 @@ Historically, Latin served as the lingua franca of academia, providing scholars 
 
 In contemporary research, ontologies fulfill a similar role by providing structured vocabularies that clearly define and standardize terminology within as well as across specific scientific domains. The use of ontologies facilitates precise communication among researchers and between researchers and computers. Moreover, ontologies promote interoperability, enable efficient data navigation through defined search patterns, reduce ambiguity, and allow data to remain relevant and adaptable to ongoing discoveries and evolving research needs.
 
-Ontologies are continuously refined and expanded by the research community itself. Despite the extensive coverage provided by existing ontologies, there may still be edge cases or overlapping terminologies. Researchers encountering such situations are encouraged to utilize available ontology resources (e.g., [Ontology Lookup Service - OLS](https://www.ebi.ac.uk/ols4/), [Open Biological and Biomedical Ontology Foundry - OBO Foundry](https://obofoundry.org/)) and engage with ontology-development communities:
+Ontologies are continuously refined and expanded by the research community itself. Despite the extensive coverage provided by existing ontologies, there may still be edge cases or overlapping terminologies. Researchers encountering such situations are encouraged to utilize available ontology resources: 
 
-1. [Participate in ENVO](https://sites.google.com/site/environmentontology/participate?authuser=0).
-2. [How to create an OBO ontology from scratch](https://oboacademy.github.io/obook/howto/create-ontology-from-scratch/)
+1. [Ontology Lookup Service - OLS](https://www.ebi.ac.uk/ols4/),
+2. [Open Biological and Biomedical Ontology Foundry - OBO Foundry](https://obofoundry.org/),
+3. [BioPortal](https://bioportal.bioontology.org/),
+4. [Ontobee](https://ontobee.org/),
+5. [OntoPortal](https://ontoportal.org/),
+6. [Bioregistry](https://bioregistry.io/),
+
+and engage with the ontology-development communities by submitting ontology request on:
+
+1. [Participate in ENVO](https://sites.google.com/site/environmentontology/participate?authuser=0),
+2. [How to create an OBO ontology from scratch](https://oboacademy.github.io/obook/howto/create-ontology-from-scratch/), [Contributing to OBO ontologies](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies/),
+3. [OntoPortal Documentation](https://ontoportal.github.io/documentation/administration/ontologies/submitting_ontologies),
+4. [National Cancer Institute - Term Suggestion Request](https://evsexplore.semantics.cancer.gov/evsexplore/termform),
 
 This section will furhter instruct researchers on how to utilize existing resources to biologically annotate their data with ontologies using the [Ontology Lookup Service - OLS](https://www.ebi.ac.uk/ols4/).
 
-### Environmental example - Sampling site
+### **Environmental example - Sampling site**
 ---
 Recommended Ontologies: [The Environment Ontology - ENVO](https://sites.google.com/site/environmentontology/about-envo?authuser=0)
 
@@ -42,14 +53,24 @@ A more precise subclass, [woodland biome \[ENVO:01000175\]](http://purl.obolibra
 3. Identify the sampled material (env_medium):
 To pinpoint the material or medium that was sampled, we take a subclass of [soil \[ENVO:00001998\]](http://purl.obolibrary.org/obo/ENVO_00001998), that adequately describes our sample, in this case [rhizosphere \[ENVO:00005801\]](http://purl.obolibrary.org/obo/ENVO_00005801).
 
-### Host-associated examples - Host Metadata
+Along with the environmental context, other metadata can be captured and described with ontologies:
+
+#### **Location**
+[Gazeteer - GAZ](https://www.ebi.ac.uk/ols4/ontologies/gaz) - A gazetteer constructed on ontological principles. The countries are actively maintained.
+
+Other resources:
+[Basic Geo (WGS84 lat/long) Vocabulary](https://www.w3.org/2003/01/geo/) - This is a basic RDF vocabulary that provides the Semantic Web community with a namespace for representing lat(itude), long(itude) and other information about spatially-located things, using WGS84 as a reference datum.
+
+### **Host-associated examples - Host Metadata**
 ---
-#### Human-associated - Ontology recommendations
+#### **Human-associated - Ontology recommendations**
 [Human Disease Ontology - DOID](https://www.disease-ontology.org/) - The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts.
 
 [Human Phenotype Ontology - HP](https://hpo.jax.org/) - The Human Phenotype Ontology provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.
 
 [Uber-anatomy ontology - UBERON](https://obophenotype.github.io/uberon/) - Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
+
+[Foundational Model of Anatomy Ontology - FMA](http://si.washington.edu/projects/fma/) - The FMA is a domain ontology that represents a coherent body of explicit declarative knowledge about human anatomy. Its ontological framework can be applied and extended to all other species. The Foundational Model of Anatomy (FMA) ontology is one of the information resources integrated in the distributed framework of the Anatomy Information System developed and maintained by the Structural Informatics Group at the University of Washington.
 
 [SNOMED Clinical Terms (International Edition)](https://www.snomed.org/) - SNOMED CT or SNOMED Clinical Terms is a systematically organized computer processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting.
 
@@ -61,8 +82,10 @@ To pinpoint the material or medium that was sampled, we take a subclass of [soil
 
 [Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
 
+[National Ccancer Institute Thesaurus - NCIT](https://evsexplore.semantics.cancer.gov/evsexplore/welcome) - NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.
+
 ---
-#### Animal-associated - Ontology recommendations
+#### **Animal-associated - Ontology recommendations**
 [NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
 
 [Biological Spatial Ontology - BSPO](https://obofoundry.org/ontology/bspo) - An ontology for respresenting spatial concepts, anatomical axes, gradients, regions, planes, sides and surfaces. These concepts can be used at multiple biological scales and in a diversity of taxa, including plants, animals and fungi. The BSPO is used to provide a source of anatomical location descriptors for logically defining anatomical entity classes in anatomy ontologies.
@@ -79,12 +102,14 @@ To pinpoint the material or medium that was sampled, we take a subclass of [soil
 
 [Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
 
-[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
 
-[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
+
+[Foundational Model of Anatomy Ontology - FMA](http://si.washington.edu/projects/fma/) - The FMA is a domain ontology that represents a coherent body of explicit declarative knowledge about human anatomy. Its ontological framework can be applied and extended to all other species. The Foundational Model of Anatomy (FMA) ontology is one of the information resources integrated in the distributed framework of the Anatomy Information System developed and maintained by the Structural Informatics Group at the University of Washington.
 
 ---
-#### Plant-associated - Ontology recommendations
+#### **Plant-associated - Ontology recommendations**
 [NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
 
 [Agronomy Ontology - AGRO](https://www.ebi.ac.uk/ols4/ontologies/agro) - AgrO is an ontlogy for representing agronomic practices, techniques, variables and related entities.
@@ -107,15 +132,15 @@ To pinpoint the material or medium that was sampled, we take a subclass of [soil
 
 [Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
 
-[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
 
-[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
 
 ---
-#### Marine
+#### **Marine - Ontology recommendations**
 [NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
 
-[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
 
 [Gene Ontology - GO](http://geneontology.org/) - The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.
 
@@ -131,7 +156,82 @@ To pinpoint the material or medium that was sampled, we take a subclass of [soil
 
 [The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
 
-[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
+
+[Foundational Model of Anatomy Ontology - FMA](http://si.washington.edu/projects/fma/) - The FMA is a domain ontology that represents a coherent body of explicit declarative knowledge about human anatomy. Its ontological framework can be applied and extended to all other species. The Foundational Model of Anatomy (FMA) ontology is one of the information resources integrated in the distributed framework of the Anatomy Information System developed and maintained by the Structural Informatics Group at the University of Washington.
 
 ---
-#### Terrestrial and Terrestrial- Constructed
+#### **Terrestrial and Terrestrial-Constructed - Ontology recommendations**
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
+
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
+
+---
+### **Cultured sample - Sample metadata**
+---
+
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[Microbial Conditions Ontology - MCO](https://www.ebi.ac.uk/ols4/ontologies/mco) - A domain ontology that provides a controlled vocabulary for the unambiguous description of microbial growth conditions. The purpose of this ontology is to set an standard for the structured annotation of the experimental conditions in public repositories.
+
+[Ontology for Biomedical Investigations - OBI](https://obi-ontology.org/) - The Ontology for Biomedical Investigations (OBI) helps you communicate clearly about scientific investigations by defining more than 2500 terms, including study designs, the collection and preparation of the targets of investigation, assays, instrumentation and reagents used, as well as the data generated and the types of analysis performed on the data to reach conclusions, and their documentation.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
+
+---
+### **Data type - Techical ontologies recommendations**
+---
+#### **Nucleotide sequecing ((Meta)Genomic, (Meta)Transcriptomics, Amplicon, Viral) - Ontology recommendations**
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[Ontology for Biomedical Investigations - OBI](https://obi-ontology.org/) - The Ontology for Biomedical Investigations (OBI) helps you communicate clearly about scientific investigations by defining more than 2500 terms, including study designs, the collection and preparation of the targets of investigation, assays, instrumentation and reagents used, as well as the data generated and the types of analysis performed on the data to reach conclusions, and their documentation.
+
+[Genomic Epidemiology Onotology - GENEPIO](https://genepio.org/) - The Genomic Epidemiology Ontology aims to provide a comprehensive controlled vocabulary for infectious disease surveillance and outbreak investigations. It is an application ontology that draws on many other ontologies including anatomy, taxonomy, disease, symptoms, environment and food types for foodborn pathogen metadata.
+
+[BioAssay Ontology - BAO](http://bioassayontology.org/) - The BioAssay Ontology (BAO) describes chemical biology screening assays and their results including high-throughput screening (HTS) data for the purpose of categorizing assays and data analysis.
+
+[The Ontology of Data Analysis and Management - EDAM](http://edamontology.org/) - EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and imaging). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below). EDAM is particularly suitable for semantic annotations and categorisation of diverse scientific resources: e.g. tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed scientific data.
+
+---
+#### **Proteomics - Ontology recommendations**
+[Proteomics Identification Database Ontology - PRIDE](https://www.ebi.ac.uk/ols4/ontologies/pride) - Proteomics Identification Database Ontology, terms describing proteomics data and experimental metadata.
+
+[Mass Spectroscopy - MS](https://www.ebi.ac.uk/ols4/ontologies/ms) - The Controlled Vocabularies (CV’s) of the Proteomic Standard Initiative (PSI) provide a consensus annotation system to standardize the meaning, syntax and formalism of terms used across proteomics, as required by the PSI Working Groups. Each PSI working group develops the CV’s required by the technology or data type it aims to standardize, following common recommendations for devoplement and maintenance.
+
+[BioAssay Ontology - BAO](http://bioassayontology.org/) - The BioAssay Ontology (BAO) describes chemical biology screening assays and their results including high-throughput screening (HTS) data for the purpose of categorizing assays and data analysis.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Protein Modifaction - MOD](https://www.ebi.ac.uk/ols4/ontologies/mod) - Protein chemical modifications, classified by molecular structure or amino acid.
+
+[The Ontology of Data Analysis and Management - EDAM](http://edamontology.org/) - EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and imaging). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below). EDAM is particularly suitable for semantic annotations and categorisation of diverse scientific resources: e.g. tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed scientific data.
+
+[Chemical Methods Ontology - CHMO](https://www.ebi.ac.uk/ols4/ontologies/chmo) - CHMO, the chemical methods ontology, describes methods used to collect data in chemical experiments, such as mass spectrometry and electron microscopy prepare and separate material for further analysis, such as sample ionisation, chromatography, and electrophoresis synthesise materials, such as epitaxy and continuous vapour deposition It also describes the instruments used in these experiments, such as mass spectrometers and chromatography columns. It is intended to be complementary to the Ontology for Biomedical Investigations (OBI).
+
+[Reaction Ontologies - RXNO](https://www.ebi.ac.uk/ols4/ontologies/rxno) - RXNO is the name reaction ontology. It contains more than 500 classes representing organic reactions such as the Diels–Alder cyclization.
+
+[Molecular Process Ontology - MOP](https://www.ebi.ac.uk/ols4/ontologies/mop) -  It contains the molecular processes that underlie the name reaction ontology RXNO, for example cyclization, methylation and demethylation.
+
+---
+#### **Metabolomics - Ontology recommendations**
+[Metabolomics Standards Initiative Ontology - MSIO](https://www.ebi.ac.uk/ols4/ontologies/msio) - MSIO aims to provide a single point of entry to support semantic markup of experiments making use of NMR and MS techniques to identify, measure and quantify small molecules known as metabolites. MSIO covers metabolite profiling, targeted or undertargeted, tracer based applications. MSIO reuses a number of resources such as [CHEBI](https://www.ebi.ac.uk/ols/ontologies/chebi), [DUO](https://www.ebi.ac.uk/ols/ontologies/duo), [NMRCV](https://www.ebi.ac.uk/ols/ontologies/nmrcv), [OBI](https://www.ebi.ac.uk/ols/ontologies/obi), and [STATO](https://www.ebi.ac.uk/ols/ontologies/stato).
+
+[Nuclear Magnetic Resonance Controlled Vocabulary - NMRCV](http://nmrml.org/cv/) - This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML.
+
+[BioAssay Ontology - BAO](http://bioassayontology.org/) - The BioAssay Ontology (BAO) describes chemical biology screening assays and their results including high-throughput screening (HTS) data for the purpose of categorizing assays and data analysis.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Protein Modifaction - MOD](https://www.ebi.ac.uk/ols4/ontologies/mod) - Protein chemical modifications, classified by molecular structure or amino acid.
+
+[The Ontology of Data Analysis and Management - EDAM](http://edamontology.org/) - EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and imaging). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below). EDAM is particularly suitable for semantic annotations and categorisation of diverse scientific resources: e.g. tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed scientific data.
+
+[Chemical Methods Ontology - CHMO](https://www.ebi.ac.uk/ols4/ontologies/chmo) - CHMO, the chemical methods ontology, describes methods used to collect data in chemical experiments, such as mass spectrometry and electron microscopy prepare and separate material for further analysis, such as sample ionisation, chromatography, and electrophoresis synthesise materials, such as epitaxy and continuous vapour deposition It also describes the instruments used in these experiments, such as mass spectrometers and chromatography columns. It is intended to be complementary to the Ontology for Biomedical Investigations (OBI).
+
+[Reaction Ontologies - RXNO](https://www.ebi.ac.uk/ols4/ontologies/rxno) - RXNO is the name reaction ontology. It contains more than 500 classes representing organic reactions such as the Diels–Alder cyclization.
+
+[Molecular Process Ontology - MOP](https://www.ebi.ac.uk/ols4/ontologies/mop) -  It contains the molecular processes that underlie the name reaction ontology RXNO, for example cyclization, methylation and demethylation.
