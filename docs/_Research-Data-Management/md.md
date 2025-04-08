@@ -1,5 +1,5 @@
 ---
-title: Metadata & Metadata Standards
+title: Metadata (Standards)
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -13,7 +13,7 @@ hide: false
 
 (CC-BY - [cea +](https://www.flickr.com/people/33255628@N00), [Source](https://en.wikipedia.org/wiki/File:Metadata_is_a_love_note_to_the_future_(8071729256).jpg))
 
-## Metadata is data about data
+## Metadata Is Data About Data
 ---
 
 Before we delve into specifications on what metadata standards for the microbiology community are, let us explain what metadata is. 
@@ -59,7 +59,7 @@ In microbiology, metadata provides crucial contextual information about biologic
 
 For more details on the distinction between different types of metadata,  we refer you to the FAIR Cookbook recipe [FAIR and the notion of metadata](https://w3id.org/faircookbook/FCB068) section.
 
-## When should you collect your metadata
+## When to Collect Your Metadata
 ---
 As is usually the case in sciences, your research (and the wider microbiological community) can benefit highly from the rigorous and timely planning of your experiments, including metadata collection. In this case, we refer you to other subsections of this Knowledge Base: [**Data Management Plans (DMPs)**](./08-dmp.md) that could help you plan your experiments.
 
@@ -67,7 +67,7 @@ Metadata collection should be planned, but at the same time, it can be overwhelm
 
 These and other considerations should be thoroughly thought out before the start of your experimental procedures. Some of the metadata can even be collected and documented before starting the experiments if you already know how to collect your samples, process, sequence them (if sequencing is a part of the analysis), and analyze them. 
 
-## Metadata collection example
+## Metadata Collection Example
 ---
 We will look into an example of microbiological environmental metadata, where we gather samples from a forest environment, specifically plant rhizosphere, and we will be doing amplicon and metagenomic sequencing. We will not dive specifically into all omics types and biological/environmental on this page. Instead, we encourage readers to read our [MetadataStandards](https://github.com/NFDI4Microbiota/MetadataStandards) resource repository. 
 
@@ -80,7 +80,7 @@ Alternatively, we can hop over to the [MetadataStandards/Plant-associated microb
 By now, we should have a rough estimation of what kind of biological/environmental metadata we can collect before sampling, during sampling, and what could be collected during the processing of samples. 
 
 
-# Metadata standards
+# Metadata Standards
 ---
 Once a community agrees to a set of relevant metadata for their field, they can devise metadata standards.
 A metadata standard is usually defined for a given type of data and by different stakeholders (e.g., users communities, data repositories).
@@ -89,10 +89,7 @@ For every metadata field part of a metadata standard, one could expect a human-r
 [More than a thousand standards are listed by the organization `FAIRsharing.org`](https://fairsharing.org/search?fairsharingRegistry=Standard) which can be overwhelming.
 At NFDI4Microbiota, we compiled a [list of widely used metadata standards in the field of microbiome research](https://github.com/NFDI4Microbiota/MetadataStandards) that you can browse and use for the different types of data collected during your investigations.
 
-
-## Metadata management
----
-## Metadata quality control
+## Metadata Quality Control
 ---
  Metadata quality control involves thorough validation and standardization of metadata attributes to minimize errors and inconsistencies. For instance, in studies involving microbial sequencing data, rigorous checks are needed to verify the accuracy of sample identifiers, ensuring that each sample is uniquely identified and correctly linked to corresponding experimental conditions. Moreover, metadata completeness is essential to provide sufficient context for data interpretation and reuse. Researchers should meticulously document sample collection details, including the source organism, sampling location, and environmental conditions, to facilitate cross-study comparisons and meta-analyses. For example, in a microbiome study investigating the gut microbial composition in patients with inflammatory bowel disease, comprehensive metadata would encompass clinical metadata such as patient demographics, disease severity scores, and medication history, alongside microbial metadata like taxonomic profiles and sequencing protocols.
 

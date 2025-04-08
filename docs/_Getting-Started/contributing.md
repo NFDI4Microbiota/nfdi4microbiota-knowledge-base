@@ -17,18 +17,18 @@ The main steps a user must follow to contribute to the Knowledge Base are:
     - Create new files
 3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file
 
-## Create a GitHub account
+## Create a GitHub Account
 
 ---
 
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
 
-## Make changes to the repository
+## Make Changes to the Repository
 
 ---
 
-### Edit existing files
+### Edit Existing Files
 
 In order to make changes to the respository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
@@ -51,7 +51,7 @@ To edit an existing file:
 
 *Note: All files should be edited according to the [style guide](#markdown-style-guide).*
 
-### Create new files
+### Create New Files
 
 If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
 
@@ -66,7 +66,7 @@ To create a new issue:
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
 
-## Add your name to the CONTRIBUTORS file
+## Add Your Name to the CONTRIBUTORS File
 
 ---
 
@@ -84,17 +84,18 @@ When adding or editing files, please observe the following rules:
 3. Keep the content factual
 4. Cite sources appropriately (see below)
 5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
-6. After the second and every following `##` add `---` for a visual break line.
-7. Place image files in the `assets/img/` directory
-8. Use internal links to Markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
-9. Non-public links are restricted to the how-we-operate section and manually whitelisted in `.github/workflows/ignored-urls.txt`
-10. Write "Knowledge Base" in capital letters
-11. Be consistent with adding periods or not at the end of list items
+6. Capitalize your headings
+7. After the second and every following `##` add `---` for a visual break line.
+8. Place image files in the `assets/img/` directory
+9. Use internal links to Markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
+10. Non-public links are restricted to the how-we-operate section and manually whitelisted in `.github/workflows/ignored-urls.txt`
+11. Write "Knowledge Base" in capital letters
+12. Be consistent with adding periods or not at the end of list items
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
 
-## Cite sources
+## Cite Sources
 
 ---
 
