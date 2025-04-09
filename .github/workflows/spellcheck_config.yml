@@ -28,6 +28,6 @@ matrix:
             - ":matches(code, pre)"
             - "code"
             - "pre"
-    sources:
-      - '**/*.md'
+#    sources:
+#      - '**/*.md'
     default_encoding: utf-8

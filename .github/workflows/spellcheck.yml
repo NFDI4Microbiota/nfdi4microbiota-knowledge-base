@@ -63,7 +63,7 @@ jobs:
         script: |
           const fs = require('fs');
           const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
-          const commentBody = `<details><summary>Click to expand the Spellcheck Report</summary>\`\`\`${output}\`\`\`</details>`;
+          const commentBody = `<details><summary>Click to expand the Spellcheck Report</summary>\`\`\`plaintext\n${output}\`\`\`</details>`;
           await github.rest.issues.createComment({
             issue_number: ${{ steps.find_pr.outputs.pr }},
             owner: context.repo.owner,
