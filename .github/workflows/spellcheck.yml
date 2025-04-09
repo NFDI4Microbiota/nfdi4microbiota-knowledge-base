@@ -58,6 +58,7 @@ jobs:
       id: find_pr
       uses: actions/github-script@v6
       with:
+        result-encoding: string
         script: |
           const prs = await github.rest.pulls.list({
             owner: context.repo.owner,
@@ -66,11 +67,11 @@ jobs:
             state: 'open'
           });
 
-          if (prs.data.length === 0) {
-            core.setFailed('No open PR found for this branch.');
+          if (prs.data.length > 0) {
+            core.setOutput('pr', prs.data[0].number.toString());
           } else {
-            const prNumber = prs.data[0].number;
-            core.setOutput('pr', prNumber);
+            console.log('No open PR found, skipping comment.');
+            core.setOutput('pr', '');
           }
 
     - name: Comment on PR
@@ -81,10 +82,9 @@ jobs:
         script: |
           const fs = require('fs');
           const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
-          const commentBody = `<details><summary>Click to expand the Spellcheck Report</summary><pre>${output}</pre></details>`;
           await github.rest.issues.createComment({
-            issue_number: ${{ steps.find_pr.outputs.pr }},
+            issue_number: parseInt('${{ steps.find_pr.outputs.pr }}'),
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: commentBody
+            body: `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`
           });
