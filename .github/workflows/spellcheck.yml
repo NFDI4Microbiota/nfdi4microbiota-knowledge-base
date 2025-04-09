@@ -25,7 +25,7 @@ jobs:
     - name: Format file list
       id: format_files
       run: |
-        echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ' | sed -E 's/ $//g' | sed -E 's/\"//g')" >> $GITHUB_OUTPUT
+        echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }} \" | tr '\n' ' ' | sed -E 's/\"//g'  | sed -E 's/^ $//g')" >> $GITHUB_OUTPUT
 
     - name: Debug file list
       run: |

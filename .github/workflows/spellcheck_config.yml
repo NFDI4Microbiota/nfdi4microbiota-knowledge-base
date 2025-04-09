@@ -10,12 +10,10 @@ matrix:
       encoding: utf-8
     pipeline:
       - pyspelling.filters.markdown:
-#      - pyspelling.filters.html:
-#          comments: false
-#          ignores:
-#            - ":matches(code, pre)"
-#            - "code"
-#            - "pre"
-#    sources:
-#      - '**/*.md'
+      - pyspelling.filters.html:
+          comments: false
+          ignores:
+            - ":matches(code, pre)"
+            - "code"
+            - "pre"
     default_encoding: utf-8
