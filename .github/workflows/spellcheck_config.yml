@@ -15,6 +15,9 @@ matrix:
         # source: https://github.com/saisaitian/topicmodels/tree/3733d67623f810ce2c83fd61baae571080c0178a
         - .github/workflows/adjectives_bioinformatics.whitelist
     pipeline:
+      - pyspelling.filters.substitution:
+          patterns:
+            - '{%.*?%}': ''
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
           comments: false
