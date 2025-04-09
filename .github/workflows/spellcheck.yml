@@ -27,13 +27,16 @@ jobs:
       run: |
         echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
+    - name: Debug file list
+      run: echo "Changed files: '${{ steps.format_files.outputs.files }}'"
+
     - name: Run Spellcheck
       id: spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
       with:
         task_name: Markdown
         config_path: .github/workflows/spellcheck_config.yml
-        source_files: ${{ steps.changed_files.outputs.all_changed_files || '' }}
+        source_files: ${{ steps.format_files.outputs.files }}
         output_file: spellcheck-output.txt
 
     - name: Find PR number
@@ -63,36 +66,20 @@ jobs:
         script: |
           const fs = require('fs');
           const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
+          const commentBody = `
+### 📝 Spellcheck Report
+
+<details>
+  <summary>Click to expand the Spellcheck Report</summary>
+
+  \`\`\`
+${output}
+  \`\`\`
+</details>
+`;
           await github.rest.issues.createComment({
             issue_number: ${{ steps.find_pr.outputs.pr }},
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `### 📝 Spellcheck Report\n\`\`\`\n${output}\n\`\`\``
+            body: commentBody
           });
-
-#    - name: Check for spelling errors
-#      if: '!cancelled()'
-#      id: check_spelling
-#      run: |
-#        if [ -s spellcheck-output.txt ]; then
-#          echo "Spelling issues found."
-#          echo "fail=true" >> $GITHUB_OUTPUT
-#        else
-#          echo "No spelling issues."
-#          echo "fail=false" >> $GITHUB_OUTPUT
-#        fi
-
-#    - name: Comment on PR with spellcheck result
-#      if: '!cancelled()'
-#      if: steps.check_spelling.outputs.fail == 'true'
-#      uses: actions/github-script@v6
-#      with:
-#        script: |
-#          const fs = require('fs');
-#          const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
-#          github.rest.issues.createComment({
-#            issue_number: context.issue.number,
-#            owner: context.repo.owner,
-#            repo: context.repo.repo,
-#            body: `### 📝 Spellcheck Report\n\`\`\`\n${output}\n\`\`\``
-#          });
