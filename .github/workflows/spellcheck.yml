@@ -28,10 +28,11 @@ jobs:
         echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ' | sed -E 's/ $//g')" >> $GITHUB_OUTPUT
 
     - name: Debug file list
-      run: echo "Changed files: '${{ steps.format_files.outputs.files }}'"
+      run: |
+        echo "Changed files: '${{ steps.format_files.outputs.files }}'"
 
     - name: Run Spellcheck
-      if: steps.format_files.outputs.files != '' && steps.format_files.outputs.files != ' '
+      if: steps.format_files.outputs.files != ''
       id: spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
       with:
@@ -41,7 +42,7 @@ jobs:
         output_file: spellcheck-output.txt
 
     - name: Check if spell errors were found
-      if: steps.format_files.outputs.files != ''  # Only if spellcheck ran
+      if: steps.format_files.outputs.files != ''
       id: check_spell
       run: |
         if [ -s spellcheck-output.txt ]; then
