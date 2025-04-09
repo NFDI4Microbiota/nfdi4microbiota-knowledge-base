@@ -12,6 +12,8 @@ matrix:
         - .github/workflows/us_english-medical.whitelist
         # source: https://github.com/InfoSecWarrior/Offensive-Payloads/
         - .github/workflows/file_extensions.whitelist
+        # source: https://github.com/saisaitian/topicmodels/tree/3733d67623f810ce2c83fd61baae571080c0178a
+        - .github/workflows/adjectives_bioinformatics.whitelist
     pipeline:
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
