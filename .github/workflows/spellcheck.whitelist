@@ -22,6 +22,8 @@ Subpopulations
 seurat
 deseq
 villani
+polyA
+overrepresented
 bam
 fastq
 fastqc

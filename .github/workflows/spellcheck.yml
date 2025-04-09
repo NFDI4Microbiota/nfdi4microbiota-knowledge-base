@@ -72,7 +72,7 @@ jobs:
   
             let body = `✅ **No spelling errors found in changed Markdown files.** 🎉`;
             if (output && output.includes('Misspelled words')) {
-              body = `### 📝 Spellcheck Report\nPlease fix these typos or add exceptions to the whitelist in `.github/workflows/spellcheck.whitelist` or `.github/workflows/spellcheck.acronyms.whitelist`<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
+              body = `### 📝 Spellcheck Report\nPlease fix these typos or add exceptions to the whitelist in .github/workflows/spellcheck.whitelist<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
             }
 
             await github.rest.issues.createComment({

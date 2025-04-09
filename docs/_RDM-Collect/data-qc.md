@@ -67,7 +67,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 10. high percentage of overrepresented sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: contamination present in reads
-- **solution/measure**: blast most abudant reads, can be adapter sequences too
+- **solution/measure**: blast most abundant reads, can be adapter sequences too
 11. high percentage of overrepresented sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: overrepresented sequence present in data e.g. rRNAs (FP)
