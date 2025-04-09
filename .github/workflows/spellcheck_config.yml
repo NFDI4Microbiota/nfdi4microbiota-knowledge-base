@@ -8,7 +8,6 @@ matrix:
       wordlists:
         - .github/workflows/spellcheck.whitelist
         - .github/workflows/spellcheck.acronyms.whitelist
-        - .github/workflows/scowl.whitelist
     pipeline:
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
