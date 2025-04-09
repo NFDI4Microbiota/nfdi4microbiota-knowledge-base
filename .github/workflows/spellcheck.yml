@@ -69,7 +69,7 @@ jobs:
             const hasOutput = fs.existsSync(outputPath);
             const output = hasOutput ? fs.readFileSync(outputPath, 'utf8').trim() : '';
   
-            let commentBody = "✅ **No spelling errors found in changed Markdown files.** 🎉";
+            let commentBody = `✅ **No spelling errors found in changed Markdown files.** 🎉`;
             if (output && output.includes('Misspelled words')) {
               commentBody = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
             }
