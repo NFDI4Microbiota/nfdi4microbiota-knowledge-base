@@ -67,12 +67,15 @@ To create a new issue:
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
-
-## Add Your Name to the CONTRIBUTORS File
+## Cite Sources
 
 ---
 
-We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
+1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
+2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
+   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
+   2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+
 
 
 ## Contribution Rules
@@ -97,11 +100,8 @@ When adding or editing files, please observe the following rules:
 *Note: we might edit your contribution to homogenize the writing style.*
 
 
-## Cite Sources
+## Final step: Add Your Name to the CONTRIBUTORS File
 
 ---
 
-1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
-2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
-   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
-   2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
