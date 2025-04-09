@@ -9,18 +9,6 @@ matrix:
         - .github/workflows/spellcheck.acronyms.whitelist
       encoding: utf-8
     pipeline:
-      - pyspelling.filters.context:
-          context_visible_first: true
-          escapes: \\[\\`~]
-          delimiters:
-            - open: "(?s)^(?P<open> *`{3,})([a-z+]*)$"
-              close: "^(?P=open)$"
-            - open: "(?P<open>`+)"
-              close: "(?P=open)"
-            - open: "{%"
-              close: "%}"
-            - open: "^(redirect_from:)"
-              close: "$"
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
           comments: false
