@@ -27,6 +27,9 @@ jobs:
       run: |
         echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ' | sed -E 's/ $//g')" >> $GITHUB_OUTPUT
 
+    - name: Debug file list
+      run: echo "Changed files: '${{ steps.format_files.outputs.files }}'"
+
     - name: Run Spellcheck
       if: steps.format_files.outputs.files != '' && steps.format_files.outputs.files != ' '
       id: spellcheck
@@ -37,8 +40,18 @@ jobs:
         source_files: ${{ steps.format_files.outputs.files }}
         output_file: spellcheck-output.txt
 
+    - name: Check if spell errors were found
+      if: steps.format_files.outputs.files != ''  # Only if spellcheck ran
+      id: check_spell
+      run: |
+        if [ -s spellcheck-output.txt ]; then
+          echo "found=true" >> $GITHUB_OUTPUT
+        else
+          echo "found=false" >> $GITHUB_OUTPUT
+        fi
+
     - name: Find PR number
-      if: '!cancelled()'
+      if: steps.check_spell.outputs.found == 'true'
       id: find_pr
       uses: actions/github-script@v6
       with:
