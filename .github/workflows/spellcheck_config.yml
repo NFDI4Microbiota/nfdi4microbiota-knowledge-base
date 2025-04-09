@@ -8,7 +8,10 @@ matrix:
       wordlists:
         - .github/workflows/spellcheck.whitelist
         - .github/workflows/spellcheck.acronyms.whitelist
+        # source: https://medical-spell-checker-dictionary.github.io/
         - .github/workflows/us_english-medical.whitelist
+        # source: https://github.com/InfoSecWarrior/Offensive-Payloads/
+        - .github/workflows/file_extensions.whitelist
     pipeline:
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
