@@ -32,7 +32,7 @@ jobs:
         echo "Changed files: '${{ steps.format_files.outputs.files }}'"
 
     - name: Run Spellcheck
-      if: steps.format_files.outputs.files != ''
+      if: ${{ steps.format_files.outputs.files != '' }}
       id: spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
       with:
@@ -42,7 +42,7 @@ jobs:
         output_file: spellcheck-output.txt
 
     - name: Check if spell errors were found
-      if: '!cancelled()'
+      if: ${{ steps.format_files.outputs.files != '' }}
       id: check_spell
       run: |
         if [ -s spellcheck-output.txt ]; then
@@ -52,7 +52,7 @@ jobs:
         fi
 
     - name: Find PR number
-      if: steps.check_spell.outputs.found == 'true'
+      if: ${{ steps.check_spell.outputs.found == 'true' }}
       id: find_pr
       uses: actions/github-script@v6
       with:
@@ -72,7 +72,7 @@ jobs:
           }
 
     - name: Comment on PR
-      if: steps.check_spell.outputs.found == 'true'
+      if: ${{ steps.check_spell.outputs.found == 'true' }}
       uses: actions/github-script@v6
       with:
         script: |
