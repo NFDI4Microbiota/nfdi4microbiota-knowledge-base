@@ -15,7 +15,7 @@ docs_css: markdown
 
 ### General-Purpose Collaboration Tools
 * [B2DROP](https://eudat.eu/services/userdoc/b2drop)
-* Open Science Framework ([OSF](https://osf.io/dashboard))
+* Open Science Framework ([OSF](https://osf.io/)
 * [SciFlow](https://www.sciflow.net/en/)
 * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)
 * [GitHub](https://github.com/)
