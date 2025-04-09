@@ -57,42 +57,22 @@ jobs:
       run: |
         echo "check_spell found errors: '${{ steps.check_spell.outputs.found }}'"
 
-    - name: Find PR number
-      if: '!cancelled()'
-#      if: ${{ steps.check_spell.outputs.found == 'true' }}
-      id: find_pr
-      uses: actions/github-script@v6
-      with:
-        result-encoding: string
-        script: |
-          const prs = await github.rest.pulls.list({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            head: `${context.repo.owner}:${context.ref.replace('refs/heads/', '')}`,
-            state: 'open'
-          });
-
-          if (prs.data.length > 0) {
-            core.setOutput('pr', prs.data[0].number.toString());
-          } else {
-            console.log('No open PR found, skipping comment.');
-            core.setOutput('pr', '');
-          }
-
     - name: Comment on PR
       if: '!cancelled()'
 #      if: ${{ steps.check_spell.outputs.found == 'true' }}
       uses: actions/github-script@v6
       with:
         script: |
-          const fs = require('fs');
-          const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
+          if( context.payload.pull_request.number && ontext.repo.owner && context.repo.repo){
+            const fs = require('fs');
+            const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
 
-          const body = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
+            const body = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
 
-          await github.rest.issues.createComment({
-            issue_number: context.payload.pull_request.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body,
-          });
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body,
+            });
+          }
