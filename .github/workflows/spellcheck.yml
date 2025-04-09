@@ -33,7 +33,7 @@ jobs:
       with:
         task_name: Markdown
         config_path: .github/workflows/spellcheck_config.yml
-        source_files: ${{ steps.format_files.outputs.files }}
+        source_files: ${{ steps.changed_files.outputs.all_changed_files || '' }}
         output_file: spellcheck-output.txt
 
     - name: Check for spelling errors
