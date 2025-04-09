@@ -2,7 +2,8 @@ name: Spellcheck Action
 
 on:
   pull_request:
-  #workflow_dispatch:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 jobs:
   spellcheck:
@@ -52,6 +53,10 @@ jobs:
           echo "found=false" >> $GITHUB_OUTPUT
         fi
 
+    - name: Debug spell check
+      run: |
+        echo "check_spell found errors: '${{ steps.check_spell.outputs.found }}'"
+
     - name: Find PR number
       if: '!cancelled()'
 #      if: ${{ steps.check_spell.outputs.found == 'true' }}
@@ -82,9 +87,12 @@ jobs:
         script: |
           const fs = require('fs');
           const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
+
+          const body = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
+
           await github.rest.issues.createComment({
-            issue_number: parseInt('${{ steps.find_pr.outputs.pr }}'),
+            issue_number: context.payload.pull_request.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`
+            body,
           });
