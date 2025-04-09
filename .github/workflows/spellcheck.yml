@@ -57,7 +57,7 @@ jobs:
           }
 
     - name: Comment on PR
-      if: steps.check_spelling.outputs.fail == 'true'
+      if: '!cancelled()'
       uses: actions/github-script@v6
       with:
         script: |
