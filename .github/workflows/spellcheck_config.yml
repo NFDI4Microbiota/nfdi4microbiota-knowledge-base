@@ -18,6 +18,7 @@ matrix:
       - pyspelling.filters.markdown:
           ignore_regex:
             - '{%.*?%}'
+            - '{{.*?}}'
       - pyspelling.filters.html:
           comments: false
           ignores:
