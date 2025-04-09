@@ -70,15 +70,15 @@ jobs:
             const hasOutput = fs.existsSync(outputPath);
             const output = hasOutput ? fs.readFileSync(outputPath, 'utf8').trim() : '';
   
-            let commentBody = `✅ **No spelling errors found in changed Markdown files.** 🎉`;
+            let body = `✅ **No spelling errors found in changed Markdown files.** 🎉`;
             if (output && output.includes('Misspelled words')) {
-              commentBody = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
+              body = `### 📝 Spellcheck Report\n<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
             }
 
             await github.rest.issues.createComment({
               issue_number: context.payload.pull_request.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              commentBody,
+              body,
             });
           }
