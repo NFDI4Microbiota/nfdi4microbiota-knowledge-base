@@ -139,8 +139,8 @@ based on the topics required for review and excluding members with potential con
 thus reacting to new and unforeseen scenarios. It will be staffed based on suggestions made by the SAB and decision-making will include a peer review process.
 The PRB will:
 
-1.	be convened as needed to review proposals for innovation and implementation projects, and
-2.	provide an unbiased review of innovation and implementation projects.
+1.be convened as needed to review proposals for innovation and implementation projects, and
+2.provide an unbiased review of innovation and implementation projects.
    
 Based on these reviews, the General Assembly (GA) will select projects that best serve the overall mission of NFDI4Microbiota.
 

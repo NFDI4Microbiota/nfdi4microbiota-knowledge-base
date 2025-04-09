@@ -69,16 +69,16 @@ See tables at the end of each measure in the [proposal](https://riojournal.com/a
 
 ### Key Performance Indicators (KPIs)
 
-a)	Completed projects  
-b)	Amount of data collected  
-c)	Database entries added  
-d)	Access to a central information hub  
-e)	Download and usage of application programming interfaces (APIs)  
-f)	User help desk requests  
-g)	# of publications  
-h)	# of training  
-i)	# of ambassadors  
-j)	# of commits to the knowledge base
+a)Completed projects  
+b)Amount of data collected  
+c)Database entries added  
+d)Access to a central information hub  
+e)Download and usage of application programming interfaces (APIs)  
+f)User help desk requests  
+g)# of publications  
+h)# of training  
+i)# of ambassadors  
+j)# of commits to the knowledge base
 
 
 ## Governance of NFDI4Microbiota
@@ -201,17 +201,17 @@ All are members of the mailing list members-at-nfdi4microbiota.de. Please find a
 ### NFDI4Microbiota Partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
 
-Partner/Co-spokespersons |	Institution, location |	Task area(s) (TA)
+Partner/Co-spokespersons |Institution, location |Task area(s) (TA)
 ---|---|---
-Prof. Dr. Alexander Sczyrba & Prof. Dr. Jens Stoye |	[BIBI](https://www.uni-bielefeld.de/), Bielefeld |	TA1, 2, 3, 4
-Prof. Dr. Peer Bork	| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg	| TA1, 2, 3, 4
-Prof. Dr. Manja Marz |	[FSU Jena](https://www.uni-jena.de/en/), Jena |	TA1, 2, 3
-Dr. Ulisses Nunes da Rocha |	[UFZ](https://www.ufz.de/index.php?en=43142), Leipzig	| TA1, 2, 3, 4
-Prof. Dr. Alice C. McHardy |	[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |	TA1, 2, 3, 4, 5
-Prof. Dr. Alexander Goesmann |	[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/), Gießen |	TA1, 2, 3, 4, 5
-Prof. Dr. Jörg Overmann |	[DSMZ](https://www.dsmz.de/), Braunschweig	| TA1, 2, 3, 4
-Prof. Dr. Anke Becker |	[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |	TA1, 2, 3, 4, 5
-Prof. Dr. Thomas Clavel |	[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |	TA1, 2, 3
+Prof. Dr. Alexander Sczyrba & Prof. Dr. Jens Stoye |[BIBI](https://www.uni-bielefeld.de/), Bielefeld |TA1, 2, 3, 4
+Prof. Dr. Peer Bork| [EMBL](https://www.embl.org/sites/heidelberg/), Heidelberg| TA1, 2, 3, 4
+Prof. Dr. Manja Marz |[FSU Jena](https://www.uni-jena.de/en/), Jena |TA1, 2, 3
+Dr. Ulisses Nunes da Rocha |[UFZ](https://www.ufz.de/index.php?en=43142), Leipzig| TA1, 2, 3, 4
+Prof. Dr. Alice C. McHardy |[HZI](https://www.helmholtz-hzi.de/en/), Braunschweig |TA1, 2, 3, 4, 5
+Prof. Dr. Alexander Goesmann |[JLU Gießen](https://www.uni-giessen.de/de/fbz/fb08/Inst/bioinformatik/), Gießen |TA1, 2, 3, 4, 5
+Prof. Dr. Jörg Overmann |[DSMZ](https://www.dsmz.de/), Braunschweig| TA1, 2, 3, 4
+Prof. Dr. Anke Becker |[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |TA1, 2, 3, 4, 5
+Prof. Dr. Thomas Clavel |[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |TA1, 2, 3
 
 ### NFDI4Microbiota Participants and Supporting Societies
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
