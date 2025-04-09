@@ -16,11 +16,12 @@ matrix:
         - .github/workflows/adjectives_bioinformatics.whitelist
     pipeline:
       - pyspelling.filters.substitution:
-        substitutions:
-          - pattern: '{%.*?%}'
-            replacement: ''
-          - pattern: '{{.*?}}'
-            replacement: ''
+          options:
+            substitutions:
+              - pattern: '{%.*?%}'
+                replacement: ''
+              - pattern: '{{.*?}}'
+                replacement: ''
       - pyspelling.filters.markdown:
       - pyspelling.filters.html:
           comments: false
