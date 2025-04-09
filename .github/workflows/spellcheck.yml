@@ -28,6 +28,7 @@ jobs:
         echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
     - name: Run Spellcheck
+      if: steps.format_files.outputs.files != ''
       id: spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
       with:
