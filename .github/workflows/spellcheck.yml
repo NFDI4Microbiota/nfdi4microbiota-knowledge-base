@@ -2,7 +2,6 @@ name: Spellcheck Action
 
 on:
   push:
-  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -38,6 +37,7 @@ jobs:
         output_file: spellcheck-output.txt
 
     - name: Check for spelling errors
+      if: '!cancelled()'
       id: check_spelling
       run: |
         if [ -s spellcheck-output.txt ]; then
@@ -49,7 +49,8 @@ jobs:
         fi
 
     - name: Comment on PR with spellcheck result
-      if: steps.check_spelling.outputs.fail == 'true'
+      if: '!cancelled()'
+#      if: steps.check_spelling.outputs.fail == 'true'
       uses: actions/github-script@v6
       with:
         script: |
