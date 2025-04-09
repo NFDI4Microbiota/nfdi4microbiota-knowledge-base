@@ -27,9 +27,6 @@ jobs:
       run: |
         echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
-    - name: Debug file list
-      run: echo "Changed files: '${{ steps.format_files.outputs.files }}'"
-
     - name: Run Spellcheck
       id: spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
