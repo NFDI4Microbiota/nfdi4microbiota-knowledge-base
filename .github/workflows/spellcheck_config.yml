@@ -29,6 +29,8 @@ matrix:
               close: '%}'
             - open: '{{'
               close: '}}'
+            - open: '"'
+              close: '"'
     sources:
       - '**/*.md'
     default_encoding: utf-8
