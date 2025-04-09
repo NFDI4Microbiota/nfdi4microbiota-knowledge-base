@@ -7,7 +7,7 @@ docs_css: markdown
 
 # Introduction
 
-Data quality is a critical pillar in any research involving complex datasets, especially in fields such as genomics and high-throughput sequencing. Maintaining high data quality ensures that downstream analyses, like differential expression analysis or clustering in single-cell studies, are reliable and reproducible. This guide provides a detailed Quality Control (QC) expert Q&A, addressing common challenges encountered during quality assessment—from RNA-seq to single-cell analysis. The guidelines, tips, and potential solutions summarized in this post are intended to help troubleshoot common issues and inform the design of robust experiments.
+Data quality is a critical pillar in any research involving complex datasets, especially in fields such as genomics and high-throughput sequencing. Maintaining high data quality ensures that downstream analyses, like differential expression analysis or clustering in single-cell studies, are reliable and reproducible. This guide provides a detailed Quality Control (QC) expert Q&A, addressing common challenges encountered during quality assessment—from RNA-seq to single-cell analysis. The guidelines, tips, and potential solutions summarized in this post are intended to help troubleshoot common issues and inform the design of robust experiments. testa
 
 ### Legend
 
