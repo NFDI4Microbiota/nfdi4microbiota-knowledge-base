@@ -27,9 +27,9 @@ jobs:
       uses: rojopolis/spellcheck-github-actions@v0
       with:
         task_name: Markdown
+        config_path: .github/workflows/spellcheck_config.yml
         source_files: ${{ steps.changed_files.outputs.all_changed_files }}
         output_file: spellcheck-output.txt
-        config_path: .github/workflows/spellcheck_config.yml
 
     - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       if: '!cancelled()'
