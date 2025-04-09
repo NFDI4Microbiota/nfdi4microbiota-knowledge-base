@@ -55,3 +55,18 @@ jobs:
             const prNumber = prs.data[0].number;
             core.setOutput('pr', prNumber);
           }
+
+    - name: Comment on PR
+      if: '!cancelled()'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const output = fs.readFileSync('spellcheck-output.txt', 'utf8');
+          const commentBody = `<details><summary>Click to expand the Spellcheck Report</summary>\`\`\`${output}\`\`\`</details>`;
+          await github.rest.issues.createComment({
+            issue_number: ${{ steps.find_pr.outputs.pr }},
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: commentBody
+          });
