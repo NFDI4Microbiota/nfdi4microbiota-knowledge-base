@@ -66,8 +66,8 @@ jobs:
         #preserve-path: true
 
         # Optional, uncomment to use non-default title and style.
-        comment-title: "My artifacts"
-        comment-message: "My message"
+        #comment-title: "My artifacts"
+        #comment-message: "My message"
         #comment-style: list
 
         # Whitespace-separated list of files to upload
