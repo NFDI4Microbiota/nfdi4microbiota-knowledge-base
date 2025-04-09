@@ -54,6 +54,7 @@ jobs:
         fi
 
     - name: Debug spell check
+      if: '!cancelled()'
       run: |
         echo "check_spell found errors: '${{ steps.check_spell.outputs.found }}'"
 
