@@ -23,12 +23,12 @@ matrix:
             - pre
             - a
       - pyspelling.filters.context:
-        context_visible_first: true
-        delimiters:
-          - open: '{%'
-            close: '%}'
-          - open: '{{'
-            close: '}}'
+          context_visible_first: true
+          delimiters:
+            - open: '{%'
+              close: '%}'
+            - open: '{{'
+              close: '}}'
     sources:
       - '**/*.md'
     default_encoding: utf-8
