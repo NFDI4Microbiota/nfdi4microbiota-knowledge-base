@@ -51,6 +51,8 @@ To edit an existing file:
 
 *Note: All files should be edited according to the [style guide](#markdown-style-guide).*
 
+*Note: Learn more about [linking pull request and closing issues automatically](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).*
+
 ### Create New Files
 
 If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
@@ -65,12 +67,15 @@ To create a new issue:
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
-
-## Add Your Name to the CONTRIBUTORS File
+## Cite Sources
 
 ---
 
-We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
+1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
+2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
+   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
+   2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+
 
 
 ## Contribution Rules
@@ -95,11 +100,8 @@ When adding or editing files, please observe the following rules:
 *Note: we might edit your contribution to homogenize the writing style.*
 
 
-## Cite Sources
+## Final step: Add Your Name to the CONTRIBUTORS File
 
 ---
 
-1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
-2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
-   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
-   2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
