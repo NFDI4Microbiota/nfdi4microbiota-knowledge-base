@@ -38,6 +38,7 @@ jobs:
         path: spellcheck-output.txt
 
     - uses: gavv/pull-request-artifacts@v2
+      if: '!cancelled()'
       with:
         # Commit hash that triggered PR
         commit: ${{ github.event.pull_request.head.sha }}
