@@ -42,7 +42,7 @@ jobs:
         output_file: spellcheck-output.txt
 
     - name: Check if spell errors were found
-      if: steps.format_files.outputs.files != ''
+      if: '!cancelled()'
       id: check_spell
       run: |
         if [ -s spellcheck-output.txt ]; then
