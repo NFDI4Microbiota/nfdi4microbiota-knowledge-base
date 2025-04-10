@@ -1,24 +1,89 @@
 name: Spellcheck Action
 
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Spellcheck
+  spellcheck:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
 
-      - name: Install aspell
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y aspell aspell-en
+    - name: Install aspell
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aspell aspell-en
 
-      - name: Spellcheck
-        uses: rojopolis/spellcheck-github-actions@v0
-        with:
-          config_path: .github/workflows/spellcheck_config.yml
+    - name: Get changed markdown files
+      id: changed_files
+      uses: tj-actions/changed-files@v46
+      with:
+        files: |
+          **/*.md
+          **/*.markdown
+
+    - name: Format file list
+      id: format_files
+      run: |
+        echo "files=$(echo \"${{ steps.changed_files.outputs.all_changed_files }}\" | tr '\n' ' ' | sed -E 's/\"//g'  | sed -E 's/^ $//g')" >> $GITHUB_OUTPUT
+
+    - name: Debug file list
+      run: |
+        echo "Changed files: '${{ steps.format_files.outputs.files }}'"
+
+    - name: Run Spellcheck
+      if: ${{ steps.format_files.outputs.files != '' }}
+      id: spellcheck
+      uses: rojopolis/spellcheck-github-actions@v0
+      with:
+        task_name: Markdown
+        config_path: .github/workflows/spellcheck_config.yml
+        source_files: ${{ steps.format_files.outputs.files }}
+        output_file: spellcheck-output.txt
+
+    - name: Check if spell errors were found
+      if: '!cancelled()'
+      id: check_spell
+      run: |
+        if [ -s spellcheck-output.txt ]; then
+          echo "found=true" >> $GITHUB_OUTPUT
+        else
+          echo "found=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Debug spell check
+      if: '!cancelled()'
+      run: |
+        echo "check_spell found errors: '${{ steps.check_spell.outputs.found }}'"
+
+    - name: Comment on PR
+      if: '!cancelled()'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          if( context.payload.pull_request.number && context.repo.owner && context.repo.repo ){
+            const fs = require('fs');
+            const outputPath = 'spellcheck-output.txt';
+            const hasOutput = fs.existsSync(outputPath);
+            const output = hasOutput ? fs.readFileSync(outputPath, 'utf8').trim() : '';
+  
+            let body = `✅ **No spelling errors found in changed Markdown files.** 🎉`;
+            if (output && output.includes('Misspelled words')) {
+              body = `### 📝 Spellcheck Report\nPlease fix these typos or add exceptions to the whitelist in .github/workflows/spellcheck.whitelist<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body,
+            });
+          }

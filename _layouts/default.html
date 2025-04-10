@@ -215,10 +215,10 @@
         <!-- Edit button -->
         {% if page.url != "/" %}
         <!-- NOTE: All page names should be in lower case-->
-        {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' %}
+        {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' | replace_first: '.html', '.md' %}
         {% else %}
         <!-- The second argument for replace_first should be the url of the homepage-->
-        {% assign git_url = page.url | replace_first:'/', 'docs/_Getting-Started/01-introduction' %}
+        {% assign git_url = page.url | replace_first:'/', 'docs/_Getting-Started/01-introduction' | replace_first: '.html', '.md' %}
         {% endif %}
         <!-- Heading of the page      -->
         <div class="bd-intro pt-2 ps-lg-2">
@@ -228,7 +228,7 @@
             <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
                 <div class="mb-3 mb-md-0 d-flex "> <!-- flex-column justify-content-center-->
                     <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
-                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}.md"
+                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}"
                             title="View and edit this file on GitHub" target="_blank" rel="noopener">
                             View on GitHub
                         </a>
@@ -290,7 +290,7 @@
             {% if page.url contains "/Getting-Started/" or page.url contains "/How-We-Operate/" or page.url contains "/Resources/" %}
             <p></p>
             {% else %}
-            <h2>References </h2>
+            <h2 id="references">References </h2>
             <hr>
             {% bibliography --cited_in_order %}
             {% endif %}
@@ -305,6 +305,7 @@
 
 <div class="position-fixed" aria-hidden="true"><input type="text" tabindex="-1"></div>
 
+<script src={{ '/assets/js/scroll.js' | relative_url }} type="text/javascript"></script>
 <script src={{ '/assets/js/simple-search.js' | relative_url }} type="text/javascript"></script>
 <script>
     SimpleJekyllSearch({

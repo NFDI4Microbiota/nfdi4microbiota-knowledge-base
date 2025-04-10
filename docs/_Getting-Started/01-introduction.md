@@ -73,9 +73,6 @@ achieving the look-up for the desired document.
 ### How to contribute to this resource
 
 The files are hosted at a [repo on
-GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You
-can contribute by suggesting new content in [an
-issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
-or directly propose changes using a [pull
-request](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/pulls).
+GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base).
+You can contribute by suggesting new content by [opening an issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues) or by following [our contribution guidelines](/Getting-Started/contributing.md) to propose changes directly! 
 

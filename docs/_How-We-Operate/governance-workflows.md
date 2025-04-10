@@ -38,7 +38,7 @@ that they need to give input on their TAs. If further topics are addressed, wher
 - Changing the agenda accordingly.
 - Preparing a presentation for the General Assembly addressing the agenda.
 
-### Example for the agenda of the General Assembly
+### Example for the Agenda of the General Assembly
 
 1. Welcome, approval of open election, and the agenda  
 2. Reports from the TAs  
@@ -79,18 +79,18 @@ All files regarding the General Assembly are filed [in Nextcloud](https://nextcl
 
 A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
-### Information flow to the Scientific Advisory Board
+### Information Flow to the Scientific Advisory Board
 To update the SAB regularly, they will receive the following information via their mailing list:
 
 - quarterly updates about the outputs and the work of the consortium via the NFDI4Microbiota newsletter,
 - the outcome and the proposals of the annual FlexFunds call, and  
 - a season's greeting email.
 
-### Frequency of the Scientific Advisory Board and Board of Directors meetings
+### Frequency of the Scientific Advisory Board and Board of Directors Meetings
 The SAB meets once a year with the Board of Directors (BoD) for updates on the consortium work and consultation. In addition, they will be invited to other consortium-related events like the annual NFDI4Microbiota 
 conference. 
 
-### Preparation for the Scientific Advisory and Board of Directors meeting
+### Preparation for the Scientific Advisory and Board of Directors Meeting
 The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD meeting.
 
 ### Timeline
@@ -106,21 +106,21 @@ The preparation includes the following steps:
 - Sending the agenda to all members of the SAB (two weeks ahead)
 - Preparing a presentation for the meeting addressing the agenda.
 
-### Agenda of the SAB and BoD meeting
+### Agenda of the SAB and BoD Meeting
 
 1. Welcome 
 2. Report on the work of the consortium and NFDI updates.
 3. ...
 4. AOB
 
-### Conduction of the SAB and BoD meeting
+### Conduction of the SAB and BoD Meeting
 For the conduction of the SAB and BoD meeting, the BoD acts as moderators. At least one person from the AU is attending as a note-taker.
 
-### Follow-up of the SAB and BoD meeting
+### Follow-up of the SAB and BoD Meeting
 Afterward, the note taker will update the minutes for the SAB and BoD. The protocol will be shared with the SAB and the BoD for approval to share with the consortium. Once approved, the protocol will be sent to the 
 consortium.
 
-### Documentation of the SAB and BoD meeting
+### Documentation of the SAB and BoD Meeting
 All files regarding the SAB are filed [here](https://nextcloud.nfdi4microbiota.de/f/105451) (internal link).
 The members of the SAB are displayed on the web portal.
 
@@ -139,8 +139,8 @@ based on the topics required for review and excluding members with potential con
 thus reacting to new and unforeseen scenarios. It will be staffed based on suggestions made by the SAB and decision-making will include a peer review process.
 The PRB will:
 
-1.	be convened as needed to review proposals for innovation and implementation projects, and
-2.	provide an unbiased review of innovation and implementation projects.
+1.be convened as needed to review proposals for innovation and implementation projects, and
+2.provide an unbiased review of innovation and implementation projects.
    
 Based on these reviews, the General Assembly (GA) will select projects that best serve the overall mission of NFDI4Microbiota.
 
@@ -156,7 +156,7 @@ The Project review board will have the following obligations:
 The FlexFunds workflow is described in the finances workflows in detail.
 The PRB receives FlexFunds applications and the review template from the Administration Unit after the call for Flex Funds applications was closed. They will receive these latest 2 weeks after the call was closed. 
 
-### Information flow to the Project Review Board
+### Information Flow to the Project Review Board
 To update the PRB regularly, they will receive the following information via their mailing list:
 
 - quarterly updates about the outputs and the work of the consortium via the NFDI4Microbiota newsletter,
