@@ -148,6 +148,7 @@ collections:
     order:
      - glossary.md
      - external-training-resources.md
+     - host-associated-isolates.md
   How-We-Operate:
     output: true
     permalink: /:collection/:name.html
