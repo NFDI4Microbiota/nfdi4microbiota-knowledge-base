@@ -87,5 +87,5 @@ jobs:
               repo: context.repo.repo,
               body,
             });
-            } else { console.log("failed to post the comment"); return((output && output.includes('Misspelled words'))); }
+            } catch { console.log("failed to post the comment"); return((output && output.includes('Misspelled words'))); }
           }
