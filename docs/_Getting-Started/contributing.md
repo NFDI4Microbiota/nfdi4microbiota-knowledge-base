@@ -105,7 +105,7 @@ When adding or editing files, please observe the following rules:
    2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
       
 
-## Special case: Reordering document pages in the collection headers
+## Special Case: Reordering Document Pages in the Collection Headers
 
 ---
 
