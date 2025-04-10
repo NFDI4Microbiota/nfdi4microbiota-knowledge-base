@@ -80,10 +80,12 @@ jobs:
               body = `### 📝 Spellcheck Report\nPlease fix these typos or add exceptions to the whitelist in .github/workflows/spellcheck.whitelist<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
             }
 
+            try {
             await github.rest.issues.createComment({
               issue_number: context.payload.pull_request.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body,
             });
+            } else { console.log("failed to post the comment"); return((output && output.includes('Misspelled words'))); }
           }
