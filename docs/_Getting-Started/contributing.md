@@ -96,6 +96,7 @@ When adding or editing files, please observe the following rules:
 10. Non-public links are restricted to the how-we-operate section and manually whitelisted in `.github/workflows/ignored-urls.txt`
 11. Write "Knowledge Base" in capital letters
 12. Be consistent with adding periods or not at the end of list items
+13. Please correct valid typos flagged by the spell checker bot.
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
