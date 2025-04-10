@@ -7,7 +7,7 @@ docs_css: markdown
 
 # Introduction
 
-Data quality is a critical pillar in any research involving complex datasets, especially in fields such as genomics and high-throughput sequencing. Maintaining high data quality ensures that downstream analyses, like differential expression analysis or clustering in single-cell studies, are reliable and reproducible. This guide provides a detailed Quality Control (QC) expert Q&A, addressing common challenges encountered during quality assessment—from RNA-seq to single-cell analysis. The guidelines, tips, and potential solutions summarized in this post are intended to help troubleshoot common issues and inform the design of robust experiments.
+Data quality is a critical pillar in any research involving complex datasets, especially in fields such as genomics and high-throughput sequencing. Maintaining high data quality ensures that downstream analyses, like differential expression analysis or clustering in single-cell studies, are reliable and reproducible. This guide provides a detailed Quality Control (QC) expert Q&A, addressing common challenges encountered during quality assessment—from RNA-seq to single-cell analysis. The guidelines, tips, and potential solutions summarized in this post are intended to help troubleshoot common issues and inform the design of robust experiments.  
 
 ### Legend
 
@@ -36,7 +36,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **solution/measure**: check trim again
 2. overall low base call quality
 - **source**: fastqc, fastq input (sam/bam are missing Phred)
-- **possible reason(s)**: universally very good reads + wrong phred-type detection (FP)
+- **possible reason(s)**: universally very good reads + wrong Phred-type detection (FP)
 - **solution/measure**: check encoding detected by fastqc, could be a FP
 3. red spots in per tile sequence quality
 - **source**: fastqc, Illumina input
@@ -48,7 +48,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **solution/measure**: trim adapters
 5. at the 5' end high per base sequence content
 - **source**: fastqc, Illumina input
-- **possible reason(s)**: TSS reads -> start of read = start of gene = bias distr. (FP)
+- **possible reason(s)**: TSS reads -> start of read = start of gene (FP)
 - **solution/measure**: -
 6. C is missing in high per base sequence content
 - **source**: fastqc, Illumina input
@@ -67,7 +67,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 10. high percentage of overrepresented sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: contamination present in reads
-- **solution/measure**: blast most abudant reads, can be adapter sequences too
+- **solution/measure**: blast most abundant reads, can be adapter sequences too
 11. high percentage of overrepresented sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: overrepresented sequence present in data e.g. rRNAs (FP)
@@ -78,7 +78,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 13. high percentage of duplicated sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: constrained library (only reads starting at TSS) (FP)
-- **solution/measure**: You can use random barcoding to distigush between biol. and tech. replicates if needed
+- **solution/measure**: You can use random barcoding to distinguish between biol. and tech. replicates if needed
 
 ### Trimming
 1. no reads are trimmed although adapters are present
@@ -118,7 +118,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: negative control study (FP)
 5. two experiment of 2 conditions (ctrl, KO) cluster in the wrong area
 - **source**: PCA, negative control study
-- **possible reason(s)**: misslabeling
+- **possible reason(s)**: mislabeling
 - **solution/measure**: check design matrix, documentation, ...
 6. no clear separation between conditions (ctrl, KO) 
 - **source**: PCA, negative control study
@@ -157,7 +157,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 ---
 
 ### Quality Check
-1. peak at left/right side in gene or reads per cell histogram or log10-cummulative-number of reads per cell id
+1. peak at left/right side in gene or reads per cell histogram or log10-cumulative-number of reads per cell id
 - **source**: BD rhapsody pipeline, negative control study
 - **possible reason(s)**: left=cell fragments, right=multiplets present
 - **solution/measure**: remove with cut-offs
@@ -175,7 +175,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use raw data for tSNE/UMAP
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
-3. "The first two principle components were used to perform a tSNE" <https://doi.org/10.1126/science.aag3009>
+3. "The first two principle components were used to perform a tSNE" {% cite see_2017 %}
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
@@ -193,5 +193,5 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **solution/measure**: use a population size cutoff or state the number
 2. some genes look like dates (1-Mar,...)
 - **source**: seurat/deseq, negative control study
-- **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling <https://doi.org/10.1126/science.aah4573>
+- **possible reason(s)**: some genes can be interpreted as dates when using excel for data handling { % cite villani_2017 %}
 - **solution/measure**: never ever use excel or at least make sure that cell type is not "AUTO"
