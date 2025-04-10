@@ -30,7 +30,7 @@ Users will need a GitHub account if they wish to contribute to the Knowledge Bas
 
 ### Edit Existing Files
 
-In order to make changes to the respository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
+In order to make changes to the repository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
 *Note: Markdown files are files which end with the `.md` suffix, for example this `contributing.md` file. Please do not try to edit non Markdown files.*
 
@@ -47,7 +47,7 @@ To edit an existing file:
 7. Assign the pull request to `Mahdi Robbani` or  `Natalie Kurtys`
 8. Press the `Create pull request` button
 
-[Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to editing files on GitHub if you need futher help.
+[Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to editing files on GitHub if you need further help.
 
 *Note: All files should be edited according to the [style guide](#markdown-style-guide).*
 
