@@ -67,6 +67,9 @@ To create a new issue:
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
 
+*Note: Currently all microbiology related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
+
+
 ## Cite Sources
 
 ---
