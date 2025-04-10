@@ -8,12 +8,19 @@ on:
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
+    
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install aspell
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aspell aspell-en
 
     - name: Get changed markdown files
       id: changed_files
@@ -44,7 +51,6 @@ jobs:
 
     - name: Check if spell errors were found
       if: '!cancelled()'
-#      if: ${{ steps.format_files.outputs.files != '' }}
       id: check_spell
       run: |
         if [ -s spellcheck-output.txt ]; then
@@ -60,7 +66,6 @@ jobs:
 
     - name: Comment on PR
       if: '!cancelled()'
-#      if: ${{ steps.check_spell.outputs.found == 'true' }}
       uses: actions/github-script@v6
       with:
         script: |
@@ -75,10 +80,12 @@ jobs:
               body = `### 📝 Spellcheck Report\nPlease fix these typos or add exceptions to the whitelist in .github/workflows/spellcheck.whitelist<details><summary>Click to expand</summary>\n\n\`\`\`\n${output}\n\`\`\`\n</details>`;
             }
 
+            try {
             await github.rest.issues.createComment({
               issue_number: context.payload.pull_request.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body,
             });
+            } catch { console.log("failed to post the comment"); return((output && output.includes('Misspelled words'))); }
           }

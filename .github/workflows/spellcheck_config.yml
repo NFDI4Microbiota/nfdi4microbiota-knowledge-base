@@ -7,12 +7,21 @@ matrix:
       wordlists:
         - .github/workflows/spellcheck.whitelist
         - .github/workflows/spellcheck.acronyms.whitelist
+        - .github/workflows/us_english-medical.whitelist
+        - .github/workflows/file_extensions.whitelist
+        - .github/workflows/adjectives_bioinformatics.whitelist
       encoding: utf-8
     pipeline:
       - pyspelling.filters.context:
           context_visible_first: true
           escapes: \\[\\`~]
           delimiters:
+            - open: '{%'
+              close: '%}'
+            - open: '{{'
+              close: '}}'
+            - open: '"'
+              close: '"'
             - open: "(?s)^(?P<open> *`{3,})([a-z+]*)$"
               close: "^(?P=open)$"
             - open: "(?P<open>`+)"
