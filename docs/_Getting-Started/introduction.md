@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-## NFDI4Microbiota - <small class="text-muted">Democratize access to microbiota data and high-end computational analyses</small>
+## NFDI4Microbiota - <small class="text-muted">Democratize access to microbiome data and high-end computational analyses</small>
 
 NFDI4Microbiota is a consortium that is part of the German NFDI (National research Data Infrastructure), aimed at advancing microbiological research through digital transformation. 
 
@@ -25,9 +25,9 @@ We strive to improve research processes by organizing and linking microbial (met
 
 ### Where to find us
 
-More information on how to contribute to the consortium, participate in coffee talks, become an ambasador or take part in training events, visit the [NFDI4Microbiota webpage](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Helpdesk](https://nfdi4microbiota.de/contact-form.html) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de).
+More information on how to contribute to the consortium, participate in coffee talks, become an ambassador or take part in training events, visit the [NFDI4Microbiota web page](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Help desk](https://nfdi4microbiota.de/contact-form.html) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de).
 
-By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found below the Helpdesk contact form.
+By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found below the Help desk contact form.
 
 ## What is this Knowledge Base about?
 
@@ -54,7 +54,7 @@ achieving the look-up for the desired document.
 
 ### How to contribute to this resource
 
-The files are hosted at a [repo on
+The files are hosted at a [repository on
 GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You
 can contribute by suggesting new content in [an
 issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
