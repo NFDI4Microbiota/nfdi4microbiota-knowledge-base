@@ -206,20 +206,24 @@
 {% include navbar.html %}
 
 
+
+
 <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
+
 
     {% include aside.html %}
 
+    {% if page.url == "/" %}
+      {{ content }}
+    {% else %}
+
     <main class="bd-main order-1">
 
+
         <!-- Edit button -->
-        {% if page.url != "/" %}
         <!-- NOTE: All page names should be in lower case-->
         {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' | replace_first: '.html', '.md' %}
-        {% else %}
-        <!-- The second argument for replace_first should be the url of the homepage-->
-        {% assign git_url = page.url | replace_first:'/', 'docs/_Getting-Started/01-introduction' | replace_first: '.html', '.md' %}
-        {% endif %}
+
         <!-- Heading of the page      -->
         <div class="bd-intro pt-2 ps-lg-2">
             <h1 class="bd-title mb-0 text-center" id="content">{{ page.title }}</h1>
@@ -245,7 +249,7 @@
             </div>
         </div>
         <br>
-
+        
         <!-- Div for navigation to the topic inside the current page -->
         <div class="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary">
             <button class="btn btn-link p-md-0 mb-2 mb-md-0 text-decoration-none bd-toc-toggle d-md-none"
@@ -278,7 +282,7 @@
                 </nav>
             </div>
         </div>
-
+        
 
         <div class="bd-content ps-lg-2">
             {{content}}
@@ -297,8 +301,10 @@
             {% endif %}
 
         </div>
+        {% endif %}
     </main>
 </div>
+
 
 
 {% include footer.html %}
