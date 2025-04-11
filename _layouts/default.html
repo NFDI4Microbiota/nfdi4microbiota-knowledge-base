@@ -205,15 +205,17 @@
 
 {% include navbar.html %}
 
-{% if page.url == "/" %}
-{{ content }}
-{%else%}
+
 
 
 <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
 
 
     {% include aside.html %}
+
+    {% if page.url == "/" %}
+    {{ content }}
+    {%else%}
 
     <main class="bd-main order-1">
 
