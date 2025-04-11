@@ -64,8 +64,14 @@ To create a new issue:
 3. Add the title (the name of the suggested page) and add a description of what you want to include in the new page
 4. Assign the issue to `Mahdi Robbani`
 5. Click the `Submit new issue` button
+6. Your request will be reviewed and discussed among the git-committee-members of NFDI4Microbiota.
+7. When accepted, a new page/ new file will be created and added to the appropriate collection.
+8. The collection may be reordered in [this config.yaml file](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/9132ef3bfc9f28fcf8eb293d93fc4507eec87a9d/_config.yml#L48) as described below. 
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
+
+*Note: Currently all microbiology related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
+
 
 ## Cite Sources
 
