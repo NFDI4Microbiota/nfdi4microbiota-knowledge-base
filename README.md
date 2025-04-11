@@ -10,6 +10,10 @@ This knowledge base is a collection of documents and references important to the
 
 If you want to contribute to the Knowledge Base, please see the [contributing.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributing.md) file, and be sure to add yourself to the [contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
 
+## Workflow
+
+You should create branches from the dev branch, and create pull requests for the dev branch when you're done. Changes on the dev branches can be seen here: https://dev.knowledgebase.nfdi4microbiota.de/
+
 ## Running the Knowledge Base locally
 
 ### Ubuntu/Debian (Linux) and Mac

@@ -1,6 +1,6 @@
 ---
 title: External SOPs
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: false

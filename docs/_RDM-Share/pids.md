@@ -8,20 +8,20 @@ empty: false
 hide: false
 ---
 
-## Definition
+## Definition of Persistent Identifiers (PIDs)
 Persistent digital identifier (PID) is a "unique long-lasting reference to a digital object" {% cite Cousijn2021 %}. PIDs can reference people, datasets, or papers. PIDs are a primary way to meet the first standard in the FAIR principles ensuring digital objects are Findable.
 
 ## Examples of PIDs
 ---
-### ORCID
+### Open Researcher Contributor Identification Initiative (ORCID)
 Open Researcher and Contributor ID, or [ORCID](https://orcid.org/), is a non-profit organization which aims to connect researchers to their research. Thus improving transparency and facilitating trust between researchers in the scientific community. This is a free service for researchers which provides users with a persistent digital identifier (PID).
 
 For example, Mathias Mueller is a fairly common name in Germany. However, with a PID we can identify the correct researcher and link them with all of their work. Just like a unique finger print a PID distinguishes you from other researchers and allows you to connect your ID with your professional information including affiliations, publications, grants, and peer reviews {% cite gonzalez_rdm %}.
 
-### DOI
+### Digital Object Identifier (DOI)
 Digital Object Identifier or DOI is another form of persistent identifier. Papers, articles, and published datasets may have a DOI which links these items. This makes it easier to find these digital objects online. Even if the publisher changes the DOI of the published article, dataset, etc. will not change.
 
-## Benefits of assigning PIDs
+## Benefits of Assigning PIDs
 ---
 + Increase visibility
 + Connects the author with the work
@@ -30,11 +30,11 @@ Digital Object Identifier or DOI is another form of persistent identifier. Paper
 + Adheres to FAIR principle
 + Permanent link to digital object
 
-## Use cases
+## Use Cases
 ---
 PIDs are seen as the first step towards making research FAIR through increasing the findability. A case study looks at the next step in this FAIRification process by linking PIDs with metadata. This will allow for linking digital resources that are assigned PIDs together. According to Cousijn and collaborators, the PID Graph establishes connections between different entities within the research landscape, thereby enabling both researchers and institutions to access new information {% cite Cousijn2021 --suppress_author %}.
 
-## Link to the FAIR data principles
+## Link to the FAIR Data Principles
 ---
 Wilkinson and collaborators discuss the FAIR principles for research data management in the first formal publication of the principles, they include the rationale behind them, and some exemplar implementations in the community {% cite wilkinson_2016 --suppress_author %}.
 

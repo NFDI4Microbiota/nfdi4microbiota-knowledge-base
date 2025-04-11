@@ -65,15 +65,21 @@ function GenerateScrollSpy() {
 
   $('h2, h3').each(function (index, element) {
     const tag = $(element).prop('tagName');
-    
+    let id = $(element).attr('id');
+
+    // If no ID, generate one from the text
+    if (!id) {
+      id = $(element).text().trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]/g, '');
+      $(element).attr('id', id); // Optionally set it so the anchor works
+    }
+
     if (tag === 'H2') {
-      currentH = $('<li><a href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
-      currentUl = $('<ul></ul>'); // Create a new <ul> for nested h2 elements
+      currentH = $('<li><a href="#' + id + '">' + $(element).text() + '</a></li>');
+      currentUl = $('<ul></ul>'); // Create a new <ul> for nested h3 elements
       currentH.append(currentUl);
       $('#TableOfContents').children().eq(0).append(currentH);
     } else if (tag === 'H3' && currentH) {
-      currentUl.append('<li><a style="font-size:0.8rem" href="#' + $(element).attr('id') + '">' + $(element).text() + '</a></li>');
+      currentUl.append('<li><a style="font-size:0.8rem" href="#' + id + '">' + $(element).text() + '</a></li>');
     }
   }); 
 }
-

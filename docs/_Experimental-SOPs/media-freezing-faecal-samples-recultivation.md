@@ -1,6 +1,6 @@
 ---
 title: Media for freezing homogenised faecal samples for re-cultivation
-category: Experimental-Procedure-Standards-SOPs
+category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: false

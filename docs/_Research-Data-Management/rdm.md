@@ -26,9 +26,9 @@ The research data life cycle is a model that illustrates the steps of RDM and de
 ![Research data life cycle]({{ '/assets/img/research_data_life_cycle_elixir.png' | relative_url }})
 
 NFDI4Microbiota offers dedicated services and tools along the research data life cycle: 
-* **Plan:** a [DMP template](https://doi.org/10.5281/zenodo.13628589).
+* **Plan:** a [data managemnet plan (DMP) template](https://doi.org/10.5281/zenodo.13628589).
 * **Collect:**
-    * Protocols on [protocols.io](https://www.protocols.io/researchers/sarah-schulz). 
+    * Protocols on [protocols.io](https://www.protocols.io/joinworkspace/nfdi4microbiota/XVJEW). 
     * 2- to 3-hour workshops on ELNs (see example slides [here](https://doi.org/10.5281/zenodo.11578583)).
     * Training with eLabFTW (see example demo [here](https://doi.org/10.5446/68306)).
     * Annual seminar on ELNs.
@@ -36,7 +36,7 @@ NFDI4Microbiota offers dedicated services and tools along the research data life
     * On this [Knowledge Base]({% link _Research-Data-Management/md.md %}).
     * On [GitHub](https://github.com/NFDI4Microbiota/MetadataStandards).
 * **Analyse:** the Cloud-based Workflow Manager ([CloWM](https://clowm.bi.denbi.de/login?next=/dashboard)).
-* **Preserve:** the [ARUNA](https://aruna-storage.org/) data orchestration engine, an open-source data management platform that allows scientists and industry partners to store, annotate and share their data according to the FAIR data principles.
+* **Preserve:** the [ARUNA](https://aruna-storage.org/) data orchestration engine, an open-source data management platform that allows scientists and industry partners to store, annotate and share their data according to the FAIR data principles (see also on this [Knowledge Base]({% link _RDM-Preserve/aruna-object-storage.md %})).
 * **Reuse:** 
     * [StrainInfo](https://straininfo.dsmz.de/), a service developed to provide a resolution of microbial strain identifiers by storing culture collection numbers, their relations, and culture-associated data.
     * [VirJenDB](https://www.virjendb.org/), a central hub connecting virus researchers to publicly available virus resources, metadata and sequences.
@@ -55,12 +55,15 @@ Planning a research project includes creating a research design, planning for da
 
 ### Collect
 Even before the collection of research data, adopting an Electronic Lab Notebook (ELN) may be a good measure to take. By digitising research notes, protocols and experimental results, an ELN can streamline data organisation and collaboration between team members. In addition, ELNs provide version control and real-time data capture, enabling seamless integration with RDM workflows. For example, researchers studying microbial communities could use an ELN to record observations, generate graphs and annotate results, all collaboratively, ensuring transparency and reproducibility.
+
 Collecting primary research data requires the creation of clear protocols for data collection, whereas collecting secondary data, i.e. the acquisition of existing third-party data, may require obtaining permission to reuse the data. 
+
 Collecting research data also involves capturing data with metadata. For example, researchers studying bacterial evolution should carefully document their sampling procedures, including information on sampling sites, environmental conditions and sampling techniques to ensure reproducibility. 
 Finally, collecting research data includes data validation (i.e. data cleaning and quality control), the use of acceptable file formats, and data check.
 
 ### Process and Analyse
 Processing research data begins with the proper documentation/description of the data. In terms of documenting scripts, code and software, software tools (from small analysis scripts to machine learning models) are integral to the processing, analysis and interpretation of complex microbiology data sets. Therefore, documenting the software environment, version numbers and dependencies used in data analysis workflows is critical to ensure reproducibility and transparency. For example, a study investigating the taxonomic composition of the gut microbiota may rely on custom Python scripts for data pre-processing and statistical analysis. By documenting these scripts, along with the parameters and input data used, researchers can enable others to replicate their analyses and validate their findings. In addition, the use of version control systems (VCS) such as Git, and the hosting of Git repositories on platforms such as GitHub or GitLab, ensures the traceability and accessibility of software artefacts. By incorporating such software management practices into their RDM strategy, microbiology researchers can improve the reproducibility, transparency and rigour of their computational analyses, thereby advancing scientific knowledge in the field. When it comes to documenting models, with the increasing use of machine learning in microbiology (e.g. to predict antibiotic resistance or classify microbial species), it is imperative that the underlying models are managed transparently. Researchers should document model architectures, training data and performance metrics to facilitate model validation and comparison across studies.
+
 Before research data can be analysed, it needs to be digitised, transcribed, translated and possibly anonymised. Clear protocols for data analysis must then be established. Finally, the data can be interpreted and research findings produced.
 
 ### Preserve
@@ -68,6 +71,7 @@ Preserving research data requires establishing clear protocols for data storage 
 
 ### Share
 Data sharing requires access control (i.e. selecting appropriate access to data) and data security. Researchers working with sensitive data, such as sensitive personal data (e.g. in clinical microbiology studies) or sensitive environmental data, need to consider protection and security measures to safeguard this information. Data sharing also requires that copyright be established before the data is actually shared and published. 
+
 Microbiology researchers can embrace open-science practices by depositing their research data in public repositories such as NCBI's GenBank or EMBL-EBI's European Nucleotide Archive (ENA), thereby promoting transparency and long-term preservation of microbial data and ensuring its availability for future research.
 
 ### Reuse
@@ -111,7 +115,7 @@ In Germany, the National Research Data Infrastructure (NFDI) funds nearly 30 dis
 To use GIN, you must first create a new project repository and clone the research folder structure. You can then add a script that synchronises the repository and its submodules on double-click. You can also add submodules to a lab-wide repository. 
 
 * TMF-Portal [ToolPool Gesundheitsforschung](https://www.toolpool-gesundheitsforschung.de/): The TMF-Portal was launched in 2017 and is operated by the Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V. (TMF). It provides a collection of IT infrastructure-related products for networked medical research. There are products from the TMF and from other providers such as companies and research institutions. There are over 80 products, more than half of which are software tools. Other product categories include eServices, reports and expert opinions, working materials and checklists, consultancy services and training courses. Products can be filtered by category, topic, project phase, keywords, provider and year. Similar products can also be compared using a feature matrix. On each product page you will find information about the use of the product in projects, testimonials from other users and references. New products can be submitted by anyone. Each product is then reviewed by a team of TMF members against a set of criteria before being added to the portal.
-To use the portal, follow this link. Many offerings are free and can be accessed directly from the portal. Software products usually require local installation and configuration {% cite steen:2022 %}.
+To use the portal, follow this [link](https://www.toolpool-gesundheitsforschung.de/). Many offerings are free and can be accessed directly from the portal. Software products usually require local installation and configuration {% cite steen:2022 %}.
 
 #### Standard Operating Procedures (SOPs)
 * [SOP: Data management in clinical trials](https://khpcto.co.uk/SOPs/18_DataSOP.php)
