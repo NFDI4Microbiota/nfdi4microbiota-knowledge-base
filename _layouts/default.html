@@ -214,20 +214,16 @@
     {% include aside.html %}
 
     {% if page.url == "/" %}
-    {{ content }}
-    {%else%}
+      {{ content }}
+    {% else %}
 
     <main class="bd-main order-1">
 
 
         <!-- Edit button -->
-        {% if page.url != "/" %}
         <!-- NOTE: All page names should be in lower case-->
         {% assign git_url = page.url | replace_first:'/', '_' | prepend:'docs/' | replace_first: '.html', '.md' %}
-        {% else %}
-        <!-- The second argument for replace_first should be the url of the homepage-->
-        {% assign git_url = page.url | replace_first:'/', 'docs/_Getting-Started/01-introduction' | replace_first: '.html', '.md' %}
-        {% endif %}
+
         <!-- Heading of the page      -->
         <div class="bd-intro pt-2 ps-lg-2">
             <h1 class="bd-title mb-0 text-center" id="content">{{ page.title }}</h1>
