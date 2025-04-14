@@ -12,10 +12,57 @@ Data quality is a critical pillar in any research involving complex datasets, es
 ### Legend
 
 * FP = false positive result
-* END = no solution, this problem is unsolvable
+* END = no clear solution; the issue may stem from an unsolvable or flawed experimental design  
 
+---
+
+## Metadata & Documentation
+
+---
+
+1. **Incomplete metadata records**
+- **Source:** Data submission reports and sample tracking systems  
+- **Possible reason(s):** Oversight during sample collection and documentation.
+- **Solution/Measure:** Develop and enforce a robust metadata standard, and incorporate automated checks for missing entries.
+
+2. **Inconsistent documentation across experiments**
+- **Source:** Lab notebooks and digital records  
+- **Possible reason(s):** Variations in data logging practices among team members.
+- **Solution/Measure:** Standardize documentation practices and consider using electronic lab notebooks (ELNs) to improve consistency.
+
+3. **Unclear or outdated standard operating procedures (SOPs)**
+- **Source:** Internal quality audit  
+- **Possible reason(s):** Infrequent updates to SOPs following technological or protocol changes.
+- **Solution/Measure:** Regularly review and update SOPs, and ensure all team members have access to the latest guidelines.
+
+---
+
+## Pipeline Validation
+
+---
+
+1. **Failure in reproducibility of analysis results**
+- **Source:** Repeated experimental runs and analysis logs  
+- **Possible reason(s):** Untracked parameter changes or inconsistent tool versions.
+- **Solution/Measure:** Document tool versions and parameters rigorously, and consider containerizing your pipeline using tools like Docker or Singularity. See the provenance guidelines for workflow developer from NFDI4Microbiota ([10.5281/zenodo.15210816](doi.org/10.5281/zenodo.15210816))
+
+2. **Incorrect handling of batch-specific metadata**
+- **Source:** Discrepancies in final analysis outputs  
+- **Possible reason(s):** Misalignment of sample metadata in the analysis pipeline.
+- **Solution/Measure:** Verify metadata files and cross-check sample IDs throughout the pipeline.
+
+3. **Error propagation through multi-step processing**
+- **Source:** Analysis logs and output quality assessments  
+- **Possible reason(s):** Failures in early processing steps that are not adequately flagged.
+- **Solution/Measure:** Implement quality checkpoints after major processing steps to catch and correct errors early.
+
+
+---
 
 ## RNA-seq
+
+---
+
 1. high peak at low bp in the electropherogram (intensity mV per Size bp)
 - **source**: documentation (PDF)
 - **possible reason(s)**: contamination e.g. adapter dimers (adapter+adapter, no DNA)
@@ -60,25 +107,45 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: multiple unrelated species present
 - **solution/measure**: remove contaminated species
-9. 2/more peaks in per sequence GC content
+9. 2/more peaks in per sequence GC content (alternative scenario)
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: other contamination, e.g. adapter dimers
 - **solution/measure**: adapter dimers => trim
 10. high percentage of overrepresented sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: contamination present in reads
-- **solution/measure**: blast most abundant reads, can be adapter sequences too
-11. high percentage of overrepresented sequences
-- **source**: fastqc, Illumina input
-- **possible reason(s)**: overrepresented sequence present in data e.g. rRNAs (FP)
+- **solution/measure**: blast most abundant reads, can be adapter sequences => remove post hoc
+11. high percentage of overrepresented sequences (alternative scenario)
+- **source**: fastqc, Illumina input 
+- **possible reason(s)**: overrepresented sequence present in data e.g. rRNAs (FP) can be removed and the downstream analysis can be conducted, although at a loss of sequencing power. Otherwise redo the experiment with propper rRNA depletion steps/kits. 
+- **solution/measure**: use blast or similar tools to remove the rRNAs.
 12. high percentage of duplicated sequences
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: low complexity
 - **solution/measure**: little starting material / heavy PCR
-13. high percentage of duplicated sequences
+13. high percentage of duplicated sequences (alternative scenario)
 - **source**: fastqc, Illumina input
 - **possible reason(s)**: constrained library (only reads starting at TSS) (FP)
 - **solution/measure**: You can use random barcoding to distinguish between biol. and tech. replicates if needed
+
+## Contamination Checks
+
+1. human DNA in non-human dataset or microbial contamination in plant dataset ...
+- **source**: ncbi-Kraken output or alignment result to reference  
+- **possible reason(s)**: cross-contamination in lab / sample mislabeling
+- **solution/measure**: implement clean bench practices, include blank controls (END)
+
+### Barcode & Multiplexing
+
+1. high barcode collision rate  
+- **source**: demultiplexing report, UMI-tools output  
+- **possible reason(s)**: insufficient barcode diversity or high cell loading  
+- **solution/measure**: use barcodes with higher Hamming distance, optimize loading concentration  
+
+2. unexpected sample mixing  
+- **source**: downstream clustering or PCA  
+- **possible reason(s)**: barcode bleed-through or mislabeling  
+- **solution/measure**: double-check index sequences and demux assignments, validate with synthetic spike-ins  
 
 ### Trimming
 1. no reads are trimmed although adapters are present
@@ -134,7 +201,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **source**: DESeq2, negative control study
 - **possible reason(s)**: low number of replication + high variability
 - **solution/measure**: careful with reported DEGs
-3. almost all genes are DE
+3. almost all genes are DE (differentially expressed)
 - **source**: DESeq2, negative control study
 - **possible reason(s)**: e.g. biol. and tech. replicates are mixed up
 - **solution/measure**: END-RESTART
@@ -142,7 +209,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **source**: DESeq2, negative control study
 - **possible reason(s)**: negative control study (FP)
 
-### Visualize
+### Visualization
 1. using CPM to visualize DEGs (differentially expressed genes)
 - **source**: Plot, negative control study
 - **possible reason(s)**: mixed up within- and between-sample normalization
@@ -151,6 +218,8 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **source**: Plot, negative control study
 - **possible reason(s)**: humans are bad with ratios (0.01 = almost 0 and 100 is just large but not the largest bar ever)
 - **solution/measure**: use any log transformation (e.g. log10: 0.01 => -2, 100 => +2)
+
+---
 
 ## Single Cell
 
