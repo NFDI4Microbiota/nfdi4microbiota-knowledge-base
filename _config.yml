@@ -51,7 +51,7 @@ collections:
     output: true
     permalink: /:collection/:name.html
     order:
-     - 01-introduction.md
+     - introduction.md
      - contributing.md
      - contributors.md
      - privacy-policy-english-translation.md
