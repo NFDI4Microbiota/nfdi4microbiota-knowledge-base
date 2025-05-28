@@ -7,7 +7,7 @@ redirect_from: /Resources
 ---
 
 ### Introduction
-Metagenomic samples are inherently complex because they contain mixtures of DNA sequences from multiple organisms, and sometimes even from various environmental sources. As a consequence, these samples often include contaminants or are mixed with genetic sequences from the host (humans, animals, or plants).
+Metagenomic samples are inherently complex because they contain mixtures of DNA sequences from multiple organisms, and sometimes even from various environmental sources, including contaminants genetic sequences from the host (humans, animals, or plants).
 
 Preprocessing these samples, specifically removing the contaminants, is a critical step before conducting further analyses. The following sections outline the reasons for and steps in preprocessing your metagenomic samples prior to assembling them into contigs.
 
@@ -16,7 +16,7 @@ Preprocessing these samples, specifically removing the contaminants, is a critic
 
 - **Quality Filtering:**</br>
 
-    Next-generation sequencing (NGS), is a technology, commonly used for metagenomic sequencing. This technology can generate sequencing reads of varying quality across multiple runs. Poor-quality reads, which may contain errors such as miscalled bases or ambiguous nucleotides, can lead to incorrect assemblies. Filtering out these reads helps ensure that downstream analyses rely on accurate sequences.
+    Next-generation sequencing (NGS) is a technology commonly used for metagenomic sequencing. This technology can generate sequencing reads of varying quality across multiple runs. Poor-quality reads, which may contain errors such as miscalled bases or ambiguous nucleotides, can lead to incorrect assemblies. Filtering out these reads helps ensure that downstream analyses use accurate sequences.
 - **Adapter and Primer Removal:**</br>
 
     During metagenomic library preparation, various adapters and primers (depending on the library preparation kit) are ligated to the DNA fragments. If these sequences are not removed, they can interfere with the assembly process or taxonomic identification.
@@ -33,9 +33,9 @@ Preprocessing these samples, specifically removing the contaminants, is a critic
 
 The steps mentioned above (data quality checks and contaminant removal) provide several benefits for the downstream analysis of samples:
 
-1. **Encahnced Assembly and Taxonomic Classification**:</br>
+1. **Enhanced MAG recovery and Taxonomic Classification**:</br>
 
-   High-quality, filtered reads improve the performance of assembly algorithms. Cleaner sequences increase the likelihood of correctly reconstructing genomes (Metagenome Assembled Genomes - MAGs) from fragmented reads. Similarly, removing low-quality reads or contaminated sequences reduces noise and helps prevent taxonomic misclassification and overestimation of abundance. However, it is important to note that removal steps can introduce their own biases into the analyses.
+   High-quality, filtered reads improve the performance of assembly and genome binning algorithms. Cleaner sequences increase the likelihood of correctly reconstructing genomes (Metagenome Assembled Genomes - MAGs) from fragmented reads. Similarly, removing low-quality reads or contaminated sequences reduces noise and helps prevent taxonomic misclassification and overestimation of abundance.
 
 2. **Reducing Computational Burden**:</br>
 
@@ -47,6 +47,6 @@ The steps mentioned above (data quality checks and contaminant removal) provide 
 
 ---
 
-In essence, by preprocessing metagenomic sequences before analyses, researchers can eliminate low-quality reads, contaminants, and artifacts arising from sampling and library preparation. This results in more reliable assembly, more accurate taxonomic classification, and more efficient use of computational resources.
+In essence, by preprocessing metagenomic sequences before analyses, researchers can eliminate low-quality reads, contaminants, and artifacts arising from sampling and library preparation. This results in more reliable assembly and genome binning, more accurate taxonomic classification, and more efficient use of computational resources.
 
 This cleaning process is a standard practice in metagenomics and underscores the importance of data quality in complex biological analyses. Collectively, these steps ensure that the biological conclusions drawn from metagenomic data reflect the true underlying microbial community rather than artifacts of sample preparation or sequencing processes.
