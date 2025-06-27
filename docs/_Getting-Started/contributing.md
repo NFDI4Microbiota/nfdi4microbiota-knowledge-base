@@ -19,14 +19,92 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 
 ## Create a GitHub Account
 
----
 
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
 
 ## Make Changes to the Repository
 
----
+### Pull Requests
+
+A **pull request (PR)** is how you suggest changes to this project. It lets us review your work before adding it to the main codebase.
+
+#### How to Make a Pull Request (Using the Browser)
+
+1. **Fork the Repository**
+   - Click the **“Fork”** button in the top-right corner of this page.
+   - This creates your own copy of the project on your GitHub account.
+
+2. **Edit Files in Your Fork**
+   - Go to your forked repository.
+   - Navigate to the file you want to change.
+   - Click the ✏️ **edit (pencil)** icon at the top right of the file.
+   - Make your changes and **write a short description** in the “Commit changes” section.
+   - Choose **“Create a new branch for this commit”**, give your branch a name (e.g. `fix-typo`), and click **“Propose changes”**.
+
+3. **Create the Pull Request**
+   - After you propose changes, GitHub will show a page to **open a pull request**.
+   - Review the changes, add a title and description, then click **“Create pull request”**.
+
+
+#### Making a Pull Request (Using the Terminal)
+
+
+1. **Fork the Repository**
+   Start by forking the repository to your own GitHub account.
+
+2. **Clone Your Fork**
+   Clone your fork locally:
+
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+   ```
+
+3. **Create a Feature Branch**
+   Always work on a separate branch—not on `main`:
+
+   ```bash
+   git checkout -b your-feature-name
+   ```
+
+4. **Make Your Changes**
+   Implement your feature or fix, and make commits with clear messages:
+
+   ```bash
+   git commit -m "Add feature XYZ"
+   ```
+
+5. **Sync with Upstream (if applicable)**
+   If others have made changes since you started, fetch and merge the latest upstream changes to avoid conflicts:
+
+   ```bash
+   git remote add upstream https://github.com/original-owner/project-name.git
+   git fetch upstream
+   git merge upstream/main
+   ```
+
+6. **Push to Your Fork**
+   Push your changes to your GitHub fork:
+
+   ```bash
+   git push origin your-feature-name
+   ```
+
+7. **Open a Pull Request**
+   Go to the original repo and click **“New pull request”**, then select your feature branch.
+
+#### When Multiple People Are Working on the Project
+
+* **Communicate Early**: Use GitHub Issues or discussions to claim tasks. This reduces duplicate work and merge conflicts.
+* **Smaller PRs Are Better**: Break big features into smaller, manageable pull requests so they’re easier to review and merge.
+* **Rebase Often**: If others are pushing changes regularly, rebase your branch before submitting your PR to minimize conflicts.
+
+  ```bash
+  git fetch upstream
+  git rebase upstream/main
+  ```
+* **Avoid Force Pushes on Shared Branches**: If you’re collaborating on the same branch as someone else, coordinate and avoid `git push --force` unless absolutely necessary.
+* **Resolve Conflicts Promptly**: If your PR can’t be merged due to conflicts, update your branch quickly to stay current.
 
 ### Edit Existing Files
 
@@ -68,14 +146,10 @@ To create a new issue:
 
 ## Add Your Name to the CONTRIBUTORS File
 
----
-
 We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
 
 
 ## Contribution Rules
-
----
 
 When adding or editing files, please observe the following rules:
 
