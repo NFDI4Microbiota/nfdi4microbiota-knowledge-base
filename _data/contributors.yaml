@@ -1,0 +1,20 @@
+jdoe:
+  name: John Doe
+  github: jdoe
+  email: john@example.com
+  orcid: 0000-0001-2345-6789
+  affiliation: University of Example
+
+asmith:
+  name: Alice Smith
+  github: alicesmith
+  email: alice@example.com
+  orcid: 0000-0002-9876-5432
+  affiliation: Institute of Testing
+
+nkurtys:
+  name: Natalie Kurtys
+  github: nkurtys
+  email: natalie_kurtys@hotmail.com
+  orcid: 0000-0002-9876-5432
+  affiliation: ZB MED

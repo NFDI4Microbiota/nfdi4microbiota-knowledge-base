@@ -245,7 +245,7 @@
                         </button>
                     </div>
                 </div>
-                <h6><small class="text-muted">Page last modified on: {{ page.last_modified_at | date: '%Y, %B %d' }}</small></h6>
+                <h6><small class="text-muted">Page last modified on: {{ page.last_modified_at | date: '%Y-%B-%d' }}</small></h6>
             </div>
         </div>
         <br>
@@ -297,11 +297,28 @@
             <h2 id="references">References </h2>
             <hr>
             {% bibliography --cited_in_order %}
+
+            <h2> Contributors </h2>
+            <hr>
+            {% include popover.html %}
+
+
             {% endif %}
             {% endif %}
 
         </div>
         {% endif %}
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+ 
+
+
+
+
+
     </main>
 </div>
 
@@ -321,7 +338,16 @@
       json: "{{ '/search.json' | relative_url }}",
       noResultsText: '<div class="list-group-item">No results found</div>'
     })
-  </script>
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        popoverTriggerList.forEach(function (popoverTriggerEl) {
+        new bootstrap.Popover(popoverTriggerEl)
+        })
+    })
+</script>
 
 </body>
 
