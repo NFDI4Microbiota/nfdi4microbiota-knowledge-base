@@ -1,25 +1,3 @@
-jdoe:
-  name: John Doe
-  github: jdoe
-  email: john@example.com
-  orcid: 0000-0001-2345-6789
-  affiliation: University of Example
-
-asmith:
-  name: Alice Smith
-  github: alicesmith
-  email: alice@example.com
-  orcid: 0000-0002-9876-5432
-  affiliation: Institute of Testing
-
-nkurtys:
-  name: Natalie O. Kurtys
-  github: nkurtys
-  email: natalie_kurtys@hotmail.com
-  orcid: 0000-0002-9876-5432
-  wikidata: 
-  affiliation: ZB MED
-
 mbole:
   name: Martin Bole
   github: 
@@ -92,6 +70,14 @@ pklemm:
   wikidata:
   affiliation:
 
+nkurtys:
+  name: Natalie O. Kurtys
+  github: nkurtys
+  email: natalie_kurtys@hotmail.com
+  orcid: 0000-0002-9876-5432
+  wikidata: 
+  affiliation: ZB MED
+
 mlechner:
   name: Marcus Lechner
   github: 
@@ -148,6 +134,14 @@ cpauvert:
   wikidata: Q103017355
   affiliation:
 
+mrobbani:
+  name: Mahdi Robbani
+  github: mahdi-robbani
+  email: 
+  orcid:
+  wikidata: 
+  affiliation:
+
 ssaghaei:
   name: Shahram Saghaei
   github: 
@@ -174,7 +168,7 @@ cthoelken:
 
 jvandendorpe:
   name: Justine Vandendorpe
-  github: 
+  github: jvddorpe
   email: 
   orcid: 0000-0002-9421-8582
   wikidata: Q62930742
