@@ -3,6 +3,10 @@ title: How to Contribute
 category: Getting-Started
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
+   - nkurtys
+   - mrobbani
 ---
  
 ## Introduction
@@ -140,7 +144,7 @@ To create a new issue:
 1. Go to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues)
 2. Click the `New issue` button
 3. Add the title (the name of the suggested page) and add a description of what you want to include in the new page
-4. Assign the issue to `Mahdi Robbani`
+4. Assign the issue to `Mahdi Robbani` or `Natalie Kurtys`
 5. Click the `Submit new issue` button
 6. Your request will be reviewed and discussed among the git-committee-members of NFDI4Microbiota.
 7. When accepted, a new page/ new file will be created and added to the appropriate collection.
@@ -206,3 +210,6 @@ The view corresponds to the left-hand navigation bar on topics featured on the K
 4. Your suggestions will be discussed internally before potential acceptance.
 
 
+## Contributors
+
+{% include popover.html %}

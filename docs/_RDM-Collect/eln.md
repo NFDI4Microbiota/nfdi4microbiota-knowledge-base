@@ -3,7 +3,8 @@ title: Electronic Lab Notebooks (ELNs)
 category: RDM-Collect
 layout: default
 docs_css: markdown
-hide: false
+authors:
+    - jvandendorpe
 ---
 
 ## Introduction
