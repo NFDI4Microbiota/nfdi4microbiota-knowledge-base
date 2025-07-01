@@ -1,5 +1,6 @@
 mbole:
   name: Martin Bole
+  role:
   github: 
   email: 
   orcid: 0009-0004-9189-8852
@@ -8,6 +9,7 @@ mbole:
 
 sboße:
   name: Sophie Boße
+  role:
   github: 
   email: 
   orcid: 0009-0002-6461-8291
@@ -16,6 +18,7 @@ sboße:
 
 ncassman:
   name: Noriko Cassman
+  role:
   github: 
   email: 
   orcid: 0000-0003-1655-0931
@@ -24,6 +27,7 @@ ncassman:
 
 ffoerster:
   name: Frank Förster
+  role:
   github: 
   email: 
   orcid: 0000-0003-1655-0931
@@ -32,6 +36,7 @@ ffoerster:
 
 kfoerstner:
   name: Konrad Förster
+  role:
   github: 
   email: 
   orcid: 0000-0002-1481-2996
@@ -40,6 +45,7 @@ kfoerstner:
 
 cgonzalez:
   name: Catherine Gonzalez
+  role:
   github: 
   email: 
   orcid: 0000-0002-7585-9990
@@ -48,6 +54,7 @@ cgonzalez:
 
 bgoetz:
   name: Barbara Götz
+  role:
   github: 
   email: 
   orcid: 0000-0002-6382-7211
@@ -56,6 +63,7 @@ bgoetz:
 
 jkasmanas:
   name: Jonas Coelho Kasmanas
+  role:
   github: 
   email: 
   orcid: 0000-0001-6513-5350
@@ -64,6 +72,7 @@ jkasmanas:
 
 pklemm:
   name: Paul M. J. Klemm
+  role:
   github: 
   email: 
   orcid: 0000-0002-3609-5713
@@ -72,6 +81,7 @@ pklemm:
 
 nkurtys:
   name: Natalie O. Kurtys
+  role: Web Developer
   github: nkurtys
   email: natalie_kurtys@hotmail.com
   orcid: 0000-0002-9876-5432
@@ -80,6 +90,7 @@ nkurtys:
 
 mlechner:
   name: Marcus Lechner
+  role:
   github: 
   email: 
   orcid: 0000-0001-9098-4960
@@ -88,6 +99,7 @@ mlechner:
 
 mmagel:
   name: Maja Magel
+  role:
   github: 
   email: 
   orcid: 0009-0004-2517-0791
@@ -96,6 +108,7 @@ mmagel:
 
 kmarkus:
   name: Katharina Markus
+  role:
   github: 
   email: 
   orcid: 0000-0002-9316-8982
@@ -104,6 +117,7 @@ kmarkus:
 
 rmueller:
   name: Rabea Müller
+  role:
   github: 
   email: 
   orcid: 0000-0002-3096-8237
@@ -112,6 +126,7 @@ rmueller:
 
 mmajid:
   name: Mahnoor Majid
+  role:
   github: 
   email: 
   orcid: 0000-0002-7327-6433
@@ -120,6 +135,7 @@ mmajid:
 
 uparmaksiz:
   name: Uta Parmaksiz
+  role:
   github: 
   email: 
   orcid: 0000-0002-0087-5056
@@ -128,6 +144,7 @@ uparmaksiz:
 
 cpauvert:
   name: Charlie Pauvert
+  role:
   github: 
   email: 
   orcid: 0000-0001-9832-2507
@@ -136,6 +153,7 @@ cpauvert:
 
 mrobbani:
   name: Mahdi Robbani
+  role: Web Developer
   github: mahdi-robbani
   email: 
   orcid:
@@ -144,6 +162,7 @@ mrobbani:
 
 ssaghaei:
   name: Shahram Saghaei
+  role:
   github: 
   email: 
   orcid: 0009-0005-5554-275X
@@ -152,6 +171,7 @@ ssaghaei:
 
 esmirnova:
   name: Ekaterina Smirnova
+  role:
   github: 
   email: 
   orcid:
@@ -160,6 +180,7 @@ esmirnova:
 
 cthoelken:
   name: Clemens Thölken
+  role:
   github: 
   email: 
   orcid: 0000-0003-4328-9193
@@ -168,6 +189,7 @@ cthoelken:
 
 jvandendorpe:
   name: Justine Vandendorpe
+  role: Editor
   github: jvddorpe
   email: 
   orcid: 0000-0002-9421-8582
@@ -176,6 +198,7 @@ jvandendorpe:
 
 mvockenhuber:
   name: Michael Vockenhuber
+  role:
   github: 
   email: 
   orcid: 0009-0006-8111-1723
