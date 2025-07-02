@@ -162,12 +162,12 @@ mrobbani:
 
 ssaghaei:
   name: Shahram Saghaei
-  role:
-  github: 
-  email: 
+  role: Developer
+  github: bio-informatician
+  email: shahram.saghaei@uni-jena.de
   orcid: 0009-0005-5554-275X
   wikidata: 
-  affiliation:
+  affiliation: Friedrich-Schiller-Universität Jena
 
 esmirnova:
   name: Ekaterina Smirnova
