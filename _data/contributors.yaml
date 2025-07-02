@@ -71,13 +71,13 @@ jkasmanas:
   affiliation:
 
 pklemm:
-  name: Paul M. J. Klemm
-  role:
-  github: 
+  name: Paul Klemm
+  role: Developer
+  github: pmjklemm
   email: 
   orcid: 0000-0002-3609-5713
-  wikidata:
-  affiliation:
+  wikidata: 
+  affiliation: UMR
 
 nkurtys:
   name: Natalie O. Kurtys
