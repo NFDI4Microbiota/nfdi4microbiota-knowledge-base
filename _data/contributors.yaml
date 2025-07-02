@@ -77,7 +77,7 @@ pklemm:
   email: 
   orcid: 0000-0002-3609-5713
   wikidata: 
-  affiliation: UMR
+  affiliation: Philipps-Universität Marburg
 
 nkurtys:
   name: Natalie O. Kurtys
@@ -90,12 +90,12 @@ nkurtys:
 
 mlechner:
   name: Marcus Lechner
-  role:
-  github: 
-  email: 
+  role: Coordinator
+  github: compbioldev 
+  email: lechner@staff.uni-marburg.de
   orcid: 0000-0001-9098-4960
   wikidata:
-  affiliation:
+  affiliation: Philipps-Universität Marburg
 
 mmagel:
   name: Maja Magel
@@ -203,4 +203,4 @@ mvockenhuber:
   email: 
   orcid: 0009-0006-8111-1723
   wikidata:
-  affiliation:
+  affiliation: Philipps-Universität Marburg
