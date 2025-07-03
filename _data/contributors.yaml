@@ -14,7 +14,7 @@ sboße:
   email: 
   orcid: 0009-0002-6461-8291
   wikidata:
-  affiliation:
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 ncassman:
   name: Noriko Cassman
@@ -35,13 +35,13 @@ ffoerster:
   affiliation:
 
 kfoerstner:
-  name: Konrad Förster
+  name: Konrad Förstner
   role:
   github: 
   email: 
   orcid: 0000-0002-1481-2996
   wikidata: Q18744528
-  affiliation:
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 cgonzalez:
   name: Catherine Gonzalez
@@ -59,7 +59,7 @@ bgoetz:
   email: 
   orcid: 0000-0002-6382-7211
   wikidata:
-  affiliation:
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 jkasmanas:
   name: Jonas Coelho Kasmanas
@@ -86,7 +86,7 @@ nkurtys:
   email: natalie_kurtys@hotmail.com
   orcid: 0000-0002-9876-5432
   wikidata: 
-  affiliation: ZB MED
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 mlechner:
   name: Marcus Lechner
@@ -113,7 +113,7 @@ kmarkus:
   email: 
   orcid: 0000-0002-9316-8982
   wikidata:
-  affiliation:
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 rmueller:
   name: Rabea Müller
@@ -140,7 +140,7 @@ uparmaksiz:
   email: 
   orcid: 0000-0002-0087-5056
   wikidata:
-  affiliation:
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 cpauvert:
   name: Charlie Pauvert
@@ -194,7 +194,7 @@ jvandendorpe:
   email: vandendorpe@zbmed.de
   orcid: 0000-0002-9421-8582
   wikidata: Q62930742
-  affiliation: ZB MED
+  affiliation: ZB MED - Information Centre for Life Sciences
 
 mvockenhuber:
   name: Michael Vockenhuber
