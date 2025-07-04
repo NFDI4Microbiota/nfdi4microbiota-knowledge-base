@@ -3,6 +3,7 @@ title: Viral purification from bacterial culture
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+authors:
 ---
 
 ## Protocol

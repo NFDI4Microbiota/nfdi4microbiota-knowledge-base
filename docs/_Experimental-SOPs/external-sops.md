@@ -4,6 +4,7 @@ category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: false
+authors:
 ---
 
 This page lists well-established and tested protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/). Both are collections of SOPs that are experimentally validated for their given fields, human and earth microbiome research respectively. 

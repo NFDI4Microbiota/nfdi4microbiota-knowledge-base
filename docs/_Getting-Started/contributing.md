@@ -7,6 +7,9 @@ authors:
    - jvandendorpe
    - nkurtys
    - mrobbani
+   - mmagel
+   - cthoelken
+
 ---
  
 ## Introduction

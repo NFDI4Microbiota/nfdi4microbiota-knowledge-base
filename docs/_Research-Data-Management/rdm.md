@@ -3,6 +3,8 @@ title: Research Data Management (RDM)
 category: Research-Data-Management
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
 ---
 
 ## Definition of Research Data Management (RDM)

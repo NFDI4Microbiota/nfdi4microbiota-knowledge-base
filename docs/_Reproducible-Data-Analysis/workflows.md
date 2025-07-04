@@ -4,6 +4,8 @@ category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
 redirect_from: /Reproducible-Data-Analysis
+authors:
+   - pklemm
 ---
 
 ## Introduction

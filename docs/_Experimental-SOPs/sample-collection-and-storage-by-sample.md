@@ -3,6 +3,8 @@ title: Sample Collection and Storage by Sample
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+authors:
+    - mmagel
 ---
 
 This page offers a short and concise overview on how to collect and store certain sample types. 

@@ -3,6 +3,8 @@ title: Collaboration Tools
 category: RDM-Share
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
 ---
 ## Types of Data That Can Be Shared
 * Primary / raw data

@@ -3,6 +3,7 @@ title: Metabolite extraction from adherent mammalian cells
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+authors:
 ---
 
 Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells {% cite Yuan_2012 %}

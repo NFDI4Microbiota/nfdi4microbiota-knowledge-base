@@ -4,6 +4,8 @@ category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: false
+authors:
+   - mmagel
 ---
 
 ## Metadata

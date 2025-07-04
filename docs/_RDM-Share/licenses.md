@@ -3,6 +3,10 @@ title: Licenses
 category: RDM-Share
 layout: default
 docs_css: markdown
+authors:
+   - mbole
+   - jvandendorpe
+   - cgonzalez
 ---
 
 

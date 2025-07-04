@@ -5,6 +5,8 @@ layout: default
 docs_css: markdown
 authors:
     - jvandendorpe
+    - cgonzalez
+    - cthoelken
 ---
 
 ## Introduction

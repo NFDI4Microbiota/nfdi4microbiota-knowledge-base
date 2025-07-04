@@ -3,6 +3,8 @@ title: Aruna Object Storage (AOS)
 category: RDM-Preserve
 layout: default
 docs_css: markdown
+authors:
+   - ffoerster
 ---
 
 ## Abstract

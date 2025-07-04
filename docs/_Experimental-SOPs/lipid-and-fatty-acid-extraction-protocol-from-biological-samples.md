@@ -3,6 +3,7 @@ title: Lipid and fatty acid extraction protocol from biological samples
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+authors:
 ---
 
 Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples {% cite Bird_2011 %}

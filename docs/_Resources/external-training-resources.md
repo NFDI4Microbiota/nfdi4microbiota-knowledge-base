@@ -4,6 +4,9 @@ category: Resources
 layout: default
 docs_css: markdown
 redirect_from: /Resources
+authors:
+   - mbole
+
 ---
 *Disclaimer:* NFDI4Microbiota does not endorse or sponsor any of the resources cited below.
 

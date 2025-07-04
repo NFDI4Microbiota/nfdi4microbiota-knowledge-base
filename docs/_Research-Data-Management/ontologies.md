@@ -6,6 +6,8 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 empty: false
 hide: false
+authors:
+   - mbole
 ---
 
 ## **Introduction**

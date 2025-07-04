@@ -3,6 +3,9 @@ title: Data Quality Control
 category: RDM-Collect
 layout: default
 docs_css: markdown
+authors:
+   - pklemm
+
 ---
 
 # Introduction

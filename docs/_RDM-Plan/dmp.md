@@ -3,6 +3,10 @@ title: Data Management Plans (DMPs)
 category: RDM-Plan
 layout: default
 docs_css: markdown
+authors:
+   - pklemm
+   - jvandendorpe
+   - kmarkus
 ---
 
 ## Introduction

@@ -3,6 +3,9 @@ title: Data Repositories
 category: RDM-Share
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
+   - kmarkus
 ---
 
 ## Definition of a Data Repository
