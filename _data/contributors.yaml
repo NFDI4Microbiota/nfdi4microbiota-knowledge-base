@@ -1,7 +1,7 @@
 mbole:
   name: Martin Bole
   role:
-  github: 
+  github: MartinBoleSlo
   email: 
   orcid: 0009-0004-9189-8852
   wikidata:
@@ -28,7 +28,7 @@ ncassman:
 ffoerster:
   name: Frank Förster
   role:
-  github: 
+  github: greatfireball
   email: 
   orcid: 0000-0003-1655-0931
   wikidata: Q42155371
@@ -37,7 +37,7 @@ ffoerster:
 kfoerstner:
   name: Konrad Förstner
   role:
-  github: 
+  github: konrad
   email: 
   orcid: 0000-0002-1481-2996
   wikidata: Q18744528
@@ -55,7 +55,7 @@ cgonzalez:
 bgoetz:
   name: Barbara Götz
   role:
-  github: 
+  github: babs1984
   email: 
   orcid: 0000-0002-6382-7211
   wikidata:
@@ -65,7 +65,7 @@ jkasmanas:
   name: Jonas Coelho Kasmanas
   role:
   github: 
-  email: 
+  email: JotaKas
   orcid: 0000-0001-6513-5350
   wikidata:
   affiliation:
@@ -127,7 +127,7 @@ rmueller:
 mmajid:
   name: Mahnoor Majid
   role:
-  github: 
+  github: Mahnoor-design
   email: 
   orcid: 0000-0002-7327-6433
   wikidata:
@@ -136,7 +136,7 @@ mmajid:
 uparmaksiz:
   name: Uta Parmaksiz
   role:
-  github: 
+  github: UParmaksiz
   email: 
   orcid: 0000-0002-0087-5056
   wikidata:
@@ -145,7 +145,7 @@ uparmaksiz:
 cpauvert:
   name: Charlie Pauvert
   role:
-  github: 
+  github: cpauvert
   email: 
   orcid: 0000-0001-9832-2507
   wikidata: Q103017355
@@ -181,7 +181,7 @@ esmirnova:
 cthoelken:
   name: Clemens Thölken
   role:
-  github: 
+  github: thoelken
   email: 
   orcid: 0000-0003-4328-9193
   wikidata: 
@@ -199,7 +199,7 @@ jvandendorpe:
 mvockenhuber:
   name: Michael Vockenhuber
   role:
-  github: 
+  github: nighthog80
   email: michael.vockenhuber@uni-marburg.de
   orcid: 0009-0006-8111-1723
   wikidata:

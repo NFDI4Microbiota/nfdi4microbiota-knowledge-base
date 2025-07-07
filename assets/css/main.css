@@ -25,15 +25,21 @@ h5 {
   
 }
 .hover-warning:hover {
-  background-color: #f9c31b !important;
-  color: white;
+  color: var(--bs-emphasis-color);
+  background-color: var(--bd-accent);
   transition: color 0.2s ease-in-out;
 }
 
 /* !important needed to overwrite gray highlight */ 
 .btn-toggle:hover {
-  background-color: #f9c31b !important;
-  color: white !important;
+    color: var(--bs-emphasis-color);
+    background-color: var(--bd-accent)
+}
+
+.btn-toggle:focus,
+.btn-toggle.active {
+    color:  #ffb12d; /* var(--bs-emphasis-color); */
+    background-color: var(--bd-grey)
 }
 
 .badge {
