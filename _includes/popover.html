@@ -7,7 +7,9 @@
         data-bs-content='
             <div class="position-relative text-center">
                 <div> 
-                <img src="https://github.com/{{ author.github }}.png" alt="assets/img/usericon.png" class="rounded-circle mb-2" width="144" height="144">
+                <img src="https://github.com/{{ author.github }}.png" 
+                     onerror="this.onerror=null; this.src=&quot;{{ "/assets/img/usericon.png" | relative_url }}&quot;" 
+                     class="rounded-circle mb-2" width="144" height="144">
                 {% if author.role %}
                 <span class="badge position-absolute top-0 end-0">{{ author.role }}</span>
                 {% endif %}
@@ -34,7 +36,9 @@
                 </div>
             </div>
             '>
-        <img src="https://github.com/{{ author.github }}.png" alt="assets/img/usericon.png" class="p-0 rounded-circle" width="30px" height="30px"> {{ author.name }}
+        <img src="https://github.com/{{ author.github }}.png" class="p-0 rounded-circle" width="30px" height="30px"
+        onerror="this.onerror=null; this.src=&quot;{{ '/assets/img/usericon.png' | relative_url }}&quot;"
+        /> {{ author.name }}
     </button>
     {% endif %}
     {% endfor %}
