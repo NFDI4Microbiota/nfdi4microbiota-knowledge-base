@@ -69,16 +69,16 @@ See tables at the end of each measure in the [proposal](https://riojournal.com/a
 
 ### Key Performance Indicators (KPIs)
 
-a)Completed projects  
-b)Amount of data collected  
-c)Database entries added  
-d)Access to a central information hub  
-e)Download and usage of application programming interfaces (APIs)  
-f)User help desk requests  
-g)# of publications  
-h)# of training  
-i)# of ambassadors  
-j)# of commits to the knowledge base
+a) Completed projects  
+b) Amount of data collected  
+c) Database entries added  
+d) Access to a central information hub  
+e) Download and usage of application programming interfaces (APIs)  
+f) User help desk requests  
+g) Number of publications  
+h) Number of training  
+i) Number of ambassadors  
+j) Number of commits to the knowledge base
 
 
 ## Governance of NFDI4Microbiota
