@@ -3,6 +3,8 @@ title: Collaboration Tools
 category: RDM-Share
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
 ---
 ## Types of Data That Can Be Shared
 * Primary / raw data
@@ -15,7 +17,7 @@ docs_css: markdown
 
 ### General-Purpose Collaboration Tools
 * [B2DROP](https://eudat.eu/services/userdoc/b2drop)
-* Open Science Framework ([OSF](https://osf.io/dashboard))
+* Open Science Framework ([OSF](https://osf.io/)
 * [SciFlow](https://www.sciflow.net/en/)
 * [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)
 * [GitHub](https://github.com/)
@@ -34,8 +36,7 @@ docs_css: markdown
 * Increase the speed of discovery and the knowledge creation process.
 * Internationalize your research and be inclusive.
 
-  { % cite: soiland-reye_2022 %}
-  { % cite: sielemann_2020 %}
----
+  {% cite soiland-reye_2022 %}
+  {% cite sielemann_2020 %}
 
 

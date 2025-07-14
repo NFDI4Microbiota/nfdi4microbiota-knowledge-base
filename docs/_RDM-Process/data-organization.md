@@ -3,6 +3,8 @@ title: Data Organization
 category: RDM-Process
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
 ---
 
 ## Motivation

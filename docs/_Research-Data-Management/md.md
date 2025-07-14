@@ -6,6 +6,14 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 empty: false
 hide: false
+authors:
+   - jvandendorpe
+   - kfoerstner
+   - cpauvert
+   - mbole
+   - mmagel
+   - pklemm
+   - cthoelken
 ---
 
 

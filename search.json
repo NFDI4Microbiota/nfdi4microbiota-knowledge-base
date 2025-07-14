@@ -1,25 +1,32 @@
 ---
 layout: none
 ---
+{% assign posts = site.Getting-Started | 
+                  concat: site.Research-Data-Management | 
+                  concat: site.RDM-Plan | 
+                  concat: site.RDM-Collect | 
+                  concat: site.RDM-Process | 
+                  concat: site.RDM-Preserve | 
+                  concat: site.RDM-Share | 
+                  concat: site.RDM-Reuse | 
+                  concat: site.Reproducible-Data-Analysis | 
+                  concat: site.Software-Development | 
+                  concat: site.Experimental-SOPs | 
+                  concat: site.Resources | 
+                  concat: site.How-We-Operate
+%}
+
+{% assign posts = site.How-We-Operate %}
+
 [
-  {% assign posts = site.Getting-Started | 
-                    concat: site.Research-Data-Management | 
-                    concat: site.RDM-Plan | 
-                    concat: site.RDM-Collect | 
-                    concat: site.RDM-Process | 
-                    concat: site.RDM-Preserve | 
-                    concat: site.RDM-Share | 
-                    concat: site.RDM-Reuse | 
-                    concat: site.Software-Development | 
-                    concat: site.Resources %}
-  {% for post in posts %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  {% for post in posts %}{% unless post.hide %}
+      {
+        "title"    : "{{ post.title | escape }}",
+        "category" : "{{ post.category }}",
+        "tags"     : "{{ post.tags | join: ', ' }}",
+        "url"      : "{{ site.baseurl }}{{ post.url }}",
+        "date"     : "{{ post.date }}",
+        "content"  : "{{ post.content | strip_html | strip_newlines }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endunless %}{% endfor %}
 ]

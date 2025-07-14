@@ -6,4 +6,7 @@ docs_css: markdown
 redirect_from: /RDM-Collect
 empty: true
 hide: true
+authors:
+   - jvandendorpe
+
 ---

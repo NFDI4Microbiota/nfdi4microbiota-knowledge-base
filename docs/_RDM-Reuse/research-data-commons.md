@@ -3,6 +3,8 @@ title: Research Data Commons (RDC)
 category: RDM-Reuse
 layout: default
 docs_css: markdown
+authors:
+   - pklemm
 ---
 
 ## Overview

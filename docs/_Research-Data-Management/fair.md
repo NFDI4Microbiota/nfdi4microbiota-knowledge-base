@@ -3,6 +3,9 @@ title: FAIR Data Principles
 category: Research-Data-Management
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
+
 ---
 
 ## Why the Fair Data Principles Matter in Microbiology
