@@ -29,7 +29,7 @@ Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp
 ### Services to Search for Data
 
 #### Resources to Facilitate Data Reuse in Microbiology
-Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the [data repositories section above]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
+Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
 | Domain, Data Type| Data repository | FAIRsharing | re3data | 
 |---|---|---|---|
