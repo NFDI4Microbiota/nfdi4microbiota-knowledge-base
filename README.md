@@ -1,7 +1,7 @@
 # NFDI4Microbiota Knowledge Base
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
-
+[![Deploy to DeNBI Faroe server](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/actions/workflows/deploy_to_denbi_server.yml/badge.svg)](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/actions/workflows/deploy_to_denbi_server.yml)
 ## What is the NFDI4Microbiota Knowledge Base
 
 This knowledge base is a collection of documents and references important to the [NFDI4Microbiota](https://nfdi4microbiota.de/) consortium. It is also a collection of internal and external knowledge we wish to share with the Microbiota research community, and we welcome any contributions by them.
