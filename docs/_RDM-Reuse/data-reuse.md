@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 redirect_from: /Research-Data-Management
 authors:
-   - jvddorpe
+   - jvandendorpe
 ---
 
 ## Data Discovery
