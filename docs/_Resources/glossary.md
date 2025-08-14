@@ -5,7 +5,7 @@ layout: default
 docs_css: markdown
 redirect_from: /Resources
 authors:
-   - jvddorpe
+   - jvandendorpe
 ---
 
 ## A
