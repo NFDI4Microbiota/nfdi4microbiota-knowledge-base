@@ -9,7 +9,7 @@ hide: false
 authors:
    - cgonzalez
    - cpauvert
-   - jvddorpe
+   - jvandendorpe
 ---
 
 ## Definition of Persistent Identifiers (PIDs)
