@@ -1,27 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from sys import exit
 from typing import List
 
 BASE_URL = "https://nfdi4microbiota.github.io"
 HOME_URL = f"{BASE_URL}/nfdi4microbiota-knowledge-base/"
 
+
 def get_page_urls(url: str):
     response = requests.get(url)
-    parsed_html = BeautifulSoup(response.text, 'html.parser')
-    #print(parsed_html)
-    page_urls = parsed_html(id = "sidebar-link")
-    hrefs = [f'{BASE_URL}{url.get("href")}' for url in page_urls]
+    parsed_html = BeautifulSoup(response.text, "html.parser")
+    # print(parsed_html)
+    page_urls = parsed_html(id="sidebar-link")
+    hrefs = [f"{BASE_URL}{url.get('href')}" for url in page_urls]
     return hrefs
+
 
 def check_urls(page_urls: List[str]):
     page_to_broken_urls = {}
     for href in tqdm(page_urls):
         response = requests.get(href)
-        assert response.status_code == 200, f"Got status code {response.status_code} from link: {href}"
-        parsed_html = BeautifulSoup(response.text, 'html.parser')
-        markdown_content = parsed_html.find('div', attrs={"id": "markdown-content"})
+        assert response.status_code == 200, (
+            f"Got status code {response.status_code} from link: {href}"
+        )
+        parsed_html = BeautifulSoup(response.text, "html.parser")
+        markdown_content = parsed_html.find("div", attrs={"id": "markdown-content"})
         anchors = markdown_content.findAll("a")
         urls = [anchor.get("href") for anchor in anchors]
         broken_urls = []
@@ -48,10 +51,12 @@ def check_urls(page_urls: List[str]):
         page_to_broken_urls[href] = broken_urls
     return page_to_broken_urls
 
+
 def main():
     page_urls = get_page_urls(HOME_URL)
     broken_urls = check_urls(page_urls)
     print(broken_urls)
+
 
 if __name__ == "__main__":
     main()
