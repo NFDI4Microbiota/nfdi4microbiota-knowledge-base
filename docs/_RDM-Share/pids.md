@@ -7,9 +7,9 @@ redirect_from: /RDM-Share
 empty: false
 hide: false
 authors:
+   - cgonzalez
    - cpauvert
    - jvandendorpe
-   - cgonzalez
 ---
 
 ## Definition of Persistent Identifiers (PIDs)
