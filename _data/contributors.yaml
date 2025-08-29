@@ -45,12 +45,12 @@ kfoerstner:
 
 cgonzalez:
   name: Catherine Gonzalez
-  role:
+  role: Editor, Data Steward
   github: catgonzftw1 
   email: 
   orcid: 0000-0002-7585-9990
   wikidata:
-  affiliation:
+  affiliation: IT Center, RWTH Universtiy Aachen
 
 bgoetz:
   name: Barbara Götz
@@ -99,12 +99,12 @@ mlechner:
 
 mmagel:
   name: Maja Magel
-  role:
+  role: Editor
   github: magelm
-  email: 
+  email: mmagel@ukaachen.de
   orcid: 0009-0004-2517-0791
   wikidata:
-  affiliation:
+  affiliation: University Hospital of RWTH Aachen
 
 kmarkus:
   name: Katharina Markus
@@ -144,12 +144,12 @@ uparmaksiz:
 
 cpauvert:
   name: Charlie Pauvert
-  role:
+  role: Bioinformatician
   github: cpauvert
   email: 
   orcid: 0000-0001-9832-2507
   wikidata: Q103017355
-  affiliation:
+  affiliation: University Hospital of RWTH Aachen
 
 mrobbani:
   name: Mahdi Robbani
@@ -204,3 +204,12 @@ mvockenhuber:
   orcid: 0009-0006-8111-1723
   wikidata:
   affiliation: Philipps-Universität Marburg
+
+tclavel:
+  name: Thomas Clavel
+  role: 
+  github: 
+  email: tclavel@ukaachen.de
+  orcid: 0000-0002-7229-5595
+  wikidata:
+  affiliation: University Hospital of RWTH Aachen
