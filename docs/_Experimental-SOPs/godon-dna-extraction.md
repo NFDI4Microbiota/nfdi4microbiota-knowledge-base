@@ -42,6 +42,7 @@ temperature
 
 ### DNA Isolation: 
 **For enzymatic extraction**
+
 Prepare Lysozyme-Solution (TE Buffer with 15 µg/µl Lysozyme): 
     mass Lysozyme = (#Samples(+1)) * 7.5 mg 
     Volume TE buffer = (#Samples(+1)) * 0.5 ml 
@@ -54,6 +55,7 @@ Weigh lysozyme into TE buffer (leave lysozyme stock on ice!)
 Continue with step 2 below 
 
 **Without enzymatic extraction**
+
 For extraction without the enzymatic step, resuspend the bacterial pellet in 600 µl DNA Stool Stabilizer or use 
 600µL of faecal sample in DNA stabilizer 
 2. Transfer sample into bead-beater-tubes (with 500 mg+/- 10 mg Zirconia/Silicia beads, previously autoclaved)  
