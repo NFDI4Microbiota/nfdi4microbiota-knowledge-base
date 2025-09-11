@@ -22,7 +22,3 @@ This page lists well-established and tested protocols from the International Hum
  DNA Sequencing | 16S Illumina Amplicon Protocol | Earth Microbiome | [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-16s-illumina-amplicon-protocol-kqdg3dzzl25z/v2) 
  DNA Sequencing | 18S Illumina Amplicon Protocol | Earth Microbiome | [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-18s-illumina-amplicon-protocol-ewov1b6pgr24/v2) 
  DNA Sequencing | ITS Illumina Amplicon Protocol | Earth Microbiome | [ITS Illumina Amplicon Protocol](https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-14egnqypg5dy/v1) 
-
-
-|ITS Illumina Amplicon Protocol| Earth Microbiome | DNA Sequencing |  [ITS Illumina Amplicon Protocol](https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-14egnqypg5dy/v1) |
-{: .table .table-hover}
