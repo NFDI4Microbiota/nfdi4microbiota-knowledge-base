@@ -22,12 +22,12 @@ Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analys
 ---
 
 For each sample (001-NNN), label 50 x 1,5 mL Eppendorf Tubes as follows (example for project acronym 
-“Cultimic”): 
-C Cultimic-001 15x  (Cultivation) 
-S Cultimic-001 5x   (Sequencing) 
-U Cultimic-001 5x   (Untreated) 
-F Cultimic-001 20x  (FACS) 
-M Cultimic-001 5x   (Metabolomics) 
+“Cultimic”): <br>
+C Cultimic-001 15x  (Cultivation) <br>
+S Cultimic-001 5x   (Sequencing) <br>
+U Cultimic-001 5x   (Untreated) <br>
+F Cultimic-001 20x  (FACS) <br>
+M Cultimic-001 5x   (Metabolomics) <br>
 
 Work hereon under the fume hood due to smell. 
 Take the stool sample in flexible plastic bag out of the plastic container and homogenise by kneading the 
@@ -65,7 +65,7 @@ Transfer all samples to -80°C freezer immediately after preparation.
 Collect questionnaires and enter metadata into the protected, study-specific spreadsheet.
 
 
-##Material
+## Material
 - Stomacher® 400 Classic Bags- Standard Bag Irradiated Sterile; VWR (BA6041/5) 
 -  BD GasPak™ EZ Anaerobe Pouch System with indicator; Becton Dickinson (260683) 
 - Probengefäße White 1000 ml 130 mm(80), VWR (216-4278) 
