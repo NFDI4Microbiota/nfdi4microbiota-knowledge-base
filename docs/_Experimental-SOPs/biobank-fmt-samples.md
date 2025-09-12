@@ -37,21 +37,13 @@ FMT medium; let larger debris set for 1 min; distribute into 15 x C-tubes, 1 mL 
 with a wide opening to avoid clogging. (Alternatively, cut the end of 1000µL tips with a sterile 
 scissor)  
 [Store 100µL of FMT medium as such to serve as negative control]. 
-
-
 2. **Sequencing**: mix approx. 1 g of stool with 6 mL DNA stabilizer; homogenize by vortexing and 
 distribute into 5 x S-tubes, 1 mL each; use tips with a wide opening to avoid clogging. 
 [Store 600µL of DNA stabilizer as such to serve as negative control]. 
-
-
 3. **Untreated** (for any types of analysis for which additional reagents confound the results): With a 
 sterile spatula, fill 5 x U-tubes with ca. 600 mg of untreated stool sample. 
-
-
 4. **Flow Cytometry** (equivalent to untreated): With a spatula, fill 20 x F-tubes with ca. 100 mg of 
 untreated stool sample. 
-
-
 5. **Metabolomics (faecal water)**: Weigh a 50 mL falcon tube. Fill it with approx. 1 g of stool. Weigh the 
 tube again and calculate the difference to determine the exact amount of stool. Dilute with 4 mL of 
 water (molecular biology grade, DEPC treated, and filter sterilised). Distribute into 2 mL Eppendorf 
@@ -67,14 +59,14 @@ Collect questionnaires and enter metadata into the protected, study-specific spr
 
 ## Material
 - Stomacher® 400 Classic Bags- Standard Bag Irradiated Sterile; VWR (BA6041/5) 
--  BD GasPak™ EZ Anaerobe Pouch System with indicator; Becton Dickinson (260683) 
+- BD GasPak™ EZ Anaerobe Pouch System with indicator; Becton Dickinson (260683) 
 - Probengefäße White 1000 ml 130 mm(80), VWR (216-4278) 
--  Nitril Gloves 
--  Stool DNA Stabilizer; invitek molecular (1038111100) 
--  Eppendorf tubes 1.5 mL and 2 mL 
--  Water for molecular biology, DEPC-treated and filter-sterilised 
--  FMT medium (see separate protocol) 
--  0.20-µm sterile syringe filter; Corning inc. (431219) 
--  1 mL syringes 
--  50 mL Falcon tubes 
--  Pipet tips with wide opening 1250µL; VWR (613-0751)
+- Nitril Gloves 
+- Stool DNA Stabilizer; invitek molecular (1038111100) 
+- Eppendorf tubes 1.5 mL and 2 mL 
+- Water for molecular biology, DEPC-treated and filter-sterilised 
+- FMT medium (see separate protocol) 
+- 0.20-µm sterile syringe filter; Corning inc. (431219) 
+- 1 mL syringes 
+- 50 mL Falcon tubes 
+- Pipet tips with wide opening 1250µL; VWR (613-0751)

@@ -20,24 +20,18 @@ Note: Keep diluents in chilled condition (0-4oC)
 
 ## Sample preparation and metabolite extraction
 
-1.Sample Extraction (For Indole acetate metabolites; IAA):  20 to 50 mg of tissues was mixed with 1 ml cold extraction buffer and homogenized using a Mixer Mill MM301 bead mill (Retsch GmbH (http://www.retsch.com)) at a frequency of 25 Hz for 5 min after adding 2 mm ceria-stabilized zirconium oxide beads. <br>
-
-2.Add 1 μg of 13C indole acetate (or other suitable internal standards) and vortex well. <br>
-
-3.Incubated this plant extracts at 4°C with continuous shaking (20 min) and centrifuge (15 min, 23 000 g at 4°C) <br>
-
-4.Transfer the supernatant to a new vial and adjust pH to 2.7 with 1 M HCl <br>
-
-5.SPE procedure:<br>
-a.Prepare SPE vacuum assembly with HLB (30mg) column cartridges.  <br>
-b.Condition SPE column with 1 mL of methanol and 1mL of water<br>
-c.Equilibrate the column with 250 μl of 5 mM HCl. (Do not let column dry)<br>
-d.Load equilibrate column with 0.5 ml loading buffer <br>
-e.Load 0.5 ml Sample onto the SPE column, and mix intensely with the loading buffer. Pass the mixture slowly through the HLB sorbent immediately.<br>
-f.Wash the column with 2 ml of 5% methanol.<br>
-g.Put clean glass tubes into the manifold rack, and then elute the sample from the column with 2 ml of 80% methanol.<br>
-h.Collect sample eluent and evaporate the samples to dryness in a SpeedVac concentrator or under nitrogen stream at room temperature.<br>
-
-6.Store samples at -80°C till further analysis or ship in dry ice.<br>
-
-7.Sample are reconstituted in mobile phase (or 50% methanol) before analysis 
+1. Sample Extraction (For Indole acetate metabolites; IAA):  20 to 50 mg of tissues was mixed with 1 ml cold extraction buffer and homogenized using a Mixer Mill MM301 bead mill (Retsch GmbH (http://www.retsch.com)) at a frequency of 25 Hz for 5 min after adding 2 mm ceria-stabilized zirconium oxide beads.
+2. Add 1 μg of 13C indole acetate (or other suitable internal standards) and vortex well.
+3. Incubated this plant extracts at 4°C with continuous shaking (20 min) and centrifuge (15 min, 23 000 g at 4°C)
+4. Transfer the supernatant to a new vial and adjust pH to 2.7 with 1 M HCl
+5. SPE procedure:
+    - Prepare SPE vacuum assembly with HLB (30mg) column cartridges
+    - Condition SPE column with 1 mL of methanol and 1mL of water
+    - Equilibrate the column with 250 μl of 5 mM HCl. (Do not let column dry)
+    - Load equilibrate column with 0.5 ml loading buffer
+    - Load 0.5 ml Sample onto the SPE column, and mix intensely with the loading buffer. Pass the mixture slowly through the HLB sorbent immediately
+    - Wash the column with 2 ml of 5% methanol
+    - Put clean glass tubes into the manifold rack, and then elute the sample from the column with 2 ml of 80% methanol.
+    - Collect sample eluent and evaporate the samples to dryness in a SpeedVac concentrator or under nitrogen stream at room temperature.
+6. Store samples at -80°C till further analysis or ship in dry ice.
+7. Sample are reconstituted in mobile phase (or 50% methanol) before analysis 
