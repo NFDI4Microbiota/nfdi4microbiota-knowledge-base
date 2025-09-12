@@ -80,5 +80,5 @@ Data types in microbiology include the following:
 * Scientific texts
 * Semantic data
 * Species interaction data (e.g. physical microbial interaction data, host-microbe interaction data)
-* Standardised bacterial information
+* Standardized bacterial information
 * Vertebrate-virus network
