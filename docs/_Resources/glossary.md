@@ -16,7 +16,7 @@ authors:
 * **Backup:** practice of keeping extra copies of your research data in a separate physical or cloud location from your storage files.
 
 ## C
-* **Controlled vocabulary:** a standardised and organised arrangement of words and phrases used to index and/or retrieve content through browsing and searching. A controlled vocabulary contains predefined, preferred and variant terms and is therefore used to describe a particular domain of knowledge (i.e. it has a defined scope). The use of a controlled vocabulary during the creation of data or metadata supports consistency and accuracy. The terms are usually presented in an alphabetical list of terms and include authority files, taxonomies, term lists and thesauri.
+* **Controlled vocabulary:** a standardized and organised arrangement of words and phrases used to index and/or retrieve content through browsing and searching. A controlled vocabulary contains predefined, preferred and variant terms and is therefore used to describe a particular domain of knowledge (i.e. it has a defined scope). The use of a controlled vocabulary during the creation of data or metadata supports consistency and accuracy. The terms are usually presented in an alphabetical list of terms and include authority files, taxonomies, term lists and thesauri.
 * **Custom code & scripts:** text-based commands used via a command-line interface.
 
 ## D
@@ -51,7 +51,7 @@ authors:
 * **Literate programming:** code intermingled within a narrative of the scientific analysis.
 
 ## M
-* **Metadata:** data about data. It is a standardised description of the data in a formal, human- and machine-readable structure. Metadata is considered a subset of documentation as it describes, explains, locates, or otherwise facilitates the retrieval, use, or management of a resource such as a dataset.
+* **Metadata:** data about data. It is a standardized description of the data in a formal, human- and machine-readable structure. Metadata is considered a subset of documentation as it describes, explains, locates, or otherwise facilitates the retrieval, use, or management of a resource such as a dataset.
 
 ## N
 * **Narrative description:** detailed, written description of computational analyses.
