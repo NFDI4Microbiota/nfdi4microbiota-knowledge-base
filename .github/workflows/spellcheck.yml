@@ -45,7 +45,7 @@ jobs:
       uses: rojopolis/spellcheck-github-actions@v0
       with:
         task_name: Markdown
-        config_path: .github/workflows/spellcheck_config.yml
+        config_path: .github/spellcheck_config.yml
         source_files: ${{ steps.format_files.outputs.files }}
         output_file: spellcheck-output.txt
 
