@@ -1,0 +1,215 @@
+mbole:
+  name: Martin Bole
+  role:
+  github: MartinBoleSlo
+  email: tini.bole@gmail.com
+  orcid: 0009-0004-9189-8852
+  wikidata:
+  affiliation: UFZ - Helmholtz Centre for Environmental Research 
+
+sboße:
+  name: Sophie Boße
+  role:
+  github: 
+  email: 
+  orcid: 0009-0002-6461-8291
+  wikidata:
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+ncassman:
+  name: Noriko Cassman
+  role:
+  github: 
+  email: 
+  orcid: 0000-0003-1655-0931
+  wikidata:
+  affiliation:
+
+ffoerster:
+  name: Frank Förster
+  role:
+  github: greatfireball
+  email: 
+  orcid: 0000-0003-1655-0931
+  wikidata: Q42155371
+  affiliation:
+
+kfoerstner:
+  name: Konrad Förstner
+  role:
+  github: konrad
+  email: 
+  orcid: 0000-0002-1481-2996
+  wikidata: Q18744528
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+cgonzalez:
+  name: Catherine Gonzalez
+  role: Editor, Data Steward
+  github: catgonzftw1 
+  email: c.gonzalez@itc.rwth-aachen.de
+  orcid: 0000-0002-7585-9990
+  wikidata:
+  affiliation: IT Center, RWTH Universtiy Aachen
+
+bgoetz:
+  name: Barbara Götz
+  role:
+  github: babs1984
+  email: 
+  orcid: 0000-0002-6382-7211
+  wikidata:
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+jkasmanas:
+  name: Jonas Coelho Kasmanas
+  role:
+  github: 
+  email: JotaKas
+  orcid: 0000-0001-6513-5350
+  wikidata:
+  affiliation:
+
+pklemm:
+  name: Paul Klemm
+  role: Developer
+  github: pmjklemm
+  email: 
+  orcid: 0000-0002-3609-5713
+  wikidata: 
+  affiliation: Philipps-Universität Marburg
+
+nkurtys:
+  name: Natalie O. Kurtys
+  role: Web Developer
+  github: nkurtys
+  email: natalie_kurtys@hotmail.com
+  orcid: 0000-0002-9876-5432
+  wikidata: 
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+mlechner:
+  name: Marcus Lechner
+  role: Coordinator
+  github: compbioldev 
+  email: lechner@staff.uni-marburg.de
+  orcid: 0000-0001-9098-4960
+  wikidata:
+  affiliation: Philipps-Universität Marburg
+
+mmagel:
+  name: Maja Magel
+  role: Editor
+  github: magelm
+  email: mmagel@ukaachen.de
+  orcid: 0009-0004-2517-0791
+  wikidata:
+  affiliation: University Hospital of RWTH Aachen
+
+kmarkus:
+  name: Katharina Markus
+  role:
+  github: ka-markus
+  email: 
+  orcid: 0000-0002-9316-8982
+  wikidata:
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+rmueller:
+  name: Rabea Müller
+  role:
+  github: RabeaMue
+  email: rabea.m@live.de
+  orcid: 0000-0002-3096-8237
+  wikidata: Q95461538
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+mmajid:
+  name: Mahnoor Majid
+  role:
+  github: Mahnoor-design
+  email: 
+  orcid: 0000-0002-7327-6433
+  wikidata:
+  affiliation:
+
+uparmaksiz:
+  name: Uta Parmaksiz
+  role:
+  github: UParmaksiz
+  email: 
+  orcid: 0000-0002-0087-5056
+  wikidata:
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+cpauvert:
+  name: Charlie Pauvert
+  role: Bioinformatician
+  github: cpauvert
+  email: 
+  orcid: 0000-0001-9832-2507
+  wikidata: Q103017355
+  affiliation: University Hospital of RWTH Aachen
+
+mrobbani:
+  name: Mahdi Robbani
+  role: Web Developer
+  github: mahdi-robbani
+  email: 
+  orcid:
+  wikidata: 
+  affiliation:
+
+ssaghaei:
+  name: Shahram Saghaei
+  role: Developer
+  github: bio-informatician
+  email: shahram.saghaei@uni-jena.de
+  orcid: 0009-0005-5554-275X
+  wikidata: 
+  affiliation: Friedrich-Schiller-Universität Jena
+
+esmirnova:
+  name: Ekaterina Smirnova
+  role:
+  github: 
+  email: 
+  orcid:
+  wikidata: 
+  affiliation:
+
+cthoelken:
+  name: Clemens Thölken
+  role:
+  github: thoelken
+  email: 
+  orcid: 0000-0003-4328-9193
+  wikidata: 
+  affiliation:
+
+jvandendorpe:
+  name: Justine Vandendorpe
+  role: Editor
+  github: jvddorpe
+  email: vandendorpe@zbmed.de
+  orcid: 0000-0002-9421-8582
+  wikidata: Q62930742
+  affiliation: ZB MED - Information Centre for Life Sciences
+
+mvockenhuber:
+  name: Michael Vockenhuber
+  role:
+  github: nighthog80
+  email: michael.vockenhuber@uni-marburg.de
+  orcid: 0009-0006-8111-1723
+  wikidata:
+  affiliation: Philipps-Universität Marburg
+
+tclavel:
+  name: Thomas Clavel
+  role: 
+  github: 
+  email: tclavel@ukaachen.de
+  orcid: 0000-0002-7229-5595
+  wikidata:
+  affiliation: University Hospital of RWTH Aachen

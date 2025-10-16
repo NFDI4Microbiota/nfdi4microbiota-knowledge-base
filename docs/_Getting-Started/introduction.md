@@ -5,22 +5,7 @@ layout: default
 docs_css: markdown
 ---
 
-<!-- <div class="bd-intro pt-2 ps-lg-2">
-                <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
-                    <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
-                            href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base"
-                            title="View and edit this file on GitHub" target="_blank" rel="noopener">
-                            View on GitHub
-                        </a>
-                    </div>
-                    <h1 class="bd-title mb-0" id="content">Introduction</h1>
-                </div>
-                
-
-</div> -->
-
-## NFDI4Microbiota - <small class="text-muted">Democratize access to microbiota data and high-end computational analyses</small>
-
+## NFDI4Microbiota - <small class="text-muted">Democratize access to microbiome data and high-end computational analyses</small>
 
 NFDI4Microbiota is a consortium that is part of the German NFDI (National research Data Infrastructure), aimed at advancing microbiological research through digital transformation. 
 
@@ -32,7 +17,7 @@ Our mission is to be the central hub in Germany for supporting the microbiology 
 
 The vision of the NFDI4Microbiota consortium is that researchers in microbiology (including bacteriology, virology, protistology, mycology and parasitology) can translate research data easily into a deep understanding of microbial species and their interactions on a molecular level.
 
-### What we aim and strive for 
+### What we aim and strive for
 
 We aim to foster a cultural shift towards open science and reproducible research by promoting the FAIR principles, that are, Findable, Accessible, Interoperable, and Reusable research. We offer training to enhance researchers' skills and data literacy, thereby improving the overall quality of research. By integrating microbial expertise, we aim to augment the value of other NFDI consortia and strengthen connections within the national and international microbiology communities.
 
@@ -40,12 +25,9 @@ We strive to improve research processes by organizing and linking microbial (met
 
 ### Where to find us
 
-More information on how to contribute to the consortium, participate in coffee talks, become an ambasador or take part in training events, visit the [NFDI4Microbiota webpage](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Helpdesk](https://nfdi4microbiota.de/contact-form.html) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de). 
+More information on how to contribute to the consortium, participate in coffee talks, become an ambassador or take part in training events, visit the [NFDI4Microbiota web page](https://nfdi4microbiota.de/). If you have questions feel free to contact us via the [Help desk](https://nfdi4microbiota.de/contact-form.html) or contact us directly via [email](mailto:helpdesk@nfdi4microbiota.de).
 
-By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found bellow the Helpdesk contact form.
-
-
-
+By sending an email you agree with the NFDI4Microbiota Consortium Privacy Policy, found below the Help desk contact form.
 
 ## What is this Knowledge Base about?
 
@@ -72,10 +54,9 @@ achieving the look-up for the desired document.
 
 ### How to contribute to this resource
 
-The files are hosted at a [repo on
+The files are hosted at a [repository on
 GitHub](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base). You
 can contribute by suggesting new content in [an
 issue](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues)
 or directly propose changes using a [pull
 request](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/pulls).
-

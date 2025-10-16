@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<div class="container my-2 text-center">
+    <div class="home-body">
+        <h1 class="fs-1 fw-bold">Explore the Knowledge Base!</h1>
+    </div>
+
+    <div class="row row-cols-2 mx-auto my-5">
+        <div class="col p-3">
+            <div class="card">
+                <a href="{{ 'Getting-Started/introduction.html' | relative_url }}">
+                    <img src="{{ 'assets/img/frontpage/aboutus_stockimage.jpg' | relative_url }}"
+                         class="card-img img-thumbnail" alt="...">
+                    <div class="card-img-overlay bg-dark bg-opacity-25 m-1 rounded-0">
+                        <h1 class="card-title text-white position-absolute top-50 start-50 translate-middle">About Us</h1>
+                    </div>
+                </a>
+            </div>
+            <h6 class="my-3 text-center">
+                Get to know more about NFDI4Microbiota and our goals!
+            </h6>
+        </div>
+
+        <div class="col p-3">
+            <div class="card">
+                <a href="{{ 'Research-Data-Management/rdm.html' | relative_url }}">
+                    <img src="{{ 'assets/img/frontpage/RDM_stockimage.jpg' | relative_url }}"
+                         class="card-img img-thumbnail" alt="...">
+                    <div class="card-img-overlay bg-dark bg-opacity-25 m-1 rounded-0">
+                        <h1 class="card-title text-white position-absolute top-50 start-50 translate-middle">Research Data Management</h1>
+                    </div>
+                </a>
+            </div>
+            <h6 class="my-3 text-center">
+                Learn more about Research Data Management.
+            </h6>
+        </div>
+
+        <div class="col p-3">
+            <div class="card">
+                <a href="https://nfdi4microbiota.de/services/">
+                    <img src="{{ 'assets/img/frontpage/Tools_stockimage.jpg' | relative_url }}"
+                         class="card-img img-thumbnail" alt="...">
+                    <div class="card-img-overlay bg-dark bg-opacity-25 m-1 rounded-0">
+                        <h1 class="card-title text-white position-absolute top-50 start-50 translate-middle">NFDI4Microbiota Tools</h1>
+                    </div>
+                </a>
+            </div>
+            <h6 class="my-3 text-center">
+                Explore the variety of tools NFDI4Microbiota offers.
+            </h6>
+        </div>
+
+        <div class="col p-3">
+            <div class="card">
+                <a href="{{ 'Experimental-SOPs/introduction.html' | relative_url }}">
+                    <img src="{{ 'assets/img/frontpage/Protocol_stockimage.png' | relative_url }}"
+                         class="card-img img-thumbnail" alt="...">
+                    <div class="card-img-overlay bg-dark bg-opacity-25 m-1 rounded-0">
+                        <h1 class="card-title text-white text-nowrap position-absolute top-50 start-50 translate-middle">Protocols</h1>
+                    </div>
+                </a>
+            </div>
+            <h6 class="my-3 text-center">
+                Have a look at our collection of SOPs.
+            </h6>
+        </div>
+    </div>
+
+    <br>
+</div>
+
+
+
+<script>
+    function LaunchModal(videosource, heading) {
+        $('.modal-body').html('<video width="100%" height="600px" controls autoplay><source src="' + videosource + '" type="video/mp4">Your browser does not support the video tag.</video>')
+        $('#basicmodallabel').text(heading);
+        $('.modal').modal('toggle');
+    }
+</script>

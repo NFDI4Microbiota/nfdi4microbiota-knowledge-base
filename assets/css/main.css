@@ -15,3 +15,41 @@ h5 {
     overflow-y: auto;
     z-index: 1000;
 }
+
+
+/* === Icon Hover Effect === */
+
+/* Applies yellow hover to icons inside .hover-warning buttons */
+.hover-warning{
+  color: #f9c31b;
+  
+}
+.hover-warning:hover {
+  color: var(--bs-emphasis-color);
+  background-color: var(--bd-accent);
+  transition: color 0.2s ease-in-out;
+}
+
+/* !important needed to overwrite gray highlight */ 
+.btn-toggle:hover {
+    color: var(--bs-emphasis-color);
+    background-color: var(--bd-accent)
+}
+
+.btn-toggle:focus,
+.btn-toggle.active {
+    color:  #ffb12d; /* var(--bs-emphasis-color); */
+    background-color: var(--bd-grey)
+}
+
+.badge {
+    background-color: #f9c31b;
+    margin: 10px 10px 0px 0px;
+}
+
+.social-icons {
+    line-height: 4ex;
+    width: 4ex;
+    height: 4ex;
+    text-align: center;
+    }

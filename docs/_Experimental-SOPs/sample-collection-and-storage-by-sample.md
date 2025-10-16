@@ -3,11 +3,14 @@ title: Sample Collection and Storage by Sample
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+authors:
+    - mmagel
 ---
 
 This page offers a short and concise overview on how to collect and store certain sample types. 
 
-General Protein Storage {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %}:
+**General Protein Storage** {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %}:
+
 For short-term storage (~24h), most proteins can be kept at 4°C. For long-term storage, protein samples are typically kept at -20°C or -80°C. 
 Protein storage at -20°C usually requires the addition of 50% glycerol to your sample to avoid freezing at this temperature. If we plan to store a protein at -20°C, we generally run the final size exclusion chromatography step in 2x storage buffer and then dilute the sample 1:1 with 100% glycerol. Alternatively, the protein sample can also be dialysed against the storage buffer already containing 50% glycerol. Proteins stored at -20ºC are often stable for several months, although the exact time frame is protein-dependent and should be determined experimentally. 
 Protein samples stored at -80ºC will be frozen. As repeated freeze-thaw cycles usually have a negative influence on protein samples, it is best to prepare small-sized, single-use aliquots that will be used up during the course of an experiment. 5-10% glycerol or other additives that protect against the effect of freezing and thawing can be added as well. After preparing your protein sample aliquots, it is important to flash-freeze them in liquid nitrogen before importing them into the -80ºC freezer for long-term storage. Many proteins are stable for months to years when stored under appropriate conditions at -80°C, but the exact time frame varies from protein to protein and should be determined experimentally. 

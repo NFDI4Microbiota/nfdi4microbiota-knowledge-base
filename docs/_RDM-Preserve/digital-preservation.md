@@ -3,6 +3,10 @@ title: Digital Preservation
 category: RDM-Preserve
 layout: default
 docs_css: markdown
+authors:
+   - uparmaksiz
+   - jvandendorpe
+   - kmarkus
 ---
 
 ## Definition of Digital Preservation (DP)

@@ -4,6 +4,7 @@ category: Software Development
 layout: default
 docs_css: markdown
 hide: true
+authors:
 ---
 
 

@@ -6,6 +6,10 @@ docs_css: markdown
 redirect_from: /RDM-Share
 empty: false
 hide: false
+authors:
+   - cgonzalez
+   - cpauvert
+   - jvandendorpe
 ---
 
 ## Definition of Persistent Identifiers (PIDs)

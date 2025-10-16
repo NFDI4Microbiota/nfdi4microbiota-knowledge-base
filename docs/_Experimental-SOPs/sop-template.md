@@ -4,6 +4,8 @@ category: Experimental-SOPs
 layout: default
 docs_css: markdown
 hide: true
+authors: 
+  - mmagel
 ---
 
 This is a template document on how to add templates to the knowledge base. Please create a copy and adapt accordingly.

@@ -3,6 +3,8 @@ title: Software Containers
 category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
+authors:
+   - jkasmanas
 ---
 
 

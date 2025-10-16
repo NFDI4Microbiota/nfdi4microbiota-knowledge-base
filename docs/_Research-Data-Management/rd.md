@@ -4,6 +4,9 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 redirect_from: /Research-Data-Management
+authors:
+   - jvandendorpe
+   - mlechner
 ---
 
 ## Definition of Research Data
@@ -77,5 +80,5 @@ Data types in microbiology include the following:
 * Scientific texts
 * Semantic data
 * Species interaction data (e.g. physical microbial interaction data, host-microbe interaction data)
-* Standardised bacterial information
+* Standardized bacterial information
 * Vertebrate-virus network

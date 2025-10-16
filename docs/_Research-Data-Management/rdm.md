@@ -3,6 +3,8 @@ title: Research Data Management (RDM)
 category: Research-Data-Management
 layout: default
 docs_css: markdown
+authors:
+   - jvandendorpe
 ---
 
 ## Definition of Research Data Management (RDM)
@@ -67,7 +69,7 @@ Processing research data begins with the proper documentation/description of the
 Before research data can be analysed, it needs to be digitised, transcribed, translated and possibly anonymised. Clear protocols for data analysis must then be established. Finally, the data can be interpreted and research findings produced.
 
 ### Preserve
-Preserving research data requires establishing clear protocols for data storage and migrating data to appropriate media and formats. Adopting standardised formats, such as FASTA or the GenBank flat file format, facilitates interoperability and data sharing between studies, thereby enhancing collaboration and knowledge sharing with the microbiology research community. Data preservation also requires the creation of preservation documentation prior to the actual long-term preservation of data. 
+Preserving research data requires establishing clear protocols for data storage and migrating data to appropriate media and formats. Adopting standardized formats, such as FASTA or the GenBank flat file format, facilitates interoperability and data sharing between studies, thereby enhancing collaboration and knowledge sharing with the microbiology research community. Data preservation also requires the creation of preservation documentation prior to the actual long-term preservation of data. 
 
 ### Share
 Data sharing requires access control (i.e. selecting appropriate access to data) and data security. Researchers working with sensitive data, such as sensitive personal data (e.g. in clinical microbiology studies) or sensitive environmental data, need to consider protection and security measures to safeguard this information. Data sharing also requires that copyright be established before the data is actually shared and published. 

@@ -4,6 +4,8 @@ category: Research-Data-Management
 layout: default
 docs_css: markdown
 redirect_from: /Research-Data-Management
+authors:
+   - jvandendorpe
 ---
 
 ## Data Discovery
@@ -27,24 +29,24 @@ Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp
 ### Services to Search for Data
 
 #### Resources to Facilitate Data Reuse in Microbiology
-Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the data repositories (see section above). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
+Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the [data repositories section above]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
-| Domain, Data Type	| Data repository 	| FAIRsharing 	| re3data 	| 
-|---	|---	|---	|---	|
-| **Viruses, Knowledge resources** 	| [ViralZone](https://viralzone.expasy.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.tppk10) 	| [re3data](https://www.re3data.org/repository/r3d100013314) 	|
-|     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) 	| - 	| - 	|
-| **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) 	| - 	| - 	|
-|     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) 	| - 	|
-| **Viruses, Sequence analysis platforms** 	| [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) 	| - 	|
-|     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) 	| [re3data](https://www.re3data.org/repository/r3d100014100) 	|
-| **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) 	| - 	| - 	|
-|     | ([inphared](https://github.com/RyanCook94/inphared)) 	| -	| - |
-| **Viruses, macromolecular structures** 	| [VIPERdb](https://viperdb.org/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) 	| [re3data](https://www.re3data.org/repository/r3d100012362) 	|
-| **Viruses, Protein sequences** 	| Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) 	| - | - |
-|    	| Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) 	| - | - |
-| **Viruses, -omics data sets** 	| [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) 	| - 	|
-|  	| Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) 	| - | - |
-| **All, Protein sequence search** 	| [InterPro](https://www.ebi.ac.uk/interpro/) 	| [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) 	| [re3data](https://www.re3data.org/repository/r3d100010798) 	|
+| Domain, Data Type| Data repository | FAIRsharing | re3data | 
+|---|---|---|---|
+| **Viruses, Knowledge resources** | [ViralZone](https://viralzone.expasy.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.tppk10) | [re3data](https://www.re3data.org/repository/r3d100013314) |
+|     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) | - | - |
+| **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) | - | - |
+|     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) | - |
+| **Viruses, Sequence analysis platforms** | [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) | - |
+|     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) | [re3data](https://www.re3data.org/repository/r3d100014100) |
+| **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) | - | - |
+|     | ([inphared](https://github.com/RyanCook94/inphared)) | -| - |
+| **Viruses, macromolecular structures** | [VIPERdb](https://viperdb.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) | [re3data](https://www.re3data.org/repository/r3d100012362) |
+| **Viruses, Protein sequences** | Virus Orthologous Groups ([VOGdb](https://vogdb.org/)) | - | - |
+|    | Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) | - | - |
+| **Viruses, -omics data sets** | [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) | - |
+|  | Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) | - | - |
+| **All, Protein sequence search** | [InterPro](https://www.ebi.ac.uk/interpro/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) | [re3data](https://www.re3data.org/repository/r3d100010798) |
 {: .table .table-hover}
 
 #### Services Where Data Can Be Published
@@ -150,10 +152,10 @@ For researchers reusing data, there are risks such as unknown quality and normal
 ### Successful Cases of Data Reuse
 
 #### Case 1: FishBase {% cite pavone_2020 %}
-Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyology.bio.auth.gr/files/tsikliras/d/d3.pdf) have been combined into a digital catalogue of fish, known as [FishBase](https://www.fishbase.us/). The data in FishBase were processed using a new algorithm to create a [new dataset](https://thredds.d4science.org/thredds/catalog/public/netcdf/AquaMaps_08_2016/catalog.html). This new dataset was combined with other data to create [AquaMaps](https://www.aquamaps.org/), a tool for predicting the natural occurrence of marine species based on environmental parameters. This led to an increase in citations of FishBase (e.g. [Coro _et al._ 2018](https://doi.org/10.1016/j.ecolmodel.2018.01.007)) and a [report](https://europe.oceana.org/en/our-work/froese-report/overview) on EU fish stocks,the evidence for which was debated in the European Parliament in 2017. In addition, climate change predictions from AquaMaps and NASA were merged to create a [climate change timeline](https://dlnarratives.eu/timeline/climate.html). 
+Various [data sources](https://web.archive.org/web/20111008223552/http://ichthyology.bio.auth.gr/files/tsikliras/d/d3.pdf) have been combined into a digital catalog of fish, known as [FishBase](https://www.fishbase.us/). The data in FishBase were processed using a new algorithm to create a [new dataset](https://thredds.d4science.org/thredds/catalog/public/netcdf/AquaMaps_08_2016/catalog.html). This new dataset was combined with other data to create [AquaMaps](https://www.aquamaps.org/), a tool for predicting the natural occurrence of marine species based on environmental parameters. This led to an increase in citations of FishBase (e.g. [Coro _et al._ 2018](https://doi.org/10.1016/j.ecolmodel.2018.01.007)) and a [report](https://europe.oceana.org/en/our-work/froese-report/overview) on EU fish stocks,the evidence for which was debated in the European Parliament in 2017. In addition, climate change predictions from AquaMaps and NASA were merged to create a [climate change timeline](https://dlnarratives.eu/timeline/climate.html). 
 
 #### Case 2: TerrestrialMetagenomeDB
-[TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/) is a public repository of curated and standardised metadata for terrestrial metagenomes. 
+[TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/) is a public repository of curated and standardized metadata for terrestrial metagenomes. 
 
 #### Further Cases in Microbiology
 See [Sielemann *et al.* 2020](https://doi.org/10.7717/peerj.9954).
