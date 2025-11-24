@@ -166,7 +166,7 @@ operating system: Platform independent
 
 License: [CC BY](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
-Link: [https://webapp.ufz.de/tmdb](https://webapp.ufz.de/tmdb)
+Link: [https://webapp.ufz.de/tmdb](https://web.app.ufz.de/tmdb/)
 
 ## Pipelines
 ---
