@@ -28,7 +28,7 @@ authors:
 
 ## Data Science
 ---
-* [The Turing Way](https://the-turing-way.netlify.app/welcome)
+* [The Turing Way](https://book.the-turing-way.org/)
 
 ## Life Sciences
 ---
