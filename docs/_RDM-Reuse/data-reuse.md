@@ -76,7 +76,7 @@ Below are listed widely used resources in microbiology that facilitate the reuse
     * Bacterial and Viral Bioinformatics Resource Center ([BV-BRC](https://www.bv-brc.org/))
     * [NFDI4Chem Search](https://search.nfdi4chem.de/)
     * [Study Hub NFDI4Health COVID-19](https://csh.nfdi4health.de/)
-    * [TerrestrialMetagenomeDB](https://webapp.ufz.de/tmdb/)
+    * [TerrestrialMetagenomeDB](https://web.app.ufz.de/tmdb/)
 * [Mendeley Data](https://data.mendeley.com/)
 
 #### (Meta)Data Aggregators
