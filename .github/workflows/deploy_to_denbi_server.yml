@@ -28,6 +28,7 @@ jobs:
             echo "DEPLOY_PATH=/var/www/development/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
           else
             echo "Unknown branch. Skipping deployment."
+            sudo rm -rf $GITHUB_WORKSPACE/*
             exit 0
           fi
 
