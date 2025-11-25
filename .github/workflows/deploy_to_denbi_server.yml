@@ -26,12 +26,9 @@ jobs:
             echo "DEPLOY_PATH=/var/www/production/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
           elif [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
             echo "DEPLOY_PATH=/var/www/development/knowledgebase.nfdi4microbiota.de" >> $GITHUB_ENV
-          elif [[ "${{ github.ref }}" == "refs/heads/merge" ]]; then
-            echo "No deployment from merge. Skipping deployment."
-            exit 0
           else
             echo "Unknown branch. Skipping deployment."
-            exit 1
+            exit 0
           fi
 
       - name: Build Jekyll site with Docker
