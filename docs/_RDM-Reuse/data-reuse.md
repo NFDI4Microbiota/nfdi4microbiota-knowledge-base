@@ -6,6 +6,7 @@ docs_css: markdown
 redirect_from: /Research-Data-Management
 authors:
    - jvandendorpe
+   - nacnoriko
 ---
 
 ## Data Discovery
@@ -29,16 +30,16 @@ Other tips and tricks from the [Center for Open Science 2023](https://mailchi.mp
 ### Services to Search for Data
 
 #### Resources to Facilitate Data Reuse in Microbiology
-Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the [data repositories section above]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology). These so-called "secondary databases" provided added value through additional data types for example from data integration or from processing of raw data. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
+Below are listed widely used resources in microbiology that facilitate the reuse of raw data found in the [data repositories section above]({% link _RDM-Share/data-repositories.md %}#well-established-repositories-for-data-deposition-in-microbiology). These so-called "secondary databases" provided added value through additional data types for example as reference databases or from data integration. For each resource and when available, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the resource (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted resource. DB = database.
 
-| Domain, Data Type| Data repository | FAIRsharing | re3data | 
+| Domain, Data Type| Resource | FAIRsharing | re3data | 
 |---|---|---|---|
 | **Viruses, Knowledge resources** | [ViralZone](https://viralzone.expasy.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.tppk10) | [re3data](https://www.re3data.org/repository/r3d100013314) |
 |     | International Committee for the Taxonomy of Viruses [ICTV](https://ictv.global/) | - | - |
 | **Viruses, Virus-host databases** | [Virus-HostDB](https://www.genome.jp/virushostdb) | - | - |
 |     | Viral Host-Range DB [VHRDB](https://viralhostrangedb.pasteur.cloud/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.7a4bbd) | - |
 | **Viruses, Sequence analysis platforms** | [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.d38075) | - |
-|     | ([BV-BRC](https://www.bv-brc.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) | [re3data](https://www.re3data.org/repository/r3d100014100) |
+|     | [BV-BRC](https://www.bv-brc.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2ea3ef) | [re3data](https://www.re3data.org/repository/r3d100014100) |
 | **Viruses, Nucleic acid sequence downloads** | [RVDB](https://rvdb.dbi.udel.edu/) | - | - |
 |     | ([inphared](https://github.com/RyanCook94/inphared)) | -| - |
 | **Viruses, macromolecular structures** | [VIPERdb](https://viperdb.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.45e0f5) | [re3data](https://www.re3data.org/repository/r3d100012362) |
@@ -46,8 +47,17 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 |    | Phage Orthologous Groups ([PHROGs](https://phrogs.lmge.uca.fr/index.php)) | - | - |
 | **Viruses, -omics data sets** | [IMG/VR](https://img.jgi.doe.gov/cgi-bin/vr/main.cgi) | [FAIRsharing](https://fairsharing.org/FAIRsharing.2KIa7T) | - |
 |  | Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) | - | - |
-| **All, Protein sequence search** | [InterPro](https://www.ebi.ac.uk/interpro/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) | [re3data](https://www.re3data.org/repository/r3d100010798) |
+| **All, Protein sequences and families** | [InterPro](https://www.ebi.ac.uk/interpro/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) | [re3data](https://www.re3data.org/repository/r3d100010798) |
+|  | [UniProt](https://www.ebi.ac.uk/uniprot/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.fd6003) | [re3data](https://www.re3data.org/repository/r3d100010357) |
 {: .table .table-hover}
+
+
+#### Service and Resource Catalogs
+ELIXIR service catalogue: [https://elixir-europe.org/services](https://elixir-europe.org/services) 
+EMBL services: [https://www.ebi.ac.uk/services](https://www.ebi.ac.uk/services) (NFDI4Microbiota member)
+deNBI services: [https://www.denbi.de/categories](https://www.denbi.de/categories) (NFDI4Microbiota member)
+Digital Diversity DSMZ catalogue: [https://hub.dsmz.de](https://hub.dsmz.de) (NFDI4Microbiota member)
+
 
 #### Services Where Data Can Be Published
 
