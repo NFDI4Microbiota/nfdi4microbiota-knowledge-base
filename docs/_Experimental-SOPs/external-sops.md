@@ -6,8 +6,8 @@ docs_css: markdown
 hide: false
 authors:
 ---
-
-This page lists well-established and tested protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/). Both are collections of SOPs that are experimentally validated for their given fields, human and earth microbiome research respectively. 
+This page lists experimental SOPs from external sources.
+The protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/) are well-establsihed and experimentally validated for their given fields, human and earth microbiome research respectively. Protocols from other sources, especially if provided by anonymous NFDI4Microbiota community members, have been successfully implemented and shared by individuals working in their given fields. 
 
 | Category |  Title | Provider |  Link |
 | ------ | ------ | ------ | ------ |
@@ -22,4 +22,9 @@ This page lists well-established and tested protocols from the International Hum
  DNA Sequencing | 16S Illumina Amplicon Protocol | Earth Microbiome | [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-16s-illumina-amplicon-protocol-kqdg3dzzl25z/v2) 
  DNA Sequencing | 18S Illumina Amplicon Protocol | Earth Microbiome | [16S Illumina Amplicon Protocol](https://www.protocols.io/view/emp-18s-illumina-amplicon-protocol-ewov1b6pgr24/v2) 
  DNA Sequencing | ITS Illumina Amplicon Protocol | Earth Microbiome | [ITS Illumina Amplicon Protocol](https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-14egnqypg5dy/v1) 
+  Lipid extraction | Lipid and fatty acid extraction protocol from biological samples | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/lipid-and-fatty-acid-extraction-protocol-from-biological-samples.html#procedure-for-lipid-extraction) | Bird et al (2011).[Analytical Chemistry, 83(17), 6648–6657.](https://doi.org/10.1021/ac201195d)
+ Metabolite extraction | Metabolite extraction from adherent mammalian cells | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/metabolite-extraction-from-adherent-mammalian-cells.html) | Yuan et al. (2021). [Nat Protoc 7, 872–881 (2012)](https://doi.org/10.1038/nprot.2012.024)
+  Metabolite extraction | Metabolite extraction from plant tissue | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/metabolite-extraction-from-plant-tissue.html) | Novák et al. (2016). [Current Protocols in Plant Biology, 1(2), 419–430.](https://doi.org/10.1002/cppb.20028)
+  Protein purification | Proteomics TMT labelled SP3 method | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/proteomics-tmt-labelled-sp3-method.html) | [Protein purification. (2022). In EMBL.](https://www.embl.org/groups/protein-expression-purification/services/protein-purification)
+      ------ | ------ | ------ | ------ 
  {: .table .table-hover}
