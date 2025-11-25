@@ -12,6 +12,10 @@ The protocols from the International Human Microbiome Consortium [IHMS](https://
 
 Protocols from other sources, especially if provided by NFDI4Microbiota community members, have been successfully implemented and shared by individuals working in their given fields. 
 
+> [!TIP]
+> More community-shared protocols can be found on [NFDI4Microbiota's protocols.io workspace](https://www.protocols.io/joinworkspace/nfdi4microbiota/XVJEW)
+
+
 | Category |  Title | Provider |  Primary Source Link |
 | ------ | ------ | ------ | ------ |
 | DNA Extraction        | Standard operating procedure for fecal samples DNA Extraction, protocol Q | International Human Microbiome Standards (IHMS) | [SOP 06](https://human-microbiome.org/index.php?id=Sop&num=006) 
