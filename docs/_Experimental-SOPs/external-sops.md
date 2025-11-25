@@ -36,4 +36,6 @@ Protocols from other sources, especially if provided by NFDI4Microbiota communit
 | Sample Collection     | Standard operating procedure for fecal samples frozen preserved self-Collection, laboratory analysis handled within 24 hours to 7 days | International Human Microbiome Standards (IHMS) | [SOP 04](https://human-microbiome.org/index.php?id=Sop&num=004)
 | Sample Collection     | Standard operating procedure for fecal samples preserved in stabilizing solution self-Collection, laboratory analysis handled within 24 hours to 7 days | International Human Microbiome Standards (IHMS) | [SOP 05](https://human-microbiome.org/index.php?id=Sop&num=005)
 | Sample Processing     | Biobank of human stool samples – sample processing | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/biobank-fmt-samples.html) | [CRC1832 Gut-liver-axis SOP](https://www.crc1382.org/wp-content/uploads/2022/11/221019_Biobank-of-human-stool-samples-sample-processing.pdf)
+| Sample Purification | Viral purification from bacterial culture | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/viral-purification-from-bacterial-culture.html) | dx.doi.org/10.17504/protocols.io.e6nvwjq7wlmk/v1 |
+
   {: .table .table-hover}
