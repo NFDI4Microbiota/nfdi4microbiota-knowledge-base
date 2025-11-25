@@ -7,9 +7,12 @@ hide: false
 authors:
 ---
 This page lists experimental SOPs from external sources.
-The protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/) are well-establsihed and experimentally validated for their given fields, human and earth microbiome research respectively. Protocols from other sources, especially if provided by anonymous NFDI4Microbiota community members, have been successfully implemented and shared by individuals working in their given fields. 
 
-| Category |  Title | Provider |  Link |
+The protocols from the International Human Microbiome Consortium [IHMS](https://human-microbiome.org/) and the Earth Microbiome Project [EMP](https://earthmicrobiome.org/) are well-established and experimentally validated for their given fields, human and earth microbiome research respectively. 
+
+Protocols from other sources, especially if provided by NFDI4Microbiota community members, have been successfully implemented and shared by individuals working in their given fields. 
+
+| Category |  Title | Provider |  Primary Source Link |
 | ------ | ------ | ------ | ------ |
  Sample Collection | Standard operating procedure for fecal samples identification | International Human Microbiome Standards (IHMS) | [SOP 01](https://human-microbiome.org/index.php?id=Sop&num=001) 
  Sample Collection | Standard operating procedure for fecal samples self-Collection, laboratory analysis handled within 4 hours | International Human Microbiome Standards (IHMS) | [SOP 02](https://human-microbiome.org/index.php?id=Sop&num=002) 
@@ -26,5 +29,7 @@ The protocols from the International Human Microbiome Consortium [IHMS](https://
  Metabolite extraction | Metabolite extraction from adherent mammalian cells | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/metabolite-extraction-from-adherent-mammalian-cells.html) | Yuan et al. (2021). [Nat Protoc 7, 872–881 (2012)](https://doi.org/10.1038/nprot.2012.024)
   Metabolite extraction | Metabolite extraction from plant tissue | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/metabolite-extraction-from-plant-tissue.html) | Novák et al. (2016). [Current Protocols in Plant Biology, 1(2), 419–430.](https://doi.org/10.1002/cppb.20028)
   Protein purification | Proteomics TMT labelled SP3 method | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/proteomics-tmt-labelled-sp3-method.html) | [Protein purification. (2022). In EMBL.](https://www.embl.org/groups/protein-expression-purification/services/protein-purification)
-      ------ | ------ | ------ | ------ 
- {: .table .table-hover}
+ Medium preparation | Media for freezing homogenised faecal samples for re-cultivation | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/media-freezing-faecal-samples-recultivation.html) | [CRC1832 Gut-liver-axis SOP](https://www.crc1382.org/wp-content/uploads/2022/11/221019_FMT-Media-Protocol.pdf) 
+ Sample processing | Biobank of human stool samples – sample processing | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/biobank-fmt-samples.html) | [CRC1832 Gut-liver-axis SOP](https://www.crc1382.org/wp-content/uploads/2022/11/221019_Biobank-of-human-stool-samples-sample-processing.pdf)  
+ DNA extraction | DNA extraction: Shortened Godon protocol with optional enzymatic lysis | [NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/biobank-fmt-samples.html) | [CRC1832 Gut-liver-axis SOP](https://www.crc1382.org/wp-content/uploads/2022/11/221019_DNA-extraction.pdf)
+  {: .table .table-hover}
