@@ -6,6 +6,14 @@ docs_css: markdown
 authors:
 ---
 
+## Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |------ |
+| Lipid and fatty acid extraction protocol from biological samples  | Lipid Extraction | Denise Selegato, EMBL | 2022-09 | {% cite Bird_2011 %} | {% cite Bird_2011 %} |
+{: .table .table-hover}
+
+
 Protocol/MCF/SamplePrep/02: Lipid and fatty acid extraction protocol from biological samples {% cite Bird_2011 %}
 
 **Aim:** Lipid extraction from mammalian cells or microbial samples for LC-MS analysis 
