@@ -137,7 +137,7 @@ Members of the SAB:
 [Thomas Schulz](https://www.mhh.de/virologie)  
 [Sünje Pamp](https://www.linkedin.com/in/sjpamp/)  
 [Claudine Médigue](https://orcid.org/0000-0002-3905-1054)  
-[Nicole Wheeler](https://www.birmingham.ac.uk/staff/profiles/microbiology-infection/wheeler-nicole.aspx)  
+[Nicole Wheeler](https://research.birmingham.ac.uk/en/persons/nicole-wheeler/)  
 [Christine Moissel-Eichinger](https://online.medunigraz.at/mug_online/visitenkarte.show_vcard?pPersonenId=45ADB74B3F22CBEE&pPersonenGruppe=3)  
 
 ### Project Review Board
@@ -228,7 +228,7 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
-### Nfdi4microbiota Mailing Lists
+### NFDI4microbiota Mailing Lists
 For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)

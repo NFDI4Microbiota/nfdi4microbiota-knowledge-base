@@ -6,6 +6,12 @@ docs_css: markdown
 authors:
 ---
 
+## Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |------ |
+| Metabolite extraction from plant tissue | Metabolite Extraction | Denise Selegato, EMBL | 2022-09 | {% cite Novák_2016 %} | {% cite Novák_2016 %} |
+{: .table .table-hover}
 
 Protocol/MCF/SamplePrep/03: Metabolite extraction from plant tissues {% cite Novák_2016 %}
 
