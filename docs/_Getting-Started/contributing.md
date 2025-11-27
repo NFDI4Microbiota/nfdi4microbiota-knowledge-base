@@ -177,7 +177,7 @@ When adding or editing files, please observe the following rules:
 1. Use respectful and inclusive language
 2. Use American English
 3. Keep the content factual
-4. Cite sources appropriately (see below)
+4. Cite sources appropriately (see above)
 5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
 6. Capitalize your headings
 7. After the second and every following `##` add `---` for a visual break line.
@@ -187,6 +187,7 @@ When adding or editing files, please observe the following rules:
 11. Write "Knowledge Base" in capital letters
 12. Be consistent with adding periods or not at the end of list items
 13. Please correct valid typos flagged by the spell checker bot.
+14. The use of large language models (LLMs) to refine content for the NFDI4Microbiota Knowledge Base is permitted, provided that the LLM is used solely to rephrase content based on your original ideas and drafts. Full responsibility for the content remains with you as the author.
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
