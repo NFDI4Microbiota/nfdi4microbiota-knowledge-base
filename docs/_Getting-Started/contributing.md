@@ -177,7 +177,7 @@ When adding or editing files, please observe the following rules:
 1. Use respectful and inclusive language
 2. Use American English
 3. Keep the content factual
-4. Cite sources appropriately (see below)
+4. Cite sources appropriately (see above)
 5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
 6. Capitalize your headings
 7. After the second and every following `##` add `---` for a visual break line.
