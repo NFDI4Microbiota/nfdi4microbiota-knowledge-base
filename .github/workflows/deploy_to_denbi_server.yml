@@ -15,7 +15,6 @@ jobs:
     runs-on: faroe-self-hosted
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
@@ -35,10 +34,7 @@ jobs:
 
       - name: Build Jekyll site with Docker
         run: |
-          docker run --rm \
-            -u $(id -u):$(id -g) \
-            -v $PWD:/srv/jekyll \
-            -v $PWD/vendor/bundle:/usr/local/bundle \
+          docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle \
             jekyll/jekyll:latest jekyll build -d _site
 
       - name: Deploy to server
