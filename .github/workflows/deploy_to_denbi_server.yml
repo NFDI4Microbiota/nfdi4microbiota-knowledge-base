@@ -15,8 +15,6 @@ jobs:
     runs-on: faroe-self-hosted
 
     steps:
-      - name: Reset workspace
-        run: sudo rm -rf $GITHUB_WORKSPACE/* || true
 
       - name: Checkout repository
         uses: actions/checkout@v5
