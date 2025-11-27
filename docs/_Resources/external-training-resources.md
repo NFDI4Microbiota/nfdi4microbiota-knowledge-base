@@ -64,6 +64,7 @@ authors:
 
 ## Services
 ---
+* [The Turing Way](https://book.the-turing-way.org/)
 * Workshop (slides) on [Borkflows: Bork Group Workflows on CloWM](https://doi.org/10.5281/zenodo.14801169) (NFDI4Microbiota) 
 
 ## Software

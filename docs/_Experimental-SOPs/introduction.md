@@ -33,6 +33,10 @@ SOPs serve as valuable educational resources for training new researchers and st
 ## The Provenance of SOPs on NFDI4Microbiota's Knowledge Base and protocols.io Workspace
 
 ---
+
+> [!TIP]
+> More community-shared protocols can be found on [NFDI4Microbiota's protocols.io workspace](https://www.protocols.io/joinworkspace/nfdi4microbiota/XVJEW)
+
 **Disclaimer:**
 [NFDI4Microbiota](https://nfdi4microbiota.de/) makes an effort to collect relevant and updated Standard Operating Procedures from active community members who frequently use or have recently used the protocol for their own experiments.
 The listed experimental SOPs that can be found on this Knowledge Base have been collected by NFDI4Microbiota's consortia members and participants from either (1) well-established and published sources or (2) consist of well-running in-house protocols that have been recently established by various research consortia and their domain expert with wet-lab experiences.
