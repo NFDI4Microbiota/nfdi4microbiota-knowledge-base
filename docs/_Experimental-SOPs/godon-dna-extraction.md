@@ -13,8 +13,7 @@ authors:
 
 | Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |------ |
-| DNA extraction: Shortened Godon protocol with optional enzymatic lysis  | DNA extraction | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab 
-Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite godon_dna_extraction %} | {% cite godon_1997 %} |
+| DNA extraction: Shortened Godon protocol with optional enzymatic lysis  | DNA extraction | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab, Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite godon_dna_extraction %} | {% cite godon_1997 %} |
 {: .table .table-hover}
 
 *Consider accessing the protocol for a donwloadable PDF version.*
