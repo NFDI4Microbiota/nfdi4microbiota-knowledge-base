@@ -34,8 +34,8 @@ SOPs serve as valuable educational resources for training new researchers and st
 
 ---
 
-> [!TIP]
-> More community-shared protocols can be found on [NFDI4Microbiota's protocols.io workspace](https://www.protocols.io/joinworkspace/nfdi4microbiota/XVJEW)
+### TIP
+More community-shared protocols can be found on [NFDI4Microbiota's protocols.io workspace](https://www.protocols.io/joinworkspace/nfdi4microbiota/XVJEW)
 
 **Disclaimer:**
 [NFDI4Microbiota](https://nfdi4microbiota.de/) makes an effort to collect relevant and updated Standard Operating Procedures from active community members who frequently use or have recently used the protocol for their own experiments.

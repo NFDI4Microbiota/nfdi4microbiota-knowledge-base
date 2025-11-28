@@ -91,7 +91,7 @@ authors:
 ## Other
 ---
 * [Collection of tutorials developed and maintained by the worldwide Galaxy community](https://galaxyproject.github.io/training-material/#welcome-to-galaxy-training) (Galaxy Training Network (GTN))
-* Handbook to [Reproducible, Ethical and Collaborative Data Science](https://book.the-turing-way.org/) [Handbook] (The Turing Way Community and Scriberia 2024)
+* Handbook to [Reproducible, Ethical and Collaborative Data Science](https://book.the-turing-way.org/) (The Turing Way Community and Scriberia 2024)
 * List of Training on [Life Sciences](https://www.ebi.ac.uk/training/) (EMBL-EBI)
 
 
