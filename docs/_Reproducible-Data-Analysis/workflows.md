@@ -114,7 +114,7 @@ result:
 - Detailed Documentation: Developers are encouraged to provide comprehensive documentation for every aspect of their workflows. This includes clear descriptions of inputs, outputs, and intermediate steps, as well as the rationale behind specific choices.
 - Validation Practices: To guarantee that workflows produce reliable results, the guidelines recommend validation practices. These include testing workflows with different datasets and verifying that the outputs remain consistent and accurate.
 
-### TIP
+#### TIP
 Evaluate your own provenance with the scoring sheet {% cite klemm_2024 %}. These guidelines encompass critical aspects such as detailed documentation, version management, data handling, and validation practices.
 
 ## Technical Requirements
