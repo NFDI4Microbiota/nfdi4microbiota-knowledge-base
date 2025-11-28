@@ -7,6 +7,7 @@ redirect_from: /Research-Data-Management
 authors:
    - jvandendorpe
    - nacnoriko
+   - mmagel
 ---
 
 ## Data Discovery
@@ -49,6 +50,10 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 |  | Multi-Omics Portal of Virus Infection ([MVIP](https://mvip.whu.edu.cn/)) | - | - |
 | **All, Protein sequences and families** | [InterPro](https://www.ebi.ac.uk/interpro/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.pda11d) | [re3data](https://www.re3data.org/repository/r3d100010798) |
 |  | [UniProt](https://www.ebi.ac.uk/uniprot/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.fd6003) | [re3data](https://www.re3data.org/repository/r3d100010357) |
+| **Microbial strain information**, registry | [StrainInfo](https://www.straininfo.dsmz.de/) | [FAIRsharing](https://doi.org/10.25504/FAIRsharing.43894f) | [re3data](https://www.re3data.org/repository/r3d100014538) |
+| **Microbial genome data** | [JGI Integrated Microbial Genomes And Microbiomes (IMG/M)](http://img.jgi.doe.gov/cgi-bin/m/main.cgi) | [FAIRsharing](https://doi.org/10.25504/FAIRsharing.ae956n) | - |
+| **Microbial omics data** | [NMDC Data Portal](https://microbiomedata.org/) | [FAIRsharing](https://doi.org/10.25504/FAIRsharing.0a6aee) | [re3data](https://www.re3data.org/repository/r3d100013542) |
+| **Fungal genomes** | [MycoCosm](https://mycocosm.jgi.doe.gov/mycocosm/home) | [FAIRsharing](https://doi.org/10.25504/FAIRsharing.8e2b95) | [re3data](https://www.re3data.org/repository/r3d100011751) |
 {: .table .table-hover}
 
 
