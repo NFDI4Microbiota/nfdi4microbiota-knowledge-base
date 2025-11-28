@@ -14,7 +14,9 @@ authors:
  
 ## Introduction
 
-This page contains instructions on how to contribute to the Knowledge Base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
+NDFI4Microbiota's Knowledge Base is an open resource and everyone is welcome to contribute their knowledge on research data management in general and for microbiology content specifically. 
+
+This page contains instructions on how to contribute and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
 The main steps a user must follow to contribute to the Knowledge Base are:
 
@@ -23,6 +25,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
     - Edit existing files *or*
     - Create new files
 3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file
+4. Be aware of our citation rules.
 
 ## Create a GitHub Account
 
