@@ -53,10 +53,10 @@ Below are listed widely used resources in microbiology that facilitate the reuse
 
 
 #### Service and Resource Catalogs
-ELIXIR service catalogue: [https://elixir-europe.org/services](https://elixir-europe.org/services) 
-EMBL services: [https://www.ebi.ac.uk/services](https://www.ebi.ac.uk/services) (NFDI4Microbiota member)
-deNBI services: [https://www.denbi.de/categories](https://www.denbi.de/categories) (NFDI4Microbiota member)
-Digital Diversity DSMZ catalogue: [https://hub.dsmz.de](https://hub.dsmz.de) (NFDI4Microbiota member)
+* ELIXIR service catalogue: [https://elixir-europe.org/services](https://elixir-europe.org/services) 
+* EMBL services: [https://www.ebi.ac.uk/services](https://www.ebi.ac.uk/services) (NFDI4Microbiota member)
+* de.NBI services: [https://www.denbi.de/categories](https://www.denbi.de/categories) (NFDI4Microbiota member)
+* Digital Diversity DSMZ catalogue: [https://hub.dsmz.de](https://hub.dsmz.de) (NFDI4Microbiota member)
 
 
 #### Services Where Data Can Be Published
