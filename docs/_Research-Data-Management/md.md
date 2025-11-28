@@ -98,8 +98,6 @@ For every metadata field part of a metadata standard, one could expect a human-r
 At NFDI4Microbiota, we compiled a [list of widely used metadata standards in the field of microbiome research](https://github.com/NFDI4Microbiota/MetadataStandards) that you can browse and use for the different types of data collected during your investigations {% cite Thompson_2020 %}.
 
 
-{ % cite Thompson: 2020 %}
-
 ## Metadata Quality Control
 
 Metadata quality control involves thorough validation and standardization of metadata attributes to minimize errors and inconsistencies. For instance, in studies involving microbial sequencing data, rigorous checks are needed to verify the accuracy of sample identifiers, ensuring that each sample is uniquely identified and correctly linked to corresponding experimental conditions. Moreover, metadata completeness is essential to provide sufficient context for data interpretation and reuse. Researchers should meticulously document sample collection details, including the source organism, sampling location, and environmental conditions, to facilitate cross-study comparisons and meta-analyses. For example, in a microbiome study investigating the gut microbial composition in patients with inflammatory bowel disease, comprehensive metadata would encompass clinical metadata such as patient demographics, disease severity scores, and medication history, alongside microbial metadata like taxonomic profiles and sequencing protocols.
