@@ -20,6 +20,9 @@ authors:
 ## Research Data Management (RDM)
 ---
 
+### Access Control
+* Coffee Talk on [Access Control, Data Protection and Security in Digital Microbiology](https://doi.org/10.5281/zenodo.18537970) (NFDI4Microbiota)
+
 ### Data and Software Publication
 * Cheat Sheet on [Data Repositories](https://doi.org/10.5281/zenodo.13847514) (NFDI4Microbiota)
 * Cheat Sheet on [Persistent Identifiers (PIDs)](https://doi.org/10.5281/zenodo.13847434) (NFDI4Microbiota)
