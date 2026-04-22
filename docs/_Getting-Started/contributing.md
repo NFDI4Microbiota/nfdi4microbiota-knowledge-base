@@ -176,14 +176,14 @@ Our editorial style is based on the [RDMkit style guide](https://rdmkit.elixir-e
 * **Acronyms:** spell them out the first time.
 * **Capitals:**
     * Write 'Knowledge Base' in capital letters.
-    * Capitalise your headings.
-* **Colon:** do NOT capitalise a word after a colon.
+    * Capitalize your headings. The first word, all proper nouns, and acronyms (if applicable) are capitalized.
+* **Colon:** do NOT capitalize a word after a colon.
 * **Data:** treat as singular (“Data is…”).
 * **Examples:** e.g. should NOT be followed by a comma, and a list of examples beginning with “e.g.” or “such as” should NOT end with etc.
 * **Headings:**
     * Use `##` for the main file heading and `###`, `####`, etc. for all subheadings.
     * After the second and every subsequent `##`, add `---` to create a visual break line.
-    * Capitalise your headings.
+    * Capitalize your headings. The first word, all proper nouns, and acronyms (if applicable) are capitalized.
 * **Links:**
     * Create internal links to Markdown documents using the following format: `{% raw %}[Link text]({% link _RDM-Share/26_licenses.md %}){% endraw %}`.
     * Non-public links are restricted to the 'How we operate' section and are manually whitelisted in the '.github/workflows/ignored-urls.txt' file.
