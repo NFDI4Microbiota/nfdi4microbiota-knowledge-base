@@ -1,5 +1,5 @@
 ---
-title: How to Contribute
+title: How to contribute
 category: Getting-Started
 layout: default
 docs_css: markdown
@@ -27,25 +27,25 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file
 4. Be aware of our citation rules.
 
-## Create a GitHub Account
+## Create a GitHub account
 
 
 Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
 
-## Make Changes to the Repository
+## Make Changes to the repository
 
 ### Pull Requests
 
 A **pull request (PR)** is how you suggest changes to this project. It lets us review your work before adding it to the main codebase.
 
-#### How to Make a Pull Request (Using the Browser)
+#### How to make a Pull Request (using the browser)
 
-1. **Fork the Repository**
+1. **Fork the repository**
    - Click the **“Fork”** button in the top-right corner of this page.
    - This creates your own copy of the project on your GitHub account.
 
-2. **Edit Files in Your Fork**
+2. **Edit files in your fork**
    - Go to your forked repository.
    - Navigate to the file you want to change.
    - Click the ✏️ **edit (pencil)** icon at the top right of the file.
@@ -57,34 +57,34 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
    - Review the changes, add a title and description, then click **“Create pull request”**.
 
 
-#### Making a Pull Request (Using the Terminal)
+#### Making a Pull Request (using the terminal)
 
 
-1. **Fork the Repository**
+1. **Fork the repository**
    Start by forking the repository to your own GitHub account.
 
-2. **Clone Your Fork**
+2. **Clone your fork**
    Clone your fork locally:
 
    ```bash
    git clone https://github.com/your-username/project-name.git
    ```
 
-3. **Create a Feature Branch**
+3. **Create a feature branch**
    Always work on a separate branch—not on `main`:
 
    ```bash
    git checkout -b your-feature-name
    ```
 
-4. **Make Your Changes**
+4. **Make your changes**
    Implement your feature or fix, and make commits with clear messages:
 
    ```bash
    git commit -m "Add feature XYZ"
    ```
 
-5. **Sync with Upstream (if applicable)**
+5. **Sync with upstream (if applicable)**
    If others have made changes since you started, fetch and merge the latest upstream changes to avoid conflicts:
 
    ```bash
@@ -93,7 +93,7 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
    git merge upstream/main
    ```
 
-6. **Push to Your Fork**
+6. **Push to your fork**
    Push your changes to your GitHub fork:
 
    ```bash
@@ -105,18 +105,18 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
 
 #### When Multiple People Are Working on the Project
 
-* **Communicate Early**: Use GitHub Issues or discussions to claim tasks. This reduces duplicate work and merge conflicts.
-* **Smaller PRs Are Better**: Break big features into smaller, manageable pull requests so they’re easier to review and merge.
-* **Rebase Often**: If others are pushing changes regularly, rebase your branch before submitting your PR to minimize conflicts.
+* **Communicate early**: Use GitHub Issues or discussions to claim tasks. This reduces duplicate work and merge conflicts.
+* **Smaller PRs are better**: Break big features into smaller, manageable pull requests so they’re easier to review and merge.
+* **Rebase often**: If others are pushing changes regularly, rebase your branch before submitting your PR to minimize conflicts.
 
   ```bash
   git fetch upstream
   git rebase upstream/main
   ```
-* **Avoid Force Pushes on Shared Branches**: If you’re collaborating on the same branch as someone else, coordinate and avoid `git push --force` unless absolutely necessary.
+* **Avoid force pushes on shared branches**: If you’re collaborating on the same branch as someone else, coordinate and avoid `git push --force` unless absolutely necessary.
 * **Resolve Conflicts Promptly**: If your PR can’t be merged due to conflicts, update your branch quickly to stay current.
 
-### Edit Existing Files
+### Edit existing files
 
 In order to make changes to the repository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
@@ -141,7 +141,7 @@ To edit an existing file:
 
 *Note: Learn more about [linking pull request and closing issues automatically](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).*
 
-### Create New Files
+### Create new files
 
 If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
 
@@ -161,7 +161,7 @@ To create a new issue:
 *Note: Currently all microbiology related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
 
 
-## Cite Sources
+## Cite sources
 
 ---
 
@@ -171,7 +171,7 @@ To create a new issue:
    2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
 
 
-## Contribution Rules
+## Contribution rules
 
 ---
 
@@ -195,7 +195,7 @@ When adding or editing files, please observe the following rules:
 *Note: we might edit your contribution to homogenize the writing style.*
 
 
-## Final step: Add Your Name to the CONTRIBUTORS File
+## Final step: add your name to the CONTRIBUTORS File
 
 ---
 
@@ -203,7 +203,7 @@ We appreciate your contribution! Please add your name to the [03-contributors.md
 
       
 
-## Special Case: Reordering Document Pages in the Collection Headers
+## Special case: reordering document pages in the collection headers
 
 ---
 
