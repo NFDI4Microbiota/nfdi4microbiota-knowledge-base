@@ -1,5 +1,5 @@
 ---
-title: Data Creation
+title: Data creation
 category: RDM-Collect
 layout: default
 docs_css: markdown
