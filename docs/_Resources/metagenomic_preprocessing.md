@@ -1,5 +1,5 @@
 ---
-title: Preprocessing of Metagenomic Samples
+title: Preprocessing of metagenomic samples
 category: Resources
 layout: default
 docs_css: markdown
