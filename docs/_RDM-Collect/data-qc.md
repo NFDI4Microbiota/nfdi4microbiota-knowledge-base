@@ -1,5 +1,5 @@
 ---
-title: Data Quality Control
+title: Data quality control
 category: RDM-Collect
 layout: default
 docs_css: markdown
@@ -19,7 +19,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 
 ---
 
-## Metadata & Documentation
+## Metadata & documentation
 
 ---
 
@@ -40,7 +40,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 
 ---
 
-## Pipeline Validation
+## Pipeline validation
 
 ---
 
@@ -79,7 +79,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: it is not possible to distinguish between the biological and the technical variance -> bad design
 - **solution/measure**: exclude rRNAs
 
-### Quality Control
+### Quality control
 1. low base call quality at 3'-end
 - **source**: fastqc, fastq input (sam/bam are missing Phred)
 - **possible reason(s)**: general effect esp. for older data, could be hint for 3'-adapters
@@ -131,14 +131,14 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: constrained library (only reads starting at TSS) (FP)
 - **solution/measure**: You can use random barcoding to distinguish between biol. and tech. replicates if needed
 
-## Contamination Checks
+## Contamination checks
 
 1. human DNA in non-human dataset or microbial contamination in plant dataset ...
 - **source**: ncbi-Kraken output or alignment result to reference  
 - **possible reason(s)**: cross-contamination in lab / sample mislabeling
 - **solution/measure**: implement clean bench practices, include blank controls (END)
 
-### Barcode & Multiplexing
+### Barcode & multiplexing
 
 1. high barcode collision rate  
 - **source**: demultiplexing report, UMI-tools output  
@@ -170,7 +170,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: adapter sequence still present
 - **solution/measure**: go back to trimming
 
-### Post-Mapping
+### Post-mapping
 1. different conditions correlate very good
 - **source**: correlation matrix, Illumina input
 - **possible reason(s)**: low potential for DEGs present
@@ -228,7 +228,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 
 ---
 
-### Quality Check
+### Quality check
 1. peak at left/right side in gene or reads per cell histogram or log10-cumulative-number of reads per cell id
 - **source**: BD rhapsody pipeline, negative control study
 - **possible reason(s)**: left=cell fragments, right=multiplets present
@@ -238,7 +238,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: using raw UMI counts
 - **solution/measure**: use DBEC/RSEC UMI counts
 
-### Dimension Reduction
+### Dimension reduction
 1. poor PCA/UMAP/tSNE embedding
 - **source**: Dim. reduction embedding, negative control study
 - **possible reason(s)**: using e.g. only one assay of count data for embedding
@@ -252,7 +252,7 @@ Data quality is a critical pillar in any research involving complex datasets, es
 - **possible reason(s)**: use only 2 PC from the PCA for the tSNE/UMAP projection
 - **solution/measure**: use a significant portion of PC from the PCA as input for tSNE/UMAP
 
-### Find Subpopulations
+### Find subpopulations
 1. cluster form based for a specific batch index
 - **source**: Dim. reduction embedding + clustering, negative control study
 - **possible reason(s)**: batch effect
