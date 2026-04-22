@@ -228,7 +228,7 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
-### Nfdi4microbiota Mailing Lists
+### NFDI4microbiota Mailing Lists
 For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)

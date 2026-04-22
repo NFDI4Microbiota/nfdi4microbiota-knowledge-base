@@ -23,7 +23,7 @@ In the meantime, browse our tools below and find more [recommendations for resou
 ## Applications
 ---
 
-### checkM2 (EMBL) 
+### CheckM2 (EMBL) 
 
 Assessing the quality of metagenome-derived genome bins using machine learning
 
@@ -150,7 +150,7 @@ Link: [https://web.app.ufz.de/marmdb/](https://web.app.ufz.de/marmdb/)
 
 ### AnimalAssociatedMetagenomeDB (UFZ)
 
-"Explore and download curated animal-associated metagnome metadata. The AnimalAssociatedMetagenomeDB (version 1.0) contains 10,885 metagenome samples.
+"Explore and download curated animal-associated metagenome metadata. The AnimalAssociatedMetagenomeDB (version 1.0) contains 10,885 metagenome samples.
 
 operating system: Platform independent
 
@@ -172,7 +172,7 @@ Link: [https://web.app.ufz.de/tmdb](https://web.app.ufz.de/tmdb/)
 ---
 ### BioAutoML (UFZ) 
 
-BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences
+BioAutoML: Automated Feature Engineering and Meta-Learning for Classification of Biological Sequences
 
 operating system: Linux, MacOS
 
@@ -192,7 +192,7 @@ Link: [https://github.com/CAMI-challenge/CAMISIM](https://github.com/CAMI-challe
 
 ### MetaProteomeAnalyzer (ISAS) 
 
-Workflow for metaproteomics anaylysis of microbiomes
+Workflow for metaproteomics analysis of microbiomes
 
 operating system: Linux, Windows
 

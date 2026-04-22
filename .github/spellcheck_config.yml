@@ -37,6 +37,8 @@ matrix:
             - ":matches(code, pre)"
             - "code"
             - "pre"
+            - "[href]"
+            - "a"
     sources:
       - '**/*.md'
     default_encoding: utf-8

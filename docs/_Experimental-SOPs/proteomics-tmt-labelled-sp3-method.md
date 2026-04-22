@@ -3,9 +3,16 @@ title: Proteomics TMT labelled SP3 method
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+hide: true
 authors:
 ---
 
+## Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |------ |
+| Proteomics TMT labelled SP3 method  | Protein Purification | Sarah Schulz, EMBL | 2022-08 | {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %} | {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %} |
+{: .table .table-hover}
 
 ## TMT-labelled SP3 method
 {% cite Protein_purification_Protein_Expression_and_Purification_Core_Facility %}

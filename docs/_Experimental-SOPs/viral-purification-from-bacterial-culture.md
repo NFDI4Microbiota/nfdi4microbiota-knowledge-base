@@ -8,6 +8,13 @@ authors:
 
 ---
 
+## Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |------ |
+| Viral purification from bacterial culture  | Sample Preparation, Virus| EMBL, Sarah Schulz | 2021-11-09 | [protocols.io](dx.doi.org/10.17504/protocols.io.e6nvwjq7wlmk/v1) | {% cite bachrach_1971 %} |
+{: .table .table-hover}
+
 ## Protocol
 1.Centrifuge 40 ml of bacterial culture infected with phage at 6000 g for 30 min, remove the supernatant and filter it through a 0.45 μm syringe filter
 

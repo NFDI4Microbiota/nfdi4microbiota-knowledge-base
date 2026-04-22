@@ -12,8 +12,7 @@ authors:
 
 | Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
 | ------ | ------ | ------ | ------ | ------ |-------|
-| Biobank of human stool samples – sample processing   | Sample processing | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab 
-Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite fmt_biobank %} | N/A |
+| Biobank of human stool samples – sample processing   | Sample processing | University Hospital of RWTH Aachen, Inst. Med. Microbiology, Clavel lab, Collaborative Research Center 1382, Project Q02 “Integrative Microbiota Analysis”, Dr. Nicole Treichel | 2024-09-12 | {% cite fmt_biobank %} | N/A |
 {: .table .table-hover}
 
    

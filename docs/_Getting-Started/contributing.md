@@ -14,7 +14,9 @@ authors:
  
 ## Introduction
 
-This page contains instructions on how to contribute to the Knowledge Base and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
+NDFI4Microbiota's Knowledge Base is an open resource and everyone is welcome to contribute their knowledge on research data management in general and for microbiology content specifically. 
+
+This page contains instructions on how to contribute and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
 The main steps a user must follow to contribute to the Knowledge Base are:
 
@@ -23,6 +25,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
     - Edit existing files *or*
     - Create new files
 3. Add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file
+4. Be aware of our citation rules.
 
 ## Create a GitHub Account
 
@@ -177,7 +180,7 @@ When adding or editing files, please observe the following rules:
 1. Use respectful and inclusive language
 2. Use American English
 3. Keep the content factual
-4. Cite sources appropriately (see below)
+4. Cite sources appropriately (see above)
 5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
 6. Capitalize your headings
 7. After the second and every following `##` add `---` for a visual break line.
@@ -187,6 +190,7 @@ When adding or editing files, please observe the following rules:
 11. Write "Knowledge Base" in capital letters
 12. Be consistent with adding periods or not at the end of list items
 13. Please correct valid typos flagged by the spell checker bot.
+14. The use of large language models (LLMs) to refine content for the NFDI4Microbiota Knowledge Base is permitted, provided that the LLM is used solely to rephrase content based on your original ideas and drafts. Full responsibility for the content remains with you as the author.
 
 *Note: we might edit your contribution to homogenize the writing style.*
 
