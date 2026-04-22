@@ -5,3 +5,4 @@ Scientific research is relying more and more on computing as a core platform, wh
 
 ## Recommendations
 ### Keep it clean and simple
+Starting small and simple has proven to be a better way to begin with an idea. Overengineering or underengineering can lead to chaos and confusion. It is always  recommended to start small and build as one proceeds. Do the simplest thing that could possibly work, and then double-check it really does work.
