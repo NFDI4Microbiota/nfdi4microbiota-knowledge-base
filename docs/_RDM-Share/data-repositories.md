@@ -6,6 +6,7 @@ docs_css: markdown
 authors:
    - jvandendorpe
    - kmarkus
+   - MartinBoleSlo (contributed)
 ---
 
 ## Definition of a Data Repository
@@ -59,8 +60,10 @@ Below are listed well-established repositories in microbiology. For each reposit
 | **All research output** | [Zenodo](https://zenodo.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.wy4egf) | [re3data](https://www.re3data.org/repository/r3d100010468) |
 | **Crystallographic data** | Cambridge Structural Database ([CSD](https://www.ccdc.cam.ac.uk/solutions/csd-core/components/csd/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.vs7865) | [re3data](https://www.re3data.org/repository/r3d100010197) |
 | **Geospatial data** | Malaria Atlas Project ([MAP](https://malariaatlas.org/)) | / | [re3data](https://www.re3data.org/repository/r3d100011838) |
-| **Image data** | [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.x38D2k) | [re3data](https://www.re3data.org/repository/r3d100013949) |
+| **Bioimage data** | [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.x38D2k) | [re3data](https://www.re3data.org/repository/r3d100013949) |
 |  | [Cell Image Library](http://www.cellimagelibrary.org/home) | [FAIRsharing](https://fairsharing.org/FAIRsharing.8t18te) | [re3data](https://www.re3data.org/repository/r3d100000023) |
+| **Reference imaging datasets** | Image Data Resource [(IDR)](https://idr.openmicroscopy.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.6wf1zw) | [re3data](https://www.re3data.org/repository/r3d100012435) |
+| **Simulation/experimental hybrid data** | Systems Science of Biological Dynamics Database [(SSBD)](https://ssbd.riken.jp/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.we2r5a) | / | 
 | **Linked genotype and phenotype data** | European Genome-phenome Archive ([EGA](https://ega-archive.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.mya1ff) | [re3data](https://www.re3data.org/repository/r3d100011242) |
 | **Macromolecular structures** | Worldwide Protein Data Bank ([wwPDB](http://www.wwpdb.org/)) | [FAIRsharing](https://fairsharing.org/FAIRsharing.mckkb4) | [re3data](https://www.re3data.org/repository/r3d100011104) |
 |     | RCSB Protein Data Bank ([RCSB PDB](https://www.rcsb.org))     | [FAIRsharing](https://fairsharing.org/FAIRsharing.2t35ja) | [re3data](https://www.re3data.org/repository/r3d100010327) |
@@ -88,6 +91,10 @@ Below are listed well-established repositories in microbiology. For each reposit
 |  | Genome-Wide Association Studies ([GWAS](https://www.ebi.ac.uk/gwas/)) Catalog | [FAIRsharing](https://fairsharing.org/FAIRsharing.blUMRx) | / |
 | **Protein sequences** | [UniProt](https://www.uniprot.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.s1ne3g) | [re3data](https://www.re3data.org/repository/r3d100010357) |
 | **Proteomes** | PRoteomics IDEntifications ([PRIDE](https://www.ebi.ac.uk/pride)) Archive database | [FAIRsharing](https://fairsharing.org/FAIRsharing.e1byny) | [re3data](https://www.re3data.org/repository/r3d100010137) |
+| **Mass spectrometry** | [PeptideAtlas](http://www.peptideatlas.org/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.dvyrsz) | [re3data](https://www.re3data.org/repository/r3d100010889) |
+| | Mass Spectrometry Interactive Virtual Environment [(MassIVE)](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) | [FAIRsharing](https://fairsharing.org/FAIRsharing.LYsiMd) | [re3data](https://www.re3data.org/repository/r3d100012858) | 
+| **Targeted proteomics MS** | PeptideAtlas SRM Experiment Library [(PASSEL)](https://peptideatlas.org/passel/) | [FAIRsharing](https://fairsharing.org/FAIRsharing.dvyrsz) | [re3data](https://www.re3data.org/repository/r3d100010889) |
+| | [Panorama Public](https://panoramaweb.org/home/project-begin.view) | [FAIRsharing](https://fairsharing.org/FAIRsharing.uBpQ1q) | / |
 | **Quantitative and predictive food microbiology** | [ComBase](https://combase.errc.ars.usda.gov/) | / | [re3data](https://www.re3data.org/repository/r3d100010878) |
 | **Scientific texts and data** | [PUBLISSO – Repository for Life Sciences](https://repository.publisso.de/) | [FAIRsharing](https://fairsharing.org/4357) | [re3data](https://www.re3data.org/repository/r3d100013523) |
 | **Species interaction data** | Global Biotic Interactions ([GloBI](https://www.globalbioticinteractions.org/)) | / | / |
@@ -152,9 +159,11 @@ Below are listed well-established repositories in microbiology. For each reposit
 * **Recommended publication formats for research data**: any file format
 
 #### Steps to deposit data in Zenodo 
-1.Upload files.
-2.Describe your content so others can find it.
-3.Publish your content.
+---
+
+1. Upload files.
+2. Describe your content so others can find it.
+3. Publish your content.
 
 For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 
