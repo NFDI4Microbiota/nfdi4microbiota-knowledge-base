@@ -3,8 +3,16 @@ title: Metabolite extraction from adherent mammalian cells
 category: Experimental-SOPs
 layout: default
 docs_css: markdown
+hide: true
 authors:
 ---
+
+## Metadata
+
+| Title |  Category | Adapated and used by | last accessed |  Link to protocol | Primary origin for protocol | 
+| ------ | ------ | ------ | ------ | ------ |------ |
+| Metabolite extraction from adherent mammalian cells  | Metabolite Extraction | Denise Selegato, EMBL | 2022-09 | {% cite Yuan_2012 %} | {% cite Yuan_2012 %} |
+{: .table .table-hover}
 
 Protocol/MCF/SamplePrep/01: Metabolite extraction from adherent mammalian cells {% cite Yuan_2012 %}
 
