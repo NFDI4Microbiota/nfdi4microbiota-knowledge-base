@@ -9,12 +9,13 @@ authors:
    - mrobbani
    - mmagel
    - cthoelken
+   - KamathSanchita
 
 ---
  
 ## Introduction
 
-NDFI4Microbiota's Knowledge Base is an open resource and everyone is welcome to contribute their knowledge on research data management in general and for microbiology content specifically. 
+NDFI4Microbiota's Knowledge Base is an open resource, and everyone is welcome to contribute their knowledge on research data management in general and for microbiology content specifically. 
 
 This page contains instructions on how to contribute and is intended for contributors with no prior GitHub experience. Feel free to skip to the appropriate section if you feel like you are an experienced user.
 
@@ -30,7 +31,7 @@ The main steps a user must follow to contribute to the Knowledge Base are:
 ## Create a GitHub account
 
 
-Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account, and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
+Users will need a GitHub account if they wish to contribute to the Knowledge Base. If you do not already have an account, go to the GitHub [homepage](https://github.com/) and click the `Sign Up` button to create one. Then follow the instructions. Once you have created an account and signed in, go to the [Knowledge Base repository](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io)
 
 
 ## Make Changes to the repository
@@ -50,7 +51,7 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
    - Navigate to the file you want to change.
    - Click the ✏️ **edit (pencil)** icon at the top right of the file.
    - Make your changes and **write a short description** in the “Commit changes” section.
-   - Choose **“Create a new branch for this commit”**, give your branch a name (e.g. `fix-typo`), and click **“Propose changes”**.
+   - Choose **“Create a new branch for this commit”**, give your branch a name (e.g., `fix-typo`), and click **“Propose changes”**.
 
 3. **Create the Pull Request**
    - After you propose changes, GitHub will show a page to **open a pull request**.
@@ -81,7 +82,7 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
    Implement your feature or fix, and make commits with clear messages:
 
    ```bash
-   git commit -m "Add feature XYZ"
+   git commit -m "Add feature XYZ."
    ```
 
 5. **Sync with upstream (if applicable)**
@@ -101,7 +102,8 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
    ```
 
 7. **Open a Pull Request**
-   Go to the original repo and click **“New pull request”**, then select your feature branch.
+   Go to the original repo and click **“New pull request”**, then select your feature branch(make the pull request to the 'dev' branch. This request is then reviewed and merged into the 'main' branch.
+   
 
 #### When Multiple People Are Working on the Project
 
@@ -120,7 +122,7 @@ A **pull request (PR)** is how you suggest changes to this project. It lets us r
 
 In order to make changes to the repository, users must edit Markdown files in the GitHub editor. If you have never used Markdown files before, [here](https://www.markdowntutorial.com/) is a link to a Markdown tutorial. If you just need to look up syntax, follow this [link](https://www.markdownguide.org/basic-syntax/).
 
-*Note: Markdown files are files which end with the `.md` suffix, for example this `contributing.md` file. Please do not try to edit non Markdown files.*
+*Note: Markdown files are files that end with the `.md` suffix, for example, this `contributing.md` file. Please do not try to edit non-Markdown files.*
 
 To edit an existing file:
 
@@ -132,7 +134,7 @@ To edit an existing file:
 6. Write a comment briefly describing the changes you have made
    1. If you are working on a page related to Research Data Management (RDM), assign @jvddorpe (Justine Vandendorpe) as a reviewer
    2. If you are working on a page related to Workflows, assign @KK-NFDI (Kassian Kobert) as a reviewer
-7. Assign the pull request to `Mahdi Robbani` or  `Natalie Kurtys`
+7. Assign the pull request to `Mahdi Robbani` or  'Mohammad Elhossary.'
 8. Press the `Create pull request` button
 
 [Here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) is a guide to editing files on GitHub if you need further help.
@@ -143,30 +145,31 @@ To edit an existing file:
 
 ### Create new files
 
-If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number e.g. #32 and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
+If you want to create a new page on the website, create a new GitHub issue. A [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a way to keep track of changes we want to make to the repository. Anyone can create an issue if they think a new page should be created or if they desire any changes to a page. These can be seen in the `Issues` tab at the top of the GitHub repository. All issues have an associated issue number, e.g., #32, and if this number is used in commit messages, those changes then appear in the issue, making it easier to see what changes a page has undergone.
 
 To create a new issue:
 
 1. Go to the [issues page](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base.github.io/issues)
 2. Click the `New issue` button
 3. Add the title (the name of the suggested page) and add a description of what you want to include in the new page
-4. Assign the issue to `Mahdi Robbani` or `Natalie Kurtys`
+4. Assign the issue to `Mahdi Robbani` or 'Mohammad Elhossary'.
 5. Click the `Submit new issue` button
 6. Your request will be reviewed and discussed among the git-committee-members of NFDI4Microbiota.
 7. When accepted, a new page/ new file will be created and added to the appropriate collection.
 8. The collection may be reordered in [this config.yaml file](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/9132ef3bfc9f28fcf8eb293d93fc4507eec87a9d/_config.yml#L48) as described below. 
 
 [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is a guide on creating issues on GitHub if you need further help.
+9. If you are creating a new file on the knowledge base, please adapt to the template that is available here.
 
-*Note: Currently all microbiology related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
+*Note: Currently, all microbiology-related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
 
 ## Cite sources
 
 ---
 
-1. Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
+1. Websites can be linked in the text (e.g., [NFDI4Microbiota](https://nfdi4microbiota.de/)).
 2. Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
-   1. Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
+   1. Add the reference to the `docs/_bibliography/references.bib` file in BibTeX format
    2. Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
 
 
@@ -211,11 +214,17 @@ Our editorial style is based on the [RDMkit style guide](https://rdmkit.elixir-e
 
 *Note: if a pull request does not meet these criteria, the reviewer should either ask for a revision in line with the contribution guidelines or edit the content before merging the pull request.*
 
+
 ## Final step: add your name to the CONTRIBUTORS File
 
 ---
+If you have contributed to the NFDI4Microbiots knowledge base page in any way, we appreciate your contribution.
 
-We appreciate your contribution! Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
+Authors/contributors can add their contribution to this [file](_data/contributors.yaml.) and to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file. We are working to sync this information so the user does not need to add their contribution in two places.
+
+You can add your usernames at the beginning of the document you are working on, under the "Authors" section. This way, contributors' information will be displayed on each document that you contributed to.
+Similarly, add your names in the "contributors.md" file. To do so, type in your name with Ochid ID in the .md file specified above. The list is arranged in alphabetical order. Please add your information accordingly. 
+
 
       
 
@@ -223,10 +232,10 @@ We appreciate your contribution! Please add your name to the [03-contributors.md
 
 ---
 
-You can suggest to reorder the pages within a collection if needed or even reassign them to different collections, if another topic seems more suitable. Please have a look at how the pages and collections are currently ordered in [this config.yaml file](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/9132ef3bfc9f28fcf8eb293d93fc4507eec87a9d/_config.yml#L48).
+You can suggest reordering the pages within a collection if needed, or even reassigning them to a different collection if another topic seems more suitable. Please have a look at how the pages and collections are currently ordered in [this config.yaml file](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/9132ef3bfc9f28fcf8eb293d93fc4507eec87a9d/_config.yml#L48).
 The view corresponds to the left-hand navigation bar on topics featured on the Knowledge Base.
 1. Make a reordering suggestion in the file.
-2. Follow the instructions under `### Edit Existing Files`
+2. Follow the instructions under `### Edit Existing Files.`
 3. Must-have for the commit message and merge requests:
    1. meaningful commit header and **detailed** description 
    2. Add content reviewers, assign @jvddorpe (Justine Vandendorpe) as a reviewer
