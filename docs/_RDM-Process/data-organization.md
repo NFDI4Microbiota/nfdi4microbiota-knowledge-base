@@ -5,6 +5,7 @@ layout: default
 docs_css: markdown
 authors:
    - jvandendorpe
+   - sboße
 ---
 
 ## Motivation
