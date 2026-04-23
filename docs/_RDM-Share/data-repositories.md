@@ -45,7 +45,7 @@ Below are listed criteria you might want to consider when selecting a repository
 
 ## Order of Preference for Selecting a Repository
 ---
-1. A certified resposity (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
+1. A certified repository (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
 2. A well-established repository in your discipline that offers a specific scope (e. g. supporting a specific metadata schema).
 3. One of the repositories recommended by your funding organization or the funding program.
 4. Your institution’s repository (if available).
@@ -54,7 +54,7 @@ Below are listed criteria you might want to consider when selecting a repository
 
 ## Well-Established Repositories for Data Deposition in Microbiology
 ---
-Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repoository.
+Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repository.
 
 | Data type | Data repository | FAIRsharing | re3data | 
 |---|---|---|---|
