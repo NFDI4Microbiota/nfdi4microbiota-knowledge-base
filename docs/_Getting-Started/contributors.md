@@ -14,6 +14,7 @@ The following list contains the names of the contributors in alphabetical order.
 * Förstner, Konrad U. (ORCID ID: [0000-0002-1481-2996](http://orcid.org/0000-0002-1481-2996), Wikidata: [Q18744528](https://www.wikidata.org/wiki/Q18744528))
 * Gonzalez, Catherine (ORCID ID: [0000-0002-7585-9990](https://orcid.org/0000-0002-7585-9990))
 * Götz, Barbara (ORCID ID: [0000-0002-6382-7211](https://orcid.org/0000-0002-6382-7211))
+* Kamath, Sanchita ( ORCHID ID:[0009-0005-5325-8309](https://orcid.org/0009-0005-5325-8309))
 * Kasmanas, Jonas Coelho (ORCID ID: [0000-0001-6513-5350](https://orcid.org/0000-0001-6513-5350))
 * Klemm, Paul M. J. (ORCID ID: [0000-0002-3609-5713](https://orcid.org/0000-0002-3609-5713))
 * Kurtys, Natalie O. (ORCID ID: [0009-0001-7836-1274](https://orcid.org/0009-0001-7836-1274))
