@@ -9,7 +9,7 @@ authors:
 ---
 
 
-## Metainformation Template
+## Metainformation template
 
 ### CV terms
 
@@ -49,7 +49,7 @@ authors:
 
 ---
 
-#### Disclaimer: Changes in the tool display
+#### Disclaimer: changes in the tool display
 
 We recently created a [NFDI4Microbiota domain](https://bio.tools/t?domain=nfdi4microbiota) on the life sciences software registry [bio.tools](https://bio.tools) and we will soon be displaying all the tools that NFDI4Microbiota created as well as the ones that NFDI4Microbiota consortium members endorse and highly recommend.
 
@@ -86,11 +86,11 @@ Bakta is a tool for the rapid & standardized annotation of bacterial genomes and
 ---
 ### Homepage
 http://github.com/evolbioinf/andi/
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Phylogenetic analysis
-### license
+### License
 [GPL-v3](https://opensource.org/license/gpl-3-0/)
 ### Description
 Andi estimates the evolutionary distance between closely related genomes.
@@ -110,11 +110,11 @@ txt (distance matrix)
 ---
 ### Homepage
 https://github.com/bramvandijk88/xenoseq
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Metagenomics, horizontal gene transfer
-### license
+### License
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 Pipeline to automate the comparison between short-read libraries to detect foreign ("xenotypic") sequences.
@@ -132,11 +132,11 @@ fasta, tsv
 ---
 ### Homepage
 <https://doi.org/doi:10.18129/B9.bioc.syntenet>
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Inference And Analysis Of Synteny Networks
-### license
+### License
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 syntenet can be used to infer synteny networks from whole-genome protein sequences and analyze them. Anchor pairs are detected with the MCScanX algorithm, which was ported to this package with the Rcpp framework for R and C++ integration. Anchor pairs from synteny analyses are treated as an undirected unweighted graph (i.e., a synteny network), and users can perform: i. network clustering; ii. phylogenomic profiling (by identifying which species contain which clusters) and; iii. microsynteny-based phylogeny reconstruction with maximum likelihood.
@@ -154,11 +154,11 @@ R data.frame
 ---
 ### Homepage
 https://gitlab.com/dunloplab/delta
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Bioimage segmentation and tracking
-### license
+### License
 [MIT](https://opensource.org/license/mit/)
 ### Description
 DeLTA (Deep Learning for Time-lapse Analysis) is a deep learning-based image processing pipeline for segmenting and tracking single cells in time-lapse microscopy movies.
@@ -177,11 +177,11 @@ tiff, tsv
 ---
 ### Homepage
 https://github.com/kevinjohncutler/omnipose
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Bioimage segmentation
-### license
+### License
 [Omnipose NonCommercial License](https://github.com/kevinjohncutler/omnipose?tab=License-1-ov-file#readme)
 ### Description
 Omnipose is a general image segmentation tool that builds on Cellpose in a number of ways described in our paper. It works for both 2D and 3D images and on any imaging modality or cell shape, so long as you train it on representative images.
@@ -200,11 +200,11 @@ tiff, hdf5
 ---
 ### Homepage
 http://rarefan.evolbio.mpg.de
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Genome sequence analysis
-### license
+### License
 [MIT](https://opensource.org/license/mit/)
 ### Description
 The RAREFAN webserver aims to identify and analyze RAYT transposases and their associated REPIN (Repetitive Extragenic PalINdromic sequences) in bacterial species. The input to the server is a selection of closely related strains (less than 5% divergence). Our service provides an analysis of REPIN population size, how it relates to REPIN replication rate and the presence and absence of RAYTs across all submitted genomes.
@@ -223,11 +223,11 @@ gff3, html, R
 ---
 ### Homepage
 https://gitlab.com/paulklemm_PHD/proteinortho
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Comparative Genomics, Orthology
-### license
+### License
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 Proteinortho is a tool to detect orthologous genes within different species.
@@ -250,11 +250,11 @@ tsv, graph, html, xml
 ## vConTACT
 ---
 ### Homepage
- ### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Taxonomy
-### license
+### License
 [GPL-3.0](https://opensource.org/license/gpl-3-0/)
 ### Description
 vConTACT2 is a tool to perform guilt-by-contig-association classification of viral genomic sequence data. It's designed to cluster and provide taxonomic context of viral metagenomic sequencing data.
@@ -272,11 +272,11 @@ TSV,  network file, annotation file
 ---
 ### Homepage
 https://github.com/jessieren/VirFinder
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Prediction of viral sequences
-### license
+### License
 USC-RL v1.0
 ### Description
 The package provides functions to predict viral sequences in a fasta file, such as the assembled contigs from metagenomic data. The method has good prediction accuracy for short (~1kb) and noval viral sequences.
@@ -324,11 +324,11 @@ The deepARG tool leverages deep learning techniques to predict antibiotic resist
 ---
 ### Homepage
 [https://qiita.ucsd.edu/](https://qiita.ucsd.edu/)
-### maturity
+### Maturity
 Mature
-### topic
+### Topic
 Multiomics databasing analysis
-### license
+### License
 [BSD 3-Clause](https://opensource.org/license/bsd-3-clause/)
 ### Description
 Qiita (canonically pronounced cheetah) is an entirely open-source microbial study management platform. It allows users to keep track of multiple studies with multiple ‘omics data. Additionally, Qiita is capable of supporting multiple analytical pipelines through a 3rd-party plugin system, allowing the user to have a single entry point for all of their analyses.

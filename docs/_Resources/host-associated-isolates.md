@@ -1,5 +1,5 @@
 ---
-title: Microbial Isolates from Mammalian Hosts
+title: Microbial isolates from mammalian hosts
 category: Resources
 layout: default
 docs_css: markdown
@@ -9,7 +9,7 @@ authors:
 ---
 
 
-# Microbial Isolates from Mammalian Hosts
+# Microbial isolates from mammalian hosts
 
 In addition to the direct analysis of microbial ecosystems using molecular techniques, cultivation-based approaches are very important for microbiota research 
 The isolation and characterization of strains make it possible to describe novel taxonomic and functional diversity, define the mechanisms underlying microbe- microbe and microbe- host interactions, and open avenues for biotechnological and clinical applications.

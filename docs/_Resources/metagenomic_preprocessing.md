@@ -1,5 +1,5 @@
 ---
-title: Preprocessing of Metagenomic Samples
+title: Preprocessing of metagenomic samples
 category: Resources
 layout: default
 docs_css: markdown
@@ -12,20 +12,20 @@ Metagenomic samples are inherently complex because they contain mixtures of DNA 
 Preprocessing these samples, specifically removing the contaminants, is a critical step before conducting further analyses. The following sections outline the reasons for and steps in preprocessing your metagenomic samples prior to assembling them into contigs.
 
 ---
-1. Improving Data Quality
+#### 1. Improving data quality
 
-- **Quality Filtering:**
+- **Quality filtering**
 
     Next-generation sequencing (NGS) is a technology commonly used for metagenomic sequencing. This technology can generate sequencing reads of varying quality across multiple runs. Poor-quality reads, which may contain errors such as miscalled bases or ambiguous nucleotides, can lead to incorrect assemblies. Filtering out these reads helps ensure that downstream analyses use accurate sequences.
-- **Adapter and Primer Removal:**
+- **Adapter and primer removal**
 
     During metagenomic library preparation, various adapters and primers (depending on the library preparation kit) are ligated to the DNA fragments. If these sequences are not removed, they can interfere with the assembly process or taxonomic identification.
 
-2. Removal of contaminants 
-- **Host and Environmental Contamination:**
+#### 2. Removal of contaminants 
+- **Host and environmental contamination**
 
     When gathering metagenomic samples from a host (human, animal, or plant), the sample can include host cells as well as microbial cells. Host DNA may be present during library preparation and subsequent sequencing, potentially interfering with further analyses. Removing these contaminants helps to focus the analysis on the microbial community of interest rather than on the host.
-- **Laboratory contaminants:**
+- **Laboratory contaminants**
 
     In some cases, contaminants may arise from the laboratory where the library was prepared, introducing DNA sequences that were not originally present in the sampled community. As with host DNA, removing these contaminants helps to focus the analysis on the microbial community instead of the laboratory microbiome.
 
@@ -33,15 +33,15 @@ Preprocessing these samples, specifically removing the contaminants, is a critic
 
 The steps mentioned above (data quality checks and contaminant removal) provide several benefits for the downstream analysis of samples:
 
-1. **Enhanced MAG recovery and Taxonomic Classification**:
+1. **Enhanced MAG recovery and taxonomic classification**
 
    High-quality, filtered reads improve the performance of assembly and genome binning algorithms. Cleaner sequences increase the likelihood of correctly reconstructing genomes (Metagenome Assembled Genomes - MAGs) from fragmented reads. Similarly, removing low-quality reads or contaminated sequences reduces noise and helps prevent taxonomic misclassification and overestimation of abundance.
 
-2. **Reducing Computational Burden**:
+2. **Reducing computational burden**
 
    Due to their nature, metagenomic datasets can be enormous. Preprocessing steps like removing duplicates and filtering out non-informative sequences reduce the total number of sequence reads or fragments that need to be analyzed, thereby making computational analysis more efficient and less resource-intensive.
 
-3. **Minimizing Bias and Error**:
+3. **Minimizing bias and error**
 
    During the amplification steps of library preparation, PCR duplicates or chimeric sequences can be generated. These artifacts can skew abundance estimates if not properly identified and removed. Some preprocessing workflows include error-correction procedures to statistically correct for systematic errors introduced during the sequencing process, further improving data reliability.
 

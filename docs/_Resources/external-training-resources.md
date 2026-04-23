@@ -1,5 +1,5 @@
 ---
-title: Training Resources
+title: Training resources
 category: Resources
 layout: default
 docs_css: markdown
@@ -11,7 +11,7 @@ authors:
 ---
 *Disclaimer:* NFDI4Microbiota does not endorse or sponsor any of the external resources cited below.
 
-## Data Submission
+## Data submission
 ---
 * Lecture (slides) on [Virus Genome Resources and Database Errors](https://doi.org/10.5281/zenodo.10462856) (NFDI4Microbiota)
 * Workshop (slides) on [Virus Database Overview](https://doi.org/10.5281/zenodo.10462530) (NFDI4Microbiota)
@@ -20,23 +20,20 @@ authors:
 ## Research Data Management (RDM)
 ---
 
-### Access Control
-* Coffee Talk on [Access Control, Data Protection and Security in Digital Microbiology](https://doi.org/10.5281/zenodo.18537970) (NFDI4Microbiota)
-
-### Data and Software Publication
+### Data and software publication
 * Cheat Sheet on [Data Repositories](https://doi.org/10.5281/zenodo.13847514) (NFDI4Microbiota)
 * Cheat Sheet on [Persistent Identifiers (PIDs)](https://doi.org/10.5281/zenodo.13847434) (NFDI4Microbiota)
 * Workshop (slides) on [Data Sharing and Publishing](https://doi.org/10.5281/zenodo.16792999) (NFDI4Microbiota)
 
-### Data Documentation
+### Data documentation
 * Workshop (lesson) [Biometadata-02: How to describe biological data? A primer to a FAIR approach for now and the future](https://doi.org/10.5281/zenodo.11527597) (NFDI4Microbiota)
 * Workshop (slides) [Data Documentation](https://doi.org/10.5281/zenodo.16759147) (NFDI4Microbiota)
 * Workshop (slides) [Metadata Quality Control](https://doi.org/10.5281/zenodo.16875139) (NFDI4Microbiota)    
   
-### Data Organisation
+### Data organisation
 * Workshop (lesson plan, slides) on [Data Organisation](https://doi.org/10.4126/FRL01-006484175) (NFDI4Microbiota)
 
-### Digital Preservation
+### Digital preservation
 * Introductory Workshop (slides) on [Digital Preservation](https://doi.org/10.5281/zenodo.13862617) (NFDI4Microbiota)
 * Workshop (slides) on [Long-Term Preservation and Archiving in NFDI Consortia](https://doi.org/10.5281/zenodo.14212959) (NFDI4Microbiota)
 
@@ -62,8 +59,8 @@ authors:
 * Workshop (slides) on [Data Management and Governance](https://doi.org/10.5281/zenodo.16759191) (NFDI4Microbiota)
 * Workshop (slides) on [Optimizing Microbial Research Data Utilization](https://doi.org/10.5281/zenodo.16759247) (NFDI4Microbiota, de.NBI)
 
-### Open Science
-* Talk (slides) on [Open Science - Concepts, Practices and Challenges](https://doi.org/10.5281/zenodo.12177189) (NFDI4Microbiota)
+### Open science
+* Talk (slides) on [Open science - Concepts, Practices and Challenges](https://doi.org/10.5281/zenodo.12177189) (NFDI4Microbiota)
 
 ## Services
 ---
@@ -75,7 +72,7 @@ authors:
 * Jupyter Notebook on the [Introduction to pandas](https://doi.org/10.5281/zenodo.17422341) (NFDI4Microbiota)
 * Jupyter Notebook on [Python Basics](https://doi.org/10.5281/zenodo.17422255) (NFDI4Microbiota)
 
-## Specific Data Generation and Analysis Protocols
+## Specific data generation and analysis protocols
 ---
 * Documentation on [Microbiome Marker Gene Analysis With Qiime 2](https://docs.qiime2.org/2022.8/tutorials/) (Bolyen et al. 2019)
 * Free Online Workshop on [Microbiome Bioinformatics with QIIME 2](https://www.youtube.com/playlist?list=PLbVDKwGpb3XmkQmoBy1wh3QfWlWdn_pTT) (QIIME 2)

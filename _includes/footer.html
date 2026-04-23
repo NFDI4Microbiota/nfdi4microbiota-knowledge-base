@@ -2,49 +2,89 @@
     <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
 
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-1 text-center">
+            </div>
+            <div class="col-10 text-center">
                 <h5>Get Help</h5>
-                <p>If you have any further questions about the management and analysis of your microbial research data, please contact us: 
-                <a href="mailto:helpdesk@nfdi4microbiota.de">helpdesk@nfdi4microbiota.de</a> 
-                (by emailing us you agree to the 
-                <a href="https://www.zbmed.de/en/privacy-policy">privacy policy - in German</a> 
-                on our website: 
-                <a href="https://nfdi4microbiota.de/support/helpdesk">Contact</a>). 
-                The legaly non-binding English translation can be found here: 
-                <a href="{{ '/How-We-Operate/privacy-policy-english-translation.html' | relative_url }}">
-                English Translation</a>.
+                <p>If you have any further questions about the management and analysis of your microbial research data,
+                    please use our <a href="https://nfdi4microbiota.de/support/helpdesk">Contact-form</a>
+                    or e-mail us <a href="mailto:helpdesk@nfdi4microbiota.de">helpdesk@nfdi4microbiota.de</a> (by
+                    emailing us you agree to the <a href="https://www.zbmed.de/en/privacy-policy">privacy policy - in
+                        German</a>).
+                    <br>
+                    The legaly non-binding English translation can be found here:
+                    <a href="{{ '/How-We-Operate/privacy-policy-english-translation.html' | relative_url }}">
+                        English Translation</a>.
                 </p>
             </div>
+            <div class="col-1 text-center">
+            </div>
         </div>
 
+        <div class="row align-items-center">
+            <div class="col-3">
+                <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                   href="{{ '/ | relative_url }}"
+                   aria-label="Bootstrap">
 
-        <div class="row">
-            <div class="col-lg-3 mb-3">
-                <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="{{ '/ | relative_url }}"
-                    aria-label="Bootstrap">
+                    <img src="{{ '/assets/img/dfg_logo_schriftzug_blau_foerderung_en__1200x376.png' | relative_url }}"
+                         height="100" width="300"></img>
 
-                    <img src="{{ '/assets/img/dfg_logo_schriftzug_blau_foerderung_en__1200x376.png' | relative_url }}" height="100" width="300"></img>
-               
                 </a>
-                
-            </div>     
-            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                <h5><a href="https://www.zbmed.de/en/privacy-policy">Privacy policy</a></h5>
-                
-            </div>
-            <div class="col-6 col-lg-2 mb-3">
-                <h5><a href="https://www.zbmed.de/en/legal-notice">Impressum</a></h5>
-                
-            </div>
-            <div class="col-6 col-lg-2 mb-3">
-                <h5><a href="https://www.zbmed.de/en/disclaimer">Disclaimer</a></h5>
-                
-            </div>
-            <div class="col-6 col-lg-2 mb-3">
-                <h5><a href="https://lists.nfdi.de/postorius/lists/nfdi4microbiota-announce.lists.nfdi.de/">Mailing list</a></h5>
-               
-            </div>
-        </div>
 
+            </div>
+            <div class="col-9 d-flex justify-content-center align-items-center">
+                <div class="row d-flex flex-wrap justify-content-center gap-4 text-center">
+                    <div class="col-auto">
+                        <h5><a href="https://www.zbmed.de/en/privacy-policy">Privacy policy</a></h5>
+                    </div>
+                    <div class="col-auto">
+                        <h5><a href="https://www.zbmed.de/en/legal-notice">Impressum</a></h5>
+                    </div>
+                    <div class="col-auto">
+                        <h5><a href="#" data-bs-toggle="modal" data-bs-target="#disclaimerModal">Disclaimer</a></h5>
+                    </div>
+                    <div class="col-auto">
+                        <h5><a href="https://lists.nfdi.de/postorius/lists/nfdi4microbiota-announce.lists.nfdi.de/">Mailing
+                            list</a></h5>
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </footer>
+
+<!-- Disclaimer Modal -->
+<div class="modal fade" id="disclaimerModal" tabindex="-1" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="disclaimerModalLabel">Disclaimer</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>While we make every effort to ensure that only correct information is added to the NFDI4Microbiota
+                    Knowledge Base, it is important to note that our reviewers are not experts in all the topics added,
+                    nor are they legal experts.
+                    Therefore, errors, inaccuracies, sensitive information and malicious content may slip through the
+                    review process. The reviewers and NFDI4Microbiota cannot be held responsible for this.
+                </p>
+                <p>If you notice anything, thank you for informing us by <a
+                        href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/issues/new">adding an
+                    issue</a> or <a href="https://nfdi4microbiota.de/support/helpdesk">contacting the helpdesk</a>.
+                </p>
+                <p>
+                    Further disclaimer information can be found in the <a href="https://www.zbmed.de/en/disclaimer">official
+                    disclaimer</a>.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+</div>
