@@ -1,5 +1,5 @@
 ---
-title: Access Control and Data Security
+title: Access control and data security
 category: RDM-Share
 layout: default
 docs_css: markdown

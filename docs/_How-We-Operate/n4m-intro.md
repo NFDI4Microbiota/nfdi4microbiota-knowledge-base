@@ -7,7 +7,7 @@ redirect_from: /How-We-Operate
 hide: false
 ---
 
-## NFDI4Microbiota: How We Operate
+## NFDI4Microbiota: how we operate
 
 
 ### Aim
@@ -46,7 +46,7 @@ Researchers can translate data easily into a deep understanding of microbial org
 ### Code of Conduct
 It applies the [code of conduct of NFDI e.V.](https://www.nfdi.de/wp-content/uploads/2023/08/NFDI-Verhaltenskodex_NFDI-code-of-conduct.pdf).
 
-### Key Objectives
+### Key objectives
 NFDI4Microbiota aims to facilitate the digital transformation of the microbiology community to significantly accelerate the generation of new, relevant knowledge. Microbiology is intricately linked
 to numerous other fields, including medicine, agriculture, biotechnology, and earth science, so the overall
 social impact of these improvements will be immense.
@@ -148,7 +148,7 @@ thus reacting to new and unforeseen scenarios. It is staffed based on suggestion
 ### NFDI4Microbiota Policy
 The General Assembly adopted the NFDI4Microbiota Policy in 2023, which will be published on the [NFDI4Microbiota Zenodoo community](https://zenodo.org/communities/nfdi4microbiota) soon.
 
-## Annual Timeline of Important Dates for the Consortium
+## Annual timeline of important dates for the Consortium
 
 ---
 
@@ -190,7 +190,7 @@ The NFDI4Microbiota community is defined as the group of all researchers working
 This community can be further divided into the following groups: consortium members, participating institutions, ambassadors, and societies. 
 For communication different contact and mailing lists exist. An overview of all communication channels is presented at the end of this file.
 
-### NFDI4Microbiota Consortium Members
+### NFDI4Microbiota Consortium members
 A member of the NFDI4Microbiota consortium is defined as a person who works at one of the ten partner institutions directly funded by NFDI4Microbiota. 
 Responsibilities, contacts, and involvements in the measures of NFDI4Microbiota are documented. 
 Each member is responsible to update its data frequently. If a member leaves the consortium, the member or someone from his/her institution needs to make sure to inform the AU, 
@@ -198,7 +198,7 @@ so that he/she can be removed from all mailing lists, Open Project, Rocket Chat,
 All are members of the mailing list members-at-nfdi4microbiota.de. Please find a visual overview.
 
 
-### NFDI4Microbiota Partners 
+### NFDI4Microbiota partners 
 The NFDI4Microbiota partners are the co-spokespersons of the consortium. The institution they work for is the partner institution of NFDI4Microbiota.
 
 Partner/Co-spokespersons |Institution, location |Task area(s) (TA)
@@ -213,11 +213,11 @@ Prof. Dr. Jörg Overmann |[DSMZ](https://www.dsmz.de/), Braunschweig| TA1, 2, 3,
 Prof. Dr. Anke Becker |[UMR](https://www.uni-marburg.de/en/synmikro), Marburg |TA1, 2, 3, 4, 5
 Prof. Dr. Thomas Clavel |[RWTH Aachen](https://www.rwth-aachen.de/), Aachen |TA1, 2, 3
 
-### NFDI4Microbiota Participants and Supporting Societies
+### NFDI4Microbiota participants and supporting societies
 Participants are participating institutions with contact person(s) for each institution. The list of all participants and supporting societies and their contact details are 
 found. All participants are members of the mailing list participants-at-nfdi4microbiota.de.
 
-### NFDI4Microbiota Ambassadors
+### NFDI4Microbiota ambassadors
 Ambassadors are young researchers (PhD students, Post Docs, etc.) of microbiology research groups. They actively [registered](https://helmholtz-hzi.limesurvey.net/158936?newtest=Y&lang=en) 
 and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on the ambassador program can be found on the [web portal](https://nfdi4microbiota.de/community/ambassador.html).
 
@@ -228,12 +228,12 @@ and are part of the mailing list ambassador-at-nfdi4microbiota.de. Details on th
 
 Within the consortium, as well as externally, we have several communication possibilities through different channels:
 
-### NFDI4microbiota Mailing Lists
+### NFDI4microbiota mailing lists
 For the communication with and within the consortium, the following mailing lists are available:
 - contact@nfdi4microbiota.de (Administration Unit + Outreach Coordination)
 - helpdesk@nfdi4microbiota.de (Helpdesk team)
 
-### Rocket Chat
+### Rocket chat
 The Rocket Chat instance of NFDI e.V. is used for low-level communication within the different consortia, the sections, the task forces, and channels created
 by members of the NFDI consortia with specific purposes. It can also be considered as an alternative communication without email overload.
 
@@ -245,7 +245,7 @@ Channels provided by NFDI4Microbiota:
 To have your user account created on the Rocket Chat, contact one of the Administration Unit.
 Afterwards, you can access the rocket chat for [NFDI](https://all-chat.nfdi.de).
 
-### NFDI e.V. Mailing Lists
+### NFDI e.V. mailing lists
 Via this mailing list, general information on e.g. NFDI talks, coffee sessions, onboarding (quarterly), and statute introduction (semi-annually) are shared.
 If you are involved in further sections, task forces, or administrative groups (more information on NFDI e.V. work), it would be easiest to create an account to manage the 
 NFDI mailing lists. For some mailing lists, archives of past emails do exist and can be viewed too. Every NFDI4Microbiota member should at least register to 'nfdi-all' mailing list.
@@ -260,7 +260,7 @@ For the consortium, the information on the annual direct cost distributions and 
 In general, the [Usage Guidelines of the DFG](https://www.dfg.de/resource/blob/168728/8ee8c5e88b49e485ec3e0cb8d3fe107d/dfg-nfdi300-de-v0721-data.pdf) giving a guideline on 
 different financial topics as well, like travel costs, etc. As repetition is not intended, here only consortium-specific topics are addressed.
 
-### Direct Costs
+### Direct costs
 The direct costs were not distributed within the consortium during the proposal phase. Therefore, each year the direct costs have to be distributed throughout the partner institutions. 
 An annual financial forecast is implemented and described in ....
 

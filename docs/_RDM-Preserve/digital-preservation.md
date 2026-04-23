@@ -1,5 +1,5 @@
 ---
-title: Digital Preservation
+title: Digital preservation
 category: RDM-Preserve
 layout: default
 docs_css: markdown
@@ -74,14 +74,14 @@ The following section is intended to provide a basic understanding of the possib
    * In the event that the rights need to be transferred to another person at some point, the necessary procedures and documentation must be set up.
    * If the rights for folders, files, database entries or similar differ among your preserved data, document these with the data and make this documentation machine-readable.
 * Determine the level of digital preservation 
-   * **DP at Bitstream level:** This is the basis for being able to preserve digital objects and control changes at all.
+   * **DP at bitstream level:** This is the basis for being able to preserve digital objects and control changes at all.
       * Check that files must not be encrypted, password-protected or protected against printing or copying of content. 
       * Check that files are virus-free
       * Generate and check the checksums of files if transferred or on receipt, document them and conduct regular fixity checks so it is noticeable if files are no longer intact
       * Store data redundantly - see above: [3-2-1 rule](#digital-preservation-for-researchers) 
       * Develop strategies for monitoring and updating storage media (e.g. according to the technical lifespan)
       * Perform control, logging and versioning of any changes
-   * **DP at Content preservation level:** This is generally understood to cover the combination of technical-logical and semantic preservation in order to understand for what the data is intended and how it is organized technically [(Markus et al. 2024)](@techreport).
+   * **DP at content preservation level:** This is generally understood to cover the combination of technical-logical and semantic preservation in order to understand for what the data is intended and how it is organized technically [(Markus et al. 2024)](@techreport).
       * Check whether manuals (readme, codebook, data dictionary..) are available, e.g. to describe the software used or the structure of the data 
       * Describe your data with sufficient metadata (incl. information about versions, other publications, and relationships between files) that support the FAIR principles and store it with your data, e.g. in a database
       * Check whether codes and scripts are prepared according to coding best practices.
