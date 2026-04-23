@@ -3,6 +3,7 @@ title: example document
 category: examples
 layout: default
 docs_css: markdown
+hide: true
 authors:
    - yourusername
    - 
