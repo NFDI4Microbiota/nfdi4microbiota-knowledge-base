@@ -1,17 +1,17 @@
 # Best practices in developing a tool/software [@hastings2014ten]
 
 ## The gap
-Scientific research is relying more and more on computing as a core platform, while the growing scale, complexity, variety, and accessibility of datasets across many formats increase the need for software and tools that are well designed, efficient, and easy to maintain. Establishing good practices in software development is essential to improve code quality, reduce errors, support teamwork, lower maintenance costs, and ensure that software remains reliable, reusable, and sustainable over time.
+Scientific research is increasingly relying on computing as a core platform, while the growing scale, complexity, variety, and accessibility of datasets across many formats increase the need for well-designed, efficient, and easy-to-maintain software and tools. Establishing good software development practices is essential to improve code quality, reduce errors, support teamwork, lower maintenance costs, and ensure software remains reliable, reusable, and sustainable over time.
 
 ## Recommendations
 ### Keep it clean and simple
 Starting small and simple has proven to be a better way to begin with an idea. Overengineering or underengineering can lead to chaos and confusion. It is always  recommended to start small and build as one proceeds. Do the simplest thing that could possibly work, and then double-check it really does work.
 
 ### Test along each step of the way
-In a project of any scale, testing the work in everystep avoides mistakes and repetative work in the end. Thus, designing test cases at the very beginning of the project serves as a check that each step of the project undergoes. These are called unit tests and are highly recommended to be implemented in the planning step of a software based projects. These tests should consider all the borderline testcases to make the software/tool efficient.
+In any project, testing at every step avoids mistakes and repetitive work at the end. Thus, designing test cases at the very beginning of the project serves as a check that each step of the project undergoes. These are called unit tests and are highly recommended for implementation during the planning stage of a software-based project. These tests should consider all the borderline test cases to make the software/tool efficient.
 
 ### Careful when pasting the data
-When the scenarios or problem statements are similar, it is common to use already established work in the form of code or content. This could result in the duplication of lines or leave bugs that will end up being hard to fix in the end. Automated tools, such as [Simian](https://simian.quandarypeak.com/), can help to detect and fix duplication in existing codebases. 
+When the scenarios or problem statements are similar, it is common to use already established work in the form of code or content. This could result in line duplication or leave bugs that will be hard to fix in the end. Automated tools, such as [Simian](https://simian.quandarypeak.com/), can help to detect and fix duplication in existing codebases. 
 
 ### Modular design for workflow
 Adopt a modular design in which software is built from separate components that work together to provide the system's overall functionality. Each module should expose a clear public interface while hiding its internal implementation details. Developers should write and test code against this interface rather than the underlying implementation, so that internal changes can be made without affecting other parts of the software. Shared application programming interfaces can also support multiple implementations.
