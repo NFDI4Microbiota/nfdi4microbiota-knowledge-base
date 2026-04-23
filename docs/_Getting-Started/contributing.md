@@ -193,16 +193,18 @@ When adding or editing files, please observe the following rules:
 13. Please correct valid typos flagged by the spell checker bot.
 14. The use of large language models (LLMs) to refine content for the NFDI4Microbiota Knowledge Base is permitted, provided that the LLM is used solely to rephrase content based on your original ideas and drafts. Full responsibility for the content remains with you as the author.
 
-*Note: we might edit your contribution to homogenize the writing style.*
+*Note: We might edit your contribution to homogenize the writing style.*
 
 
 ## Final step: Add Your Name to the CONTRIBUTORS File
 
 ---
+If you have contributed to the NFDI4Microbiots knowledge base page in any way, we appreciate your contribution.
 
-If you have contributed to the NFDI4Microbiots knowledge base page in any way, we appreciate your contribution.  
-Please add your name to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file.
-To do so, type in your name with Ochid ID in the .md file specified above. The list is arranged in alphabetical order. Please add your information accordingly. 
+Authors/contributors can add their contribution to this [file](_data/contributors.yaml.) and to the [03-contributors.md](https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/docs/_Getting-Started/contributors.md) file. We are working to sync this information so the user does not need to add their contribution in two places.
+
+You can add your usernames at the beginning of the document you are working on, under the "Authors" section. This way, contributors' information will be displayed on each document that you contributed to.
+Similarly, add your names in the "contributors.md" file. To do so, type in your name with Ochid ID in the .md file specified above. The list is arranged in alphabetical order. Please add your information accordingly. 
 
 
       
