@@ -1,3 +1,13 @@
+---
+---
+title:  Best practices in developing a tool/software
+category: software-Development
+layout: default
+docs_css: markdown
+redirect_from: /_Software-Development
+authors:
+   - KamathSanchita
+
 # Best practices in developing a tool/software [@hastings2014ten]
 
 ## The gap
@@ -35,3 +45,4 @@ As software ages, maintaining it can become more challenging, so it is important
 
 ### Use version control consistently
 A reliable version control system, such as Git, together with a central repository, helps manage changes and supports collaboration. Changes should be committed early and often, not only during major refactoring, so that development history remains clear and recoverable.
+
