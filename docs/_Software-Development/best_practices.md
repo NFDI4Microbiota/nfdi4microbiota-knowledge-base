@@ -1,5 +1,4 @@
 ---
----
 title:  Best practices in developing a tool/software
 category: software-Development
 layout: default
@@ -7,6 +6,7 @@ docs_css: markdown
 redirect_from: /_Software-Development
 authors:
    - KamathSanchita
+---
 
 # Best practices in developing a tool/software [@hastings2014ten]
 
