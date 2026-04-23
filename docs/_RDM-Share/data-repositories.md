@@ -1,5 +1,5 @@
 ---
-title: Data Repositories
+title: Data repositories
 category: RDM-Share
 layout: default
 docs_css: markdown
@@ -9,11 +9,11 @@ authors:
    - MartinBoleSlo (contributed)
 ---
 
-## Definition of a Data Repository
+## Definition of a data repository
 
 A **data repository** is a location where digital objects are stored and documented, and which enable the separate publication and archiving of these objects. Data access can be either open or restricted to a group of users.
 
-## Benefits of Publishing Data in a Repository
+## Benefits of publishing data in a repository
 ---
 * Increased **visibility** and **citations** as repositories can be harvested by **search engines** such as:
     * [BASE](https://www.base-search.net/about/en/index.php)
@@ -24,7 +24,7 @@ A **data repository** is a location where digital objects are stored and documen
 * **Back-up** (i.e. the practice of keeping additional copies of your research data in a separate physical or cloud locations from your files in storage).
 
 
-## Criteria to Select a Trusted Repository
+## Criteria to select a trusted repository
 ---
 Below are listed criteria you might want to consider when selecting a repository where to publish your data:
 * Is the repository **certified** according to CoreTrustSeal (CTS), nestor seal/DIN 31644 or ISO 16363? Find these repositories via re3data or the website of various certification initatives:
@@ -43,7 +43,7 @@ Below are listed criteria you might want to consider when selecting a repository
 * Does the repository offer the possibility to integrate all metadata relevant for finding and specifying your publication? 
 * Further criteria: costs, repository size, data upload restriction(s), landing pages, guidance on data citation.
 
-## Order of Preference for Selecting a Repository
+## Order of preference for selecting a repository
 ---
 1. A certified repository (CoreTrustSeal, nestor/DIN 31644, ISO 16363)
 2. A well-established repository in your discipline that offers a specific scope (e. g. supporting a specific metadata schema).
@@ -52,7 +52,7 @@ Below are listed criteria you might want to consider when selecting a repository
 5. A cost-free interdisciplinary repository (e.g. [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/)).
 6. Another repository that you can search for using the above-mentioned criteria in a repository finder. 
 
-## Well-Established Repositories for Data Deposition in Microbiology
+## Well established repositories for data deposition in microbiology
 ---
 Below are listed well-established repositories in microbiology. For each repository, the FAIRsharing and re3data pages are linked. On the FAIRsharing page, you will find information such as which journals endorse the repository (under "Collections & Recommendations" and then "In Policies"). On the re3data page, you will find information such as the above-mentioned criteria to select a trusted repository.
 
@@ -105,13 +105,13 @@ Below are listed well-established repositories in microbiology. For each reposit
 | **Vertebrate-virus network** | [VIRION](https://viralemergence.github.io/) | / | / |
 {: .table .table-hover}
 
-## Data Publishing in the PUBLISSO – Repository for Life Sciences (FRL)
+## Data publishing in the PUBLISSO – Repository for Life Sciences (FRL)
 ---
 
-#### Repository Details
+#### Repository details
 * **Data types**: scientific texts and research data from the fields of medicine, health, nutritional, environmental and agricultural sciences
-* **Open Access**: yes
-* **Terms of use & License**: yes
+* **Open access**: yes
+* **Terms of use & license**: yes
 * **PID system**: yes (DOI)
 * **Certification or repository standard**: no
 * **Policy**: yes ( see "[Data Policy](https://www.publisso.de/fileadmin/user_upload/Downloads/Data_Policy_FD_Fachrepositorium_Lebenswissenschaften_Okt_2019.pdf)", only in German)
@@ -124,6 +124,7 @@ Below are listed well-established repositories in microbiology. For each reposit
 #### Steps to Deposit Data in the FRL:
 1. Contact [forschungsdaten@zbmed.de](forschungsdaten@zbmed.de).
 2. You will receive:
+
     * The terms of use that you need to sign and send back.
     * A record sheet that you need to fill in with your metadata and send back.
 3. Your metadata will be checked, entered into the FRL and assigned a DOI.
@@ -145,13 +146,13 @@ Below are listed well-established repositories in microbiology. For each reposit
 * The FRL is not suitable for sensitive data.
 * The FRL can be browsed only in German.
 
-## Data Publishing in Zenodo
+## Data publishing in Zenodo
 ---
 
-#### Repository Details
+#### Repository details
 * **Data types**: all research outputs, positive and negative results
-* **Open Access**: yes
-* **Terms of use & License**: yes
+* **Open access**: yes
+* **Terms of use & license**: yes
 * **PID system**: yes (DOI)
 * **Certification or repository standard**: no
 * **Policy**: yes (see [here](https://about.zenodo.org/policies/))
@@ -182,7 +183,7 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * Zenodo might not be suitable for sensitive data that might have to stay in their country of origin.
 * Zenodo has a size limit of 50 GB per record. For bigger size, a request has to be made.
 
-## Repository Finders
+## Repository finders
 ---
 * To find any repositories:
     * The DFG-funded registry of research data repositories ([re3data.org](https://www.re3data.org/), [search results](https://www.re3data.org/search?query=Microbiology) for "Microbiology")
@@ -192,6 +193,6 @@ For more details, see this [guide](https://www.openaire.eu/zenodo-guide).
 * To find Open Access repositories: Directory of Open Access Repositories [(OpenDOAR)](https://v2.sherpa.ac.uk/opendoar/)
 * To find EMBL-EBI associated repositories through a series of questions about your data: [Data submission wizard](https://www.ebi.ac.uk/submission/) 
 
-## Further Resources
+## Further resources
 ---
 * [Data Deposition and Standardization](https://academic.oup.com/nar/pages/data_deposition_and_standardization) help page of the [Oxford Academic](https://academic.oup.com) Nucleic Acids Research ([NAR Journal](https://academic.oup.com/nar)).

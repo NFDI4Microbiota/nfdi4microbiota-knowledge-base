@@ -1,5 +1,5 @@
 ---
-title: List of Contributors
+title: List of contributors
 category: Getting-Started
 layout: default
 docs_css: markdown

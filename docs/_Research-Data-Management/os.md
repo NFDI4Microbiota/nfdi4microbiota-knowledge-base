@@ -1,5 +1,5 @@
 ---
-title: Open Science
+title: Open science
 category: Research-Data-Management
 layout: default
 docs_css: markdown

@@ -26,7 +26,7 @@ authors:
 * **Data Protection Officer:** person who oversees the application of and compliance with regulations designed to protect important information from corruption, compromise or loss within an organisation
 * **Data pseudonymization:** processing of personal data where the majority of identifying fields are replaced by pseudonyms (i.e. artificial identifiers).
 * **Data repository:** a place where digital objects are stored and documented, and where these objects can be separately published and archived. Access to the data can be either open or restricted to a group of users.
-* **Data Steward:** an expert in the preparation and management of data, including data selection, storage, preservation, annotation, provenance and other metadata maintenance, and dissemination.
+* **Data steward:** an expert in the preparation and management of data, including data selection, storage, preservation, annotation, provenance and other metadata maintenance, and dissemination.
 * **Digital preservation:** the act of ensuring the continued findability and accessibility of digital material and keeping it independently understandable and reusable by a designated community, with evidence of its authenticity, for as long as necessary.
 * **Documentation:** one or more documents that accompany your data/code and describe the details of the data/code and how/why it was generated.
 * **Dublin Core:** domain-agnostic, basic, widely used metadata standard.
@@ -58,7 +58,7 @@ authors:
 
 ## O
 * **Ontology:** a list of terms with curated textual definitions with persistent identifiers. The terms are arranged hierarchically from general to more specific and have defined relationships to other terms within the ontology and to external resources (e.g., synonyms, cross-references).
-* **Open Science:** make the results of publicly funded research (e.g. publications, research data, processes) publicly and freely available in digital formats under conditions that allow reuse, redistribution and reproduction of the research and its underlying data and methods.
+* **Open science:** make the results of publicly funded research (e.g. publications, research data, processes) publicly and freely available in digital formats under conditions that allow reuse, redistribution and reproduction of the research and its underlying data and methods.
 * **Open source:** software source code that is made publicly and freely available and can be redistributed and modified. 
 
 ## P
@@ -86,7 +86,7 @@ authors:
 
 ## Further Resources
 * [BIO514 - Systems medicine - Microbiome - Glossary](http://siobhonlegan.com/BIO514-microbiome/#glossary)
-* [Bioinformatics Glossary](https://doi.org/10.1002/9780470904640.app3)
+* [Bioinformatics glossary](https://doi.org/10.1002/9780470904640.app3)
 * [EDAM - Ontology of bioscientific data analysis and data management](http://edamontology.org/page)
 * [Glossary - Data processing and visualization for metagenomics](https://carpentries-lab.github.io/metagenomics-analysis/reference.html)
 * [Research Data Management Terminology](https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/rdm-terminology/)

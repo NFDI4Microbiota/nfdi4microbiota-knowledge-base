@@ -1,5 +1,5 @@
 ---
-title: Governance Workflows
+title: Governance workflows
 category: How-We-Operate
 layout: default
 docs_css: markdown
@@ -38,7 +38,7 @@ that they need to give input on their TAs. If further topics are addressed, wher
 - Changing the agenda accordingly.
 - Preparing a presentation for the General Assembly addressing the agenda.
 
-### Example for the Agenda of the General Assembly
+### Example for the agenda of the General Assembly
 
 1. Welcome, approval of open election, and the agenda  
 2. Reports from the TAs  
@@ -79,18 +79,18 @@ All files regarding the General Assembly are filed [in Nextcloud](https://nextcl
 
 A detailed description of the Scientific Advisory Board (SAB) of NFDI4Microbiota can be found in the [introduction to NFDI4Microbiota](00-n4m-intro.html#governance-of-nfdi4microbiota).
 
-### Information Flow to the Scientific Advisory Board
+### Information flow to the Scientific Advisory Board
 To update the SAB regularly, they will receive the following information via their mailing list:
 
 - quarterly updates about the outputs and the work of the consortium via the NFDI4Microbiota newsletter,
 - the outcome and the proposals of the annual FlexFunds call, and  
 - a season's greeting email.
 
-### Frequency of the Scientific Advisory Board and Board of Directors Meetings
+### Frequency of the Scientific Advisory Board and Board of Directors meetings
 The SAB meets once a year with the Board of Directors (BoD) for updates on the consortium work and consultation. In addition, they will be invited to other consortium-related events like the annual NFDI4Microbiota 
 conference. 
 
-### Preparation for the Scientific Advisory and Board of Directors Meeting
+### Preparation for the Scientific Advisory and Board of Directors meetings
 The Administration Unit (AU) and the BoD have to prepare for the SAB and BoD meeting.
 
 ### Timeline
@@ -152,18 +152,18 @@ The Project review board will have the following obligations:
 
 *The rough expenditure of time is 16 hours p.a and includes a minimum of one annual meeting (approx. 3 hrs). The time for the review process will be at the end of September.*
 
-### FlexFunds Review Workflow
+### FlexFunds review workflow
 The FlexFunds workflow is described in the finances workflows in detail.
 The PRB receives FlexFunds applications and the review template from the Administration Unit after the call for Flex Funds applications was closed. They will receive these latest 2 weeks after the call was closed. 
 
-### Information Flow to the Project Review Board
+### Information flow to the Project Review Board
 To update the PRB regularly, they will receive the following information via their mailing list:
 
 - quarterly updates about the outputs and the work of the consortium via the NFDI4Microbiota newsletter,
 - the outcome and the proposals of the annual FlexFunds call, and  
 - a season's greeting email.
 
-## The Circulation Procedure
+## The circulation procedure
 
 ---
 
