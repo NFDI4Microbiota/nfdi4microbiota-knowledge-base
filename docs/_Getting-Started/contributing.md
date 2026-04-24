@@ -225,6 +225,19 @@ The view corresponds to the left-hand navigation bar on topics featured on the K
 4. Your suggestions will be discussed internally before potential acceptance.
 
 
+## TL;DR
+
+* Fork the repository
+* Create a new branch (`git checkout -b feature/your-feature-name`)
+* Make your changes
+* Commit changes (`git commit -m "your message"`)
+* Push to your fork (`git push origin your-branch`)
+* Open a Pull Request
+
+👉 Keep PRs small and focused
+👉 Follow existing code style
+👉 Add clear descriptions in your PR
+
 ## Contributors
 
 {% include popover.html %}
