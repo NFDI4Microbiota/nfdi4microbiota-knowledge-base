@@ -163,7 +163,6 @@ To create a new issue:
 
 *Note: Currently, all microbiology-related files and pages are collected in the [Resources Collection]( _Resources) until a more suitable Collection is created for these.*
 
-
 ## Cite sources
 
 ---
@@ -178,24 +177,42 @@ To create a new issue:
 
 ---
 
-When adding or editing files, please observe the following rules:
+Our editorial style is based on the [RDMkit style guide](https://rdmkit.elixir-europe.org/style_guide), except for the 'General style and tone' section (see below for our version). Our priorities are accuracy of content and the use of inclusive language. In addition, we encourage you to follow the following style rules:
 
-1. Use respectful and inclusive language
-2. Use American English
-3. Keep the content factual
-4. Cite sources appropriately (see above)
-5. Use `##` for the main file heading and use `###`, `####`, …, for all subheadings
-6. Capitalize your headings
-7. After the second and every following `##` add `---` for a visual break line.
-8. Place image files in the `assets/img/` directory
-9. Use internal links to Markdown documents with {% raw %}`[Link text]({% link _RDM-Share/26_licenses.md %})`{% endraw %}
-10. Non-public links are restricted to the how-we-operate section and manually whitelisted in `.github/workflows/ignored-urls.txt`
-11. Write "Knowledge Base" in capital letters
-12. Be consistent with adding periods or not at the end of list items
-13. Please correct valid typos flagged by the spell checker bot.
-14. The use of large language models (LLMs) to refine content for the NFDI4Microbiota Knowledge Base is permitted, provided that the LLM is used solely to rephrase content based on your original ideas and drafts. Full responsibility for the content remains with you as the author.
+### General Style and Tone
+* Use respectful and [inclusive language](https://en.wikipedia.org/wiki/Inclusive_language).
+* Use American English.
+* Keep the content factual.
+* You may use large language models (LLMs) to refine content for the NFDI4Microbiota Knowledge Base, provided the LLM is used solely to rephrase content based on your original ideas and drafts. You as the author remain fully responsible for the content.
 
-*Note: We might edit your contribution to homogenize the writing style.*
+### Text
+* **Acronyms:** spell them out the first time.
+* **Capitals:**
+    * Write 'Knowledge Base' in capital letters.
+    * Capitalise your headings.
+* **Colon:** do NOT capitalise a word after a colon.
+* **Data:** treat as singular (“Data is…”).
+* **Examples:** e.g. should NOT be followed by a comma, and a list of examples beginning with “e.g.” or “such as” should NOT end with etc.
+* **Headings:**
+    * Use `##` for the main file heading and `###`, `####`, etc. for all subheadings.
+    * After the second and every subsequent `##`, add `---` to create a visual break line.
+    * Capitalise your headings.
+* **Links:**
+    * Create internal links to Markdown documents using the following format: `{% raw %}[Link text]({% link _RDM-Share/26_licenses.md %}){% endraw %}`.
+    * Non-public links are restricted to the 'How we operate' section and are manually whitelisted in the '.github/workflows/ignored-urls.txt' file.
+* **Lists:** be consistent with adding periods at the end of list items or not.
+* **Typos:** please correct any valid typos flagged by the spellchecker bot.
+
+### Bibliography
+* Websites can be linked in the text (e.g. [NFDI4Microbiota](https://nfdi4microbiota.de/)).
+* Journal articles can be referenced at the bottom of the page, as in a regular scientific journal. In order to reference an article:
+    * Add the reference to the `docs/_bibliography/references.bib` file in Bibtex format
+    * Cite the reference in the text using `{% raw %}{% cite <reference_name> %}{% endraw %}`
+
+### Other
+* Place image files in the `assets/img/` directory.
+
+*Note: if a pull request does not meet these criteria, the reviewer should either ask for a revision in line with the contribution guidelines or edit the content before merging the pull request.*
 
 
 ## Final step: add your name to the CONTRIBUTORS File
