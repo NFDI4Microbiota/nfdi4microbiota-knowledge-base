@@ -1,5 +1,5 @@
 ---
-title: Informed Consent
+title: Informed consent
 category: RDM-Collect
 layout: default
 docs_css: markdown

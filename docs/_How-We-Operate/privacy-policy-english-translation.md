@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Privacy policy
 category: How-We-Operate
 layout: default
 docs_css: markdown

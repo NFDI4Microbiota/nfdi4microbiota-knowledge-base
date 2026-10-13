@@ -36,7 +36,7 @@ DMPs typically include the following information:
 
 To find a TDR, see the [Data Repositories page of the Knowledge Base]({% link _RDM-Share/data-repositories.md %}).
 
-## DMP Templates and Examples
+## DMP templates and examples
 
 ---
 
@@ -74,7 +74,7 @@ DMPs offer **other benefits**, such as enabling verification and control: resear
 
 **DMP quality check:** A good DMP is well structured and distinguishes between actions to be taken during and after the project. It is a living document that needs to be updated regularly and is for the use of all project stakeholders. It should be started as early as possible, be as concise as possible, as long as necessary, and contain sufficient detail without being redundant. Ideally, the DMP will be published with the research data at the end of the project.
 
-## DMP Tools
+## DMP tools
 
 ---
 
@@ -87,7 +87,7 @@ RDMO organizes individual DMPs around predefined templates that reflect the requ
 
 * **[DMPonline](https://dmponline.dcc.ac.uk/)** was developed by the [Digital Curation Center](https://www.dcc.ac.uk/) (DCC) for the UK funding context but has also been used elsewhere. It is an open-source, web-based tool for researchers. It enables the creation, review, and sharing of DMPs that meet institutional and funder requirements.
 
-## Further Resources
+## Further resources
 
 ---
 

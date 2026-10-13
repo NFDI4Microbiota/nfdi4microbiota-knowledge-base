@@ -1,5 +1,5 @@
 ---
-title: Policies and Guidelines on Managing Research Data
+title: Policies and guidelines on managing research data
 category: Research-Data-Management
 layout: default
 docs_css: markdown

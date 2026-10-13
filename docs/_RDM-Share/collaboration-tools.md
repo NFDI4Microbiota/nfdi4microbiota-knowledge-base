@@ -1,21 +1,21 @@
 ---
-title: Collaboration Tools
+title: Collaboration tools
 category: RDM-Share
 layout: default
 docs_css: markdown
 authors:
    - jvandendorpe
 ---
-## Types of Data That Can Be Shared
+## Types of data that can be shared
 * Primary / raw data
 * Microdata
 * Aggregate data
 * Metadata (e.g. semantic metadata, metadata about collections)
 
-## Collaboration Tools and Software
+## Collaboration tools and software
 ---
 
-### General-Purpose Collaboration Tools
+### General purpose collaboration tools
 * [B2DROP](https://eudat.eu/services/userdoc/b2drop)
 * Open Science Framework ([OSF](https://osf.io/)
 * [SciFlow](https://www.sciflow.net/en/)
@@ -26,10 +26,10 @@ authors:
 * [git-annex](https://git-annex.branchable.com/)
 * [DataLad](https://www.datalad.org/#what-is-datalad)
 
-### Discipline-Specific Collaboration Tools
+### Discipline specific collaboration tools
 * [FAIRDOM-SEEK](https://seek4science.org/)
 
-## Benefits of Sharing Your Research Data
+## Benefits of sharing your research data
 ---
 * Make your research transparent and thus increase trust in science.
 * Be the first of claiming an idea, providing data to support it and get feedback.

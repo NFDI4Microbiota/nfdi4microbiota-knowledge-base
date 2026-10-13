@@ -1,5 +1,5 @@
 ---
-title: Data Documentation
+title: Data documentation
 category: RDM-Process
 layout: default
 docs_css: markdown

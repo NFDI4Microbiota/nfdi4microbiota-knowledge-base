@@ -1,5 +1,5 @@
 ---
-title: Workflow Guidelines
+title: Workflow guidelines
 category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
@@ -12,7 +12,7 @@ authors:
 
 This page should give an overview of suggested standards for workflows. Not all points are applicable to, or reasonable for, all situations. Thus, the following suggestions should be taken as guidelines for good workflow practices, not strict requirements. In this context, we consider a workflow to be a pipeline of programs for data processing.
 
-## FAIR Data Principles for Research Data Management
+## FAIR data principles for Research Data Management
 ---
 In NFDI4Microbiota, we aim to follow the FAIR principles for data management (see [here]({% link _Research-Data-Management/fair.md %}) for more details).
 In essence, data should be Findable, Accessible, Interoperable, and Reusable.
@@ -57,7 +57,7 @@ Thus, a good workflow should:
 - Note the used parameters and tool versions as part of the output
 - Use and note seeds used for randomized steps in the pipeline (if possible)
 
-## Quality Control
+## Quality control
 ---
 A good workflow should consistently produce good results. For this reason, we propose the following quality control measures. Workflows should:
 
@@ -117,7 +117,7 @@ result:
 #### TIP
 Evaluate your own provenance with the scoring sheet {% cite klemm_2024 %}. These guidelines encompass critical aspects such as detailed documentation, version management, data handling, and validation practices.
 
-## Technical Requirements
+## Technical requirements
 ---
 Execution of workflows on Slurm based clusters is directly supported in the nextflow as well as snakemake workflow engines. However, for running smoothly, in particular on a larger scale, well designed workflow should follow the subsequent recommendations:
 

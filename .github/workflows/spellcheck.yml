@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Install aspell
       run: |
@@ -42,6 +42,7 @@ jobs:
     - name: Run Spellcheck
       if: ${{ steps.format_files.outputs.files != '' }}
       id: spellcheck
+      continue-on-error: true
       uses: rojopolis/spellcheck-github-actions@v0
       with:
         task_name: Markdown

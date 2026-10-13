@@ -1,5 +1,5 @@
 ---
-title: Metadata (Standards)
+title: Metadata (standards)
 category: Research-Data-Management
 layout: default
 docs_css: markdown
@@ -21,7 +21,7 @@ authors:
 
 (CC-BY - [cea +](https://www.flickr.com/people/33255628@N00), [Source](https://en.wikipedia.org/wiki/File:Metadata_is_a_love_note_to_the_future_(8071729256).jpg))
 
-## Metadata Is Data About Data
+## Metadata is data about data
 ---
 
 Before we delve into specifications on what metadata standards for the microbiology community are, let us explain what metadata is. 
@@ -30,44 +30,44 @@ In general, metadata provides us with information about other data but does not 
 
 In microbiology, metadata provides crucial contextual information about biological samples, aiding in the interpretation and reuse of experimental data. For instance, consider metadata associated with an RNA-Seq sample from a bacterial strain isolated from soil. The metadata could include details such as:
 
-1. **Strain Information:**
-   - **Strain Identifier:** JCM 14847
+1. **Strain information:**
+   - **Strain identifier:** JCM 14847
    - **Species:** *Pseudomonas aeruginosa*
    - **Source:** Soil sample collected from [Location], [Date]
-   - **Isolation Method:** Nutrient Agar plate streaking
+   - **Isolation method:** Nutrient Agar plate streaking
 
-2. **Sample Collection Information:**
-   - **Sample Identifier:** RNA-Seq_Sample_001
-   - **Collection Date:** [Date]
-   - **Sample Type:** Bacterial culture
-   - **Growth Medium:** LB broth
-   - **Growth Conditions:** Temperature, pH, and duration of incubation
-   - **Subculture History:** Number of passages, growth conditions
+2. **Sample collection information:**
+   - **Sample identifier:** RNA-Seq_Sample_001
+   - **Collection date:** [Date]
+   - **Sample type:** Bacterial culture
+   - **Growth medium:** LB broth
+   - **Growth conditions:** Temperature, pH, and duration of incubation
+   - **Subculture history:** Number of passages, growth conditions
 
-3. **Experimental Conditions:**
-   - **Treatment Conditions:** Control or experimental treatment
-   - **Treatment Duration:** Time exposed to treatment
+3. **Experimental conditions:**
+   - **Treatment conditions:** Control or experimental treatment
+   - **Treatment duration:** Time exposed to treatment
    - **Concentration:** Concentration of treatment agent
 
-4. **RNA-Seq Experimental Details:**
-   - **Library Preparation Method:** TruSeq Stranded mRNA Library Prep Kit
-   - **Sequencing Platform:** Illumina NovaSeq
-   - **Sequencing Depth:** Number of reads obtained
-   - **Quality Control Metrics:** RNA integrity number (RIN), sequencing quality scores
+4. **RNA-Seq experimental details:**
+   - **Library preparation method:** TruSeq Stranded mRNA Library Prep Kit
+   - **Sequencing platform:** Illumina NovaSeq
+   - **Sequencing depth:** Number of reads obtained
+   - **Quality control metrics:** RNA integrity number (RIN), sequencing quality scores
 
-5. **Bioinformatics Analysis Details:**
-   - **Read Alignment Algorithm:** HISAT2
-   - **Genome Reference:** *Pseudomonas aeruginosa* PAO1
-   - **Differential Expression Analysis:** Software used, statistical thresholds
-   - **Gene Annotation:** Functional databases used for annotation
+5. **Bioinformatics analysis details:**
+   - **Read alignment algorithm:** HISAT2
+   - **Genome reference:** *Pseudomonas aeruginosa* PAO1
+   - **Differential expression analysis:** Software used, statistical thresholds
+   - **Gene annotation:** Functional databases used for annotation
 
-6. **Ethical and Legal Considerations:**
-   - **Ethical Approval:** Institutional review board (IRB) approval number
-   - **Data Sharing Policy:** Conditions for data sharing, data access restrictions
+6. **Ethical and legal considerations:**
+   - **Ethical approval:** Institutional review board (IRB) approval number
+   - **Data sharing policy:** Conditions for data sharing, data access restrictions
 
 For more details on the distinction between different types of metadata,  we refer you to the FAIR Cookbook recipe [FAIR and the notion of metadata](https://w3id.org/faircookbook/FCB068) section.
 
-## When to Collect Your Metadata
+## When to collect your metadata
 ---
 As is usually the case in sciences, your research (and the wider microbiological community) can benefit highly from the rigorous and timely planning of your experiments, including metadata collection. In this case, we refer you to other subsections of this Knowledge Base: [**Data Management Plans (DMPs)**](./08-dmp.md) that could help you plan your experiments.
 
@@ -75,20 +75,20 @@ Metadata collection should be planned, but at the same time, it can be overwhelm
 
 These and other considerations should be thoroughly thought out before the start of your experimental procedures. Some of the metadata can even be collected and documented before starting the experiments if you already know how to collect your samples, process, sequence them (if sequencing is a part of the analysis), and analyze them. 
 
-## Metadata Collection Example
+## Metadata collection example
 ---
 We will look into an example of microbiological environmental metadata, where we gather samples from a forest environment, specifically plant rhizosphere, and we will be doing amplicon and metagenomic sequencing. We will not dive specifically into all omics types and biological/environmental on this page. Instead, we encourage readers to read our [MetadataStandards](https://github.com/NFDI4Microbiota/MetadataStandards) resource repository. 
 
 Our proposal for a sampling campaign to analyze plant-rhizosphere microbiomes was accepted. In the proposal, we outlined the purpose and goal of our campaign. Since our funding is public, our funding agency requires us to submit our generated and gathered data to a public repository (e.g. ENA, NCBI, DDBJ). To find where you can deposit your data, we refer our readers to the [Data Repositories](./data-repositories.md) section of this Knowledge Base. There we see that our nucleic acid sequences can be deposited in ENA.
 
-We immediately jump to [**ENA's Sample Checklist browser**](https://www.ebi.ac.uk/ena/browser/checklists) and find a checklist that best corresponds to our sampling campaign. After some scrolling, we discover the [GSC MIxS plant associated; Checklist: ERC000020](https://www.ebi.ac.uk/ena/browser/view/ERC000020), that list some of the **Mandatory** metadata fields that need to be filled out for data submission, along with their **Field Format** and **Field restriction** and **Optional** fields. The metadata fields correspond to technical metadata (e.g. sequencing method, sample volume or weight for DNA extraction, nucleic acid extraction, library size) along with some metadata fields corresponding to the biological and environmental metadata (e.g. broad-scale environmental context, local environmental context, environmental medium, geographic location (latitude) and geographic location (longitude), host metadata, sample collection metadata)
+We immediately jump to [**ENA's sample checklist browser**](https://www.ebi.ac.uk/ena/browser/checklists) and find a checklist that best corresponds to our sampling campaign. After some scrolling, we discover the [GSC MIxS plant associated; Checklist: ERC000020](https://www.ebi.ac.uk/ena/browser/view/ERC000020), that list some of the **Mandatory** metadata fields that need to be filled out for data submission, along with their **Field Format** and **Field restriction** and **optional** fields. The metadata fields correspond to technical metadata (e.g. sequencing method, sample volume or weight for DNA extraction, nucleic acid extraction, library size) along with some metadata fields corresponding to the biological and environmental metadata (e.g. broad-scale environmental context, local environmental context, environmental medium, geographic location (latitude) and geographic location (longitude), host metadata, sample collection metadata)
 
 Alternatively, we can hop over to the [MetadataStandards/Plant-associated microbiome biological-environmental metadata](https://github.com/NFDI4Microbiota/MetadataStandards/blob/main/Biological_Environmental/PlantAssoc_BioEnv_Metadata.md) where we can find a similar (but stripped down) checklist with some filed out examples for biological and environmental metadata. For the technical metadata corresponding to this example sampling campaign we would refer the reader to the [Amplicon sequencing](https://github.com/NFDI4Microbiota/MetadataStandards/blob/main/Technical/Amplicon_Technical_Metadata.md) and [Metagenome sequencing](https://github.com/NFDI4Microbiota/MetadataStandards/blob/main/Technical/Metagenome_Technical_Metadata.md) section of our [Technical MetadataStandards](https://github.com/NFDI4Microbiota/MetadataStandards/tree/main/Technical) part of repository.
 
 By now, we should have a rough estimation of what kind of biological/environmental metadata we can collect before sampling, during sampling, and what could be collected during the processing of samples. 
 
 
-# Metadata Standards
+# Metadata standards
 ---
 Once a community agrees to a set of relevant metadata for their field, they can devise metadata standards.
 A metadata standard is usually defined for a given type of data and by different stakeholders (e.g. users communities, data repositories).
@@ -98,7 +98,7 @@ For every metadata field part of a metadata standard, one could expect a human-r
 At NFDI4Microbiota, we compiled a [list of widely used metadata standards in the field of microbiome research](https://github.com/NFDI4Microbiota/MetadataStandards) that you can browse and use for the different types of data collected during your investigations {% cite Thompson_2020 %}.
 
 
-## Metadata Quality Control
+## Metadata quality control
 
 Metadata quality control involves thorough validation and standardization of metadata attributes to minimize errors and inconsistencies. For instance, in studies involving microbial sequencing data, rigorous checks are needed to verify the accuracy of sample identifiers, ensuring that each sample is uniquely identified and correctly linked to corresponding experimental conditions. Moreover, metadata completeness is essential to provide sufficient context for data interpretation and reuse. Researchers should meticulously document sample collection details, including the source organism, sampling location, and environmental conditions, to facilitate cross-study comparisons and meta-analyses. For example, in a microbiome study investigating the gut microbial composition in patients with inflammatory bowel disease, comprehensive metadata would encompass clinical metadata such as patient demographics, disease severity scores, and medication history, alongside microbial metadata like taxonomic profiles and sequencing protocols.
 

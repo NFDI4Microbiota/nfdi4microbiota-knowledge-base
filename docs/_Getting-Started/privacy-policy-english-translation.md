@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Privacy policy
 category: Getting-Started
 layout: default
 docs_css: markdown

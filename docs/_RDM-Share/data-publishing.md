@@ -1,5 +1,5 @@
 ---
-title: Data Publishing
+title: Data publishing
 category: RDM-Share
 layout: default
 docs_css: markdown

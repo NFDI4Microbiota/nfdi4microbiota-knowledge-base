@@ -1,5 +1,5 @@
 ---
-title: Data Standardization
+title: Data standardization
 category: RDM-Process
 layout: default
 docs_css: markdown

@@ -1,5 +1,5 @@
 ---
-title: Training Guidelines
+title: Training guidelines
 category: How-We-Operate
 layout: default
 docs_css: markdown
@@ -29,14 +29,14 @@ software or tools. We only mention certain software products to
 illustrate our points. We separate the guidelines along the timeline of
 before, during, and after the training.
 
-## Before the Training
+## Before the training
 
 ---
 
  A large part of the trainer’s work will already be done in preparation
 for any training event. Here, we list some points that should be considered when preparing to provide a well-received training event.
 
-### Choose the Right Format and the Right Tools
+### Choose the right format and the right tools
 Starting from your training goal, you need to decide what format will best help learners to
 attain the expertise you want to impart them with. How much **time** do
 you need to adequately teach the topics you intend to? For this question,
@@ -78,7 +78,7 @@ data should be easily downloadable in a reasonable amount of time.
 Create some form of documentation that the participants can follow
 during and after the course for reference.
 
-### Event Promotion
+### Event promotion
 In order for people to want to join your training
 event, they will need to know about it. Use what
 communication channels you have at your disposal to advertise the
@@ -102,7 +102,7 @@ but participants will need to know where the course is held, **online**
 or at which **on-site** location, and what **times/dates** the training
 will take place.
 
-### Get Help(ers)
+### Get help(ers)
 Most training formats work better when not being
 carried out by a single person. For example, one person may present the
 content while another helps struggling trainees with installing
@@ -116,7 +116,7 @@ In preparation for the training event, all trainers/helpers should meet
 and **discuss what each person’s role is** (in preparing the event and
 in carrying out the event).
 
-### Contact the Participants
+### Contact the participants
 About a week before the training event starts (depending on your
 format, possibly earlier), you might want to contact
 the registrants to remind them of your training event and
@@ -157,7 +157,7 @@ through a web browser. Ideally you would also give the participants a
 contact person who is able and willing to assist with software issues in
 preparation for the event.
 
-### Plan the Content/Structure
+### Plan the content/structure
 When preparing the content/structure of
 the training course/event, there are a few points you may want to
 consider. To not overwhelm the trainees, split the training into
@@ -192,7 +192,7 @@ everyone. A good introduction is given in “[Ten simple rules for making
 training materials
 FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)”.
 
-## During the Training
+## During the training
 
 ---
 
@@ -280,7 +280,7 @@ for a live demonstration of a command line tool, explain why you set the
 options/flags you did, and wait a second before pressing enter once the
 command is fully typed.
 
-### Hands-On Exercises
+### Hands-On exercises
 Depending on the format and topic of the training
 event, hands-on exercises are great for engaging the trainees and
 reinforcing their understanding of the material. You should aim to
@@ -329,7 +329,7 @@ anonymous and that the questions highlight points of improvement to
 enable you/the team to provide an even better experience the next time.
 
 
-## After the Training
+## After the training
 
 ---
 

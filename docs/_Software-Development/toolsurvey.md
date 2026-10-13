@@ -44,7 +44,7 @@ License: [Apache 2](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 Link: [https://clowm.bi.denbi.de](https://clowm.bi.denbi.de)
 
-### Eggnog mapper (EMBL) 
+### eggNOG-mapper (EMBL) 
 
 Fast genome-wide functional annotation through orthology assignment
 

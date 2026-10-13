@@ -1,5 +1,5 @@
 ---
-title: File Formats
+title: File formats
 category: RDM-Process
 layout: default
 docs_css: markdown

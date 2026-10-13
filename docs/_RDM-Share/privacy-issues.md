@@ -1,5 +1,5 @@
 ---
-title: Privacy Issues
+title: Privacy issues
 category: RDM-Share
 layout: default
 docs_css: markdown

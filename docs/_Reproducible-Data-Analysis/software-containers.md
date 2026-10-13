@@ -1,5 +1,5 @@
 ---
-title: Software Containers
+title: Software containers
 category: Reproducible-Data-Analysis
 layout: default
 docs_css: markdown
@@ -11,13 +11,13 @@ authors:
 Software containers, such as [Apptainer](https://apptainer.org/) (formerly known as Singularity) and [Docker](https://www.docker.com/) provide a way to encapsulate an application and its environment for consistent, portable, and reproducible execution across various computing environments.
 This is crucial for scientific research, ensuring that analyses remain consistent regardless of the underlying infrastructure.
 
-## Why Use Software Containers?
+## Why Use Software containers?
 ---
 - **Consistency and Reproducibility**: Containers ensure your analysis runs the same way, everywhere.
 - **Isolation**: Package your application with its dependencies to avoid conflicts.
 - **Portability**: Easily share your computational environment with others.
 
-## Getting Started with Containers
+## Getting started with containers
 ---
 Apptainer is a popular choice in scientific and high-performance computing (HPC) environments due to its ability to handle container privileges.
 It offers secure, user-friendly containerization, making it ideal for computational biology and bioinformatics.
@@ -31,7 +31,7 @@ For installation and quick start, always refer to the main documenation page fro
 [Docker Quick Start](https://docs.docker.com/guides/get-started/)
 
 
-## Example of Working with Containers
+## Example of working with containers
 ---
 
 ### Apptainer
@@ -50,44 +50,44 @@ Also this image has the database and dependencies included, so you can skip the 
 Similarly with Docker, the user can find an example of running BLAST [here](https://biocontainers-edu.readthedocs.io/en/latest/running_example.html)
 
 
-## Best Practices for Container Creation {best-practices}
+## Best practices for container creation {best-practices}
 ---
 When creating containers, incorporating best practices ensures efficiency, security, and reproducibility. Here's a concise guide, drawing from broader container best practices, including insights from [Google Cloud's recommendations](https://cloud.google.com/architecture/best-practices-for-building-containers):
 
-- **Use Specific Versions**: Specify exact versions of base images, software, and libraries, in order to avoid breaking changes occuring when updating with the `latest` tag and ensures consistency across environments.
+- **Use specific versions**: Specify exact versions of base images, software, and libraries, in order to avoid breaking changes occuring when updating with the `latest` tag and ensures consistency across environments.
 
-- **Minimize Layer Size**: Structure your definition file to combine related commands into single layers to reduce the container size which speeds up download and deployment.
+- **Minimize layer size**: Structure your definition file to combine related commands into single layers to reduce the container size which speeds up download and deployment.
 
-- **Clean Up**: Remove unnecessary packages and clear cache in the same layer where installations occur to minimize the container's footprint.
+- **Clean up**: Remove unnecessary packages and clear cache in the same layer where installations occur to minimize the container's footprint.
 
-- **Non-root User**: Run the container as a non-root user whenever possible, which enhances the security of the container, reducing the risk of privilege escalation attacks.
+- **Non-root user**: Run the container as a non-root user whenever possible, which enhances the security of the container, reducing the risk of privilege escalation attacks.
 
-- **Base Image Selection**: Choose a minimal base image that includes only the necessary packages and libraries for your application, to minimizes the attack surface and the container size.
+- **Base image selection**: Choose a minimal base image that includes only the necessary packages and libraries for your application, to minimizes the attack surface and the container size.
 
-- **Immutable Containers**: Treat containers as immutable.
+- **Immutable containers**: Treat containers as immutable.
 For updates or changes, build a new container image.
 This facilitates modularity and version control while ensuring reproducibility.
 
-- **Security Scanning**: Regularly scan your containers for vulnerabilities and apply patches as needed.
+- **Security scanning**: Regularly scan your containers for vulnerabilities and apply patches as needed.
 Keeping your containers updated is crucial for security.
 
-- **Efficient Data Management**: Store data and logs outside of containers to ensure persistence and scalability.
+- **Efficient data management**: Store data and logs outside of containers to ensure persistence and scalability.
 Use volumes or bind mounts for data that needs to persist beyond the life of the container.
 
 - **Documentation**: Include a `%help` section in your definition file, providing users with information on how to use the container, including running the software and accessing data.
 
 
-## Advanced Usage
+## Advanced usage
 ---
 ### Integration with [Nextflow](https://www.nextflow.io/docs/latest/container.html)
-- **Nextflow and Containers**: Simplifies complex workflows by executing each step in a container for consistency across environments.
+- **Nextflow and containers**: Simplifies complex workflows by executing each step in a container for consistency across environments.
 - **Configurations**: Supports managing containers through `nextflow.config`, streamlining execution.
 
 ### [Kubernetes](https://kubernetes.io/docs/home/) and Containers
-- **Container Orchestration**: Automates deployment, scaling, and management of containerized applications, essential for microservices architecture.
-- **Scalability and Management**: Provides tools for load balancing, auto-scaling, and efficient resource allocation across diverse infrastructures.
+- **Container orchestration**: Automates deployment, scaling, and management of containerized applications, essential for microservices architecture.
+- **Scalability and management**: Provides tools for load balancing, auto-scaling, and efficient resource allocation across diverse infrastructures.
 
-## Resources and Further Reading
+## Resources and further reading
 ---
 - [Apptainer User Guide](https://apptainer.org/docs/user/latest/introduction.html): Comprehensive documentation for getting started with Apptainer.
 - [BioContainers Community](https://biocontainers.pro/): A resource for finding and sharing containerized bioinformatics tools.
