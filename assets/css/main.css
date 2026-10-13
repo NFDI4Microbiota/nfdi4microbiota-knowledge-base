@@ -58,3 +58,6 @@ h5 {
 @media (min-width: 992px) {
     .bd-search { width: 420px; margin-left: -210px; }
 }
+@media (max-width: 991.98px) {
+    .suggestions { min-width: 0; left: 0; right: 0; }
+}
