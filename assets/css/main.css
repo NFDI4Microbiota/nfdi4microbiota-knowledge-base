@@ -54,3 +54,7 @@ h5 {
     height: 4ex;
     text-align: center;
     }
+
+@media (min-width: 992px) {
+    .bd-search { width: 420px; margin-left: -210px; }
+}
