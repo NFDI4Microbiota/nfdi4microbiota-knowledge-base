@@ -11,7 +11,8 @@ h5 {
 
 /* Search bar */
 .suggestions {
-    max-height: 300px;
+    max-height: 60vh;
+    min-width: min(26rem, 90vw);
     overflow-y: auto;
     z-index: 1000;
 }

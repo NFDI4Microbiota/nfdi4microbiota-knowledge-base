@@ -36,6 +36,11 @@ bootstrap:
 # Build settings
 exclude:
   - node_modules
+# Pagefind search index is generated into _site after the build; keep it across `jekyll serve` rebuilds
+keep_files:
+  - .git
+  - .svn
+  - pagefind
 remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
