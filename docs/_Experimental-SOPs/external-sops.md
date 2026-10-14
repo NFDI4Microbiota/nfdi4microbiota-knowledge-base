@@ -5,7 +5,9 @@ layout: default
 docs_css: markdown
 hide: false
 authors: 
-  - 
+  - mmagel
+  - mbole
+  - Jenny
 ---
 
 
@@ -18,7 +20,7 @@ The protocols from the International Human Microbiome Consortium [IHMS](https://
 
 Protocols from other sources, especially if provided by NFDI4Microbiota community members, have been successfully implemented and shared by individuals working in their given fields. 
 
-
+## List of SOPs
 
 |Category &nbsp;|Title &nbsp;&nbsp;&nbsp;&nbsp;|Original Provider &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Source Links|
 |---|---|---|---|
@@ -74,4 +76,19 @@ Protocols from other sources, especially if provided by NFDI4Microbiota communit
 |Sample Processing, DNA Extraction & Sequencing|Comparison of non-enzymatic bead beating devices on human stool samples for DNA isolation and subsequent 16S rRNA gene sequencing|CoSOP (Community Collection of Validation Experiments informing Preanalytic SOPs), Klaus Neuhaus|[/CoSOP/BeadBeater](https://protocols.io/workspaces/nfdi4microbiota)|
 |Sample Purification|Viral purification from bacterial culture|EMBL|[protocols.io](dx.doi.org/10.17504/protocols.io.e6nvwjq7wlmk/v1) ,  [NFDI4Microbiota SOP](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/viral-purification-from-bacterial-culture.html)|
 |Workflow|CoSOP: Community Collection of Validation Experiments informing Preanalytic SOPs for wetlab researchers and data analysis|NFDI4Microbiota Flex Funds Project, Lena M. Biehl, Klaus Neuhaus|[/CoSOP](https://protocols.io/workspaces/nfdi4microbiota)|
+{: .table .table-hover}
+
+---
+
+## List of SOPs with host-body site and environmental ontology tags
+
+When depositing data to public repositories, such as sequencing data to the ENA, you will notice that some metadata fields request or require [ontology terms]({% link _Research-Data-Management/ontologies.md %}) when providing host-body-site specific data or the sample provenance and environmental information. 
+
+In this list we tried to restructure the above table to give more context. Here is a preview, the [full table (last update: 2026-04) can be found as csv]({% link _Experimental-SOPs/2026-04_SOP-list-ontology-terms.csv %}).
+
+|Category|Title & Description|Provider|Primary Source Link|Ontology Tags|*Biological sample or Environmental medium/ env_medium|Host/ host_body_site|
+|---|---|---|---|---|---|---|
+|DNA Extraction|DNA Extraction Protocol|Earth Microbiome|[DNA Extraction Protocol](https://www.protocols.io/view/earth-microbiome-project-emp-high-throughput-htp-d-8epv5qqjv1bz/v1) |ENVO:environmental biome; Sample:soil/water; Host:environmental microbiome|soil [ENVO:00001998](http://purl.obolibrary.org/obo/ENVO_00001998)\| water [ENVO:00002006](http://purl.obolibrary.org/obo/ENVO_00002006) \| sediment [ENVO:00002007](http://purl.obolibrary.org/obo/ENVO_00002007)|biome [ENVO:00000428](http://purl.obolibrary.org/obo/ENVO_00000428)|
+|DNA Extraction|DNA extraction: Shortened Godon protocol with optional enzymatic lysis|[NFDI4Microbiota community member](https://knowledgebase.nfdi4microbiota.de/Experimental-SOPs/godon-dna-extraction.html)|[CRC1832 Gut-liver-axis SOP](https://www.crc1382.org/wp-content/uploads/2022/11/221019_DNA-extraction.pdf)|ENVO:fecal material; Host:Homo sapiens; Sample:stool; OBI:enzymatic lysis|Fecal material [ENVO:00002003](http://purl.obolibrary.org/obo/ENVO_00002003)|human; Homo sapiens [ncbitaxon:9606](http://purl.obolibrary.org/obo/NCBITaxon_9606)|
+|DNA Extraction|Standard operating procedure for fecal samples DNA Extraction, protocol H|International Human Microbiome Standards (IHMS)|[SOP 07](https://human-microbiome.org/index.php?id=Sop&num=007)|ENVO:fecal material; Host:Homo sapiens; Sample:stool|Fecal material [ENVO:00002003](http://purl.obolibrary.org/obo/ENVO_00002003)|human; Homo sapiens [ncbitaxon:9606](http://purl.obolibrary.org/obo/NCBITaxon_9606)|
 {: .table .table-hover}
