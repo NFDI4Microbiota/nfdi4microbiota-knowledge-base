@@ -10,8 +10,9 @@ authors:
 
 ## Why the FAIR data principles matter in microbiology
 
-Microbes exhibit remarkable versatility, thriving in environments as varied as the human body and extreme habitats like deep-sea vents. Their interactions within these diverse environments have significant implications for medicine, biotechnology, and agriculture. As microbiology research becomes increasingly data-driven, leveraging advanced multi-omics technologies, it holds great promise but also presents certain challenges.
-To fully leverage extensive (microbiological) data, it must be well-organized and carefully annotated. This involves adhering to best practices for data analysis, documenting data with comprehensive metadata, and ensuring it is shared in a way that ensures reusability and reproducibility. The FAIR principles—Findable, Accessible, Interoperable, and Reusable—offer a clear framework for effective data management, making data easier to use and share within the scientific community.
+Microbes exhibit remarkable versatility, thriving in environments as varied as the human body, plants and soils, and extreme habitats such as deep-sea vents. Microbes' interactions within these environments have significant implications for fields such as medicine, biotechnology and agriculture, to name just a few.
+
+As microbiology research becomes increasingly data-driven and leverages technologies such as advanced multi-omics, it holds great promise but also presents certain challenges. In order to fully leverage extensive microbial data, these data must be well-organized and carefully annotated. This involves adhering to best practices for documenting data with metadata, conducting data analysis, and ensuring that data are shared in ways that support reusability, reproducibility of results and research transparency. The FAIR (Findable, Accessible, Interoperable and Reusable) data principles offer guidelines for effective data management, with the aim of making data easier to discover and map within the scientific community.
 
 ## What are the FAIR data principles?
 ---
@@ -56,7 +57,27 @@ Data interoperability is the ability of a dataset to work with other datasets or
 
 ## Challenges in adopting the FAIR data principles in microbiology research
 ---
-Despite the advantages, some challenges exist in adopting FAIR principles in the field of microbiology. Researchers may encounter difficulties due to varying levels of awareness about data standards and where to deposit complex microbial data. Inconsistent reporting practices across the field can also pose challenges. Data sharing requirements (e.g. for journals, funding agencies) are not always comprehensive, sometimes focusing only on certain types of data, which can lead to variability in what is shared. The diversity of metadata, such as experimental and environmental conditions, can further complicate standardization efforts. Additionally, technical issues such as data quality and version management, combined with limited incentives for adherence to FAIR principles, may affect adoption {% cite huttenhower_2023 %}.
+Despite their benefits, some challenges remain in adopting the FAIR data principles in microbiology. These include varying levels of researcher awareness of data standards and data deposition practices, especially when it comes to complex and large microbial datasets. Additionally, inconsistent reporting practices across the field can pose challenges. Data-sharing requirements (e.g. from publishers and funding agencies) are not always comprehensive and sometimes focus on specific data types, which can lead to discrepancies in what is shared. The diversity of metadata requirements, including those relating to environmental and experimental conditions, can further complicate standardization efforts. Finally, technical challenges related to data quality control and version management, combined with limited incentives for adhering to the FAIR data principles, may hinder their adoption {% cite huttenhower_2023 %}.
+
+## 12 actionable ways to make your data FAIR
+---
+ 1. Write a Data Management Plan (DMP) using our [DMP template](https://doi.org/10.5281/zenodo.13628589).
+ 2. Learn how to document your data collection with eLabFTW by watching our [demo](https://doi.org/10.5446/68306) (and if you get excited - talk to our [Helpdesk](https://www.nfdi4microbiota.de/support/helpdesk/) regarding how to set it up)
+ 3. Purify viral particles from bacterial liquid culture using our protocol in our [protocols.io workspace](https://protocols.io/workspaces/nfdi4microbiota) or contribute more protocol to it to make it citable.
+ 4. Refer to cultivation media using [MediaDive](https://mediadive.dsmz.de/) in you next publication.
+ 5. Document your data early using microbiology's metadata standards and controlled vocabularies, which we compiled [here](https://github.com/NFDI4Microbiota/MetadataStandards).
+ 6. Analyse your data with end-to-end workflows using our workflow execution platform CloWM ([Cloud-based Workflow Manager](https://clowm.bi.denbi.de/login)).
+ 7. Save your raw data in original format and use acceptable file formats.
+    - FASTA (\*.fasta, .fas, .fa, .fna, .ffn, .faa, .mpfa, \*.frn) for nucleotide and protein sequences.
+    - FASTQ (\*.fq, \*.fastq) for raw biological sequence and its corresponding quality score.
+    - General Feature Format (GFF) (\*.gff, \*.gff3) for genes and other features of DNA, RNA and protein sequences.
+    - Sequence Alignment Map (SAM) (\*.sam) and Binary Alignement Map (BAM)  (\*. bam) for biological sequences aligned to a reference sequence.
+    - Variant Call Format (VCF) (\*.vcf) for gene sequence variations.
+ 8. Organise your data following our [lesson plan on data organisation](https://doi.org/10.4126/FRL01-006484175).
+ 9. Store your data and metadata files in our data orchestration engine [ARUNA](https://aruna-engine.org/).
+10. Submit final data files to a repository following the recommendations on the [Data repositories page](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html) of our Knowledge Base.
+11. Refer to your microbial strains using identifiers which you can find in our service [StrainInfo](https://straininfo.dsmz.de/about).
+12. Search for data in our central hub for virus resources [VirJenDB](https://virjendb.org/).
 
 ## Further resources
 ---
