@@ -76,12 +76,13 @@ Protocols from other sources, especially if provided by NFDI4Microbiota communit
 |Workflow|CoSOP: Community Collection of Validation Experiments informing Preanalytic SOPs for wetlab researchers and data analysis|NFDI4Microbiota Flex Funds Project, Lena M. Biehl, Klaus Neuhaus|[/CoSOP](https://protocols.io/workspaces/nfdi4microbiota)|
 {: .table .table-hover}
 
+---
 
 ## List of SOPs with host-body site and environmental ontology tags
 
-When depositing data to public repositories, such as sequencing data to the ENA, you will notice the phrase ontology terms or requests to provide host-body-site specific data or the sample provenance and environmental information. 
+When depositing data to public repositories, such as sequencing data to the ENA, you will notice that some metadata fields request or require [ontology terms]({% link _Research-Data-Management/ontologies.md %}) when providing host-body-site specific data or the sample provenance and environmental information. 
 
-In this list we tried to restructure the above table to give more context. Here is a preview, the full table (last update: 2026-04) can be found as csv.
+In this list we tried to restructure the above table to give more context. Here is a preview, the [full table (last update: 2026-04) can be found as csv]({% link _Experimental-SOPs/2026-04_SOP-list-ontology-terms.csv %}).
 
 |Category|Title & Description|Provider|Primary Source Link|Ontology Tags|*Biological sample or Environmental medium/ env_medium|Host/ host_body_site|
 |---|---|---|---|---|---|---|
