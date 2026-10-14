@@ -15,8 +15,12 @@ jobs:
     runs-on: faroe-self-hosted
 
     steps:
+      # Docker leaves root-owned files (e.g. vendor/bundle) that checkout can't delete
+      - name: Reclaim workspace ownership
+        run: sudo chown -R "$(id -u):$(id -g)" "$GITHUB_WORKSPACE"
+
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -33,9 +37,14 @@ jobs:
           fi
 
       - name: Build Jekyll site with Docker
+        # shortcut: pinned to the pre-2026-10 image (its entrypoint runs bundle install); moving to 4.4+ needs an explicit `bundle install && bundle exec jekyll build` and no /usr/local/bundle mount
         run: |
           docker run --rm -v $PWD:/srv/jekyll -v $PWD/vendor/bundle:/usr/local/bundle \
-            jekyll/jekyll:latest jekyll build -d _site
+            jekyll/jekyll:4.2.2 jekyll build -d _site
+
+      - name: Build search index with Pagefind
+        run: |
+          docker run --rm -v $PWD/_site:/site node:22-alpine npx -y pagefind@1.5.2 --site /site
 
       - name: Deploy to server
         run: |
@@ -44,6 +53,7 @@ jobs:
           sudo chown -R www-data:www-data $DEPLOY_PATH
 
       - name: Cleanup build artifacts
+        if: always()
         run: |
           sudo rm -rf $GITHUB_WORKSPACE/*
           docker system prune -f

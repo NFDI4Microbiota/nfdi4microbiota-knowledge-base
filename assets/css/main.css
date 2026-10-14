@@ -11,7 +11,8 @@ h5 {
 
 /* Search bar */
 .suggestions {
-    max-height: 300px;
+    max-height: 60vh;
+    min-width: min(26rem, 90vw);
     overflow-y: auto;
     z-index: 1000;
 }
@@ -53,3 +54,10 @@ h5 {
     height: 4ex;
     text-align: center;
     }
+
+@media (min-width: 992px) {
+    .bd-search { width: 420px; margin-left: -210px; }
+}
+@media (max-width: 991.98px) {
+    .suggestions { min-width: 0; left: 0; right: 0; }
+}

@@ -217,7 +217,7 @@
       {{ content }}
     {% else %}
 
-    <main class="bd-main order-1">
+    <main class="bd-main order-1"{% unless page.hide %} data-pagefind-body{% endunless %}>
 
 
         <!-- Edit button -->
@@ -229,7 +229,7 @@
             <h1 class="bd-title mb-0 text-center" id="content">{{ page.title }}</h1>
             <br>
             <hr>
-            <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+            <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between" data-pagefind-ignore>
                 <div class="mb-3 mb-md-0 d-flex "> <!-- flex-column justify-content-center-->
                     <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
                             href="https://github.com/NFDI4Microbiota/nfdi4microbiota-knowledge-base/blob/main/{{ git_url }}"
@@ -251,7 +251,7 @@
         <br>
         
         <!-- Div for navigation to the topic inside the current page -->
-        <div class="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary">
+        <div class="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary" data-pagefind-ignore>
             <button class="btn btn-link p-md-0 mb-2 mb-md-0 text-decoration-none bd-toc-toggle d-md-none"
                     type="button" data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false"
                     aria-controls="tocContents">
@@ -329,15 +329,22 @@
 <div class="position-fixed" aria-hidden="true"><input type="text" tabindex="-1"></div>
 
 <script src={{ '/assets/js/scroll.js' | relative_url }} type="text/javascript"></script>
-<script src={{ '/assets/js/simple-search.js' | relative_url }} type="text/javascript"></script>
-<script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input-docs'),
-      resultsContainer: document.getElementById('results-container-docs'),
-      searchResultTemplate: "<a href='{{ site.url }}{url}' class='list-group-item list-group-item-action'>{title}</a>",
-      json: "{{ '/search.json' | relative_url }}",
-      noResultsText: '<div class="list-group-item">No results found</div>'
-    })
+<script type="module">
+    // Index is generated after `jekyll build` by Pagefind (see Makefile / deploy workflows)
+    const input = document.getElementById('search-input-docs');
+    const results = document.getElementById('results-container-docs');
+    const pagefind = await import("{{ '/pagefind/pagefind.js' | relative_url }}");
+    await pagefind.options({ baseUrl: "{{ '/' | relative_url }}" });
+    input.addEventListener('input', async () => {
+        const query = input.value.trim();
+        if (!query) { results.innerHTML = ''; return; }
+        const search = await pagefind.debouncedSearch(query);
+        if (search === null) return; // superseded by a newer keystroke
+        const hits = await Promise.all(search.results.slice(0, 10).map(r => r.data()));
+        results.innerHTML = hits.length
+            ? hits.map(h => `<a href="${h.url}" class="list-group-item list-group-item-action"><strong>${h.meta.title}</strong><br><small>${h.excerpt}</small></a>`).join('')
+            : '<div class="list-group-item">No results found</div>';
+    });
 </script>
 
 <script>

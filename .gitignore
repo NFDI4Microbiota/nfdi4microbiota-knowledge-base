@@ -3,3 +3,4 @@ _site/
 Gemfile.lock
 .venv/
 __pychache__/
+.claude
