@@ -5,7 +5,9 @@ layout: default
 docs_css: markdown
 hide: false
 authors: 
-  - 
+  - mmagel
+  - mbole
+  - Jenny
 ---
 
 
