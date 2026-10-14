@@ -12,11 +12,14 @@ authors:
 
 Microbes exhibit remarkable versatility, thriving in environments as varied as the human body, plants and soils, and extreme habitats such as deep-sea vents. Microbes' interactions within these environments have significant implications for fields such as medicine, biotechnology and agriculture, to name just a few.
 
-As microbiology research becomes increasingly data-driven and leverages technologies such as advanced multi-omics, it holds great promise but also presents certain challenges. In order to fully leverage extensive microbial data, these data must be well-organized and carefully annotated. This involves adhering to best practices for documenting data with metadata, conducting data analysis, and ensuring that data are shared in ways that support reusability, reproducibility of results and research transparency. The FAIR (Findable, Accessible, Interoperable and Reusable) data principles offer guidelines for effective data management, with the aim of making data easier to discover and map within the scientific community.
+As microbiology research becomes increasingly data-driven and leverages technologies such as advanced multi-omics, it holds great promise but also presents certain challenges. In order to fully leverage extensive microbial data, these data must be well-organized and carefully annotated. This involves adhering to best practices for documenting data with metadata, conducting data analysis, and ensuring that data are shared in ways that support reusability, reproducibility of results and research transparency. The FAIR data principles (Findability, Accessibility, Interoperability, Reusability) offer guidelines for effective data management, with the aim of making data easier to discover and map within the scientific community.
 
 ## What are the FAIR data principles?
 ---
-The FAIR data principles are a concise and measurable set of principles that may act as a guideline for those wishing to enhance the reusability of their data holdings. FAIR stands for Findable, Accessible, Interoperable and Reusable {% cite wilkinson_2016  %}. The FAIR data principles aims at {% cite wilkinson_2016 lowenberg_2021 %}:
+The FAIR data principles are a concise and measurable set of principles that can serve as guidelines for those wishing to enhance the reusability of their data holdings {% cite wilkinson_2016 %}. Wilkinson _et al._ developed these principles to improve data mapping (i.e. the process of matching fields between datasets), particularly for data from classical experiments stored in specialised repositories. Their work also aimed to enhance data discovery by enabling targeted and effective searches for reusable data. Finally, they sought to ensure that datasets clearly indicate whether they can be downloaded for reuse and, if so, under what conditions. The FAIR data principles thus benefit researchers by making it easier to reuse datasets (or parts of datasets) and integrate them into new datasets {% cite https://doi.org/10.5281/zenodo.15797347 %}.
+
+
+The FAIR data principles aims at {% cite wilkinson_2016 lowenberg_2021 %}:
 
 * Improving the infrastructure supporting the reuse of scholarly data.
 * Enhancing the ability of machines to automatically find and use data.
